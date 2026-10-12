@@ -1,0 +1,118 @@
+{
+  "source_video": "A3_ch14_20260822105146_20260822110347.mp4",
+  "source_interval_s": [
+    150,
+    210
+  ],
+  "source_fps": 25,
+  "source_frames_processed": 1500,
+  "kaggle_notebooks": {
+    "baseline": {
+      "notebook": "hayyanfaisal/fyp-cctv-vehicle-tracking-baseline",
+      "snapshot_version": 1,
+      "output_pattern": "baseline/.*"
+    },
+    "geometry": {
+      "notebook": "hayyanfaisal/fyp-cctv-automatic-vehicle-geometry",
+      "snapshot_version": 2,
+      "output_pattern": "geometry/.*"
+    },
+    "speed": {
+      "notebook": "hayyanfaisal/fyp-cctv-experimental-speed-estimation",
+      "snapshot_version": 2,
+      "output_pattern": "speed_experiment/.*"
+    }
+  },
+  "source_video_included": false,
+  "model_weights_included": false,
+  "accuracy_validated": false,
+  "qualified_track_ids": [
+    1,
+    115,
+    147,
+    175
+  ],
+  "range_interpretation": "Dimension-prior and calibration-track sensitivity; not a confidence interval or complete error bound.",
+  "model_revision": "2701a2eec9a73afb5ffd852740d125dfcd065ce5",
+  "model_sha256": "9aa55280a5ef1c9d89c0acb5baeb974b90fbdf3c1deead1413b24d7af249226d",
+  "checks": {
+    "synthetic_geometry_and_motion": "passed",
+    "notebook_schema_and_syntax": "passed",
+    "packaged_local_vs_saved_kaggle_max_nominal_difference_kmh": 1.720011368888663e-07,
+    "packaged_video_renderer": "passed: 1500 frames, 25 FPS, 60 seconds, 159 labelled frames"
+  },
+  "files": {
+    "birdseye_trajectories.jpg": {
+      "bytes": 144308,
+      "sha256": "1541578630e38c8171e6f0da07925f9acea187635ddd220062b4e5cba7c30e13"
+    },
+    "calibration.json": {
+      "bytes": 12042,
+      "sha256": "737848aeb431730ef602c32a973636937fe5ef2b8e181b17f48c84ab150b91b5"
+    },
+    "experimental_speed_preview.mp4": {
+      "bytes": 9861637,
+      "sha256": "3627e43caa00f5a57f6a5a6fddce54bb12b3bd4359aa101f4310ad3e09a74c6c"
+    },
+    "experimental_speeds.csv": {
+      "bytes": 2142,
+      "sha256": "4eec315afbf9d08c95222da79d77514b3454384d49c992883bbf82a5e88f85f2"
+    },
+    "filtered_ground_footprints.json": {
+      "bytes": 22520,
+      "sha256": "041640b972e3b27e9ea6e4d8d7778be7c52864b446394392dbe9afc55825752b"
+    },
+    "inputs/geometry/geometry_run_report.json": {
+      "bytes": 983,
+      "sha256": "59e899f70778165959d05655b0518897d78b0975720b0fd97e366c45403133cc"
+    },
+    "inputs/geometry/observations.json": {
+      "bytes": 161493,
+      "sha256": "2adcb4f38d0af55708fc1865973eab3c290bae9b13f9b3ae587637e0fbf71722"
+    },
+    "inputs/tracking/run_report.json": {
+      "bytes": 1339,
+      "sha256": "5724cefb9f104df3071d92095af5bf0a2189175208b4da0becfe8893c9dc4b29"
+    },
+    "inputs/tracking/track_summary.csv": {
+      "bytes": 8372,
+      "sha256": "811d953dc8e4ea7ec56205a1c3842445fbc6b3f2d575973ed7d7fe84bb420d58"
+    },
+    "inputs/tracking/tracks.csv": {
+      "bytes": 826824,
+      "sha256": "f0d4c1b5473f3f54644646d520aaf9c4bb69fd768d78d5e79fce32a5f9db76db"
+    },
+    "qualified_experimental_speeds.csv": {
+      "bytes": 1136,
+      "sha256": "0aec9d921b5d66144a5d49dbce65e5eaca7ae0b0431eb88d50dadd5c6265c023"
+    },
+    "README.md": {
+      "bytes": 3319,
+      "sha256": "62f066c6db628379ac58a8c25945fb5f83282052457ae28f1498eada973a5972"
+    },
+    "render_report.json": {
+      "bytes": 221,
+      "sha256": "5b83eb967bb023095e92530940522487d0792e193dcf05ed7e2e615e8e59138d"
+    },
+    "road_mapping.jpg": {
+      "bytes": 1505038,
+      "sha256": "0f64af1c62ba3e5e6c191a9c1ee23f9e6ba250c60d653b9fa95b13b463fb585f"
+    },
+    "speed_example.jpg": {
+      "bytes": 423724,
+      "sha256": "ab6f452f5a8ab9cab93a7fd99db10cf2d14b77a07fe21781f5b4468a2b4c3b21"
+    },
+    "speed_run_report.json": {
+      "bytes": 1393,
+      "sha256": "0b8548592f799a03e4bd05ff52f8ad4df55f1e48322ff1e48196d70f5d7d0aec"
+    },
+    "speed_sensitivity.jpg": {
+      "bytes": 64514,
+      "sha256": "0dde0bb38cbc73adc6ab7d16dd24946fca4a7461bcf1c5e797392e5fc1c253b9"
+    },
+    "vehicle_speed_estimates.json": {
+      "bytes": 1671,
+      "sha256": "3ef58368d9e4c11d479b2bce9d88da0107579b5ab804cfdc6cd2644aa05888d9"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "hayyanfaisal/fyp-cctv-automatic-vehicle-geometry",
+  "title": "FYP CCTV Automatic Vehicle Geometry",
+  "code_file": "extract_geometry.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": ["hayyanfaisal/fyp-cctv-a3-ch14-speed-estimation"],
+  "kernel_sources": ["hayyanfaisal/fyp-cctv-vehicle-tracking-baseline"],
+  "competition_sources": []
+}

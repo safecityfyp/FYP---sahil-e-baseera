@@ -1,0 +1,66 @@
+[
+  {
+    "track_id": 115,
+    "carriageway": "left",
+    "time_interval_s": [
+      172.8,
+      174.4
+    ],
+    "experimental_kmh": 27.436262313990152,
+    "sensitivity_range_kmh": [
+      18.177844693801205,
+      31.64450308186542
+    ],
+    "range_type": "dimension_and_calibration_sensitivity",
+    "accuracy_validated": false,
+    "method": "learned_3d_ground_footprints_with_assumed_vehicle_dimensions"
+  },
+  {
+    "track_id": 147,
+    "carriageway": "left",
+    "time_interval_s": [
+      177.20000000000002,
+      178.6
+    ],
+    "experimental_kmh": 40.13320924716496,
+    "sensitivity_range_kmh": [
+      28.212577523825047,
+      46.16163418262448
+    ],
+    "range_type": "dimension_and_calibration_sensitivity",
+    "accuracy_validated": false,
+    "method": "learned_3d_ground_footprints_with_assumed_vehicle_dimensions"
+  },
+  {
+    "track_id": 175,
+    "carriageway": "left",
+    "time_interval_s": [
+      184.4,
+      185.8
+    ],
+    "experimental_kmh": 48.62339514408656,
+    "sensitivity_range_kmh": [
+      34.608138892745046,
+      55.9081612915294
+    ],
+    "range_type": "dimension_and_calibration_sensitivity",
+    "accuracy_validated": false,
+    "method": "learned_3d_ground_footprints_with_assumed_vehicle_dimensions"
+  },
+  {
+    "track_id": 1,
+    "carriageway": "right",
+    "time_interval_s": [
+      150.0,
+      151.8
+    ],
+    "experimental_kmh": 19.407837372382055,
+    "sensitivity_range_kmh": [
+      13.762306808640647,
+      22.52998556772395
+    ],
+    "range_type": "dimension_and_calibration_sensitivity",
+    "accuracy_validated": false,
+    "method": "learned_3d_ground_footprints_with_assumed_vehicle_dimensions"
+  }
+]

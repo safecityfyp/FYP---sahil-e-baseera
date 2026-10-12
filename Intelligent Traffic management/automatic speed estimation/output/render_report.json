@@ -1,0 +1,13 @@
+{
+  "preview_file": "experimental_speed_preview.mp4",
+  "frames": 1500,
+  "fps": 25.0,
+  "duration_s": 60.0,
+  "frames_with_experimental_speed_labels": 159,
+  "accepted_track_ids": [
+    115,
+    147,
+    175,
+    1
+  ]
+}

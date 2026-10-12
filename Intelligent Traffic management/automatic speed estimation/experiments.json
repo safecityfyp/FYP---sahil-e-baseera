@@ -1,0 +1,20 @@
+{
+  "dataset": "hayyanfaisal/fyp-cctv-a3-ch14-speed-estimation",
+  "experiments": {
+    "baseline": {
+      "notebook": "hayyanfaisal/fyp-cctv-vehicle-tracking-baseline",
+      "snapshot_version": 1,
+      "output_pattern": "baseline/.*"
+    },
+    "geometry": {
+      "notebook": "hayyanfaisal/fyp-cctv-automatic-vehicle-geometry",
+      "snapshot_version": 2,
+      "output_pattern": "geometry/.*"
+    },
+    "speed": {
+      "notebook": "hayyanfaisal/fyp-cctv-experimental-speed-estimation",
+      "snapshot_version": 2,
+      "output_pattern": "speed_experiment/.*"
+    }
+  }
+}

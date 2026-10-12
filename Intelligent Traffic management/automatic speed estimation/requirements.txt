@@ -1,0 +1,7 @@
+# Local CPU calibration, rendering, synthetic checks and notebook validation.
+# Tested with Python 3.13. GPU inference dependencies are installed inside the notebooks.
+numpy==2.5.2
+scipy==1.17.1
+opencv-python==5.0.0.93
+matplotlib==3.10.9
+nbformat==5.11.1
