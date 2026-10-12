@@ -1,0 +1,15 @@
+{
+  "id": "hayyanfaisal/fyp-cctv-camera-calibration-workflow",
+  "title": "FYP CCTV Camera Calibration Workflow",
+  "code_file": "automatic_workflow.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "hayyanfaisal/fyp-cctv-a3-ch14-speed-estimation"
+  ],
+  "kernel_sources": [],
+  "competition_sources": []
+}

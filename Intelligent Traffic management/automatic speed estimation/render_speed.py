@@ -61,12 +61,14 @@ def main():
         raise SystemExit(f'Cannot open source video: {source}')
     fps=capture.get(cv2.CAP_PROP_FPS)
     width=int(capture.get(cv2.CAP_PROP_FRAME_WIDTH));height=int(capture.get(cv2.CAP_PROP_FRAME_HEIGHT))
-    capture.set(cv2.CAP_PROP_POS_FRAMES,round(177*fps));ok,reference=capture.read();assert ok
+    start_s=float(os.environ.get('FYP_START_S',150))
+    duration_s=float(os.environ.get('FYP_DURATION_S',60))
+    capture.set(cv2.CAP_PROP_POS_FRAMES,round((start_s+duration_s*0.45)*fps));ok,reference=capture.read();assert ok
     draw_grid(reference,calibration,footprints)
     cv2.putText(reference,'EXPERIMENTAL local mapping | 5 m grid under assumed car dimensions',
                 (35,55),cv2.FONT_HERSHEY_SIMPLEX,1.05,(0,255,255),2)
     cv2.imwrite(str(OUT/'road_mapping.jpg'),reference)
-    start,end=round(150*fps),round(210*fps)
+    start,end=round(start_s*fps),round((start_s+duration_s)*fps)
     capture.set(cv2.CAP_PROP_POS_FRAMES,start)
     raw=OUT/'experimental_speed_preview.avi'
     writer=cv2.VideoWriter(str(raw),cv2.VideoWriter_fourcc(*'MJPG'),fps,(1280,720));assert writer.isOpened()

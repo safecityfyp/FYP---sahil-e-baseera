@@ -8,8 +8,9 @@
 # for Urban Scenes, CVPR Workshops 2026, pp. 786–795.
 
 # %%
-import subprocess, sys
-subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-q', 'ultralytics==8.4.175'])
+import subprocess, sys, os
+if os.environ.get('FYP_SKIP_INSTALL') != '1':
+    subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-q', 'ultralytics==8.4.175'])
 
 # %%
 from pathlib import Path
@@ -23,22 +24,27 @@ from ultralytics import YOLO
 from IPython.display import display
 import matplotlib.pyplot as plt
 
-OUT = Path('/kaggle/working/geometry')
-OUT.mkdir(exist_ok=True)
-SOURCE = list(Path('/kaggle/input').rglob('A3_ch14_20260822105146_20260822110347.mp4'))
-TRACKS = list(Path('/kaggle/input').rglob('tracks.csv'))
+OUT = Path(os.environ.get('FYP_GEOMETRY_OUTPUT', '/kaggle/working/geometry'))
+OUT.mkdir(parents=True, exist_ok=True)
+SOURCE = [Path(os.environ['FYP_SPEED_SOURCE'])] if os.environ.get('FYP_SPEED_SOURCE') else list(Path('/kaggle/input').rglob('A3_ch14_20260822105146_20260822110347.mp4'))
+TRACKS = [Path(os.environ['FYP_TRACKS_CSV'])] if os.environ.get('FYP_TRACKS_CSV') else list(Path('/kaggle/input').rglob('tracks.csv'))
 assert len(SOURCE)==1 and len(TRACKS)==1, (SOURCE,TRACKS)
 SOURCE, TRACKS = SOURCE[0], TRACKS[0]
 REPO='mehmetkeremturkcan/UrbanOmniDetect'
 REVISION='2701a2eec9a73afb5ffd852740d125dfcd065ce5'
 FILENAME='checkpoints/urbanomnidetect_yolo11x-p2_1920.pt'
-weights=Path('/kaggle/working/urban_vehicle_geometry.pt')
-urllib.request.urlretrieve(f'https://huggingface.co/{REPO}/resolve/{REVISION}/{FILENAME}',weights)
+weights=Path(os.environ.get('FYP_MODELS_DIR', '/kaggle/working'))/'urban_vehicle_geometry.pt'
+weights.parent.mkdir(parents=True, exist_ok=True)
+EXPECTED_SHA='9aa55280a5ef1c9d89c0acb5baeb974b90fbdf3c1deead1413b24d7af249226d'
+if not weights.exists() or hashlib.sha256(weights.read_bytes()).hexdigest()!=EXPECTED_SHA:
+    urllib.request.urlretrieve(f'https://huggingface.co/{REPO}/resolve/{REVISION}/{FILENAME}',weights)
 weight_sha=hashlib.sha256(weights.read_bytes()).hexdigest()
+assert weight_sha==EXPECTED_SHA,'Unexpected geometry checkpoint checksum'
 model=YOLO(str(weights))
 car_classes=[int(k) for k,v in model.names.items() if v.lower()=='car']
 assert car_classes,'Model has no car class'
-device=0 if torch.cuda.is_available() else 'cpu'
+device=os.environ.get('FYP_DEVICE') or (0 if torch.cuda.is_available() else 'cpu')
+if str(device).isdigit(): device=int(device)
 print('Model:',REPO,REVISION,'Names:',model.names,'Device:',device)
 df=pd.read_csv(TRACKS).dropna(subset=['track_id'])
 df['track_id']=df.track_id.astype(int)
@@ -51,7 +57,9 @@ df=df[(df.frame_index%5==0)&(df.confidence>=0.3)&((df.y2-df.y1)>=60)]
 by_frame={int(n):g for n,g in df.groupby('frame_index')}
 cap=cv2.VideoCapture(str(SOURCE));assert cap.isOpened()
 fps=cap.get(cv2.CAP_PROP_FPS);width=int(cap.get(cv2.CAP_PROP_FRAME_WIDTH));height=int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-start,end=round(150*fps),round(210*fps)
+start_s=float(os.environ.get('FYP_START_S',150))
+duration_s=float(os.environ.get('FYP_DURATION_S',60))
+start,end=round(start_s*fps),round((start_s+duration_s)*fps)
 cap.set(cv2.CAP_PROP_POS_FRAMES,start)
 records=[];samples=[];total_predictions=0;frames_processed=0
 start_wall=time.monotonic()
@@ -109,6 +117,7 @@ if records:
     agreement=float(max(vote.mean(),1-vote.mean()))
 else:ground_indices=[];agreement=0
 report={'model_repo':REPO,'model_revision':REVISION,'model_filename':FILENAME,
+    'source_video':SOURCE.name,'start_s':start_s,'duration_s':duration_s,
     'model_sha256':weight_sha,'model_names':model.names,'ground_indices':ground_indices,
     'ground_order_vote_agreement':agreement,'width':width,'height':height,'fps':fps,
     'inference_frames':frames_processed,'all_geometry_predictions':total_predictions,

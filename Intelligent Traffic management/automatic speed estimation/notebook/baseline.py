@@ -8,8 +8,10 @@
 # %%
 import subprocess
 import sys
-subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-q',
-                       'ultralytics==8.4.175', 'lap>=0.5.12'])
+import os
+if os.environ.get('FYP_SKIP_INSTALL') != '1':
+    subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-q',
+                           'ultralytics==8.4.175', 'lap>=0.5.12'])
 
 # %%
 from pathlib import Path
@@ -26,14 +28,17 @@ import torch
 from ultralytics import YOLO
 from IPython.display import display, Video
 
-OUT = Path('/kaggle/working/baseline')
+OUT = Path(os.environ.get('FYP_TRACKING_OUTPUT', '/kaggle/working/baseline'))
 OUT.mkdir(parents=True, exist_ok=True)
 VIDEO_NAME = 'A3_ch14_20260822105146_20260822110347.mp4'
-matches = list(Path('/kaggle/input').rglob(VIDEO_NAME))
+matches = [Path(os.environ['FYP_SPEED_SOURCE'])] if os.environ.get('FYP_SPEED_SOURCE') else list(Path('/kaggle/input').rglob(VIDEO_NAME))
 assert len(matches) == 1, f'Expected exactly one source video; found {len(matches)}'
 SOURCE = matches[0]
-START_S, DURATION_S = 150.0, 60.0
-DEVICE = 0 if torch.cuda.is_available() else 'cpu'
+VIDEO_NAME = SOURCE.name
+START_S = float(os.environ.get('FYP_START_S', 150))
+DURATION_S = float(os.environ.get('FYP_DURATION_S', 60))
+DEVICE = os.environ.get('FYP_DEVICE') or (0 if torch.cuda.is_available() else 'cpu')
+if str(DEVICE).isdigit(): DEVICE = int(DEVICE)
 print('Source:', SOURCE)
 print('GPU:', torch.cuda.get_device_name(0) if DEVICE == 0 else 'CPU fallback')
 print('Experiment interval:', START_S, 'to', START_S + DURATION_S, 'seconds')
@@ -66,7 +71,9 @@ track_buffer: 30
 match_thresh: 0.8
 fuse_score: True
 ''', encoding='utf-8')
-model = YOLO('yolo11s.pt')
+model_dir = Path(os.environ.get('FYP_MODELS_DIR', '/kaggle/working'))
+model_dir.mkdir(parents=True, exist_ok=True)
+model = YOLO(str(model_dir / 'yolo11s.pt'))
 # ByteTrack's frame-rate-aware constructor uses 30 FPS by default in Ultralytics.
 # Rescale its buffer to retain approximately one second of missed tracks at 25 FPS.
 tracker_config.write_text(tracker_config.read_text().replace('track_buffer: 30',

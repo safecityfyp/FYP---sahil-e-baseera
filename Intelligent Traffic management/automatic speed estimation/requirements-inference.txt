@@ -1,0 +1,6 @@
+# Optional local inference when this exact video/interval has no verified saved model outputs.
+-r requirements.txt
+ultralytics==8.4.175
+lap>=0.5.12
+pandas
+ipython

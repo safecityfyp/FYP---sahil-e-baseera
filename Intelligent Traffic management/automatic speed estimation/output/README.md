@@ -2,6 +2,8 @@
 
 This folder is the committed snapshot of the completed Kaggle experiment: source-video seconds **150–210**, **25 FPS**, 1,500 frames. Tracking notebook v1, geometry v2 and CPU speed v2 produced these artifacts. See [the feature README](../README.md) for reproduction and limitations.
 
+The [automatic-workflow verification records](workflow_demo/README.md) demonstrate calibration creation when missing and reuse on the next run. The main gallery below preserves the original reviewed experiment.
+
 **All speeds are provisional. Real speed accuracy is unvalidated. Ranges are dimension-and-fit sensitivity envelopes, not confidence intervals.** Four of eight candidate spans passed internal consistency screening; the full 12-minute video has not been processed for speeds.
 
 [Open/download the 60-second H.264 preview](experimental_speed_preview.mp4) (1280 × 720, approximately 9.9 MB). Yellow labels show qualifying experimental speeds during their accepted spans; grey boxes have no accepted speed.

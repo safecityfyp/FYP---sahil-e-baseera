@@ -2,6 +2,8 @@
 
 The pipeline now produces provisional speeds from learned 3D vehicle footprints, with a separate local road mapping for each carriageway. It uses no manually clicked calibration points or measured road lengths. It does use explicit approximate vehicle-size priors and image-region filters for this camera.
 
+The [automatic workflow](README.md#automatic-workflow) now checks for a saved calibration for the camera view, fits it only when missing or invalid, then calculates speeds. The original experiment below remains the saved baseline result; [workflow verification records](output/workflow_demo/README.md) document the subsequent cache and orchestration checks.
+
 ## Results on the same one-minute clip
 
 The larger UrbanOmniDetect model processed 197 selected video frames on a Tesla T4, matched 224 geometry observations to 12 existing tracker IDs, and took 109.6 seconds for geometry extraction. The mapping stage retained 93 qualifying footprints. Eight track spans had enough geometry for an experimental speed calculation; four passed the geometry and temporal consistency screens.

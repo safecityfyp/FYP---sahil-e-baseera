@@ -1,0 +1,14 @@
+{
+  "cold_cache_fitted": true,
+  "warm_cache_skipped_fitting": true,
+  "qualified_results_identical": true,
+  "qualified_track_ids": [
+    1,
+    115,
+    147,
+    175
+  ],
+  "inference": "Reused hash-verified saved outputs for the original video and interval.",
+  "accuracy_validated": false,
+  "behavioral_tests_passed": 7
+}

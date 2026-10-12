@@ -15,7 +15,7 @@ def main():
         raise SystemExit(subprocess.call([sys.executable, '-X', 'utf8', *sys.argv]))
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('action', choices=['status', 'download'], nargs='?', default='status')
-    parser.add_argument('--experiment', choices=['baseline', 'geometry', 'speed'], default='baseline')
+    parser.add_argument('--experiment', choices=['baseline', 'geometry', 'speed', 'workflow'], default='baseline')
     args = parser.parse_args()
     from kaggle.api.kaggle_api_extended import KaggleApi
 

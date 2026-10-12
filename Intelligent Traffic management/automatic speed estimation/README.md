@@ -2,9 +2,36 @@
 
 Feature branch: `feature/automatic-speed-estimation`
 
-This FYP prototype detects and tracks vehicles, predicts passenger-car ground footprints, estimates a separate local road mapping for each carriageway, and calculates provisional speeds from mapped motion over time. It uses vehicle geometry to avoid manually clicking road calibration points. Approximate car dimensions supply the physical scale; camera-specific filters still restrict the usable road region.
+This FYP prototype first checks whether this camera view has usable saved calibration. It reuses that mapping when valid; otherwise it obtains vehicle geometry and fits a local road mapping. It then calculates provisional speeds from tracked ground motion. Approximate car dimensions supply the physical scale; camera-specific filters restrict the usable road region.
 
 **Status: experimental inference prototype. Real-world speed accuracy has not been validated.** The displayed ranges show sensitivity to assumed dimensions and calibration-track selection; they are not confidence intervals or guaranteed error bounds.
+
+## Automatic workflow
+
+Run one command from this feature folder:
+
+```powershell
+python -m pip install -r requirements.txt
+python workflow.py --video 'C:\path\to\A3_ch14_20260822105146_20260822110347.mp4' --camera-id A3-CH14
+```
+
+The default interval is 150–210 seconds. Use `--start` and `--duration` for another interval. The workflow performs these steps:
+
+1. Read the video and compare five sampled views. If movement or insufficient visual evidence makes the camera view uncertain within the interval, stop without reporting speeds.
+2. Look up this camera ID's calibration. Check resolution, model and calculation settings, file integrity, and visual alignment to the saved camera reference.
+3. Obtain tracking and vehicle ground positions for this video interval. Exact matching saved inference outputs are reused after checking the source SHA-256, interval, configuration and artifact hashes. Otherwise the detection/tracking and vehicle-geometry models run automatically.
+4. If the calibration check missed, fit and save new local road mappings. If it hit, skip calibration fitting and reuse the saved mappings.
+5. Calculate experimental speeds inside the calibrated road support, apply consistency screens, and save the tables, reports, charts and annotated video.
+
+Fresh video intervals still need vehicle positions even when the road mapping is cached. That geometry inference locates the vehicles; it does not refit the road calibration. Speed itself is calculated from mapped movement and elapsed time.
+
+The original 150–210 s experiment includes hash-verified inference inputs, so that exact footage can run on CPU without repeating GPU inference. For footage with no matching saved inputs, install `requirements-inference.txt` or use the [automatic GPU workflow notebook](workflow_notebook/automatic_workflow.ipynb). FFmpeg is required for rendering. Add `--no-render` to produce speed tables and workflow reports without video regeneration.
+
+Calibration persists under `outputs/calibration_cache/`; reusable inference inputs under `outputs/inference_cache/`; each invocation writes a new `outputs/runs/<run-id>/` folder. Its `workflow_report.json` records whether calibration and inference were reused, recalculated, or unavailable. `--work-dir` chooses another working directory, `--cache-dir` chooses persistent calibration storage, and `--recalibrate` forces a new fit.
+
+The visual check uses ORB features and robust alignment. Uncertain matches trigger a fresh calibration rather than reuse. Five samples cannot rule out brief camera movement between them. For new camera layouts, review the current left/right carriageway split and road-region filters; this prototype does not automatically reconstruct arbitrary roads. Poor calibration evidence produces an unavailable result, not a guessed speed. Camera angle and road length are represented through the projective mapping and assumed metric scale, not independently measured road dimensions.
+
+See the [workflow verification records](output/workflow_demo/README.md) for the tested calibration-missing and calibration-present paths.
 
 ## View the completed experiment
 
@@ -45,14 +72,20 @@ Intelligent Traffic management/
     README.md
     requirements.txt                 Local CPU dependencies
     requirements-kaggle.txt          Optional Kaggle client
+    requirements-inference.txt       Optional local model inference
+    workflow.py                     Automatic lookup, inference, calibration and speed entry point
+    camera_cache.py                 Camera-view checks and persistent calibration storage
+    workflow_notebook/              Single-entry GPU Kaggle workflow
     notebook/                       Stage 1 tracking notebook, source and metadata
     geometry_notebook/              Stage 2 vehicle-geometry notebook and source
     speed_notebook/                 Stage 3 CPU speed notebook and metadata
     calibrate_speed.py              Projective fitting, speed calculation and screening
     render_speed.py                 Road overlay, charts and annotated video
     test_calibration_math.py         Synthetic checks with known geometry and speed
+    test_workflow.py                 Cache reuse, invalidation and failure behavior checks
     build_notebook.py               Convert percent-cell Python to a notebook
     prepare_speed_notebook.py       Embed current calibration/renderer in stage 3
+    build_workflow_notebook.py       Package the automatic workflow for Kaggle
     manage.py                       Kaggle status and output download
     experiments.json                Non-secret notebook references and snapshot versions
     calibration_review.md           Results, assumptions and limitations
@@ -83,7 +116,7 @@ $env:FYP_SPEED_SOURCE = 'C:\path\to\A3_ch14_20260822105146_20260822110347.mp4'
 python render_speed.py
 ```
 
-The renderer expects the same source video and fixed 150–210 s segment as the saved tracks. Pointing it at unrelated footage does not perform new detection. To test a different camera or segment, rerun stages 1 and 2 and review the camera-region filters and road assumptions before interpreting results.
+The standalone renderer expects tracks from the same video and interval. `workflow.py` sets its source, interval and input paths automatically. When using the renderer directly, `FYP_START_S` and `FYP_DURATION_S` override the default 150–210 s interval; pointing it at unrelated footage does not perform detection.
 
 Optional environment variables override the default locations:
 
@@ -94,6 +127,7 @@ Optional environment variables override the default locations:
 | `FYP_SPEED_OUTPUT` | Destination for newly calculated speed artifacts |
 | `FYP_BASELINE_TRACKS` | Tracking CSV for the renderer |
 | `FYP_SPEED_SOURCE` | Original video path, required for rendering |
+| `FYP_START_S`, `FYP_DURATION_S` | Source interval for inference and rendering |
 
 ## Kaggle workflow
 
@@ -104,6 +138,11 @@ The existing dataset and notebooks are private and require the owner's Kaggle ac
 | Tracking | [Vehicle tracking baseline](https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-vehicle-tracking-baseline) | 1 | GPU T4 |
 | Geometry | [Automatic vehicle geometry](https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-automatic-vehicle-geometry) | 2 | GPU T4 |
 | Speed | [Experimental speed estimation](https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-experimental-speed-estimation) | 2 | CPU |
+| Automatic workflow | [Camera calibration workflow](https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-camera-calibration-workflow) | 1 | GPU T4 |
+
+The automatic notebook is the single-entry workflow. It embeds the current scripts, attaches the private video, runs fresh inference when inputs are missing, verifies calibration creation, and verifies a second run reuses it without fitting. Version 1 completed successfully on Kaggle with fresh GPU inference and identical qualifying speed results on the cached run; the [saved verification records](output/workflow_demo/README.md) include both reports. Use the three individual notebooks for inspecting or developing a particular stage.
+
+Kaggle working storage is temporary across sessions. Download `workflow_outputs/calibration_cache/` with the notebook outputs and preserve it, or mount a saved copy into a later session and copy it into the writable cache directory before running. Local `outputs/calibration_cache/` remains available across local invocations. Cache files remain versioned against the calculation code and settings; changing them can require recalibration.
 
 Private source: [A3 CH14 dataset](https://www.kaggle.com/datasets/hayyanfaisal/fyp-cctv-a3-ch14-speed-estimation). API credentials are read from your user profile or environment; no token belongs in this repository or a notebook.
 
@@ -112,6 +151,8 @@ Install the optional client, then inspect or download a completed run:
 ```powershell
 python -m pip install -r requirements-kaggle.txt
 python manage.py status --experiment speed
+python manage.py status --experiment workflow
+python manage.py download --experiment workflow
 python manage.py download --experiment baseline
 python manage.py download --experiment geometry
 ```
@@ -129,6 +170,9 @@ kaggle kernels push -p notebook
 kaggle kernels push -p geometry_notebook
 # Wait for geometry to finish successfully, then:
 kaggle kernels push -p speed_notebook
+# Or rebuild and submit the single-entry automatic workflow:
+python build_workflow_notebook.py
+kaggle kernels push -p workflow_notebook
 ```
 
 The metadata files target the owner's existing private notebooks and preserve their dataset and notebook dependencies. Change those references if running in another Kaggle account. Stage 3 reuses saved inference outputs without repeating GPU inference. Its embedded scripts must be rebuilt with `prepare_speed_notebook.py` after editing calibration or rendering code.
@@ -136,6 +180,8 @@ The metadata files target the owner's existing private notebooks and preserve th
 ## Checks and limitations
 
 Synthetic checks recover known 4.5 × 1.8 m rectangles and 14.4 km/h motion from a known projection, verify proportional changes with dimension scale, and check subpixel corner noise. Local and Kaggle runs agreed on the four accepted IDs, with nominal speeds within 0.05 km/h. The saved H.264 video contains 1,500 frames at 25 FPS and lasts 60 seconds.
+
+Run `python -m unittest test_workflow -v` for behavior checks: reuse without calling the fitter; camera movement, zoom, resolution/settings changes and corrupt-cache rejection; input provenance; unavailable speeds outside calibrated support; empty results replacing stale data; and stopping on an uncertain within-clip view. The saved local workflow demonstration also runs the actual footage twice and requires identical qualifying results while forbidding calibration fitting in the second run.
 
 These establish calculation consistency and reproducibility, not measured accuracy. There are no reference speed labels, measured road distances or scene-specific detection/keypoint labels. Wrong hidden corners, track associations, road grade, lens distortion and unsuitable dimension assumptions can cause errors outside the displayed range. Left-carriageway held-out checks measure predicted-rectangle consistency only; the right side has no held-out calibration tracks. No detection AP, tracking accuracy or real-speed error is claimed.
 

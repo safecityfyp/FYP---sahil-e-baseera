@@ -173,14 +173,9 @@ def sample_balanced(records, maximum=10):
     return [group[i] for group in groups.values() for i in np.unique(np.linspace(0,len(group)-1,min(len(group),maximum)).astype(int))]
 
 
-def run():
-    OUT.mkdir(parents=True,exist_ok=True)
-    report=json.loads((GEOMETRY/'geometry_run_report.json').read_text())
-    observations=json.loads((GEOMETRY/'observations.json').read_text())
+def fit_road_mappings(records, report):
     width,height=report['width'],report['height']
-    records=prepare(observations,report['ground_indices'],width,height)
-    (OUT/'filtered_ground_footprints.json').write_text(json.dumps(records),encoding='utf-8')
-    calibration={};speed_rows=[];mappings={}
+    calibration={}
     for side in ['left','right']:
         local=[r for r in records if r['side']==side]
         ids=sorted(set(r['track_id'] for r in local))
@@ -215,7 +210,24 @@ def run():
           'alternative_mappings':[a.tolist() for a in alternatives],
           'interpretation':'Approximate local plane and dimension-prior mapping; no measured accuracy.'})
         calibration[side]=diagnostics
-        mappings[side]=H
+        diagnostics['support_hull_image'] = cv2.convexHull(
+            np.array([r['quad'] for r in local], dtype=np.float32).reshape(-1, 2)).reshape(-1, 2).tolist()
+    return calibration
+
+
+def calculate_speed_rows(records, calibration):
+    speed_rows=[]
+    for side in ['left','right']:
+        diagnostics=calibration.get(side,{})
+        if not diagnostics.get('accepted'):
+            continue
+        H=np.array(diagnostics['H_image_to_experimental_meters'])
+        alternatives=[np.array(a) for a in diagnostics['alternative_mappings']]
+        hull=np.array(diagnostics['support_hull_image'], dtype=np.float32)
+        # Restrict reuse to the road region supported by the calibration footprints.
+        local=[r for r in records if r['side']==side and all(
+            cv2.pointPolygonTest(hull, (float(p[0]),float(p[1])), True)>=-0.01 for p in r['quad'])]
+        ids=sorted(set(r['track_id'] for r in local))
         for tid in ids:
             group=sorted([r for r in local if r['track_id']==tid],key=lambda r:r['time_s'])
             if len(group)<8 or group[-1]['time_s']-group[0]['time_s']<1.2:continue
@@ -224,7 +236,6 @@ def run():
             low,high=float(min(values)),float(max(values))
             sensitivity=(high-low)/max(nominal['experimental_kmh'],1)
             reasons=[]
-            if not accepted:reasons.append('road_mapping_failed_quality_gate')
             if nominal['length_relative_mad']>0.25:reasons.append('predicted_size_inconsistent')
             if nominal['trajectory_fit_rms_m']>0.8:reasons.append('trajectory_not_consistent_with_local_plane')
             if nominal['angle_error_deg']>25:reasons.append('footprint_not_rectangular_after_mapping')
@@ -235,13 +246,37 @@ def run():
               'quality_passed':not bool(reasons),'quality_reasons':';'.join(reasons),
               'dimension_and_fit_sensitivity_low_kmh':low,'dimension_and_fit_sensitivity_high_kmh':high,
               **nominal})
-    (OUT/'calibration.json').write_text(json.dumps(calibration,indent=2),encoding='utf-8')
-    if speed_rows:
-        with (OUT/'experimental_speeds.csv').open('w',newline='',encoding='utf-8') as f:
-            w=csv.DictWriter(f,fieldnames=list(speed_rows[0]));w.writeheader();w.writerows(speed_rows)
-        with (OUT/'qualified_experimental_speeds.csv').open('w',newline='',encoding='utf-8') as f:
-            w=csv.DictWriter(f,fieldnames=list(speed_rows[0]));w.writeheader()
-            w.writerows(r for r in speed_rows if r['quality_passed'])
+    return speed_rows
+
+
+def run(calibration=None, geometry_dir=None, output_dir=None, calibration_reused=None):
+    geometry_dir=Path(geometry_dir) if geometry_dir is not None else GEOMETRY
+    output_dir=Path(output_dir) if output_dir is not None else OUT
+    output_dir.mkdir(parents=True,exist_ok=True)
+    report=json.loads((geometry_dir/'geometry_run_report.json').read_text())
+    observations=json.loads((geometry_dir/'observations.json').read_text())
+    records=prepare(observations,report['ground_indices'],report['width'],report['height'])
+    reused=(calibration is not None) if calibration_reused is None else calibration_reused
+    if calibration is None:
+        calibration=fit_road_mappings(records, report)
+    before_support_filter=len(records)
+    records=[r for r in records if calibration.get(r['side'],{}).get('accepted') and all(
+        cv2.pointPolygonTest(np.array(calibration[r['side']]['support_hull_image'],dtype=np.float32),
+                             (float(p[0]),float(p[1])),True)>=-0.01 for p in r['quad'])]
+    speed_rows=calculate_speed_rows(records, calibration)
+    (output_dir/'filtered_ground_footprints.json').write_text(json.dumps(records),encoding='utf-8')
+    (output_dir/'calibration.json').write_text(json.dumps(calibration,indent=2),encoding='utf-8')
+    fields=['track_id','side','time_start_s','time_end_s','geometry_observations',
+            'quality_passed','quality_reasons','dimension_and_fit_sensitivity_low_kmh',
+            'dimension_and_fit_sensitivity_high_kmh','experimental_kmh','trajectory_fit_rms_m',
+            'length_relative_mad','angle_error_deg','half_span_speed_relative_difference',
+            'median_inferred_length_m','median_inferred_width_m']
+    for name, rows in [('experimental_speeds.csv',speed_rows),
+                       ('qualified_experimental_speeds.csv',[r for r in speed_rows if r['quality_passed']])]:
+        with (output_dir/name).open('w',newline='',encoding='utf-8') as f:
+            writer=csv.DictWriter(f,fieldnames=fields)
+            writer.writeheader()
+            writer.writerows(rows)
     api_results=[{'track_id':r['track_id'],'carriageway':r['side'],
       'time_interval_s':[r['time_start_s'],r['time_end_s']],
       'experimental_kmh':r['experimental_kmh'],
@@ -249,8 +284,9 @@ def run():
       'range_type':'dimension_and_calibration_sensitivity','accuracy_validated':False,
       'method':'learned_3d_ground_footprints_with_assumed_vehicle_dimensions'}
       for r in speed_rows if r['quality_passed']]
-    (OUT/'vehicle_speed_estimates.json').write_text(json.dumps(api_results,indent=2),encoding='utf-8')
-    result={'source_geometry_observations':len(observations),'filtered_ground_footprints':len(records),
+    (output_dir/'vehicle_speed_estimates.json').write_text(json.dumps(api_results,indent=2),encoding='utf-8')
+    result={'calibration_reused':reused,'source_geometry_observations':len(observations),'filtered_ground_footprints':len(records),
+      'footprints_outside_usable_calibration':before_support_filter-len(records),
       'geometry_model_filename':report['model_filename'],'geometry_model_sha256':report['model_sha256'],
       'ground_corner_indices':report['ground_indices'],
       'experimental_track_estimates':len(speed_rows),'quality_passed_track_estimates':sum(r['quality_passed'] for r in speed_rows),
@@ -263,7 +299,7 @@ def run():
         'A local planar road and approximately constant speed over each fitted span are assumed.',
         'Dimension priors are explicit analyst assumptions, not recognized make/model dimensions.',
         'Sensitivity range does not bound unmodelled errors such as lens distortion or road grade.']}
-    (OUT/'speed_run_report.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
+    (output_dir/'speed_run_report.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
     print(json.dumps(result,indent=2))
     for r in speed_rows:print(r['track_id'],r['side'],round(r['experimental_kmh'],1),r['quality_passed'],r['quality_reasons'])
     return calibration,speed_rows,records

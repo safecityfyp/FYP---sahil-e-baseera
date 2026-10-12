@@ -11,6 +11,11 @@
       "snapshot_version": 2,
       "output_pattern": "geometry/.*"
     },
+    "workflow": {
+      "notebook": "hayyanfaisal/fyp-cctv-camera-calibration-workflow",
+      "snapshot_version": 1,
+      "output_pattern": "workflow_outputs/(runs|calibration_cache|inference_cache)/.*|workflow_verification.json"
+    },
     "speed": {
       "notebook": "hayyanfaisal/fyp-cctv-experimental-speed-estimation",
       "snapshot_version": 2,

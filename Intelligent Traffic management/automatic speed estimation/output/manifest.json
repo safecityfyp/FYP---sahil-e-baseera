@@ -39,7 +39,15 @@
     "synthetic_geometry_and_motion": "passed",
     "notebook_schema_and_syntax": "passed",
     "packaged_local_vs_saved_kaggle_max_nominal_difference_kmh": 1.720011368888663e-07,
-    "packaged_video_renderer": "passed: 1500 frames, 25 FPS, 60 seconds, 159 labelled frames"
+    "packaged_video_renderer": "passed: 1500 frames, 25 FPS, 60 seconds, 159 labelled frames",
+    "automatic_workflow": {
+      "behavior_tests_passed": 7,
+      "local_cold_and_warm_verified": true,
+      "kaggle_fresh_inference_verified": true,
+      "kaggle_warm_skipped_calibration_fitting": true,
+      "fresh_vs_original_max_nominal_difference_kmh": 1.2703096032851136e-06,
+      "kaggle_notebook_private_verified": true
+    }
   },
   "files": {
     "birdseye_trajectories.jpg": {
@@ -70,6 +78,10 @@
       "bytes": 161493,
       "sha256": "2adcb4f38d0af55708fc1865973eab3c290bae9b13f9b3ae587637e0fbf71722"
     },
+    "inputs/input_manifest.json": {
+      "bytes": 840,
+      "sha256": "49217667b98cb518d590222042d94ef524e6239705a60bec5db566bc5feadbc6"
+    },
     "inputs/tracking/run_report.json": {
       "bytes": 1339,
       "sha256": "5724cefb9f104df3071d92095af5bf0a2189175208b4da0becfe8893c9dc4b29"
@@ -87,8 +99,8 @@
       "sha256": "0aec9d921b5d66144a5d49dbce65e5eaca7ae0b0431eb88d50dadd5c6265c023"
     },
     "README.md": {
-      "bytes": 3319,
-      "sha256": "62f066c6db628379ac58a8c25945fb5f83282052457ae28f1498eada973a5972"
+      "bytes": 3531,
+      "sha256": "6cb6474a60078112fc5d34103ac5029351f04ebaff45693a7903ad6512a1fe8d"
     },
     "render_report.json": {
       "bytes": 221,
@@ -113,6 +125,42 @@
     "vehicle_speed_estimates.json": {
       "bytes": 1671,
       "sha256": "3ef58368d9e4c11d479b2bce9d88da0107579b5ab804cfdc6cd2644aa05888d9"
+    },
+    "workflow_demo/calibration_example.json": {
+      "bytes": 13808,
+      "sha256": "105125dd9dfdd7f9c6eb5cb0cd9b9010481442a68131bd14a915e644e3139df4"
+    },
+    "workflow_demo/kaggle_cold_run.json": {
+      "bytes": 2548,
+      "sha256": "8749cf2feda2f8c43864c432d4a034d7d21ebdd0e7cfb60a26978ecb1e604f2f"
+    },
+    "workflow_demo/kaggle_qualified_speeds.csv": {
+      "bytes": 1141,
+      "sha256": "113459a6a2ddb80216a7f51fc3486c3cbb08ade4565d1d505dbceb592dfbc037"
+    },
+    "workflow_demo/kaggle_verification.json": {
+      "bytes": 341,
+      "sha256": "ac308df30530a4e5d8fbace826c49c71917468ff79ff21d6e333a10fdefaa31e"
+    },
+    "workflow_demo/kaggle_warm_run.json": {
+      "bytes": 3801,
+      "sha256": "44965a63f1fae48dcf07be27b83ab8c34fed4ca994515a8935cb073e4ce9da87"
+    },
+    "workflow_demo/local_cold_run.json": {
+      "bytes": 2579,
+      "sha256": "50f254e44782e5081e151a314b4857c6c5a14769c762eb976123b391eae52ad4"
+    },
+    "workflow_demo/local_verification.json": {
+      "bytes": 339,
+      "sha256": "c1c277df252b06ad617d2252bfe20f7bc53980e55e5bbdde0fb2d5151e7e9843"
+    },
+    "workflow_demo/local_warm_run.json": {
+      "bytes": 3942,
+      "sha256": "a862531d1edcda0abe1edf52add5d55425bbdeb2cde5cfc0c9bdea324f8cedb1"
+    },
+    "workflow_demo/README.md": {
+      "bytes": 2714,
+      "sha256": "dca6b2c7dd60b335821cce88da1bc43800db80b0e75ee905858c1a96f21e507e"
     }
   }
 }

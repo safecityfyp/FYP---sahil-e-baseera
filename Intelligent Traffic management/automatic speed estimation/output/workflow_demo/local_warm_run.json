@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "run_id": "20261012T192754Z-505d46ec",
+  "camera_id": "A3-CH14",
+  "source_video": "A3_ch14_20260822105146_20260822110347.mp4",
+  "start_s": 150,
+  "duration_s": 60,
+  "accuracy_validated": false,
+  "stages": [
+    {
+      "stage": "calibration_lookup",
+      "action": "hit",
+      "reason": "saved_calibration_matches_camera_view"
+    },
+    {
+      "stage": "tracking",
+      "action": "reuse_verified_inputs"
+    },
+    {
+      "stage": "vehicle_geometry",
+      "action": "reuse_verified_inputs"
+    },
+    {
+      "stage": "road_calibration",
+      "action": "reuse_saved_mapping"
+    },
+    {
+      "stage": "speed_estimation",
+      "action": "calculate_from_ground_motion"
+    }
+  ],
+  "status": "complete",
+  "video_metadata": {
+    "width": 2560,
+    "height": 1440,
+    "fps": 25.0,
+    "frames": 18001,
+    "start_frame": 3750,
+    "end_frame": 5250,
+    "view_check_frames": [
+      3750,
+      4124,
+      4499,
+      4874,
+      5249
+    ]
+  },
+  "view_stability": {
+    "valid": true,
+    "comparisons": [
+      {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 2990,
+        "inliers": 2960,
+        "feature_coverage_fraction": 0.530721130382742,
+        "max_normalized_corner_displacement": 0.0007560148712622606
+      },
+      {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 2893,
+        "inliers": 2843,
+        "feature_coverage_fraction": 0.5231334906334916,
+        "max_normalized_corner_displacement": 0.0004537128136146134
+      },
+      {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 2827,
+        "inliers": 2757,
+        "feature_coverage_fraction": 0.5748173485693256,
+        "max_normalized_corner_displacement": 0.0003590789039613518
+      },
+      {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 2611,
+        "inliers": 2547,
+        "feature_coverage_fraction": 0.5204059522759923,
+        "max_normalized_corner_displacement": 0.00036094424390847933
+      }
+    ],
+    "limitation": "Five sampled frames cannot exclude brief camera movement between samples."
+  },
+  "calibration_lookup": {
+    "status": "hit",
+    "reason": "saved_calibration_matches_camera_view",
+    "view_checks": [
+      {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 4816,
+        "inliers": 4816,
+        "feature_coverage_fraction": 0.593077908649149,
+        "max_normalized_corner_displacement": 1.654148529805928e-16
+      },
+      {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 2990,
+        "inliers": 2960,
+        "feature_coverage_fraction": 0.530721130382742,
+        "max_normalized_corner_displacement": 0.0007560148712622606
+      },
+      {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 2893,
+        "inliers": 2843,
+        "feature_coverage_fraction": 0.5231334906334916,
+        "max_normalized_corner_displacement": 0.0004537128136146134
+      },
+      {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 2827,
+        "inliers": 2757,
+        "feature_coverage_fraction": 0.5748173485693256,
+        "max_normalized_corner_displacement": 0.0003590789039613518
+      },
+      {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 2611,
+        "inliers": 2547,
+        "feature_coverage_fraction": 0.5204059522759923,
+        "max_normalized_corner_displacement": 0.00036094424390847933
+      }
+    ]
+  },
+  "source_sha256": "5ba7b2fd909645d2724df37130b11e83e2a28bf15dff16c929517c5724dd65e9",
+  "qualified_track_ids": [
+    1,
+    115,
+    147,
+    175
+  ],
+  "candidate_track_spans": 8,
+  "calibration_reused": true,
+  "runtime_s": 4.028261199999179
+}
