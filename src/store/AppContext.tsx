@@ -171,7 +171,7 @@ function eventsForVideo(url: string, models: string[]): ClipEvent[] {
 export function AppProvider({ children }: { children: React.ReactNode }) {
   const [now, setNow] = useState(Date.now())
   const [role, setRole] = useState<Role>('super-admin')
-  const [tab, setTab] = useState<TabId>('overview')
+  const [tab, setTab] = useState<TabId>('wall')
   const [sidebarCollapsed, setSidebarCollapsed] = useState<boolean>(() => {
     try {
       return localStorage.getItem('safecity.sidebarCollapsed.v2') === 'true'
@@ -568,7 +568,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
               setToasts((prev) => [...prev.slice(-2), toast])
               window.setTimeout(() => {
                 setToasts((prev) => prev.filter((t) => t.id !== toast.id))
-              }, 5000)
+              }, 12000)
             }
             // low severity on main = silent log (already done via pushIncident)
           }
@@ -651,7 +651,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
           setToasts((prev) => [...prev.slice(-2), toast])
           window.setTimeout(() => {
             setToasts((tp) => tp.filter((t) => t.id !== toast.id))
-          }, 5000)
+          }, 12000)
         }
         // low severity on focus = silent log (already logged)
       })
@@ -873,7 +873,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
           setToasts((prev) => [...prev.slice(-3), toast])
           window.setTimeout(() => {
             setToasts((tp) => tp.filter((t) => t.id !== toast.id))
-          }, 6000)
+          }, 12000)
         }
 
         scheduleNext()

@@ -207,7 +207,7 @@ export default function CameraManagement() {
               </tr>
             )}
             {cameras.map((cam) => (
-              <tr key={cam.id} className="hover:bg-steel/10 transition">
+              <tr key={cam.id} className="even:bg-white/[0.02] hover:bg-steel/10 transition">
                 <td className="px-3 py-2 font-bold text-gold-soft">CAM {cam.index}</td>
                 <td className="px-3 py-2 text-slate-200">{cam.name}</td>
                 <td className="px-3 py-2 text-slate-400">{cam.zone}</td>

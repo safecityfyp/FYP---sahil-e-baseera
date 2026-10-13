@@ -172,7 +172,7 @@ export default function ForensicPanel({ cameraId, onClose }: ForensicPanelProps)
             {sortedEvents.map((ev) => {
               const sev = SEVERITY_META[ev.modelId === 'helmet' ? 'low' : 'medium']
               const color = ev.modelId === 'weapon' || ev.modelId === 'fire' || ev.modelId === 'accident' || ev.modelId === 'abandoned'
-                ? '#F43F5E'
+                ? '#EF4444'
                 : sev.color
               const left = pct(ev.time)
               return (
@@ -196,7 +196,7 @@ export default function ForensicPanel({ cameraId, onClose }: ForensicPanelProps)
               if (!ev) return null
               const sevColor =
                 ev.modelId === 'weapon' || ev.modelId === 'fire' || ev.modelId === 'accident' || ev.modelId === 'abandoned'
-                  ? '#F43F5E'
+                  ? '#EF4444'
                   : SEVERITY_META[ev.modelId === 'helmet' ? 'low' : 'medium'].color
               return (
                 <div
@@ -225,7 +225,7 @@ export default function ForensicPanel({ cameraId, onClose }: ForensicPanelProps)
             {sortedEvents.map((ev) => {
               const isHigh =
                 ev.modelId === 'weapon' || ev.modelId === 'fire' || ev.modelId === 'accident' || ev.modelId === 'abandoned'
-              const color = isHigh ? '#F43F5E' : SEVERITY_META[ev.modelId === 'helmet' ? 'low' : 'medium'].color
+              const color = isHigh ? '#EF4444' : SEVERITY_META[ev.modelId === 'helmet' ? 'low' : 'medium'].color
               return (
                 <button
                   key={`l-${ev.time}`}

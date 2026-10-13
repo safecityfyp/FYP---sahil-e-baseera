@@ -13,82 +13,93 @@ function waLink(t: Toast): string {
 export default function ToastStack() {
   const { toasts, dismissToast, acknowledgeIncident } = useApp()
 
-  /**
-   * Acknowledge a toast: marks the backing incident as acknowledged in the
-   * persisted incident store and removes the toast from the stack.
-   */
   const handleAcknowledge = (t: Toast) => {
     acknowledgeIncident(t.incidentId)
     dismissToast(t.id)
   }
 
+  if (toasts.length === 0) return null
+
   return (
-    // Positioned above the activity feed (z-40 > feed z-30).
-    // Right-aligned and above the feed widget (bottom-[5.5rem]).
-    <div className="fixed bottom-[5.5rem] right-4 z-40 flex flex-col-reverse gap-2 pointer-events-auto">
+    <div className="fixed bottom-5 right-5 z-50 flex flex-col-reverse gap-3 pointer-events-auto max-w-[340px] w-full">
       {toasts.map((t) => {
         const sev = SEVERITY_META[t.severity]
+        const isMedium = t.severity === 'medium'
+        const isHigh = t.severity === 'high'
+
+        // Theme-responsive title color
+        const titleColorClass = isHigh
+          ? 'text-rose-600 dark:text-rose-400'
+          : isMedium
+          ? 'text-amber-600 dark:text-amber-400'
+          : 'text-blue-600 dark:text-cyan'
+
+        // Theme-responsive border accent
+        const borderClass = isHigh
+          ? 'border-l-4 border-l-rose-500'
+          : isMedium
+          ? 'border-l-4 border-l-amber-500'
+          : 'border-l-4 border-l-blue-500'
+
         return (
           <div
             key={t.id}
-            className="animate-toast-in w-80 rounded-lg border shadow-xl"
+            className={`animate-toast-in w-full rounded-xl border border-slate-200 dark:border-[#293B52] bg-white dark:bg-[#17263A] shadow-2xl transition-all ${borderClass}`}
             style={{
-              borderColor: `${sev.color}90`,
-              // Opaque solid surface so the toast is always legible over any
-              // content behind it (item 4) — no blur/glass, full readability.
-              backgroundColor: '#0B182B',
-              boxShadow: `0 10px 30px rgba(0,0,0,0.6), 0 0 0 1px ${sev.color}30`,
+              boxShadow: '0 12px 28px rgba(0,0,0,0.18), 0 2px 8px rgba(0,0,0,0.08)',
             }}
           >
-            {/* Content */}
-            <div className="flex gap-3 px-4 py-3">
+            {/* Main Content Body */}
+            <div className="flex items-start gap-3 p-3.5 pb-2.5">
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 mb-1">
                   <div
                     className="h-2 w-2 rounded-full flex-shrink-0 animate-pulse"
                     style={{ backgroundColor: sev.color }}
                   />
-                  <span className="font-bold text-sm" style={{ color: sev.color }}>
+                  <span className={`font-bold text-xs leading-snug truncate ${titleColorClass}`}>
                     {t.title}
                   </span>
                 </div>
-                <p className="text-xs text-slate-300 mb-1 leading-relaxed">{t.detail}</p>
-                <div className="text-[10px] text-slate-400">{t.cameraLabel}</div>
+                <p className="text-xs text-slate-700 dark:text-slate-300 font-medium mb-1.5 leading-relaxed">
+                  {t.detail}
+                </p>
+                <div className="text-[11px] font-semibold text-slate-500 dark:text-slate-400">
+                  {t.cameraLabel}
+                </div>
               </div>
-              {/* Quick dismiss */}
+
+              {/* Dismiss button */}
               <button
                 onClick={() => dismissToast(t.id)}
-                className="flex-shrink-0 text-slate-400 hover:text-white transition self-start mt-0.5"
+                className="flex-shrink-0 p-1 rounded-md text-slate-400 hover:text-slate-700 dark:hover:text-white transition"
                 title="Dismiss"
               >
-                <X className="h-4 w-4" />
+                <X className="h-3.5 w-3.5" />
               </button>
             </div>
 
-            {/* Action row: WhatsApp + Acknowledge */}
-            <div
-              className="flex border-t px-3 py-2 gap-2"
-              style={{ borderColor: `${sev.color}30` }}
-            >
+            {/* Action Buttons Row */}
+            <div className="flex items-center gap-2 border-t border-slate-200 dark:border-[#293B52] bg-slate-50 dark:bg-[#111D2E] px-3 py-2 rounded-b-xl">
               <a
                 href={waLink(t)}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => blip()}
-                className="flex flex-1 items-center justify-center gap-1.5 rounded border border-green-700/50 bg-green-900/30 px-2 py-1 text-[10px] font-semibold text-green-400 hover:bg-green-900/60 transition"
+                className="flex flex-1 items-center justify-center gap-1 rounded-lg border border-emerald-600/30 bg-emerald-500/10 dark:bg-green-900/30 px-2.5 py-1.5 text-[10px] font-bold text-emerald-700 dark:text-emerald-400 hover:bg-emerald-500/20 dark:hover:bg-green-900/50 transition"
                 title="Notify duty officer via WhatsApp"
               >
                 <MessageCircle className="h-3 w-3" />
-                WhatsApp
-                <ExternalLink className="h-2.5 w-2.5 opacity-60" />
+                <span>WhatsApp</span>
+                <ExternalLink className="h-2.5 w-2.5 opacity-60 ml-0.5" />
               </a>
               <button
                 onClick={() => handleAcknowledge(t)}
-                className="flex flex-1 items-center justify-center gap-1.5 rounded border border-cyan/40 bg-cyan/10 px-2 py-1 text-[10px] font-semibold text-cyan hover:bg-cyan/25 transition"
-                title="Acknowledge and remove"
+                className="flex flex-1 items-center justify-center gap-1 rounded-lg border border-blue-600/30 dark:border-cyan/40 bg-blue-600/10 dark:bg-cyan/10 px-2.5 py-1.5 text-[10px] font-bold text-blue-700 dark:text-cyan hover:bg-blue-600/20 dark:hover:bg-cyan/20 transition"
+                title="Acknowledge event"
               >
                 <Check className="h-3 w-3" />
-                Acknowledge
+                <span>Acknowledge</span>
               </button>
             </div>
           </div>

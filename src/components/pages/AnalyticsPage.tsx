@@ -153,9 +153,9 @@ export default function AnalyticsPage() {
   const severityData = useMemo(
     () =>
       [
-        { name: 'Critical', value: highCount, fill: '#F43F5E' },
+        { name: 'Critical', value: highCount, fill: '#EF4444' },
         { name: 'Warning', value: mediumCount, fill: '#F59E0B' },
-        { name: 'Advisory', value: lowCount, fill: '#38BDF8' },
+        { name: 'Advisory', value: lowCount, fill: '#3B82F6' },
       ].filter((d) => d.value > 0),
     [highCount, mediumCount, lowCount],
   )
@@ -380,11 +380,11 @@ export default function AnalyticsPage() {
               <h3 className="hud-label text-sm text-gold-soft mb-3">EVENTS BY MODEL</h3>
               <ResponsiveContainer width="100%" height={230}>
                 <BarChart data={modelChartData}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#1B324F" />
+                  <CartesianGrid strokeDasharray="3 3" stroke="#293B52" />
                   <XAxis dataKey="name" tick={{ fontSize: 11, fill: '#94a3b8' }} interval={0} />
                   <YAxis tick={{ fontSize: 11, fill: '#94a3b8' }} />
-                  <Tooltip contentStyle={{ backgroundColor: '#0B182B', border: '1px solid #C9A227' }} />
-                  <Bar dataKey="value" fill="#22D3EE" radius={[3, 3, 0, 0]} />
+                  <Tooltip contentStyle={{ backgroundColor: '#17263A', border: '1px solid #293B52', color: '#F1F5F9' }} />
+                  <Bar dataKey="value" fill="#16B8D4" radius={[3, 3, 0, 0]} />
                 </BarChart>
               </ResponsiveContainer>
             </div>
@@ -400,7 +400,7 @@ export default function AnalyticsPage() {
                       <Cell key={`cell-${idx}`} fill={entry.fill} />
                     ))}
                   </Pie>
-                  <Tooltip contentStyle={{ backgroundColor: '#0B182B', border: '1px solid #C9A227' }} />
+                  <Tooltip contentStyle={{ backgroundColor: '#17263A', border: '1px solid #293B52', color: '#F1F5F9' }} />
                   <Legend wrapperStyle={{ fontSize: 11, color: '#94a3b8' }} />
                 </PieChart>
               </ResponsiveContainer>
@@ -412,10 +412,10 @@ export default function AnalyticsPage() {
             {cameraChartData.length > 0 ? (
               <ResponsiveContainer width="100%" height={230}>
                 <BarChart data={cameraChartData} layout="vertical">
-                  <CartesianGrid strokeDasharray="3 3" stroke="#1B324F" />
+                  <CartesianGrid strokeDasharray="3 3" stroke="#293B52" />
                   <XAxis type="number" tick={{ fontSize: 11, fill: '#94a3b8' }} />
                   <YAxis dataKey="cam" type="category" tick={{ fontSize: 11, fill: '#94a3b8' }} width={56} />
-                  <Tooltip contentStyle={{ backgroundColor: '#0B182B', border: '1px solid #C9A227' }} />
+                  <Tooltip contentStyle={{ backgroundColor: '#17263A', border: '1px solid #293B52', color: '#F1F5F9' }} />
                   <Bar dataKey="count" fill="#F59E0B" radius={[0, 3, 3, 0]} />
                 </BarChart>
               </ResponsiveContainer>
@@ -430,15 +430,15 @@ export default function AnalyticsPage() {
             <h3 className="hud-label text-sm text-gold-soft mb-3">VIOLATION TREND</h3>
             <ResponsiveContainer width="100%" height={230}>
               <LineChart data={timelineData}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#1B324F" />
+                <CartesianGrid strokeDasharray="3 3" stroke="#293B52" />
                 <XAxis
                   dataKey="time"
                   tick={{ fontSize: 10, fill: '#94a3b8' }}
                   interval={timelineData.length > 31 ? 'preserveStartEnd' : 0}
                 />
                 <YAxis tick={{ fontSize: 11, fill: '#94a3b8' }} />
-                <Tooltip contentStyle={{ backgroundColor: '#0B182B', border: '1px solid #C9A227' }} />
-                <Line type="monotone" dataKey="events" stroke="#22D3EE" strokeWidth={2} dot={{ r: 2 }} />
+                <Tooltip contentStyle={{ backgroundColor: '#17263A', border: '1px solid #293B52', color: '#F1F5F9' }} />
+                <Line type="monotone" dataKey="events" stroke="#16B8D4" strokeWidth={2} dot={{ r: 2 }} />
               </LineChart>
             </ResponsiveContainer>
           </div>
@@ -466,18 +466,18 @@ export default function AnalyticsPage() {
                         const intensity = count === 0 ? 0 : 0.25 + (count / heatMax) * 0.75
                         const color =
                           count === 0
-                            ? 'rgba(11,24,43,0.6)'
+                            ? 'rgba(17,29,46,0.6)'
                             : count === 1
                               ? '#0E7490'
                               : count >= 3
-                                ? '#F43F5E'
+                                ? '#EF4444'
                                 : '#F59E0B'
                         return (
                           <td
                             key={h}
                             className="h-5 w-6 rounded-sm border border-edge/20"
                             style={{
-                              backgroundColor: count === 0 ? 'rgba(11,24,43,0.6)' : color,
+                              backgroundColor: count === 0 ? 'rgba(17,29,46,0.6)' : color,
                               opacity: count === 0 ? 1 : 0.35 + intensity * 0.65,
                             }}
                             title={`${row.day} ${String(h).padStart(2, '0')}:00 — ${count} incident(s)`}
@@ -513,7 +513,7 @@ export default function AnalyticsPage() {
               </thead>
               <tbody className="divide-y divide-edge/30">
                 {filtered.slice(0, 10).map((inc) => (
-                  <tr key={inc.id} className="hover:bg-steel/5">
+                  <tr key={inc.id} className="even:bg-white/[0.02] hover:bg-steel/5">
                     <td className="px-2 py-1 font-mono text-slate-400">{inc.clockLabel}</td>
                     <td className="px-2 py-1 text-slate-300">{inc.event}</td>
                     <td className="px-2 py-1 text-gold-soft">CAM {inc.cameraIndex}</td>

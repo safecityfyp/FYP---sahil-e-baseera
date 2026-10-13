@@ -45,7 +45,7 @@ const TIMELINE_DATA = [
 
 // Donut composition
 const DONUT_DATA = [
-  { name: 'Traffic & Speed', value: 52, color: '#0EA5E9' },
+  { name: 'Traffic & Speed', value: 52, color: '#16B8D4' },
   { name: 'Critical Safety', value: 24, color: '#EF4444' },
   { name: 'Person Behaviour', value: 14, color: '#F59E0B' },
   { name: 'Multi-Cam Tracking', value: 10, color: '#A855F7' },
@@ -345,8 +345,8 @@ export default function OverviewPage() {
               <AreaChart data={TIMELINE_DATA}>
                 <defs>
                   <linearGradient id="colorTraffic" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="#0EA5E9" stopOpacity={0.4} />
-                    <stop offset="95%" stopColor="#0EA5E9" stopOpacity={0} />
+                    <stop offset="5%" stopColor="#16B8D4" stopOpacity={0.4} />
+                    <stop offset="95%" stopColor="#16B8D4" stopOpacity={0} />
                   </linearGradient>
                   <linearGradient id="colorViolations" x1="0" y1="0" x2="0" y2="1">
                     <stop offset="5%" stopColor="#F59E0B" stopOpacity={0.4} />
@@ -357,8 +357,8 @@ export default function OverviewPage() {
                 <YAxis stroke="#64748B" fontSize={11} />
                 <Tooltip
                   contentStyle={{
-                    backgroundColor: '#0B182B',
-                    borderColor: '#24466B',
+                    backgroundColor: '#17263A',
+                    borderColor: '#293B52',
                     borderRadius: '8px',
                     fontSize: '12px',
                   }}
@@ -366,7 +366,7 @@ export default function OverviewPage() {
                 <Area
                   type="monotone"
                   dataKey="traffic"
-                  stroke="#0EA5E9"
+                  stroke="#16B8D4"
                   strokeWidth={2}
                   fillOpacity={1}
                   fill="url(#colorTraffic)"
@@ -415,8 +415,8 @@ export default function OverviewPage() {
                 </Pie>
                 <Tooltip
                   contentStyle={{
-                    backgroundColor: '#0B182B',
-                    borderColor: '#24466B',
+                    backgroundColor: '#17263A',
+                    borderColor: '#293B52',
                     borderRadius: '8px',
                     fontSize: '12px',
                   }}

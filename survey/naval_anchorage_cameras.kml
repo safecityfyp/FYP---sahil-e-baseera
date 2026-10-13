@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Naval Anchorage CCTV survey (WGS84)</name>
+  <Placemark>
+    <name>WP-1 Zerooo/ Rehmat gate</name>
+    <description><![CDATA[site_id: WP-1<br/>survey_name: Zerooo/ Rehmat gate<br/>latitude: 33.56347833<br/>longitude: 73.16527667<br/>osm_road: Naval Anchorage Road]]></description>
+    <Point><coordinates>73.16527667,33.56347833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-2 Main gate</name>
+    <description><![CDATA[site_id: WP-2<br/>survey_name: Main gate<br/>latitude: 33.57316000<br/>longitude: 73.18984500<br/>osm_road: Naval Anchorage Road]]></description>
+    <Point><coordinates>73.18984500,33.57316000,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-3 New Circular</name>
+    <description><![CDATA[site_id: WP-3<br/>survey_name: New Circular<br/>latitude: 33.57585833<br/>longitude: 73.19197833]]></description>
+    <Point><coordinates>73.19197833,33.57585833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-4 Cam 2</name>
+    <description><![CDATA[site_id: WP-4<br/>survey_name: Cam 2<br/>latitude: 33.57514833<br/>longitude: 73.19219500<br/>cameras_per_name: 1]]></description>
+    <Point><coordinates>73.19219500,33.57514833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-5 Cam 3</name>
+    <description><![CDATA[site_id: WP-5<br/>survey_name: Cam 3<br/>latitude: 33.57583000<br/>longitude: 73.19193000<br/>cameras_per_name: 1]]></description>
+    <Point><coordinates>73.19193000,33.57583000,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-6 Takhti post</name>
+    <description><![CDATA[site_id: WP-6<br/>survey_name: Takhti post<br/>latitude: 33.57850667<br/>longitude: 73.19246500]]></description>
+    <Point><coordinates>73.19246500,33.57850667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-7 J block street 1</name>
+    <description><![CDATA[site_id: WP-7<br/>survey_name: J block street 1<br/>latitude: 33.57969167<br/>longitude: 73.19256167<br/>block_from_survey_name: J]]></description>
+    <Point><coordinates>73.19256167,33.57969167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-8 Street 29</name>
+    <description><![CDATA[site_id: WP-8<br/>survey_name: Street 29<br/>latitude: 33.58182000<br/>longitude: 73.19289500]]></description>
+    <Point><coordinates>73.19289500,33.58182000,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-9 Street 20</name>
+    <description><![CDATA[site_id: WP-9<br/>survey_name: Street 20<br/>latitude: 33.58329667<br/>longitude: 73.19319667]]></description>
+    <Point><coordinates>73.19319667,33.58329667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-10 Phase 2 circular</name>
+    <description><![CDATA[site_id: WP-10<br/>survey_name: Phase 2 circular<br/>latitude: 33.58465333<br/>longitude: 73.19353167]]></description>
+    <Point><coordinates>73.19353167,33.58465333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-11 Main boluvera glorious living</name>
+    <description><![CDATA[site_id: WP-11<br/>survey_name: Main boluvera glorious living<br/>latitude: 33.58591667<br/>longitude: 73.19377833]]></description>
+    <Point><coordinates>73.19377833,33.58591667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-12 63 kanal * 4</name>
+    <description><![CDATA[site_id: WP-12<br/>survey_name: 63 kanal * 4<br/>latitude: 33.58754833<br/>longitude: 73.19438167<br/>cameras_per_name: 4]]></description>
+    <Point><coordinates>73.19438167,33.58754833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-13 Cam 4</name>
+    <description><![CDATA[site_id: WP-13<br/>survey_name: Cam 4<br/>latitude: 33.58994833<br/>longitude: 73.19477333<br/>cameras_per_name: 1]]></description>
+    <Point><coordinates>73.19477333,33.58994833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-14 M block filter plant</name>
+    <description><![CDATA[site_id: WP-14<br/>survey_name: M block filter plant<br/>latitude: 33.59088833<br/>longitude: 73.19484333<br/>block_from_survey_name: M]]></description>
+    <Point><coordinates>73.19484333,33.59088833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-15 F ckowk</name>
+    <description><![CDATA[site_id: WP-15<br/>survey_name: F ckowk<br/>latitude: 33.59427833<br/>longitude: 73.19477833]]></description>
+    <Point><coordinates>73.19477833,33.59427833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-16 batli gate</name>
+    <description><![CDATA[site_id: WP-16<br/>survey_name: batli gate<br/>latitude: 33.59623167<br/>longitude: 73.19448167]]></description>
+    <Point><coordinates>73.19448167,33.59623167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-17 Iqbal gate</name>
+    <description><![CDATA[site_id: WP-17<br/>survey_name: Iqbal gate<br/>latitude: 33.59679000<br/>longitude: 73.19443000]]></description>
+    <Point><coordinates>73.19443000,33.59679000,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-18 Entering right into L block camera</name>
+    <description><![CDATA[site_id: WP-18<br/>survey_name: Entering right into L block camera<br/>latitude: 33.59541667<br/>longitude: 73.19474000<br/>cameras_per_name: 1<br/>block_from_survey_name: L]]></description>
+    <Point><coordinates>73.19474000,33.59541667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-19 L block L park</name>
+    <description><![CDATA[site_id: WP-19<br/>survey_name: L block L park<br/>latitude: 33.59299500<br/>longitude: 73.19234667<br/>block_from_survey_name: L]]></description>
+    <Point><coordinates>73.19234667,33.59299500,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-20 L block street XYZ - no recording wifi camera</name>
+    <description><![CDATA[site_id: WP-20<br/>survey_name: L block street XYZ - no recording wifi camera<br/>latitude: 33.59076167<br/>longitude: 73.19007500<br/>cameras_per_name: 1<br/>block_from_survey_name: L<br/>notes: wifi camera, no recording]]></description>
+    <Point><coordinates>73.19007500,33.59076167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-21 L block Street XYZ  * 2 Camera</name>
+    <description><![CDATA[site_id: WP-21<br/>survey_name: L block Street XYZ  * 2 Camera<br/>latitude: 33.58668000<br/>longitude: 73.19138500<br/>cameras_per_name: 2<br/>block_from_survey_name: L]]></description>
+    <Point><coordinates>73.19138500,33.58668000,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-22 Commercial 4 * 2 Camera</name>
+    <description><![CDATA[site_id: WP-22<br/>survey_name: Commercial 4 * 2 Camera<br/>latitude: 33.58644833<br/>longitude: 73.19508000<br/>cameras_per_name: 2]]></description>
+    <Point><coordinates>73.19508000,33.58644833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-23 A Chowk 3 camera</name>
+    <description><![CDATA[site_id: WP-23<br/>survey_name: A Chowk 3 camera<br/>latitude: 33.57283500<br/>longitude: 73.19194667<br/>cameras_per_name: 3<br/>osm_road: Road A]]></description>
+    <Point><coordinates>73.19194667,33.57283500,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-24 Old allied bank 2 camera</name>
+    <description><![CDATA[site_id: WP-24<br/>survey_name: Old allied bank 2 camera<br/>latitude: 33.57042500<br/>longitude: 73.19191333<br/>cameras_per_name: 2<br/>osm_road: Road A]]></description>
+    <Point><coordinates>73.19191333,33.57042500,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-25 Ramc 1 camera</name>
+    <description><![CDATA[site_id: WP-25<br/>survey_name: Ramc 1 camera<br/>latitude: 33.56936167<br/>longitude: 73.19235667<br/>cameras_per_name: 1]]></description>
+    <Point><coordinates>73.19235667,33.56936167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-26 bridal room 3 camera</name>
+    <description><![CDATA[site_id: WP-26<br/>survey_name: bridal room 3 camera<br/>latitude: 33.56933167<br/>longitude: 73.19366833<br/>cameras_per_name: 3]]></description>
+    <Point><coordinates>73.19366833,33.56933167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-27 C road 2 camera</name>
+    <description><![CDATA[site_id: WP-27<br/>survey_name: C road 2 camera<br/>latitude: 33.56878333<br/>longitude: 73.19185833<br/>cameras_per_name: 2<br/>osm_road: Road A]]></description>
+    <Point><coordinates>73.19185833,33.56878333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-28 Briane school 2 camera</name>
+    <description><![CDATA[site_id: WP-28<br/>survey_name: Briane school 2 camera<br/>latitude: 33.56820167<br/>longitude: 73.19184000<br/>cameras_per_name: 2<br/>osm_road: Road A]]></description>
+    <Point><coordinates>73.19184000,33.56820167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-29 Dancing Camera (Car drifting)* 2 camera, 1 towards uni one towards main</name>
+    <description><![CDATA[site_id: WP-29<br/>survey_name: Dancing Camera (Car drifting)* 2 camera, 1 towards uni one towards main<br/>latitude: 33.56752167<br/>longitude: 73.19002833<br/>cameras_per_name: 2<br/>notes: 1 towards uni, 1 towards main]]></description>
+    <Point><coordinates>73.19002833,33.56752167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-30 to be allowed camera</name>
+    <description><![CDATA[site_id: WP-30<br/>survey_name: to be allowed camera<br/>latitude: 33.56775500<br/>longitude: 73.19090000<br/>cameras_per_name: 1<br/>notes: not yet permitted/installed?]]></description>
+    <Point><coordinates>73.19090000,33.56775500,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-31 noor masjid*1 filter plant*1</name>
+    <description><![CDATA[site_id: WP-31<br/>survey_name: noor masjid*1 filter plant*1<br/>latitude: 33.57002667<br/>longitude: 73.18927667<br/>cameras_per_name: 2<br/>notes: noor masjid x1 + filter plant x1]]></description>
+    <Point><coordinates>73.18927667,33.57002667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-32 C park 2 camera</name>
+    <description><![CDATA[site_id: WP-32<br/>survey_name: C park 2 camera<br/>latitude: 33.57116167<br/>longitude: 73.19489833<br/>cameras_per_name: 2<br/>osm_block: Block C]]></description>
+    <Point><coordinates>73.19489833,33.57116167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-33 Commercial 2 , 2 camera</name>
+    <description><![CDATA[site_id: WP-33<br/>survey_name: Commercial 2 , 2 camera<br/>latitude: 33.56963000<br/>longitude: 73.20017833<br/>cameras_per_name: 2]]></description>
+    <Point><coordinates>73.20017833,33.56963000,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-34 commercial 2 exit 2 camera</name>
+    <description><![CDATA[site_id: WP-34<br/>survey_name: commercial 2 exit 2 camera<br/>latitude: 33.56948000<br/>longitude: 73.20125833<br/>cameras_per_name: 2]]></description>
+    <Point><coordinates>73.20125833,33.56948000,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-35 commercial 2 road entrance 2 camera</name>
+    <description><![CDATA[site_id: WP-35<br/>survey_name: commercial 2 road entrance 2 camera<br/>latitude: 33.56966333<br/>longitude: 73.20176833<br/>cameras_per_name: 2]]></description>
+    <Point><coordinates>73.20176833,33.56966333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-36 commercial 2 , 3 camera</name>
+    <description><![CDATA[site_id: WP-36<br/>survey_name: commercial 2 , 3 camera<br/>latitude: 33.56922000<br/>longitude: 73.20196167<br/>cameras_per_name: 3<br/>osm_road: Road Q]]></description>
+    <Point><coordinates>73.20196167,33.56922000,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-37 Japan gate</name>
+    <description><![CDATA[site_id: WP-37<br/>survey_name: Japan gate<br/>latitude: 33.56500333<br/>longitude: 73.20170833<br/>osm_road: Road Q]]></description>
+    <Point><coordinates>73.20170833,33.56500333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-38 R&amp;S Chowk  , 2 camera</name>
+    <description><![CDATA[site_id: WP-38<br/>survey_name: R&amp;S Chowk  , 2 camera<br/>latitude: 33.56768167<br/>longitude: 73.20449500<br/>cameras_per_name: 2<br/>osm_road: Road R]]></description>
+    <Point><coordinates>73.20449500,33.56768167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-39 17 C , camera</name>
+    <description><![CDATA[site_id: WP-39<br/>survey_name: 17 C , camera<br/>latitude: 33.56743333<br/>longitude: 73.20627333<br/>cameras_per_name: 1]]></description>
+    <Point><coordinates>73.20627333,33.56743333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-40 17 C camera this</name>
+    <description><![CDATA[site_id: WP-40<br/>survey_name: 17 C camera this<br/>latitude: 33.56552000<br/>longitude: 73.20614667<br/>cameras_per_name: 1]]></description>
+    <Point><coordinates>73.20614667,33.56552000,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-41 17 E</name>
+    <description><![CDATA[site_id: WP-41<br/>survey_name: 17 E<br/>latitude: 33.56709667<br/>longitude: 73.20755000]]></description>
+    <Point><coordinates>73.20755000,33.56709667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-42 Grave Yard</name>
+    <description><![CDATA[site_id: WP-42<br/>survey_name: Grave Yard<br/>latitude: 33.56743500<br/>longitude: 73.20759500]]></description>
+    <Point><coordinates>73.20759500,33.56743500,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-43 Kangota</name>
+    <description><![CDATA[site_id: WP-43<br/>survey_name: Kangota<br/>latitude: 33.56751667<br/>longitude: 73.20812333<br/>osm_road: Road R]]></description>
+    <Point><coordinates>73.20812333,33.56751667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-44 mini market</name>
+    <description><![CDATA[site_id: WP-44<br/>survey_name: mini market<br/>latitude: 33.57010833<br/>longitude: 73.20971333]]></description>
+    <Point><coordinates>73.20971333,33.57010833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-45 wali dan masjid 2 camera (1 front 1 backside</name>
+    <description><![CDATA[site_id: WP-45<br/>survey_name: wali dan masjid 2 camera (1 front 1 backside<br/>latitude: 33.57205833<br/>longitude: 73.21057833<br/>cameras_per_name: 2<br/>notes: 1 front, 1 back]]></description>
+    <Point><coordinates>73.21057833,33.57205833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-46 F&amp;S Chowk 2 camera</name>
+    <description><![CDATA[site_id: WP-46<br/>survey_name: F&amp;S Chowk 2 camera<br/>latitude: 33.57247667<br/>longitude: 73.20602333<br/>cameras_per_name: 2<br/>osm_road: Road F<br/>osm_block: Block C]]></description>
+    <Point><coordinates>73.20602333,33.57247667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-47 Q Chowk</name>
+    <description><![CDATA[site_id: WP-47<br/>survey_name: Q Chowk<br/>latitude: 33.57261333<br/>longitude: 73.20241333<br/>osm_road: Road F<br/>osm_block: Block C]]></description>
+    <Point><coordinates>73.20241333,33.57261333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-48 bhatta gate</name>
+    <description><![CDATA[site_id: WP-48<br/>survey_name: bhatta gate<br/>latitude: 33.57484000<br/>longitude: 73.20224167]]></description>
+    <Point><coordinates>73.20224167,33.57484000,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-49 bhatta gate service road</name>
+    <description><![CDATA[site_id: WP-49<br/>survey_name: bhatta gate service road<br/>latitude: 33.57501667<br/>longitude: 73.20218667]]></description>
+    <Point><coordinates>73.20218667,33.57501667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-50 Muhammad masjid 2 camera</name>
+    <description><![CDATA[site_id: WP-50<br/>survey_name: Muhammad masjid 2 camera<br/>latitude: 33.57510333<br/>longitude: 73.20116833<br/>cameras_per_name: 2]]></description>
+    <Point><coordinates>73.20116833,33.57510333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-51 Speed Radar 1 camera</name>
+    <description><![CDATA[site_id: WP-51<br/>survey_name: Speed Radar 1 camera<br/>latitude: 33.57519167<br/>longitude: 73.19929167<br/>cameras_per_name: 1]]></description>
+    <Point><coordinates>73.19929167,33.57519167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-52 anchor mall 2 camera</name>
+    <description><![CDATA[site_id: WP-52<br/>survey_name: anchor mall 2 camera<br/>latitude: 33.57522333<br/>longitude: 73.19823833<br/>cameras_per_name: 2]]></description>
+    <Point><coordinates>73.19823833,33.57522333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-53 liaqat gate 3 camera gate 3 ca</name>
+    <description><![CDATA[site_id: WP-53<br/>survey_name: liaqat gate 3 camera gate 3 ca<br/>latitude: 33.57925833<br/>longitude: 73.19643167<br/>cameras_per_name: 3<br/>notes: name truncated in survey - may be more than 3]]></description>
+    <Point><coordinates>73.19643167,33.57925833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-54 ptz water tank camera</name>
+    <description><![CDATA[site_id: WP-54<br/>survey_name: ptz water tank camera<br/>latitude: 33.57916333<br/>longitude: 73.19474333<br/>cameras_per_name: 1]]></description>
+    <Point><coordinates>73.19474333,33.57916333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>WP-55 katimun nabiyyeen masjid ptz</name>
+    <description><![CDATA[site_id: WP-55<br/>survey_name: katimun nabiyyeen masjid ptz<br/>latitude: 33.58586500<br/>longitude: 73.19487500<br/>cameras_per_name: 1]]></description>
+    <Point><coordinates>73.19487500,33.58586500,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

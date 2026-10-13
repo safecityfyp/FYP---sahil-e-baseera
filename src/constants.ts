@@ -17,6 +17,7 @@ export const STORAGE_KEYS = {
   firedEvents: 'safecity.firedEvents.v2',
   severityOverrides: 'safecity.severityOverrides.v2',
   cameraPins: 'safecity.cameraPins.v2',
+  cameraSites: 'safecity.cameraSites.v1',
   cameraVideoUrl: 'safecity.cameraVideoUrl.v2',
   mapImage: 'safecity.mapImage.v2',
   cameras: 'safecity.cameras.v2',
@@ -36,7 +37,7 @@ export const SEVERITY_META: Record<
 > = {
   high: {
     label: 'CRITICAL',
-    color: '#F43F5E',
+    color: '#EF4444',
     ring: 'ring-danger/60',
     text: 'text-danger',
     dot: 'bg-danger',
@@ -52,7 +53,7 @@ export const SEVERITY_META: Record<
   },
   low: {
     label: 'ADVISORY',
-    color: '#38BDF8',
+    color: '#3B82F6',
     ring: 'ring-info/50',
     text: 'text-info',
     dot: 'bg-info',
@@ -67,7 +68,7 @@ export const CATEGORY_META: Record<
   traffic: {
     title: 'Traffic & Vehicle Monitoring',
     subtitle: 'Corridor enforcement, ANPR, radar speed, and parking control',
-    color: '#0EA5E9',
+    color: '#16B8D4',
     badge: 'bg-cyan-500/15 text-cyan-400 border-cyan-500/30',
     border: 'border-cyan-500/30',
     bg: 'from-cyan-500/10 to-transparent',

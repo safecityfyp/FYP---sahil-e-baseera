@@ -9,16 +9,10 @@ import {
   Maximize2,
   ScanLine,
   LayoutDashboard,
-  Clock,
-  X,
-  Check,
-  MessageCircle,
-  ExternalLink,
 } from 'lucide-react'
 import { useApp } from '../../store/AppContext'
-import type { ActivityEntry } from '../../store/AppContext'
 import type { LayoutId } from '../../types'
-import { SEVERITY_META, DUTY_OFFICER } from '../../constants'
+import { SEVERITY_META } from '../../constants'
 import ModelBadge from '../ui/ModelBadge'
 import ForensicPanel from '../forensics/ForensicPanel'
 
@@ -107,82 +101,7 @@ function relTime(firedAt: number): string {
   return `${Math.floor(diff / 3600)}h ago`
 }
 
-function waLink(entry: ActivityEntry): string {
-  const label = entry.severity === 'medium' ? '⚠️ WARNING' : 'ℹ️ ADVISORY'
-  const msg = `${label} — Naval Anchorage SafeCity\n${entry.event}\nCAM ${entry.cameraIndex} · ${entry.zone}\n${new Date(entry.firedAt).toLocaleString('en-GB', { hour12: false })}`
-  return `https://wa.me/${DUTY_OFFICER.whatsapp}?text=${encodeURIComponent(msg)}`
-}
 
-/* ── Activity Feed entry ───────────────────────────────────────────────────── */
-function FeedEntry({
-  entry,
-  onDismiss,
-  onAcknowledge,
-}: {
-  entry: ActivityEntry
-  onDismiss: (id: string) => void
-  onAcknowledge: (id: string) => void
-}) {
-  const sev = SEVERITY_META[entry.severity]
-
-  return (
-    <div
-      className="animate-toast-in flex flex-col gap-1.5 rounded-lg border px-3 py-2 text-[11px] shadow-lg backdrop-blur-sm"
-      style={{ borderColor: `${sev.color}60`, backgroundColor: `${sev.color}12` }}
-    >
-      {/* Header row */}
-      <div className="flex items-start gap-2">
-        <div
-          className="mt-0.5 h-2 w-2 flex-shrink-0 rounded-full"
-          style={{ backgroundColor: sev.color }}
-        />
-        <div className="min-w-0 flex-1">
-          <div className="font-bold leading-tight" style={{ color: sev.color }}>
-            {entry.event}
-          </div>
-          <div className="truncate text-slate-400">
-            CAM {entry.cameraIndex} · {entry.zone}
-          </div>
-          <div className="mt-0.5 flex items-center gap-1 text-slate-500">
-            <Clock className="h-2.5 w-2.5" />
-            {relTime(entry.firedAt)}
-          </div>
-        </div>
-        {/* Quick dismiss */}
-        <button
-          onClick={() => onDismiss(entry.id)}
-          className="flex-shrink-0 text-slate-600 hover:text-white transition"
-          title="Dismiss"
-        >
-          <X className="h-3 w-3" />
-        </button>
-      </div>
-
-      {/* Action row — WhatsApp + Acknowledge */}
-      <div className="flex items-center gap-1.5 border-t pt-1.5" style={{ borderColor: `${sev.color}30` }}>
-        <a
-          href={waLink(entry)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex flex-1 items-center justify-center gap-1 rounded border border-green-700/50 bg-green-900/30 px-2 py-0.5 text-[9px] font-semibold text-green-400 hover:bg-green-900/50 transition"
-          title="Notify duty officer via WhatsApp"
-        >
-          <MessageCircle className="h-2.5 w-2.5" />
-          WhatsApp
-          <ExternalLink className="h-2 w-2 opacity-60" />
-        </a>
-        <button
-          onClick={() => onAcknowledge(entry.id)}
-          className="flex flex-1 items-center justify-center gap-1 rounded border border-cyan/40 bg-cyan/10 px-2 py-0.5 text-[9px] font-semibold text-cyan hover:bg-cyan/20 transition"
-          title="Acknowledge this event"
-        >
-          <Check className="h-2.5 w-2.5" />
-          Acknowledge
-        </button>
-      </div>
-    </div>
-  )
-}
 
 /* ── Main component ─────────────────────────────────────────────────────────── */
 export default function LiveWall() {
@@ -198,11 +117,8 @@ export default function LiveWall() {
     speed,
     setSpeed,
     openForensic,
-    closeForensic,        // ✅ BUG-1 FIX: was missing from destructuring
+    closeForensic,
     forensicCameraId,
-    activityFeed,
-    dismissFeedEntry,
-    acknowledgeIncident,
     mountCustomVideo,
   } = useApp()
 
@@ -251,18 +167,7 @@ export default function LiveWall() {
       ? { gridTemplateRows: 'repeat(2, minmax(0, 1fr))' }
       : {}
 
-  /* ── Acknowledge helper for feed entries ─────────────────────────────────── */
-  const handleAcknowledge = useCallback(
-    (feedId: string) => {
-      // Feed id format: "feed-{incidentId}"  — extract the incident id
-      const incidentId = feedId.replace(/^feed-/, '')
-      acknowledgeIncident(incidentId)
-      // dismissFeedEntry is called inside acknowledgeIncident via AppContext
-    },
-    [acknowledgeIncident],
-  )
 
-  const feedEntries = activityFeed.slice(0, 10)
 
   return (
     <main className="relative flex min-h-0 flex-1 flex-col gap-3 overflow-hidden bg-base p-4">
@@ -533,31 +438,7 @@ export default function LiveWall() {
         </div>
       )}
 
-      {/* ── Activity feed (non-critical events) — bottom-right ──────────────── */}
-      {feedEntries.length > 0 && (
-        <div className="pointer-events-auto fixed bottom-4 right-4 z-30 flex w-72 flex-col gap-1.5">
-          <div className="mb-0.5 flex items-center justify-between">
-            <span className="text-[9px] font-bold uppercase tracking-widest text-slate-500">
-              Activity Feed
-            </span>
-            <button
-              onClick={() => feedEntries.forEach((e) => dismissFeedEntry(e.id))}
-              className="text-[9px] text-slate-600 hover:text-slate-400 transition"
-              title="Clear all"
-            >
-              Clear all
-            </button>
-          </div>
-          {feedEntries.map((entry) => (
-            <FeedEntry
-              key={entry.id}
-              entry={entry}
-              onDismiss={dismissFeedEntry}
-              onAcknowledge={handleAcknowledge}
-            />
-          ))}
-        </div>
-      )}
+
 
     </main>
   )

@@ -16,12 +16,13 @@ function MainContent() {
   const { tab, forensicCameraId } = useApp()
 
   switch (tab) {
-    case 'overview':
-      return <OverviewPage />
+
     case 'wall':
       return <LiveWall />
     case 'map':
       return <TacticalMap />
+    case 'overview':
+      return <OverviewPage />
     case 'models':
       return <ModelsHub />
     case 'forensics':
@@ -29,7 +30,7 @@ function MainContent() {
         <div className="flex-1 p-6 overflow-y-auto">
           <ForensicPanel
             cameraId={forensicCameraId || 'CAM-01'}
-            onClose={() => {}}
+            onClose={() => { }}
           />
         </div>
       )

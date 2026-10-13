@@ -3,34 +3,45 @@
 @tailwind utilities;
 
 /* ==========================================================================
-   SAHIL-E-BASEERA - NEOMORPHIC DESIGN SYSTEM (DARK & LIGHT)
+   SAHIL-E-BASEERA - COMMAND CENTER DESIGN SYSTEM (DARK & LIGHT)
+   Dark palette: primary bg #080F1C · secondary #111D2E · cards #17263A ·
+   accent #16B8D4 / #3B82F6 · text #F1F5F9 / #94A3B8 · borders #293B52
    ========================================================================== */
 
 :root,
 .dark,
 [data-theme="dark"] {
   color-scheme: dark;
-  --bg-base: #060d19;
-  --bg-deep: #0a1526;
-  --bg-surface: #0d1a2d;
-  --bg-surface2: #12233c;
-  --bg-panel: #0e1d33;
-  --border-edge: #192f4c;
-  --border-edge2: #223f66;
+  --bg-base: #080f1c;
+  --bg-deep: #111d2e;
+  --bg-surface: #17263a;
+  --bg-surface2: #1c2e45;
+  --bg-panel: #17263a;
+  --border-edge: #293b52;
+  --border-edge2: #354b66;
+
+  /* RGB channels for Tailwind tokens (enable opacity modifiers like bg-surface/60) */
+  --c-base: 8 15 28;
+  --c-deep: 17 29 46;
+  --c-surface: 23 38 58;
+  --c-surface2: 28 46 69;
+  --c-panel: 23 38 58;
+  --c-edge: 41 59 82;
+  --c-edge2: 53 75 102;
 
   --text-main: #f1f5f9;
   --text-sub: #94a3b8;
   --text-muted: #64748b;
 
-  /* Dark Neomorphism Dual Shadows */
-  --neo-raised: -4px -4px 10px rgba(25, 45, 75, 0.35), 4px 4px 14px rgba(0, 0, 0, 0.75);
-  --neo-raised-sm: -2px -2px 6px rgba(25, 45, 75, 0.3), 3px 3px 8px rgba(0, 0, 0, 0.65);
-  --neo-inset: inset -3px -3px 7px rgba(25, 45, 75, 0.4), inset 3px 3px 7px rgba(0, 0, 0, 0.75);
-  --neo-inset-sm: inset -2px -2px 4px rgba(25, 45, 75, 0.4), inset 2px 2px 4px rgba(0, 0, 0, 0.7);
+  /* Restrained elevation (flat surfaces + soft drop shadow) */
+  --neo-raised: 0 1px 2px rgba(0, 0, 0, 0.35), 0 6px 16px rgba(0, 0, 0, 0.28);
+  --neo-raised-sm: 0 1px 2px rgba(0, 0, 0, 0.3), 0 3px 8px rgba(0, 0, 0, 0.22);
+  --neo-inset: inset 0 1px 3px rgba(0, 0, 0, 0.45);
+  --neo-inset-sm: inset 0 1px 2px rgba(0, 0, 0, 0.4);
 
-  --header-bg: #0a1526;
-  --sidebar-bg: #08111f;
-  --card-bg: #0d1a2d;
+  --header-bg: #111d2e;
+  --sidebar-bg: #111d2e;
+  --card-bg: #17263a;
 }
 
 .light,
@@ -43,6 +54,14 @@
   --bg-panel: #eef3f9;
   --border-edge: rgba(163, 177, 198, 0.4);
   --border-edge2: rgba(163, 177, 198, 0.55);
+
+  --c-base: 234 239 247;
+  --c-deep: 238 243 249;
+  --c-surface: 238 243 249;
+  --c-surface2: 226 234 245;
+  --c-panel: 238 243 249;
+  --c-edge: 163 177 198;
+  --c-edge2: 163 177 198;
 
   --text-main: #0f172a;
   --text-sub: #334155;
@@ -71,8 +90,8 @@ body,
 }
 
 body {
-  font-family: 'Rajdhani', Inter, system-ui, sans-serif;
-  letter-spacing: 0.01em;
+  font-family: Inter, 'Segoe UI', system-ui, sans-serif;
+  letter-spacing: 0;
   background-color: var(--bg-base);
   color: var(--text-main);
   transition: background-color 0.25s ease, color 0.25s ease;
@@ -87,11 +106,11 @@ body {
   background: transparent;
 }
 .dark ::-webkit-scrollbar-thumb {
-  background: #1b324f;
+  background: #293b52;
   border-radius: 8px;
 }
 .dark ::-webkit-scrollbar-thumb:hover {
-  background: #24466b;
+  background: #3a5172;
 }
 .light ::-webkit-scrollbar-thumb {
   background: #cbd5e1;
@@ -150,15 +169,16 @@ body {
 }
 
 .neo-btn-primary {
-  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+  background: #1597b0;
   color: #ffffff;
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   border-radius: 12px;
   border: none;
   transition: all 0.2s ease;
 }
 .neo-btn-primary:hover:not(:disabled) {
-  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.45);
+  background: #16b8d4;
+  box-shadow: 0 2px 8px rgba(22, 184, 212, 0.25);
   transform: translateY(-1px);
 }
 .neo-btn-primary:active:not(:disabled) {
@@ -180,7 +200,7 @@ body {
 .neo-nav-btn.active {
   background-color: var(--bg-surface2);
   box-shadow: var(--neo-inset-sm);
-  border-color: rgba(59, 130, 246, 0.4);
+  border-color: rgba(22, 184, 212, 0.45);
 }
 
 /* Range input slider styling */
@@ -202,20 +222,32 @@ input[type="range"]::-webkit-slider-thumb {
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background: #3b82f6;
-  box-shadow: 0 2px 6px rgba(59, 130, 246, 0.5);
+  background: #16b8d4;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
   margin-top: -6px;
   cursor: pointer;
   transition: transform 0.15s ease, background-color 0.15s ease;
 }
 input[type="range"]::-webkit-slider-thumb:hover {
   transform: scale(1.2);
-  background: #2563eb;
+  background: #3b82f6;
 }
 
 @layer components {
   .hud-label {
-    @apply font-display uppercase tracking-[0.16em];
+    @apply font-display font-semibold uppercase tracking-[0.12em];
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-edge bg-surface px-3 py-1.5 font-sans text-xs font-semibold text-slate-200 transition-all hover:bg-surface2 hover:text-white hover:border-edge2 active:scale-95 disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-gold/50 bg-gold/20 px-3 py-1.5 font-sans text-xs font-semibold text-gold-soft transition-all hover:bg-gold/30 hover:border-gold hover:text-white active:scale-95 disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-icon {
+    @apply inline-flex items-center justify-center rounded-lg border border-edge bg-surface p-1.5 text-slate-400 transition-all hover:border-edge2 hover:bg-surface2 hover:text-white active:scale-95 disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-xs font-medium whitespace-nowrap;
   }
 }
 
@@ -265,9 +297,39 @@ input[type="range"]::-webkit-slider-thumb:hover {
   background-color: #f4f8fd !important;
 }
 
+.light .btn-gold {
+  background-color: #e0f6fa !important;
+  border-color: #16b8d4 !important;
+  color: #0e6f82 !important;
+  box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.95), 3px 3px 7px rgba(163, 177, 198, 0.45) !important;
+}
+.light .btn-gold:hover {
+  background-color: #c7eef6 !important;
+}
+
+.light .btn-icon {
+  background-color: #eef3f9 !important;
+  border-color: rgba(163, 177, 198, 0.45) !important;
+  color: #475569 !important;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.95), 2px 2px 5px rgba(163, 177, 198, 0.4) !important;
+}
+.light .btn-icon:hover {
+  background-color: #f4f8fd !important;
+  color: #0f172a !important;
+}
+
 .light .border-edge {
   border-color: rgba(163, 177, 198, 0.4) !important;
 }
 .light .border-edge2 {
   border-color: rgba(163, 177, 198, 0.55) !important;
+}
+
+/* Accent text needs a deeper cyan for contrast on light surfaces */
+.light .text-gold-soft,
+.light .text-gold {
+  color: #0e7490 !important;
+}
+.light .text-cyan {
+  color: #0e6f82 !important;
 }

@@ -685,7 +685,7 @@ export default function ModelsHub() {
               <path
                 d="M 20 100 A 80 80 0 0 1 100 20"
                 fill="none"
-                stroke="#10b981"
+                stroke="#22C55E"
                 strokeWidth="14"
                 strokeLinecap="round"
               />
@@ -693,7 +693,7 @@ export default function ModelsHub() {
               <path
                 d="M 100 20 A 80 80 0 0 1 180 100"
                 fill="none"
-                stroke="#f43f5e"
+                stroke="#EF4444"
                 strokeWidth="14"
                 strokeLinecap="round"
               />

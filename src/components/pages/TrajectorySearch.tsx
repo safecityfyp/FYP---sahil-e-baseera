@@ -132,7 +132,7 @@ export default function TrajectorySearch() {
                 </thead>
                 <tbody className="divide-y divide-edge/30">
                   {results.map((inc) => (
-                    <tr key={inc.id} className="hover:bg-steel/10 transition">
+                    <tr key={inc.id} className="even:bg-white/[0.02] hover:bg-steel/10 transition">
                       <td className="px-3 py-2 font-mono text-[10px] text-slate-400">
                         {new Date(inc.firedAt).toLocaleString('en-GB', { hour12: false })}
                       </td>

@@ -21,11 +21,12 @@ interface NavItem {
 }
 
 const TABS: NavItem[] = [
-  { id: 'overview', label: 'Main Safety Overview', icon: LayoutDashboard, desc: 'Command Center & KPIs' },
-  { id: 'models', label: 'Vehicle Speed Radar', icon: Gauge, desc: 'Live Radar & Speed Limit Slider' },
-  { id: 'models', label: 'Number Plate Scanner', icon: ScanLine, desc: 'ANPR & Fast OCR' },
   { id: 'wall', label: 'Live Wall Surveillance', icon: Monitor, desc: 'Multi-Camera Stream Grid' },
   { id: 'map', label: 'GIS Tactical Map', icon: MapPin, desc: 'Society Nodes & Coordinates' },
+  { id: 'models', label: 'Number Plate Scanner', icon: ScanLine, desc: 'ANPR & Fast OCR' },
+  { id: 'overview', label: 'Main Safety Overview', icon: LayoutDashboard, desc: 'Command Center & KPIs' },
+  { id: 'models', label: 'Vehicle Speed Radar', icon: Gauge, desc: 'Live Radar & Speed Limit Slider' },
+
   { id: 'forensics', label: 'Forensics & Evidence', icon: Search, desc: 'Video Playback Inspection' },
   { id: 'trajectory', label: 'Re-ID Trajectory Search', icon: Route, desc: 'Multi-Camera Tracking' },
   { id: 'incidents', label: 'Incident Log & Alerts', icon: AlertCircle, desc: 'E-Challans & SOS Reports' },
@@ -38,9 +39,8 @@ export default function Sidebar() {
 
   return (
     <aside
-      className={`flex flex-col select-none shrink-0 transition-all duration-300 ease-in-out border-r border-edge ${
-        sidebarCollapsed ? 'w-20 px-2 py-4' : 'w-64 px-3 py-4'
-      }`}
+      className={`flex flex-col select-none shrink-0 transition-all duration-300 ease-in-out border-r border-edge ${sidebarCollapsed ? 'w-20 px-2 py-4' : 'w-64 px-3 py-4'
+        }`}
     >
       {/* Title / Mini Header */}
       {sidebarCollapsed ? (
@@ -71,28 +71,23 @@ export default function Sidebar() {
             <button
               key={`${id}-${idx}`}
               onClick={() => setTab(id)}
-              className={`w-full relative flex items-center transition-all ${
-                sidebarCollapsed
-                  ? 'justify-center p-3 rounded-2xl'
-                  : 'justify-between gap-3 px-3.5 py-3 rounded-2xl text-left'
-              } ${
-                active
+              className={`w-full relative flex items-center transition-all ${sidebarCollapsed
+                ? 'justify-center p-3 rounded-2xl'
+                : 'justify-between gap-3 px-3.5 py-3 rounded-2xl text-left'
+                } ${active
                   ? 'neo-inset-sm font-bold text-blue-600 dark:text-cyan-400 border border-blue-400/40 dark:border-cyan-500/40'
                   : 'neo-btn text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-white'
-              }`}
+                }`}
               title={sidebarCollapsed ? `${label} (${desc})` : desc}
             >
               <div
-                className={`flex items-center min-w-0 ${
-                  sidebarCollapsed ? 'justify-center' : 'gap-3'
-                }`}
+                className={`flex items-center min-w-0 ${sidebarCollapsed ? 'justify-center' : 'gap-3'
+                  }`}
               >
                 <Icon
-                  className={`flex-shrink-0 transition-transform ${
-                    sidebarCollapsed ? 'h-5 w-5' : 'h-4.5 w-4.5'
-                  } ${
-                    active ? 'text-blue-600 dark:text-cyan-400 scale-105' : 'text-slate-400'
-                  }`}
+                  className={`flex-shrink-0 transition-transform ${sidebarCollapsed ? 'h-5 w-5' : 'h-4.5 w-4.5'
+                    } ${active ? 'text-blue-600 dark:text-cyan-400 scale-105' : 'text-slate-400'
+                    }`}
                 />
                 {!sidebarCollapsed && (
                   <div className="truncate min-w-0">
@@ -109,11 +104,10 @@ export default function Sidebar() {
               {/* Badges */}
               {hasCritical && (
                 <span
-                  className={`inline-flex items-center justify-center rounded-full bg-rose-500 font-bold text-white shadow-sm animate-pulse ${
-                    sidebarCollapsed
-                      ? 'absolute -top-1 -right-1 h-5 w-5 text-[9px]'
-                      : 'px-2 py-0.5 text-[10px]'
-                  }`}
+                  className={`inline-flex items-center justify-center rounded-full bg-rose-500 font-bold text-white shadow-sm animate-pulse ${sidebarCollapsed
+                    ? 'absolute -top-1 -right-1 h-5 w-5 text-[9px]'
+                    : 'px-2 py-0.5 text-[10px]'
+                    }`}
                 >
                   {criticalCount}
                 </span>
