@@ -1,0 +1,19 @@
+# Main boulevard (divided carriageway). No zones needed - flow is learned.
+# Zones below only add certainty from minute one on the critical stretch.
+id: cam_001
+name: Main Boulevard - Gate 1 northbound
+url: rtsp://user:pass@10.10.1.11:554/Streaming/Channels/102   # sub-stream
+road_profile: main_road
+zones:
+  - name: nb_carriageway
+    type: one_way
+    polygon: [[0.05, 0.55], [0.47, 0.42], [0.49, 1.0], [0.0, 1.0]]
+    direction: [[0.25, 0.95], [0.40, 0.50]]      # legal travel: tail -> head
+  - name: fuel_station_apron
+    type: ignore
+    polygon: [[0.0, 0.3], [0.2, 0.3], [0.2, 0.55], [0.0, 0.55]]
+overrides:
+  - zone: nb_carriageway
+    mode: suppress
+    reason: Friday prayers contraflow
+    schedule: {days: [fri], start: "12:45", end: "14:15"}

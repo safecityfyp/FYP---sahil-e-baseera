@@ -1,0 +1,10 @@
+id: cam_014
+name: Roundabout - Sector C
+url: rtsp://user:pass@10.10.1.24:554/cam/realmonitor?channel=1&subtype=1
+road_profile: roundabout
+zones:
+  - name: rbt_ring
+    type: roundabout
+    polygon: [[0.30, 0.25], [0.72, 0.25], [0.80, 0.70], [0.22, 0.70]]
+    center: [0.51, 0.47]
+    rotation: auto               # learned; falls back to clockwise (left-hand traffic)

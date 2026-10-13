@@ -1,0 +1,6 @@
+numpy>=1.24
+scipy>=1.10
+opencv-python-headless>=4.8
+PyYAML>=6.0
+# detector backend (GPU server). Install torch matching your CUDA first: https://pytorch.org
+ultralytics>=8.3

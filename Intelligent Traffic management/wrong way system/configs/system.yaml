@@ -1,0 +1,36 @@
+# Naval Anchorage - wrong-way detection, system configuration.
+# Every key is optional; defaults are in wrongway/config.py.
+
+detector:
+  backend: ultralytics          # "none" if detections/tracks come from the existing AI pipeline
+  model: models/yolo11s.engine  # export with: python -m wrongway export-model --model yolo11s.pt
+  imgsz: 640
+  conf: 0.20
+  half: true
+  device: "cuda:0"
+  batch_size: 16
+  classes: {2: car, 3: motorcycle, 5: bus, 7: truck}
+
+tracker:
+  max_lost_s: 1.5
+
+flow:
+  min_learning_s: 1800          # 30 min of observed traffic before learned cells may alert
+  slow_half_life_h: 72
+  contraflow_adapt: true        # auto-suppress during temporary diversions (operator is informed)
+
+judge:
+  min_wrong_path_bodies: 5.0
+  min_wrong_time_s: 1.2
+
+runtime:
+  process_fps: 6
+  idle_fps: 2
+  motion_gate: true
+  state_dir: /var/lib/wrongway/state
+  events_dir: /var/lib/wrongway/events
+  api_port: 8088
+  webhook_url: null             # e.g. http://naval-ai.local/api/events/wrong-way
+  traffic_side: left            # Pakistan
+
+cameras_dir: cameras            # one YAML per camera

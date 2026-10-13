@@ -1,0 +1,15 @@
+# systemd unit, one per shard: copy to /etc/systemd/system/wrongway@.service
+# enable with: systemctl enable --now wrongway@0 (and wrongway@1 ... for more shards; set N below)
+[Unit]
+Description=Naval Anchorage wrong-way detection shard %i
+After=network-online.target
+
+[Service]
+WorkingDirectory=/opt/wrongway
+ExecStart=/usr/bin/python3 -m wrongway run -c /opt/wrongway/configs/system.yaml --shard %i/1
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

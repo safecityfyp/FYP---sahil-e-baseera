@@ -1,0 +1,34 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Testing & linting
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+.venv*/
+env/
+venv/
+
+# Model engines & weights (downloaded or exported at runtime)
+*.engine
+*.pt
+*.onnx
+
+# Runtime media & recorded video
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# Camera output logs & snapshots
+out_cam*/
+*.log
+*.jsonl
