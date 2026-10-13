@@ -1,0 +1,24 @@
+# Python virtual environments & cache
+__pycache__/
+*.py[cod]
+.venv/
+.venv*/
+env/
+
+# Large binaries & media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+*.tar.gz
+
+# Pipeline runtime outputs
+cropped_plates/
+output_annotated.mp4
+plate_log.csv
+plate_raw_reads.csv
+plate_summary.csv
+
+# Large model weights exceeding GitHub 100MB limit
+license-plate-finetune-v1x.pt
