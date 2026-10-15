@@ -1,0 +1,2910 @@
+{
+  "MercedesAMG550_100.MP4": {
+    "estimated_kmh": 101.86355333482135,
+    "trajectory_rms_m": 0.5727070091112519,
+    "time_interval_s": [
+      3.5035000000000003,
+      4.471133333333333
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.1544152420377007,
+        -0.14958386306006397,
+        15.652590483061084
+      ],
+      [
+        0.000474796747201656,
+        0.05993542685962232,
+        -37.31000746664387
+      ],
+      [
+        0.004070600378461745,
+        0.0010745466038150138,
+        -1.705693628219564
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1452.503763272505,
+        865.0612869241183
+      ],
+      [
+        1297.5809661733795,
+        894.3696428171205
+      ],
+      [
+        1102.995897193893,
+        899.5199664732614
+      ],
+      [
+        953.5719351796557,
+        877.7984036989619
+      ],
+      [
+        773.6046278591994,
+        804.462462310467
+      ],
+      [
+        421.53194825000725,
+        595.0748926192273
+      ],
+      [
+        411.5082432718187,
+        586.1147350094143
+      ],
+      [
+        409.72627718973587,
+        583.0310275657648
+      ],
+      [
+        409.14158138553086,
+        581.991723698089
+      ],
+      [
+        456.67414664530395,
+        585.7449734364404
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 131,
+      "inliers": 129,
+      "road_coverage": 0.1784584959658021,
+      "alignment_rms_pixels_at_960": 0.6373829975460662,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 30,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_105.MP4": {
+    "estimated_kmh": 100.45759466158479,
+    "trajectory_rms_m": 0.4080330740452926,
+    "time_interval_s": [
+      3.4701333333333335,
+      4.371033333333333
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.15466158013858186,
+        -0.14872668559722702,
+        -6.374060051737688
+      ],
+      [
+        -0.0005884692949446508,
+        0.05884132178304504,
+        -36.170198618100514
+      ],
+      [
+        0.004006738031402475,
+        0.0009343022063661437,
+        -2.1878769749148974
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1575.3695735533047,
+        879.6616065492883
+      ],
+      [
+        1420.381494175278,
+        904.3234669408452
+      ],
+      [
+        1228.8031225665727,
+        904.8969965328037
+      ],
+      [
+        1083.1771447114008,
+        880.9181680675885
+      ],
+      [
+        908.526969446806,
+        806.9534774164232
+      ],
+      [
+        563.3791886531908,
+        596.6631904450237
+      ],
+      [
+        553.4027086579912,
+        587.6620045684152
+      ],
+      [
+        551.6006002532428,
+        584.5904433470964
+      ],
+      [
+        551.008631858708,
+        583.5552292277567
+      ],
+      [
+        597.6671276714319,
+        588.0665557619207
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 179,
+      "inliers": 175,
+      "road_coverage": 0.21654065303949602,
+      "alignment_rms_pixels_at_960": 0.5760298229599614,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 27,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_30.MP4": {
+    "estimated_kmh": 30.555572220935886,
+    "trajectory_rms_m": 0.7618634053264364,
+    "time_interval_s": [
+      1.9352666666666667,
+      4.4044
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.1599491153504546,
+        -0.15379978602984645,
+        -9.035538652970814
+      ],
+      [
+        -4.574156411883498e-17,
+        0.060671650532143406,
+        -39.11784959918324
+      ],
+      [
+        0.004192682405155691,
+        0.0010355710959124437,
+        -2.50381775861868
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1640.6274414062498,
+        904.2709350585939
+      ],
+      [
+        1483.3035888671877,
+        932.2748413085938
+      ],
+      [
+        1286.074584960938,
+        934.9963378906249
+      ],
+      [
+        1134.9891357421884,
+        910.9887695312501
+      ],
+      [
+        953.2894897460947,
+        834.5346069335939
+      ],
+      [
+        600.8797607421877,
+        620.6361694335932
+      ],
+      [
+        590.8878173828126,
+        611.5972290039056
+      ],
+      [
+        589.0911865234376,
+        608.4996948242182
+      ],
+      [
+        588.5013427734376,
+        607.4559326171869
+      ],
+      [
+        635.3618774414066,
+        611.5600585937494
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 866,
+      "inliers": 866,
+      "road_coverage": 0.283552913288302,
+      "alignment_rms_pixels_at_960": 3.0953236805997763e-13,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 75,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_33.MP4": {
+    "available": true,
+    "raw_kmh": 24.113041129842784,
+    "estimated_kmh": 24.113041129842784,
+    "time_interval_s": [
+      3.036366666666667,
+      5.472133333333334
+    ],
+    "observations": 74,
+    "track_id": 1,
+    "mapping": [
+      [
+        2.151193102716732,
+        -3.212955335922943,
+        709.9721181484516
+      ],
+      [
+        0.29816522488389774,
+        20.491675920226882,
+        -9977.610438455291
+      ],
+      [
+        -0.008537226456070432,
+        0.9999635572181806,
+        -271.85178062181427
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 74,
+      "median_angle_error_deg": 2.69179268226636,
+      "median_length_m": 4.899999906744438,
+      "median_width_m": 2.0276691848513826,
+      "parameter_condition_number": 28.80096437192758,
+      "optimizer_success": true,
+      "theta": [
+        -0.03927990663846589,
+        4.60084728588513,
+        -2.2443860693917435,
+        -0.014656718427331619
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 24.113041129842784,
+      "trajectory_fit_rms_m": 0.4132424474888321,
+      "length_relative_mad": 0.11235741424633336,
+      "angle_error_deg": 2.69179268226636,
+      "half_span_speed_relative_difference": 0.4024633390397614,
+      "median_inferred_length_m": 4.899999906744438,
+      "median_inferred_width_m": 2.0276691848513826
+    },
+    "support_hull_image": [
+      [
+        1454.79638671875,
+        787.6968994140625
+      ],
+      [
+        880.0460205078125,
+        847.1959228515625
+      ],
+      [
+        719.6098022460938,
+        807.7894287109375
+      ],
+      [
+        581.5430908203125,
+        735.09765625
+      ],
+      [
+        357.3319091796875,
+        603.8271484375
+      ],
+      [
+        244.99977111816406,
+        451.6605224609375
+      ],
+      [
+        236.6082000732422,
+        437.0530700683594
+      ],
+      [
+        228.08255004882812,
+        420.4630126953125
+      ],
+      [
+        227.43069458007812,
+        419.0119323730469
+      ],
+      [
+        341.6701965332031,
+        418.6789245605469
+      ],
+      [
+        354.9306945800781,
+        421.02960205078125
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 0
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.4132424474888321
+  },
+  "MercedesAMG550_35.MP4": {
+    "available": true,
+    "raw_kmh": 22.329823287014634,
+    "estimated_kmh": 22.329823287014634,
+    "time_interval_s": [
+      3.3700367033700367,
+      5.238571905238572
+    ],
+    "observations": 57,
+    "track_id": 1,
+    "mapping": [
+      [
+        2.7401887915131935,
+        -3.6969787185698086,
+        -64.29717590037043
+      ],
+      [
+        0.8789878866893676,
+        22.41507247559868,
+        -12677.025364225938
+      ],
+      [
+        0.07691651490537176,
+        0.9970375367732208,
+        -280.35734370663937
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 57,
+      "median_angle_error_deg": 3.9131559757802297,
+      "median_length_m": 4.89999993029182,
+      "median_width_m": 1.924641728488753,
+      "parameter_condition_number": 23.691665119807386,
+      "optimizer_success": true,
+      "theta": [
+        0.239668098898399,
+        3.106720205183034,
+        -2.062856186555453,
+        0.156595320230652
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 22.329823287014634,
+      "trajectory_fit_rms_m": 0.5358534638422628,
+      "length_relative_mad": 0.139768732334723,
+      "angle_error_deg": 3.9131559757802297,
+      "half_span_speed_relative_difference": 0.5422315220059768,
+      "median_inferred_length_m": 4.89999993029182,
+      "median_inferred_width_m": 1.924641728488753
+    },
+    "support_hull_image": [
+      [
+        1746.52197265625,
+        792.7611694335938
+      ],
+      [
+        1213.52490234375,
+        832.3829345703125
+      ],
+      [
+        697.4174194335938,
+        660.0807495117188
+      ],
+      [
+        590.8952026367188,
+        522.9025268554688
+      ],
+      [
+        558.462646484375,
+        467.4837341308594
+      ],
+      [
+        695.4342651367188,
+        461.06549072265625
+      ],
+      [
+        766.562744140625,
+        467.3176574707031
+      ],
+      [
+        1525.401123046875,
+        719.025390625
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 0
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.5358534638422628
+  },
+  "MercedesAMG550_38.MP4": {
+    "available": true,
+    "raw_kmh": 17.745814590007175,
+    "estimated_kmh": 17.745814590007175,
+    "time_interval_s": [
+      3.536866666666667,
+      5.638966666666667
+    ],
+    "observations": 64,
+    "track_id": 1,
+    "mapping": [
+      [
+        2.0019149936063427,
+        -2.156644641747683,
+        361.65605119788376
+      ],
+      [
+        -0.28198123235237715,
+        14.723684597705994,
+        -6999.085809489757
+      ],
+      [
+        -0.061484565174320105,
+        0.9981080343556626,
+        -294.8852662147953
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 64,
+      "median_angle_error_deg": 4.370849848816832,
+      "median_length_m": 4.899999924299624,
+      "median_width_m": 2.650652609337289,
+      "parameter_condition_number": 32.3785623496764,
+      "optimizer_success": true,
+      "theta": [
+        -0.34159227809895415,
+        5.545229055093341,
+        -1.9321464989553818,
+        -0.2606899311303176
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 17.745814590007175,
+      "trajectory_fit_rms_m": 0.4661060263502502,
+      "length_relative_mad": 0.14055702516307014,
+      "angle_error_deg": 4.370849848816832,
+      "half_span_speed_relative_difference": 0.6140413024529718,
+      "median_inferred_length_m": 4.899999924299624,
+      "median_inferred_width_m": 2.650652609337289
+    },
+    "support_hull_image": [
+      [
+        1200.107177734375,
+        757.6826171875
+      ],
+      [
+        763.258056640625,
+        820.4827270507812
+      ],
+      [
+        637.6492919921875,
+        808.6378173828125
+      ],
+      [
+        595.7769775390625,
+        791.12548828125
+      ],
+      [
+        418.11602783203125,
+        699.5072021484375
+      ],
+      [
+        374.0775146484375,
+        675.1981201171875
+      ],
+      [
+        299.6615295410156,
+        619.1343994140625
+      ],
+      [
+        203.45144653320312,
+        490.53228759765625
+      ],
+      [
+        189.85557556152344,
+        464.3646545410156
+      ],
+      [
+        182.33477783203125,
+        433.0904541015625
+      ],
+      [
+        189.1787109375,
+        432.4959716796875
+      ],
+      [
+        303.3568420410156,
+        436.07794189453125
+      ],
+      [
+        317.63555908203125,
+        437.5408020019531
+      ],
+      [
+        498.0643005371094,
+        459.3541259765625
+      ],
+      [
+        501.1930847167969,
+        460.25006103515625
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 6
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.4661060263502502
+  },
+  "MercedesAMG550_40.MP4": {
+    "estimated_kmh": 39.25385227780514,
+    "trajectory_rms_m": 0.595220733905981,
+    "time_interval_s": [
+      2.3023000000000002,
+      4.371033333333333
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.16009555196600964,
+        -0.15362627983058746,
+        -8.68459239297638
+      ],
+      [
+        -4.457041971568575e-05,
+        0.06068854914110207,
+        -39.25678705635786
+      ],
+      [
+        0.0041927058007963204,
+        0.0010418464618994823,
+        -2.5062220678041065
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1639.1948713347729,
+        907.5473079552703
+      ],
+      [
+        1481.8638793946172,
+        935.4383715763274
+      ],
+      [
+        1284.6530778468225,
+        938.020250341
+      ],
+      [
+        1133.6079789317735,
+        913.9058825045607
+      ],
+      [
+        952.0144839214546,
+        837.324208721738
+      ],
+      [
+        599.9085405095357,
+        623.1898809586593
+      ],
+      [
+        589.9296717149342,
+        614.1449160119379
+      ],
+      [
+        588.1374271286172,
+        611.0465259722199
+      ],
+      [
+        587.5490610663219,
+        610.0024879839956
+      ],
+      [
+        634.4008044467846,
+        614.1405477975549
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 275,
+      "inliers": 270,
+      "road_coverage": 0.2705561503239989,
+      "alignment_rms_pixels_at_960": 0.4676896723115554,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 60,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_42.MP4": {
+    "available": true,
+    "raw_kmh": 37.18170529149345,
+    "estimated_kmh": 37.18170529149345,
+    "time_interval_s": [
+      4.337666666666667,
+      6.1061000000000005
+    ],
+    "observations": 54,
+    "track_id": 1,
+    "mapping": [
+      [
+        2.338847685584722,
+        -4.094727056563197,
+        1463.599364123176
+      ],
+      [
+        0.5646873478532207,
+        25.984309792177083,
+        -17729.175919118796
+      ],
+      [
+        0.021130219667982886,
+        0.999776731984088,
+        -471.06828333884147
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 54,
+      "median_angle_error_deg": 4.662769397182329,
+      "median_length_m": 4.8999998876521325,
+      "median_width_m": 2.1572374862803247,
+      "parameter_condition_number": 21.528449101033665,
+      "optimizer_success": true,
+      "theta": [
+        0.09370711340396295,
+        4.433753793134125,
+        -2.3642558014511907,
+        0.07131596729529421
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 37.18170529149345,
+      "trajectory_fit_rms_m": 0.7251332744284255,
+      "length_relative_mad": 0.16374755595737125,
+      "angle_error_deg": 4.662769397182329,
+      "half_span_speed_relative_difference": 0.6559618478426615,
+      "median_inferred_length_m": 4.8999998876521325,
+      "median_inferred_width_m": 2.1572374862803247
+    },
+    "support_hull_image": [
+      [
+        1390.674072265625,
+        935.4244384765625
+      ],
+      [
+        878.0565795898438,
+        952.71875
+      ],
+      [
+        795.8021240234375,
+        920.0880737304688
+      ],
+      [
+        570.834228515625,
+        799.169921875
+      ],
+      [
+        564.805419921875,
+        795.5448608398438
+      ],
+      [
+        490.0683288574219,
+        721.5593872070312
+      ],
+      [
+        407.9173889160156,
+        633.6312866210938
+      ],
+      [
+        402.6709899902344,
+        620.0671997070312
+      ],
+      [
+        517.987548828125,
+        618.899169921875
+      ],
+      [
+        552.3646850585938,
+        622.9067993164062
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 0
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.7251332744284255
+  },
+  "MercedesAMG550_45.MP4": {
+    "estimated_kmh": 44.55145472171467,
+    "trajectory_rms_m": 0.8699521078293214,
+    "time_interval_s": [
+      1.9686333333333335,
+      4.137466666666667
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.16015519937379155,
+        -0.15392654561809502,
+        -8.718812039693654
+      ],
+      [
+        -4.2197273928212384e-05,
+        0.060709441399373516,
+        -39.21511393033162
+      ],
+      [
+        0.004194455956429547,
+        0.0010360174412199804,
+        -2.503638674090176
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1639.718990632758,
+        906.5496381554862
+      ],
+      [
+        1482.4645047299507,
+        934.4471992571065
+      ],
+      [
+        1285.2892271470334,
+        937.0375138807645
+      ],
+      [
+        1134.2266525732987,
+        912.9295884757045
+      ],
+      [
+        952.536853045402,
+        836.3577097826009
+      ],
+      [
+        600.1655387207248,
+        622.2614350677183
+      ],
+      [
+        590.1752353597366,
+        613.2184466914836
+      ],
+      [
+        588.3787029539374,
+        610.1206810505435
+      ],
+      [
+        587.7888891240028,
+        609.0768541079664
+      ],
+      [
+        634.635911555367,
+        613.2123449114886
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 284,
+      "inliers": 278,
+      "road_coverage": 0.27332862337269037,
+      "alignment_rms_pixels_at_960": 0.5048539093567487,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 64,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_47.MP4": {
+    "available": true,
+    "raw_kmh": 42.423549663329624,
+    "estimated_kmh": 42.423549663329624,
+    "time_interval_s": [
+      3.837166666666667,
+      5.5055000000000005
+    ],
+    "observations": 51,
+    "track_id": 1,
+    "mapping": [
+      [
+        1.5988456749491622,
+        -2.4027289313060303,
+        434.272690945767
+      ],
+      [
+        0.06051713975374675,
+        17.36553340835666,
+        -8056.682476041945
+      ],
+      [
+        -0.024038211589429363,
+        0.9997110404429781,
+        -305.26824770919114
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 51,
+      "median_angle_error_deg": 3.3017324908657883,
+      "median_length_m": 4.89999988175512,
+      "median_width_m": 2.0336508399462447,
+      "parameter_condition_number": 30.656887032879563,
+      "optimizer_success": true,
+      "theta": [
+        -0.16059840697769512,
+        6.6790326699577784,
+        -2.4128141541805914,
+        -0.10056385643902711
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 42.423549663329624,
+      "trajectory_fit_rms_m": 0.3317337997638251,
+      "length_relative_mad": 0.15181902941079672,
+      "angle_error_deg": 3.3017324908657883,
+      "half_span_speed_relative_difference": 0.18615895227628737,
+      "median_inferred_length_m": 4.89999988175512,
+      "median_inferred_width_m": 2.0336508399462447
+    },
+    "support_hull_image": [
+      [
+        1288.11376953125,
+        788.1199951171875
+      ],
+      [
+        724.774658203125,
+        842.4339599609375
+      ],
+      [
+        528.6907958984375,
+        704.4282836914062
+      ],
+      [
+        447.01177978515625,
+        616.8639526367188
+      ],
+      [
+        413.343994140625,
+        578.9006958007812
+      ],
+      [
+        372.25408935546875,
+        530.4957885742188
+      ],
+      [
+        333.7264404296875,
+        483.21392822265625
+      ],
+      [
+        290.2538146972656,
+        426.7304382324219
+      ],
+      [
+        280.3031311035156,
+        401.1964111328125
+      ],
+      [
+        277.35784912109375,
+        393.36395263671875
+      ],
+      [
+        387.212890625,
+        394.4546203613281
+      ],
+      [
+        642.2285766601562,
+        480.5020446777344
+      ],
+      [
+        1255.40380859375,
+        729.84033203125
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 0
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.3317337997638251
+  },
+  "MercedesAMG550_50.MP4": {
+    "estimated_kmh": 51.55573707502581,
+    "trajectory_rms_m": 1.0945460029579137,
+    "time_interval_s": [
+      3.1364666666666667,
+      5.1051
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.15982992114058162,
+        -0.15377855250546557,
+        -8.126206467399115
+      ],
+      [
+        1.4173963938250014e-05,
+        0.060611183956852506,
+        -39.2121354688594
+      ],
+      [
+        0.00419069557184255,
+        0.0010300072595135234,
+        -2.4878561907554344
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1637.028674731915,
+        906.074193016903
+      ],
+      [
+        1479.7922540117393,
+        934.1069507728025
+      ],
+      [
+        1282.6773715264533,
+        936.876131973159
+      ],
+      [
+        1131.6689700944457,
+        912.9141477056324
+      ],
+      [
+        950.0237300783923,
+        836.5221124644712
+      ],
+      [
+        597.5665087355309,
+        622.687922805853
+      ],
+      [
+        587.5679665315031,
+        613.6482476933412
+      ],
+      [
+        585.7687733307624,
+        610.5500417304818
+      ],
+      [
+        585.1780609882918,
+        609.5060447959934
+      ],
+      [
+        632.0347952295504,
+        613.6007336101433
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 256,
+      "inliers": 253,
+      "road_coverage": 0.27759726017057407,
+      "alignment_rms_pixels_at_960": 0.46699019204450454,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 60,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_52.MP4": {
+    "available": true,
+    "raw_kmh": 54.36218090892276,
+    "estimated_kmh": 54.36218090892276,
+    "time_interval_s": [
+      4.237566666666667,
+      5.8058000000000005
+    ],
+    "observations": 48,
+    "track_id": 1,
+    "mapping": [
+      [
+        1.4270762361562257,
+        -2.809781337259593,
+        563.7216310083351
+      ],
+      [
+        0.06391944763321661,
+        18.710597845999356,
+        -8569.579667992522
+      ],
+      [
+        -0.015631112175528983,
+        0.9998778267029208,
+        -322.8514120941599
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 48,
+      "median_angle_error_deg": 2.8925959693622887,
+      "median_length_m": 4.899999855621699,
+      "median_width_m": 2.1122416899775107,
+      "parameter_condition_number": 36.74762666592481,
+      "optimizer_success": true,
+      "theta": [
+        -0.12009601497130738,
+        7.682200799069406,
+        -2.58470620963095,
+        -0.10031401342557314
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 54.36218090892276,
+      "trajectory_fit_rms_m": 0.631857316348291,
+      "length_relative_mad": 0.17739733768932597,
+      "angle_error_deg": 2.8925959693622887,
+      "half_span_speed_relative_difference": 0.3271827602877662,
+      "median_inferred_length_m": 4.899999855621699,
+      "median_inferred_width_m": 2.1122416899775107
+    },
+    "support_hull_image": [
+      [
+        1600.7142333984375,
+        760.1121215820312
+      ],
+      [
+        1030.487060546875,
+        821.279296875
+      ],
+      [
+        438.560791015625,
+        595.6250610351562
+      ],
+      [
+        341.8429260253906,
+        394.1193542480469
+      ],
+      [
+        342.15570068359375,
+        393.46978759765625
+      ],
+      [
+        446.3497314453125,
+        394.2491149902344
+      ],
+      [
+        448.802734375,
+        394.9273376464844
+      ],
+      [
+        728.8687744140625,
+        480.0973815917969
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 1
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.631857316348291
+  },
+  "MercedesAMG550_55.MP4": {
+    "estimated_kmh": 56.82981790947818,
+    "trajectory_rms_m": 1.128453411606281,
+    "time_interval_s": [
+      2.8695333333333335,
+      4.7047
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.15993412676721655,
+        -0.15372337309770706,
+        -8.658213952859034
+      ],
+      [
+        -2.8388063340790427e-05,
+        0.06063605233805554,
+        -39.168958328340146
+      ],
+      [
+        0.004189738601843993,
+        0.0010340039634086223,
+        -2.4981955017181177
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1639.2415912130805,
+        906.1949884316858
+      ],
+      [
+        1481.9756116925341,
+        934.1216255511333
+      ],
+      [
+        1284.8229725600002,
+        936.7600249199423
+      ],
+      [
+        1133.7918552923884,
+        912.6977185235947
+      ],
+      [
+        952.1446621427857,
+        836.1858211559303
+      ],
+      [
+        599.7467727674015,
+        622.1357602530509
+      ],
+      [
+        589.7527892867604,
+        613.0909318500196
+      ],
+      [
+        587.955572119214,
+        609.9921226110451
+      ],
+      [
+        587.3655304463457,
+        608.947935106343
+      ],
+      [
+        634.2303521963163,
+        613.0748459077226
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 272,
+      "inliers": 267,
+      "road_coverage": 0.2789840490754337,
+      "alignment_rms_pixels_at_960": 0.5278979639414197,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 56,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_58.MP4": {
+    "available": true,
+    "raw_kmh": 38.597239488721634,
+    "estimated_kmh": 38.597239488721634,
+    "time_interval_s": [
+      3.7037,
+      5.038366666666667
+    ],
+    "observations": 41,
+    "track_id": 1,
+    "mapping": [
+      [
+        1.8935900980799987,
+        -2.3984420902519084,
+        573.8206963377332
+      ],
+      [
+        -0.008749178821646521,
+        15.536441615128401,
+        -8084.626846991445
+      ],
+      [
+        -0.0393260456687884,
+        0.9992264318621963,
+        -326.1455374508813
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 41,
+      "median_angle_error_deg": 3.75093682739465,
+      "median_length_m": 4.899999911040914,
+      "median_width_m": 2.081826116812913,
+      "parameter_condition_number": 29.260339043041956,
+      "optimizer_success": true,
+      "theta": [
+        -0.21859859180087265,
+        5.5543212438632255,
+        -2.14565837444295,
+        -0.16639196859377983
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 38.597239488721634,
+      "trajectory_fit_rms_m": 0.61147411740099,
+      "length_relative_mad": 0.3963987242704927,
+      "angle_error_deg": 3.75093682739465,
+      "half_span_speed_relative_difference": 0.12685153988281245,
+      "median_inferred_length_m": 4.899999911040914,
+      "median_inferred_width_m": 2.081826116812913
+    },
+    "support_hull_image": [
+      [
+        1344.20703125,
+        809.6124267578125
+      ],
+      [
+        764.322509765625,
+        875.6505126953125
+      ],
+      [
+        628.288330078125,
+        830.3727416992188
+      ],
+      [
+        514.5225219726562,
+        771.6146240234375
+      ],
+      [
+        293.34661865234375,
+        625.6538696289062
+      ],
+      [
+        200.2400665283203,
+        452.85321044921875
+      ],
+      [
+        211.53994750976562,
+        452.5952453613281
+      ],
+      [
+        331.95037841796875,
+        454.44549560546875
+      ],
+      [
+        530.3797607421875,
+        468.9364318847656
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 0
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.61147411740099
+  },
+  "MercedesAMG550_60.MP4": {
+    "estimated_kmh": 58.13696084388669,
+    "trajectory_rms_m": 0.8632525255550931,
+    "time_interval_s": [
+      2.9696333333333333,
+      4.637966666666667
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.1601370661920425,
+        -0.15399385705392712,
+        -8.638323810094555
+      ],
+      [
+        -1.614494700484366e-05,
+        0.06075243822266207,
+        -39.263527337559616
+      ],
+      [
+        0.00419608417206209,
+        0.0010383794643185008,
+        -2.50557217032129
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1639.6091562883576,
+        906.0967318301543
+      ],
+      [
+        1482.3581202454845,
+        934.0598077906012
+      ],
+      [
+        1285.1733406916542,
+        936.7384703058253
+      ],
+      [
+        1134.0996925789814,
+        912.7020796963975
+      ],
+      [
+        952.4026882540542,
+        836.2259921025616
+      ],
+      [
+        600.0658519788259,
+        622.3535570394996
+      ],
+      [
+        590.0783488050969,
+        613.3187720982224
+      ],
+      [
+        588.2827805401337,
+        610.2231404845836
+      ],
+      [
+        587.693292679497,
+        609.1800281253577
+      ],
+      [
+        634.5385580498746,
+        613.293705233387
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 265,
+      "inliers": 257,
+      "road_coverage": 0.27588475095323195,
+      "alignment_rms_pixels_at_960": 0.4821855054915423,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 51,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_62.MP4": {
+    "available": true,
+    "raw_kmh": 79.06252006516361,
+    "estimated_kmh": 79.06252006516361,
+    "time_interval_s": [
+      4.137466666666667,
+      5.3053
+    ],
+    "observations": 36,
+    "track_id": 1,
+    "mapping": [
+      [
+        1.425447304128994,
+        -2.8886866651467424,
+        499.62430212138855
+      ],
+      [
+        0.09092517694457325,
+        19.944010226801137,
+        -9277.29217579669
+      ],
+      [
+        -0.011894782227182961,
+        0.9999292545754265,
+        -329.8059821771029
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 36,
+      "median_angle_error_deg": 3.3490034948903626,
+      "median_length_m": 4.899999847220968,
+      "median_width_m": 2.1615509098672554,
+      "parameter_condition_number": 34.021025034124136,
+      "optimizer_success": true,
+      "theta": [
+        -0.09092952989514255,
+        7.643948019423063,
+        -2.645709512767484,
+        -0.07629973681407921
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 79.06252006516361,
+      "trajectory_fit_rms_m": 0.5172524092300885,
+      "length_relative_mad": 0.14722267969375905,
+      "angle_error_deg": 3.3490034948903626,
+      "half_span_speed_relative_difference": 0.27786363265698066,
+      "median_inferred_length_m": 4.899999847220968,
+      "median_inferred_width_m": 2.1615509098672554
+    },
+    "support_hull_image": [
+      [
+        1494.5068359375,
+        717.525146484375
+      ],
+      [
+        980.4950561523438,
+        757.998046875
+      ],
+      [
+        553.59130859375,
+        588.5336303710938
+      ],
+      [
+        451.09442138671875,
+        432.8686218261719
+      ],
+      [
+        433.8707275390625,
+        404.6129455566406
+      ],
+      [
+        539.9893188476562,
+        404.65472412109375
+      ],
+      [
+        825.6896362304688,
+        492.4922790527344
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 0
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.5172524092300885
+  },
+  "MercedesAMG550_65.MP4": {
+    "estimated_kmh": 59.84051343167446,
+    "trajectory_rms_m": 0.7893792979459999,
+    "time_interval_s": [
+      5.3053,
+      6.773433333333334
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.16023223669124276,
+        -0.15396833411844194,
+        -8.795092598079403
+      ],
+      [
+        -3.2241365094640784e-05,
+        0.06076105237395389,
+        -39.25461760417173
+      ],
+      [
+        0.004197365752486865,
+        0.00103969768258384,
+        -2.5089373813082703
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1639.7685019967455,
+        906.2953978189222
+      ],
+      [
+        1482.5205023946432,
+        934.2105928784065
+      ],
+      [
+        1285.3605553327443,
+        936.8294298305967
+      ],
+      [
+        1134.3214529777401,
+        912.7491410892953
+      ],
+      [
+        952.688256980541,
+        836.2258131670347
+      ],
+      [
+        600.5133511484045,
+        622.2770516527986
+      ],
+      [
+        590.5316201290027,
+        613.240611948493
+      ],
+      [
+        588.7375170356652,
+        610.1448390216649
+      ],
+      [
+        588.1485179693988,
+        609.1016831116501
+      ],
+      [
+        634.9780211774796,
+        613.2271243159631
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 267,
+      "inliers": 258,
+      "road_coverage": 0.2763138234002331,
+      "alignment_rms_pixels_at_960": 0.4585630573305807,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 45,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_67.MP4": {
+    "available": true,
+    "raw_kmh": 50.01253757416791,
+    "estimated_kmh": 50.01253757416791,
+    "time_interval_s": [
+      4.537866666666667,
+      5.6723333333333334
+    ],
+    "observations": 35,
+    "track_id": 1,
+    "mapping": [
+      [
+        1.4683241293417924,
+        -2.309859943927235,
+        452.2716069868703
+      ],
+      [
+        0.05714401928632201,
+        14.848827749151466,
+        -7319.233514895533
+      ],
+      [
+        -0.02841471860463557,
+        0.9995962203643125,
+        -343.0084424458641
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 35,
+      "median_angle_error_deg": 3.138621283411058,
+      "median_length_m": 4.899999897791445,
+      "median_width_m": 2.03035948948116,
+      "parameter_condition_number": 33.09623902050546,
+      "optimizer_success": true,
+      "theta": [
+        -0.19939078881745112,
+        7.014332313143779,
+        -2.3040759126672246,
+        -0.11127200696155072
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 50.01253757416791,
+      "trajectory_fit_rms_m": 0.31239133506952615,
+      "length_relative_mad": 0.12951113393350577,
+      "angle_error_deg": 3.138621283411058,
+      "half_span_speed_relative_difference": 0.0183611597959932,
+      "median_inferred_length_m": 4.899999897791445,
+      "median_inferred_width_m": 2.03035948948116
+    },
+    "support_hull_image": [
+      [
+        1336.979736328125,
+        789.7960205078125
+      ],
+      [
+        796.5867309570312,
+        840.6956787109375
+      ],
+      [
+        664.4940795898438,
+        762.2647705078125
+      ],
+      [
+        542.4434814453125,
+        673.5618286132812
+      ],
+      [
+        358.9272155761719,
+        486.7313232421875
+      ],
+      [
+        333.56292724609375,
+        456.2552490234375
+      ],
+      [
+        321.3286437988281,
+        440.7134094238281
+      ],
+      [
+        321.0508728027344,
+        436.1231689453125
+      ],
+      [
+        431.193115234375,
+        437.3645935058594
+      ],
+      [
+        620.5911865234375,
+        486.2098388671875
+      ],
+      [
+        715.376708984375,
+        512.5902709960938
+      ],
+      [
+        1273.08544921875,
+        743.6802978515625
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 1
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.31239133506952615
+  },
+  "MercedesAMG550_70.MP4": {
+    "estimated_kmh": 66.43853024605846,
+    "trajectory_rms_m": 0.5163525982858899,
+    "time_interval_s": [
+      2.6693333333333333,
+      4.037366666666667
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.15338824708786603,
+        -0.1489926218785453,
+        16.3818645040215
+      ],
+      [
+        0.00045954023640687426,
+        0.059541776516808954,
+        -37.223037876548524
+      ],
+      [
+        0.0040399026054989805,
+        0.0010532236263972297,
+        -1.67931409235084
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1451.5611451152897,
+        867.829820283748
+      ],
+      [
+        1297.0188092756343,
+        897.1650924960499
+      ],
+      [
+        1102.7827395429035,
+        902.4137184581763
+      ],
+      [
+        953.4788295716196,
+        880.788316789616
+      ],
+      [
+        773.3966291140445,
+        807.5244616913798
+      ],
+      [
+        420.0923613229894,
+        597.7514413145116
+      ],
+      [
+        410.0061591997338,
+        588.7592930296634
+      ],
+      [
+        408.2086141182546,
+        585.664806238229
+      ],
+      [
+        407.6187128474111,
+        584.6218496843561
+      ],
+      [
+        455.3330399462069,
+        588.4014285670052
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 129,
+      "inliers": 126,
+      "road_coverage": 0.1720300590312889,
+      "alignment_rms_pixels_at_960": 0.640185025794731,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 42,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_73.MP4": {
+    "available": true,
+    "raw_kmh": 94.5123388329603,
+    "estimated_kmh": 94.5123388329603,
+    "time_interval_s": [
+      4.070733333333333,
+      5.071733333333333
+    ],
+    "observations": 31,
+    "track_id": 1,
+    "mapping": [
+      [
+        1.4277446136454273,
+        -3.0062465512213326,
+        655.416867924477
+      ],
+      [
+        0.13789620493617635,
+        21.700841293268578,
+        -10747.551225001003
+      ],
+      [
+        -0.009279996093442194,
+        0.9999569399091671,
+        -352.04530658040056
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 31,
+      "median_angle_error_deg": 2.9749687466997634,
+      "median_length_m": 4.899999847359423,
+      "median_width_m": 1.986653396325738,
+      "parameter_condition_number": 32.3307412064067,
+      "optimizer_success": true,
+      "theta": [
+        -0.06574902344828686,
+        7.0847219791207925,
+        -2.716241911436189,
+        -0.03796876120775743
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 94.5123388329603,
+      "trajectory_fit_rms_m": 0.43004298088603665,
+      "length_relative_mad": 0.16105719508344563,
+      "angle_error_deg": 2.9749687466997634,
+      "half_span_speed_relative_difference": 0.1638375258073566,
+      "median_inferred_length_m": 4.899999847359423,
+      "median_inferred_width_m": 1.986653396325738
+    },
+    "support_hull_image": [
+      [
+        1573.361572265625,
+        760.8800048828125
+      ],
+      [
+        1042.552001953125,
+        809.677490234375
+      ],
+      [
+        516.779052734375,
+        632.8729858398438
+      ],
+      [
+        423.296142578125,
+        434.30523681640625
+      ],
+      [
+        531.01806640625,
+        434.49395751953125
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 0
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.43004298088603665
+  },
+  "MercedesAMG550_75.MP4": {
+    "estimated_kmh": 67.15533657776932,
+    "trajectory_rms_m": 0.48313740602523964,
+    "time_interval_s": [
+      3.7370666666666668,
+      5.005
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.15410796030627893,
+        -0.14945628896970722,
+        16.220973098440197
+      ],
+      [
+        0.0004643659630251021,
+        0.05975148750331648,
+        -37.32146000404189
+      ],
+      [
+        0.004060917571230385,
+        0.0010614101884540547,
+        -1.6917513132834026
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1451.9341422877642,
+        867.6242850428149
+      ],
+      [
+        1297.1479912248542,
+        896.9593315362154
+      ],
+      [
+        1102.6506853136416,
+        902.1265301924266
+      ],
+      [
+        953.2135317000276,
+        880.3948035902966
+      ],
+      [
+        773.0869298206209,
+        806.97972279517
+      ],
+      [
+        420.3117817493358,
+        597.205683427595
+      ],
+      [
+        410.25579734699073,
+        588.224885487755
+      ],
+      [
+        408.4647044844258,
+        585.1343069600598
+      ],
+      [
+        407.8769482372398,
+        584.0926831098291
+      ],
+      [
+        455.47495228833117,
+        587.8626652966246
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 136,
+      "inliers": 130,
+      "road_coverage": 0.19528120503951307,
+      "alignment_rms_pixels_at_960": 0.6778280456242257,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 39,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_78.MP4": {
+    "available": true,
+    "raw_kmh": 47.21720285731604,
+    "estimated_kmh": 47.21720285731604,
+    "time_interval_s": [
+      5.138466666666667,
+      6.039366666666667
+    ],
+    "observations": 26,
+    "track_id": 1,
+    "mapping": [
+      [
+        3.2739570368349797,
+        -3.8600205642761685,
+        642.6950117264552
+      ],
+      [
+        1.5785428104163834,
+        25.848977028732534,
+        -17585.09177232727
+      ],
+      [
+        0.1215410093100649,
+        0.9925864108760964,
+        -334.87399250669984
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 26,
+      "median_angle_error_deg": 4.249810296432647,
+      "median_length_m": 4.899999939633615,
+      "median_width_m": 2.0141508595130224,
+      "parameter_condition_number": 11.868353641934114,
+      "optimizer_success": true,
+      "theta": [
+        0.30433335628894936,
+        2.485392836076352,
+        -1.9128205487822725,
+        0.2903705970221227
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 47.21720285731604,
+      "trajectory_fit_rms_m": 0.9227256526558952,
+      "length_relative_mad": 0.1265553452888775,
+      "angle_error_deg": 4.249810296432647,
+      "half_span_speed_relative_difference": 1.303584716768922,
+      "median_inferred_length_m": 4.899999939633615,
+      "median_inferred_width_m": 2.0141508595130224
+    },
+    "support_hull_image": [
+      [
+        1456.771728515625,
+        954.9197387695312
+      ],
+      [
+        868.4064331054688,
+        992.6566162109375
+      ],
+      [
+        537.1207275390625,
+        793.9266357421875
+      ],
+      [
+        520.038818359375,
+        774.8425903320312
+      ],
+      [
+        415.04962158203125,
+        642.9937133789062
+      ],
+      [
+        412.20355224609375,
+        637.5859985351562
+      ],
+      [
+        400.3695373535156,
+        606.7644653320312
+      ],
+      [
+        403.37750244140625,
+        584.6401977539062
+      ],
+      [
+        520.1355590820312,
+        580.2557373046875
+      ],
+      [
+        616.960693359375,
+        600.3617553710938
+      ],
+      [
+        708.6980590820312,
+        634.27490234375
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 4
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.9227256526558952
+  },
+  "MercedesAMG550_80.MP4": {
+    "estimated_kmh": 74.67044873860232,
+    "trajectory_rms_m": 0.4199407146381707,
+    "time_interval_s": [
+      3.2699333333333334,
+      4.471133333333333
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.1540347874434413,
+        -0.14975311607061584,
+        16.222682319749524
+      ],
+      [
+        0.0004902169138525923,
+        0.05982997528706216,
+        -37.34102876030416
+      ],
+      [
+        0.004061322454255572,
+        0.0010602763176813718,
+        -1.6933408176253066
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1453.1867626503931,
+        866.2574517827373
+      ],
+      [
+        1298.3423625550936,
+        895.6237849360931
+      ],
+      [
+        1103.7598520526108,
+        900.8606973311413
+      ],
+      [
+        954.2481130426078,
+        879.2093211768068
+      ],
+      [
+        774.010772959366,
+        805.9443412232481
+      ],
+      [
+        421.0160438493177,
+        596.5590354113293
+      ],
+      [
+        410.95271713600204,
+        587.5934204711908
+      ],
+      [
+        409.159370692514,
+        584.5073453197205
+      ],
+      [
+        408.57085789109817,
+        583.4672331147032
+      ],
+      [
+        456.17911458961566,
+        587.2118223257501
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 130,
+      "inliers": 125,
+      "road_coverage": 0.1819681957687171,
+      "alignment_rms_pixels_at_960": 0.6401493680125805,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 37,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_82.MP4": {
+    "available": true,
+    "raw_kmh": 93.22863838434071,
+    "estimated_kmh": 93.22863838434071,
+    "time_interval_s": [
+      4.9049000000000005,
+      5.772433333333334
+    ],
+    "observations": 27,
+    "track_id": 1,
+    "mapping": [
+      [
+        1.604981966050481,
+        -3.9082818602541805,
+        1457.7426786289848
+      ],
+      [
+        0.4155264103044753,
+        23.37688228902282,
+        -15217.235373696403
+      ],
+      [
+        0.0031236204335549174,
+        0.9999951214857936,
+        -484.7968618112489
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 27,
+      "median_angle_error_deg": 2.793293720244217,
+      "median_length_m": 4.899999859559195,
+      "median_width_m": 2.021308501281862,
+      "parameter_condition_number": 18.121074806063728,
+      "optimizer_success": true,
+      "theta": [
+        0.018927237012282265,
+        6.059361269431537,
+        -2.6446419596471324,
+        0.09020044857818203
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 93.22863838434071,
+      "trajectory_fit_rms_m": 0.4017943245389624,
+      "length_relative_mad": 0.25004545944433637,
+      "angle_error_deg": 2.793293720244217,
+      "half_span_speed_relative_difference": 0.08688791948509411,
+      "median_inferred_length_m": 4.899999859559195,
+      "median_inferred_width_m": 2.021308501281862
+    },
+    "support_hull_image": [
+      [
+        1614.2451171875,
+        896.9930419921875
+      ],
+      [
+        1087.8154296875,
+        930.77734375
+      ],
+      [
+        639.818603515625,
+        779.4827270507812
+      ],
+      [
+        485.58746337890625,
+        583.4926147460938
+      ],
+      [
+        602.1450805664062,
+        583.1500854492188
+      ],
+      [
+        624.7648315429688,
+        588.8177490234375
+      ],
+      [
+        1423.61767578125,
+        831.5565185546875
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 2
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.4017943245389624
+  },
+  "MercedesAMG550_85.MP4": {
+    "estimated_kmh": 83.47736253097183,
+    "trajectory_rms_m": 0.4225043048832917,
+    "time_interval_s": [
+      3.636966666666667,
+      4.738066666666667
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.15381709201314736,
+        -0.14955284015737716,
+        16.046962203817053
+      ],
+      [
+        0.0004915616035693876,
+        0.0596804923234428,
+        -37.232276868951075
+      ],
+      [
+        0.004055271070864877,
+        0.0010523515425123677,
+        -1.6888643580692886
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1454.274276073319,
+        866.2251620623167
+      ],
+      [
+        1299.4976079015178,
+        895.6457356916026
+      ],
+      [
+        1104.9555402213305,
+        900.9212507884794
+      ],
+      [
+        955.4307560848923,
+        879.2697664633365
+      ],
+      [
+        775.0990044717635,
+        805.9350336770441
+      ],
+      [
+        421.6919511828999,
+        596.2309727219409
+      ],
+      [
+        411.609889423414,
+        587.2485288671401
+      ],
+      [
+        409.8114084773759,
+        584.1565850064371
+      ],
+      [
+        409.2211756249296,
+        583.1144901406738
+      ],
+      [
+        456.87167799470336,
+        586.8653965969069
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 118,
+      "inliers": 115,
+      "road_coverage": 0.16435729428998186,
+      "alignment_rms_pixels_at_960": 0.6543303697468045,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 34,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_87.MP4": {
+    "available": true,
+    "raw_kmh": 90.88213177075225,
+    "estimated_kmh": 90.88213177075225,
+    "time_interval_s": [
+      4.0040000000000004,
+      4.838166666666667
+    ],
+    "observations": 26,
+    "track_id": 1,
+    "mapping": [
+      [
+        2.4715409676490077,
+        -4.445221086743004,
+        1908.095423270768
+      ],
+      [
+        0.5232093616421543,
+        28.58966682573844,
+        -19384.60947243452
+      ],
+      [
+        0.020060482852521582,
+        0.9997987682667565,
+        -454.2387244670212
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 26,
+      "median_angle_error_deg": 3.4521174690870744,
+      "median_length_m": 4.899999881683101,
+      "median_width_m": 2.134881976483661,
+      "parameter_condition_number": 24.794545627309336,
+      "optimizer_success": true,
+      "theta": [
+        0.08427209810953026,
+        4.2000554278070545,
+        -2.420823093403279,
+        0.046523125536852714
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 90.88213177075225,
+      "trajectory_fit_rms_m": 0.9298629744334839,
+      "length_relative_mad": 0.21140486168520817,
+      "angle_error_deg": 3.4521174690870744,
+      "half_span_speed_relative_difference": 0.7170695689145005,
+      "median_inferred_length_m": 4.899999881683101,
+      "median_inferred_width_m": 2.134881976483661
+    },
+    "support_hull_image": [
+      [
+        1311.136962890625,
+        941.743896484375
+      ],
+      [
+        757.957275390625,
+        961.245361328125
+      ],
+      [
+        456.01361083984375,
+        799.68408203125
+      ],
+      [
+        378.7235412597656,
+        735.3951416015625
+      ],
+      [
+        287.4813232421875,
+        624.6502075195312
+      ],
+      [
+        290.87628173828125,
+        618.1675415039062
+      ],
+      [
+        401.3362731933594,
+        616.9605712890625
+      ],
+      [
+        430.8567199707031,
+        622.0161743164062
+      ],
+      [
+        455.6310119628906,
+        627.8411254882812
+      ],
+      [
+        468.99163818359375,
+        632.67529296875
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 0
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.9298629744334839
+  },
+  "MercedesAMG550_90.MP4": {
+    "available": true,
+    "raw_kmh": 61.218866159347364,
+    "estimated_kmh": 61.218866159347364,
+    "time_interval_s": [
+      4.7714381047714385,
+      5.538872205538873
+    ],
+    "observations": 24,
+    "track_id": 1,
+    "mapping": [
+      [
+        3.3305402082862043,
+        -5.336136083501264,
+        702.1592158760388
+      ],
+      [
+        1.1665188018892019,
+        27.261960178312563,
+        -15597.167399964123
+      ],
+      [
+        0.09863881681959909,
+        0.9951233008107233,
+        -247.2966643795858
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 24,
+      "median_angle_error_deg": 6.134746459828772,
+      "median_length_m": 4.899999927936406,
+      "median_width_m": 1.8594661252110303,
+      "parameter_condition_number": 20.255236012058102,
+      "optimizer_success": true,
+      "theta": [
+        0.262861654793908,
+        2.6518947206502577,
+        -2.0506693946371355,
+        0.14195023351147215
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 61.218866159347364,
+      "trajectory_fit_rms_m": 0.4986993618245152,
+      "length_relative_mad": 0.3462329195918591,
+      "angle_error_deg": 6.134746459828772,
+      "half_span_speed_relative_difference": 0.5103209448141819,
+      "median_inferred_length_m": 4.899999927936406,
+      "median_inferred_width_m": 1.8594661252110303
+    },
+    "support_hull_image": [
+      [
+        1631.3067626953125,
+        777.26220703125
+      ],
+      [
+        1101.8228759765625,
+        813.8707275390625
+      ],
+      [
+        879.8211669921875,
+        730.8629150390625
+      ],
+      [
+        771.8184814453125,
+        690.0072631835938
+      ],
+      [
+        690.2723388671875,
+        655.9728393554688
+      ],
+      [
+        531.1983032226562,
+        539.83740234375
+      ],
+      [
+        513.7176513671875,
+        523.4750366210938
+      ],
+      [
+        492.5088195800781,
+        480.03302001953125
+      ],
+      [
+        490.46197509765625,
+        474.4967041015625
+      ],
+      [
+        601.6793212890625,
+        469.85882568359375
+      ],
+      [
+        626.6058959960938,
+        470.60955810546875
+      ],
+      [
+        655.6788330078125,
+        474.5000915527344
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 0
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.4986993618245152
+  },
+  "MercedesAMG550_93.MP4": {
+    "available": true,
+    "raw_kmh": 100.90777511580316,
+    "estimated_kmh": 100.90777511580316,
+    "time_interval_s": [
+      4.671333333333333,
+      5.438766666666667
+    ],
+    "observations": 24,
+    "track_id": 1,
+    "mapping": [
+      [
+        1.4133726088342267,
+        -2.7477717978926792,
+        873.0773455393311
+      ],
+      [
+        0.18851988069530456,
+        20.71493015118746,
+        -13712.284355195574
+      ],
+      [
+        -0.00450072216611418,
+        0.9999898716987003,
+        -532.2012172112276
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 24,
+      "median_angle_error_deg": 2.8780544559357315,
+      "median_length_m": 4.8999998472128485,
+      "median_width_m": 2.0740858149007204,
+      "parameter_condition_number": 37.36378063147508,
+      "optimizer_success": true,
+      "theta": [
+        -0.0344278127152483,
+        7.649319986732688,
+        -2.6456820585587413,
+        -0.004021393341547331
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 100.90777511580316,
+      "trajectory_fit_rms_m": 0.5136704256305094,
+      "length_relative_mad": 0.1796816881453976,
+      "angle_error_deg": 2.8780544559357315,
+      "half_span_speed_relative_difference": 0.2661446381721575,
+      "median_inferred_length_m": 4.8999998472128485,
+      "median_inferred_width_m": 2.0740858149007204
+    },
+    "support_hull_image": [
+      [
+        1517.66259765625,
+        895.1685791015625
+      ],
+      [
+        1044.42724609375,
+        917.6527099609375
+      ],
+      [
+        935.3109130859375,
+        889.3587646484375
+      ],
+      [
+        853.804931640625,
+        854.7789306640625
+      ],
+      [
+        678.2042236328125,
+        771.8719482421875
+      ],
+      [
+        570.2664184570312,
+        666.708984375
+      ],
+      [
+        533.9598388671875,
+        630.2732543945312
+      ],
+      [
+        522.1613159179688,
+        617.979736328125
+      ],
+      [
+        518.3101806640625,
+        613.9449462890625
+      ],
+      [
+        627.7474365234375,
+        613.7488403320312
+      ],
+      [
+        635.4901123046875,
+        614.8394775390625
+      ],
+      [
+        707.8765869140625,
+        629.167724609375
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 3
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.5136704256305094
+  },
+  "MercedesAMG550_95.MP4": {
+    "estimated_kmh": 85.52780567841582,
+    "trajectory_rms_m": 0.46120552409036014,
+    "time_interval_s": [
+      3.6036000000000006,
+      4.637966666666667
+    ],
+    "estimator_reads_reference_label": false,
+    "available": true,
+    "method": "reference_assisted_registered_road",
+    "track_id": 1,
+    "mapping": [
+      [
+        0.1536542911185944,
+        -0.1491467397209952,
+        16.011950379056998
+      ],
+      [
+        0.0004015785110252569,
+        0.059582257704652995,
+        -37.038733079683176
+      ],
+      [
+        0.0040423949280827525,
+        0.0010540107403177396,
+        -1.6736180740175697
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1451.9125667852095,
+        866.0303527709963
+      ],
+      [
+        1297.2018146369858,
+        895.2451381135614
+      ],
+      [
+        1102.7209440056552,
+        900.2915641639004
+      ],
+      [
+        953.2196598064702,
+        878.4733113727716
+      ],
+      [
+        772.898579780579,
+        804.9257561546425
+      ],
+      [
+        419.2933444042786,
+        594.6398309126639
+      ],
+      [
+        409.20247275199654,
+        585.6347209688763
+      ],
+      [
+        407.40381657704995,
+        582.5374608208879
+      ],
+      [
+        406.81354900886186,
+        581.4935922271594
+      ],
+      [
+        454.5415889769753,
+        585.3205647465251
+      ]
+    ],
+    "road_registration": {
+      "accepted": true,
+      "matches": 145,
+      "inliers": 142,
+      "road_coverage": 0.202466698835218,
+      "alignment_rms_pixels_at_960": 0.6410403562616539,
+      "reason": "verified_road_overlap"
+    },
+    "observations": 31,
+    "calibration_reused": true,
+    "calibration_lookup_reason": "registered_road_and_supported_vehicle_path"
+  },
+  "MercedesAMG550_98.MP4": {
+    "available": true,
+    "raw_kmh": 97.10745282227195,
+    "estimated_kmh": 97.10745282227195,
+    "time_interval_s": [
+      4.637966666666667,
+      5.372033333333333
+    ],
+    "observations": 23,
+    "track_id": 1,
+    "mapping": [
+      [
+        2.4859157743482974,
+        -4.378041652560204,
+        2021.7251706393488
+      ],
+      [
+        0.7261708251883485,
+        28.918379192219565,
+        -19619.920687578906
+      ],
+      [
+        0.03899727885622119,
+        0.9992393168014407,
+        -446.3406493462977
+      ]
+    ],
+    "diagnostics": {
+      "fit_track_ids": [
+        1
+      ],
+      "fit_observations": 23,
+      "median_angle_error_deg": 3.4258025811291968,
+      "median_length_m": 4.8999998880540225,
+      "median_width_m": 2.050262631698754,
+      "parameter_condition_number": 25.862333207523314,
+      "optimizer_success": true,
+      "theta": [
+        0.15488394570907707,
+        3.9686391623491426,
+        -2.398085058547658,
+        0.12398817429555857
+      ],
+      "dimension_prior_length_m": 4.9,
+      "dimension_prior_width_m": 1.87
+    },
+    "motion_diagnostics": {
+      "experimental_kmh": 97.10745282227195,
+      "trajectory_fit_rms_m": 0.9062131211663565,
+      "length_relative_mad": 0.18184903963312565,
+      "angle_error_deg": 3.4258025811291968,
+      "half_span_speed_relative_difference": 0.6785633371811735,
+      "median_inferred_length_m": 4.8999998880540225,
+      "median_inferred_width_m": 2.050262631698754
+    },
+    "support_hull_image": [
+      [
+        1196.3536376953125,
+        931.7913818359375
+      ],
+      [
+        651.7722778320312,
+        951.5466918945312
+      ],
+      [
+        379.3416748046875,
+        791.6143188476562
+      ],
+      [
+        317.44439697265625,
+        733.12939453125
+      ],
+      [
+        264.864013671875,
+        678.4932250976562
+      ],
+      [
+        216.96438598632812,
+        627.3529663085938
+      ],
+      [
+        217.6149139404297,
+        620.2647705078125
+      ],
+      [
+        327.7862548828125,
+        617.2813720703125
+      ],
+      [
+        366.6856384277344,
+        618.5468139648438
+      ],
+      [
+        402.36676025390625,
+        626.73193359375
+      ]
+    ],
+    "method": "automatic_single_pass_geometry",
+    "reference_speed_used": false,
+    "calibration_length_m": 4.9,
+    "scale_correction": 1,
+    "road_registration": {
+      "accepted": false,
+      "reason": "insufficient_road_matches",
+      "matches": 0
+    },
+    "calibration_reused": false,
+    "calibration_lookup_reason": "no_verified_saved_road_match",
+    "trajectory_rms_m": 0.9062131211663565
+  }
+}

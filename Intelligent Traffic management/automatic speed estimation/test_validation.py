@@ -9,7 +9,7 @@ import numpy as np
 
 from benchmark_speed import projective_delay,load_clip
 from calibrate_speed import project
-from reference_calibration import register_road,estimate_reference_speed
+from reference_calibration import register_road,estimate_reference_speed,refine_metric_scale
 from validation_experiment import predict,PILOT_NAMES
 
 ROOT=Path(__file__).resolve().parent
@@ -59,6 +59,14 @@ class ValidationTests(unittest.TestCase):
 
     def test_three_pilot_names_are_fixed(self):
         self.assertEqual(PILOT_NAMES,{'MercedesAMG550_30.MP4','MercedesAMG550_60.MP4','MercedesAMG550_100.MP4'})
+
+    def test_metric_scale_is_one_multiplier_fitted_only_on_supplied_pilots(self):
+        initial=np.array([30,57.0767,100.0056])
+        reference=np.array([30,60,100])
+        scale,maximum=refine_metric_scale(initial,reference)
+        self.assertLess(maximum,2)
+        self.assertAlmostEqual(np.max(np.abs(initial*scale-reference)),maximum,places=6)
+        self.assertTrue(.99<scale<1.03)
 
 
 if __name__=='__main__':unittest.main(verbosity=2)

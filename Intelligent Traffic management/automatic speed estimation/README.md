@@ -6,6 +6,8 @@ This FYP prototype first checks whether this camera view has usable saved calibr
 
 **Status: experimental inference prototype.** Videos now show a single decimal point estimate, such as `32.3 km/h`. Sensitivity ranges remain in CSV/JSON files. Separate calibration-review and speed-estimation videos are produced. Original CCTV speed accuracy remains unvalidated; the [Mercedes cruise-control validation](output/mercedes_validation/README.md) records accuracy testing on the supplied clips.
 
+The completed Mercedes benchmark used three calibration pilots and 27 held-out clips. Held-out mean absolute error improved from **48.66 km/h in the legacy single-pass diagnostic to 9.41 km/h**, but only **6/27** estimates were within ±2 km/h. The worst case was **78 → 47.2 km/h**. **The requested accuracy target has not been achieved.** The legacy diagnostic relaxed the old three-track requirement; it was not a qualified production result. See the [full report and all 60 paired videos](output/mercedes_validation/README.md) and [additional calibration diagnostics](output/mercedes_validation/diagnostics/README.md).
+
 ## Automatic workflow
 
 Run one command from this feature folder:
@@ -60,7 +62,7 @@ These are average speeds over short qualifying track spans. Tracker IDs are not 
 
 1. **Detection and tracking:** pretrained YOLO11s and ByteTrack process all 1,500 frames of the selected minute. Cars, motorcycles, buses and trucks are tracked; this speed experiment uses passenger-car hypotheses only.
 2. **Vehicle geometry:** a pretrained UrbanOmniDetect model predicts eight projected cuboid corners. Hungarian assignment matches predictions to baseline car tracks using bounding-box overlap. The model processes 197 selected frames and produces 224 matched observations across 12 tracker IDs.
-3. **Local road mapping:** 93 usable ground footprints remain after clipping, size, confidence and road-region filters. Motion resolves the longitudinal edge pair. A robust projective fit uses rectangle angles, opposite-edge parallelism, aspect ratio and within-track size consistency. Each carriageway receives its own mapping and arbitrary local origin.
+3. **Local road mapping:** 93 usable ground footprints remain after clipping, size, confidence and road-region filters. The checkpoint topology identifies the longitudinal edge pair. A robust projective fit uses rectangle angles, opposite-edge parallelism, aspect ratio and within-track size consistency. Each carriageway receives its own mapping and arbitrary local origin.
 4. **Metric scale and motion:** nominal dimensions are **4.5 m long × 1.8 m wide**. Ground corners are projected before their centre is averaged. A robust linear trajectory fit gives distance per second, converted to km/h.
 5. **Screening and sensitivity:** geometry, size stability, trajectory fit and speed drift determine which spans receive decimal speed labels. Dimension scenarios use lengths 3.2–5.2 m and widths 1.45–2.0 m; additional fits vary calibration tracks where possible. Their minimum and maximum remain available in the data files as sensitivity envelopes.
 
@@ -96,6 +98,8 @@ Intelligent Traffic management/
     prepare_speed_notebook.py       Embed current calibration/renderer in stage 3
     build_workflow_notebook.py       Package the automatic workflow for Kaggle
     build_validation_notebook.py     Package the private GPU validation notebook
+    build_validation_report_notebook.py  Package the CPU evaluation and video notebook
+    validation_report_notebook/     Completed CPU benchmark notebook and metadata
     manage.py                       Kaggle status and output download
     experiments.json                Non-secret notebook references and snapshot versions
     calibration_review.md           Results, assumptions and limitations
@@ -147,8 +151,10 @@ The existing dataset and notebooks are private and require the owner's Kaggle ac
 |---|---|---:|---|
 | Tracking | [Vehicle tracking baseline](https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-vehicle-tracking-baseline) | 1 | GPU T4 |
 | Geometry | [Automatic vehicle geometry](https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-automatic-vehicle-geometry) | 2 | GPU T4 |
-| Speed | [Experimental speed estimation](https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-experimental-speed-estimation) | 2 | CPU |
+| Speed and calibration videos | [Experimental speed estimation](https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-experimental-speed-estimation) | 3 | CPU |
 | Automatic workflow | [Camera calibration workflow](https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-camera-calibration-workflow) | 1 | GPU T4 |
+| Mercedes inference, all 30 clips | [Speed-blind validation inference](https://www.kaggle.com/code/hayyanfaisal/fyp-mercedes-speed-validation) | 2 | GPU T4 |
+| Mercedes report and all 60 videos | [Calibration validation report](https://www.kaggle.com/code/hayyanfaisal/fyp-mercedes-calibration-validation-report) | 1 | CPU |
 
 The automatic notebook is the single-entry workflow. It embeds the current scripts, attaches the private video, runs fresh inference when inputs are missing, verifies calibration creation, and verifies a second run reuses it without fitting. Version 1 completed successfully on Kaggle with fresh GPU inference and identical qualifying speed results on the cached run; the [saved verification records](output/workflow_demo/README.md) include both reports. Use the three individual notebooks for inspecting or developing a particular stage.
 
@@ -193,7 +199,17 @@ Synthetic checks recover known 4.5 × 1.8 m rectangles and 14.4 km/h motion from
 
 Run `python -m unittest test_workflow -v` for behavior checks: reuse without calling the fitter; camera movement, zoom, resolution/settings changes and corrupt-cache rejection; input provenance; unavailable speeds outside calibrated support; empty results replacing stale data; and stopping on an uncertain within-clip view. The saved local workflow demonstration also runs the actual footage twice and requires identical qualifying results while forbidding calibration fitting in the second run.
 
-These establish calculation consistency and reproducibility, not measured accuracy. There are no reference speed labels, measured road distances or scene-specific detection/keypoint labels. Wrong hidden corners, track associations, road grade, lens distortion and unsuitable dimension assumptions can cause errors outside the displayed range. Left-carriageway held-out checks measure predicted-rectangle consistency only; the right side has no held-out calibration tracks. No detection AP, tracking accuracy or real-speed error is claimed.
+These establish calculation consistency and reproducibility. The original CCTV experiment has no independent reference speeds, measured road distances or scene-specific detection/keypoint labels. Wrong hidden corners, track associations, road grade, lens distortion and unsuitable dimension assumptions can cause errors outside the displayed range. Its left-carriageway held-out checks measure predicted-rectangle consistency only; the right side has no held-out calibration tracks. No detection AP or tracking accuracy is claimed.
+
+The separate Mercedes benchmark now reports speed error against user-confirmed cruise-control settings. The calibration was fitted using only the 30, 60 and 100 km/h pilots; all remaining 27 errors are retained. Saved road calibration transferred to 11 held-out clips with mean error 3.82 km/h. The other 16 required new automatic geometry calibration and had mean error 13.25 km/h. The improvement comes from calibration changes and pilot reference passes; no network weights were fine-tuned. This benchmark mapping belongs to its own road and camera views and cannot calibrate the original CCTV scene.
+
+To reproduce the completed benchmark from the committed speed-blind observations, without repeating model inference:
+
+```powershell
+python validation_experiment.py --inference-dir output/mercedes_validation/inference --video-dir 'C:\Users\hayya\Videos\FYP\Speed\MercedesAMG550' --calibration output/mercedes_validation/frozen_calibration.json --output outputs/validation_reproduction
+```
+
+Add `--no-render` when only the tables and report are needed. The original clips are needed only for video rendering. Text label files are ignored. The saved frozen calibration and settings reproduce this experiment; changing them creates a new experiment. Local and Kaggle final predictions agreed within 0.002 km/h. Run `python -m unittest test_validation -v` for metric motion, road-registration, label-independence, pilot-selection and scale-refinement checks. The [verification record](output/mercedes_validation/artifact_verification.json) checks all paired videos against their source frame counts and rates.
 
 Next steps are to identify specific vehicle models and dimensions, independently measure selected distances or speeds, evaluate additional segments and road regions, and report per-vehicle speed errors and coverage before deploying this feature.
 

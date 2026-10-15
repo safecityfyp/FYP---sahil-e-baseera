@@ -1,0 +1,114 @@
+[
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "reference_kmh": 33.0,
+    "homography_kmh": 24.113041106375235,
+    "projective_delay_kmh": 27.804491541574166,
+    "profile_rms_pixels": 3.1752251820819053
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "reference_kmh": 35.0,
+    "homography_kmh": 22.32982329156529,
+    "projective_delay_kmh": 28.91661301205679,
+    "profile_rms_pixels": 4.1197706218549905
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "reference_kmh": 38.0,
+    "homography_kmh": 17.74581456970467,
+    "projective_delay_kmh": 30.73296704540109,
+    "profile_rms_pixels": 4.321615042303327
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "reference_kmh": 42.0,
+    "homography_kmh": 37.18170492702729,
+    "projective_delay_kmh": 33.8648464906652,
+    "profile_rms_pixels": 3.123367795990773
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "reference_kmh": 47.0,
+    "homography_kmh": 42.42354882513746,
+    "projective_delay_kmh": 43.28164239108221,
+    "profile_rms_pixels": 2.3212104095279873
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "reference_kmh": 52.0,
+    "homography_kmh": 54.36218091355745,
+    "projective_delay_kmh": 53.09217558771385,
+    "profile_rms_pixels": 2.6934103240527953
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "reference_kmh": 58.0,
+    "homography_kmh": 38.59723900408801,
+    "projective_delay_kmh": 48.13706203656132,
+    "profile_rms_pixels": 3.477819145938151
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "reference_kmh": 62.0,
+    "homography_kmh": 79.0625191817805,
+    "projective_delay_kmh": 62.12627658327564,
+    "profile_rms_pixels": 1.935246085217682
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "reference_kmh": 67.0,
+    "homography_kmh": 50.01253791369734,
+    "projective_delay_kmh": 56.91610008883827,
+    "profile_rms_pixels": 2.7536023954181323
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "reference_kmh": 73.0,
+    "homography_kmh": 94.51233817453628,
+    "projective_delay_kmh": 75.83009044137239,
+    "profile_rms_pixels": 1.8276238742237814
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "reference_kmh": 78.0,
+    "homography_kmh": 47.21720316289138,
+    "projective_delay_kmh": 55.66445570134624,
+    "profile_rms_pixels": 4.494950057466791
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "reference_kmh": 82.0,
+    "homography_kmh": 93.22863725556189,
+    "projective_delay_kmh": 78.53687312051052,
+    "profile_rms_pixels": 2.3080063267607214
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "reference_kmh": 87.0,
+    "homography_kmh": 90.88213152603086,
+    "projective_delay_kmh": 75.52231518422363,
+    "profile_rms_pixels": 3.6116676188711567
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "reference_kmh": 90.0,
+    "homography_kmh": 61.218867389989875,
+    "projective_delay_kmh": 81.22492824577526,
+    "profile_rms_pixels": 3.767813087617392
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "reference_kmh": 93.0,
+    "homography_kmh": 100.90777411619374,
+    "projective_delay_kmh": 96.28214070843399,
+    "profile_rms_pixels": 2.1193931165453153
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "reference_kmh": 98.0,
+    "homography_kmh": 97.10745239396489,
+    "projective_delay_kmh": 81.91662904606748,
+    "profile_rms_pixels": 3.0944791150701345
+  }
+]

@@ -1,0 +1,164 @@
+{
+  "pilot": {
+    "legacy_diagnostic_kmh": {
+      "clips": 3,
+      "estimated": 3,
+      "coverage": 1.0,
+      "mae_kmh": 48.685938156982246,
+      "rmse_kmh": 54.9726861066058,
+      "bias_kmh": -48.685938156982246,
+      "median_absolute_error_kmh": 48.033071964929185,
+      "maximum_absolute_error_kmh": 80.27247025519239,
+      "mape_percent": 73.16727701094165,
+      "within_1_kmh": 0,
+      "within_2_kmh": 0,
+      "errors_over_10_kmh": 3
+    },
+    "corrected_automatic_kmh": {
+      "clips": 3,
+      "estimated": 3,
+      "coverage": 1.0,
+      "mae_kmh": 12.188542773699808,
+      "rmse_kmh": 14.4413886006885,
+      "bias_kmh": -12.188542773699808,
+      "median_absolute_error_kmh": 17.285776227160028,
+      "maximum_absolute_error_kmh": 18.036553524437863,
+      "mape_percent": 16.996836378236562,
+      "within_1_kmh": 0,
+      "within_2_kmh": 1,
+      "errors_over_10_kmh": 2
+    },
+    "estimated_kmh": {
+      "clips": 3,
+      "estimated": 3,
+      "coverage": 1.0,
+      "mae_kmh": 1.427388237290181,
+      "rmse_kmh": 1.5548211495871789,
+      "bias_kmh": 0.18536213321464126,
+      "median_absolute_error_kmh": 1.8630391561133095,
+      "maximum_absolute_error_kmh": 1.863553334821347,
+      "mape_percent": 2.273508666043272,
+      "within_1_kmh": 1,
+      "within_2_kmh": 3,
+      "errors_over_10_kmh": 0
+    }
+  },
+  "holdout": {
+    "legacy_diagnostic_kmh": {
+      "clips": 27,
+      "estimated": 27,
+      "coverage": 1.0,
+      "mae_kmh": 48.661657417129696,
+      "rmse_kmh": 52.915491238668864,
+      "bias_kmh": -45.10268360927057,
+      "median_absolute_error_kmh": 51.19182643256387,
+      "maximum_absolute_error_kmh": 83.1561857022402,
+      "mape_percent": 71.22496473111,
+      "within_1_kmh": 0,
+      "within_2_kmh": 0,
+      "errors_over_10_kmh": 26
+    },
+    "corrected_automatic_kmh": {
+      "clips": 27,
+      "estimated": 27,
+      "coverage": 1.0,
+      "mae_kmh": 13.504437709669643,
+      "rmse_kmh": 15.553428870857623,
+      "bias_kmh": -8.766986963155365,
+      "median_absolute_error_kmh": 12.670176712985366,
+      "maximum_absolute_error_kmh": 30.78279714268396,
+      "mape_percent": 21.21237652278207,
+      "within_1_kmh": 1,
+      "within_2_kmh": 1,
+      "errors_over_10_kmh": 17
+    },
+    "estimated_kmh": {
+      "clips": 27,
+      "estimated": 27,
+      "coverage": 1.0,
+      "mae_kmh": 9.408185493864348,
+      "rmse_kmh": 12.689014842552018,
+      "bias_kmh": -4.419952896646068,
+      "median_absolute_error_kmh": 5.3295512613976825,
+      "maximum_absolute_error_kmh": 30.78279714268396,
+      "mape_percent": 15.278851162648213,
+      "within_1_kmh": 3,
+      "within_2_kmh": 6,
+      "errors_over_10_kmh": 9
+    }
+  },
+  "all": {
+    "legacy_diagnostic_kmh": {
+      "clips": 30,
+      "estimated": 30,
+      "coverage": 1.0,
+      "mae_kmh": 48.66408549111495,
+      "rmse_kmh": 53.124795656117286,
+      "bias_kmh": -45.46100906404174,
+      "median_absolute_error_kmh": 49.75446084885794,
+      "maximum_absolute_error_kmh": 83.1561857022402,
+      "mape_percent": 71.41919595909317,
+      "within_1_kmh": 0,
+      "within_2_kmh": 0,
+      "errors_over_10_kmh": 29
+    },
+    "corrected_automatic_kmh": {
+      "clips": 30,
+      "estimated": 30,
+      "coverage": 1.0,
+      "mae_kmh": 13.372848216072661,
+      "rmse_kmh": 15.445828082312525,
+      "bias_kmh": -9.109142544209808,
+      "median_absolute_error_kmh": 13.021840750422186,
+      "maximum_absolute_error_kmh": 30.78279714268396,
+      "mape_percent": 20.79082250832752,
+      "within_1_kmh": 1,
+      "within_2_kmh": 2,
+      "errors_over_10_kmh": 19
+    },
+    "estimated_kmh": {
+      "clips": 30,
+      "estimated": 30,
+      "coverage": 1.0,
+      "mae_kmh": 8.610105768206932,
+      "rmse_kmh": 12.047893375514876,
+      "bias_kmh": -3.959421393659997,
+      "median_absolute_error_kmh": 4.988890638416045,
+      "maximum_absolute_error_kmh": 30.78279714268396,
+      "mape_percent": 13.978316912987719,
+      "within_1_kmh": 4,
+      "within_2_kmh": 9,
+      "errors_over_10_kmh": 9
+    }
+  },
+  "holdout_by_method": {
+    "automatic_single_pass_geometry": {
+      "clips": 16,
+      "estimated": 16,
+      "coverage": 1.0,
+      "mae_kmh": 13.25052201340189,
+      "rmse_kmh": 16.00556854424784,
+      "bias_kmh": -5.25607387865904,
+      "median_absolute_error_kmh": 11.94940754866304,
+      "maximum_absolute_error_kmh": 30.78279714268396,
+      "mape_percent": 22.312080232946094,
+      "within_1_kmh": 1,
+      "within_2_kmh": 1,
+      "errors_over_10_kmh": 9
+    },
+    "reference_assisted_registered_road": {
+      "clips": 11,
+      "estimated": 11,
+      "coverage": 1.0,
+      "mae_kmh": 3.8193323745370167,
+      "rmse_kmh": 4.752492613143228,
+      "bias_kmh": -3.2037769228090185,
+      "median_absolute_error_kmh": 3.5614697539415374,
+      "maximum_absolute_error_kmh": 9.472194321584183,
+      "mape_percent": 5.048699787669478,
+      "within_1_kmh": 2,
+      "within_2_kmh": 5,
+      "errors_over_10_kmh": 0
+    }
+  }
+}

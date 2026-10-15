@@ -1,10 +1,12 @@
 # Experimental speed-estimation outputs
 
-This folder is the committed snapshot of the completed Kaggle experiment: source-video seconds **150–210**, **25 FPS**, 1,500 frames. Tracking notebook v1, geometry v2 and CPU speed v2 produced these artifacts. See [the feature README](../README.md) for reproduction and limitations.
+This folder contains the completed Kaggle experiments. The original CCTV snapshot covers source-video seconds **150–210**, **25 FPS**, 1,500 frames. Tracking notebook v1, geometry v2 and CPU speed v3 produced its current artifacts. See [the feature README](../README.md) for reproduction and limitations.
 
 The [automatic-workflow verification records](workflow_demo/README.md) demonstrate calibration creation when missing and reuse on the next run. The main gallery below preserves the original reviewed experiment.
 
 Videos have been updated to show one decimal speed estimate and to separate [calibration review](calibration_preview.mp4) from [speed estimation](experimental_speed_preview.mp4). [Mercedes validation results](mercedes_validation/README.md) are kept separately from the original CCTV experiment.
+
+The completed [Mercedes report](mercedes_validation/README.md) includes before/after results for all 30 clips and **60 videos**, one calibration and one speed video per clip. Three pilots supplied reference calibration; 27 clips were held out. Their final mean absolute error is **9.41 km/h**, with **6/27** within ±2 km/h and a worst error of **30.78 km/h**. **The requested accuracy target is not met.** See the [failure investigations](mercedes_validation/diagnostics/README.md) for further calibration and model attempts that were not promoted.
 
 **All speeds are provisional. Real speed accuracy is unvalidated. Ranges are dimension-and-fit sensitivity envelopes, not confidence intervals.** Four of eight candidate spans passed internal consistency screening; the full 12-minute video has not been processed for speeds.
 

@@ -27,7 +27,7 @@ This is a sensitivity envelope, not a statistical confidence interval or an accu
 
 The model predicts the eight projected corners of a vehicle cuboid. The released checkpoint's bottom-corner indices are resolved by voting across detections, rather than assuming the ordering in the paper text. This experiment consistently selected indices 0–3.
 
-Predictions are associated with baseline car tracks. Convex ground footprints inside the selected near/middle road region are retained; small, clipped and weak observations are filtered. Vehicle motion identifies the longitudinal edge pair. A four-parameter projective rectification then minimizes rectangle-angle error, opposite-edge nonparallelism, mismatch to the assumed length/width ratio, and changes in a given vehicle's inferred length over time. Each calibration track receives balanced weight. The nominal dimensions establish metric scale; the two carriageways have separate arbitrary local origins.
+Predictions are associated with baseline car tracks. Convex ground footprints inside the selected near/middle road region are retained; small, clipped and weak observations are filtered. The current parser preserves the checkpoint's longitudinal corner topology. The earlier motion-alignment heuristic could confuse length and width edges in low roadside views; it remains available only for the explicitly labelled legacy diagnostic. A four-parameter projective rectification then minimizes rectangle-angle error, opposite-edge nonparallelism, mismatch to the assumed length/width ratio, and changes in a given vehicle's inferred length over time. Each calibration track receives balanced weight. The nominal dimensions establish metric scale; the two carriageways have separate arbitrary local origins.
 
 Speeds come from a robust linear fit of the mapped ground-footprint centre against the video's timestamps. Geometry and temporal consistency checks decide whether to display each result. The road mapping is limited to the footprint-supported local region; it does not calibrate the crest or every visible road surface.
 
@@ -39,7 +39,11 @@ Synthetic tests recovered known 4.5 × 1.8 m rectangles from a known perspective
 
 The model outputs, road-grid overlay, speed chart and annotated video were visually reviewed. Dataset and experiment notebooks are private. Model checkpoint revision and SHA-256 are recorded in the geometry and speed reports.
 
-The final CPU speed notebook (version 2) completed on Kaggle. Its four qualifying IDs matched the local calculation, and nominal speeds agreed within 0.05 km/h. This is a reproducibility check, not comparison to true vehicle speeds. The downloaded H.264 preview was verified as 60 seconds, 1,500 frames and 25 FPS; experimental labels appear in 159 frames. The reviewed Kaggle artifacts are committed under [`output/`](output/README.md), together with the small inputs needed for CPU recalculation. New runs write to the ignored `outputs/` directory.
+The CPU speed notebook version 3 completed on Kaggle with separate calibration and decimal-speed videos. Its four qualifying IDs matched the local calculation, and nominal speeds agreed within 0.05 km/h. This is a reproducibility check, not comparison to true vehicle speeds. Both downloaded H.264 videos were verified as 60 seconds, 1,500 frames and 25 FPS; experimental speed labels appear in 159 frames. The reviewed Kaggle artifacts are committed under [`output/`](output/README.md), together with the small inputs needed for CPU recalculation. New runs write to the ignored `outputs/` directory.
+
+## Subsequent Mercedes validation
+
+The [separate 30-clip benchmark](output/mercedes_validation/README.md) now measures errors against user-confirmed cruise-control settings from filenames, ignoring text annotations. With three calibration pilots and 27 held-out clips, final held-out mean absolute error was 9.41 km/h and only 6/27 clips were within ±2 km/h. The original CCTV scene remains without independent reference speeds. The benchmark's reference-assisted map cannot be transferred to this CCTV camera without scene-specific calibration.
 
 ## Reproduce and inspect
 

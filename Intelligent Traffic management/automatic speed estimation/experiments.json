@@ -16,9 +16,19 @@
       "snapshot_version": 1,
       "output_pattern": "workflow_outputs/(runs|calibration_cache|inference_cache)/.*|workflow_verification.json"
     },
+    "validation_inference": {
+      "notebook": "hayyanfaisal/fyp-mercedes-speed-validation",
+      "snapshot_version": 2,
+      "output_pattern": "validation_inference/.*/(observations.json|geometry_run_report.json|tracks.json|reference.jpg)"
+    },
+    "validation_report": {
+      "notebook": "hayyanfaisal/fyp-mercedes-calibration-validation-report",
+      "snapshot_version": 1,
+      "output_pattern": "mercedes_validation/.*"
+    },
     "speed": {
       "notebook": "hayyanfaisal/fyp-cctv-experimental-speed-estimation",
-      "snapshot_version": 2,
+      "snapshot_version": 3,
       "output_pattern": "speed_experiment/.*"
     }
   }

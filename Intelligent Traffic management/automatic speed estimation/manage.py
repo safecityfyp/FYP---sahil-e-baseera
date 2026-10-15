@@ -13,13 +13,13 @@ def main():
     # Kaggle writes Unicode notebook logs using the system encoding on Windows.
     if os.name == 'nt' and not sys.flags.utf8_mode:
         raise SystemExit(subprocess.call([sys.executable, '-X', 'utf8', *sys.argv]))
+    config = json.loads((ROOT / 'experiments.json').read_text(encoding='utf-8'))
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('action', choices=['status', 'download'], nargs='?', default='status')
-    parser.add_argument('--experiment', choices=['baseline', 'geometry', 'speed', 'workflow'], default='baseline')
+    parser.add_argument('--experiment', choices=list(config['experiments']), default='baseline')
     args = parser.parse_args()
     from kaggle.api.kaggle_api_extended import KaggleApi
 
-    config = json.loads((ROOT / 'experiments.json').read_text(encoding='utf-8'))
     experiment = config['experiments'][args.experiment]
     api = KaggleApi()
     api.authenticate()

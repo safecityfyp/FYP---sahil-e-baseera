@@ -39,10 +39,13 @@ def predict(observations,report,image,reference,calibration):
                           track_id=rows[0]['track_id'],mapping=(np.array(calibration['H_image_to_meters'])@transform).tolist(),
                           support_hull_image=project(calibration['support_hull_image'],np.linalg.inv(transform)).tolist(),
                           road_registration=evidence,observations=int(keep.sum()))
+            result.update(calibration_reused=True,calibration_lookup_reason='registered_road_and_supported_vehicle_path')
             return result
     result=estimate_single_pass(observations,report,AUTOMATIC_CONFIG)
     result['road_registration']=evidence
     result['method']='automatic_single_pass_geometry'
+    result.update(calibration_reused=False,calibration_lookup_reason=
+                  'vehicle_outside_saved_support' if evidence.get('accepted') else 'no_verified_saved_road_match')
     if result.get('available'):
         result['trajectory_rms_m']=result['motion_diagnostics']['trajectory_fit_rms_m']
     return result
@@ -125,7 +128,9 @@ def render_pair(video,folder,observations,report,tracks,result,reference_kmh):
                 cv2.rectangle(image,(0,0),(1280,76),(20,20,20),-1)
                 cv2.rectangle(image,(0,677),(1280,720),(20,20,20),-1)
             cv2.putText(calibration_frame,'CALIBRATION REVIEW | ground nodes + local 5 m grid',(15,29),cv2.FONT_HERSHEY_SIMPLEX,.7,(0,220,255),2)
-            cv2.putText(calibration_frame,'Offline fitted mapping | '+result.get('method','unavailable'),(15,58),cv2.FONT_HERSHEY_SIMPLEX,.53,(230,230,230),1)
+            method_label={'reference_assisted_registered_road':'Saved calibration from reference passes',
+                          'automatic_single_pass_geometry':'New calibration from vehicle geometry'}.get(result.get('method'),'Calibration unavailable')
+            cv2.putText(calibration_frame,method_label,(15,58),cv2.FONT_HERSHEY_SIMPLEX,.53,(230,230,230),1)
             cv2.putText(calibration_frame,'Vehicle geometry is predicted. This is a local mapping, not a measured survey.',(15,704),cv2.FONT_HERSHEY_SIMPLEX,.55,(230,230,230),1)
             cv2.putText(speed_frame,title,(15,31),cv2.FONT_HERSHEY_SIMPLEX,.82,(0,255,255),2)
             cv2.putText(speed_frame,f'Average over source t={interval[0]:.2f}-{interval[1]:.2f} s | Experimental estimate',(15,60),cv2.FONT_HERSHEY_SIMPLEX,.57,(230,230,230),1)
@@ -177,6 +182,8 @@ def run(args):
              'reference_kmh':reference_kmh,'legacy_diagnostic_kmh':initial.get('estimated_kmh'),
              'corrected_automatic_kmh':automatic.get('estimated_kmh'),'estimated_kmh':final.get('estimated_kmh'),
              'method':final.get('method'),'available':final.get('available',False),
+             'calibration_reused':final.get('calibration_reused',False),
+             'calibration_lookup_reason':final.get('calibration_lookup_reason'),
              'reference_used_during_calibration':video_name in PILOT_NAMES,
              'trajectory_rms_m':final.get('trajectory_rms_m')}
         estimate=row['estimated_kmh'];error=None if estimate is None else estimate-reference_kmh
@@ -199,6 +206,8 @@ def run(args):
     metrics={split:{column:statistics([r for r in rows if split=='all' or r['split']==split],column)
                     for column in ['legacy_diagnostic_kmh','corrected_automatic_kmh','estimated_kmh']}
              for split in ['pilot','holdout','all']}
+    metrics['holdout_by_method']={method:statistics([r for r in rows if r['split']=='holdout' and r['method']==method],'estimated_kmh')
+        for method in sorted({r['method'] for r in rows})}
     (out/'metrics.json').write_text(json.dumps(metrics,indent=2),encoding='utf-8')
     make_report(out,rows,metrics)
 
@@ -226,6 +235,13 @@ def make_report(out,rows,metrics):
     for split in ['pilot','holdout','all']:
         m=metrics[split];f=m['estimated_kmh']
         lines.append(f"| {split} | {number(m['legacy_diagnostic_kmh'].get('mae_kmh'))} | {number(m['corrected_automatic_kmh'].get('mae_kmh'))} | {number(f.get('mae_kmh'))} | {f.get('within_2_kmh',0)}/{f['clips']} |")
+    lines+=['','![Calibration changes: pilot and held-out MAE](calibration_progress.jpg)',
+            '', '![Point estimates and all errors](validation_errors.jpg)',
+            '', '## Held-out results by calibration path','',
+            '| Calibration path | Clips | MAE km/h | Maximum error | Within ±2 |',
+            '|---|---:|---:|---:|---:|']
+    for method,m in metrics.get('holdout_by_method',{}).items():
+        lines.append(f"| {method} | {m['clips']} | {number(m.get('mae_kmh'))} | {number(m.get('maximum_absolute_error_kmh'))} | {m.get('within_2_kmh',0)}/{m['clips']} |")
     lines+=['','## Every clip','',
             '| Clip / videos | Split | Reference | Initial diagnostic | Corrected geometry | Final estimate | Signed error | Within ±2 |',
             '|---|---|---:|---:|---:|---:|---:|---|']
@@ -261,6 +277,16 @@ def make_report(out,rows,metrics):
     axes[1].set(xlabel='Cruise reference km/h',ylabel='Signed error km/h',title='All errors retained')
     for axis in axes:axis.grid(alpha=.2);axis.legend()
     fig.tight_layout();fig.savefig(out/'validation_errors.jpg',dpi=150);plt.close(fig)
+    fig,axis=plt.subplots(figsize=(10,5))
+    columns=['legacy_diagnostic_kmh','corrected_automatic_kmh','estimated_kmh']
+    labels=['Legacy diagnostic','Corrected geometry','Reference calibration + fallback']
+    locations=np.arange(2)
+    for index,(column,label) in enumerate(zip(columns,labels)):
+        values=[metrics[split][column].get('mae_kmh',0) for split in ['pilot','holdout']]
+        axis.bar(locations+(index-1)*.25,values,.25,label=label)
+    axis.set_xticks(locations,['Pilot: calibration data','Held-out: evaluation only'])
+    axis.set_ylabel('Mean absolute error, km/h');axis.set_title('Before/after calibration — fitting and evaluation kept separate')
+    axis.legend();axis.grid(axis='y',alpha=.2);fig.tight_layout();fig.savefig(out/'calibration_progress.jpg',dpi=150);plt.close(fig)
 
 
 if __name__=='__main__':

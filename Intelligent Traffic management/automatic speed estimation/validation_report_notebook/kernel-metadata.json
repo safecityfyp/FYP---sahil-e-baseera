@@ -1,0 +1,17 @@
+{
+  "id": "hayyanfaisal/fyp-mercedes-calibration-validation-report",
+  "title": "FYP Mercedes Calibration Validation Report",
+  "code_file": "validation_report.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "hayyanfaisal/fyp-mercedes-amg550-speed-validation"
+  ],
+  "kernel_sources": [
+    "hayyanfaisal/fyp-mercedes-speed-validation"
+  ],
+  "competition_sources": []
+}

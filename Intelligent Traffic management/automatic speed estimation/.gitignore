@@ -17,7 +17,7 @@ kaggle.json
 run_state.json
 geometry_run_state.json
 speed_run_state.json
-# Only the reviewed one-minute preview belongs in version control.
+# Keep reviewed CCTV and benchmark videos under the committed output snapshot.
 *.mp4
 !output/**/*.mp4
 !output/experimental_speed_preview.mp4

@@ -3,7 +3,7 @@ from pathlib import Path
 from types import SimpleNamespace
 import cv2
 import numpy as np
-from scipy.optimize import least_squares
+from scipy.optimize import least_squares,linprog
 
 import calibrate_speed as geo
 from benchmark_speed import target_records
@@ -16,6 +16,16 @@ def fit_motion(world,times):
     # Use the same constant-velocity least-squares estimator for fitting and
     # evaluation. Switching estimators after calibration changes its scale.
     return SimpleNamespace(x=initial),residual(initial)
+
+
+def refine_metric_scale(estimates,references):
+    """Choose one physical distance-scale multiplier that minimizes worst pilot error."""
+    estimates=np.asarray(estimates,dtype=float);references=np.asarray(references,dtype=float)
+    A=np.vstack([np.c_[estimates,-np.ones(len(estimates))],np.c_[-estimates,-np.ones(len(estimates))]])
+    b=np.r_[references,-references]
+    result=linprog([0,1],A_ub=A,b_ub=b,bounds=[(.1,10),(0,None)],method='highs')
+    if not result.success:raise ValueError('Pilot metric-scale refinement failed.')
+    return float(result.x[0]),float(result.x[1])
 
 
 def register_road(reference,current):
@@ -94,11 +104,19 @@ def fit_reference_mapping(clips):
                           loss='soft_l1',f_scale=.1,max_nfev=1000)
         fits.append((float(np.mean(residual(fit.x)**2)),fit))
     error,fit=min(fits,key=lambda item:item[0]);H=mapping(fit.x)
+    raw=[]
+    for clip in clips:
+        motion,_=fit_motion(geo.project(clip['points'],H),clip['times'])
+        raw.append(float(np.hypot(motion.x[0],motion.x[2])*3.6))
+    scale,max_error=refine_metric_scale(raw,[c['reference_kmh'] for c in clips])
+    H=np.diag([scale,scale,1])@H
     support=cv2.convexHull(np.concatenate([c['points'] for c in clips]).astype(np.float32)).reshape(-1,2)
     return {'H_image_to_meters':H.tolist(),'support_hull_image':support.tolist(),
             'fit_rms':float(np.sqrt(error)),'parameters':fit.x.tolist(),
             'reference_videos':[c['video'] for c in clips],
             'reference_speeds_kmh':[c['reference_kmh'] for c in clips],
+            'metric_scale_refinement':{'multiplier':scale,'objective':'minimum worst absolute pilot speed error',
+                                       'maximum_pilot_error_kmh':max_error,'unrefined_pilot_estimates_kmh':raw},
             'method':'reference_assisted_local_projective_calibration',
             'physical_accuracy_verified':False,'scope':'Registered road region; this vehicle and recording setup.'}
 

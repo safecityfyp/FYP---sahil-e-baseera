@@ -19,8 +19,18 @@
     },
     "speed": {
       "notebook": "hayyanfaisal/fyp-cctv-experimental-speed-estimation",
-      "snapshot_version": 2,
+      "snapshot_version": 3,
       "output_pattern": "speed_experiment/.*"
+    },
+    "validation_inference": {
+      "notebook": "hayyanfaisal/fyp-mercedes-speed-validation",
+      "snapshot_version": 2,
+      "output_pattern": "validation_inference/.*/(observations.json|geometry_run_report.json|tracks.json|reference.jpg)"
+    },
+    "validation_report": {
+      "notebook": "hayyanfaisal/fyp-mercedes-calibration-validation-report",
+      "snapshot_version": 1,
+      "output_pattern": "mercedes_validation/.*"
     }
   },
   "source_video_included": false,
@@ -51,29 +61,29 @@
     "video_display_revision": {
       "decimal_places": 1,
       "paired_calibration_and_speed_videos": true,
-      "pilot_validation_in_progress": true
+      "mercedes_validation_complete": true
     }
   },
   "files": {
     "birdseye_trajectories.jpg": {
-      "bytes": 144317,
-      "sha256": "bcbfca4958b370286b48fc7c2e77a1ca276efb12a4aa818a7a5be066f33c0792"
+      "bytes": 142753,
+      "sha256": "6198f698f3ce26d0c0587262e8b77bc8752a372aeda841e22f3cdfa32e84ae37"
     },
     "calibration.json": {
-      "bytes": 14503,
-      "sha256": "aeb4777d2aa66ad602737b9157fc71f870b8b009baae57258a228a59dabafe0e"
+      "bytes": 13799,
+      "sha256": "fe69caee0bbcd33afcf3c2e388a06716e8280bb5176a7c0bee85e1c5bf339a32"
     },
     "calibration_preview.mp4": {
-      "bytes": 10682030,
-      "sha256": "08d6c138ad74607f0b070b99ac3bd5121cc6a827d7e262bb8d215024539bdb1a"
+      "bytes": 9663221,
+      "sha256": "e48dba9413addfd161f41f3bd2750ca180e8172d5a0f689a97cc9db420d2e27e"
     },
     "experimental_speed_preview.mp4": {
-      "bytes": 10782466,
-      "sha256": "88aab52b9b816e0bcd3a8cf2a7ae27ff780b4cfa9244c24d6dfdf643cdee4597"
+      "bytes": 9871524,
+      "sha256": "fc3f0685217d1d76d8e687b45717ddc0606c5ea2fe0377ad60b5cbbdbaa13437"
     },
     "experimental_speeds.csv": {
       "bytes": 2142,
-      "sha256": "fdfab89d4227d0c9390c9adb7aae3542bc465782dd06d0704c716dff35ed79ca"
+      "sha256": "e96dcd58c3b9aab294914fe2226fdd47c2445b66ff3480eac348772b5e7a7598"
     },
     "filtered_ground_footprints.json": {
       "bytes": 22520,
@@ -103,101 +113,1089 @@
       "bytes": 826824,
       "sha256": "f0d4c1b5473f3f54644646d520aaf9c4bb69fd768d78d5e79fce32a5f9db76db"
     },
+    "mercedes_validation/artifact_verification.json": {
+      "bytes": 14355,
+      "sha256": "30718fcae622a2d23a63b465b5d4b03f2e5d659aaeae07254d527f33dcf6f2eb"
+    },
+    "mercedes_validation/calibration_progress.jpg": {
+      "bytes": 69640,
+      "sha256": "088805006c55ed5d149e2365a825135393c2f714887807dd93c158128b6828e4"
+    },
+    "mercedes_validation/clip_inventory.json": {
+      "bytes": 7178,
+      "sha256": "3a7c006854336805826989fcba216ff0bea66a48160a6406664df0da2958b23b"
+    },
+    "mercedes_validation/diagnostics/alternative_checkpoint_pilot.json": {
+      "bytes": 608,
+      "sha256": "3b82d818ef6ba03e99351dc14dd18be13bdf5c4f2540b80438fd40c43a560ff0"
+    },
+    "mercedes_validation/diagnostics/calibration_40.jpg": {
+      "bytes": 200133,
+      "sha256": "cb6d5c78371a5c774781ea6f1125b006406a0c9813ccd6cb762566f8f48197b3"
+    },
+    "mercedes_validation/diagnostics/calibration_78.jpg": {
+      "bytes": 222012,
+      "sha256": "d369c6d252e485074765aa17452e3025b518e5f03d93a45b9647e8e7a016bb95"
+    },
+    "mercedes_validation/diagnostics/failure_38.jpg": {
+      "bytes": 528131,
+      "sha256": "0de307d064fa2da5c0f3d8eab760320349e30de4199d453db244201bd7b114f1"
+    },
+    "mercedes_validation/diagnostics/lens_diagnostic.json": {
+      "bytes": 1047,
+      "sha256": "d7b764ae6a1aae24ebea52c9de9a935b1163ef8bb693f0fccb4ed679b39a7114"
+    },
+    "mercedes_validation/diagnostics/projective_delay_diagnostic.json": {
+      "bytes": 3423,
+      "sha256": "94aac6b4326ad1128651fc16b88d169812989573c8f3ec9ec7bd07a1da1b6553"
+    },
+    "mercedes_validation/diagnostics/README.md": {
+      "bytes": 7584,
+      "sha256": "6b5b5191c9c5b7c3009f942f8eb1b1fa938ed09f6741549531c335578eba223a"
+    },
+    "mercedes_validation/diagnostics/urbanomnidetect_v2_provenance.json": {
+      "bytes": 336,
+      "sha256": "dc48cf8cc6f0f025ad0dbd2ac78f58e6d1465cb115c4be95359ab24800d7dbb4"
+    },
+    "mercedes_validation/frozen_calibration.json": {
+      "bytes": 2933,
+      "sha256": "8b5e9b23d59c2038c433e902e885ae9adb56857f1ecf93fe4357028da03c5c92"
+    },
+    "mercedes_validation/inference/MercedesAMG550_100/geometry_run_report.json": {
+      "bytes": 6746,
+      "sha256": "b0ad2be4e143356f8a3a696ba398e9a6804d79bf41c3be26de6a465250f7b6dc"
+    },
+    "mercedes_validation/inference/MercedesAMG550_100/observations.json": {
+      "bytes": 45651,
+      "sha256": "d0f0d12d3a0783724691eacd979db72c4971c985ee6c5302a4862bd3b519720c"
+    },
+    "mercedes_validation/inference/MercedesAMG550_100/reference.jpg": {
+      "bytes": 523558,
+      "sha256": "a1adf52c522417bb8a010aefc695cab85d5e65edd5da89ad9576e73282742097"
+    },
+    "mercedes_validation/inference/MercedesAMG550_100/tracks.json": {
+      "bytes": 26938,
+      "sha256": "03cc77a640f6e9b6198e0b3af39b07392910e4b8641d6b3ce351a5d41c7a22e6"
+    },
+    "mercedes_validation/inference/MercedesAMG550_105/geometry_run_report.json": {
+      "bytes": 6993,
+      "sha256": "cb01376af19df879e0a8ecdaa28106eb6c7bc94e00f291bc502a2246ecd09886"
+    },
+    "mercedes_validation/inference/MercedesAMG550_105/observations.json": {
+      "bytes": 32201,
+      "sha256": "23592d3495b3f0170cbd03c70aefe7db26f24b0da459c5351e720ab986734388"
+    },
+    "mercedes_validation/inference/MercedesAMG550_105/reference.jpg": {
+      "bytes": 514597,
+      "sha256": "e94d5c1784b9a7cfb64f7eb5c09df49effe6947fea0b000f2eb6aa6730059978"
+    },
+    "mercedes_validation/inference/MercedesAMG550_105/tracks.json": {
+      "bytes": 25273,
+      "sha256": "b311c3f3f2e9515fa202708d09d95c5755163bcb666e6c7d5efadf5a93ee2d99"
+    },
+    "mercedes_validation/inference/MercedesAMG550_30/geometry_run_report.json": {
+      "bytes": 6624,
+      "sha256": "53681897d6e512aa6818233806585b15cc1c80c2f608e2c098483a37f1b67f73"
+    },
+    "mercedes_validation/inference/MercedesAMG550_30/observations.json": {
+      "bytes": 71138,
+      "sha256": "b26f39b4eb5b8acad7e55a33f1187fa2367f4b5c49a38e0967d1cd961e325243"
+    },
+    "mercedes_validation/inference/MercedesAMG550_30/reference.jpg": {
+      "bytes": 493912,
+      "sha256": "8d46f75d48972aa44d47d71e14f623aa73772b97893d7d9006324bf7eefba1a4"
+    },
+    "mercedes_validation/inference/MercedesAMG550_30/tracks.json": {
+      "bytes": 27537,
+      "sha256": "b1c6f608d11127a0c0e42bc6be6a1386b16736c6b6f5fefdceb240500b96b735"
+    },
+    "mercedes_validation/inference/MercedesAMG550_33/geometry_run_report.json": {
+      "bytes": 6994,
+      "sha256": "36f56c84738dac5e8d1b12ec0ccab7a75160851d0377b5bfc073b0a2ff02e7ed"
+    },
+    "mercedes_validation/inference/MercedesAMG550_33/observations.json": {
+      "bytes": 88622,
+      "sha256": "70aaca91238a8c1ea8af993b2ec1b232c823b5b4adf8bfcd33c5e29cf48f01c8"
+    },
+    "mercedes_validation/inference/MercedesAMG550_33/reference.jpg": {
+      "bytes": 669586,
+      "sha256": "d7862e99f62cfbeaae86ecfbf6e930558dde5b33626836cf31f04fc5f56c30a2"
+    },
+    "mercedes_validation/inference/MercedesAMG550_33/tracks.json": {
+      "bytes": 35382,
+      "sha256": "fbc7618b3310819e62b60955301ca9ee788943344b4d6f864e27d389aa8bedd9"
+    },
+    "mercedes_validation/inference/MercedesAMG550_35/geometry_run_report.json": {
+      "bytes": 7153,
+      "sha256": "9fc57e75eda2162fa321a988a6533871dd179c0beb8e7d84963875dfa7ddd388"
+    },
+    "mercedes_validation/inference/MercedesAMG550_35/observations.json": {
+      "bytes": 55965,
+      "sha256": "39f645f098205ec80623c65f26aab86c741c7d29e677ba8f39afa0ba0acef423"
+    },
+    "mercedes_validation/inference/MercedesAMG550_35/reference.jpg": {
+      "bytes": 756344,
+      "sha256": "4c27c482fb5fef47bff50f91e5f92a4dfc51366eaebc75c9f5f21d1853f76597"
+    },
+    "mercedes_validation/inference/MercedesAMG550_35/tracks.json": {
+      "bytes": 32705,
+      "sha256": "09cbee26fae73c08c730a006a14efeb933e367f24846286615038a418c182492"
+    },
+    "mercedes_validation/inference/MercedesAMG550_38/geometry_run_report.json": {
+      "bytes": 6994,
+      "sha256": "758c7689b77ec41249abe4d9b56f8198a77b5fb8c8d9cf0b067b3ec5fc7d683b"
+    },
+    "mercedes_validation/inference/MercedesAMG550_38/observations.json": {
+      "bytes": 115146,
+      "sha256": "73dfbe6b5b2b8547daa1324493869e85f07bbe00a83fed6d28d984ae43a4da4c"
+    },
+    "mercedes_validation/inference/MercedesAMG550_38/reference.jpg": {
+      "bytes": 537391,
+      "sha256": "8449a9d97fb53da583605e4f4b75bb2658d304152f596c1c0532799cb1ca27b6"
+    },
+    "mercedes_validation/inference/MercedesAMG550_38/tracks.json": {
+      "bytes": 93586,
+      "sha256": "0941f37e569e90ca2061bc8f513dda2ce689a900b796ae378bc1e444fbd50e6d"
+    },
+    "mercedes_validation/inference/MercedesAMG550_40/geometry_run_report.json": {
+      "bytes": 6612,
+      "sha256": "788928b32611d27d7cf88f7e7488b0af85160e44c8a180d16a617536515b5d41"
+    },
+    "mercedes_validation/inference/MercedesAMG550_40/observations.json": {
+      "bytes": 87888,
+      "sha256": "1efd2f881e5be52d25f1686ed6d54b3b6ff431540d9791dcf8810661afd014b4"
+    },
+    "mercedes_validation/inference/MercedesAMG550_40/reference.jpg": {
+      "bytes": 482683,
+      "sha256": "591ef87eb1df1ca059354a26773b12a5f29f1a0654501ffabd77631f819438e4"
+    },
+    "mercedes_validation/inference/MercedesAMG550_40/tracks.json": {
+      "bytes": 26834,
+      "sha256": "773b8c97d473b146034ad69124692275915c77603a609892f0d809dd9da720db"
+    },
+    "mercedes_validation/inference/MercedesAMG550_42/geometry_run_report.json": {
+      "bytes": 6992,
+      "sha256": "7059fa6ab4d3eed291947d03e3d6e43e25b9d4dd532425182813a065f675c84a"
+    },
+    "mercedes_validation/inference/MercedesAMG550_42/observations.json": {
+      "bytes": 81867,
+      "sha256": "c23c927801475c73216db6c049b38a2a0a22469f7ac88f0e6abe7db4077caf62"
+    },
+    "mercedes_validation/inference/MercedesAMG550_42/reference.jpg": {
+      "bytes": 547364,
+      "sha256": "d46ca8dbe8f8384c98ffde102a4ae80425ba9585ff7e31b20c3bcb55a246c8d9"
+    },
+    "mercedes_validation/inference/MercedesAMG550_42/tracks.json": {
+      "bytes": 41177,
+      "sha256": "58da445f88c3ad69fc6a9f6190386f27fa8039f385cf44cf345ed70f7c1304b4"
+    },
+    "mercedes_validation/inference/MercedesAMG550_45/geometry_run_report.json": {
+      "bytes": 6508,
+      "sha256": "28305540887f978e77598de6f94e2ae4a9f108f8a3377a0da1a8d9c9826be19c"
+    },
+    "mercedes_validation/inference/MercedesAMG550_45/observations.json": {
+      "bytes": 89884,
+      "sha256": "6e8fbf09ee14e72b80316eaceea9c299010e7072991bdb390af8263f3fea7e94"
+    },
+    "mercedes_validation/inference/MercedesAMG550_45/reference.jpg": {
+      "bytes": 494475,
+      "sha256": "4511132da47eafae2ea4f4b06eee4df970dee60a5892042dfe441df2377d2527"
+    },
+    "mercedes_validation/inference/MercedesAMG550_45/tracks.json": {
+      "bytes": 35117,
+      "sha256": "451a943079a515bded84ae1f6c62d14d47848583e770ca6341fa63b0091d2f16"
+    },
+    "mercedes_validation/inference/MercedesAMG550_47/geometry_run_report.json": {
+      "bytes": 6993,
+      "sha256": "89056800cc4a80c50bf9f7c8f8f532ccb77432e5615e33e9a91854f5991a972c"
+    },
+    "mercedes_validation/inference/MercedesAMG550_47/observations.json": {
+      "bytes": 99724,
+      "sha256": "801a48c646638702b5cce73adfc1c5e3c95bae8c939419cd5e4929f6d2d58159"
+    },
+    "mercedes_validation/inference/MercedesAMG550_47/reference.jpg": {
+      "bytes": 701878,
+      "sha256": "5b41f2735e1acea1b795d4a2cf7c36e42284b49aa6bc34d623c387d9ba4aeb2c"
+    },
+    "mercedes_validation/inference/MercedesAMG550_47/tracks.json": {
+      "bytes": 36903,
+      "sha256": "b49a8936fde27d8656fa95e61aae809bf6bd300777707db2bfdf0b6984234300"
+    },
+    "mercedes_validation/inference/MercedesAMG550_50/geometry_run_report.json": {
+      "bytes": 6993,
+      "sha256": "b90ef89f28feb04419656d6d2eadd6cea4df94a28d656416709801d7fb51439d"
+    },
+    "mercedes_validation/inference/MercedesAMG550_50/observations.json": {
+      "bytes": 83661,
+      "sha256": "7e341bb9e7b5e4bfe6afde43fe24e555b7197b8a373a298dd284042b6f38273a"
+    },
+    "mercedes_validation/inference/MercedesAMG550_50/reference.jpg": {
+      "bytes": 496847,
+      "sha256": "548d0b2bbe190899cd60e9dbccc10f41ac771668dcecc453bf4bf6438a30ad72"
+    },
+    "mercedes_validation/inference/MercedesAMG550_50/tracks.json": {
+      "bytes": 36214,
+      "sha256": "f601e223d71ccb3a0b4095cdf2db95d60a798534e9d1afc00f03c22439d0ba2d"
+    },
+    "mercedes_validation/inference/MercedesAMG550_52/geometry_run_report.json": {
+      "bytes": 6993,
+      "sha256": "65784b25cc23d79532c5d1faf4636378d82ada5e1ad7ea09ebc92cdcf20ac5e3"
+    },
+    "mercedes_validation/inference/MercedesAMG550_52/observations.json": {
+      "bytes": 87666,
+      "sha256": "20aa6382b0f0917b907289dfc2b4d439dae3a19d2c40422114ea59f271266887"
+    },
+    "mercedes_validation/inference/MercedesAMG550_52/reference.jpg": {
+      "bytes": 665908,
+      "sha256": "9be2736f9edd0a7c00ac22b673fce63e0b53785b5d2ce8523017225cdebadc5f"
+    },
+    "mercedes_validation/inference/MercedesAMG550_52/tracks.json": {
+      "bytes": 37172,
+      "sha256": "2ca1c0e5e0819bb06f64ffe4873f9b877c68eca3470a21b0c161fae30a325ecb"
+    },
+    "mercedes_validation/inference/MercedesAMG550_55/geometry_run_report.json": {
+      "bytes": 6809,
+      "sha256": "3a7f836ce8242c0011a8eaecbdc19ea8c4dfe321a1d454fa060efc7e59ecc963"
+    },
+    "mercedes_validation/inference/MercedesAMG550_55/observations.json": {
+      "bytes": 73894,
+      "sha256": "c01a0f26852e0c5979c80686970466903fc1b92265a2f738cdb892f6d4ed96ce"
+    },
+    "mercedes_validation/inference/MercedesAMG550_55/reference.jpg": {
+      "bytes": 508818,
+      "sha256": "64e5e5065b7cc3609926efed60d7f74127bca5f41fd957e8a773eb2ced1174e9"
+    },
+    "mercedes_validation/inference/MercedesAMG550_55/tracks.json": {
+      "bytes": 28058,
+      "sha256": "723fe60368187620b9f10c3d0c75b22ee5a98593c539f64175177ffec6902ee5"
+    },
+    "mercedes_validation/inference/MercedesAMG550_58/geometry_run_report.json": {
+      "bytes": 6692,
+      "sha256": "9db0814a4c3cc4d3c2492f31c5008687965705f16011aa94155fdbfe2e8f234b"
+    },
+    "mercedes_validation/inference/MercedesAMG550_58/observations.json": {
+      "bytes": 66065,
+      "sha256": "982bcae8ec3a5197bd15bca0efa90ed12c214ccda170b3c3f2e861952a7fe448"
+    },
+    "mercedes_validation/inference/MercedesAMG550_58/reference.jpg": {
+      "bytes": 623879,
+      "sha256": "c63edcc22961fe96ae3621ed266789ed35b44e5638b42d5fa58492b7b027a1e9"
+    },
+    "mercedes_validation/inference/MercedesAMG550_58/tracks.json": {
+      "bytes": 35181,
+      "sha256": "818ae2601102e878b9aa00ce27dbbe17fc604044e1e2682e1b84f1cb5f5e36b7"
+    },
+    "mercedes_validation/inference/MercedesAMG550_60/geometry_run_report.json": {
+      "bytes": 6692,
+      "sha256": "607706bcd9e39372e6851ad6a71403f9e909afc70d11788e658484e2b1d800bc"
+    },
+    "mercedes_validation/inference/MercedesAMG550_60/observations.json": {
+      "bytes": 63385,
+      "sha256": "f5bacb7317ca4eea96857e41b9bc603570cc38a967034cbf353a1c8a9d24d869"
+    },
+    "mercedes_validation/inference/MercedesAMG550_60/reference.jpg": {
+      "bytes": 524560,
+      "sha256": "c15167fa0e5fd978cf21e94bea6fd2abf47bef85e0d20a41830c18f7f9b1b667"
+    },
+    "mercedes_validation/inference/MercedesAMG550_60/tracks.json": {
+      "bytes": 27831,
+      "sha256": "6d1c8caca87556277ed559a896e90bded4cf2bfc575649f6323f8e9e594b2f55"
+    },
+    "mercedes_validation/inference/MercedesAMG550_62/geometry_run_report.json": {
+      "bytes": 6994,
+      "sha256": "465eaf62013600a8d89e681298566ccb6cd171dc73e4963930c6e84f7e8a115b"
+    },
+    "mercedes_validation/inference/MercedesAMG550_62/observations.json": {
+      "bytes": 71319,
+      "sha256": "8c9cef5a491cfb88f99efc2a30e664e32e766b5811c0c1584863062d15f216dc"
+    },
+    "mercedes_validation/inference/MercedesAMG550_62/reference.jpg": {
+      "bytes": 691359,
+      "sha256": "2376bf54976f6567f9bfd0bd4b1edf5771cece9bdb7d14b80d0e9d9c27ff78ce"
+    },
+    "mercedes_validation/inference/MercedesAMG550_62/tracks.json": {
+      "bytes": 31529,
+      "sha256": "3f73462f9f284cd2a7875fdd0417c54b25b54347c01cefaf6bc5a17f5f4a63b7"
+    },
+    "mercedes_validation/inference/MercedesAMG550_65/geometry_run_report.json": {
+      "bytes": 6878,
+      "sha256": "66283733abc22b183fd2efc85108e2b3eb0a1922d9131eab335e6420ffadd451"
+    },
+    "mercedes_validation/inference/MercedesAMG550_65/observations.json": {
+      "bytes": 58499,
+      "sha256": "32ebe7c12c7f0279b719c4066d7edbfd7a14e30fed1f157bfdc791cc660aa1f5"
+    },
+    "mercedes_validation/inference/MercedesAMG550_65/reference.jpg": {
+      "bytes": 526003,
+      "sha256": "9a29639050b548391ffb3f469ed5efd26d7d9d9831b7b010c029590b796e5035"
+    },
+    "mercedes_validation/inference/MercedesAMG550_65/tracks.json": {
+      "bytes": 38884,
+      "sha256": "0a02444b19a69dab5e7914c510589e74b829c87e48faab1961cc71cc6ed3210a"
+    },
+    "mercedes_validation/inference/MercedesAMG550_67/geometry_run_report.json": {
+      "bytes": 6993,
+      "sha256": "39a20b30cfb0bb3632e524ee9845d0f376dc9442729fafccad1535553c2f24bf"
+    },
+    "mercedes_validation/inference/MercedesAMG550_67/observations.json": {
+      "bytes": 62261,
+      "sha256": "fdb07e0884ff24e84915c6c9861060aac61009921c89ccee33ff2b93b8b3a259"
+    },
+    "mercedes_validation/inference/MercedesAMG550_67/reference.jpg": {
+      "bytes": 664194,
+      "sha256": "6f60dc226b325f5523fb2679d16815e17a2c846cefa6c875e0f448b8422188d8"
+    },
+    "mercedes_validation/inference/MercedesAMG550_67/tracks.json": {
+      "bytes": 36111,
+      "sha256": "f28ec198b390f8c729eb8cfbc7b40d00a2fd64c0f9dd90c6104b66035e170063"
+    },
+    "mercedes_validation/inference/MercedesAMG550_70/geometry_run_report.json": {
+      "bytes": 6565,
+      "sha256": "d606e3407b20861eb930dec3781b7fe5a64a80363520f6773d9ab2f3aacb2121"
+    },
+    "mercedes_validation/inference/MercedesAMG550_70/observations.json": {
+      "bytes": 58396,
+      "sha256": "f3eb40ddd810d28b5d1898c7916b8e4ded65aa04707ff9f0636dc68d90033b40"
+    },
+    "mercedes_validation/inference/MercedesAMG550_70/reference.jpg": {
+      "bytes": 547086,
+      "sha256": "71be214fbe71e7201a19816444a00a1c5afdeffb65fb5362b0d9b3a9655f37a6"
+    },
+    "mercedes_validation/inference/MercedesAMG550_70/tracks.json": {
+      "bytes": 24134,
+      "sha256": "42165b911ac023c4cf375551a2ae891701aa38d0ac8dba803a6279742a1e721f"
+    },
+    "mercedes_validation/inference/MercedesAMG550_73/geometry_run_report.json": {
+      "bytes": 6692,
+      "sha256": "87cca4d38e5fa065b0b6c56a38f317171a7d8ae3a467313690cbba146959ceb3"
+    },
+    "mercedes_validation/inference/MercedesAMG550_73/observations.json": {
+      "bytes": 60035,
+      "sha256": "9ae2bbe23356e9a65b1b3a50ac4b1ed4272e39880cf4bddc90c801913a127e20"
+    },
+    "mercedes_validation/inference/MercedesAMG550_73/reference.jpg": {
+      "bytes": 662384,
+      "sha256": "775ba7c5a85b67854984c943c4676a407374a38e84635879b3ccd9097f39b50c"
+    },
+    "mercedes_validation/inference/MercedesAMG550_73/tracks.json": {
+      "bytes": 29727,
+      "sha256": "ad2f9c0517c73754b1be2551cefa4054c81c78541c6a81795968417ee79838b9"
+    },
+    "mercedes_validation/inference/MercedesAMG550_75/geometry_run_report.json": {
+      "bytes": 6993,
+      "sha256": "1e11498664694dc815182b1d44a731db2b103d6060f2145a38de31894b1cd250"
+    },
+    "mercedes_validation/inference/MercedesAMG550_75/observations.json": {
+      "bytes": 56214,
+      "sha256": "8cdd22f0b9357ba8fcfe36352e785d0488804b50b1e416df5748d56b400686ba"
+    },
+    "mercedes_validation/inference/MercedesAMG550_75/reference.jpg": {
+      "bytes": 543850,
+      "sha256": "116d3cfcab83e8503884f9397bdc3adc2e24781fcbcd2a9f3f402ea2a795c289"
+    },
+    "mercedes_validation/inference/MercedesAMG550_75/tracks.json": {
+      "bytes": 31277,
+      "sha256": "843af566aba79cf6026884630bcfd15fee0f2cb463eb5687419843d3d8f8373c"
+    },
+    "mercedes_validation/inference/MercedesAMG550_78/geometry_run_report.json": {
+      "bytes": 6993,
+      "sha256": "b7c45c0a8a4eda663a33f997ae738a265319bf818069148403c160a267330420"
+    },
+    "mercedes_validation/inference/MercedesAMG550_78/observations.json": {
+      "bytes": 31438,
+      "sha256": "640603741fdb3bef58294252237c5ab70895bbb7a53de7aa225c0e1380e09318"
+    },
+    "mercedes_validation/inference/MercedesAMG550_78/reference.jpg": {
+      "bytes": 529887,
+      "sha256": "38a8be96e9150cc169b51a0713dc71098e918f79d8575a006a8ed04e480a9cb8"
+    },
+    "mercedes_validation/inference/MercedesAMG550_78/tracks.json": {
+      "bytes": 35637,
+      "sha256": "62add986d66dbdc1b649dc2c63ff63ae70bf40ba9883283628b71ff063a0f6b1"
+    },
+    "mercedes_validation/inference/MercedesAMG550_80/geometry_run_report.json": {
+      "bytes": 6796,
+      "sha256": "22fdb9f016ded617cf3ad83e212a0c9d3670f1401f7572304811f564210043f1"
+    },
+    "mercedes_validation/inference/MercedesAMG550_80/observations.json": {
+      "bytes": 49981,
+      "sha256": "aaecd1f61c9abb8df8b28475820c28d32f9b879091c3caa98a113a0f7471f0f8"
+    },
+    "mercedes_validation/inference/MercedesAMG550_80/reference.jpg": {
+      "bytes": 536132,
+      "sha256": "fd594afb416a12a014220a1014e08cbe8dbaef98a5d3f38807c8edada52aeb9e"
+    },
+    "mercedes_validation/inference/MercedesAMG550_80/tracks.json": {
+      "bytes": 26656,
+      "sha256": "fbd040edb13045d7d3ac65a390dd37037e3f9bcd6b1e28b2830a4a1972d829b2"
+    },
+    "mercedes_validation/inference/MercedesAMG550_82/geometry_run_report.json": {
+      "bytes": 6992,
+      "sha256": "884753e2331f24962d6ae276bb56c8f5137a331b68ff88b81b7723d52d9f599e"
+    },
+    "mercedes_validation/inference/MercedesAMG550_82/observations.json": {
+      "bytes": 53859,
+      "sha256": "ef741d869599f94c92fa9137256ac61f447dcd55614b633e29957da74684b27c"
+    },
+    "mercedes_validation/inference/MercedesAMG550_82/reference.jpg": {
+      "bytes": 635134,
+      "sha256": "b5e29a88f09c3ed7bf4e3329c0ad370cff0cac566f005ae0d55ebdad4e7218e9"
+    },
+    "mercedes_validation/inference/MercedesAMG550_82/tracks.json": {
+      "bytes": 33065,
+      "sha256": "a08fa93b27f7bdc34c845ca4731548efc12d3d3efbddfc2fcc5a9ef9324da4b3"
+    },
+    "mercedes_validation/inference/MercedesAMG550_85/geometry_run_report.json": {
+      "bytes": 6993,
+      "sha256": "e2b83b00d9c3f48b76e76e12d0f0b2a36cf540cc935e6e7d9c7495c39bbea2a2"
+    },
+    "mercedes_validation/inference/MercedesAMG550_85/observations.json": {
+      "bytes": 50681,
+      "sha256": "1b3e7598b36002c88d8f17635b2060d5faa90ff782299b267edb7a993c05fb4b"
+    },
+    "mercedes_validation/inference/MercedesAMG550_85/reference.jpg": {
+      "bytes": 532738,
+      "sha256": "0b9d57cede3a8fcc429598e5c9bfc0ee36a1b3618ff4e1f9df44b34d17beff1b"
+    },
+    "mercedes_validation/inference/MercedesAMG550_85/tracks.json": {
+      "bytes": 27997,
+      "sha256": "3d2611249cfcead9cd5d61ac1b89e15487ee1631bee774383793025afb429d9b"
+    },
+    "mercedes_validation/inference/MercedesAMG550_87/geometry_run_report.json": {
+      "bytes": 6692,
+      "sha256": "b5e903e1d4bb07693710cede9b9d1c31befe9525aa928ad799fc4f9d60d30578"
+    },
+    "mercedes_validation/inference/MercedesAMG550_87/observations.json": {
+      "bytes": 37241,
+      "sha256": "102db15d21b34f3214ce688b3fd627124b68a7080e7d6d59742d2e0659abf276"
+    },
+    "mercedes_validation/inference/MercedesAMG550_87/reference.jpg": {
+      "bytes": 552323,
+      "sha256": "e98370028d75f03dc5bd808aa2785c2eab5a974b78d01a24411a5a5573a51206"
+    },
+    "mercedes_validation/inference/MercedesAMG550_87/tracks.json": {
+      "bytes": 32614,
+      "sha256": "b74d01e9b406de35336a66fecb80381d938719e60d721346176d2fc49abbb5e0"
+    },
+    "mercedes_validation/inference/MercedesAMG550_90/geometry_run_report.json": {
+      "bytes": 7312,
+      "sha256": "30ae85c57a80487a82ae229ae0a5c24a9a4e0bda73015cf54454622c6ab654e6"
+    },
+    "mercedes_validation/inference/MercedesAMG550_90/observations.json": {
+      "bytes": 25191,
+      "sha256": "37f0b03c3f9386343b812325a9a03fd8e9a4c3334003828dc2c15f798a8d9563"
+    },
+    "mercedes_validation/inference/MercedesAMG550_90/reference.jpg": {
+      "bytes": 755986,
+      "sha256": "e30434a86d4c0a26009b7d6dada0862bc7ecf63aec645b9840779c3052ea80fa"
+    },
+    "mercedes_validation/inference/MercedesAMG550_90/tracks.json": {
+      "bytes": 78106,
+      "sha256": "545d2ae757b3339cc46929228b4c08b6f1e6c6d65e9b93b3aa9adf267cd962ec"
+    },
+    "mercedes_validation/inference/MercedesAMG550_93/geometry_run_report.json": {
+      "bytes": 6877,
+      "sha256": "db237eaf2fcbeb868f24fbe0646a1a62dc218c9d33a4885da53b0dba9e22b8f7"
+    },
+    "mercedes_validation/inference/MercedesAMG550_93/observations.json": {
+      "bytes": 45981,
+      "sha256": "0356722ec913b0f16d7780cefc361ff0b2256d5d29b587d52e6a1f4dd3139a4c"
+    },
+    "mercedes_validation/inference/MercedesAMG550_93/reference.jpg": {
+      "bytes": 593923,
+      "sha256": "f8eb8acf4fe28356eef6424723004df38629bb047061d2289e97f7de4cb59ae7"
+    },
+    "mercedes_validation/inference/MercedesAMG550_93/tracks.json": {
+      "bytes": 31225,
+      "sha256": "1032e40854822de66168bc713c9b7b8925359edbf721a7f3956190cf8943da0d"
+    },
+    "mercedes_validation/inference/MercedesAMG550_95/geometry_run_report.json": {
+      "bytes": 6803,
+      "sha256": "b61b85e9e4a945fd92db7cebfcf8194623b88f8738df80cf0596c12b4d3b0be8"
+    },
+    "mercedes_validation/inference/MercedesAMG550_95/observations.json": {
+      "bytes": 37894,
+      "sha256": "912a14f1d3390551b4db7ecf019fe9e6be0d0a1e09410a0e606779f067bc0c53"
+    },
+    "mercedes_validation/inference/MercedesAMG550_95/reference.jpg": {
+      "bytes": 525719,
+      "sha256": "7247409fc51eac942a200fd477a96ef6b4b1a36713603329ef2674a54e433dff"
+    },
+    "mercedes_validation/inference/MercedesAMG550_95/tracks.json": {
+      "bytes": 27677,
+      "sha256": "0c9de5890349159adf5c6a8ee344489c005322c310911fdfa90fdae1c07cfae5"
+    },
+    "mercedes_validation/inference/MercedesAMG550_98/geometry_run_report.json": {
+      "bytes": 6993,
+      "sha256": "528660882ff789fe40fa08a0c903f0a0506317cc68935d987a5230bee1b32052"
+    },
+    "mercedes_validation/inference/MercedesAMG550_98/observations.json": {
+      "bytes": 34446,
+      "sha256": "72f61f948cf9d633fbec723a86876c1956aae39ef4c1199cac1e057e774c27c6"
+    },
+    "mercedes_validation/inference/MercedesAMG550_98/reference.jpg": {
+      "bytes": 548101,
+      "sha256": "81adfaf6c11ba75c2e8349defb9507cb2ad6dfca8337f0a251cbdc63bced5ad7"
+    },
+    "mercedes_validation/inference/MercedesAMG550_98/tracks.json": {
+      "bytes": 31753,
+      "sha256": "a22a85d7ee718e5c4dc2eafe32882f1ec013a9d80f080aa0f1f5afef1dd04c0f"
+    },
+    "mercedes_validation/metrics.json": {
+      "bytes": 4989,
+      "sha256": "df5f0c999fc5e0a40798ae0cbddcdd745caaf6a81cb3e82081082a24ff15296d"
+    },
     "mercedes_validation/pilot_fitted_results.json": {
       "bytes": 1769,
       "sha256": "c1baea64a02c20eb7a27e75368b46dfaeea533d1f87c051a2561660b2355bdc7"
     },
     "mercedes_validation/pilot_frozen_calibration.json": {
-      "bytes": 2298,
-      "sha256": "efb52a0b68fbbcfbbd2ecf026bcff47f2bce87ad9a6647ea6202693fce7700a6"
+      "bytes": 2632,
+      "sha256": "d454de193b939921ef161dbe719a26801cf65b10156a7dd93d68b418f983da31"
     },
     "mercedes_validation/pilot_initial_results.json": {
       "bytes": 1040,
       "sha256": "894f9ef09af238945edbc77268ccc42a699e5abfab3e2c631e241a6cfd45e68a"
     },
+    "mercedes_validation/predictions.json": {
+      "bytes": 67493,
+      "sha256": "acf4c2f06065bd60e9e9c26aa35069edaa02b4e2f73e983cc8cb707e3fb135cb"
+    },
     "mercedes_validation/README.md": {
-      "bytes": 1317,
-      "sha256": "8ed2a8f9dbf3141d090c9168518118cdd451c0e0a43ba16bc9b437538ff1c423"
+      "bytes": 12516,
+      "sha256": "c66b4e519a74f5219b53b73051970dfc57e5ee0c31799646285528e1451f1f89"
+    },
+    "mercedes_validation/reference_calibration_reproduction.json": {
+      "bytes": 1333,
+      "sha256": "21fcca0f51468dc963e1dba03d4728a15d2069faf3c5605240247d56db0302ce"
+    },
+    "mercedes_validation/results.csv": {
+      "bytes": 7979,
+      "sha256": "dd1c2da0ca376675533f1dd8babc153857508ced1fcc32b795e0134e99828745"
+    },
+    "mercedes_validation/results.json": {
+      "bytes": 20129,
+      "sha256": "f6eae1abaab0c139c8290ba809e8964ae50f6696ff8e231ee1e331ee6d9d6f2e"
+    },
+    "mercedes_validation/source_manifest.json": {
+      "bytes": 7163,
+      "sha256": "f1442f4944c2782116f1133dda024486380c975811ecf86f844515962344579e"
+    },
+    "mercedes_validation/validation_errors.jpg": {
+      "bytes": 97590,
+      "sha256": "f219df1ccd7c6ef0ba32ef81e6517ad79b4c2d1bc5c9eb4d1d1ae4ca339e079a"
     },
     "mercedes_validation/videos/MercedesAMG550_100/calibration.mp4": {
-      "bytes": 1311367,
-      "sha256": "05452afa6e7f384141ec1bc91252db1628d0dd6f1db755b82a70d82d3ea0efc0"
+      "bytes": 1078208,
+      "sha256": "9f0ef3fd9baf6cf9fce05d27df89cf42c2a9176ad43fdfc8122a691f5ff17f12"
     },
     "mercedes_validation/videos/MercedesAMG550_100/render_report.json": {
-      "bytes": 205,
-      "sha256": "fdf741abeb8903cda452c8c13a351d13f34904ca97e4fff5be66097100977d5b"
+      "bytes": 195,
+      "sha256": "0c8823ff6fe57bc4275b104404381a96a1d283644f123d9e6547e64daaad0506"
     },
     "mercedes_validation/videos/MercedesAMG550_100/speed.mp4": {
-      "bytes": 1278086,
-      "sha256": "068b2b5b474b26bec078a0fb5a7f815eae07cce5783e1eeabd32bc2b052918a0"
+      "bytes": 1050666,
+      "sha256": "3290aa0a46c85db8766b2c0907f8d7def9c8e7e6cbb4b0d3f6dd17da39660147"
     },
     "mercedes_validation/videos/MercedesAMG550_100/speed_example.jpg": {
-      "bytes": 241251,
-      "sha256": "b2f1d3f651b50984fbd3b1e1e024cff8274b7e9cd48a319c4c5c068f9d43b70d"
+      "bytes": 254527,
+      "sha256": "e81957cbc6fb7f62df5dc567b8a3f216915ed448f2066082eeafc9db1a161ee8"
+    },
+    "mercedes_validation/videos/MercedesAMG550_105/calibration.mp4": {
+      "bytes": 1081516,
+      "sha256": "dd43ba52f702ab369ebfc6232bcf59afdf03e3ddcfa0c8eb386c990ad884475f"
+    },
+    "mercedes_validation/videos/MercedesAMG550_105/render_report.json": {
+      "bytes": 194,
+      "sha256": "ef29b89edcd5d07a6cc963c10bb16b4a4c83af254d44acd559a069d144e526e0"
+    },
+    "mercedes_validation/videos/MercedesAMG550_105/speed.mp4": {
+      "bytes": 1055026,
+      "sha256": "280f0d164cb427429d38cddbb1b62aaf9f0cf73d5ec7eb04025e543de89b7ec1"
+    },
+    "mercedes_validation/videos/MercedesAMG550_105/speed_example.jpg": {
+      "bytes": 248666,
+      "sha256": "bb577dd85deec2296fb082d744bd728f749f88f8ae54618006ee5a408a374a5c"
     },
     "mercedes_validation/videos/MercedesAMG550_30/calibration.mp4": {
-      "bytes": 1236764,
-      "sha256": "21497a7ffbc41a70de1bb9ca3883ef66b590a66f14e120520b519f7e3cfc2754"
+      "bytes": 1017986,
+      "sha256": "061acaf7a07e665cd2632f5c8cb8df6e41d461d0cea7b765218ba37085a88501"
     },
     "mercedes_validation/videos/MercedesAMG550_30/render_report.json": {
-      "bytes": 205,
-      "sha256": "7abad1071e64b02012b24027be50db315cec6631442a7397707ccdaf8c9d031a"
+      "bytes": 195,
+      "sha256": "86a021c1bf814fdca4ed077b30b56adbcd7793b2ff7eb36b3e9a1a6309e71ce6"
     },
     "mercedes_validation/videos/MercedesAMG550_30/speed.mp4": {
-      "bytes": 1173118,
-      "sha256": "6e4ffa53cf7ca1f90c72b9430ebc2856f8a7abe05bbdf950368e163161baec42"
+      "bytes": 961142,
+      "sha256": "482f6828aa2da9061d4f583f4922c12cc6c7968212be5277b9b82838471e82f7"
     },
     "mercedes_validation/videos/MercedesAMG550_30/speed_example.jpg": {
-      "bytes": 228760,
-      "sha256": "f10967051a1238bd1bf18d0f8925d8d4aa25eb61abf47cd9aa0b54e26a501d21"
+      "bytes": 242311,
+      "sha256": "e4f3f680507c4f74cf5c45dfb0eccb869ad779553803db2aa06b3d3a37cab889"
+    },
+    "mercedes_validation/videos/MercedesAMG550_33/calibration.mp4": {
+      "bytes": 1657845,
+      "sha256": "33b8cfe7af9a04c29549022a9177313abc8774ea89e32c6e93d658e1c56e9cf8"
+    },
+    "mercedes_validation/videos/MercedesAMG550_33/render_report.json": {
+      "bytes": 194,
+      "sha256": "ba97a26c732ff0e2086b4ff6ae76714eda9ccdab06efa8c6f7707e44094c5ef3"
+    },
+    "mercedes_validation/videos/MercedesAMG550_33/speed.mp4": {
+      "bytes": 1600872,
+      "sha256": "ca9b2b95f6119f08c5b3735b468fc9ca2c889f57e313cb6054bee8195f48025d"
+    },
+    "mercedes_validation/videos/MercedesAMG550_33/speed_example.jpg": {
+      "bytes": 317728,
+      "sha256": "727bc8fb4be6cbd377f659f1ab52b2ae641a9a406583ba2f6aad6fda1662f977"
+    },
+    "mercedes_validation/videos/MercedesAMG550_35/calibration.mp4": {
+      "bytes": 2170459,
+      "sha256": "694adbf95b70f53803733291d999032f837c644f4c762bf8d3d667c4eef455cb"
+    },
+    "mercedes_validation/videos/MercedesAMG550_35/render_report.json": {
+      "bytes": 194,
+      "sha256": "debb533eb86b4102b65f55e9ac1e486b6bcee7888937926e67ae1176ee86141f"
+    },
+    "mercedes_validation/videos/MercedesAMG550_35/speed.mp4": {
+      "bytes": 2123827,
+      "sha256": "23d22dd7b2814adf16248494b79804de16b2330de9106ec0591fca625c6c6d57"
+    },
+    "mercedes_validation/videos/MercedesAMG550_35/speed_example.jpg": {
+      "bytes": 348282,
+      "sha256": "6fb1a235e360578148114662abb8600e6e622eb837483c8de5761b2064c91ed4"
+    },
+    "mercedes_validation/videos/MercedesAMG550_38/calibration.mp4": {
+      "bytes": 1315548,
+      "sha256": "43b093915a855f94d386b238b70112daaff492353cd70f7e4176a1621979bc0e"
+    },
+    "mercedes_validation/videos/MercedesAMG550_38/render_report.json": {
+      "bytes": 194,
+      "sha256": "0e73ebd0abf6872c8ea71ea1ef0ede54fb13c090bd69c5e97e262c350403231b"
+    },
+    "mercedes_validation/videos/MercedesAMG550_38/speed.mp4": {
+      "bytes": 1238159,
+      "sha256": "4476943d761e17bbd28f39d37b181e878e32f5cb8833544881e59aab71c6589b"
+    },
+    "mercedes_validation/videos/MercedesAMG550_38/speed_example.jpg": {
+      "bytes": 268206,
+      "sha256": "0a80e463ba0b8b27ca6d5be9b7a3534ecbdf0b6c519d5cfd538e3015bf7dc47b"
+    },
+    "mercedes_validation/videos/MercedesAMG550_40/calibration.mp4": {
+      "bytes": 942649,
+      "sha256": "f91dc4109e4e1057bb11bae4749496b46600d6043d7b35bd2439e1f1845181a6"
+    },
+    "mercedes_validation/videos/MercedesAMG550_40/render_report.json": {
+      "bytes": 206,
+      "sha256": "397f4700a47a5a42e1c960af561146c792080ad7bf318f69a5ba17fb9ce9c95f"
+    },
+    "mercedes_validation/videos/MercedesAMG550_40/speed.mp4": {
+      "bytes": 885329,
+      "sha256": "27c19e6f5c08929139280424bab86a775584dbe1428fc193bc5bf9c5d3063b54"
+    },
+    "mercedes_validation/videos/MercedesAMG550_40/speed_example.jpg": {
+      "bytes": 240259,
+      "sha256": "9e44f57d0a993f442fb7be063d0b453c3be677ed5b905cfa1f47399db3e099a8"
+    },
+    "mercedes_validation/videos/MercedesAMG550_42/calibration.mp4": {
+      "bytes": 1341289,
+      "sha256": "213777a969c13f88c343a6a5f36a11aaa4c54a98adf85f35c47b2bfa0c3931fd"
+    },
+    "mercedes_validation/videos/MercedesAMG550_42/render_report.json": {
+      "bytes": 194,
+      "sha256": "35ae8f043cf3f6596576ff9f89e9f9eccd6bc61dc009f7e668bb3419ecd70209"
+    },
+    "mercedes_validation/videos/MercedesAMG550_42/speed.mp4": {
+      "bytes": 1286824,
+      "sha256": "7b3cd90b4ca0475688dd77b8e19b1ca10390dc71ca510aeee8dbf7fb848cc262"
+    },
+    "mercedes_validation/videos/MercedesAMG550_42/speed_example.jpg": {
+      "bytes": 269214,
+      "sha256": "d8a037f0ae59769ac0eb8817705c9b8968f9e177a773e1ba0184b909fffeea90"
+    },
+    "mercedes_validation/videos/MercedesAMG550_45/calibration.mp4": {
+      "bytes": 1053529,
+      "sha256": "3fffc5e77cae8a58c2fb0c4485aabb295f5eeefc2b5fa18525496b7a233eb47b"
+    },
+    "mercedes_validation/videos/MercedesAMG550_45/render_report.json": {
+      "bytes": 206,
+      "sha256": "e5d09d1eef7647a8ccfed8bbefb05ec8270d12cc8e3d2902301d77e6710159c9"
+    },
+    "mercedes_validation/videos/MercedesAMG550_45/speed.mp4": {
+      "bytes": 986059,
+      "sha256": "a6c5faf8afbb8a625d9ae3c685c3664e2638408c29d784c3539bc81ce0bb41e0"
+    },
+    "mercedes_validation/videos/MercedesAMG550_45/speed_example.jpg": {
+      "bytes": 245852,
+      "sha256": "615a19da3e7b162061561205640d72d250f81c794126cea8d27a93442ceda12d"
+    },
+    "mercedes_validation/videos/MercedesAMG550_47/calibration.mp4": {
+      "bytes": 1717382,
+      "sha256": "5a33b3f242e3303df01eb03c90cd059ae9b077e4a5a80bdd4f4587d3dd3205d8"
+    },
+    "mercedes_validation/videos/MercedesAMG550_47/render_report.json": {
+      "bytes": 194,
+      "sha256": "81e5598462f9d99f291b6c2a944273348949541f185da58ef50ab30292162e3c"
+    },
+    "mercedes_validation/videos/MercedesAMG550_47/speed.mp4": {
+      "bytes": 1647064,
+      "sha256": "8ca6eb56b6a92ed0d6bbeb9c3481a4b0570290e15a21a3416c585c5607745587"
+    },
+    "mercedes_validation/videos/MercedesAMG550_47/speed_example.jpg": {
+      "bytes": 333924,
+      "sha256": "85eaae73a75682a3133472b1e42bde435a11b61cecb5ec8888ee7fb7e3af4de2"
+    },
+    "mercedes_validation/videos/MercedesAMG550_50/calibration.mp4": {
+      "bytes": 1134354,
+      "sha256": "6b257502dd1f519c48bf15d774cce6fc71dbf5443626b2cbbb0641d3b25ff8ce"
+    },
+    "mercedes_validation/videos/MercedesAMG550_50/render_report.json": {
+      "bytes": 194,
+      "sha256": "a08c0e2f1ab1fbcfc92e58dd6da51a5adc68727f0a31b38c9b74b927dc121e1a"
+    },
+    "mercedes_validation/videos/MercedesAMG550_50/speed.mp4": {
+      "bytes": 1078782,
+      "sha256": "3bc3f8b924b4d614a91fd09afaf1258de9a130dac7741b2f0fde19d88e43fbc8"
+    },
+    "mercedes_validation/videos/MercedesAMG550_50/speed_example.jpg": {
+      "bytes": 247336,
+      "sha256": "1557a63deb8592ef0e85b187c900af83030a940d8b6f3382da6f5c2a765c4586"
+    },
+    "mercedes_validation/videos/MercedesAMG550_52/calibration.mp4": {
+      "bytes": 1476236,
+      "sha256": "a8853634954ec2b086335aa9cc856d9b868b396a89c119531b9bfeb6e45ba804"
+    },
+    "mercedes_validation/videos/MercedesAMG550_52/render_report.json": {
+      "bytes": 194,
+      "sha256": "0b1d8a8930e169254a798417c209836433b4b01a6ee154775ae0689d5a370588"
+    },
+    "mercedes_validation/videos/MercedesAMG550_52/speed.mp4": {
+      "bytes": 1429620,
+      "sha256": "7f8cc061b2fde40105ff8c4b7feb84abf078d8a204a83f51e73b1cc30d3dd9b8"
+    },
+    "mercedes_validation/videos/MercedesAMG550_52/speed_example.jpg": {
+      "bytes": 312581,
+      "sha256": "58d47b313adc0e20782ff90739274a31409b314207e36fc9c5d92af7bf33e59b"
+    },
+    "mercedes_validation/videos/MercedesAMG550_55/calibration.mp4": {
+      "bytes": 1056166,
+      "sha256": "13f3aa70d6e83dd02606512d90f2bde254fef9aeaeba2b2653e8b682dea2c05e"
+    },
+    "mercedes_validation/videos/MercedesAMG550_55/render_report.json": {
+      "bytes": 195,
+      "sha256": "ee301c8f30f7a6da011cb307db49263b57ab69a302d7bfb26d791459684bfffc"
+    },
+    "mercedes_validation/videos/MercedesAMG550_55/speed.mp4": {
+      "bytes": 1001237,
+      "sha256": "93b2a90baf5f1cfba4112d45c841cb82f720951a84883de0d7f03df9c7464a73"
+    },
+    "mercedes_validation/videos/MercedesAMG550_55/speed_example.jpg": {
+      "bytes": 244754,
+      "sha256": "d02e56ff45c0d2f6c23c772ec614dce51a19229cf3aa464678915629b4790502"
+    },
+    "mercedes_validation/videos/MercedesAMG550_58/calibration.mp4": {
+      "bytes": 1447133,
+      "sha256": "021e22a659593319bc838cf7bbf283322de3bad6b8074a06ba16ef39413e4a25"
+    },
+    "mercedes_validation/videos/MercedesAMG550_58/render_report.json": {
+      "bytes": 206,
+      "sha256": "ab822fbde44e43609feeb9769b88e0d8834939f05b9e3c17ca1c7f72cd0def93"
+    },
+    "mercedes_validation/videos/MercedesAMG550_58/speed.mp4": {
+      "bytes": 1391076,
+      "sha256": "9ebe27052399b77fe1537a71445d441817f2828b22090e64bc2e14f828d41dd6"
+    },
+    "mercedes_validation/videos/MercedesAMG550_58/speed_example.jpg": {
+      "bytes": 301688,
+      "sha256": "b2b415ea11dbe291a949a9a102b0c6ced73d5666cc149069c97d39ca4e90b2d3"
     },
     "mercedes_validation/videos/MercedesAMG550_60/calibration.mp4": {
-      "bytes": 1286015,
-      "sha256": "1b44e6338edeb1a81e52e799dda2449bdef74c491fe73f8a82af8717f6526daf"
+      "bytes": 1058171,
+      "sha256": "23c263012ceba980a0abd98d207cc75ea7b0c67c1ff12971513a81dfc2b5956d"
     },
     "mercedes_validation/videos/MercedesAMG550_60/render_report.json": {
-      "bytes": 216,
-      "sha256": "437329794dc9826bdb541aa501b658ecf00f1a1a103aa5c798cb4f7c18dc07fc"
+      "bytes": 206,
+      "sha256": "f3a18603af33d94257a55a4e971a677877bfdbd39f6b3d6fabbdbfa277552520"
     },
     "mercedes_validation/videos/MercedesAMG550_60/speed.mp4": {
-      "bytes": 1236347,
-      "sha256": "ffa20ae8f25ff1ff749c1843fc36d44542cc09ad7ab6fc06792cff3f4b6bff87"
+      "bytes": 1014814,
+      "sha256": "30d1d85cd448fd78169a1bc6a2f82ee8f23b0e0606b49bb1deb339993dc0de0b"
     },
     "mercedes_validation/videos/MercedesAMG550_60/speed_example.jpg": {
-      "bytes": 240339,
-      "sha256": "b3593b732010ee8a009d51964fc6894d6523bbe75cd1f2f86e152ed9e491537c"
+      "bytes": 253404,
+      "sha256": "c120525cd29b0cc40d42610a70e1d4a3c41e4272466989415549c81a2b623183"
+    },
+    "mercedes_validation/videos/MercedesAMG550_62/calibration.mp4": {
+      "bytes": 1503310,
+      "sha256": "1ff0221c1b2595fc1d4943b5a74b58706ab8ec0cd159c2e50f4fce9d4739c48c"
+    },
+    "mercedes_validation/videos/MercedesAMG550_62/render_report.json": {
+      "bytes": 194,
+      "sha256": "29f93d476f14b728075fec24317ae433d008eff4a842958cd07aead10c59422c"
+    },
+    "mercedes_validation/videos/MercedesAMG550_62/speed.mp4": {
+      "bytes": 1462102,
+      "sha256": "76acbd23567d91289f3e1bffc611b42ef7c09897eb3c2f9387bccfa0bfc7330d"
+    },
+    "mercedes_validation/videos/MercedesAMG550_62/speed_example.jpg": {
+      "bytes": 323534,
+      "sha256": "a4cb0876dc53f8c9920eda7504ce13d70413f24d740cd75d406e8413fa7a7b88"
+    },
+    "mercedes_validation/videos/MercedesAMG550_65/calibration.mp4": {
+      "bytes": 1053707,
+      "sha256": "e87ff633ff46fc7faad465b838844dfc24559895bffa8545ca2724eb128b39d4"
+    },
+    "mercedes_validation/videos/MercedesAMG550_65/render_report.json": {
+      "bytes": 206,
+      "sha256": "045bf6ecdcc4b57cb81a187370e913510c209aed7a95e22688a37d0fffbfd73a"
+    },
+    "mercedes_validation/videos/MercedesAMG550_65/speed.mp4": {
+      "bytes": 1023397,
+      "sha256": "45e582fa369ff92c51d909bd172c8482b247518b835bf25f840261791c540935"
+    },
+    "mercedes_validation/videos/MercedesAMG550_65/speed_example.jpg": {
+      "bytes": 254116,
+      "sha256": "048a57db6be4e90d4ae413f6d6d6b9e252cd7e37eceb00718a12c2f016a21b3b"
+    },
+    "mercedes_validation/videos/MercedesAMG550_67/calibration.mp4": {
+      "bytes": 1522239,
+      "sha256": "6d03f49ac94f64bc7f3d2fa02a5c7b1f3deed3dbb702529e3d60853ea9e056f2"
+    },
+    "mercedes_validation/videos/MercedesAMG550_67/render_report.json": {
+      "bytes": 194,
+      "sha256": "e9ac9739a85a1e4bf29c1d2c658af848aa95320987b3aef1e2d453cb8b7309e1"
+    },
+    "mercedes_validation/videos/MercedesAMG550_67/speed.mp4": {
+      "bytes": 1485066,
+      "sha256": "7ff8398061a1058c2d1264fa115bf7301abe8241001f191a7236805425ef2853"
+    },
+    "mercedes_validation/videos/MercedesAMG550_67/speed_example.jpg": {
+      "bytes": 319587,
+      "sha256": "5b03e74314c1afe5e0956544c7caad5448e0340af85cb9548707dff4b6415697"
+    },
+    "mercedes_validation/videos/MercedesAMG550_70/calibration.mp4": {
+      "bytes": 1090665,
+      "sha256": "e5149778c91d546b092acb676142612b5b6f1d57541d76896298517a0a8821ec"
+    },
+    "mercedes_validation/videos/MercedesAMG550_70/render_report.json": {
+      "bytes": 195,
+      "sha256": "6deed0482f6af50ca3cfe681ba34cc3d0bf7f877857fe8e508c43644f8aa694f"
+    },
+    "mercedes_validation/videos/MercedesAMG550_70/speed.mp4": {
+      "bytes": 1054496,
+      "sha256": "f388dc26dc61580044b1be699d80e2468f50d1f5c1fe84bda37f9208a8ab795b"
+    },
+    "mercedes_validation/videos/MercedesAMG550_70/speed_example.jpg": {
+      "bytes": 259654,
+      "sha256": "0a739b6be14f8ffb059454598068c1ea9cb28cc719c9b27aa5d635ae361924af"
+    },
+    "mercedes_validation/videos/MercedesAMG550_73/calibration.mp4": {
+      "bytes": 1448056,
+      "sha256": "902154526c8a7161555d2c38c8ff441d08ac5c2f22d3e575cf736f7059eb605a"
+    },
+    "mercedes_validation/videos/MercedesAMG550_73/render_report.json": {
+      "bytes": 206,
+      "sha256": "4ce776e5ea0b991fbb266c4099fbe4bb6fc1942f1abf8c885b1f4ca9796355a0"
+    },
+    "mercedes_validation/videos/MercedesAMG550_73/speed.mp4": {
+      "bytes": 1411335,
+      "sha256": "aa12c3e01f5edcef615672f694c8834ff54493a8ce9be2c92022738c00668518"
+    },
+    "mercedes_validation/videos/MercedesAMG550_73/speed_example.jpg": {
+      "bytes": 310442,
+      "sha256": "3db778fb5491ad99c5d8ccfc1fdd9f40230b7414c6f02f4b26f2ffade8fbbf7e"
+    },
+    "mercedes_validation/videos/MercedesAMG550_75/calibration.mp4": {
+      "bytes": 1115530,
+      "sha256": "19c66f72097c0f05fe8a2e667993ab6613898274e8aa2a89ec0fdab124f37a7e"
+    },
+    "mercedes_validation/videos/MercedesAMG550_75/render_report.json": {
+      "bytes": 194,
+      "sha256": "c71291ba544a309a000d84e25975dcba326e318a15894abe05905fa1bb81fb30"
+    },
+    "mercedes_validation/videos/MercedesAMG550_75/speed.mp4": {
+      "bytes": 1091725,
+      "sha256": "1c1075699f8ab36d9fc44ba3842990f89bd1552c381f077fb8076c952bd053d8"
+    },
+    "mercedes_validation/videos/MercedesAMG550_75/speed_example.jpg": {
+      "bytes": 257988,
+      "sha256": "9a208cabb27802a9493ec611afdb2f4a375009b3cd26a42167c11cfc97d862d1"
+    },
+    "mercedes_validation/videos/MercedesAMG550_78/calibration.mp4": {
+      "bytes": 1354983,
+      "sha256": "b044f748d7e178594ee0702bdd1586e6554c3653f9b12c89cf898691542fe067"
+    },
+    "mercedes_validation/videos/MercedesAMG550_78/render_report.json": {
+      "bytes": 194,
+      "sha256": "ef29b89edcd5d07a6cc963c10bb16b4a4c83af254d44acd559a069d144e526e0"
+    },
+    "mercedes_validation/videos/MercedesAMG550_78/speed.mp4": {
+      "bytes": 1316821,
+      "sha256": "f2b61da8ce50e202517032b3304b7521a2e53f33dd53cbbe062d98be2a0a4d1f"
+    },
+    "mercedes_validation/videos/MercedesAMG550_78/speed_example.jpg": {
+      "bytes": 255315,
+      "sha256": "b23b3eb9b03952e3d867e6fe813832d63b6692371efd9da8089e92b209dc0897"
+    },
+    "mercedes_validation/videos/MercedesAMG550_80/calibration.mp4": {
+      "bytes": 1073316,
+      "sha256": "db08627e656d3b3867f33f2c9d3c0e94ea0b8845e42071fb96e0ff605164d16b"
+    },
+    "mercedes_validation/videos/MercedesAMG550_80/render_report.json": {
+      "bytes": 206,
+      "sha256": "6c2249fc70b3fd92aa2919ecc21e4028ac7958b14bffe9bfadd1af9c46a9a0c8"
+    },
+    "mercedes_validation/videos/MercedesAMG550_80/speed.mp4": {
+      "bytes": 1043490,
+      "sha256": "0923271a0ca62135d09fd2ddf9e8ce7c2c3ae930af574a1dd018d35cc23eedc8"
+    },
+    "mercedes_validation/videos/MercedesAMG550_80/speed_example.jpg": {
+      "bytes": 255851,
+      "sha256": "eb8000254389307e53352df596357ef8acad35fe592b32f8ec15f8937655eab5"
+    },
+    "mercedes_validation/videos/MercedesAMG550_82/calibration.mp4": {
+      "bytes": 1489610,
+      "sha256": "b47c1b9df81305c08a0e1793a0427142d1ca76bb33b00169078d60c170fdb803"
+    },
+    "mercedes_validation/videos/MercedesAMG550_82/render_report.json": {
+      "bytes": 194,
+      "sha256": "5a6c770ca190ea963d4b6edcdd009099c8c8f7fa79de08a3df7820c3f2982b5b"
+    },
+    "mercedes_validation/videos/MercedesAMG550_82/speed.mp4": {
+      "bytes": 1463851,
+      "sha256": "e8ac7841754899630db78afacf1a5f295ee4a8c17111e0f28f06921d15052ca2"
+    },
+    "mercedes_validation/videos/MercedesAMG550_82/speed_example.jpg": {
+      "bytes": 297612,
+      "sha256": "f4c8b6b0ab6ece673392a9560b09bf4ae2a74020899a3dabd99914a30da0fa24"
+    },
+    "mercedes_validation/videos/MercedesAMG550_85/calibration.mp4": {
+      "bytes": 1110494,
+      "sha256": "4035ea8834dbe4905968cf834e28054f72f142819801898a61b4aa154fbdef9f"
+    },
+    "mercedes_validation/videos/MercedesAMG550_85/render_report.json": {
+      "bytes": 194,
+      "sha256": "84d69ad71cfd141acff32c74c5c805a69f5282659a337e4887911291ff15b70b"
+    },
+    "mercedes_validation/videos/MercedesAMG550_85/speed.mp4": {
+      "bytes": 1083485,
+      "sha256": "5fda409895be1869acf821e52dd6ac608e62402ef6d3805b8d866967d7260b9a"
+    },
+    "mercedes_validation/videos/MercedesAMG550_85/speed_example.jpg": {
+      "bytes": 254355,
+      "sha256": "2452090fa0bbd9e5ff2e9ab6a5b5772770c57f5bfa575aa3053a7040f61b6dfd"
+    },
+    "mercedes_validation/videos/MercedesAMG550_87/calibration.mp4": {
+      "bytes": 1373745,
+      "sha256": "b11d03d6c42a7b4a3253685c581fd6d25bd77fbd595c9fd9bb9eee617f58c207"
+    },
+    "mercedes_validation/videos/MercedesAMG550_87/render_report.json": {
+      "bytes": 206,
+      "sha256": "f98303e921a50093b8d852ecceb38b81cf3a3b18e95ce867ab8d82351269cd39"
+    },
+    "mercedes_validation/videos/MercedesAMG550_87/speed.mp4": {
+      "bytes": 1339535,
+      "sha256": "fde1f806b948f8f60653ae0b663ea50219aed5526221c77a96d144f8e79c46fa"
+    },
+    "mercedes_validation/videos/MercedesAMG550_87/speed_example.jpg": {
+      "bytes": 275548,
+      "sha256": "48bedf3f48d9105a6989884e6ff8505d4465fba714f0949bbae63dfc4c930af4"
+    },
+    "mercedes_validation/videos/MercedesAMG550_90/calibration.mp4": {
+      "bytes": 2197978,
+      "sha256": "827e4005b4b85fe90522b347e1f651bf476b598d8f80875c3545d8d36fc49a96"
+    },
+    "mercedes_validation/videos/MercedesAMG550_90/render_report.json": {
+      "bytes": 193,
+      "sha256": "e0c0528fb9472b39494c6b100ead37f21cf0b8d6b7c5516a39bca23286401b60"
+    },
+    "mercedes_validation/videos/MercedesAMG550_90/speed.mp4": {
+      "bytes": 2207604,
+      "sha256": "bf75d81a9367e0a7235f47852723e8271ca31466a6841f935dd7498ea650a219"
+    },
+    "mercedes_validation/videos/MercedesAMG550_90/speed_example.jpg": {
+      "bytes": 354851,
+      "sha256": "f209d7b0954980c956a9fb24f30af7ffc4f2572820b95ddeccdceb542d2eabc3"
+    },
+    "mercedes_validation/videos/MercedesAMG550_93/calibration.mp4": {
+      "bytes": 1316377,
+      "sha256": "11c6c22e6db89580a20f0467b0dd10e3fbdb0410db3169140f0d75f7a42c7d89"
+    },
+    "mercedes_validation/videos/MercedesAMG550_93/render_report.json": {
+      "bytes": 206,
+      "sha256": "757c1108e84165ec3e10d94f388def7bb25facaaaae88c69131da32151a6d43c"
+    },
+    "mercedes_validation/videos/MercedesAMG550_93/speed.mp4": {
+      "bytes": 1303401,
+      "sha256": "55d5523a81180855e4e539b27cd8c573620765da96e35657653d3cd184b0424a"
+    },
+    "mercedes_validation/videos/MercedesAMG550_93/speed_example.jpg": {
+      "bytes": 289526,
+      "sha256": "eccfe092e94ca494f93527da2677c2fa0825297999b8097e885dbebe0c7dd584"
+    },
+    "mercedes_validation/videos/MercedesAMG550_95/calibration.mp4": {
+      "bytes": 1084627,
+      "sha256": "959447774d17b0499632175d3b6b743fee7811178947c335cc866f7f8d568728"
+    },
+    "mercedes_validation/videos/MercedesAMG550_95/render_report.json": {
+      "bytes": 195,
+      "sha256": "b104bb3c56c8ec7d6dcd26ac96e19291028f28b15bf5c10262c6496148bc5748"
+    },
+    "mercedes_validation/videos/MercedesAMG550_95/speed.mp4": {
+      "bytes": 1053937,
+      "sha256": "441ac06c8daa0b7f0f317ae9b37d94a2ad76b67abeb79fc3cc6124608fca0ec6"
+    },
+    "mercedes_validation/videos/MercedesAMG550_95/speed_example.jpg": {
+      "bytes": 252165,
+      "sha256": "400c0f7e94ccae3541c0a83e48071db0645e90e309f46405606dd9530d000292"
+    },
+    "mercedes_validation/videos/MercedesAMG550_98/calibration.mp4": {
+      "bytes": 1381240,
+      "sha256": "05a2227e9ee08e1136a0f83571215b68eae4a9b8e2f1526385026a4b32714050"
+    },
+    "mercedes_validation/videos/MercedesAMG550_98/render_report.json": {
+      "bytes": 194,
+      "sha256": "cf35cf4f008599d90158789613f1814a39ae4e3a21063eb0d8555729d6acd463"
+    },
+    "mercedes_validation/videos/MercedesAMG550_98/speed.mp4": {
+      "bytes": 1363440,
+      "sha256": "beb77960624d333cac5b60e4db0f9d59bf85cc293a68b5b96ea344d0acbfee34"
+    },
+    "mercedes_validation/videos/MercedesAMG550_98/speed_example.jpg": {
+      "bytes": 274753,
+      "sha256": "310cc2a47670590e11b972a928ff0696c9f57a2210db06f399532384922881fa"
     },
     "qualified_experimental_speeds.csv": {
-      "bytes": 1142,
-      "sha256": "9f5dee2eb919107e453d4dbbcf62084021590e9924be9220b40b3b74d265165e"
+      "bytes": 1138,
+      "sha256": "46948483da8bba6f676f1b3c766ac1f80033c4938d3c94a656d59dd2d6898fa0"
     },
     "README.md": {
-      "bytes": 3938,
-      "sha256": "c97f93a821ff909c87b02cf9158501128ceaaa9aefd8b7630d23d3959a046a8e"
+      "bytes": 4510,
+      "sha256": "526d9c21c5249a71ea2178ae7c4bc9046e65566811c458af3e57ddb49d44c0cf"
     },
     "render_report.json": {
-      "bytes": 329,
-      "sha256": "d98eed8eacb534062c4e3458c0d4d0576e2d5f154a5074e04d4337c1f304dc03"
+      "bytes": 315,
+      "sha256": "8633e2a2fded8365471b05be3c267df8fc4ba20eca3346a03ed270d52fc2910f"
     },
     "road_mapping.jpg": {
-      "bytes": 1500184,
-      "sha256": "665ef24314e3d010c950e290dec8c9c09472ec0ced5b9c8151263e12c566dd43"
+      "bytes": 1504943,
+      "sha256": "fbc495f5de4ac4c4dbe9ef4b8d67e80a688f4853c4f0ee17a6f5cba7beadded7"
     },
     "speed_example.jpg": {
-      "bytes": 411373,
-      "sha256": "236bddadd878aa2f4a73d32efb7d12a27f5706dffda6efe0fbdf79cf9862b837"
+      "bytes": 418669,
+      "sha256": "df06d81e7d2c52909a98affd73d9433fc1f5d7cb7fc3ba656661d5efd7efa559"
     },
     "speed_run_report.json": {
-      "bytes": 1520,
-      "sha256": "447a1b88323e561a223345b7609eb6256185828fcdeafde45db8f64623c80940"
+      "bytes": 1470,
+      "sha256": "0da699466bf8fe606f386565d7d5bc0122e46811a8692fc73d9f4329977b87aa"
     },
     "speed_sensitivity.jpg": {
-      "bytes": 64433,
-      "sha256": "91f0009cfaa03fd50a648ed3cbf8ec47f531847f7206e9f004b96c332d8510d7"
+      "bytes": 64514,
+      "sha256": "0dde0bb38cbc73adc6ab7d16dd24946fca4a7461bcf1c5e797392e5fc1c253b9"
     },
     "vehicle_speed_estimates.json": {
-      "bytes": 1738,
-      "sha256": "f680303a8e02ba721a71443c029c05a9bc2803e6be333cf476a6871a1296feb2"
+      "bytes": 1833,
+      "sha256": "cd65088dc2c690486e0b551802ed1411903015972397f468f8a61a91231d4835"
     },
     "workflow_demo/calibration_example.json": {
       "bytes": 13808,
@@ -236,5 +1234,30 @@
       "sha256": "dca6b2c7dd60b335821cce88da1bc43800db80b0e75ee905858c1a96f21e507e"
     }
   },
-  "display_revision": "Single decimal point estimates; separate calibration and speed videos."
+  "display_revision": "Single decimal point estimates; separate calibration and speed videos.",
+  "mercedes_validation": {
+    "clips": 30,
+    "calibration_pilots": 3,
+    "held_out_clips": 27,
+    "calibration_videos": 30,
+    "speed_videos": 30,
+    "reference": "User-confirmed cruise-control setting from filename; txt ignored",
+    "target_met": false,
+    "network_weights_fine_tuned": false,
+    "held_out_metrics": {
+      "clips": 27,
+      "estimated": 27,
+      "coverage": 1.0,
+      "mae_kmh": 9.408185493864348,
+      "rmse_kmh": 12.689014842552018,
+      "bias_kmh": -4.419952896646068,
+      "median_absolute_error_kmh": 5.3295512613976825,
+      "maximum_absolute_error_kmh": 30.78279714268396,
+      "mape_percent": 15.278851162648213,
+      "within_1_kmh": 3,
+      "within_2_kmh": 6,
+      "errors_over_10_kmh": 9
+    },
+    "checks": "mercedes_validation/artifact_verification.json"
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "frames": 291,
+  "fps": 29.97002997002997,
+  "duration_s": 9.7097,
+  "speed_display_decimal_places": 1,
+  "vehicle_label_frames": 31,
+  "files": [
+    "calibration.mp4",
+    "speed.mp4"
+  ]
+}
