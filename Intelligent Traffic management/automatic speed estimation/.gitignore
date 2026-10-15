@@ -19,4 +19,6 @@ geometry_run_state.json
 speed_run_state.json
 # Only the reviewed one-minute preview belongs in version control.
 *.mp4
+!output/**/*.mp4
 !output/experimental_speed_preview.mp4
+!output/calibration_preview.mp4

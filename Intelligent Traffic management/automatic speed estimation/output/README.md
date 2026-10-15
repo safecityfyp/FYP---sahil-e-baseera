@@ -4,9 +4,11 @@ This folder is the committed snapshot of the completed Kaggle experiment: source
 
 The [automatic-workflow verification records](workflow_demo/README.md) demonstrate calibration creation when missing and reuse on the next run. The main gallery below preserves the original reviewed experiment.
 
+Videos have been updated to show one decimal speed estimate and to separate [calibration review](calibration_preview.mp4) from [speed estimation](experimental_speed_preview.mp4). [Mercedes validation results](mercedes_validation/README.md) are kept separately from the original CCTV experiment.
+
 **All speeds are provisional. Real speed accuracy is unvalidated. Ranges are dimension-and-fit sensitivity envelopes, not confidence intervals.** Four of eight candidate spans passed internal consistency screening; the full 12-minute video has not been processed for speeds.
 
-[Open/download the 60-second H.264 preview](experimental_speed_preview.mp4) (1280 × 720, approximately 9.9 MB). Yellow labels show qualifying experimental speeds during their accepted spans; grey boxes have no accepted speed.
+[Open/download the 60-second speed video](experimental_speed_preview.mp4) and [calibration video](calibration_preview.mp4) (1280 × 720, H.264). Yellow labels show decimal speed estimates during qualifying spans; grey boxes have no accepted speed. Calibration videos display predicted nodes and the fitted road grid without speed labels.
 
 ## Annotated example
 

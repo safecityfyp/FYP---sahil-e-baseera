@@ -64,6 +64,7 @@ if (output/'experimental_speeds.csv').exists():
                     'dimension_and_fit_sensitivity_high_kmh','quality_passed','quality_reasons']])
 for name in ['road_mapping.jpg','birdseye_trajectories.jpg','speed_sensitivity.jpg']:
     if (output/name).exists():display(Image(filename=str(output/name),width=1100))
+display(Video(str(output/'calibration_preview.mp4'),embed=True,width=1100))
 display(Video(str(output/'experimental_speed_preview.mp4'),embed=True,width=1100))
 ''')
 for i,cell in enumerate(cells):cell['id']=f'speed-{i:02d}'

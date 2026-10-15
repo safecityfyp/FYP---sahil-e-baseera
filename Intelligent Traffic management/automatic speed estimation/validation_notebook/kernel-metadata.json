@@ -1,0 +1,15 @@
+{
+  "id": "hayyanfaisal/fyp-mercedes-speed-validation",
+  "title": "FYP Mercedes Speed Validation",
+  "code_file": "validation_inference.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "hayyanfaisal/fyp-mercedes-amg550-speed-validation"
+  ],
+  "kernel_sources": [],
+  "competition_sources": []
+}

@@ -1,6 +1,8 @@
 {
+  "calibration_reused": false,
   "source_geometry_observations": 224,
   "filtered_ground_footprints": 93,
+  "footprints_outside_usable_calibration": 0,
   "geometry_model_filename": "checkpoints/urbanomnidetect_yolo11x-p2_1920.pt",
   "geometry_model_sha256": "9aa55280a5ef1c9d89c0acb5baeb974b90fbdf3c1deead1413b24d7af249226d",
   "ground_corner_indices": [

@@ -48,6 +48,8 @@ def main():
     speeds=list(csv.DictReader(csv_path.open(encoding='utf-8'))) if csv_path.exists() else []
     accepted={int(r['track_id']):r for r in speeds if r['quality_passed']=='True'}
     baseline=defaultdict(list)
+    footprints_by_frame=defaultdict(list)
+    for row in footprints:footprints_by_frame[int(row['frame_index'])].append(row)
     downloaded_tracks = ROOT / 'outputs' / 'baseline' / 'tracks.csv'
     default_tracks = downloaded_tracks if downloaded_tracks.exists() else ROOT / 'output' / 'inputs' / 'tracking' / 'tracks.csv'
     with Path(os.environ.get('FYP_BASELINE_TRACKS', str(default_tracks))).open(encoding='utf-8') as f:
@@ -72,16 +74,33 @@ def main():
     capture.set(cv2.CAP_PROP_POS_FRAMES,start)
     raw=OUT/'experimental_speed_preview.avi'
     writer=cv2.VideoWriter(str(raw),cv2.VideoWriter_fourcc(*'MJPG'),fps,(1280,720));assert writer.isOpened()
+    calibration_raw=OUT/'calibration_preview.avi'
+    calibration_writer=cv2.VideoWriter(str(calibration_raw),cv2.VideoWriter_fourcc(*'MJPG'),fps,(1280,720))
+    assert calibration_writer.isOpened()
     labelled_frames=0
     example_saved=False
     try:
         for index in range(start,end):
             ok,frame=capture.read();assert ok,index
+            calibration_frame=draw_grid(frame.copy(),calibration,footprints)
+            for footprint in footprints_by_frame.get(index,[]):
+                corners=np.array(footprint['quad'],dtype=int)
+                cv2.polylines(calibration_frame,[corners],True,(0,255,0),3)
+                for node,point in enumerate(corners):
+                    cv2.circle(calibration_frame,tuple(point),6,(0,255,255),-1)
+                    cv2.putText(calibration_frame,str(node),tuple(point+[8,-8]),cv2.FONT_HERSHEY_SIMPLEX,.6,(0,255,255),2)
+            calibration_frame=cv2.resize(calibration_frame,(1280,720))
+            cv2.rectangle(calibration_frame,(0,0),(1280,66),(20,20,20),-1)
+            cv2.putText(calibration_frame,'CALIBRATION REVIEW | predicted ground nodes and local road mapping',
+                        (15,25),cv2.FONT_HERSHEY_SIMPLEX,.62,(0,220,255),2)
+            cv2.putText(calibration_frame,'5 m grid under assumed dimensions | Mapping fitted offline from the calibration observations',
+                        (15,51),cv2.FONT_HERSHEY_SIMPLEX,.5,(220,220,220),1)
+            calibration_writer.write(calibration_frame)
             frame=cv2.resize(frame,(1280,720));sx,sy=1280/width,720/height
             cv2.rectangle(frame,(0,0),(1280,66),(20,20,20),-1)
-            cv2.putText(frame,'EXPERIMENTAL SPEED | approximate vehicle dimensions | accuracy unvalidated',
+            cv2.putText(frame,'ESTIMATED SPEED | point estimate from calibrated vehicle motion',
                         (15,25),cv2.FONT_HERSHEY_SIMPLEX,.62,(0,220,255),2)
-            cv2.putText(frame,'Ranges show sensitivity to car size and calibration tracks; they are not confidence intervals.',
+            cv2.putText(frame,'Approximate vehicle dimensions | Physical accuracy unvalidated on this CCTV footage',
                         (15,51),cv2.FONT_HERSHEY_SIMPLEX,.52,(220,220,220),1)
             has_label=False
             for row in baseline.get(index,[]):
@@ -91,9 +110,7 @@ def main():
                 active=speed is not None and float(speed['time_start_s'])<=time_s<=float(speed['time_end_s'])
                 x1,y1,x2,y2=[int(float(row[k])*(sx if k.startswith('x') else sy)) for k in ['x1','y1','x2','y2']]
                 if active:
-                    label=(f'ID {tid}: EXP {float(speed["experimental_kmh"]):.0f} '
-                           f'[{float(speed["dimension_and_fit_sensitivity_low_kmh"]):.0f}-'
-                           f'{float(speed["dimension_and_fit_sensitivity_high_kmh"]):.0f}] km/h')
+                    label=f'ID {tid}: {float(speed["experimental_kmh"]):.1f} km/h'
                     color=(0,220,255);has_label=True
                 else:label='';color=(170,170,170)
                 cv2.rectangle(frame,(x1,y1),(x2,y2),color,2)
@@ -108,11 +125,15 @@ def main():
             if has_label and not example_saved:
                 cv2.imwrite(str(OUT/'speed_example.jpg'),frame);example_saved=True
             writer.write(frame)
-    finally:capture.release();writer.release()
+    finally:capture.release();writer.release();calibration_writer.release()
     preview=OUT/'experimental_speed_preview.mp4'
     subprocess.run(['ffmpeg','-y','-loglevel','error','-i',str(raw),'-c:v','libx264','-crf','24',
                     '-pix_fmt','yuv420p','-movflags','+faststart',str(preview)],check=True)
     raw.unlink()
+    calibration_preview=OUT/'calibration_preview.mp4'
+    subprocess.run(['ffmpeg','-y','-loglevel','error','-i',str(calibration_raw),'-c:v','libx264','-crf','24',
+                    '-pix_fmt','yuv420p','-movflags','+faststart',str(calibration_preview)],check=True)
+    calibration_raw.unlink()
 
     fig,axes=plt.subplots(1,2,figsize=(14,7))
     for axis,side in zip(axes,['left','right']):
@@ -140,6 +161,7 @@ def main():
         axis.set_title('Dimension and calibration-subset sensitivity envelopes\nNot confidence intervals; speed accuracy remains unvalidated')
         axis.grid(axis='x',alpha=.2);fig.tight_layout();fig.savefig(OUT/'speed_sensitivity.jpg',dpi=150);plt.close(fig)
     rendering={'preview_file':preview.name,'frames':end-start,'fps':fps,'duration_s':(end-start)/fps,
+               'calibration_preview_file':calibration_preview.name,'speed_display_decimal_places':1,
                'frames_with_experimental_speed_labels':labelled_frames,'accepted_track_ids':list(accepted)}
     (OUT/'render_report.json').write_text(json.dumps(rendering,indent=2),encoding='utf-8')
     print(json.dumps(rendering,indent=2))

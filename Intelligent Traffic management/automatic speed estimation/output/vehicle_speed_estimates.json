@@ -6,10 +6,10 @@
       172.8,
       174.4
     ],
-    "experimental_kmh": 27.436262313990152,
+    "experimental_kmh": 27.436254049828452,
     "sensitivity_range_kmh": [
-      18.177844693801205,
-      31.64450308186542
+      18.177859236737095,
+      31.64449312170825
     ],
     "range_type": "dimension_and_calibration_sensitivity",
     "accuracy_validated": false,
@@ -22,10 +22,10 @@
       177.20000000000002,
       178.6
     ],
-    "experimental_kmh": 40.13320924716496,
+    "experimental_kmh": 40.133196848879045,
     "sensitivity_range_kmh": [
-      28.212577523825047,
-      46.16163418262448
+      28.212589260074655,
+      46.16162702635916
     ],
     "range_type": "dimension_and_calibration_sensitivity",
     "accuracy_validated": false,
@@ -38,10 +38,10 @@
       184.4,
       185.8
     ],
-    "experimental_kmh": 48.62339514408656,
+    "experimental_kmh": 48.62337975052156,
     "sensitivity_range_kmh": [
-      34.608138892745046,
-      55.9081612915294
+      34.608143889116725,
+      55.90815931673895
     ],
     "range_type": "dimension_and_calibration_sensitivity",
     "accuracy_validated": false,
@@ -54,10 +54,10 @@
       150.0,
       151.8
     ],
-    "experimental_kmh": 19.407837372382055,
+    "experimental_kmh": 19.40722389001836,
     "sensitivity_range_kmh": [
-      13.762306808640647,
-      22.52998556772395
+      13.761948208451896,
+      22.529352068979875
     ],
     "range_type": "dimension_and_calibration_sensitivity",
     "accuracy_validated": false,

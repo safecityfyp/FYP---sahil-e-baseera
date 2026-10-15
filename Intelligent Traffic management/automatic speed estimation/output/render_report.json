@@ -3,6 +3,8 @@
   "frames": 1500,
   "fps": 25.0,
   "duration_s": 60.0,
+  "calibration_preview_file": "calibration_preview.mp4",
+  "speed_display_decimal_places": 1,
   "frames_with_experimental_speed_labels": 159,
   "accepted_track_ids": [
     115,

@@ -1,0 +1,97 @@
+{
+  "pilot_videos": [
+    "MercedesAMG550_100.MP4",
+    "MercedesAMG550_30.MP4",
+    "MercedesAMG550_60.MP4"
+  ],
+  "reference_calibration": {
+    "H_image_to_meters": [
+      [
+        0.15703239365265975,
+        -0.15099519925831867,
+        -8.870772804890548
+      ],
+      [
+        0.0,
+        0.059565284178316455,
+        -38.40452348639408
+      ],
+      [
+        0.0041926824051557185,
+        0.001035571095912451,
+        -2.5038177586186996
+      ]
+    ],
+    "support_hull_image": [
+      [
+        1640.62744140625,
+        904.2709350585938
+      ],
+      [
+        1483.3035888671875,
+        932.2748413085938
+      ],
+      [
+        1286.0745849609375,
+        934.996337890625
+      ],
+      [
+        1134.9891357421875,
+        910.98876953125
+      ],
+      [
+        953.2894897460938,
+        834.5346069335938
+      ],
+      [
+        600.8797607421875,
+        620.6361694335938
+      ],
+      [
+        590.8878173828125,
+        611.5972290039062
+      ],
+      [
+        589.0911865234375,
+        608.4996948242188
+      ],
+      [
+        588.5013427734375,
+        607.4559326171875
+      ],
+      [
+        635.3618774414062,
+        611.56005859375
+      ]
+    ],
+    "fit_rms": 0.9422698816858058,
+    "parameters": [
+      4.02497510894949,
+      0.9941482520759529,
+      0.9693791889290392,
+      -2.534953057661822,
+      4.046250929613946
+    ],
+    "reference_videos": [
+      "MercedesAMG550_30.MP4",
+      "MercedesAMG550_60.MP4",
+      "MercedesAMG550_100.MP4"
+    ],
+    "reference_speeds_kmh": [
+      30,
+      60,
+      100
+    ],
+    "method": "reference_assisted_local_projective_calibration",
+    "physical_accuracy_verified": false,
+    "scope": "Registered road region; this vehicle and recording setup."
+  },
+  "frozen_before_heldout_evaluation": true,
+  "reference_label_files_used": false,
+  "neural_network_fine_tuned": false,
+  "source_hashes": {
+    "calibrate_speed.py": "52711385c2fe4532b92791d303669175ed8d03be6a772b1d25ae25729eff93c9",
+    "reference_calibration.py": "2a93eb2450290e7b16f6af081afebfb0e224db50594b3f0549b5bcb645b49b05",
+    "benchmark_speed.py": "3bf9b959dd66a3eb1404a35f9fc5207a78760f83b8046848e987380b8752d93a"
+  }
+}

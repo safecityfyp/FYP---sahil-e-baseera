@@ -47,28 +47,37 @@
       "kaggle_warm_skipped_calibration_fitting": true,
       "fresh_vs_original_max_nominal_difference_kmh": 1.2703096032851136e-06,
       "kaggle_notebook_private_verified": true
+    },
+    "video_display_revision": {
+      "decimal_places": 1,
+      "paired_calibration_and_speed_videos": true,
+      "pilot_validation_in_progress": true
     }
   },
   "files": {
     "birdseye_trajectories.jpg": {
-      "bytes": 144308,
-      "sha256": "1541578630e38c8171e6f0da07925f9acea187635ddd220062b4e5cba7c30e13"
+      "bytes": 144317,
+      "sha256": "bcbfca4958b370286b48fc7c2e77a1ca276efb12a4aa818a7a5be066f33c0792"
     },
     "calibration.json": {
-      "bytes": 12042,
-      "sha256": "737848aeb431730ef602c32a973636937fe5ef2b8e181b17f48c84ab150b91b5"
+      "bytes": 14503,
+      "sha256": "aeb4777d2aa66ad602737b9157fc71f870b8b009baae57258a228a59dabafe0e"
+    },
+    "calibration_preview.mp4": {
+      "bytes": 10682030,
+      "sha256": "08d6c138ad74607f0b070b99ac3bd5121cc6a827d7e262bb8d215024539bdb1a"
     },
     "experimental_speed_preview.mp4": {
-      "bytes": 9861637,
-      "sha256": "3627e43caa00f5a57f6a5a6fddce54bb12b3bd4359aa101f4310ad3e09a74c6c"
+      "bytes": 10782466,
+      "sha256": "88aab52b9b816e0bcd3a8cf2a7ae27ff780b4cfa9244c24d6dfdf643cdee4597"
     },
     "experimental_speeds.csv": {
       "bytes": 2142,
-      "sha256": "4eec315afbf9d08c95222da79d77514b3454384d49c992883bbf82a5e88f85f2"
+      "sha256": "fdfab89d4227d0c9390c9adb7aae3542bc465782dd06d0704c716dff35ed79ca"
     },
     "filtered_ground_footprints.json": {
       "bytes": 22520,
-      "sha256": "041640b972e3b27e9ea6e4d8d7778be7c52864b446394392dbe9afc55825752b"
+      "sha256": "ed05b1df22a12483d25f2cd7bc21bf6d2c1106cff4d8c6ea1ef52711255e5e3b"
     },
     "inputs/geometry/geometry_run_report.json": {
       "bytes": 983,
@@ -94,37 +103,101 @@
       "bytes": 826824,
       "sha256": "f0d4c1b5473f3f54644646d520aaf9c4bb69fd768d78d5e79fce32a5f9db76db"
     },
+    "mercedes_validation/pilot_fitted_results.json": {
+      "bytes": 1769,
+      "sha256": "c1baea64a02c20eb7a27e75368b46dfaeea533d1f87c051a2561660b2355bdc7"
+    },
+    "mercedes_validation/pilot_frozen_calibration.json": {
+      "bytes": 2298,
+      "sha256": "efb52a0b68fbbcfbbd2ecf026bcff47f2bce87ad9a6647ea6202693fce7700a6"
+    },
+    "mercedes_validation/pilot_initial_results.json": {
+      "bytes": 1040,
+      "sha256": "894f9ef09af238945edbc77268ccc42a699e5abfab3e2c631e241a6cfd45e68a"
+    },
+    "mercedes_validation/README.md": {
+      "bytes": 1317,
+      "sha256": "8ed2a8f9dbf3141d090c9168518118cdd451c0e0a43ba16bc9b437538ff1c423"
+    },
+    "mercedes_validation/videos/MercedesAMG550_100/calibration.mp4": {
+      "bytes": 1311367,
+      "sha256": "05452afa6e7f384141ec1bc91252db1628d0dd6f1db755b82a70d82d3ea0efc0"
+    },
+    "mercedes_validation/videos/MercedesAMG550_100/render_report.json": {
+      "bytes": 205,
+      "sha256": "fdf741abeb8903cda452c8c13a351d13f34904ca97e4fff5be66097100977d5b"
+    },
+    "mercedes_validation/videos/MercedesAMG550_100/speed.mp4": {
+      "bytes": 1278086,
+      "sha256": "068b2b5b474b26bec078a0fb5a7f815eae07cce5783e1eeabd32bc2b052918a0"
+    },
+    "mercedes_validation/videos/MercedesAMG550_100/speed_example.jpg": {
+      "bytes": 241251,
+      "sha256": "b2f1d3f651b50984fbd3b1e1e024cff8274b7e9cd48a319c4c5c068f9d43b70d"
+    },
+    "mercedes_validation/videos/MercedesAMG550_30/calibration.mp4": {
+      "bytes": 1236764,
+      "sha256": "21497a7ffbc41a70de1bb9ca3883ef66b590a66f14e120520b519f7e3cfc2754"
+    },
+    "mercedes_validation/videos/MercedesAMG550_30/render_report.json": {
+      "bytes": 205,
+      "sha256": "7abad1071e64b02012b24027be50db315cec6631442a7397707ccdaf8c9d031a"
+    },
+    "mercedes_validation/videos/MercedesAMG550_30/speed.mp4": {
+      "bytes": 1173118,
+      "sha256": "6e4ffa53cf7ca1f90c72b9430ebc2856f8a7abe05bbdf950368e163161baec42"
+    },
+    "mercedes_validation/videos/MercedesAMG550_30/speed_example.jpg": {
+      "bytes": 228760,
+      "sha256": "f10967051a1238bd1bf18d0f8925d8d4aa25eb61abf47cd9aa0b54e26a501d21"
+    },
+    "mercedes_validation/videos/MercedesAMG550_60/calibration.mp4": {
+      "bytes": 1286015,
+      "sha256": "1b44e6338edeb1a81e52e799dda2449bdef74c491fe73f8a82af8717f6526daf"
+    },
+    "mercedes_validation/videos/MercedesAMG550_60/render_report.json": {
+      "bytes": 216,
+      "sha256": "437329794dc9826bdb541aa501b658ecf00f1a1a103aa5c798cb4f7c18dc07fc"
+    },
+    "mercedes_validation/videos/MercedesAMG550_60/speed.mp4": {
+      "bytes": 1236347,
+      "sha256": "ffa20ae8f25ff1ff749c1843fc36d44542cc09ad7ab6fc06792cff3f4b6bff87"
+    },
+    "mercedes_validation/videos/MercedesAMG550_60/speed_example.jpg": {
+      "bytes": 240339,
+      "sha256": "b3593b732010ee8a009d51964fc6894d6523bbe75cd1f2f86e152ed9e491537c"
+    },
     "qualified_experimental_speeds.csv": {
-      "bytes": 1136,
-      "sha256": "0aec9d921b5d66144a5d49dbce65e5eaca7ae0b0431eb88d50dadd5c6265c023"
+      "bytes": 1142,
+      "sha256": "9f5dee2eb919107e453d4dbbcf62084021590e9924be9220b40b3b74d265165e"
     },
     "README.md": {
-      "bytes": 3531,
-      "sha256": "6cb6474a60078112fc5d34103ac5029351f04ebaff45693a7903ad6512a1fe8d"
+      "bytes": 3938,
+      "sha256": "c97f93a821ff909c87b02cf9158501128ceaaa9aefd8b7630d23d3959a046a8e"
     },
     "render_report.json": {
-      "bytes": 221,
-      "sha256": "5b83eb967bb023095e92530940522487d0792e193dcf05ed7e2e615e8e59138d"
+      "bytes": 329,
+      "sha256": "d98eed8eacb534062c4e3458c0d4d0576e2d5f154a5074e04d4337c1f304dc03"
     },
     "road_mapping.jpg": {
-      "bytes": 1505038,
-      "sha256": "0f64af1c62ba3e5e6c191a9c1ee23f9e6ba250c60d653b9fa95b13b463fb585f"
+      "bytes": 1500184,
+      "sha256": "665ef24314e3d010c950e290dec8c9c09472ec0ced5b9c8151263e12c566dd43"
     },
     "speed_example.jpg": {
-      "bytes": 423724,
-      "sha256": "ab6f452f5a8ab9cab93a7fd99db10cf2d14b77a07fe21781f5b4468a2b4c3b21"
+      "bytes": 411373,
+      "sha256": "236bddadd878aa2f4a73d32efb7d12a27f5706dffda6efe0fbdf79cf9862b837"
     },
     "speed_run_report.json": {
-      "bytes": 1393,
-      "sha256": "0b8548592f799a03e4bd05ff52f8ad4df55f1e48322ff1e48196d70f5d7d0aec"
+      "bytes": 1520,
+      "sha256": "447a1b88323e561a223345b7609eb6256185828fcdeafde45db8f64623c80940"
     },
     "speed_sensitivity.jpg": {
-      "bytes": 64514,
-      "sha256": "0dde0bb38cbc73adc6ab7d16dd24946fca4a7461bcf1c5e797392e5fc1c253b9"
+      "bytes": 64433,
+      "sha256": "91f0009cfaa03fd50a648ed3cbf8ec47f531847f7206e9f004b96c332d8510d7"
     },
     "vehicle_speed_estimates.json": {
-      "bytes": 1671,
-      "sha256": "3ef58368d9e4c11d479b2bce9d88da0107579b5ab804cfdc6cd2644aa05888d9"
+      "bytes": 1738,
+      "sha256": "f680303a8e02ba721a71443c029c05a9bc2803e6be333cf476a6871a1296feb2"
     },
     "workflow_demo/calibration_example.json": {
       "bytes": 13808,
@@ -162,5 +235,6 @@
       "bytes": 2714,
       "sha256": "dca6b2c7dd60b335821cce88da1bc43800db80b0e75ee905858c1a96f21e507e"
     }
-  }
+  },
+  "display_revision": "Single decimal point estimates; separate calibration and speed videos."
 }

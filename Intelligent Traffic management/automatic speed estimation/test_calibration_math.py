@@ -36,6 +36,19 @@ def main():
     print('PASS: known 14.4 km/h synthetic motion recovered.')
     print('PASS: dimension-scale change propagates proportionally to speed.')
     print('PASS: subpixel corner noise stays within 5% in the synthetic case.')
+    # A roadside camera's horizon can lie close to image centre. The previous
+    # fixed-centre normalization and parameter bounds could not represent it.
+    low_projection=np.array([[1000,960,0],[0,540,1200],[0,1,0]],dtype=float)
+    low=[]
+    for tid in range(6):
+        for time in np.linspace(0,2,12):
+            x=-2+tid*.7;y=10+tid*.6+4*time
+            quad=np.array([[x-.9,y-2.25],[x-.9,y+2.25],[x+.9,y+2.25],[x+.9,y-2.25]])
+            low.append({'track_id':tid,'time_s':float(time),'quad':project(quad,low_projection).tolist()})
+    low_H,_=fit_mapping(low,1920,1080)
+    low_speed=estimate_track([r for r in low if r['track_id']==2],low_H)['experimental_kmh']
+    assert abs(low_speed-14.4)<.1,low_speed
+    print('PASS: known motion recovered with the horizon close to image centre.')
 
 
 if __name__=='__main__':main()

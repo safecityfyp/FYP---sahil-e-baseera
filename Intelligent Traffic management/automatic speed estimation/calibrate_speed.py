@@ -48,11 +48,14 @@ def measures(quads):
     return cosines,opposite,lengths,widths
 
 
-def fit_mapping(records, width, height, length_m=LENGTH_M, width_m=WIDTH_M, fast=False):
+def fit_mapping(records, width, height, length_m=LENGTH_M, width_m=WIDTH_M, fast=False, legacy_normalization=False):
     quads=np.array([r['quad'] for r in records],dtype=float)
     ids=np.array([r['track_id'] for r in records])
     unique=np.unique(ids)
-    normalizer=np.array([[2/width,0,-1],[0,2/width,-height/width],[0,0,1]])
+    center=np.median(quads.reshape(-1,2),axis=0)
+    normalizer=np.array([[2/width,0,-2*center[0]/width],[0,2/width,-2*center[1]/width],[0,0,1]])
+    if legacy_normalization:
+        normalizer=np.array([[2/width,0,-1],[0,2/width,-height/width],[0,0,1]])
     weights=np.array([1/math.sqrt(np.sum(ids==i)) for i in ids])
     weights/=np.mean(weights)
     groups=[np.flatnonzero(ids==i) for i in unique]
@@ -70,11 +73,16 @@ def fit_mapping(records, width, height, length_m=LENGTH_M, width_m=WIDTH_M, fast
         pole=np.maximum(0,0.08-den)*15
         return np.r_[geometric.ravel(),pole]
 
-    starts=[(0,q,a,0) for q in ([0,1,2] if not fast else [1,2]) for a in ([0,0.7] if not fast else [0])]
+    q_starts=([0,1,2] if not fast else [1,2]) if legacy_normalization else ([0,2,5,10,20] if not fast else [2,10])
+    aspect_starts=([0,0.7] if not fast else [0]) if legacy_normalization else ([-3,0] if not fast else [-2])
+    starts=[(0,q,a,0) for q in q_starts for a in aspect_starts]
     fits=[]
     for theta in starts:
-        result=least_squares(residual,theta,bounds=([-4,-4,-2.5,-4],[4,4,2.5,4]),
-                             loss='soft_l1',f_scale=0.12,max_nfev=250)
+        bound=4 if legacy_normalization else 100
+        shape_bound=2.5 if legacy_normalization else 7
+        shear_bound=4 if legacy_normalization else 30
+        result=least_squares(residual,theta,bounds=([-bound,-bound,-shape_bound,-shear_bound],[bound,bound,shape_bound,shear_bound]),
+                             loss='soft_l1',f_scale=0.12,max_nfev=500)
         fits.append((float(np.mean(residual(result.x)**2)),result))
     _,result=min(fits,key=lambda item:item[0])
     H=compose(result.x,normalizer)
@@ -105,7 +113,7 @@ def fit_mapping(records, width, height, length_m=LENGTH_M, width_m=WIDTH_M, fast
     return H,diagnostics
 
 
-def prepare(observations, indices, width, height):
+def prepare(observations, indices, width, height, longitudinal_order='checkpoint'):
     by_id=defaultdict(list)
     for r in observations:by_id[r['track_id']].append(r)
     records=[]
@@ -121,21 +129,25 @@ def prepare(observations, indices, width, height):
             if r['geometry_confidence']<0.25 or r['association_iou']<0.40:continue
             quad=p[:,:2]
             if not np.isfinite(quad).all():continue
-            quad=quad[np.argsort(np.arctan2(*(quad-quad.mean(axis=0))[:,::-1].T))]
+            if longitudinal_order=='motion':
+                quad=quad[np.argsort(np.arctan2(*(quad-quad.mean(axis=0))[:,::-1].T))]
             if not cv2.isContourConvex(quad.astype(np.float32)):continue
             if abs(cv2.contourArea(quad.astype(np.float32)))<300:continue
             if np.min(np.linalg.norm(np.roll(quad,-1,axis=0)-quad,axis=1))<8:continue
             cx,cy=quad.mean(axis=0)
             if not (0.20*height<cy<0.82*height and 0.02*width<cx<0.98*width):continue
             if np.min(quad[:,0])<4 or np.max(quad[:,0])>width-4 or np.max(quad[:,1])>height-4:continue
-            lo=max(0,j-3);hi=min(len(group)-1,j+3)
-            motion=centers[hi]-centers[lo]
-            if np.linalg.norm(motion)<5:continue
-            edge=np.roll(quad,-1,axis=0)-quad
-            alignment=np.abs(edge@motion)/(np.linalg.norm(edge,axis=1)*np.linalg.norm(motion)+1e-9)
-            scores=[np.mean(alignment[[0,2]]),np.mean(alignment[[1,3]])]
-            if abs(scores[0]-scores[1])<0.08:continue
-            if scores[1]>scores[0]:quad=np.roll(quad,-1,axis=0)
+            if longitudinal_order=='motion':
+                lo=max(0,j-3);hi=min(len(group)-1,j+3)
+                motion=centers[hi]-centers[lo]
+                if np.linalg.norm(motion)<5:continue
+                edge=np.roll(quad,-1,axis=0)-quad
+                alignment=np.abs(edge@motion)/(np.linalg.norm(edge,axis=1)*np.linalg.norm(motion)+1e-9)
+                scores=[np.mean(alignment[[0,2]]),np.mean(alignment[[1,3]])]
+                if abs(scores[0]-scores[1])<0.08:continue
+                if scores[1]>scores[0]:quad=np.roll(quad,-1,axis=0)
+            elif longitudinal_order!='checkpoint':
+                raise ValueError('Unknown longitudinal corner-order method.')
             records.append({'track_id':int(tid),'time_s':r['time_s'],'frame_index':r['frame_index'],
                             'side':side,'quad':quad.tolist()})
     return records
@@ -280,6 +292,7 @@ def run(calibration=None, geometry_dir=None, output_dir=None, calibration_reused
     api_results=[{'track_id':r['track_id'],'carriageway':r['side'],
       'time_interval_s':[r['time_start_s'],r['time_end_s']],
       'experimental_kmh':r['experimental_kmh'],
+      'estimated_kmh':r['experimental_kmh'],
       'sensitivity_range_kmh':[r['dimension_and_fit_sensitivity_low_kmh'],r['dimension_and_fit_sensitivity_high_kmh']],
       'range_type':'dimension_and_calibration_sensitivity','accuracy_validated':False,
       'method':'learned_3d_ground_footprints_with_assumed_vehicle_dimensions'}

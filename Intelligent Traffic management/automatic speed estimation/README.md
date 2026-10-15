@@ -4,7 +4,7 @@ Feature branch: `feature/automatic-speed-estimation`
 
 This FYP prototype first checks whether this camera view has usable saved calibration. It reuses that mapping when valid; otherwise it obtains vehicle geometry and fits a local road mapping. It then calculates provisional speeds from tracked ground motion. Approximate car dimensions supply the physical scale; camera-specific filters restrict the usable road region.
 
-**Status: experimental inference prototype. Real-world speed accuracy has not been validated.** The displayed ranges show sensitivity to assumed dimensions and calibration-track selection; they are not confidence intervals or guaranteed error bounds.
+**Status: experimental inference prototype.** Videos now show a single decimal point estimate, such as `32.3 km/h`. Sensitivity ranges remain in CSV/JSON files. Separate calibration-review and speed-estimation videos are produced. Original CCTV speed accuracy remains unvalidated; the [Mercedes cruise-control validation](output/mercedes_validation/README.md) records accuracy testing on the supplied clips.
 
 ## Automatic workflow
 
@@ -39,6 +39,8 @@ The saved experiment covers **150–210 seconds** of `A3_ch14_20260822105146_202
 
 - [Output gallery and file guide](output/README.md)
 - [Open/download the 60-second annotated video](output/experimental_speed_preview.mp4)
+- [Open/download the separate calibration video](output/calibration_preview.mp4)
+- [Mercedes before/after validation report and paired videos](output/mercedes_validation/README.md)
 - [Qualified speed estimates, CSV](output/qualified_experimental_speeds.csv) · [JSON for application integration](output/vehicle_speed_estimates.json)
 - [All candidate estimates and rejection reasons](output/experimental_speeds.csv)
 - [Detailed methodology and experiment review](calibration_review.md)
@@ -60,7 +62,9 @@ These are average speeds over short qualifying track spans. Tracker IDs are not 
 2. **Vehicle geometry:** a pretrained UrbanOmniDetect model predicts eight projected cuboid corners. Hungarian assignment matches predictions to baseline car tracks using bounding-box overlap. The model processes 197 selected frames and produces 224 matched observations across 12 tracker IDs.
 3. **Local road mapping:** 93 usable ground footprints remain after clipping, size, confidence and road-region filters. Motion resolves the longitudinal edge pair. A robust projective fit uses rectangle angles, opposite-edge parallelism, aspect ratio and within-track size consistency. Each carriageway receives its own mapping and arbitrary local origin.
 4. **Metric scale and motion:** nominal dimensions are **4.5 m long × 1.8 m wide**. Ground corners are projected before their centre is averaged. A robust linear trajectory fit gives distance per second, converted to km/h.
-5. **Screening and sensitivity:** geometry, size stability, trajectory fit and speed drift determine which spans receive labels. Dimension scenarios use lengths 3.2–5.2 m and widths 1.45–2.0 m; additional fits vary calibration tracks where possible. The reported minimum and maximum form the sensitivity envelope.
+5. **Screening and sensitivity:** geometry, size stability, trajectory fit and speed drift determine which spans receive decimal speed labels. Dimension scenarios use lengths 3.2–5.2 m and widths 1.45–2.0 m; additional fits vary calibration tracks where possible. Their minimum and maximum remain available in the data files as sensitivity envelopes.
+
+The current geometry parser preserves the checkpoint's longitudinal corner topology. The earlier motion-alignment heuristic could confuse width and length edges in low roadside views. Calibration normalization and bounds also now support horizons close to image centre; a synthetic test verifies that case.
 
 The road rises toward a crest. The local planar mappings apply only to footprint-supported regions and do not calibrate the entire road. Vehicles' actual make/model dimensions are not identified. This is an independent prototype inspired by [Sochor et al. (2017)](https://arxiv.org/abs/1702.06451), rather than a reproduction of their rendered, vehicle-model-specific bounding-box alignment method.
 
@@ -81,11 +85,17 @@ Intelligent Traffic management/
     speed_notebook/                 Stage 3 CPU speed notebook and metadata
     calibrate_speed.py              Projective fitting, speed calculation and screening
     render_speed.py                 Road overlay, charts and annotated video
+    validation_inference.py         Speed-blind GPU inference on supplied benchmark clips
+    reference_calibration.py        Pilot-only metric calibration and road registration
+    validation_experiment.py        Frozen-calibration evaluation, paired videos and report
+    benchmark_speed.py              Legacy and corrected single-pass diagnostic estimators
+    test_validation.py              Metric motion and label-independence checks
     test_calibration_math.py         Synthetic checks with known geometry and speed
     test_workflow.py                 Cache reuse, invalidation and failure behavior checks
     build_notebook.py               Convert percent-cell Python to a notebook
     prepare_speed_notebook.py       Embed current calibration/renderer in stage 3
     build_workflow_notebook.py       Package the automatic workflow for Kaggle
+    build_validation_notebook.py     Package the private GPU validation notebook
     manage.py                       Kaggle status and output download
     experiments.json                Non-secret notebook references and snapshot versions
     calibration_review.md           Results, assumptions and limitations

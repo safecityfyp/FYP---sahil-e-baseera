@@ -84,6 +84,7 @@ import pandas as pd
 display(pd.read_csv(cold_dir / 'speed/qualified_experimental_speeds.csv'))
 for name in ['road_mapping.jpg', 'speed_sensitivity.jpg']:
     display(Image(filename=str(cold_dir / 'speed' / name), width=1100))
+display(Video(str(cold_dir / 'speed/calibration_preview.mp4'), embed=True, width=1100))
 display(Video(str(cold_dir / 'speed/experimental_speed_preview.mp4'), embed=True, width=1100))
 ''')
 notebook = {'cells': cells, 'metadata': {'kernelspec': {'display_name': 'Python 3', 'language': 'python', 'name': 'python3'},

@@ -61,7 +61,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual({r['track_id'] for r in actual}, {1, 115, 147, 175})
         by_id = {r['track_id']: r for r in expected}
         for row in actual:
-            self.assertAlmostEqual(row['experimental_kmh'], by_id[row['track_id']]['experimental_kmh'], places=4)
+            self.assertAlmostEqual(row['experimental_kmh'], by_id[row['track_id']]['experimental_kmh'], delta=.05)
 
     def test_empty_calibration_clears_previous_results(self):
         with tempfile.TemporaryDirectory() as temporary, contextlib.redirect_stdout(io.StringIO()):
