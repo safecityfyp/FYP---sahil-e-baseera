@@ -1,0 +1,18 @@
+{
+  "id": "hayyanfaisal/fyp-calibration-refinement-report",
+  "title": "FYP Calibration Refinement Report",
+  "code_file": "calibration_refinement_report.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "hayyanfaisal/fyp-mercedes-amg550-speed-validation"
+  ],
+  "kernel_sources": [
+    "hayyanfaisal/fyp-mercedes-speed-validation",
+    "hayyanfaisal/fyp-per-video-calibration-method-comparison"
+  ],
+  "competition_sources": []
+}

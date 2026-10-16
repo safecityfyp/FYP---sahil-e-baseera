@@ -1,0 +1,17 @@
+{
+  "id": "hayyanfaisal/fyp-per-video-calibration-method-comparison",
+  "title": "FYP Per Video Calibration Method Comparison",
+  "code_file": "calibration_comparison.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "hayyanfaisal/fyp-mercedes-amg550-speed-validation"
+  ],
+  "kernel_sources": [
+    "hayyanfaisal/fyp-mercedes-speed-validation"
+  ],
+  "competition_sources": []
+}
