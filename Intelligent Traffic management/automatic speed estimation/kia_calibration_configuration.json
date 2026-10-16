@@ -1,0 +1,227 @@
+{
+  "selected_method": "geometry_ensemble_50",
+  "selection": "Minimum 8-clip leave-one-out development MAE; unavailable prediction costs 50 km/h.",
+  "frozen_before_reserved_errors": true,
+  "calibration_kia_videos": [
+    "KiaSportage_31",
+    "KiaSportage_44",
+    "KiaSportage_55",
+    "KiaSportage_65",
+    "KiaSportage_77",
+    "KiaSportage_85",
+    "KiaSportage_96",
+    "KiaSportage_105"
+  ],
+  "calibration_mercedes_videos": [
+    "MercedesAMG550_100",
+    "MercedesAMG550_105",
+    "MercedesAMG550_30",
+    "MercedesAMG550_33",
+    "MercedesAMG550_35",
+    "MercedesAMG550_38",
+    "MercedesAMG550_40",
+    "MercedesAMG550_42",
+    "MercedesAMG550_45",
+    "MercedesAMG550_47",
+    "MercedesAMG550_50",
+    "MercedesAMG550_52",
+    "MercedesAMG550_55",
+    "MercedesAMG550_58",
+    "MercedesAMG550_60",
+    "MercedesAMG550_62",
+    "MercedesAMG550_65",
+    "MercedesAMG550_67",
+    "MercedesAMG550_70",
+    "MercedesAMG550_73",
+    "MercedesAMG550_75",
+    "MercedesAMG550_78",
+    "MercedesAMG550_80",
+    "MercedesAMG550_82",
+    "MercedesAMG550_85",
+    "MercedesAMG550_87",
+    "MercedesAMG550_90",
+    "MercedesAMG550_93",
+    "MercedesAMG550_95",
+    "MercedesAMG550_98"
+  ],
+  "development_metrics": {
+    "frozen_mercedes_baseline": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 6.975414560874187,
+      "rmse_kmh": 11.865411552070801,
+      "bias_kmh": 6.679579022230742,
+      "maximum_absolute_error_kmh": 31.651382515028672,
+      "within_2_kmh": 2,
+      "errors_over_10_kmh": 1
+    },
+    "vehicle_length_prior": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 5.0567515275261785,
+      "rmse_kmh": 7.712625876205506,
+      "bias_kmh": 0.20646161524589157,
+      "maximum_absolute_error_kmh": 20.07784705712318,
+      "within_2_kmh": 2,
+      "errors_over_10_kmh": 1
+    },
+    "expanded_reference_library": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 6.975414560874187,
+      "rmse_kmh": 11.865411552070801,
+      "bias_kmh": 6.679579022230742,
+      "maximum_absolute_error_kmh": 31.651382515028672,
+      "within_2_kmh": 2,
+      "errors_over_10_kmh": 1
+    },
+    "foreground_reference_library": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 6.325622990742164,
+      "rmse_kmh": 11.78687612324537,
+      "bias_kmh": 6.322284248618737,
+      "maximum_absolute_error_kmh": 31.651382515028672,
+      "within_2_kmh": 3,
+      "errors_over_10_kmh": 1
+    },
+    "shared_flow": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 6.959680734731101,
+      "rmse_kmh": 11.86377462387806,
+      "bias_kmh": 6.370984552829336,
+      "maximum_absolute_error_kmh": 31.651382515028672,
+      "within_2_kmh": 2,
+      "errors_over_10_kmh": 1
+    },
+    "shared_trajectory": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 6.928647100789457,
+      "rmse_kmh": 11.861034726265142,
+      "bias_kmh": 6.402018186770981,
+      "maximum_absolute_error_kmh": 31.651382515028672,
+      "within_2_kmh": 2,
+      "errors_over_10_kmh": 1
+    },
+    "shared_trajectory_radial": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 6.975414560874187,
+      "rmse_kmh": 11.865411552070801,
+      "bias_kmh": 6.679579022230742,
+      "maximum_absolute_error_kmh": 31.651382515028672,
+      "within_2_kmh": 2,
+      "errors_over_10_kmh": 1
+    },
+    "shared_curve2": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 7.077294420537648,
+      "rmse_kmh": 11.880040720314694,
+      "bias_kmh": 6.25337086702279,
+      "maximum_absolute_error_kmh": 31.651382515028672,
+      "within_2_kmh": 1,
+      "errors_over_10_kmh": 1
+    },
+    "shared_curve3": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 7.071377773406574,
+      "rmse_kmh": 11.879000441389685,
+      "bias_kmh": 6.259287514153863,
+      "maximum_absolute_error_kmh": 31.651382515028672,
+      "within_2_kmh": 1,
+      "errors_over_10_kmh": 1
+    },
+    "geometry_native": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 1.9731724082878572,
+      "rmse_kmh": 2.372117696441917,
+      "bias_kmh": 0.2757789509872679,
+      "maximum_absolute_error_kmh": 4.915829632355312,
+      "within_2_kmh": 5,
+      "errors_over_10_kmh": 0
+    },
+    "geometry_suv": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 1.7126907716453101,
+      "rmse_kmh": 2.744414457928123,
+      "bias_kmh": -1.0103510963502527,
+      "maximum_absolute_error_kmh": 7.1080347812903,
+      "within_2_kmh": 6,
+      "errors_over_10_kmh": 0
+    },
+    "geometry_temporal": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 3.248493736369404,
+      "rmse_kmh": 3.750136785614191,
+      "bias_kmh": 0.9930783211483836,
+      "maximum_absolute_error_kmh": 6.905008854851246,
+      "within_2_kmh": 2,
+      "errors_over_10_kmh": 0
+    },
+    "geometry_ensemble_25": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 1.390126007706014,
+      "rmse_kmh": 1.8673692988977464,
+      "bias_kmh": -0.6888185845158699,
+      "maximum_absolute_error_kmh": 4.10206867787889,
+      "within_2_kmh": 6,
+      "errors_over_10_kmh": 0
+    },
+    "geometry_ensemble_50": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 1.1748223385370196,
+      "rmse_kmh": 1.3495712283811419,
+      "bias_kmh": -0.3672860726814928,
+      "maximum_absolute_error_kmh": 2.66687772163737,
+      "within_2_kmh": 7,
+      "errors_over_10_kmh": 0
+    },
+    "geometry_ensemble_75": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 1.4369845516040014,
+      "rmse_kmh": 1.5920533668535932,
+      "bias_kmh": -0.04575356084711313,
+      "maximum_absolute_error_kmh": 2.7484808415475115,
+      "within_2_kmh": 7,
+      "errors_over_10_kmh": 0
+    }
+  },
+  "source_sha256": {
+    "kia_validation.py": "3f179d0b79cf756c44f9fc601eadfeb1d43862bae7a8c7e667b2b2150c576c72",
+    "shared_camera_calibration.py": "24145e4157dced19899068901890e19a156de7e1b465532cd6bfdd452137a4c8",
+    "calibration_comparison.py": "6397a6acea08b5b0ae470f769d5fba7bf1ba482de6d3b101ee27ab10535d8e3f",
+    "longitudinal_calibration.py": "4d8c16217ebee6999ccfe8d27d1917cf936619a190241abc34fbe04a7598a3ec",
+    "scene_registration.py": "54a175367a0bfd0a3d0c83427e60821492ed7e44c84069b8cfb4e28230e023c3",
+    "refine_flow.py": "c0d39acca767ba5934b815a7f1d5a36ea57d64bb931c017851c84757965c8ac0",
+    "calibration_candidates.py": "9659552718b2b483560eea2b8d034bd2d1f424c2435693a717d927fbeecc7931",
+    "vehicle_geometry_refinement.py": "120713e470d6d1aab026417450675cbcc39fff2b1a57e4273b12caf68538536a"
+  },
+  "baseline_commit": "63c1b3923153cfaf92b1faba2292d62a8261015b",
+  "scope": "Reference-assisted camera calibration. Eight known-speed Kia passes are extra calibration information.",
+  "reserved_test_count": 25,
+  "vehicle_metric_scales": {
+    "v3b_rigid_distortion": 1.06785441741998,
+    "suv_rigid_radial": 1.1375968583543545,
+    "v2b_delay_2d": 1.0431941294304905
+  },
+  "reference_measurement_sha256": {
+    "KiaSportage_31": "3f16f8d7298639e709d0178c72c3a29dc80d626005fd515521cd72977a3e0fa3",
+    "KiaSportage_44": "39c057527b0a7de54e46a299a276311a6870f64cd79b1f988283607e2cfc546a",
+    "KiaSportage_55": "d378862a9a0474e23a1e18c778ab9cf0be46e5274f249ebf222d0c6dab7c3eec",
+    "KiaSportage_65": "263cfcdd71327964b8e9b7e987c2bc699933be66374992849225e8f888958fee",
+    "KiaSportage_77": "f275e215ab69178c51c9acbdebefda39dba65b7abb0a1d99caf4baa8ece54dfb",
+    "KiaSportage_85": "e78816ff0de2bdf3b073b9fade9b7b260528e07b5ee971718397b2a0fab8128b",
+    "KiaSportage_96": "72788035b53e18b790e49db5fe601dbadfcd975b048feb980c7a7c57b1fbd524",
+    "KiaSportage_105": "ce9bd5b1aba62938787f8c2f0755d59e0aba788f803ac233749bc9c6bf93a057"
+  }
+}
