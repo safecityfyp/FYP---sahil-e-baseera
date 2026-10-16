@@ -1,0 +1,17 @@
+{
+  "id": "hayyanfaisal/fyp-cctv-k-block-full",
+  "title": "FYP CCTV K-Block Full",
+  "code_file": "cctv.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "hayyanfaisal/fyp-cctv-october2026-two-cameras"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "hayyanfaisal/fyp-cctv-k-block-pilot"
+  ]
+}

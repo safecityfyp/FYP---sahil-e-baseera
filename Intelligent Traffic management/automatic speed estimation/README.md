@@ -10,6 +10,12 @@ The historical Mercedes benchmark used three calibration pilots and 27 held-out 
 
 See [the methods and selected workflow](calibration_methods.md) for research sources, implementation differences and reproduction. The [historical report](output/mercedes_validation/README.md) and its [earlier diagnostics](output/mercedes_validation/diagnostics/README.md) remain available for comparison.
 
+## Long real CCTV: Commercial II-01 and K Block St 20
+
+The current experiment processes two actual deployment views: **60 minutes at Commercial II-01** and **81 minutes 22 seconds at K Block St 20**. Camera calibration is fitted from multiple moving cars before speed calculation. Commercial uses 5 minutes for its left carriageway and 10 minutes for its right; K Block uses 5 minutes for each road region. Their full-recording Kaggle jobs are running; completed videos and measured coverage will be published under `output/cctv_20261009/` after verification.
+
+See [the CCTV method and reproduction steps](cctv_method.md). The new code supports turns and speed changes, separates road regions, excludes parked cars from calibration, and increases geometry sampling for K Block's brief vehicle passes. It compares three calibration methods using held-out car geometry and car-subset stability. No Kia/Mercedes speed correction is transferred to either camera. Decimal speeds remain experimental because these recordings have no measured speed reference.
+
 ## Kia Sportage: new vehicle and reserved tests
 
 The [Kia report](output/kia_validation/README.md) tests all **33 clips individually**, with eight development passes and **25 clips reserved until the method was frozen**. On the reserved clips, the frozen Mercedes transfer baseline gives **3.81 km/h MAE**; the new geometry ensemble gives **2.36 km/h MAE**, **13/25 within ±2 km/h**, and a worst error of **7.28 km/h**, down from 18.85. Across all 33 clips, including development, MAE is **2.07 km/h** with **20/33 within ±2 km/h**. The accuracy target remains unmet.
