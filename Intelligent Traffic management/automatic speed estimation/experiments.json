@@ -55,11 +55,42 @@
       "notebook": "hayyanfaisal/fyp-kia-calibration-validation-report",
       "snapshot_version": 1,
       "output_pattern": "kia_validation/.*"
+    },
+    "cctv_commercial_pilot": {
+      "notebook": "hayyanfaisal/fyp-cctv-commercial-pilot",
+      "snapshot_version": 1,
+      "output_pattern": "cctv_outputs/.*\\.(json|gz|csv|jpg|yaml|mp4)$"
+    },
+    "cctv_k_block_pilot": {
+      "notebook": "hayyanfaisal/fyp-cctv-k-block-pilot",
+      "snapshot_version": 2,
+      "output_pattern": "cctv_outputs/.*\\.(json|gz|csv|jpg|yaml|mp4)$"
+    },
+    "cctv_commercial_full": {
+      "notebook": "hayyanfaisal/fyp-cctv-commercial-full",
+      "snapshot_version": 1,
+      "output_pattern": "cctv_outputs/.*\\.(json|gz|csv|jpg|yaml|mp4)$",
+      "purpose": "Initial full measurements and baseline fit. Final Commercial calibration/tables come from the refined CPU report."
+    },
+    "cctv_k_block_full": {
+      "notebook": "hayyanfaisal/fyp-cctv-k-block-full",
+      "snapshot_version": 1,
+      "output_pattern": "cctv_outputs/.*\\.(json|gz|csv|jpg|yaml|mp4)$"
+    },
+    "cctv_commercial_refined_report": {
+      "notebook": "hayyanfaisal/fyp-cctv-commercial-refined-report",
+      "snapshot_version": 1,
+      "output_pattern": "cctv_outputs/.*\\.(json|gz|csv|jpg|yaml|mp4)$",
+      "purpose": "Final Commercial calibration, speed tables and 11 tests. Full videos rendered locally from these frozen tables."
     }
   },
   "kia_datasets": {
     "videos": "hayyanfaisal/fyp-kia-sportage-speed-validation",
     "evaluation_cache": "hayyanfaisal/fyp-kia-calibration-evaluation-cache",
+    "private": true
+  },
+  "cctv_october2026_dataset": {
+    "videos": "hayyanfaisal/fyp-cctv-october2026-two-cameras",
     "private": true
   }
 }

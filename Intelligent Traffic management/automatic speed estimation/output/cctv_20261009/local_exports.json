@@ -1,0 +1,23 @@
+{
+  "exports": [
+    {
+      "camera_id": "commercial_ii_01",
+      "full_speed_file": "commercial_ii_01/speed_estimation_full.mp4",
+      "source_frames": 90000,
+      "duration_s": 3600.0,
+      "sha256": "acedef4d4a14a3a0f8a2425b510c3cbb6156fdd0057f659c0b775c2ad05a3156",
+      "bytes": 348890638,
+      "calibration_file": "commercial_ii_01/calibration.mp4"
+    },
+    {
+      "camera_id": "k_block_st20",
+      "full_speed_file": "k_block_st20/speed_estimation_full.mp4",
+      "source_frames": 97641,
+      "duration_s": 4882.05,
+      "sha256": "8ef6d1512abd00a4458dc55476823367772d2d9c8f61edaae3b778899a282afd",
+      "bytes": 266701954,
+      "calibration_file": "k_block_st20/calibration.mp4"
+    }
+  ],
+  "source_audio_included": false
+}

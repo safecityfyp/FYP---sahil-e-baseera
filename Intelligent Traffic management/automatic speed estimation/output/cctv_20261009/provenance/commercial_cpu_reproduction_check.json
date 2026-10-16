@@ -1,0 +1,9 @@
+{
+  "comparison": "Local pilot calculation versus independent Kaggle CPU full calculation over matching pilot samples",
+  "local_pilot_samples": 1091,
+  "cloud_pilot_samples": 1091,
+  "matching_samples": 1091,
+  "max_absolute_speed_difference_kmh": 1.046433325768703e-06,
+  "mean_absolute_numerical_difference_kmh": 3.8637906003598945e-07,
+  "ground_truth_accuracy_test": false
+}

@@ -1,0 +1,246 @@
+{
+  "camera_id": "commercial_ii_01",
+  "source_sha256": "8e4437807fcae7c56f69e6cd55f04374d71e708630afbdfc811b1f192e10beee",
+  "total_duration_s": 3600.0,
+  "inference_reports": [
+    {
+      "camera_id": "commercial_ii_01",
+      "source_video": "NVR_ch6_main_20261009170002_20261009180000.mp4",
+      "source_sha256": "8e4437807fcae7c56f69e6cd55f04374d71e708630afbdfc811b1f192e10beee",
+      "width": 1920,
+      "height": 1080,
+      "fps": 25.0,
+      "frames_reported": 90000,
+      "frames_decoded": 22500,
+      "expected_decoded_frames": 22500,
+      "decode_complete": true,
+      "start_s": 0,
+      "stop_s": 900.0,
+      "timestamps": "Monotonic container PTS checked against frame/FPS; fallback when inconsistent",
+      "timestamp_fallback_frames": 0,
+      "detection_hz": 10,
+      "geometry_hz": 2.5,
+      "ground_indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "model_sha256": "9aa55280a5ef1c9d89c0acb5baeb974b90fbdf3c1deead1413b24d7af249226d",
+      "model_revision": "2701a2eec9a73afb5ffd852740d125dfcd065ce5",
+      "model_file": "checkpoints/urbanomnidetect_yolo11x-p2_1920.pt",
+      "counts": {
+        "detection_frames": 9000,
+        "track_rows": 93227,
+        "geometry_frames": 1250,
+        "observations": 1631
+      },
+      "runtime_s": 464.73223948900005,
+      "known_speeds_used": false,
+      "benchmark_vehicle_scales_used": false,
+      "id_reset_at_resume_s": null
+    },
+    {
+      "camera_id": "commercial_ii_01",
+      "source_video": "NVR_ch6_main_20261009170002_20261009180000.mp4",
+      "source_sha256": "8e4437807fcae7c56f69e6cd55f04374d71e708630afbdfc811b1f192e10beee",
+      "width": 1920,
+      "height": 1080,
+      "fps": 25.0,
+      "frames_reported": 90000,
+      "frames_decoded": 90000,
+      "expected_decoded_frames": 90000,
+      "decode_complete": true,
+      "start_s": 900.0,
+      "stop_s": 3600.0,
+      "timestamps": "Monotonic container PTS checked against frame/FPS; fallback when inconsistent",
+      "timestamp_fallback_frames": 0,
+      "detection_hz": 10,
+      "geometry_hz": 2.5,
+      "ground_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ground_order_vote_agreement": 1.0,
+      "model_sha256": "9aa55280a5ef1c9d89c0acb5baeb974b90fbdf3c1deead1413b24d7af249226d",
+      "model_revision": "2701a2eec9a73afb5ffd852740d125dfcd065ce5",
+      "model_file": "checkpoints/urbanomnidetect_yolo11x-p2_1920.pt",
+      "counts": {
+        "detection_frames": 27000,
+        "track_rows": 243574,
+        "geometry_frames": 3686,
+        "observations": 3556
+      },
+      "runtime_s": 1345.640782383,
+      "known_speeds_used": false,
+      "benchmark_vehicle_scales_used": false,
+      "id_reset_at_resume_s": 900.0
+    }
+  ],
+  "footprint_filters": {
+    "degenerate_quad": 533,
+    "low_confidence": 387,
+    "clipped": 166,
+    "outside_road": 35,
+    "accepted_observations": 4066,
+    "accepted_tracks": 372
+  },
+  "speed_counts": {
+    "accepted_speed_samples": 3278,
+    "unstable_footprint_length": 87,
+    "outside_calibration_support": 466,
+    "insufficient_local_window": 72,
+    "short_segment": 163
+  },
+  "cars_with_speed_estimates": 308,
+  "static_view_checks": [
+    {
+      "time_s": 0,
+      "comparison": {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 4963,
+        "inliers": 4963,
+        "feature_coverage_fraction": 0.5665282674496015,
+        "max_normalized_corner_displacement": 1.5356338027355461e-15
+      }
+    },
+    {
+      "time_s": 300,
+      "comparison": {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 1932,
+        "inliers": 1888,
+        "feature_coverage_fraction": 0.44618466383698524,
+        "max_normalized_corner_displacement": 0.0002304213693856966
+      }
+    },
+    {
+      "time_s": 600,
+      "comparison": {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 2054,
+        "inliers": 2007,
+        "feature_coverage_fraction": 0.4872074387474209,
+        "max_normalized_corner_displacement": 0.00013202226045523375
+      }
+    },
+    {
+      "time_s": 900,
+      "comparison": {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 2016,
+        "inliers": 1969,
+        "feature_coverage_fraction": 0.49299973199854447,
+        "max_normalized_corner_displacement": 0.0001582699757409955
+      }
+    },
+    {
+      "time_s": 1200,
+      "comparison": {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 2022,
+        "inliers": 1983,
+        "feature_coverage_fraction": 0.4957262777565028,
+        "max_normalized_corner_displacement": 0.00017117189562516127
+      }
+    },
+    {
+      "time_s": 1500,
+      "comparison": {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 1622,
+        "inliers": 1572,
+        "feature_coverage_fraction": 0.4918166455113488,
+        "max_normalized_corner_displacement": 0.00029827934448642705
+      }
+    },
+    {
+      "time_s": 1800,
+      "comparison": {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 1842,
+        "inliers": 1793,
+        "feature_coverage_fraction": 0.4901284684001159,
+        "max_normalized_corner_displacement": 0.00025952041698395735
+      }
+    },
+    {
+      "time_s": 2100,
+      "comparison": {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 1825,
+        "inliers": 1784,
+        "feature_coverage_fraction": 0.4936202277287499,
+        "max_normalized_corner_displacement": 0.0003789326185490843
+      }
+    },
+    {
+      "time_s": 2400,
+      "comparison": {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 1471,
+        "inliers": 1422,
+        "feature_coverage_fraction": 0.4080743825362487,
+        "max_normalized_corner_displacement": 0.0004594483119264054
+      }
+    },
+    {
+      "time_s": 2700,
+      "comparison": {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 1379,
+        "inliers": 1339,
+        "feature_coverage_fraction": 0.40825498379168024,
+        "max_normalized_corner_displacement": 0.0004113379469029814
+      }
+    },
+    {
+      "time_s": 3000,
+      "comparison": {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 1457,
+        "inliers": 1413,
+        "feature_coverage_fraction": 0.431260791810973,
+        "max_normalized_corner_displacement": 0.001371334181240701
+      }
+    },
+    {
+      "time_s": 3300,
+      "comparison": {
+        "valid": true,
+        "reason": "consistent_view",
+        "matches": 1381,
+        "inliers": 1340,
+        "feature_coverage_fraction": 0.40562370391750113,
+        "max_normalized_corner_displacement": 0.0017171097927056187
+      }
+    }
+  ],
+  "invalid_view_intervals_s": [],
+  "all_sampled_views_consistent": true,
+  "method": "Robust local polynomial derivative of 2D road-plane ground centroid",
+  "local_velocity_options": {
+    "window_s": 2.4,
+    "minimum_span_s": 1.0,
+    "quadratic_minimum_span_s": 1.5
+  },
+  "latency_note": "Offline centered window uses future observations up to 1.2 seconds",
+  "display_note": "Decimal experimental km/h; dimension and car-subset sensitivity range is secondary",
+  "motorcycle_bus_truck_policy": "Tracked but no metric label: this checkpoint supplies car ground footprints only",
+  "accuracy_validated": false,
+  "known_speeds_used": false,
+  "count_note": "Track IDs can fragment or restart at 900s; counts are tracks, not guaranteed unique vehicles"
+}

@@ -1,0 +1,2774 @@
+[
+  {
+    "track_id": 4,
+    "start_s": 1.2,
+    "end_s": 4.8,
+    "samples": 9,
+    "median_experimental_kmh": 47.11954489328548,
+    "min_experimental_kmh": 41.07719319767748,
+    "max_experimental_kmh": 51.96014767830185
+  },
+  {
+    "track_id": 94,
+    "start_s": 7.6000000000000005,
+    "end_s": 12.4,
+    "samples": 13,
+    "median_experimental_kmh": 45.913615193605345,
+    "min_experimental_kmh": 26.94147243042267,
+    "max_experimental_kmh": 64.67419905490627
+  },
+  {
+    "track_id": 106,
+    "start_s": 8.0,
+    "end_s": 10.8,
+    "samples": 8,
+    "median_experimental_kmh": 59.70560497940593,
+    "min_experimental_kmh": 40.164423799329676,
+    "max_experimental_kmh": 75.52964199760949
+  },
+  {
+    "track_id": 722,
+    "start_s": 95.2,
+    "end_s": 99.2,
+    "samples": 11,
+    "median_experimental_kmh": 44.994921830479306,
+    "min_experimental_kmh": 38.17053543579099,
+    "max_experimental_kmh": 48.1757769805074
+  },
+  {
+    "track_id": 1140,
+    "start_s": 138.0,
+    "end_s": 144.0,
+    "samples": 16,
+    "median_experimental_kmh": 39.33107688616068,
+    "min_experimental_kmh": 19.449772620330243,
+    "max_experimental_kmh": 57.61902545466815
+  },
+  {
+    "track_id": 1146,
+    "start_s": 138.0,
+    "end_s": 139.6,
+    "samples": 5,
+    "median_experimental_kmh": 2.0656902728615956,
+    "min_experimental_kmh": 0.7419357851381405,
+    "max_experimental_kmh": 3.6140128599227297
+  },
+  {
+    "track_id": 1181,
+    "start_s": 146.8,
+    "end_s": 150.8,
+    "samples": 11,
+    "median_experimental_kmh": 50.03659009816846,
+    "min_experimental_kmh": 29.327673655785514,
+    "max_experimental_kmh": 63.10482446877533
+  },
+  {
+    "track_id": 1248,
+    "start_s": 158.4,
+    "end_s": 164.0,
+    "samples": 13,
+    "median_experimental_kmh": 33.32734541090453,
+    "min_experimental_kmh": 27.173721372181944,
+    "max_experimental_kmh": 37.3901536685294
+  },
+  {
+    "track_id": 1253,
+    "start_s": 155.20000000000002,
+    "end_s": 159.20000000000002,
+    "samples": 11,
+    "median_experimental_kmh": 49.2079114338649,
+    "min_experimental_kmh": 30.82208822156078,
+    "max_experimental_kmh": 64.88376619171994
+  },
+  {
+    "track_id": 1321,
+    "start_s": 168.8,
+    "end_s": 170.8,
+    "samples": 6,
+    "median_experimental_kmh": 9.160589675624188,
+    "min_experimental_kmh": 7.885275815542159,
+    "max_experimental_kmh": 9.822065366224448
+  },
+  {
+    "track_id": 1357,
+    "start_s": 171.6,
+    "end_s": 176.8,
+    "samples": 12,
+    "median_experimental_kmh": 23.849771150616327,
+    "min_experimental_kmh": 8.599803371814598,
+    "max_experimental_kmh": 29.85598262943493
+  },
+  {
+    "track_id": 1419,
+    "start_s": 182.0,
+    "end_s": 186.4,
+    "samples": 12,
+    "median_experimental_kmh": 47.686399715140844,
+    "min_experimental_kmh": 30.118709966579697,
+    "max_experimental_kmh": 73.36169229415673
+  },
+  {
+    "track_id": 1439,
+    "start_s": 185.20000000000002,
+    "end_s": 188.0,
+    "samples": 8,
+    "median_experimental_kmh": 52.33678429950022,
+    "min_experimental_kmh": 37.87770031689528,
+    "max_experimental_kmh": 70.62038868973521
+  },
+  {
+    "track_id": 1445,
+    "start_s": 186.0,
+    "end_s": 189.6,
+    "samples": 10,
+    "median_experimental_kmh": 48.207350599403725,
+    "min_experimental_kmh": 34.04123308778016,
+    "max_experimental_kmh": 51.36673439084488
+  },
+  {
+    "track_id": 1495,
+    "start_s": 204.4,
+    "end_s": 210.4,
+    "samples": 11,
+    "median_experimental_kmh": 19.43282577490458,
+    "min_experimental_kmh": 18.19976900490692,
+    "max_experimental_kmh": 21.527242248005063
+  },
+  {
+    "track_id": 1610,
+    "start_s": 215.20000000000002,
+    "end_s": 219.20000000000002,
+    "samples": 11,
+    "median_experimental_kmh": 59.04059444414692,
+    "min_experimental_kmh": 35.04220446421081,
+    "max_experimental_kmh": 67.65377677114306
+  },
+  {
+    "track_id": 1725,
+    "start_s": 235.6,
+    "end_s": 238.4,
+    "samples": 8,
+    "median_experimental_kmh": 66.75087883798723,
+    "min_experimental_kmh": 42.54658374209871,
+    "max_experimental_kmh": 89.93741882633263
+  },
+  {
+    "track_id": 1809,
+    "start_s": 252.4,
+    "end_s": 256.8,
+    "samples": 12,
+    "median_experimental_kmh": 5.097721997487087,
+    "min_experimental_kmh": 1.5288903703978467,
+    "max_experimental_kmh": 14.097424541240564
+  },
+  {
+    "track_id": 2016,
+    "start_s": 272.0,
+    "end_s": 277.6,
+    "samples": 15,
+    "median_experimental_kmh": 41.31480057011268,
+    "min_experimental_kmh": 19.03256069744988,
+    "max_experimental_kmh": 54.4160394194621
+  },
+  {
+    "track_id": 2030,
+    "start_s": 276.40000000000003,
+    "end_s": 301.2,
+    "samples": 46,
+    "median_experimental_kmh": 10.242445507261571,
+    "min_experimental_kmh": 0.4456463530755597,
+    "max_experimental_kmh": 24.8510941276467
+  },
+  {
+    "track_id": 2033,
+    "start_s": 277.2,
+    "end_s": 280.8,
+    "samples": 10,
+    "median_experimental_kmh": 38.334348066665775,
+    "min_experimental_kmh": 37.65415962990007,
+    "max_experimental_kmh": 39.54552268168074
+  },
+  {
+    "track_id": 2063,
+    "start_s": 286.0,
+    "end_s": 290.0,
+    "samples": 11,
+    "median_experimental_kmh": 62.13281745303536,
+    "min_experimental_kmh": 31.557188758340466,
+    "max_experimental_kmh": 86.60528530527958
+  },
+  {
+    "track_id": 2068,
+    "start_s": 293.2,
+    "end_s": 299.6,
+    "samples": 17,
+    "median_experimental_kmh": 35.61033685689098,
+    "min_experimental_kmh": 20.139386901644393,
+    "max_experimental_kmh": 51.717422759349965
+  },
+  {
+    "track_id": 2078,
+    "start_s": 297.2,
+    "end_s": 302.0,
+    "samples": 13,
+    "median_experimental_kmh": 44.76808752305156,
+    "min_experimental_kmh": 26.78314763403745,
+    "max_experimental_kmh": 67.52374808397363
+  },
+  {
+    "track_id": 2094,
+    "start_s": 299.6,
+    "end_s": 304.0,
+    "samples": 12,
+    "median_experimental_kmh": 50.75053077073278,
+    "min_experimental_kmh": 30.87511004641008,
+    "max_experimental_kmh": 70.37062210740775
+  },
+  {
+    "track_id": 2096,
+    "start_s": 300.8,
+    "end_s": 304.8,
+    "samples": 11,
+    "median_experimental_kmh": 47.80295261252776,
+    "min_experimental_kmh": 33.06229695471608,
+    "max_experimental_kmh": 63.75639048769849
+  },
+  {
+    "track_id": 2106,
+    "start_s": 301.6,
+    "end_s": 305.2,
+    "samples": 10,
+    "median_experimental_kmh": 42.96740857019404,
+    "min_experimental_kmh": 37.44271697989984,
+    "max_experimental_kmh": 43.35487260350509
+  },
+  {
+    "track_id": 2110,
+    "start_s": 302.8,
+    "end_s": 307.2,
+    "samples": 12,
+    "median_experimental_kmh": 54.598353994283734,
+    "min_experimental_kmh": 31.839778774004753,
+    "max_experimental_kmh": 66.28817690288473
+  },
+  {
+    "track_id": 2149,
+    "start_s": 306.8,
+    "end_s": 310.40000000000003,
+    "samples": 10,
+    "median_experimental_kmh": 42.001059436483715,
+    "min_experimental_kmh": 28.627736048546666,
+    "max_experimental_kmh": 57.1276510679352
+  },
+  {
+    "track_id": 2195,
+    "start_s": 310.40000000000003,
+    "end_s": 313.2,
+    "samples": 8,
+    "median_experimental_kmh": 61.043235469417894,
+    "min_experimental_kmh": 49.777399837898564,
+    "max_experimental_kmh": 67.13011427782594
+  },
+  {
+    "track_id": 2338,
+    "start_s": 348.0,
+    "end_s": 350.40000000000003,
+    "samples": 4,
+    "median_experimental_kmh": 35.219357294174316,
+    "min_experimental_kmh": 31.996664720723306,
+    "max_experimental_kmh": 43.3139733009586
+  },
+  {
+    "track_id": 2376,
+    "start_s": 346.0,
+    "end_s": 348.40000000000003,
+    "samples": 7,
+    "median_experimental_kmh": 53.09231729735264,
+    "min_experimental_kmh": 47.50762015718276,
+    "max_experimental_kmh": 57.212941738336745
+  },
+  {
+    "track_id": 2393,
+    "start_s": 356.0,
+    "end_s": 362.40000000000003,
+    "samples": 17,
+    "median_experimental_kmh": 27.124104308549,
+    "min_experimental_kmh": 18.830220202467018,
+    "max_experimental_kmh": 34.107665898192536
+  },
+  {
+    "track_id": 2641,
+    "start_s": 384.40000000000003,
+    "end_s": 388.8,
+    "samples": 12,
+    "median_experimental_kmh": 51.351260022249306,
+    "min_experimental_kmh": 25.519879687555935,
+    "max_experimental_kmh": 76.56354353332715
+  },
+  {
+    "track_id": 2662,
+    "start_s": 388.0,
+    "end_s": 390.8,
+    "samples": 8,
+    "median_experimental_kmh": 57.819646542548035,
+    "min_experimental_kmh": 42.24271148776769,
+    "max_experimental_kmh": 70.35551623932152
+  },
+  {
+    "track_id": 2668,
+    "start_s": 390.40000000000003,
+    "end_s": 392.0,
+    "samples": 5,
+    "median_experimental_kmh": 65.79182809956905,
+    "min_experimental_kmh": 63.65399629193895,
+    "max_experimental_kmh": 67.33768484821782
+  },
+  {
+    "track_id": 2670,
+    "start_s": 393.2,
+    "end_s": 398.0,
+    "samples": 13,
+    "median_experimental_kmh": 43.45425091870157,
+    "min_experimental_kmh": 26.998825396820497,
+    "max_experimental_kmh": 65.55756009558172
+  },
+  {
+    "track_id": 2729,
+    "start_s": 401.2,
+    "end_s": 406.0,
+    "samples": 13,
+    "median_experimental_kmh": 30.911040749091605,
+    "min_experimental_kmh": 15.805866791085585,
+    "max_experimental_kmh": 45.103086490604895
+  },
+  {
+    "track_id": 2751,
+    "start_s": 404.8,
+    "end_s": 407.2,
+    "samples": 7,
+    "median_experimental_kmh": 52.1526689609305,
+    "min_experimental_kmh": 49.256243906634985,
+    "max_experimental_kmh": 53.03705792187215
+  },
+  {
+    "track_id": 2763,
+    "start_s": 406.40000000000003,
+    "end_s": 425.6,
+    "samples": 8,
+    "median_experimental_kmh": 0.89147624110455,
+    "min_experimental_kmh": 0.21242108711324906,
+    "max_experimental_kmh": 1.7366160186986672
+  },
+  {
+    "track_id": 2866,
+    "start_s": 414.8,
+    "end_s": 418.8,
+    "samples": 11,
+    "median_experimental_kmh": 56.59311402498106,
+    "min_experimental_kmh": 33.619609853893536,
+    "max_experimental_kmh": 67.36477332922969
+  },
+  {
+    "track_id": 2903,
+    "start_s": 419.2,
+    "end_s": 424.8,
+    "samples": 15,
+    "median_experimental_kmh": 44.02800271287908,
+    "min_experimental_kmh": 24.114174966537163,
+    "max_experimental_kmh": 58.245577500004785
+  },
+  {
+    "track_id": 2926,
+    "start_s": 423.6,
+    "end_s": 427.6,
+    "samples": 11,
+    "median_experimental_kmh": 52.05871269874091,
+    "min_experimental_kmh": 28.371642535831093,
+    "max_experimental_kmh": 74.24967479048014
+  },
+  {
+    "track_id": 2938,
+    "start_s": 460.0,
+    "end_s": 683.2,
+    "samples": 43,
+    "median_experimental_kmh": 11.143807362730943,
+    "min_experimental_kmh": 0.12308253772622019,
+    "max_experimental_kmh": 16.225094897276595
+  },
+  {
+    "track_id": 2943,
+    "start_s": 427.2,
+    "end_s": 430.0,
+    "samples": 7,
+    "median_experimental_kmh": 0.8196948888385404,
+    "min_experimental_kmh": 0.10120825668921776,
+    "max_experimental_kmh": 1.2643203276912562
+  },
+  {
+    "track_id": 2948,
+    "start_s": 426.0,
+    "end_s": 429.2,
+    "samples": 9,
+    "median_experimental_kmh": 45.1376215829062,
+    "min_experimental_kmh": 32.07363038006076,
+    "max_experimental_kmh": 63.59702553115227
+  },
+  {
+    "track_id": 2968,
+    "start_s": 429.6,
+    "end_s": 431.6,
+    "samples": 6,
+    "median_experimental_kmh": 60.497782915853506,
+    "min_experimental_kmh": 51.07110705918349,
+    "max_experimental_kmh": 71.24240375414901
+  },
+  {
+    "track_id": 2981,
+    "start_s": 430.8,
+    "end_s": 435.6,
+    "samples": 13,
+    "median_experimental_kmh": 44.08419200144845,
+    "min_experimental_kmh": 23.926347234387077,
+    "max_experimental_kmh": 63.535183873442236
+  },
+  {
+    "track_id": 3036,
+    "start_s": 437.2,
+    "end_s": 440.8,
+    "samples": 10,
+    "median_experimental_kmh": 60.05909957918801,
+    "min_experimental_kmh": 39.37092518143649,
+    "max_experimental_kmh": 77.46551181204715
+  },
+  {
+    "track_id": 3099,
+    "start_s": 448.40000000000003,
+    "end_s": 463.6,
+    "samples": 24,
+    "median_experimental_kmh": 7.318914136470509,
+    "min_experimental_kmh": 0.5702330792460331,
+    "max_experimental_kmh": 72.79259759938557
+  },
+  {
+    "track_id": 3104,
+    "start_s": 448.40000000000003,
+    "end_s": 452.40000000000003,
+    "samples": 11,
+    "median_experimental_kmh": 53.371317013015606,
+    "min_experimental_kmh": 32.05151229684204,
+    "max_experimental_kmh": 82.178695283098
+  },
+  {
+    "track_id": 3189,
+    "start_s": 456.0,
+    "end_s": 458.8,
+    "samples": 8,
+    "median_experimental_kmh": 52.736173472277216,
+    "min_experimental_kmh": 44.18375828785032,
+    "max_experimental_kmh": 53.792525940386966
+  },
+  {
+    "track_id": 3194,
+    "start_s": 454.8,
+    "end_s": 458.8,
+    "samples": 11,
+    "median_experimental_kmh": 51.597179903602175,
+    "min_experimental_kmh": 37.880450669126645,
+    "max_experimental_kmh": 68.00753123556663
+  },
+  {
+    "track_id": 3209,
+    "start_s": 456.8,
+    "end_s": 461.2,
+    "samples": 12,
+    "median_experimental_kmh": 51.23781237370275,
+    "min_experimental_kmh": 30.613934321170817,
+    "max_experimental_kmh": 61.670297143987234
+  },
+  {
+    "track_id": 3247,
+    "start_s": 461.6,
+    "end_s": 465.6,
+    "samples": 11,
+    "median_experimental_kmh": 54.25936844004661,
+    "min_experimental_kmh": 34.759164311319644,
+    "max_experimental_kmh": 72.42578544736139
+  },
+  {
+    "track_id": 3261,
+    "start_s": 465.2,
+    "end_s": 469.2,
+    "samples": 11,
+    "median_experimental_kmh": 54.97337894528111,
+    "min_experimental_kmh": 33.44429989348263,
+    "max_experimental_kmh": 68.43470018922586
+  },
+  {
+    "track_id": 3269,
+    "start_s": 466.40000000000003,
+    "end_s": 467.6,
+    "samples": 4,
+    "median_experimental_kmh": 42.8206900898506,
+    "min_experimental_kmh": 41.23212840385845,
+    "max_experimental_kmh": 42.98205067791386
+  },
+  {
+    "track_id": 3292,
+    "start_s": 468.8,
+    "end_s": 473.2,
+    "samples": 12,
+    "median_experimental_kmh": 53.96760606481848,
+    "min_experimental_kmh": 28.513457047365495,
+    "max_experimental_kmh": 76.37264845351424
+  },
+  {
+    "track_id": 3356,
+    "start_s": 475.2,
+    "end_s": 479.2,
+    "samples": 9,
+    "median_experimental_kmh": 41.03452589548161,
+    "min_experimental_kmh": 29.484024852398072,
+    "max_experimental_kmh": 72.9629319794014
+  },
+  {
+    "track_id": 3413,
+    "start_s": 482.40000000000003,
+    "end_s": 484.8,
+    "samples": 7,
+    "median_experimental_kmh": 46.598906395242885,
+    "min_experimental_kmh": 35.315185167520326,
+    "max_experimental_kmh": 55.4977248269032
+  },
+  {
+    "track_id": 3772,
+    "start_s": 527.6,
+    "end_s": 532.0,
+    "samples": 12,
+    "median_experimental_kmh": 39.89505565632019,
+    "min_experimental_kmh": 31.01492387969093,
+    "max_experimental_kmh": 44.77783444178047
+  },
+  {
+    "track_id": 3833,
+    "start_s": 531.6,
+    "end_s": 536.8,
+    "samples": 14,
+    "median_experimental_kmh": 31.203801267193775,
+    "min_experimental_kmh": 26.179805733123498,
+    "max_experimental_kmh": 38.67405336941137
+  },
+  {
+    "track_id": 3960,
+    "start_s": 539.6,
+    "end_s": 543.2,
+    "samples": 10,
+    "median_experimental_kmh": 62.750054528666986,
+    "min_experimental_kmh": 39.25742134797991,
+    "max_experimental_kmh": 79.682365321175
+  },
+  {
+    "track_id": 3974,
+    "start_s": 542.8,
+    "end_s": 545.6,
+    "samples": 8,
+    "median_experimental_kmh": 38.3447460210041,
+    "min_experimental_kmh": 36.50739331015381,
+    "max_experimental_kmh": 40.33378822179361
+  },
+  {
+    "track_id": 4048,
+    "start_s": 631.6,
+    "end_s": 633.2,
+    "samples": 5,
+    "median_experimental_kmh": 0.7968994585601725,
+    "min_experimental_kmh": 0.27903503945253416,
+    "max_experimental_kmh": 1.0214850804246105
+  },
+  {
+    "track_id": 4188,
+    "start_s": 570.8000000000001,
+    "end_s": 574.4,
+    "samples": 10,
+    "median_experimental_kmh": 59.83820261228774,
+    "min_experimental_kmh": 33.71959616399961,
+    "max_experimental_kmh": 89.0122095830014
+  },
+  {
+    "track_id": 4246,
+    "start_s": 576.8000000000001,
+    "end_s": 580.4,
+    "samples": 10,
+    "median_experimental_kmh": 59.6515002146043,
+    "min_experimental_kmh": 37.971420378312054,
+    "max_experimental_kmh": 77.93833356105468
+  },
+  {
+    "track_id": 4283,
+    "start_s": 588.4,
+    "end_s": 591.6,
+    "samples": 9,
+    "median_experimental_kmh": 53.10285782980936,
+    "min_experimental_kmh": 35.11052558747552,
+    "max_experimental_kmh": 68.55944849455385
+  },
+  {
+    "track_id": 4321,
+    "start_s": 595.6,
+    "end_s": 598.4,
+    "samples": 8,
+    "median_experimental_kmh": 51.74334917241113,
+    "min_experimental_kmh": 39.69975555371179,
+    "max_experimental_kmh": 65.17110661303919
+  },
+  {
+    "track_id": 4957,
+    "start_s": 652.4,
+    "end_s": 654.8000000000001,
+    "samples": 7,
+    "median_experimental_kmh": 50.55673542625518,
+    "min_experimental_kmh": 46.47920792671097,
+    "max_experimental_kmh": 54.17022887929242
+  },
+  {
+    "track_id": 5094,
+    "start_s": 666.0,
+    "end_s": 671.2,
+    "samples": 14,
+    "median_experimental_kmh": 43.036316945793686,
+    "min_experimental_kmh": 24.06512610761068,
+    "max_experimental_kmh": 63.10473426692925
+  },
+  {
+    "track_id": 5157,
+    "start_s": 670.4,
+    "end_s": 671.6,
+    "samples": 4,
+    "median_experimental_kmh": 62.96668469575361,
+    "min_experimental_kmh": 62.122643597907015,
+    "max_experimental_kmh": 63.67685535836123
+  },
+  {
+    "track_id": 5224,
+    "start_s": 673.2,
+    "end_s": 675.2,
+    "samples": 6,
+    "median_experimental_kmh": 32.573532550793736,
+    "min_experimental_kmh": 29.94879437916437,
+    "max_experimental_kmh": 33.79404410543513
+  },
+  {
+    "track_id": 5276,
+    "start_s": 680.8000000000001,
+    "end_s": 686.0,
+    "samples": 12,
+    "median_experimental_kmh": 36.088322086068445,
+    "min_experimental_kmh": 26.096489723527174,
+    "max_experimental_kmh": 40.32776352296796
+  },
+  {
+    "track_id": 5288,
+    "start_s": 680.4,
+    "end_s": 684.4,
+    "samples": 11,
+    "median_experimental_kmh": 47.719094962118525,
+    "min_experimental_kmh": 28.60284538975081,
+    "max_experimental_kmh": 68.39953004703291
+  },
+  {
+    "track_id": 5327,
+    "start_s": 683.2,
+    "end_s": 687.6,
+    "samples": 12,
+    "median_experimental_kmh": 34.22456593424373,
+    "min_experimental_kmh": 31.649171918932492,
+    "max_experimental_kmh": 43.99032813127282
+  },
+  {
+    "track_id": 5358,
+    "start_s": 697.6,
+    "end_s": 699.6,
+    "samples": 6,
+    "median_experimental_kmh": 33.00685464156362,
+    "min_experimental_kmh": 25.727308145799096,
+    "max_experimental_kmh": 35.7404619406143
+  },
+  {
+    "track_id": 5435,
+    "start_s": 698.4,
+    "end_s": 702.0,
+    "samples": 10,
+    "median_experimental_kmh": 58.396182423487254,
+    "min_experimental_kmh": 39.874542029389765,
+    "max_experimental_kmh": 70.23787347457854
+  },
+  {
+    "track_id": 5450,
+    "start_s": 736.4,
+    "end_s": 743.2,
+    "samples": 13,
+    "median_experimental_kmh": 23.827236015475318,
+    "min_experimental_kmh": 12.571871022644846,
+    "max_experimental_kmh": 27.196944199368062
+  },
+  {
+    "track_id": 5455,
+    "start_s": 699.2,
+    "end_s": 794.8000000000001,
+    "samples": 39,
+    "median_experimental_kmh": 3.945394511035308,
+    "min_experimental_kmh": 0.3697552486279233,
+    "max_experimental_kmh": 22.52551317538322
+  },
+  {
+    "track_id": 5619,
+    "start_s": 721.2,
+    "end_s": 726.0,
+    "samples": 13,
+    "median_experimental_kmh": 17.112469844812328,
+    "min_experimental_kmh": 10.303992498342563,
+    "max_experimental_kmh": 27.78114947220479
+  },
+  {
+    "track_id": 5644,
+    "start_s": 724.8000000000001,
+    "end_s": 726.8000000000001,
+    "samples": 6,
+    "median_experimental_kmh": 63.069822848776354,
+    "min_experimental_kmh": 55.618850533197374,
+    "max_experimental_kmh": 71.10911911475299
+  },
+  {
+    "track_id": 5684,
+    "start_s": 733.2,
+    "end_s": 734.0,
+    "samples": 2,
+    "median_experimental_kmh": 48.025913078814,
+    "min_experimental_kmh": 47.636914545407706,
+    "max_experimental_kmh": 48.41491161222029
+  },
+  {
+    "track_id": 5743,
+    "start_s": 748.8000000000001,
+    "end_s": 752.8000000000001,
+    "samples": 11,
+    "median_experimental_kmh": 52.943134006140724,
+    "min_experimental_kmh": 34.650156900418324,
+    "max_experimental_kmh": 70.83392696720297
+  },
+  {
+    "track_id": 5754,
+    "start_s": 753.6,
+    "end_s": 757.6,
+    "samples": 9,
+    "median_experimental_kmh": 48.645656661791776,
+    "min_experimental_kmh": 39.33570422676711,
+    "max_experimental_kmh": 52.30927230524593
+  },
+  {
+    "track_id": 5786,
+    "start_s": 772.8000000000001,
+    "end_s": 786.4,
+    "samples": 28,
+    "median_experimental_kmh": 31.181987616221917,
+    "min_experimental_kmh": 14.694107109015917,
+    "max_experimental_kmh": 69.89709923558395
+  },
+  {
+    "track_id": 6464,
+    "start_s": 832.8000000000001,
+    "end_s": 836.8000000000001,
+    "samples": 10,
+    "median_experimental_kmh": 37.60451492803194,
+    "min_experimental_kmh": 27.703507855307265,
+    "max_experimental_kmh": 52.29221909151633
+  },
+  {
+    "track_id": 6523,
+    "start_s": 837.2,
+    "end_s": 841.2,
+    "samples": 11,
+    "median_experimental_kmh": 46.900687701263735,
+    "min_experimental_kmh": 26.057382990131675,
+    "max_experimental_kmh": 68.07229199368015
+  },
+  {
+    "track_id": 6604,
+    "start_s": 849.6,
+    "end_s": 854.0,
+    "samples": 12,
+    "median_experimental_kmh": 47.174486448542,
+    "min_experimental_kmh": 27.070821540183765,
+    "max_experimental_kmh": 68.52966369850839
+  },
+  {
+    "track_id": 6707,
+    "start_s": 859.2,
+    "end_s": 864.0,
+    "samples": 13,
+    "median_experimental_kmh": 47.1966689821911,
+    "min_experimental_kmh": 27.773630380011284,
+    "max_experimental_kmh": 64.39545597700278
+  },
+  {
+    "track_id": 6722,
+    "start_s": 860.8000000000001,
+    "end_s": 865.2,
+    "samples": 12,
+    "median_experimental_kmh": 34.483405579147686,
+    "min_experimental_kmh": 31.911518018356578,
+    "max_experimental_kmh": 36.25957015080646
+  },
+  {
+    "track_id": 6753,
+    "start_s": 864.4,
+    "end_s": 873.2,
+    "samples": 22,
+    "median_experimental_kmh": 23.71842766429308,
+    "min_experimental_kmh": 18.215478662301347,
+    "max_experimental_kmh": 24.915489825759277
+  },
+  {
+    "track_id": 6771,
+    "start_s": 864.0,
+    "end_s": 868.4,
+    "samples": 12,
+    "median_experimental_kmh": 47.37673362679283,
+    "min_experimental_kmh": 33.03718338745481,
+    "max_experimental_kmh": 69.01904020014626
+  },
+  {
+    "track_id": 6873,
+    "start_s": 875.6,
+    "end_s": 879.6,
+    "samples": 11,
+    "median_experimental_kmh": 37.96886405638294,
+    "min_experimental_kmh": 28.363507575952976,
+    "max_experimental_kmh": 47.910162172443385
+  },
+  {
+    "track_id": 6948,
+    "start_s": 892.4,
+    "end_s": 899.6,
+    "samples": 16,
+    "median_experimental_kmh": 26.395081091024345,
+    "min_experimental_kmh": 19.104698685216597,
+    "max_experimental_kmh": 28.792601260772752
+  },
+  {
+    "track_id": 1000002,
+    "start_s": 900.8000000000001,
+    "end_s": 905.2,
+    "samples": 11,
+    "median_experimental_kmh": 38.97553102784757,
+    "min_experimental_kmh": 22.10659280837748,
+    "max_experimental_kmh": 64.56651826357941
+  },
+  {
+    "track_id": 1000211,
+    "start_s": 943.2,
+    "end_s": 947.6,
+    "samples": 10,
+    "median_experimental_kmh": 43.370992107269885,
+    "min_experimental_kmh": 25.494173356666376,
+    "max_experimental_kmh": 65.84126349570502
+  },
+  {
+    "track_id": 1000339,
+    "start_s": 961.2,
+    "end_s": 964.0,
+    "samples": 8,
+    "median_experimental_kmh": 64.48176666841155,
+    "min_experimental_kmh": 42.466123116309596,
+    "max_experimental_kmh": 94.00377940829848
+  },
+  {
+    "track_id": 1000370,
+    "start_s": 964.4,
+    "end_s": 966.4,
+    "samples": 6,
+    "median_experimental_kmh": 53.554420558601635,
+    "min_experimental_kmh": 47.764280618143054,
+    "max_experimental_kmh": 60.28853379521417
+  },
+  {
+    "track_id": 1000462,
+    "start_s": 979.6,
+    "end_s": 984.0,
+    "samples": 12,
+    "median_experimental_kmh": 43.426269380487525,
+    "min_experimental_kmh": 27.599282496693426,
+    "max_experimental_kmh": 62.24278773738122
+  },
+  {
+    "track_id": 1000494,
+    "start_s": 984.0,
+    "end_s": 985.6,
+    "samples": 5,
+    "median_experimental_kmh": 47.95370439920966,
+    "min_experimental_kmh": 45.192952051591206,
+    "max_experimental_kmh": 50.63598437126397
+  },
+  {
+    "track_id": 1000729,
+    "start_s": 1020.4,
+    "end_s": 1024.4,
+    "samples": 10,
+    "median_experimental_kmh": 38.03213285049593,
+    "min_experimental_kmh": 36.03811986670281,
+    "max_experimental_kmh": 41.50709320432791
+  },
+  {
+    "track_id": 1000734,
+    "start_s": 1023.6,
+    "end_s": 1040.4,
+    "samples": 35,
+    "median_experimental_kmh": 27.12776006064179,
+    "min_experimental_kmh": 8.29887822299775,
+    "max_experimental_kmh": 55.69734449518036
+  },
+  {
+    "track_id": 1000767,
+    "start_s": 1021.2,
+    "end_s": 1026.0,
+    "samples": 13,
+    "median_experimental_kmh": 48.001783118862015,
+    "min_experimental_kmh": 26.303662064812805,
+    "max_experimental_kmh": 69.43228957495177
+  },
+  {
+    "track_id": 1000797,
+    "start_s": 1037.2,
+    "end_s": 1042.0,
+    "samples": 11,
+    "median_experimental_kmh": 30.911303603242086,
+    "min_experimental_kmh": 26.08794406695599,
+    "max_experimental_kmh": 35.94380550535559
+  },
+  {
+    "track_id": 1000816,
+    "start_s": 1027.2,
+    "end_s": 1031.2,
+    "samples": 11,
+    "median_experimental_kmh": 52.074459643971196,
+    "min_experimental_kmh": 32.66214574807932,
+    "max_experimental_kmh": 56.45696376902399
+  },
+  {
+    "track_id": 1000823,
+    "start_s": 1030.4,
+    "end_s": 1040.0,
+    "samples": 18,
+    "median_experimental_kmh": 5.933614146398939,
+    "min_experimental_kmh": 3.610634856557299,
+    "max_experimental_kmh": 56.4309678542566
+  },
+  {
+    "track_id": 1000845,
+    "start_s": 1031.2,
+    "end_s": 1035.2,
+    "samples": 11,
+    "median_experimental_kmh": 38.43897533568982,
+    "min_experimental_kmh": 28.03638825693815,
+    "max_experimental_kmh": 57.470276425140845
+  },
+  {
+    "track_id": 1001068,
+    "start_s": 1054.4,
+    "end_s": 1062.0,
+    "samples": 20,
+    "median_experimental_kmh": 23.971547259192953,
+    "min_experimental_kmh": 20.65906252618646,
+    "max_experimental_kmh": 27.81977077902641
+  },
+  {
+    "track_id": 1001135,
+    "start_s": 1060.0,
+    "end_s": 1069.6,
+    "samples": 17,
+    "median_experimental_kmh": 34.52959858503661,
+    "min_experimental_kmh": 9.459295591269692,
+    "max_experimental_kmh": 70.41073696497608
+  },
+  {
+    "track_id": 1001227,
+    "start_s": 1074.4,
+    "end_s": 1079.2,
+    "samples": 13,
+    "median_experimental_kmh": 37.758451204769806,
+    "min_experimental_kmh": 24.16206417486753,
+    "max_experimental_kmh": 51.29645569742431
+  },
+  {
+    "track_id": 1001265,
+    "start_s": 1093.2,
+    "end_s": 1096.0,
+    "samples": 8,
+    "median_experimental_kmh": 48.249541428463694,
+    "min_experimental_kmh": 42.02500774433173,
+    "max_experimental_kmh": 50.79012663668812
+  },
+  {
+    "track_id": 1001279,
+    "start_s": 1092.8,
+    "end_s": 1096.8,
+    "samples": 10,
+    "median_experimental_kmh": 61.13336673242402,
+    "min_experimental_kmh": 31.440467390709827,
+    "max_experimental_kmh": 78.25186974586762
+  },
+  {
+    "track_id": 1001305,
+    "start_s": 1096.0,
+    "end_s": 1099.6000000000001,
+    "samples": 10,
+    "median_experimental_kmh": 52.88735894320524,
+    "min_experimental_kmh": 33.409216321850515,
+    "max_experimental_kmh": 73.37820976332291
+  },
+  {
+    "track_id": 1001364,
+    "start_s": 1105.2,
+    "end_s": 1108.8,
+    "samples": 10,
+    "median_experimental_kmh": 52.622360206505256,
+    "min_experimental_kmh": 34.99389691476816,
+    "max_experimental_kmh": 73.1743519396936
+  },
+  {
+    "track_id": 1001395,
+    "start_s": 1108.4,
+    "end_s": 1110.8,
+    "samples": 7,
+    "median_experimental_kmh": 55.56334697098368,
+    "min_experimental_kmh": 49.90850941135533,
+    "max_experimental_kmh": 60.50922391760521
+  },
+  {
+    "track_id": 1001569,
+    "start_s": 1130.4,
+    "end_s": 1133.2,
+    "samples": 6,
+    "median_experimental_kmh": 39.11589012374607,
+    "min_experimental_kmh": 32.881876288824124,
+    "max_experimental_kmh": 58.973888984231394
+  },
+  {
+    "track_id": 1001667,
+    "start_s": 1144.8,
+    "end_s": 1146.8,
+    "samples": 3,
+    "median_experimental_kmh": 32.090172902310655,
+    "min_experimental_kmh": 22.7493772409007,
+    "max_experimental_kmh": 34.64825623252721
+  },
+  {
+    "track_id": 1001793,
+    "start_s": 1168.0,
+    "end_s": 1171.2,
+    "samples": 7,
+    "median_experimental_kmh": 12.353152105449773,
+    "min_experimental_kmh": 9.07121747582567,
+    "max_experimental_kmh": 13.17793953078622
+  },
+  {
+    "track_id": 1001867,
+    "start_s": 1162.8,
+    "end_s": 1166.4,
+    "samples": 10,
+    "median_experimental_kmh": 39.32006183469397,
+    "min_experimental_kmh": 24.57494561540916,
+    "max_experimental_kmh": 62.38086615078255
+  },
+  {
+    "track_id": 1002106,
+    "start_s": 1184.8,
+    "end_s": 1186.0,
+    "samples": 4,
+    "median_experimental_kmh": 46.99027027260037,
+    "min_experimental_kmh": 46.283175787786185,
+    "max_experimental_kmh": 47.11861783395654
+  },
+  {
+    "track_id": 1002380,
+    "start_s": 1215.6000000000001,
+    "end_s": 1218.0,
+    "samples": 7,
+    "median_experimental_kmh": 44.99773784558128,
+    "min_experimental_kmh": 43.237920104405696,
+    "max_experimental_kmh": 49.35421423816327
+  },
+  {
+    "track_id": 1002463,
+    "start_s": 1226.0,
+    "end_s": 1229.6000000000001,
+    "samples": 10,
+    "median_experimental_kmh": 52.8274055478154,
+    "min_experimental_kmh": 35.578516413049655,
+    "max_experimental_kmh": 64.77742690677253
+  },
+  {
+    "track_id": 1002500,
+    "start_s": 1230.0,
+    "end_s": 1234.0,
+    "samples": 11,
+    "median_experimental_kmh": 50.45784073886514,
+    "min_experimental_kmh": 29.17437177262661,
+    "max_experimental_kmh": 69.71639807631583
+  },
+  {
+    "track_id": 1002589,
+    "start_s": 1238.8,
+    "end_s": 1240.4,
+    "samples": 5,
+    "median_experimental_kmh": 64.34396775832073,
+    "min_experimental_kmh": 61.61368771999077,
+    "max_experimental_kmh": 67.32867644107169
+  },
+  {
+    "track_id": 1002734,
+    "start_s": 1255.2,
+    "end_s": 1259.2,
+    "samples": 11,
+    "median_experimental_kmh": 52.861049188493006,
+    "min_experimental_kmh": 28.57758025346546,
+    "max_experimental_kmh": 73.6576362033611
+  },
+  {
+    "track_id": 1002819,
+    "start_s": 1267.6000000000001,
+    "end_s": 1271.2,
+    "samples": 10,
+    "median_experimental_kmh": 57.51463043038491,
+    "min_experimental_kmh": 31.425416501058876,
+    "max_experimental_kmh": 85.223136245838
+  },
+  {
+    "track_id": 1002832,
+    "start_s": 1270.8,
+    "end_s": 1274.0,
+    "samples": 9,
+    "median_experimental_kmh": 52.990686879615296,
+    "min_experimental_kmh": 36.90968766850889,
+    "max_experimental_kmh": 74.447181528173
+  },
+  {
+    "track_id": 1002907,
+    "start_s": 1282.4,
+    "end_s": 1289.2,
+    "samples": 18,
+    "median_experimental_kmh": 23.101793183409985,
+    "min_experimental_kmh": 15.531094458518995,
+    "max_experimental_kmh": 28.096319536384698
+  },
+  {
+    "track_id": 1003095,
+    "start_s": 1300.0,
+    "end_s": 1302.4,
+    "samples": 7,
+    "median_experimental_kmh": 50.673658277888435,
+    "min_experimental_kmh": 40.97436301873948,
+    "max_experimental_kmh": 57.2375501885972
+  },
+  {
+    "track_id": 1003308,
+    "start_s": 1324.0,
+    "end_s": 1342.8,
+    "samples": 35,
+    "median_experimental_kmh": 23.11152342144748,
+    "min_experimental_kmh": 5.508045245658392,
+    "max_experimental_kmh": 55.734285696256045
+  },
+  {
+    "track_id": 1003363,
+    "start_s": 1320.0,
+    "end_s": 1323.6000000000001,
+    "samples": 10,
+    "median_experimental_kmh": 62.38511140984145,
+    "min_experimental_kmh": 40.16709705163903,
+    "max_experimental_kmh": 78.96031386172648
+  },
+  {
+    "track_id": 1003494,
+    "start_s": 1350.0,
+    "end_s": 1351.6000000000001,
+    "samples": 5,
+    "median_experimental_kmh": 46.89082710597284,
+    "min_experimental_kmh": 41.914825243035956,
+    "max_experimental_kmh": 51.94687430983744
+  },
+  {
+    "track_id": 1003543,
+    "start_s": 1362.4,
+    "end_s": 1364.4,
+    "samples": 5,
+    "median_experimental_kmh": 24.581149732785708,
+    "min_experimental_kmh": 20.76768546187949,
+    "max_experimental_kmh": 25.71621682774186
+  },
+  {
+    "track_id": 1003550,
+    "start_s": 1355.2,
+    "end_s": 1359.2,
+    "samples": 11,
+    "median_experimental_kmh": 49.03045800206699,
+    "min_experimental_kmh": 30.678148005378276,
+    "max_experimental_kmh": 67.2513558775551
+  },
+  {
+    "track_id": 1003620,
+    "start_s": 1366.8,
+    "end_s": 1371.2,
+    "samples": 10,
+    "median_experimental_kmh": 36.144696212135685,
+    "min_experimental_kmh": 34.62827785100065,
+    "max_experimental_kmh": 39.72706216477004
+  },
+  {
+    "track_id": 1003630,
+    "start_s": 1362.4,
+    "end_s": 1364.0,
+    "samples": 5,
+    "median_experimental_kmh": 44.184902162883475,
+    "min_experimental_kmh": 39.715567471124636,
+    "max_experimental_kmh": 48.564268921992046
+  },
+  {
+    "track_id": 1003678,
+    "start_s": 1370.0,
+    "end_s": 1374.8,
+    "samples": 11,
+    "median_experimental_kmh": 33.13862416446273,
+    "min_experimental_kmh": 28.26132705127606,
+    "max_experimental_kmh": 37.3663907924048
+  },
+  {
+    "track_id": 1003682,
+    "start_s": 1366.8,
+    "end_s": 1374.0,
+    "samples": 14,
+    "median_experimental_kmh": 23.46704378547232,
+    "min_experimental_kmh": 18.862544380956113,
+    "max_experimental_kmh": 49.237800876351294
+  },
+  {
+    "track_id": 1003692,
+    "start_s": 1368.4,
+    "end_s": 1371.2,
+    "samples": 8,
+    "median_experimental_kmh": 34.200470635920425,
+    "min_experimental_kmh": 23.351021605562,
+    "max_experimental_kmh": 46.42655873384798
+  },
+  {
+    "track_id": 1003715,
+    "start_s": 1373.2,
+    "end_s": 1377.2,
+    "samples": 10,
+    "median_experimental_kmh": 30.870256750992134,
+    "min_experimental_kmh": 27.285358137064716,
+    "max_experimental_kmh": 34.41569315383528
+  },
+  {
+    "track_id": 1003747,
+    "start_s": 1383.2,
+    "end_s": 1388.8,
+    "samples": 14,
+    "median_experimental_kmh": 31.48299435749476,
+    "min_experimental_kmh": 29.855812535432904,
+    "max_experimental_kmh": 37.22650128650366
+  },
+  {
+    "track_id": 1003935,
+    "start_s": 1394.4,
+    "end_s": 1397.6000000000001,
+    "samples": 9,
+    "median_experimental_kmh": 46.83967226528298,
+    "min_experimental_kmh": 41.32805862558881,
+    "max_experimental_kmh": 49.74462274308926
+  },
+  {
+    "track_id": 1003936,
+    "start_s": 1395.2,
+    "end_s": 1399.2,
+    "samples": 10,
+    "median_experimental_kmh": 52.55398517259126,
+    "min_experimental_kmh": 38.37394086587755,
+    "max_experimental_kmh": 73.99256813784906
+  },
+  {
+    "track_id": 1004228,
+    "start_s": 1434.0,
+    "end_s": 1436.4,
+    "samples": 7,
+    "median_experimental_kmh": 53.919586451283756,
+    "min_experimental_kmh": 41.33057926744069,
+    "max_experimental_kmh": 69.40600013902463
+  },
+  {
+    "track_id": 1004416,
+    "start_s": 1464.4,
+    "end_s": 1468.0,
+    "samples": 10,
+    "median_experimental_kmh": 55.00851922047356,
+    "min_experimental_kmh": 37.57589777384108,
+    "max_experimental_kmh": 78.58244718393186
+  },
+  {
+    "track_id": 1004661,
+    "start_s": 1498.4,
+    "end_s": 1500.8,
+    "samples": 7,
+    "median_experimental_kmh": 36.90195378700371,
+    "min_experimental_kmh": 33.602575388023965,
+    "max_experimental_kmh": 41.439343830325676
+  },
+  {
+    "track_id": 1004670,
+    "start_s": 1501.6000000000001,
+    "end_s": 1507.6000000000001,
+    "samples": 16,
+    "median_experimental_kmh": 29.033802714778318,
+    "min_experimental_kmh": 20.90629293993879,
+    "max_experimental_kmh": 32.09190435756402
+  },
+  {
+    "track_id": 1004734,
+    "start_s": 1507.2,
+    "end_s": 1509.6000000000001,
+    "samples": 5,
+    "median_experimental_kmh": 20.110446073102448,
+    "min_experimental_kmh": 17.17594965473181,
+    "max_experimental_kmh": 28.452046072353646
+  },
+  {
+    "track_id": 1004947,
+    "start_s": 1544.4,
+    "end_s": 1546.8,
+    "samples": 7,
+    "median_experimental_kmh": 46.01916022805037,
+    "min_experimental_kmh": 38.4845091910408,
+    "max_experimental_kmh": 48.13298698144112
+  },
+  {
+    "track_id": 1004957,
+    "start_s": 1543.2,
+    "end_s": 1547.6000000000001,
+    "samples": 12,
+    "median_experimental_kmh": 51.87395708104452,
+    "min_experimental_kmh": 25.53536700804393,
+    "max_experimental_kmh": 70.28535856817422
+  },
+  {
+    "track_id": 1005032,
+    "start_s": 1569.6000000000001,
+    "end_s": 1571.6000000000001,
+    "samples": 5,
+    "median_experimental_kmh": 22.376761742370945,
+    "min_experimental_kmh": 21.54458461505613,
+    "max_experimental_kmh": 23.74326708340422
+  },
+  {
+    "track_id": 1005089,
+    "start_s": 1569.2,
+    "end_s": 1571.2,
+    "samples": 6,
+    "median_experimental_kmh": 39.579693321886694,
+    "min_experimental_kmh": 37.6613987338076,
+    "max_experimental_kmh": 40.50245666677497
+  },
+  {
+    "track_id": 1005193,
+    "start_s": 1586.4,
+    "end_s": 1590.8,
+    "samples": 12,
+    "median_experimental_kmh": 48.37748671379309,
+    "min_experimental_kmh": 26.162087133759357,
+    "max_experimental_kmh": 71.2207246446548
+  },
+  {
+    "track_id": 1005213,
+    "start_s": 1590.0,
+    "end_s": 1593.6000000000001,
+    "samples": 10,
+    "median_experimental_kmh": 51.04139064578129,
+    "min_experimental_kmh": 34.26062797248532,
+    "max_experimental_kmh": 66.8747133152994
+  },
+  {
+    "track_id": 1005327,
+    "start_s": 1626.8,
+    "end_s": 1628.8,
+    "samples": 6,
+    "median_experimental_kmh": 30.900799151139168,
+    "min_experimental_kmh": 26.482522277834352,
+    "max_experimental_kmh": 35.00706318297605
+  },
+  {
+    "track_id": 1005353,
+    "start_s": 1625.6000000000001,
+    "end_s": 1629.2,
+    "samples": 10,
+    "median_experimental_kmh": 48.783490053069656,
+    "min_experimental_kmh": 31.433144589117397,
+    "max_experimental_kmh": 76.58463807210005
+  },
+  {
+    "track_id": 1005382,
+    "start_s": 1632.8,
+    "end_s": 1634.8,
+    "samples": 6,
+    "median_experimental_kmh": 38.15088321157556,
+    "min_experimental_kmh": 32.631261135697244,
+    "max_experimental_kmh": 44.915996411864896
+  },
+  {
+    "track_id": 1005426,
+    "start_s": 1646.0,
+    "end_s": 1648.0,
+    "samples": 6,
+    "median_experimental_kmh": 45.743941072666395,
+    "min_experimental_kmh": 36.61099339924,
+    "max_experimental_kmh": 54.544440907418966
+  },
+  {
+    "track_id": 1005563,
+    "start_s": 1679.6000000000001,
+    "end_s": 1680.8,
+    "samples": 4,
+    "median_experimental_kmh": 15.889744886724571,
+    "min_experimental_kmh": 14.436408085561013,
+    "max_experimental_kmh": 17.15663384726925
+  },
+  {
+    "track_id": 1005598,
+    "start_s": 1686.0,
+    "end_s": 1687.6000000000001,
+    "samples": 5,
+    "median_experimental_kmh": 40.5124196981212,
+    "min_experimental_kmh": 40.118432186205105,
+    "max_experimental_kmh": 41.27135963918587
+  },
+  {
+    "track_id": 1005599,
+    "start_s": 1692.4,
+    "end_s": 1697.6000000000001,
+    "samples": 13,
+    "median_experimental_kmh": 29.253712135573178,
+    "min_experimental_kmh": 14.091195999663618,
+    "max_experimental_kmh": 31.881030400175515
+  },
+  {
+    "track_id": 1005688,
+    "start_s": 1714.4,
+    "end_s": 1716.4,
+    "samples": 6,
+    "median_experimental_kmh": 55.3996415908652,
+    "min_experimental_kmh": 47.84674234655383,
+    "max_experimental_kmh": 63.19661246429218
+  },
+  {
+    "track_id": 1005714,
+    "start_s": 1719.6000000000001,
+    "end_s": 1722.4,
+    "samples": 8,
+    "median_experimental_kmh": 59.26089605376732,
+    "min_experimental_kmh": 40.40396588596646,
+    "max_experimental_kmh": 75.83968803191154
+  },
+  {
+    "track_id": 1005751,
+    "start_s": 1729.6000000000001,
+    "end_s": 1733.2,
+    "samples": 10,
+    "median_experimental_kmh": 36.335168181393016,
+    "min_experimental_kmh": 24.702102508979518,
+    "max_experimental_kmh": 55.221593967242924
+  },
+  {
+    "track_id": 1005841,
+    "start_s": 1746.8,
+    "end_s": 1759.6000000000001,
+    "samples": 20,
+    "median_experimental_kmh": 29.507271858826826,
+    "min_experimental_kmh": 5.585173151575357,
+    "max_experimental_kmh": 54.629053004684984
+  },
+  {
+    "track_id": 1005893,
+    "start_s": 1753.2,
+    "end_s": 1756.4,
+    "samples": 8,
+    "median_experimental_kmh": 28.848466015249585,
+    "min_experimental_kmh": 23.399804160156354,
+    "max_experimental_kmh": 29.62655029967559
+  },
+  {
+    "track_id": 1005905,
+    "start_s": 1751.2,
+    "end_s": 1756.4,
+    "samples": 14,
+    "median_experimental_kmh": 43.80246558547186,
+    "min_experimental_kmh": 25.19938894732893,
+    "max_experimental_kmh": 71.52238549847273
+  },
+  {
+    "track_id": 1005957,
+    "start_s": 1761.6000000000001,
+    "end_s": 1764.0,
+    "samples": 7,
+    "median_experimental_kmh": 70.25749262396175,
+    "min_experimental_kmh": 58.714035097503405,
+    "max_experimental_kmh": 83.41745854923758
+  },
+  {
+    "track_id": 1006006,
+    "start_s": 1783.2,
+    "end_s": 1787.6000000000001,
+    "samples": 12,
+    "median_experimental_kmh": 49.86778420241157,
+    "min_experimental_kmh": 32.54326526891145,
+    "max_experimental_kmh": 66.76280193157376
+  },
+  {
+    "track_id": 1006144,
+    "start_s": 1803.6000000000001,
+    "end_s": 1807.6000000000001,
+    "samples": 11,
+    "median_experimental_kmh": 38.88487261097342,
+    "min_experimental_kmh": 28.169490171812384,
+    "max_experimental_kmh": 56.146869633841305
+  },
+  {
+    "track_id": 1006180,
+    "start_s": 1815.6000000000001,
+    "end_s": 1819.2,
+    "samples": 10,
+    "median_experimental_kmh": 64.77395957733683,
+    "min_experimental_kmh": 37.70185859620975,
+    "max_experimental_kmh": 92.19644169622515
+  },
+  {
+    "track_id": 1006358,
+    "start_s": 1854.8,
+    "end_s": 1859.6000000000001,
+    "samples": 12,
+    "median_experimental_kmh": 38.961192203063135,
+    "min_experimental_kmh": 29.448314356648506,
+    "max_experimental_kmh": 41.47488353227987
+  },
+  {
+    "track_id": 1006382,
+    "start_s": 1856.8,
+    "end_s": 1862.4,
+    "samples": 15,
+    "median_experimental_kmh": 41.516972334311596,
+    "min_experimental_kmh": 20.984423415662548,
+    "max_experimental_kmh": 54.74661216345263
+  },
+  {
+    "track_id": 1006388,
+    "start_s": 1856.4,
+    "end_s": 1859.6000000000001,
+    "samples": 9,
+    "median_experimental_kmh": 52.852256289247016,
+    "min_experimental_kmh": 32.63405218533585,
+    "max_experimental_kmh": 78.4177090462281
+  },
+  {
+    "track_id": 1006437,
+    "start_s": 1866.4,
+    "end_s": 1871.2,
+    "samples": 13,
+    "median_experimental_kmh": 44.22486583557105,
+    "min_experimental_kmh": 27.142689004299516,
+    "max_experimental_kmh": 56.86546539848058
+  },
+  {
+    "track_id": 1006438,
+    "start_s": 1870.0,
+    "end_s": 1875.2,
+    "samples": 12,
+    "median_experimental_kmh": 37.9354696206337,
+    "min_experimental_kmh": 25.318378971588572,
+    "max_experimental_kmh": 39.64829169146519
+  },
+  {
+    "track_id": 1006501,
+    "start_s": 1879.2,
+    "end_s": 1883.2,
+    "samples": 11,
+    "median_experimental_kmh": 58.82481658194481,
+    "min_experimental_kmh": 42.44412330407273,
+    "max_experimental_kmh": 70.70980659713634
+  },
+  {
+    "track_id": 1006651,
+    "start_s": 1923.6000000000001,
+    "end_s": 1942.4,
+    "samples": 44,
+    "median_experimental_kmh": 6.58715658424882,
+    "min_experimental_kmh": 3.0355860593021213,
+    "max_experimental_kmh": 8.16940700249001
+  },
+  {
+    "track_id": 1006846,
+    "start_s": 1948.4,
+    "end_s": 1949.6000000000001,
+    "samples": 4,
+    "median_experimental_kmh": 56.72265997182278,
+    "min_experimental_kmh": 56.60917671026128,
+    "max_experimental_kmh": 56.834826298986364
+  },
+  {
+    "track_id": 1006887,
+    "start_s": 1955.6000000000001,
+    "end_s": 1960.8,
+    "samples": 13,
+    "median_experimental_kmh": 36.06968946007914,
+    "min_experimental_kmh": 25.42724752552037,
+    "max_experimental_kmh": 38.2722662240837
+  },
+  {
+    "track_id": 1006932,
+    "start_s": 1964.4,
+    "end_s": 1969.2,
+    "samples": 13,
+    "median_experimental_kmh": 35.61415240242342,
+    "min_experimental_kmh": 20.258799507382808,
+    "max_experimental_kmh": 44.877308303789
+  },
+  {
+    "track_id": 1006965,
+    "start_s": 1968.8,
+    "end_s": 1973.6000000000001,
+    "samples": 13,
+    "median_experimental_kmh": 35.11355281109211,
+    "min_experimental_kmh": 28.4922514275412,
+    "max_experimental_kmh": 36.24684010632504
+  },
+  {
+    "track_id": 1007067,
+    "start_s": 1975.6000000000001,
+    "end_s": 1980.8,
+    "samples": 12,
+    "median_experimental_kmh": 27.135288448924996,
+    "min_experimental_kmh": 19.54873007881627,
+    "max_experimental_kmh": 31.0122527408424
+  },
+  {
+    "track_id": 1007131,
+    "start_s": 1990.4,
+    "end_s": 1994.0,
+    "samples": 10,
+    "median_experimental_kmh": 61.38714236834319,
+    "min_experimental_kmh": 36.37221847085504,
+    "max_experimental_kmh": 89.42370842217416
+  },
+  {
+    "track_id": 1007198,
+    "start_s": 2004.4,
+    "end_s": 2006.4,
+    "samples": 6,
+    "median_experimental_kmh": 45.1721031775259,
+    "min_experimental_kmh": 41.52984125534908,
+    "max_experimental_kmh": 47.32263726716213
+  },
+  {
+    "track_id": 1007301,
+    "start_s": 2013.6000000000001,
+    "end_s": 2017.6000000000001,
+    "samples": 11,
+    "median_experimental_kmh": 50.08474217638769,
+    "min_experimental_kmh": 34.926107951503575,
+    "max_experimental_kmh": 64.27467932376213
+  },
+  {
+    "track_id": 1007321,
+    "start_s": 2028.8,
+    "end_s": 2040.0,
+    "samples": 22,
+    "median_experimental_kmh": 16.27455622387902,
+    "min_experimental_kmh": 7.9218423921058205,
+    "max_experimental_kmh": 22.679775405960747
+  },
+  {
+    "track_id": 1007385,
+    "start_s": 2034.8,
+    "end_s": 2036.0,
+    "samples": 4,
+    "median_experimental_kmh": 50.40829701673552,
+    "min_experimental_kmh": 49.868300609763956,
+    "max_experimental_kmh": 51.18615799065575
+  },
+  {
+    "track_id": 1007388,
+    "start_s": 2036.0,
+    "end_s": 2038.8,
+    "samples": 8,
+    "median_experimental_kmh": 62.91000604021991,
+    "min_experimental_kmh": 39.096361872983174,
+    "max_experimental_kmh": 78.36991351453474
+  },
+  {
+    "track_id": 1007393,
+    "start_s": 2038.0,
+    "end_s": 2041.6000000000001,
+    "samples": 10,
+    "median_experimental_kmh": 43.72021477954799,
+    "min_experimental_kmh": 39.2034433031129,
+    "max_experimental_kmh": 45.89471942091413
+  },
+  {
+    "track_id": 1007412,
+    "start_s": 2045.2,
+    "end_s": 2047.2,
+    "samples": 6,
+    "median_experimental_kmh": 41.71883826803876,
+    "min_experimental_kmh": 35.528867330228344,
+    "max_experimental_kmh": 45.82089167659614
+  },
+  {
+    "track_id": 1007420,
+    "start_s": 2046.0,
+    "end_s": 2048.4,
+    "samples": 7,
+    "median_experimental_kmh": 64.36514129839749,
+    "min_experimental_kmh": 49.02403440510919,
+    "max_experimental_kmh": 79.57243800291481
+  },
+  {
+    "track_id": 1007447,
+    "start_s": 2048.4,
+    "end_s": 2050.8,
+    "samples": 7,
+    "median_experimental_kmh": 69.69221568278464,
+    "min_experimental_kmh": 48.68642526369456,
+    "max_experimental_kmh": 80.66222144439821
+  },
+  {
+    "track_id": 1007467,
+    "start_s": 2054.4,
+    "end_s": 2057.2,
+    "samples": 8,
+    "median_experimental_kmh": 64.73773663411642,
+    "min_experimental_kmh": 46.975409216127574,
+    "max_experimental_kmh": 76.28376545383733
+  },
+  {
+    "track_id": 1007601,
+    "start_s": 2081.2,
+    "end_s": 2085.6,
+    "samples": 12,
+    "median_experimental_kmh": 51.55982039334418,
+    "min_experimental_kmh": 35.31497319364259,
+    "max_experimental_kmh": 76.10068137482486
+  },
+  {
+    "track_id": 1007635,
+    "start_s": 2088.0,
+    "end_s": 2090.8,
+    "samples": 8,
+    "median_experimental_kmh": 56.58670076146701,
+    "min_experimental_kmh": 35.900266102050196,
+    "max_experimental_kmh": 79.56749753465236
+  },
+  {
+    "track_id": 1007650,
+    "start_s": 2090.0,
+    "end_s": 2092.4,
+    "samples": 7,
+    "median_experimental_kmh": 55.42410340778797,
+    "min_experimental_kmh": 34.48498373176659,
+    "max_experimental_kmh": 79.84527104250508
+  },
+  {
+    "track_id": 1007656,
+    "start_s": 2093.2,
+    "end_s": 2096.4,
+    "samples": 9,
+    "median_experimental_kmh": 26.778395404935065,
+    "min_experimental_kmh": 25.708926600036317,
+    "max_experimental_kmh": 31.727923005402605
+  },
+  {
+    "track_id": 1007669,
+    "start_s": 2102.4,
+    "end_s": 2110.8,
+    "samples": 14,
+    "median_experimental_kmh": 19.525758292355818,
+    "min_experimental_kmh": 16.822342591210884,
+    "max_experimental_kmh": 23.779854895917182
+  },
+  {
+    "track_id": 1007730,
+    "start_s": 2118.8,
+    "end_s": 2121.2,
+    "samples": 7,
+    "median_experimental_kmh": 37.41033534786966,
+    "min_experimental_kmh": 34.747670069483256,
+    "max_experimental_kmh": 38.38438364717386
+  },
+  {
+    "track_id": 1008008,
+    "start_s": 2150.0,
+    "end_s": 2153.6,
+    "samples": 10,
+    "median_experimental_kmh": 36.52761330383528,
+    "min_experimental_kmh": 34.24631010472873,
+    "max_experimental_kmh": 37.6425961128618
+  },
+  {
+    "track_id": 1008020,
+    "start_s": 2185.2000000000003,
+    "end_s": 2190.0,
+    "samples": 12,
+    "median_experimental_kmh": 38.133376785082646,
+    "min_experimental_kmh": 31.002013760717897,
+    "max_experimental_kmh": 43.87596368885888
+  },
+  {
+    "track_id": 1008057,
+    "start_s": 2159.6,
+    "end_s": 2165.2,
+    "samples": 15,
+    "median_experimental_kmh": 33.81101945001776,
+    "min_experimental_kmh": 27.69896735409163,
+    "max_experimental_kmh": 37.388421743199245
+  },
+  {
+    "track_id": 1008109,
+    "start_s": 2168.4,
+    "end_s": 2172.0,
+    "samples": 10,
+    "median_experimental_kmh": 38.20819816193536,
+    "min_experimental_kmh": 34.53369624992908,
+    "max_experimental_kmh": 38.723892492378326
+  },
+  {
+    "track_id": 1008143,
+    "start_s": 2172.8,
+    "end_s": 2176.0,
+    "samples": 9,
+    "median_experimental_kmh": 47.80996071226464,
+    "min_experimental_kmh": 41.569948806079225,
+    "max_experimental_kmh": 50.409587002503336
+  },
+  {
+    "track_id": 1008202,
+    "start_s": 2178.4,
+    "end_s": 2182.4,
+    "samples": 11,
+    "median_experimental_kmh": 53.56193288494386,
+    "min_experimental_kmh": 33.55773969824532,
+    "max_experimental_kmh": 75.15207451321069
+  },
+  {
+    "track_id": 1008258,
+    "start_s": 2188.8,
+    "end_s": 2191.2000000000003,
+    "samples": 6,
+    "median_experimental_kmh": 51.65771595229269,
+    "min_experimental_kmh": 49.762606218949664,
+    "max_experimental_kmh": 52.610374799481846
+  },
+  {
+    "track_id": 1008307,
+    "start_s": 2192.4,
+    "end_s": 2205.2000000000003,
+    "samples": 23,
+    "median_experimental_kmh": 32.35543524754428,
+    "min_experimental_kmh": 10.051449685285602,
+    "max_experimental_kmh": 74.35630885549541
+  },
+  {
+    "track_id": 1008309,
+    "start_s": 2193.2000000000003,
+    "end_s": 2197.6,
+    "samples": 11,
+    "median_experimental_kmh": 36.08440131287812,
+    "min_experimental_kmh": 31.674956838510155,
+    "max_experimental_kmh": 40.275841881212955
+  },
+  {
+    "track_id": 1008367,
+    "start_s": 2204.0,
+    "end_s": 2204.0,
+    "samples": 1,
+    "median_experimental_kmh": 33.071989412962076,
+    "min_experimental_kmh": 33.071989412962076,
+    "max_experimental_kmh": 33.071989412962076
+  },
+  {
+    "track_id": 1008397,
+    "start_s": 2212.8,
+    "end_s": 2215.2000000000003,
+    "samples": 4,
+    "median_experimental_kmh": 31.35954060037731,
+    "min_experimental_kmh": 29.103809533445244,
+    "max_experimental_kmh": 34.61060679123568
+  },
+  {
+    "track_id": 1008474,
+    "start_s": 2218.8,
+    "end_s": 2221.6,
+    "samples": 8,
+    "median_experimental_kmh": 43.00029035565151,
+    "min_experimental_kmh": 40.342387748567944,
+    "max_experimental_kmh": 43.67819679839045
+  },
+  {
+    "track_id": 1008484,
+    "start_s": 2223.2000000000003,
+    "end_s": 2226.8,
+    "samples": 10,
+    "median_experimental_kmh": 38.384704789215164,
+    "min_experimental_kmh": 36.64669496937955,
+    "max_experimental_kmh": 41.1032037339408
+  },
+  {
+    "track_id": 1008499,
+    "start_s": 2229.2000000000003,
+    "end_s": 2233.6,
+    "samples": 12,
+    "median_experimental_kmh": 46.5378281715525,
+    "min_experimental_kmh": 25.879211934884935,
+    "max_experimental_kmh": 74.28721948174837
+  },
+  {
+    "track_id": 1008555,
+    "start_s": 2236.4,
+    "end_s": 2240.4,
+    "samples": 11,
+    "median_experimental_kmh": 33.124686077091276,
+    "min_experimental_kmh": 27.335468984379634,
+    "max_experimental_kmh": 39.55739558562541
+  },
+  {
+    "track_id": 1008573,
+    "start_s": 2238.4,
+    "end_s": 2242.8,
+    "samples": 9,
+    "median_experimental_kmh": 37.70102120846989,
+    "min_experimental_kmh": 25.89481830667117,
+    "max_experimental_kmh": 59.32743331413574
+  },
+  {
+    "track_id": 1008575,
+    "start_s": 2244.4,
+    "end_s": 2249.6,
+    "samples": 13,
+    "median_experimental_kmh": 33.615759429114505,
+    "min_experimental_kmh": 20.340264495815475,
+    "max_experimental_kmh": 35.74724598051832
+  },
+  {
+    "track_id": 1008633,
+    "start_s": 2253.2000000000003,
+    "end_s": 2255.2000000000003,
+    "samples": 5,
+    "median_experimental_kmh": 57.425510109235034,
+    "min_experimental_kmh": 55.39481375184709,
+    "max_experimental_kmh": 59.9980455841313
+  },
+  {
+    "track_id": 1008663,
+    "start_s": 2253.2000000000003,
+    "end_s": 2256.4,
+    "samples": 9,
+    "median_experimental_kmh": 62.430229703269674,
+    "min_experimental_kmh": 42.64953519290468,
+    "max_experimental_kmh": 81.39096882672496
+  },
+  {
+    "track_id": 1008679,
+    "start_s": 2256.8,
+    "end_s": 2260.4,
+    "samples": 10,
+    "median_experimental_kmh": 40.6573559192882,
+    "min_experimental_kmh": 30.804705458641333,
+    "max_experimental_kmh": 41.672564572719246
+  },
+  {
+    "track_id": 1008892,
+    "start_s": 2290.8,
+    "end_s": 2294.4,
+    "samples": 10,
+    "median_experimental_kmh": 55.014379503208005,
+    "min_experimental_kmh": 33.30918570161231,
+    "max_experimental_kmh": 79.43611292539569
+  },
+  {
+    "track_id": 1008911,
+    "start_s": 2298.4,
+    "end_s": 2300.8,
+    "samples": 7,
+    "median_experimental_kmh": 62.548247725513455,
+    "min_experimental_kmh": 48.46113513042066,
+    "max_experimental_kmh": 77.89108088953138
+  },
+  {
+    "track_id": 1008949,
+    "start_s": 2307.6,
+    "end_s": 2310.8,
+    "samples": 9,
+    "median_experimental_kmh": 62.953217315969184,
+    "min_experimental_kmh": 40.88890083016437,
+    "max_experimental_kmh": 85.75853347170779
+  },
+  {
+    "track_id": 1008973,
+    "start_s": 2310.4,
+    "end_s": 2314.0,
+    "samples": 10,
+    "median_experimental_kmh": 44.543671510207076,
+    "min_experimental_kmh": 31.502917455883267,
+    "max_experimental_kmh": 54.1459333543805
+  },
+  {
+    "track_id": 1009028,
+    "start_s": 2333.2000000000003,
+    "end_s": 2340.4,
+    "samples": 19,
+    "median_experimental_kmh": 25.569841697871748,
+    "min_experimental_kmh": 19.67364954234958,
+    "max_experimental_kmh": 30.853157148327693
+  },
+  {
+    "track_id": 1009059,
+    "start_s": 2341.2000000000003,
+    "end_s": 2344.0,
+    "samples": 7,
+    "median_experimental_kmh": 30.18842002470552,
+    "min_experimental_kmh": 29.249532744692857,
+    "max_experimental_kmh": 36.43502918255857
+  },
+  {
+    "track_id": 1009223,
+    "start_s": 2371.6,
+    "end_s": 2381.2000000000003,
+    "samples": 15,
+    "median_experimental_kmh": 21.239971773449,
+    "min_experimental_kmh": 19.54740045915592,
+    "max_experimental_kmh": 22.865029902125
+  },
+  {
+    "track_id": 1009284,
+    "start_s": 2386.0,
+    "end_s": 2389.2000000000003,
+    "samples": 9,
+    "median_experimental_kmh": 48.37634500510136,
+    "min_experimental_kmh": 33.34368834972784,
+    "max_experimental_kmh": 63.086469262958076
+  },
+  {
+    "track_id": 1009291,
+    "start_s": 2388.4,
+    "end_s": 2391.6,
+    "samples": 9,
+    "median_experimental_kmh": 48.34856706840175,
+    "min_experimental_kmh": 33.11580593384588,
+    "max_experimental_kmh": 75.46193274720278
+  },
+  {
+    "track_id": 1009292,
+    "start_s": 2390.0,
+    "end_s": 2398.4,
+    "samples": 19,
+    "median_experimental_kmh": 30.91018940657673,
+    "min_experimental_kmh": 17.952522427239334,
+    "max_experimental_kmh": 36.21435805594515
+  },
+  {
+    "track_id": 1009319,
+    "start_s": 2394.8,
+    "end_s": 2396.8,
+    "samples": 6,
+    "median_experimental_kmh": 47.54399239758909,
+    "min_experimental_kmh": 43.22310390397974,
+    "max_experimental_kmh": 49.46966572326244
+  },
+  {
+    "track_id": 1009408,
+    "start_s": 2408.8,
+    "end_s": 2412.8,
+    "samples": 11,
+    "median_experimental_kmh": 54.97814203261566,
+    "min_experimental_kmh": 32.70776232848347,
+    "max_experimental_kmh": 68.65807954378671
+  },
+  {
+    "track_id": 1009482,
+    "start_s": 2424.4,
+    "end_s": 2427.2000000000003,
+    "samples": 8,
+    "median_experimental_kmh": 35.1420667765698,
+    "min_experimental_kmh": 31.88585306459953,
+    "max_experimental_kmh": 37.438930532648776
+  },
+  {
+    "track_id": 1009523,
+    "start_s": 2442.4,
+    "end_s": 2448.0,
+    "samples": 15,
+    "median_experimental_kmh": 34.48311525782101,
+    "min_experimental_kmh": 27.058916404111546,
+    "max_experimental_kmh": 36.22110901118085
+  },
+  {
+    "track_id": 1009702,
+    "start_s": 2458.4,
+    "end_s": 2462.0,
+    "samples": 10,
+    "median_experimental_kmh": 26.987540120623564,
+    "min_experimental_kmh": 24.22041547731546,
+    "max_experimental_kmh": 27.800887673185056
+  },
+  {
+    "track_id": 1009747,
+    "start_s": 2460.8,
+    "end_s": 2468.8,
+    "samples": 20,
+    "median_experimental_kmh": 23.536161878631287,
+    "min_experimental_kmh": 13.063453074624961,
+    "max_experimental_kmh": 27.308324546152992
+  },
+  {
+    "track_id": 1010070,
+    "start_s": 2497.2000000000003,
+    "end_s": 2501.2000000000003,
+    "samples": 11,
+    "median_experimental_kmh": 44.94833830498106,
+    "min_experimental_kmh": 42.64319471060206,
+    "max_experimental_kmh": 46.085458458916236
+  },
+  {
+    "track_id": 1010088,
+    "start_s": 2501.6,
+    "end_s": 2506.0,
+    "samples": 11,
+    "median_experimental_kmh": 35.509433230072844,
+    "min_experimental_kmh": 30.724379200344266,
+    "max_experimental_kmh": 36.46559951776103
+  },
+  {
+    "track_id": 1010163,
+    "start_s": 2505.6,
+    "end_s": 2510.4,
+    "samples": 13,
+    "median_experimental_kmh": 45.95125268322775,
+    "min_experimental_kmh": 31.953068292788927,
+    "max_experimental_kmh": 61.94464585631504
+  },
+  {
+    "track_id": 1010197,
+    "start_s": 2512.8,
+    "end_s": 2516.4,
+    "samples": 10,
+    "median_experimental_kmh": 51.70109420570688,
+    "min_experimental_kmh": 33.31687148667786,
+    "max_experimental_kmh": 69.33765655540196
+  },
+  {
+    "track_id": 1010322,
+    "start_s": 2532.4,
+    "end_s": 2534.8,
+    "samples": 6,
+    "median_experimental_kmh": 49.49342990535865,
+    "min_experimental_kmh": 46.280127019777886,
+    "max_experimental_kmh": 51.982850250519235
+  },
+  {
+    "track_id": 1010384,
+    "start_s": 2535.2000000000003,
+    "end_s": 2539.6,
+    "samples": 12,
+    "median_experimental_kmh": 50.3834891007954,
+    "min_experimental_kmh": 32.401855151454,
+    "max_experimental_kmh": 63.3010076532256
+  },
+  {
+    "track_id": 1010417,
+    "start_s": 2540.0,
+    "end_s": 2543.2000000000003,
+    "samples": 9,
+    "median_experimental_kmh": 62.76239494943102,
+    "min_experimental_kmh": 36.59215603455352,
+    "max_experimental_kmh": 80.55258593943438
+  },
+  {
+    "track_id": 1010457,
+    "start_s": 2544.0,
+    "end_s": 2546.4,
+    "samples": 7,
+    "median_experimental_kmh": 65.80923869046168,
+    "min_experimental_kmh": 42.33576059340957,
+    "max_experimental_kmh": 93.07181683564694
+  },
+  {
+    "track_id": 1010583,
+    "start_s": 2554.4,
+    "end_s": 2558.4,
+    "samples": 11,
+    "median_experimental_kmh": 58.44461846451115,
+    "min_experimental_kmh": 33.73690947586634,
+    "max_experimental_kmh": 78.475757811724
+  },
+  {
+    "track_id": 1010598,
+    "start_s": 2556.8,
+    "end_s": 2559.2000000000003,
+    "samples": 6,
+    "median_experimental_kmh": 45.15296451588302,
+    "min_experimental_kmh": 40.08474310868486,
+    "max_experimental_kmh": 60.12117457284687
+  },
+  {
+    "track_id": 1010625,
+    "start_s": 2560.4,
+    "end_s": 2564.0,
+    "samples": 10,
+    "median_experimental_kmh": 54.601895055774676,
+    "min_experimental_kmh": 35.35793013367366,
+    "max_experimental_kmh": 63.959741484755625
+  },
+  {
+    "track_id": 1010732,
+    "start_s": 2582.8,
+    "end_s": 2587.2000000000003,
+    "samples": 10,
+    "median_experimental_kmh": 39.173027972531116,
+    "min_experimental_kmh": 31.727206273887866,
+    "max_experimental_kmh": 72.90283035193391
+  },
+  {
+    "track_id": 1010768,
+    "start_s": 2584.0,
+    "end_s": 2586.8,
+    "samples": 8,
+    "median_experimental_kmh": 56.960055556271485,
+    "min_experimental_kmh": 35.22819770379992,
+    "max_experimental_kmh": 85.46906752430313
+  },
+  {
+    "track_id": 1010818,
+    "start_s": 2594.4,
+    "end_s": 2598.8,
+    "samples": 12,
+    "median_experimental_kmh": 48.096024784046136,
+    "min_experimental_kmh": 27.598291175739046,
+    "max_experimental_kmh": 71.94858861483596
+  },
+  {
+    "track_id": 1010946,
+    "start_s": 2625.6,
+    "end_s": 2634.4,
+    "samples": 16,
+    "median_experimental_kmh": 22.808492429380653,
+    "min_experimental_kmh": 10.536222001816848,
+    "max_experimental_kmh": 27.616263693900482
+  },
+  {
+    "track_id": 1010970,
+    "start_s": 2634.0,
+    "end_s": 2638.4,
+    "samples": 12,
+    "median_experimental_kmh": 8.960555110246299,
+    "min_experimental_kmh": 6.079990500841936,
+    "max_experimental_kmh": 16.750343028792376
+  },
+  {
+    "track_id": 1010986,
+    "start_s": 2626.8,
+    "end_s": 2630.4,
+    "samples": 10,
+    "median_experimental_kmh": 47.789276121617235,
+    "min_experimental_kmh": 33.87462832998029,
+    "max_experimental_kmh": 58.352828084825575
+  },
+  {
+    "track_id": 1010998,
+    "start_s": 2636.8,
+    "end_s": 2640.8,
+    "samples": 11,
+    "median_experimental_kmh": 30.798367956562576,
+    "min_experimental_kmh": 25.3051638570407,
+    "max_experimental_kmh": 33.4748867863563
+  },
+  {
+    "track_id": 1011094,
+    "start_s": 2652.8,
+    "end_s": 2660.0,
+    "samples": 18,
+    "median_experimental_kmh": 5.942950487288073,
+    "min_experimental_kmh": 0.6167792784212929,
+    "max_experimental_kmh": 23.380330004978987
+  },
+  {
+    "track_id": 1011358,
+    "start_s": 2678.8,
+    "end_s": 2685.2000000000003,
+    "samples": 13,
+    "median_experimental_kmh": 27.78156283347081,
+    "min_experimental_kmh": 25.263945981481076,
+    "max_experimental_kmh": 31.51359553252799
+  },
+  {
+    "track_id": 1011404,
+    "start_s": 2684.8,
+    "end_s": 2687.6,
+    "samples": 8,
+    "median_experimental_kmh": 25.094306777453326,
+    "min_experimental_kmh": 18.513327620155977,
+    "max_experimental_kmh": 34.02402827150457
+  },
+  {
+    "track_id": 1011545,
+    "start_s": 2698.8,
+    "end_s": 2702.0,
+    "samples": 9,
+    "median_experimental_kmh": 29.997764906214705,
+    "min_experimental_kmh": 26.332039119893267,
+    "max_experimental_kmh": 31.826557376917055
+  },
+  {
+    "track_id": 1011673,
+    "start_s": 2720.0,
+    "end_s": 2726.4,
+    "samples": 15,
+    "median_experimental_kmh": 26.97655114939813,
+    "min_experimental_kmh": 21.953616158319026,
+    "max_experimental_kmh": 31.85652914061948
+  },
+  {
+    "track_id": 1011777,
+    "start_s": 2735.2000000000003,
+    "end_s": 2737.2000000000003,
+    "samples": 6,
+    "median_experimental_kmh": 10.757087675826156,
+    "min_experimental_kmh": 9.646746014291278,
+    "max_experimental_kmh": 11.315978885989251
+  },
+  {
+    "track_id": 1011839,
+    "start_s": 2742.4,
+    "end_s": 2744.8,
+    "samples": 7,
+    "median_experimental_kmh": 40.09902173154213,
+    "min_experimental_kmh": 37.90056677264218,
+    "max_experimental_kmh": 41.39379184635739
+  },
+  {
+    "track_id": 1011986,
+    "start_s": 2760.4,
+    "end_s": 2769.6,
+    "samples": 11,
+    "median_experimental_kmh": 16.638040619895154,
+    "min_experimental_kmh": 15.419515281136333,
+    "max_experimental_kmh": 19.919757768721162
+  },
+  {
+    "track_id": 1012287,
+    "start_s": 2813.2000000000003,
+    "end_s": 2819.6,
+    "samples": 17,
+    "median_experimental_kmh": 21.66618550755309,
+    "min_experimental_kmh": 16.98804330675494,
+    "max_experimental_kmh": 28.745215456485553
+  },
+  {
+    "track_id": 1012330,
+    "start_s": 2811.6,
+    "end_s": 2815.6,
+    "samples": 11,
+    "median_experimental_kmh": 50.24374133750653,
+    "min_experimental_kmh": 38.66132452915702,
+    "max_experimental_kmh": 59.3611692907799
+  },
+  {
+    "track_id": 1012360,
+    "start_s": 2824.4,
+    "end_s": 2828.0,
+    "samples": 10,
+    "median_experimental_kmh": 52.59601009782204,
+    "min_experimental_kmh": 34.93815626955476,
+    "max_experimental_kmh": 68.27139615069825
+  },
+  {
+    "track_id": 1012363,
+    "start_s": 2820.4,
+    "end_s": 2824.0,
+    "samples": 9,
+    "median_experimental_kmh": 59.695886344703645,
+    "min_experimental_kmh": 37.773924975380275,
+    "max_experimental_kmh": 87.45190066508863
+  },
+  {
+    "track_id": 1012454,
+    "start_s": 2845.6,
+    "end_s": 2850.8,
+    "samples": 13,
+    "median_experimental_kmh": 26.808579320821032,
+    "min_experimental_kmh": 21.141932761225796,
+    "max_experimental_kmh": 35.6894408592619
+  },
+  {
+    "track_id": 1012701,
+    "start_s": 2879.2000000000003,
+    "end_s": 2879.2000000000003,
+    "samples": 1,
+    "median_experimental_kmh": 27.048662253810374,
+    "min_experimental_kmh": 27.048662253810374,
+    "max_experimental_kmh": 27.048662253810374
+  },
+  {
+    "track_id": 1012712,
+    "start_s": 2880.0,
+    "end_s": 2882.0,
+    "samples": 6,
+    "median_experimental_kmh": 35.711242841354604,
+    "min_experimental_kmh": 33.284211149662234,
+    "max_experimental_kmh": 38.33182697707968
+  },
+  {
+    "track_id": 1012731,
+    "start_s": 2888.0,
+    "end_s": 2890.0,
+    "samples": 6,
+    "median_experimental_kmh": 33.41485080694409,
+    "min_experimental_kmh": 30.617261132713974,
+    "max_experimental_kmh": 37.289395133744875
+  },
+  {
+    "track_id": 1012740,
+    "start_s": 2878.8,
+    "end_s": 2880.0,
+    "samples": 4,
+    "median_experimental_kmh": 34.25602533417444,
+    "min_experimental_kmh": 34.17101572990842,
+    "max_experimental_kmh": 34.324227408239636
+  },
+  {
+    "track_id": 1012866,
+    "start_s": 2891.2000000000003,
+    "end_s": 2892.8,
+    "samples": 4,
+    "median_experimental_kmh": 30.77339701207397,
+    "min_experimental_kmh": 29.451278128272712,
+    "max_experimental_kmh": 32.13976689035525
+  },
+  {
+    "track_id": 1012938,
+    "start_s": 2894.0,
+    "end_s": 2897.2000000000003,
+    "samples": 9,
+    "median_experimental_kmh": 50.31975315532152,
+    "min_experimental_kmh": 43.23607085922405,
+    "max_experimental_kmh": 55.21316911672159
+  },
+  {
+    "track_id": 1013093,
+    "start_s": 2907.6,
+    "end_s": 2910.8,
+    "samples": 7,
+    "median_experimental_kmh": 46.42391055278833,
+    "min_experimental_kmh": 39.153879825622155,
+    "max_experimental_kmh": 81.15546101674205
+  },
+  {
+    "track_id": 1013165,
+    "start_s": 2921.6,
+    "end_s": 2924.4,
+    "samples": 8,
+    "median_experimental_kmh": 55.284805871493006,
+    "min_experimental_kmh": 40.31626828019066,
+    "max_experimental_kmh": 62.404265467735904
+  },
+  {
+    "track_id": 1013234,
+    "start_s": 2941.2000000000003,
+    "end_s": 2946.0,
+    "samples": 11,
+    "median_experimental_kmh": 23.804433007293966,
+    "min_experimental_kmh": 22.50230566857279,
+    "max_experimental_kmh": 30.220296947961188
+  },
+  {
+    "track_id": 1013284,
+    "start_s": 2947.6,
+    "end_s": 2948.4,
+    "samples": 2,
+    "median_experimental_kmh": 79.99793581933152,
+    "min_experimental_kmh": 77.76725780026854,
+    "max_experimental_kmh": 82.2286138383945
+  },
+  {
+    "track_id": 1013299,
+    "start_s": 2946.0,
+    "end_s": 2951.2000000000003,
+    "samples": 14,
+    "median_experimental_kmh": 38.4952062005711,
+    "min_experimental_kmh": 20.888565055160477,
+    "max_experimental_kmh": 48.343972514354824
+  },
+  {
+    "track_id": 1013718,
+    "start_s": 2998.8,
+    "end_s": 3007.2000000000003,
+    "samples": 15,
+    "median_experimental_kmh": 20.774968020575937,
+    "min_experimental_kmh": 11.85644234785321,
+    "max_experimental_kmh": 22.023248282770883
+  },
+  {
+    "track_id": 1013755,
+    "start_s": 2995.2000000000003,
+    "end_s": 2998.8,
+    "samples": 10,
+    "median_experimental_kmh": 58.857881838075826,
+    "min_experimental_kmh": 38.72213813332355,
+    "max_experimental_kmh": 77.1271749756641
+  },
+  {
+    "track_id": 1013810,
+    "start_s": 3002.8,
+    "end_s": 3005.6,
+    "samples": 8,
+    "median_experimental_kmh": 59.35173633874075,
+    "min_experimental_kmh": 39.89386667151644,
+    "max_experimental_kmh": 78.76362298022948
+  },
+  {
+    "track_id": 1013877,
+    "start_s": 3013.6,
+    "end_s": 3015.2000000000003,
+    "samples": 5,
+    "median_experimental_kmh": 7.264882178042551,
+    "min_experimental_kmh": 7.039322465699965,
+    "max_experimental_kmh": 7.494649470758679
+  },
+  {
+    "track_id": 1013939,
+    "start_s": 3022.8,
+    "end_s": 3032.4,
+    "samples": 20,
+    "median_experimental_kmh": 19.975321681495323,
+    "min_experimental_kmh": 14.177333059110701,
+    "max_experimental_kmh": 25.477987947237814
+  },
+  {
+    "track_id": 1014050,
+    "start_s": 3055.6,
+    "end_s": 3058.4,
+    "samples": 8,
+    "median_experimental_kmh": 23.65519379338462,
+    "min_experimental_kmh": 20.453467363028405,
+    "max_experimental_kmh": 26.084526443447817
+  },
+  {
+    "track_id": 1014148,
+    "start_s": 3057.2000000000003,
+    "end_s": 3061.6,
+    "samples": 7,
+    "median_experimental_kmh": 47.352402626164,
+    "min_experimental_kmh": 31.940055937803656,
+    "max_experimental_kmh": 52.20961710532125
+  },
+  {
+    "track_id": 1014242,
+    "start_s": 3078.0,
+    "end_s": 3082.4,
+    "samples": 11,
+    "median_experimental_kmh": 32.084976962106836,
+    "min_experimental_kmh": 24.09844225234994,
+    "max_experimental_kmh": 36.98301678415701
+  },
+  {
+    "track_id": 1014438,
+    "start_s": 3112.0,
+    "end_s": 3115.6,
+    "samples": 10,
+    "median_experimental_kmh": 36.70381536275028,
+    "min_experimental_kmh": 35.24835778630709,
+    "max_experimental_kmh": 39.420310782279124
+  },
+  {
+    "track_id": 1014575,
+    "start_s": 3133.2000000000003,
+    "end_s": 3134.8,
+    "samples": 5,
+    "median_experimental_kmh": 44.52412220345876,
+    "min_experimental_kmh": 42.87316594742373,
+    "max_experimental_kmh": 46.04786469854265
+  },
+  {
+    "track_id": 1014701,
+    "start_s": 3137.6,
+    "end_s": 3138.8,
+    "samples": 4,
+    "median_experimental_kmh": 62.659890708559374,
+    "min_experimental_kmh": 61.36662013892765,
+    "max_experimental_kmh": 63.793231019676426
+  },
+  {
+    "track_id": 1015009,
+    "start_s": 3182.4,
+    "end_s": 3185.6,
+    "samples": 8,
+    "median_experimental_kmh": 54.177731678547715,
+    "min_experimental_kmh": 43.13848697099957,
+    "max_experimental_kmh": 77.65800803406637
+  },
+  {
+    "track_id": 1015037,
+    "start_s": 3186.8,
+    "end_s": 3189.2000000000003,
+    "samples": 6,
+    "median_experimental_kmh": 27.326030215921747,
+    "min_experimental_kmh": 26.800887529517407,
+    "max_experimental_kmh": 28.874436531932094
+  },
+  {
+    "track_id": 1015288,
+    "start_s": 3242.4,
+    "end_s": 3245.6,
+    "samples": 9,
+    "median_experimental_kmh": 42.544523462760374,
+    "min_experimental_kmh": 40.191614388986444,
+    "max_experimental_kmh": 43.96615600093797
+  },
+  {
+    "track_id": 1015376,
+    "start_s": 3262.0,
+    "end_s": 3265.6,
+    "samples": 10,
+    "median_experimental_kmh": 38.95257082849895,
+    "min_experimental_kmh": 30.564447030838075,
+    "max_experimental_kmh": 41.175451985306736
+  },
+  {
+    "track_id": 1015455,
+    "start_s": 3285.6,
+    "end_s": 3288.4,
+    "samples": 8,
+    "median_experimental_kmh": 28.843358561006326,
+    "min_experimental_kmh": 23.861598779858532,
+    "max_experimental_kmh": 32.56417291693617
+  },
+  {
+    "track_id": 1015491,
+    "start_s": 3290.8,
+    "end_s": 3294.8,
+    "samples": 8,
+    "median_experimental_kmh": 40.58367152749554,
+    "min_experimental_kmh": 29.81133239265558,
+    "max_experimental_kmh": 67.5627653396466
+  },
+  {
+    "track_id": 1015492,
+    "start_s": 3291.6,
+    "end_s": 3300.4,
+    "samples": 17,
+    "median_experimental_kmh": 32.77647040125491,
+    "min_experimental_kmh": 5.297401523050369,
+    "max_experimental_kmh": 63.82315017180429
+  },
+  {
+    "track_id": 1015499,
+    "start_s": 3292.4,
+    "end_s": 3295.6,
+    "samples": 9,
+    "median_experimental_kmh": 52.65706028976325,
+    "min_experimental_kmh": 36.9394581084604,
+    "max_experimental_kmh": 71.193386154034
+  },
+  {
+    "track_id": 1015533,
+    "start_s": 3302.4,
+    "end_s": 3305.6,
+    "samples": 9,
+    "median_experimental_kmh": 51.7947082531829,
+    "min_experimental_kmh": 33.54778987449494,
+    "max_experimental_kmh": 64.49735459413841
+  },
+  {
+    "track_id": 1015648,
+    "start_s": 3333.2000000000003,
+    "end_s": 3336.4,
+    "samples": 9,
+    "median_experimental_kmh": 56.82422882603901,
+    "min_experimental_kmh": 43.132027618573495,
+    "max_experimental_kmh": 78.32133908574667
+  },
+  {
+    "track_id": 1015727,
+    "start_s": 3411.2000000000003,
+    "end_s": 3427.2000000000003,
+    "samples": 23,
+    "median_experimental_kmh": 22.44177801214006,
+    "min_experimental_kmh": 11.26994723594423,
+    "max_experimental_kmh": 72.45757362719964
+  },
+  {
+    "track_id": 1015783,
+    "start_s": 3347.2000000000003,
+    "end_s": 3351.6,
+    "samples": 12,
+    "median_experimental_kmh": 31.503278419064934,
+    "min_experimental_kmh": 21.468448811764503,
+    "max_experimental_kmh": 38.354864082642166
+  },
+  {
+    "track_id": 1015836,
+    "start_s": 3362.0,
+    "end_s": 3365.2000000000003,
+    "samples": 8,
+    "median_experimental_kmh": 48.549081578504406,
+    "min_experimental_kmh": 35.46823707678786,
+    "max_experimental_kmh": 76.48891966111144
+  },
+  {
+    "track_id": 1016612,
+    "start_s": 3470.4,
+    "end_s": 3473.6,
+    "samples": 9,
+    "median_experimental_kmh": 34.12522244112642,
+    "min_experimental_kmh": 25.45393564915489,
+    "max_experimental_kmh": 51.77486268292522
+  },
+  {
+    "track_id": 1016651,
+    "start_s": 3478.8,
+    "end_s": 3481.6,
+    "samples": 6,
+    "median_experimental_kmh": 61.501175352904156,
+    "min_experimental_kmh": 53.56590569338332,
+    "max_experimental_kmh": 74.65289039792503
+  },
+  {
+    "track_id": 1016912,
+    "start_s": 3512.8,
+    "end_s": 3516.0,
+    "samples": 5,
+    "median_experimental_kmh": 58.89352089136225,
+    "min_experimental_kmh": 42.30620582213215,
+    "max_experimental_kmh": 86.86767138541586
+  },
+  {
+    "track_id": 1017044,
+    "start_s": 3525.6,
+    "end_s": 3528.8,
+    "samples": 6,
+    "median_experimental_kmh": 42.21922657813778,
+    "min_experimental_kmh": 35.261824995433805,
+    "max_experimental_kmh": 47.48100673662241
+  },
+  {
+    "track_id": 1017553,
+    "start_s": 3564.4,
+    "end_s": 3566.4,
+    "samples": 6,
+    "median_experimental_kmh": 57.61087759950955,
+    "min_experimental_kmh": 44.51225266850173,
+    "max_experimental_kmh": 71.84477656139418
+  }
+]

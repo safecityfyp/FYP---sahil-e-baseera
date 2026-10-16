@@ -45,3 +45,9 @@ python cctv_calibration.py --input '<camera pilot folder>' --camera commercial_i
 python cctv_speed.py --inputs '<pilot folder>' '<remainder folder>' --calibration outputs/cctv_reproduction/calibration/calibration.json --output outputs/cctv_reproduction/speed
 python cctv_render.py --video '<original recording>' --inputs '<pilot folder>' '<remainder folder>' --calibration outputs/cctv_reproduction/calibration/calibration.json --speed outputs/cctv_reproduction/speed --output outputs/cctv_reproduction/videos
 ```
+
+The [completed report](output/cctv_20261009/README.md) contains the full recordings, separate calibration replays, source measurements, method comparisons, pilot history and artifact verification. `build_cctv_report_notebook.py` independently reproduces the refined Commercial calibration and speed tables on Kaggle CPU with eleven tests. `cctv_render.py --encoder h264_nvenc` optionally uses a compatible local NVIDIA encoder; the default remains software H.264. Encoding does not change the frozen speed calculations.
+
+Each region's selected track IDs and `calibration_end_s` define its fitting data. The saved calibration-footprint file covers the complete replay interval, which may include later observations from a region that froze earlier. Reproduction uses the per-region window/track filters in `cctv_calibration.py`.
+
+Generated notebooks are templates for subsequent runs. The report provenance archives the exact source bundles used by each registered Kaggle version, including earlier pilots and the local final renderer.

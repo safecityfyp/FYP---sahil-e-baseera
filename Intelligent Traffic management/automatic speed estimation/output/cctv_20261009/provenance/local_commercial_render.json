@@ -1,0 +1,13 @@
+{
+  "camera_id": "commercial_ii_01",
+  "render_location": "local Windows host",
+  "python": "3.13.5",
+  "opencv": "5.0.0",
+  "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+  "render_source_sha256": "13a8bfe53c6655841c316f9c54667ff4be464ae68af1c39380890f29d7b83956",
+  "encoder": "h264_nvenc",
+  "calibration_and_speed_source": "hayyanfaisal/fyp-cctv-commercial-refined-report version 1",
+  "source_decoder_warning_note": "Two H.264 CABAC/qscale warning events and macroblock errors were emitted while decoding the original 1920x1080 recording. OpenCV still returned all 90000 frames. Generated 1280x720 outputs are independently decoded during final verification.",
+  "warning_frame_timestamps_available": false,
+  "source_files_modified": false
+}

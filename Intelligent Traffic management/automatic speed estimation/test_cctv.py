@@ -80,5 +80,11 @@ class CCTVTests(unittest.TestCase):
         times=np.arange(0,.81,.2)
         self.assertIsNone(local_velocity(times,np.c_[times,np.zeros(len(times))],.4))
 
+    def test_close_view_short_pass_uses_actual_elapsed_time(self):
+        times=np.arange(0,.61,.1)
+        centers=np.c_[times*32.3/3.6,np.zeros(len(times))]
+        result=local_velocity(times,centers,.3,window_s=1.2,minimum_span_s=.35,quadratic_minimum_span_s=.8)
+        self.assertAlmostEqual(result['speed_kmh'],32.3,places=6)
+
 
 if __name__=='__main__':unittest.main()

@@ -56,6 +56,33 @@
       "notebook": "hayyanfaisal/fyp-kia-calibration-validation-report",
       "snapshot_version": 1,
       "output_pattern": "kia_validation/.*"
+    },
+    "cctv_commercial_pilot": {
+      "notebook": "hayyanfaisal/fyp-cctv-commercial-pilot",
+      "snapshot_version": 1,
+      "output_pattern": "cctv_outputs/.*\\.(json|gz|csv|jpg|yaml|mp4)$"
+    },
+    "cctv_k_block_pilot": {
+      "notebook": "hayyanfaisal/fyp-cctv-k-block-pilot",
+      "snapshot_version": 2,
+      "output_pattern": "cctv_outputs/.*\\.(json|gz|csv|jpg|yaml|mp4)$"
+    },
+    "cctv_commercial_full": {
+      "notebook": "hayyanfaisal/fyp-cctv-commercial-full",
+      "snapshot_version": 1,
+      "output_pattern": "cctv_outputs/.*\\.(json|gz|csv|jpg|yaml|mp4)$",
+      "purpose": "Initial full measurements and baseline fit. Final Commercial calibration/tables come from the refined CPU report."
+    },
+    "cctv_k_block_full": {
+      "notebook": "hayyanfaisal/fyp-cctv-k-block-full",
+      "snapshot_version": 1,
+      "output_pattern": "cctv_outputs/.*\\.(json|gz|csv|jpg|yaml|mp4)$"
+    },
+    "cctv_commercial_refined_report": {
+      "notebook": "hayyanfaisal/fyp-cctv-commercial-refined-report",
+      "snapshot_version": 1,
+      "output_pattern": "cctv_outputs/.*\\.(json|gz|csv|jpg|yaml|mp4)$",
+      "purpose": "Final Commercial calibration, speed tables and 11 tests. Full videos rendered locally from these frozen tables."
     }
   },
   "source_video_included": false,
@@ -2593,6 +2620,750 @@
     "calibration_preview.mp4": {
       "bytes": 9663221,
       "sha256": "e48dba9413addfd161f41f3bd2750ca180e8172d5a0f689a97cc9db420d2e27e"
+    },
+    "cctv_20261009/commercial_ii_01/calibration/calibration.json": {
+      "bytes": 56815,
+      "sha256": "6164f4624249896e36218ec0572a9242d101d7a2b737b35d89e1caa40efc29b9"
+    },
+    "cctv_20261009/commercial_ii_01/calibration/calibration_footprints.jsonl.gz": {
+      "bytes": 21981,
+      "sha256": "af964fefdb5e7888a88e698507da1040047abdc27ca70459a413dfdd9678bd9e"
+    },
+    "cctv_20261009/commercial_ii_01/diagnostics/calibration_stability.json": {
+      "bytes": 6199,
+      "sha256": "3b7d039f520689bda711353ee58199889ffdb53f1402deb3026333c7daf4f616"
+    },
+    "cctv_20261009/commercial_ii_01/diagnostics/car_count_stability.png": {
+      "bytes": 72223,
+      "sha256": "037230c2e2b52dd7601a7555682962e5a9b470e49dcb76f5f3f1cc33baf5dbd1"
+    },
+    "cctv_20261009/commercial_ii_01/figures/calibration_methods.png": {
+      "bytes": 62837,
+      "sha256": "b31fb3a4f7c1caae9fd6c6d45b1741666a3c001ce660541e0d7e710ebff54f76"
+    },
+    "cctv_20261009/commercial_ii_01/figures/speed_over_time.png": {
+      "bytes": 181508,
+      "sha256": "2fcb5e6f17d47a903a4421183cd55e79abfae5e1b7e414afbc3062578f505fd1"
+    },
+    "cctv_20261009/commercial_ii_01/figures/trajectories.png": {
+      "bytes": 134658,
+      "sha256": "8494bc7cb15d956d43c0cb883c37567766eb503b3b4bce52f3e1a312a5f9d923"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/pilot/bytetrack_10fps.yaml": {
+      "bytes": 147,
+      "sha256": "9b463aab818a752564cd296546f4a4313a143a9bd564eb8ff3bcaea4929a224e"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/pilot/inference_report.json": {
+      "bytes": 1108,
+      "sha256": "973338b61177d798b7a1fb39c67c92e9b567173460481c17cb029fae4e93c9fe"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/pilot/observations.jsonl.gz": {
+      "bytes": 173888,
+      "sha256": "e696942e39b44959e691d904f43da058205b77fed4310319b8a36c897fd9b18d"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/pilot/reference.jpg": {
+      "bytes": 547918,
+      "sha256": "0ff72512fcc9bf285d91a20c9a22b7f573c9e071e3313d25b10f305ab8ff9d2d"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/pilot/tracks.jsonl.gz": {
+      "bytes": 3092612,
+      "sha256": "0c3ace3b05f03ec100e2cda9939b3e8d4e2eea8428b41876cc1ec587d4e06b8b"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/pilot/view_00000.jpg": {
+      "bytes": 547918,
+      "sha256": "0ff72512fcc9bf285d91a20c9a22b7f573c9e071e3313d25b10f305ab8ff9d2d"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/pilot/view_00300.jpg": {
+      "bytes": 545326,
+      "sha256": "735e1e3e8aa63ef20fb6ff421a42e7a73c11e3475ce7da85a9adf0cd08697828"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/pilot/view_00600.jpg": {
+      "bytes": 532427,
+      "sha256": "43cfeabe4e9c460494afde4157ad3d588e5a59c892047a7172a2b2756ff2a463"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/bytetrack_10fps.yaml": {
+      "bytes": 147,
+      "sha256": "9b463aab818a752564cd296546f4a4313a143a9bd564eb8ff3bcaea4929a224e"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/inference_report.json": {
+      "bytes": 1150,
+      "sha256": "58e40c1c23785f139fe177b21ff080e62279a9b86349ceb7c0119071c9fbafd6"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/observations.jsonl.gz": {
+      "bytes": 382040,
+      "sha256": "a94b418ac87b27c7edfd238ffd98989cd072dd84f4564cd71b62310a6a411683"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/reference.jpg": {
+      "bytes": 572998,
+      "sha256": "9020b53a3e8e4c79cbfef212a703b2773547543fcb1287a44ae9b2bd28a1d7e5"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/tracks.jsonl.gz": {
+      "bytes": 8180553,
+      "sha256": "ee41fda1bf2f629723e9c37de41b10dd9b5b0853c01b9d08c230969482484152"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/view_00900.jpg": {
+      "bytes": 572998,
+      "sha256": "9020b53a3e8e4c79cbfef212a703b2773547543fcb1287a44ae9b2bd28a1d7e5"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/view_01200.jpg": {
+      "bytes": 558327,
+      "sha256": "1579b32c08a41e8a1ca569207e0b87a0180e0137a62f5339f7160b78091b8c04"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/view_01500.jpg": {
+      "bytes": 569481,
+      "sha256": "b064e3a3cc40b1b0c802f08be626cda298e690dcf3900ee6d0fe0ab57c625487"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/view_01800.jpg": {
+      "bytes": 566436,
+      "sha256": "2ad75f47b2e4755b4ace30729500737ad064305c37dade63861925024bdaf1b9"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/view_02100.jpg": {
+      "bytes": 563442,
+      "sha256": "f1d8d475efe8b0c401c7cfb0b310d3c22f7a40a5423f32e91b33888d0997c0bb"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/view_02400.jpg": {
+      "bytes": 567097,
+      "sha256": "2ce00bbdf743897be99cc7cfe219de5c244a6d614b65767553879ed33a836a53"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/view_02700.jpg": {
+      "bytes": 572610,
+      "sha256": "7296c893c145fdc2c74a7a9346c8957a5b9368797c4e9358be8c7a3469e3203e"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/view_03000.jpg": {
+      "bytes": 569952,
+      "sha256": "d22b3d46ebde26003e805a981166b8c60121d55caaa8cb5f4adf23175fbf4a1d"
+    },
+    "cctv_20261009/commercial_ii_01/measurements/remainder/view_03300.jpg": {
+      "bytes": 577904,
+      "sha256": "e662345f20bd516860e5534e1edacfcb2a616ff25ebadade35ee65cc7e9ad025"
+    },
+    "cctv_20261009/commercial_ii_01/README.md": {
+      "bytes": 3844,
+      "sha256": "1c86b7ac1d1ddb3541beac2850a7e6b8df0cd19534942d131c7f7acb125a7a1e"
+    },
+    "cctv_20261009/commercial_ii_01/speed/speed_report.json": {
+      "bytes": 7719,
+      "sha256": "9ff366bc96851e0ccbdeae85b048204b8239ab578b1357881b94e4740b67d98d"
+    },
+    "cctv_20261009/commercial_ii_01/speed/speed_samples.csv": {
+      "bytes": 548237,
+      "sha256": "b9226a9fc4671d633f4e69b7eccde7e0f1f8ac4e7b9670116f6ae12667b184b5"
+    },
+    "cctv_20261009/commercial_ii_01/speed/speeds.jsonl.gz": {
+      "bytes": 373081,
+      "sha256": "0a4997da78cacb3c541086629e664e266005ee4331b6354cb857dd9c7e262def"
+    },
+    "cctv_20261009/commercial_ii_01/speed/track_summary.csv": {
+      "bytes": 25569,
+      "sha256": "2ebd52b3a3e126810be5ce2305e7320fd333bdc29ba4451990f594f3df086c3d"
+    },
+    "cctv_20261009/commercial_ii_01/speed/track_summary.json": {
+      "bytes": 74434,
+      "sha256": "e3e708957aa11b26a41d8a317b805451c8a514a0e725658a988692b3bc8508e6"
+    },
+    "cctv_20261009/commercial_ii_01/videos/calibration.mp4": {
+      "bytes": 57061203,
+      "sha256": "c984834261dbe1291ed459db2e8aed6e32c4909442209cd41abdce6a4ee12277"
+    },
+    "cctv_20261009/commercial_ii_01/videos/calibration_example.jpg": {
+      "bytes": 296044,
+      "sha256": "7495f798ff3a9f4fd4a9b1792f568c46f53a25dbe0923966873b616215b6c8c7"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_00.mp4": {
+      "bytes": 55200202,
+      "sha256": "123a26c27e22e9aef6a8bedd9b51f137c5a5dd359261788e3c46554c5f28a10d"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_01.mp4": {
+      "bytes": 60912598,
+      "sha256": "2a88b9531b9133258c7bfe8d436adc9a64a3185f11029d3fb4a0de4f4bdac775"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_02.mp4": {
+      "bytes": 53765719,
+      "sha256": "67a0e00b02aa73528801948665453b0fea746d80e2c9a5a74500f00e83d80166"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_03.mp4": {
+      "bytes": 56042282,
+      "sha256": "1acf0226fb1a96c0a3b5c831e9d7adf53e47a6cde03303e51e67198f4f910722"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_04.mp4": {
+      "bytes": 60153658,
+      "sha256": "20df2711abfa1e2ba5d63825824c9de267cb249b038a8b79f3fe6671ebcd409f"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_05.mp4": {
+      "bytes": 62802448,
+      "sha256": "231d397a1e04db08704e07d9bdeff3538d2023ece7edd5ed6b344d9becb6b631"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_example_00.jpg": {
+      "bytes": 273699,
+      "sha256": "83fa5c4a0278e2eaa8d6f8d75d7dd8277d0b0ea78878eb71dad2d091d9e8bff0"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_example_01.jpg": {
+      "bytes": 296805,
+      "sha256": "bf3ab2dca8ee96e8c3675642136cc32842342910aebfba043c76817a8332dd34"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_example_02.jpg": {
+      "bytes": 270998,
+      "sha256": "6cf7312a010f1c72277f610271d13fdde285b37bbcea5932ed7918152657ad9e"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_example_03.jpg": {
+      "bytes": 280264,
+      "sha256": "41547424f06cc44fd8a8b7dee971b38394ad3e7a55bdfa95ebdedcf8d60ea818"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_example_04.jpg": {
+      "bytes": 286700,
+      "sha256": "5e54c3104bf31695823ceb79b6db29e0d19d974521b9116d3001c80526d92ae3"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_example_05.jpg": {
+      "bytes": 292543,
+      "sha256": "af57b63f8ef994c2cfe1aa9cdf14ca142400335b8c8ae7fc76986a26fd06e497"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_example_06.jpg": {
+      "bytes": 291782,
+      "sha256": "aadb68b44465ec0470ca241726b5b30fd1c8cc5452477fd7ed76b3e5b7b0d930"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_example_07.jpg": {
+      "bytes": 287446,
+      "sha256": "700f73bada6d4b55842b75939bd417f638071e194147132519c4ecf284e889fb"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_example_08.jpg": {
+      "bytes": 298917,
+      "sha256": "2f74123ae9a3c73df02a7612c7f0edcdfe351ad8ae75e46dc0522a4305d82e88"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_example_09.jpg": {
+      "bytes": 298595,
+      "sha256": "ad7ff2b26d195c3a31293b69547272b162807bf2c7a0e5c2871e087bb9641636"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_example_10.jpg": {
+      "bytes": 290998,
+      "sha256": "6c1d0e7258ea5eab9c0b32709f0f598f3f2ec212807af360cbc88c8d08fd3448"
+    },
+    "cctv_20261009/commercial_ii_01/videos/speed_example_11.jpg": {
+      "bytes": 293379,
+      "sha256": "f5e17b0296d7b51bf19a491767d8d21a2a0fcd098a143027009382efff813e12"
+    },
+    "cctv_20261009/commercial_ii_01/videos/video_manifest.json": {
+      "bytes": 4025,
+      "sha256": "37d0798511ca420c8318ddb78e65abe185fd795f737bcb717427eeee7ddbae56"
+    },
+    "cctv_20261009/diagnostics/k_block_sampling_ablation.json": {
+      "bytes": 1563,
+      "sha256": "11d882b3a61fcb510fbe12309a50599d32242d9e9a78ee692094867cf6bc6e36"
+    },
+    "cctv_20261009/diagnostics/temporal_geometry_check.json": {
+      "bytes": 1746,
+      "sha256": "9a1d8f1d4a3249dc5b5e10cd908390525e7d89cbc55b76e6afc3d69918f79977"
+    },
+    "cctv_20261009/experiment_summary.json": {
+      "bytes": 50111,
+      "sha256": "e02b1e026aa9f962c2b4cfd2777c3c07997fa8436ae4e569ada3773c3133fae8"
+    },
+    "cctv_20261009/file_manifest.json": {
+      "bytes": 31962,
+      "sha256": "de80ebe5e0321543e09dfde6bdfa00392205d651129d93f5f07edeee4e39ebb6"
+    },
+    "cctv_20261009/k_block_st20/calibration/calibration.json": {
+      "bytes": 48139,
+      "sha256": "7967a6c961d98c509bbefc7a02dffb1dc61cbd970790033a6b85c590ac56bca3"
+    },
+    "cctv_20261009/k_block_st20/calibration/calibration_footprints.jsonl.gz": {
+      "bytes": 14311,
+      "sha256": "389ac8071e0fa4dd4a2fe7299cd0929957d47456ca7a40cad821ea6245d240d9"
+    },
+    "cctv_20261009/k_block_st20/diagnostics/calibration_stability.json": {
+      "bytes": 5795,
+      "sha256": "57cf13cbab1372352653d92c7f174ae728770a4f50dde1fa5c3a6569d8539eed"
+    },
+    "cctv_20261009/k_block_st20/diagnostics/car_count_stability.png": {
+      "bytes": 83989,
+      "sha256": "2d89c5bcb18bb2c2ea4f7431358c77fa221eed459aa936839e93ba5f56913740"
+    },
+    "cctv_20261009/k_block_st20/figures/calibration_methods.png": {
+      "bytes": 61553,
+      "sha256": "ce99bedf3adb0893c70a7e9aba8a1996800e2ceba068c48fbf53e08354a8a951"
+    },
+    "cctv_20261009/k_block_st20/figures/speed_over_time.png": {
+      "bytes": 184580,
+      "sha256": "604e6c5f1947b3bf0704a2727c578661675d668480e984ba67cdda35f7ac76eb"
+    },
+    "cctv_20261009/k_block_st20/figures/trajectories.png": {
+      "bytes": 202210,
+      "sha256": "feb7933336ba40a008dd9d7544e7a5ce5ef0f54af54c6131c4654357fa708576"
+    },
+    "cctv_20261009/k_block_st20/measurements/pilot/bytetrack_10fps.yaml": {
+      "bytes": 147,
+      "sha256": "9b463aab818a752564cd296546f4a4313a143a9bd564eb8ff3bcaea4929a224e"
+    },
+    "cctv_20261009/k_block_st20/measurements/pilot/inference_report.json": {
+      "bytes": 1117,
+      "sha256": "26e6405156461352310eb35bc8c805e2e1688ad909d6449250fbaa6bc81b0fe5"
+    },
+    "cctv_20261009/k_block_st20/measurements/pilot/observations.jsonl.gz": {
+      "bytes": 118486,
+      "sha256": "a9137c811e6464c7e39a376b73c60f077a3c94cd21e89510c0d6bf9366bdae4e"
+    },
+    "cctv_20261009/k_block_st20/measurements/pilot/reference.jpg": {
+      "bytes": 1103963,
+      "sha256": "178158230bbdb298d7dabc29e75be2175b886dbf5c3cb8182239ba9e86c47054"
+    },
+    "cctv_20261009/k_block_st20/measurements/pilot/tracks.jsonl.gz": {
+      "bytes": 447769,
+      "sha256": "84a6510b5724a9f5cbc0b96532e06b336f11c6a847ddbf9ef85cae85f2df0cec"
+    },
+    "cctv_20261009/k_block_st20/measurements/pilot/view_00000.jpg": {
+      "bytes": 1103963,
+      "sha256": "178158230bbdb298d7dabc29e75be2175b886dbf5c3cb8182239ba9e86c47054"
+    },
+    "cctv_20261009/k_block_st20/measurements/pilot/view_00300.jpg": {
+      "bytes": 1110705,
+      "sha256": "d9b27e4e27ca3255b939fdd32bd419daeb18f664917b9cd52f38dfd57f8d9914"
+    },
+    "cctv_20261009/k_block_st20/measurements/pilot/view_00600.jpg": {
+      "bytes": 1091297,
+      "sha256": "d77ff137cb9b4dae673bd1d624bbfe2a7eb71bd84d61055a4ad1d05d10705f76"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/bytetrack_10fps.yaml": {
+      "bytes": 147,
+      "sha256": "9b463aab818a752564cd296546f4a4313a143a9bd564eb8ff3bcaea4929a224e"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/inference_report.json": {
+      "bytes": 1121,
+      "sha256": "ada39e939f591079653bf9b1654e30dfa178ed8f3249bd2e504c7390b1da3023"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/observations.jsonl.gz": {
+      "bytes": 706152,
+      "sha256": "431c47ebe87d3cd216bbb869ebedbd3c25b578ad301fd4037b1e231b5357e22f"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/reference.jpg": {
+      "bytes": 1093911,
+      "sha256": "0be926c2d4e98cebed3ab2e1cab1cc45da01f493cee56c40f2da51ef9428c990"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/tracks.jsonl.gz": {
+      "bytes": 1821418,
+      "sha256": "4ed551449b1d4371510e87de4454c5ae0c66fbed21da0084ca4ed3f3a4d3620c"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_00900.jpg": {
+      "bytes": 1093911,
+      "sha256": "0be926c2d4e98cebed3ab2e1cab1cc45da01f493cee56c40f2da51ef9428c990"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_01200.jpg": {
+      "bytes": 1105203,
+      "sha256": "69cbfd0b0d58bcf05da5ebc83df559d6aa3821988911c9f2ea1b57c217a979b5"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_01500.jpg": {
+      "bytes": 1106289,
+      "sha256": "3e2992edda212b1266480354f285cb29a546fa1fa210fc4deac0dd9d3b58c298"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_01800.jpg": {
+      "bytes": 1103220,
+      "sha256": "3e8ae9334b46b70e88b6748d131e0fa2b122c107b778487161afcf7a73b59229"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_02100.jpg": {
+      "bytes": 1121551,
+      "sha256": "d552e30b2d10c0fdb7f9c45a951ed9f0e084f049efca5c0315c92f0aff51236c"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_02400.jpg": {
+      "bytes": 1122993,
+      "sha256": "fa9d7600deef0ae56a63cae68297295f66798bd5cb1c222e63f5c0016b7c7d11"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_02700.jpg": {
+      "bytes": 1138564,
+      "sha256": "6a4d21cbc8f310a5dcd91cf54b17b2bbab273c7d3e23b73dc42e14c45171afe2"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_03000.jpg": {
+      "bytes": 1130506,
+      "sha256": "c834934fe3f4f229aaa71ed56bdb38694b86f32578f6bf5d9d51c9b4c143c127"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_03300.jpg": {
+      "bytes": 1115935,
+      "sha256": "ba9813a974d7e574fc0f8c64a62e2214cedcebaf7f3f74027ecab74775e38eff"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_03600.jpg": {
+      "bytes": 1075388,
+      "sha256": "d353dae3ae5d905f833d91b2390b8c57aa4b762dbd6cb30275c507e7151b8b01"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_03900.jpg": {
+      "bytes": 699396,
+      "sha256": "6023574921a66bd9f75b0b7d7eeaa6fa94897dc099a3edb1fefb9b0d6d597663"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_04200.jpg": {
+      "bytes": 1062240,
+      "sha256": "5630e1ff4a1adcf79bd35f15a9e35d4c85c6e94327398a9906885605a4b54020"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_04500.jpg": {
+      "bytes": 1088340,
+      "sha256": "12b4c0de6b725f681af813e330375d48d4c6746f5daf666847a121008d4bed49"
+    },
+    "cctv_20261009/k_block_st20/measurements/remainder/view_04800.jpg": {
+      "bytes": 1073840,
+      "sha256": "39b12160d8da29f11b8a715f0971ea24c5dceea50d6f2932d9966233f9129bb8"
+    },
+    "cctv_20261009/k_block_st20/README.md": {
+      "bytes": 4039,
+      "sha256": "713ed03c858a9db3ca4666c33035ec479c16600f81d74978ab3ac94255dfab12"
+    },
+    "cctv_20261009/k_block_st20/speed/speed_report.json": {
+      "bytes": 9216,
+      "sha256": "2f049f026aa28b74dae2ac52669affb3ab9775429e453756d5d64fc348786d4a"
+    },
+    "cctv_20261009/k_block_st20/speed/speed_samples.csv": {
+      "bytes": 622248,
+      "sha256": "e96cd3da3850c24376e06b9bb729b66e913cf3712fb0387195c6b7b622f7054a"
+    },
+    "cctv_20261009/k_block_st20/speed/speeds.jsonl.gz": {
+      "bytes": 440705,
+      "sha256": "733731b09896168e082d0065d6f76b4ce32b28e1f738e04532a2b79a8f1227a8"
+    },
+    "cctv_20261009/k_block_st20/speed/track_summary.csv": {
+      "bytes": 30638,
+      "sha256": "4b533dfa6787f0146415a8f6c06f71e7e8e14aaf39f8dbb07a4ddbe72b97c116"
+    },
+    "cctv_20261009/k_block_st20/speed/track_summary.json": {
+      "bytes": 87343,
+      "sha256": "8f0f2c5c4154657e0d93b37c407119082fb966990ee700de83e162c382cefa47"
+    },
+    "cctv_20261009/k_block_st20/videos/calibration.mp4": {
+      "bytes": 16183413,
+      "sha256": "ab7f8bb1c51c68bb3c7b6a08c5d375bb5682bd04bb0b20edcabd6bc754a9aa50"
+    },
+    "cctv_20261009/k_block_st20/videos/calibration_example.jpg": {
+      "bytes": 478936,
+      "sha256": "90b2de9b7070408d0c93d8a0cfb674288605bc79e3a764abbdbf52889b3d4a9b"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_00.mp4": {
+      "bytes": 32677687,
+      "sha256": "165cbcbec01a4a57ce7b6a8a7ce933842c43d3f939efda332ee8c571ae96912d"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_01.mp4": {
+      "bytes": 29388218,
+      "sha256": "517c925ad6f810130ff81221c1819fc29cfb83c08b9055f614f43591899cd19e"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_02.mp4": {
+      "bytes": 26836207,
+      "sha256": "a6a8b739f2c41083b7ca56d81dcae834f82b8be8e38cfe00ac0e870eac4864df"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_03.mp4": {
+      "bytes": 35813637,
+      "sha256": "067c7ec238a90334ddd9e8bdb561654acb1f514a4c3f7952f888f2a35b5c6329"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_04.mp4": {
+      "bytes": 33062863,
+      "sha256": "1f1bf3f1640f982bb40e4e9460a89dea62c6058407e0097999589275d9826c44"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_05.mp4": {
+      "bytes": 34811914,
+      "sha256": "90d2bcd0bf40b20dde7bb007fb5cee77fa892cb3d5da71080dc8ea6fc21dbe5a"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_06.mp4": {
+      "bytes": 36033577,
+      "sha256": "3160c5f9711bbfe8c3e3ccf56b0ed356f342199618934d680175de0f080259ca"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_07.mp4": {
+      "bytes": 34059128,
+      "sha256": "c40b21ac4beda5af00bd29b7f21f5ab805b372bce44fd816a909abe7ced5981b"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_08.mp4": {
+      "bytes": 4010299,
+      "sha256": "1cfbf448eca3b87d14eab1a372054523ac87f915e0b100c084c8f95188bfee4b"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_00.jpg": {
+      "bytes": 443653,
+      "sha256": "33356fd0693e00bc307158e33f0af7b353a610c690115686cca64c7000d85b50"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_01.jpg": {
+      "bytes": 456592,
+      "sha256": "4e3cf5c72d8e9ea8457b89654cc59c5f1ad5f77fc73aa9e27fcfd6ab4f6babec"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_02.jpg": {
+      "bytes": 450994,
+      "sha256": "98e5ec829adb39952f7ad5f3e308fcdef4517862399b0024abf5fe26a4a1a5b4"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_03.jpg": {
+      "bytes": 454280,
+      "sha256": "a80ca07356668f9162b344a59aa5dba92eb4a34440bb6b70e4a6bed6c2c50451"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_04.jpg": {
+      "bytes": 461076,
+      "sha256": "5a1ab17c42c3700e622e6431e55c54d338752c95c3b0bea4fc541accfc03c989"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_05.jpg": {
+      "bytes": 459411,
+      "sha256": "82c9a142b858b8c3be4c58f79e5ca332c602173cec2e18ec5f8d1acb6bb782d3"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_06.jpg": {
+      "bytes": 463438,
+      "sha256": "831ea77ea93264f2e1ae88f82c86d608296ec46d5d099affc84625fcd41a552f"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_07.jpg": {
+      "bytes": 470249,
+      "sha256": "13ac160dcc3287a4d14988485cb9b18428314a1559044adc731694f0373af171"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_08.jpg": {
+      "bytes": 468171,
+      "sha256": "e89e847c83d966da3dc87d33e84a41aaec1c38f1e8e5e7b93f18c30b723feab1"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_09.jpg": {
+      "bytes": 471564,
+      "sha256": "8779d11f870051c59174ace23b5d477e8979d1073424c9bc3e91ce345c36cf83"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_10.jpg": {
+      "bytes": 474993,
+      "sha256": "348bbf3f0f0afcd1ffc4f8bd0fb5b2f7535d2339f0044767d7dfc6e56c03f9b8"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_11.jpg": {
+      "bytes": 465270,
+      "sha256": "2355f1bf466ef01e772385c5084d00732c2e0f3e4f04771853d796c0ac4e0396"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_12.jpg": {
+      "bytes": 437464,
+      "sha256": "c338ce5e308e1e082ecd5d00384b0d050f7f3427d9376cd4e9bed5ed644ee799"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_13.jpg": {
+      "bytes": 463310,
+      "sha256": "f5703165c759becd4c6ec3d5639ebfe51ac82976b40ad0c8e78089683bab8a1a"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_14.jpg": {
+      "bytes": 449629,
+      "sha256": "a7a836cc62c447974c6cd035d65e37a708ce156a73b3bf1ea844d49f12a1f68c"
+    },
+    "cctv_20261009/k_block_st20/videos/speed_example_15.jpg": {
+      "bytes": 449496,
+      "sha256": "eba7057152d128ae684fa8b4cbc9183d08e9cc76a67d6cddecde34fe3a9d1b6d"
+    },
+    "cctv_20261009/k_block_st20/videos/video_manifest.json": {
+      "bytes": 4725,
+      "sha256": "284d632130a80fd068d710c25986597fd9756d4ba1d8aceb29da01b0f22ca0dd"
+    },
+    "cctv_20261009/local_exports.json": {
+      "bytes": 772,
+      "sha256": "4f9f79c798efd9e18711fcd8b751a51db8e4636abc03fb749cb3154d6c334eaa"
+    },
+    "cctv_20261009/PATTERNS.md": {
+      "bytes": 8232,
+      "sha256": "1ebc3362aba2fe69559b6c672b49f49c4f1c4dea434ad2463a0677ecc311500f"
+    },
+    "cctv_20261009/pilot_history/commercial_initial_full_run/calibration.json": {
+      "bytes": 52884,
+      "sha256": "4afcdae5bba89aaf360a09e57638663ee1e86f5c7d064b2afae976a5cd4890aa"
+    },
+    "cctv_20261009/pilot_history/commercial_initial_full_run/README.md": {
+      "bytes": 230,
+      "sha256": "6c3c41c4389248d0cebdd25c63aac33fd6b287c8959b6505e7de7f8c3b931781"
+    },
+    "cctv_20261009/pilot_history/commercial_initial_full_run/speed_report.json": {
+      "bytes": 7560,
+      "sha256": "37254b625ce888ade6c6e433a521ff174aafef993f35399bfde7bd9f0277d352"
+    },
+    "cctv_20261009/pilot_history/commercial_initial_full_run/speed_samples.csv": {
+      "bytes": 562200,
+      "sha256": "1c3337856f8016657d95b6aff8500c97f344f8dad9b8f260fab7080fbcfbe9fe"
+    },
+    "cctv_20261009/pilot_history/commercial_initial_full_run/track_summary.json": {
+      "bytes": 74909,
+      "sha256": "5e609920eb6843e6690e8ee7bfd96f131a32f96bbb4a95a1ac79c05a81d7bcfc"
+    },
+    "cctv_20261009/pilot_history/commercial_initial_projective/calibration.json": {
+      "bytes": 54909,
+      "sha256": "d61e0f2e1823da36a9ed14714a02c6ae7a1aac148e2afa24b82463c0e24ebadd"
+    },
+    "cctv_20261009/pilot_history/k_block_initial_2_5fps/calibration.json": {
+      "bytes": 5585,
+      "sha256": "7948b80e3aaf75ce9d8e4baf673f9d90bad6a38f221e41b68820884deb06afa2"
+    },
+    "cctv_20261009/pilot_history/k_block_initial_2_5fps/inference_report.json": {
+      "bytes": 1078,
+      "sha256": "b19a4b89afef210702c98341f515560e3860418a0d7be31dc6ca6e0fcc997f9c"
+    },
+    "cctv_20261009/pilot_history/k_block_initial_2_5fps/observations.jsonl.gz": {
+      "bytes": 26346,
+      "sha256": "ec4cedd2b5699ec06501695c9d5a96aa3dd47c725ba2cac2d4126b68791c762a"
+    },
+    "cctv_20261009/pilot_history/k_block_initial_2_5fps/reference.jpg": {
+      "bytes": 1103963,
+      "sha256": "178158230bbdb298d7dabc29e75be2175b886dbf5c3cb8182239ba9e86c47054"
+    },
+    "cctv_20261009/pilot_history/k_block_initial_2_5fps/tracks.jsonl.gz": {
+      "bytes": 447871,
+      "sha256": "c4b2ab3c48bdf42853c98aaaaea82e683bbe99cf705cfbaa9b1fba98cdca6a42"
+    },
+    "cctv_20261009/provenance/commercial_cpu_reproduction_check.json": {
+      "bytes": 387,
+      "sha256": "1f0e47bb02ba961ad090265817f98cd1cf2e9c3ef1901c205372ab44b9379413"
+    },
+    "cctv_20261009/provenance/commercial_full_initial_runtime.json": {
+      "bytes": 912,
+      "sha256": "d106a25004cfc6b48a0d06f126fb28c4525ca9dc5e0ef36d7edacfe660a718d7"
+    },
+    "cctv_20261009/provenance/commercial_pilot_v1_runtime.json": {
+      "bytes": 453,
+      "sha256": "ca5be287ae0180a7fa00993363aa0ff2cc0069331b36f4c144b15dbeb07be42d"
+    },
+    "cctv_20261009/provenance/commercial_refined_runtime.json": {
+      "bytes": 1064,
+      "sha256": "31f3ad6e2b86fbd750871d11b8b2739612f8ae74fc671332acab1f4ab8d5be18"
+    },
+    "cctv_20261009/provenance/commercial_refined_unit_tests.json": {
+      "bytes": 1404,
+      "sha256": "6299879bc973067cd6391ad6663e5b66203afa481bd518000edcdc0fa72bfed2"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-full/calibrate_speed.py": {
+      "bytes": 18705,
+      "sha256": "52711385c2fe4532b92791d303669175ed8d03be6a772b1d25ae25729eff93c9"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-full/camera_cache.py": {
+      "bytes": 8938,
+      "sha256": "d8a79a5d1e7aa15a2d0436cf36af19a81e744565ce0ae52a42968c86fbbd5489"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-full/cctv_calibration.py": {
+      "bytes": 15911,
+      "sha256": "db379ccdbaba0f8a6f767fd3ffd8cfa41c0583afef8f24d1fbebba1ebac44c7f"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-full/cctv_camera_profiles.json": {
+      "bytes": 1996,
+      "sha256": "054a3d634a9b0122abfb9c2dd39a22eb874cf59b1d3de633f4ca55c45d37ffd3"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-full/cctv_inference.py": {
+      "bytes": 10232,
+      "sha256": "57f205bef6fae1dc814da83059c1153ad0fd4a52afa32e72a4d58a167c00e7fc"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-full/cctv_render.py": {
+      "bytes": 13096,
+      "sha256": "47caabb1598881080343ea2521cd6d0555c1fcd5dd224e42ff419f90402417ce"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-full/cctv_speed.py": {
+      "bytes": 10430,
+      "sha256": "e3095cc6dfcbd89f695cc417ae1431549390e8e7d5b0c936202cda6c48e1cd75"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-full/validation_inference.py": {
+      "bytes": 5569,
+      "sha256": "c178246f2bb524d528e43c8c19cdb7a9d4911ce6595e3c73c8ed99a8aed8b329"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-pilot/cctv_camera_profiles.json": {
+      "bytes": 1730,
+      "sha256": "c3b6f857886990ace7624fc1a3aa348dd5cff95139da647a0fc0d6fe0354cd49"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-pilot/cctv_inference.py": {
+      "bytes": 9680,
+      "sha256": "c5b0e13b12ec6470230ba3fcba08a86a202ae6ebfd2c1929537fe7a0156857e5"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-pilot/validation_inference.py": {
+      "bytes": 5569,
+      "sha256": "c178246f2bb524d528e43c8c19cdb7a9d4911ce6595e3c73c8ed99a8aed8b329"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-refined-report/calibrate_speed.py": {
+      "bytes": 18705,
+      "sha256": "52711385c2fe4532b92791d303669175ed8d03be6a772b1d25ae25729eff93c9"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-refined-report/camera_cache.py": {
+      "bytes": 8938,
+      "sha256": "d8a79a5d1e7aa15a2d0436cf36af19a81e744565ce0ae52a42968c86fbbd5489"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-refined-report/cctv_calibration.py": {
+      "bytes": 18470,
+      "sha256": "4780fb3e7fbff14b74c3b2cbfecf3569c806a30d07fdd1af6ff6fc091c254438"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-refined-report/cctv_camera_profiles.json": {
+      "bytes": 1996,
+      "sha256": "054a3d634a9b0122abfb9c2dd39a22eb874cf59b1d3de633f4ca55c45d37ffd3"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-refined-report/cctv_render.py": {
+      "bytes": 13443,
+      "sha256": "5dda72f867cfb966010c65c97d1400dfee2c76a6deed4089958b1053fbf9688b"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-refined-report/cctv_speed.py": {
+      "bytes": 10730,
+      "sha256": "94baf04bbfd2b3cf336508573804e8aa69ff062466f9efa97649dbf6b7187f30"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-refined-report/test_calibration_math.py": {
+      "bytes": 2731,
+      "sha256": "ff15feece1eaa4c931cab14ebc988fc8ea626735b38b668d70102d6bdf997317"
+    },
+    "cctv_20261009/provenance/fyp-cctv-commercial-refined-report/test_cctv.py": {
+      "bytes": 4383,
+      "sha256": "4109f0a4b381f4eac73ad633c5928dc735b65d09dabb49c852e781b21d8caa79"
+    },
+    "cctv_20261009/provenance/fyp-cctv-k-block-full/calibrate_speed.py": {
+      "bytes": 18705,
+      "sha256": "52711385c2fe4532b92791d303669175ed8d03be6a772b1d25ae25729eff93c9"
+    },
+    "cctv_20261009/provenance/fyp-cctv-k-block-full/camera_cache.py": {
+      "bytes": 8938,
+      "sha256": "d8a79a5d1e7aa15a2d0436cf36af19a81e744565ce0ae52a42968c86fbbd5489"
+    },
+    "cctv_20261009/provenance/fyp-cctv-k-block-full/cctv_calibration.py": {
+      "bytes": 18470,
+      "sha256": "4780fb3e7fbff14b74c3b2cbfecf3569c806a30d07fdd1af6ff6fc091c254438"
+    },
+    "cctv_20261009/provenance/fyp-cctv-k-block-full/cctv_camera_profiles.json": {
+      "bytes": 1996,
+      "sha256": "054a3d634a9b0122abfb9c2dd39a22eb874cf59b1d3de633f4ca55c45d37ffd3"
+    },
+    "cctv_20261009/provenance/fyp-cctv-k-block-full/cctv_inference.py": {
+      "bytes": 10232,
+      "sha256": "57f205bef6fae1dc814da83059c1153ad0fd4a52afa32e72a4d58a167c00e7fc"
+    },
+    "cctv_20261009/provenance/fyp-cctv-k-block-full/cctv_render.py": {
+      "bytes": 13443,
+      "sha256": "5dda72f867cfb966010c65c97d1400dfee2c76a6deed4089958b1053fbf9688b"
+    },
+    "cctv_20261009/provenance/fyp-cctv-k-block-full/cctv_speed.py": {
+      "bytes": 10730,
+      "sha256": "94baf04bbfd2b3cf336508573804e8aa69ff062466f9efa97649dbf6b7187f30"
+    },
+    "cctv_20261009/provenance/fyp-cctv-k-block-full/validation_inference.py": {
+      "bytes": 5569,
+      "sha256": "c178246f2bb524d528e43c8c19cdb7a9d4911ce6595e3c73c8ed99a8aed8b329"
+    },
+    "cctv_20261009/provenance/fyp-cctv-k-block-pilot/cctv_camera_profiles.json": {
+      "bytes": 1996,
+      "sha256": "054a3d634a9b0122abfb9c2dd39a22eb874cf59b1d3de633f4ca55c45d37ffd3"
+    },
+    "cctv_20261009/provenance/fyp-cctv-k-block-pilot/cctv_inference.py": {
+      "bytes": 10232,
+      "sha256": "57f205bef6fae1dc814da83059c1153ad0fd4a52afa32e72a4d58a167c00e7fc"
+    },
+    "cctv_20261009/provenance/fyp-cctv-k-block-pilot/validation_inference.py": {
+      "bytes": 5569,
+      "sha256": "c178246f2bb524d528e43c8c19cdb7a9d4911ce6595e3c73c8ed99a8aed8b329"
+    },
+    "cctv_20261009/provenance/k_block_full_runtime.json": {
+      "bytes": 908,
+      "sha256": "5c830d44e46a19d3899c2ea3145ffe2fe4df56cea0f38d124e55b1560c489486"
+    },
+    "cctv_20261009/provenance/k_block_pilot_v1_runtime.json": {
+      "bytes": 449,
+      "sha256": "9b7d5cfa3dd79da02db5175a9792013ad373d08c9d3f1edae63140d2202a22dd"
+    },
+    "cctv_20261009/provenance/k_block_pilot_v2_runtime.json": {
+      "bytes": 449,
+      "sha256": "c662fecedc1e9f834dc834ddbc7091c8c397de02e69b3a70b613b4737613ab0f"
+    },
+    "cctv_20261009/provenance/kaggle_jobs.json": {
+      "bytes": 4978,
+      "sha256": "7025e2b99db69d93b491f6d7cde87f31c857aa2bd145098e467ba71d41a7ffbf"
+    },
+    "cctv_20261009/provenance/local_commercial_render.json": {
+      "bytes": 822,
+      "sha256": "a8a5638f3de40ea50dbc12db5212f7f8e183c0ecfa197cfc1add1424fd21176f"
+    },
+    "cctv_20261009/provenance/local_commercial_renderer/cctv_render.py": {
+      "bytes": 13848,
+      "sha256": "13a8bfe53c6655841c316f9c54667ff4be464ae68af1c39380890f29d7b83956"
+    },
+    "cctv_20261009/provenance/local_unit_tests.json": {
+      "bytes": 1359,
+      "sha256": "2cbcc0c7ba8c59372f174e90303c3c8aecb870b6669924c867b409a1875b699a"
+    },
+    "cctv_20261009/README.md": {
+      "bytes": 2877,
+      "sha256": "6a7c128e32f16e162cdad776f2506c823441dde7fb6a80a8066e9446d2f60e73"
+    },
+    "cctv_20261009/source_inventory.json": {
+      "bytes": 750,
+      "sha256": "bbe6a2337c393cf125fee5f3d1b8fa36ea9befe3a0ea3466d93ab41b07e6faa9"
+    },
+    "cctv_20261009/verification.json": {
+      "bytes": 6158,
+      "sha256": "2fa019904622e5e8968097c6f1a3ca0e1a976c9dba9925b768c4d87e3f86744c"
     },
     "experimental_speed_preview.mp4": {
       "bytes": 9871524,
@@ -7199,8 +7970,8 @@
       "sha256": "46948483da8bba6f676f1b3c766ac1f80033c4938d3c94a656d59dd2d6898fa0"
     },
     "README.md": {
-      "bytes": 5477,
-      "sha256": "a66bcb0366fcfc416965a6a16e19d45d239f09421e546efc50d22baf383d5b94"
+      "bytes": 5992,
+      "sha256": "def6edd7f106ccb42cf5c9ec106f5f8b8a00806197281175399b372272613ff0"
     },
     "render_report.json": {
       "bytes": 315,
@@ -7387,5 +8158,44 @@
     "report": "kia_validation/README.md",
     "checks": "kia_validation/artifact_verification.json",
     "patterns": "kia_validation/PATTERNS.md"
+  },
+  "cctv_real_recordings": {
+    "report": "cctv_20261009/README.md",
+    "total_source_frames": 187641,
+    "total_duration_s": 8482.05,
+    "cameras": [
+      {
+        "camera_id": "commercial_ii_01",
+        "display_name": "Commercial II-01",
+        "duration_s": 3600.0,
+        "source_fps": 25.0,
+        "source_frames": 90000,
+        "source_sha256": "8e4437807fcae7c56f69e6cd55f04374d71e708630afbdfc811b1f192e10beee",
+        "calibration_duration_s": 600,
+        "car_tracks_with_speed": 306,
+        "speed_samples": 3195,
+        "speed_segments": 6,
+        "all_sampled_views_consistent": true
+      },
+      {
+        "camera_id": "k_block_st20",
+        "display_name": "K Block St 20 opposite side",
+        "duration_s": 4882.05,
+        "source_fps": 20.0,
+        "source_frames": 97641,
+        "source_sha256": "bc71067c55f50e21a39da6037617f418282fde1be2bb4d2fe47c6f52525fd5d2",
+        "calibration_duration_s": 300,
+        "car_tracks_with_speed": 355,
+        "speed_samples": 3739,
+        "speed_segments": 9,
+        "all_sampled_views_consistent": true
+      }
+    ],
+    "all_output_frames_decoded": true,
+    "unit_tests_passed": true,
+    "accuracy_validated": false,
+    "known_speeds_used": false,
+    "source_dataset": "hayyanfaisal/fyp-cctv-october2026-two-cameras",
+    "source_dataset_private": true
   }
 }

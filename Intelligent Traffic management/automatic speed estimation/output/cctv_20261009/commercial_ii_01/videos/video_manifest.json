@@ -1,0 +1,170 @@
+{
+  "camera_id": "commercial_ii_01",
+  "source_sha256": "8e4437807fcae7c56f69e6cd55f04374d71e708630afbdfc811b1f192e10beee",
+  "source_frames": 90000,
+  "speed_rendered_frames": 90000,
+  "calibration_rendered_frames": 15000,
+  "source_fps": 25.0,
+  "output_resolution": [
+    1280,
+    720
+  ],
+  "audio_included": false,
+  "files": [
+    {
+      "file": "calibration.mp4",
+      "bytes": 57061203,
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "25/1",
+      "duration": "600.000000",
+      "nb_frames": "15000"
+    },
+    {
+      "file": "speed_00.mp4",
+      "bytes": 55200202,
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "25/1",
+      "duration": "600.000000",
+      "nb_frames": "15000"
+    },
+    {
+      "file": "speed_01.mp4",
+      "bytes": 60912598,
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "25/1",
+      "duration": "600.000000",
+      "nb_frames": "15000"
+    },
+    {
+      "file": "speed_02.mp4",
+      "bytes": 53765719,
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "25/1",
+      "duration": "600.000000",
+      "nb_frames": "15000"
+    },
+    {
+      "file": "speed_03.mp4",
+      "bytes": 56042282,
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "25/1",
+      "duration": "600.000000",
+      "nb_frames": "15000"
+    },
+    {
+      "file": "speed_04.mp4",
+      "bytes": 60153658,
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "25/1",
+      "duration": "600.000000",
+      "nb_frames": "15000"
+    },
+    {
+      "file": "speed_05.mp4",
+      "bytes": 62802448,
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "25/1",
+      "duration": "600.000000",
+      "nb_frames": "15000"
+    }
+  ],
+  "video_covers_entire_source": true,
+  "segment_duration_s": 600,
+  "render_source_sha256": "13a8bfe53c6655841c316f9c54667ff4be464ae68af1c39380890f29d7b83956",
+  "encoder": "h264_nvenc",
+  "encoder_quality": "NVENC VBR CQ 28, preset p5",
+  "frames_with_metric_labels": 28308,
+  "labelled_car_tracks": 306,
+  "examples": [
+    {
+      "time_s": 0.88,
+      "file": "speed_example_00.jpg",
+      "labels": 1
+    },
+    {
+      "time_s": 300.88,
+      "file": "speed_example_01.jpg",
+      "labels": 4
+    },
+    {
+      "time_s": 631.28,
+      "file": "speed_example_02.jpg",
+      "labels": 1
+    },
+    {
+      "time_s": 942.88,
+      "file": "speed_example_03.jpg",
+      "labels": 1
+    },
+    {
+      "time_s": 1254.88,
+      "file": "speed_example_04.jpg",
+      "labels": 1
+    },
+    {
+      "time_s": 1568.88,
+      "file": "speed_example_05.jpg",
+      "labels": 1
+    },
+    {
+      "time_s": 1868.88,
+      "file": "speed_example_06.jpg",
+      "labels": 1
+    },
+    {
+      "time_s": 2168.88,
+      "file": "speed_example_07.jpg",
+      "labels": 1
+    },
+    {
+      "time_s": 2468.88,
+      "file": "speed_example_08.jpg",
+      "labels": 1
+    },
+    {
+      "time_s": 2768.88,
+      "file": "speed_example_09.jpg",
+      "labels": 1
+    },
+    {
+      "time_s": 3077.68,
+      "file": "speed_example_10.jpg",
+      "labels": 1
+    },
+    {
+      "time_s": 3410.88,
+      "file": "speed_example_11.jpg",
+      "labels": 1
+    }
+  ],
+  "calibration_regions": [
+    {
+      "region": "left_carriageway",
+      "support_world_span_m": [
+        9.2465502496166,
+        68.11551306926623
+      ],
+      "calibration_s": 300,
+      "car_tracks": 14
+    },
+    {
+      "region": "right_carriageway",
+      "support_world_span_m": [
+        11.081833199523407,
+        56.482368874666
+      ],
+      "calibration_s": 600,
+      "car_tracks": 21
+    }
+  ],
+  "calibration_video_note": "Offline replay shows the final mapping fitted from the selected initial interval.",
+  "speeds_note": "Only qualified car footprints receive a metric label; grey tracks lack a qualified speed.",
+  "accuracy_validated": false
+}

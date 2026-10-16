@@ -1,0 +1,58 @@
+[
+  {
+    "camera": "commercial_ii_01",
+    "region": "left_carriageway",
+    "calibration_end_s": 300,
+    "later_tracks": 41,
+    "later_observations": 447,
+    "later_quality": {
+      "angle_error_deg": 4.6244873652609115,
+      "shape_log_error": 0.1416327789872175,
+      "length_relative_mad": 0.0991050090507264,
+      "typical_car_dimension_log_error": 0.1307347680395477,
+      "score": 9.33026301654309
+    }
+  },
+  {
+    "camera": "commercial_ii_01",
+    "region": "right_carriageway",
+    "calibration_end_s": 600,
+    "later_tracks": 13,
+    "later_observations": 192,
+    "later_quality": {
+      "angle_error_deg": 3.2715805523653394,
+      "shape_log_error": 0.12519713495453383,
+      "length_relative_mad": 0.14927969030868235,
+      "typical_car_dimension_log_error": 0.10945205439142675,
+      "score": 8.603666251998591
+    }
+  },
+  {
+    "camera": "k_block_st20",
+    "region": "near_approach",
+    "calibration_end_s": 300,
+    "later_tracks": 19,
+    "later_observations": 181,
+    "later_quality": {
+      "angle_error_deg": 6.312306244807038,
+      "shape_log_error": 0.2865265284241517,
+      "length_relative_mad": 0.16050599972169813,
+      "typical_car_dimension_log_error": 0.2509014680885086,
+      "score": 14.896706204367606
+    }
+  },
+  {
+    "camera": "k_block_st20",
+    "region": "cross_street",
+    "calibration_end_s": 300,
+    "later_tracks": 11,
+    "later_observations": 134,
+    "later_quality": {
+      "angle_error_deg": 5.154796753675512,
+      "shape_log_error": 0.14250754955283262,
+      "length_relative_mad": 0.1103507081741374,
+      "typical_car_dimension_log_error": 0.17942095785516599,
+      "score": 10.581095991238248
+    }
+  }
+]

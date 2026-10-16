@@ -1,0 +1,12 @@
+{
+  "camera_id": "commercial_ii_01",
+  "torch": "2.11.0+cu128",
+  "opencv": "4.14.0",
+  "ultralytics": "8.4.175",
+  "gpu": "Tesla T4",
+  "source_sha256": {
+    "cctv_inference.py": "c5b0e13b12ec6470230ba3fcba08a86a202ae6ebfd2c1929537fe7a0156857e5",
+    "cctv_camera_profiles.json": "c3b6f857886990ace7624fc1a3aa348dd5cff95139da647a0fc0d6fe0354cd49",
+    "validation_inference.py": "c178246f2bb524d528e43c8c19cdb7a9d4911ce6595e3c73c8ed99a8aed8b329"
+  }
+}

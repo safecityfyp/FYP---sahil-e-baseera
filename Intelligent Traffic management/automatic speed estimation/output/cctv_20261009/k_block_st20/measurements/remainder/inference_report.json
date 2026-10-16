@@ -1,0 +1,38 @@
+{
+  "camera_id": "k_block_st20",
+  "source_video": "D02_20261009160351.mp4",
+  "source_sha256": "bc71067c55f50e21a39da6037617f418282fde1be2bb4d2fe47c6f52525fd5d2",
+  "width": 1920,
+  "height": 1080,
+  "fps": 20.0,
+  "frames_reported": 97641,
+  "frames_decoded": 97641,
+  "expected_decoded_frames": 97641,
+  "decode_complete": true,
+  "start_s": 900.0,
+  "stop_s": 4882.05,
+  "timestamps": "Monotonic container PTS checked against frame/FPS; fallback when inconsistent",
+  "timestamp_fallback_frames": 0,
+  "detection_hz": 10,
+  "geometry_hz": 10,
+  "ground_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "ground_order_vote_agreement": 1.0,
+  "model_sha256": "9aa55280a5ef1c9d89c0acb5baeb974b90fbdf3c1deead1413b24d7af249226d",
+  "model_revision": "2701a2eec9a73afb5ffd852740d125dfcd065ce5",
+  "model_file": "checkpoints/urbanomnidetect_yolo11x-p2_1920.pt",
+  "counts": {
+    "detection_frames": 39821,
+    "track_rows": 47936,
+    "geometry_frames": 6435,
+    "observations": 6137
+  },
+  "runtime_s": 2236.286003009,
+  "known_speeds_used": false,
+  "benchmark_vehicle_scales_used": false,
+  "id_reset_at_resume_s": 900.0
+}

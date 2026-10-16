@@ -1,0 +1,12 @@
+{
+  "camera_id": "k_block_st20",
+  "torch": "2.11.0+cu128",
+  "opencv": "4.14.0",
+  "ultralytics": "8.4.175",
+  "gpu": "Tesla T4",
+  "source_sha256": {
+    "cctv_inference.py": "57f205bef6fae1dc814da83059c1153ad0fd4a52afa32e72a4d58a167c00e7fc",
+    "cctv_camera_profiles.json": "054a3d634a9b0122abfb9c2dd39a22eb874cf59b1d3de633f4ca55c45d37ffd3",
+    "validation_inference.py": "c178246f2bb524d528e43c8c19cdb7a9d4911ce6595e3c73c8ed99a8aed8b329"
+  }
+}

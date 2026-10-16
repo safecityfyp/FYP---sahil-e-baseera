@@ -1,0 +1,2108 @@
+{
+  "schema_version": 2,
+  "camera_id": "commercial_ii_01",
+  "source_video": "NVR_ch6_main_20261009170002_20261009180000.mp4",
+  "source_sha256": "8e4437807fcae7c56f69e6cd55f04374d71e708630afbdfc811b1f192e10beee",
+  "width": 1920,
+  "height": 1080,
+  "fps": 25.0,
+  "profile": {
+    "display_name": "Commercial II-01",
+    "video": "NVR_ch6_main_20261009170002_20261009180000.mp4",
+    "sha256": "8e4437807fcae7c56f69e6cd55f04374d71e708630afbdfc811b1f192e10beee",
+    "regions": {
+      "left_carriageway": [
+        [
+          0,
+          0.85
+        ],
+        [
+          0.3,
+          0.52
+        ],
+        [
+          0.43,
+          0.41
+        ],
+        [
+          0.44,
+          0.53
+        ],
+        [
+          0.43,
+          0.68
+        ],
+        [
+          0.56,
+          0.715
+        ],
+        [
+          0.57,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "right_carriageway": [
+        [
+          0.57,
+          0.415
+        ],
+        [
+          0.65,
+          0.43
+        ],
+        [
+          0.75,
+          0.52
+        ],
+        [
+          0.98,
+          0.78
+        ],
+        [
+          1,
+          0.92
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0.57,
+          1
+        ],
+        [
+          0.57,
+          0.715
+        ],
+        [
+          0.56,
+          0.6
+        ],
+        [
+          0.535,
+          0.45
+        ]
+      ]
+    },
+    "limitations": "Downhill surface approximated by a separate local plane per carriageway. Parking and the median are excluded by region and motion filters."
+  },
+  "profile_sha256": "054a3d634a9b0122abfb9c2dd39a22eb874cf59b1d3de633f4ca55c45d37ffd3",
+  "regions": {
+    "left_carriageway": {
+      "accepted": true,
+      "reason": "Passed internal geometry and subset-stability checks",
+      "method": "projective_metric",
+      "track_ids": [
+        94,
+        106,
+        1140,
+        1181,
+        1253,
+        1357,
+        1419,
+        1439,
+        1610,
+        1725,
+        2016,
+        2063,
+        2068,
+        2078
+      ],
+      "observations": 160,
+      "held_out_track_ids": [
+        94,
+        1253,
+        1610,
+        2068
+      ],
+      "candidate_comparison": [
+        {
+          "method": "affine",
+          "diagnostics": {
+            "optimizer_success": true,
+            "parameter_condition_number": 3.6985973658308295
+          },
+          "fit_quality": {
+            "angle_error_deg": 8.862458631539392,
+            "shape_log_error": 0.46743638071560834,
+            "length_relative_mad": 0.9302449441171158,
+            "typical_car_dimension_log_error": 0.5365328329148111,
+            "score": 37.507049650185905
+          },
+          "held_quality": {
+            "angle_error_deg": 7.580180372003341,
+            "shape_log_error": 0.44571269519371254,
+            "length_relative_mad": 0.9308309583867733,
+            "typical_car_dimension_log_error": 0.5831478740439711,
+            "score": 36.48540523211564
+          },
+          "score": 40.23611019713423
+        },
+        {
+          "method": "projective",
+          "diagnostics": {
+            "fit_track_ids": [
+              106,
+              1140,
+              1181,
+              1357,
+              1419,
+              1439,
+              1725,
+              2016,
+              2063,
+              2078
+            ],
+            "fit_observations": 91,
+            "median_angle_error_deg": 5.176476811353345,
+            "median_length_m": 4.494236029159865,
+            "median_width_m": 2.1236321358483625,
+            "parameter_condition_number": 12.679772285373732,
+            "optimizer_success": true,
+            "theta": [
+              0.1331669068936797,
+              4.644116440729567,
+              -2.0371928829146495,
+              0.14670425081394659
+            ],
+            "dimension_prior_length_m": 4.5,
+            "dimension_prior_width_m": 1.8
+          },
+          "fit_quality": {
+            "angle_error_deg": 4.747385210337544,
+            "shape_log_error": 0.18598626613851485,
+            "length_relative_mad": 0.07648434239926638,
+            "typical_car_dimension_log_error": 0.16831627423481,
+            "score": 9.820097462056122
+          },
+          "held_quality": {
+            "angle_error_deg": 4.586429398641359,
+            "shape_log_error": 0.1727056828149447,
+            "length_relative_mad": 0.1663300826164033,
+            "typical_car_dimension_log_error": 0.1526540410299126,
+            "score": 11.166628289418
+          },
+          "score": 12.148638035623613
+        },
+        {
+          "method": "projective_metric",
+          "diagnostics": {
+            "optimizer_success": true,
+            "parameter_condition_number": 10.284084863828426,
+            "soft_dimension_prior_m": {
+              "length": 4.5,
+              "width": 1.8
+            },
+            "prior_weight": 0.4
+          },
+          "fit_quality": {
+            "angle_error_deg": 5.074232303640947,
+            "shape_log_error": 0.16338890014839647,
+            "length_relative_mad": 0.06655341643104888,
+            "typical_car_dimension_log_error": 0.1418188741628441,
+            "score": 9.457378375374331
+          },
+          "held_quality": {
+            "angle_error_deg": 4.705466985288984,
+            "shape_log_error": 0.17187428350170214,
+            "length_relative_mad": 0.16378212569472567,
+            "typical_car_dimension_log_error": 0.11631050983222421,
+            "score": 10.86295743252276
+          },
+          "score": 11.808695270060193
+        }
+      ],
+      "quality": {
+        "angle_error_deg": 4.936430897729392,
+        "shape_log_error": 0.15673049699931713,
+        "length_relative_mad": 0.09590681329382048,
+        "typical_car_dimension_log_error": 0.13095673878239592,
+        "score": 9.731439521422931
+      },
+      "selected_held_quality": {
+        "angle_error_deg": 4.705466985288984,
+        "shape_log_error": 0.17187428350170214,
+        "length_relative_mad": 0.16378212569472567,
+        "typical_car_dimension_log_error": 0.11631050983222421,
+        "score": 10.86295743252276
+      },
+      "subset_scale_changes": [
+        0.006789244532812322,
+        0.0071860549979392285,
+        0.015468168360330548,
+        0.006556742789089298,
+        0.012563164357716483,
+        0.011540576430339067
+      ],
+      "subset_scale_change_p90": 0.014015666359023515,
+      "H_image_to_experimental_meters": [
+        [
+          0.019954393216579394,
+          0.02101702902610296,
+          -25.76146086836149
+        ],
+        [
+          0.0,
+          0.161785080296103,
+          -100.30674978358385
+        ],
+        [
+          0.000125827107517642,
+          0.004865999634798504,
+          -2.0971974681713283
+        ]
+      ],
+      "alternative_mappings": [
+        [
+          [
+            0.020224471105394007,
+            0.02253357726681017,
+            -27.045659732885856
+          ],
+          [
+            0.0,
+            0.1697905157662958,
+            -104.50606245415507
+          ],
+          [
+            0.00012145511384338174,
+            0.004951601489091399,
+            -2.1268387232047195
+          ]
+        ],
+        [
+          [
+            0.019691548233026893,
+            0.020255695220553434,
+            -24.970398641330263
+          ],
+          [
+            0.0,
+            0.15613535031427708,
+            -97.15522173305892
+          ],
+          [
+            0.00013714489699520713,
+            0.004873506957902573,
+            -2.118666699867866
+          ]
+        ],
+        [
+          [
+            0.01912933768700769,
+            0.016794042803025898,
+            -22.96137554986068
+          ],
+          [
+            0.0,
+            0.15518012171798196,
+            -96.83239595202075
+          ],
+          [
+            0.00010805452584356828,
+            0.004826292941182989,
+            -2.082112373411113
+          ]
+        ],
+        [
+          [
+            0.02017668178069122,
+            0.022403689386170565,
+            -26.51751629939739
+          ],
+          [
+            0.0,
+            0.16063834002129732,
+            -99.7162495682203
+          ],
+          [
+            0.0001310754269638071,
+            0.004864943940663296,
+            -2.101836093019121
+          ]
+        ],
+        [
+          [
+            0.01993372650037334,
+            0.02041366257446105,
+            -25.19100117346081
+          ],
+          [
+            0.0,
+            0.15493163389422585,
+            -96.44494209915558
+          ],
+          [
+            0.0001407889766790959,
+            0.004872649177880673,
+            -2.121393209876002
+          ]
+        ],
+        [
+          [
+            0.019570001753260683,
+            0.018712468500467164,
+            -24.03014395103732
+          ],
+          [
+            0.0,
+            0.1532493450267139,
+            -95.62759129666946
+          ],
+          [
+            0.00012585050436861355,
+            0.004886157756811775,
+            -2.1284055711332353
+          ]
+        ],
+        [
+          [
+            0.015963514573263515,
+            0.016813623220882368,
+            -20.609168694689192
+          ],
+          [
+            0.0,
+            0.1294280642368824,
+            -80.24539982686709
+          ],
+          [
+            0.000125827107517642,
+            0.004865999634798504,
+            -2.0971974681713283
+          ]
+        ],
+        [
+          [
+            0.023945271859895274,
+            0.02522043483132355,
+            -30.913753042033786
+          ],
+          [
+            0.0,
+            0.1941420963553236,
+            -120.36809974030062
+          ],
+          [
+            0.000125827107517642,
+            0.004865999634798504,
+            -2.0971974681713283
+          ]
+        ]
+      ],
+      "support_hull_image": [
+        [
+          852.0,
+          516.5
+        ],
+        [
+          848.5,
+          536.5
+        ],
+        [
+          843.0,
+          556.5
+        ],
+        [
+          838.5,
+          567.0
+        ],
+        [
+          825.0,
+          594.5
+        ],
+        [
+          809.0,
+          624.5
+        ],
+        [
+          732.0,
+          752.0
+        ],
+        [
+          684.0,
+          820.0
+        ],
+        [
+          598.0,
+          906.0
+        ],
+        [
+          449.0,
+          1028.0
+        ],
+        [
+          210.5,
+          1013.0
+        ],
+        [
+          18.9375,
+          898.0
+        ],
+        [
+          129.75,
+          816.0
+        ],
+        [
+          531.5,
+          554.5
+        ],
+        [
+          665.0,
+          512.5
+        ],
+        [
+          692.5,
+          506.75
+        ],
+        [
+          726.0,
+          501.5
+        ],
+        [
+          781.5,
+          498.75
+        ],
+        [
+          839.0,
+          499.0
+        ]
+      ],
+      "diagnostics": {
+        "optimizer_success": true,
+        "parameter_condition_number": 10.493871550527585,
+        "soft_dimension_prior_m": {
+          "length": 4.5,
+          "width": 1.8
+        },
+        "prior_weight": 0.4
+      },
+      "dimension_prior_m": {
+        "length": 4.5,
+        "width": 1.8
+      },
+      "interpretation": "Experimental metric scale from unknown passenger-car dimensions; accuracy unvalidated",
+      "calibration_end_s": 300,
+      "scale_change_from_previous_window": null,
+      "selection_reason": "Enough independent cars and stable subsets"
+    },
+    "right_carriageway": {
+      "accepted": true,
+      "reason": "Passed internal geometry and subset-stability checks",
+      "method": "projective_metric",
+      "track_ids": [
+        4,
+        722,
+        1248,
+        1321,
+        1445,
+        1495,
+        1809,
+        2030,
+        2033,
+        2106,
+        2195,
+        2338,
+        2376,
+        2393,
+        2751,
+        2938,
+        3099,
+        3189,
+        3772,
+        3833,
+        3974
+      ],
+      "observations": 294,
+      "held_out_track_ids": [
+        4,
+        1445,
+        2033,
+        2376,
+        3099,
+        3974
+      ],
+      "candidate_comparison": [
+        {
+          "method": "affine",
+          "diagnostics": {
+            "optimizer_success": true,
+            "parameter_condition_number": 2.868293607514984
+          },
+          "fit_quality": {
+            "angle_error_deg": 3.8732205852747867,
+            "shape_log_error": 0.3674138145352466,
+            "length_relative_mad": 0.699046325232229,
+            "typical_car_dimension_log_error": 0.5327962085357948,
+            "score": 26.856247320629777
+          },
+          "held_quality": {
+            "angle_error_deg": 4.265405644374754,
+            "shape_log_error": 0.4534947929603537,
+            "length_relative_mad": 0.8846335839257171,
+            "typical_car_dimension_log_error": 0.5387461548987941,
+            "score": 31.880486801480576
+          },
+          "score": 34.566111533543555
+        },
+        {
+          "method": "projective",
+          "diagnostics": {
+            "fit_track_ids": [
+              722,
+              1248,
+              1321,
+              1495,
+              1809,
+              2030,
+              2106,
+              2195,
+              2338,
+              2393,
+              2751,
+              2938,
+              3189,
+              3772,
+              3833
+            ],
+            "fit_observations": 136,
+            "median_angle_error_deg": 3.5380010333763074,
+            "median_length_m": 4.339620130481659,
+            "median_width_m": 2.059518781094558,
+            "parameter_condition_number": 19.288652474461482,
+            "optimizer_success": true,
+            "theta": [
+              -0.07932528238241274,
+              5.310708267590791,
+              -2.0684101758871556,
+              -0.10580415582741257
+            ],
+            "dimension_prior_length_m": 4.5,
+            "dimension_prior_width_m": 1.8
+          },
+          "fit_quality": {
+            "angle_error_deg": 3.4450519188382858,
+            "shape_log_error": 0.18381298949775815,
+            "length_relative_mad": 0.12012034504517026,
+            "typical_car_dimension_log_error": 0.1570483000476205,
+            "score": 9.256071715195477
+          },
+          "held_quality": {
+            "angle_error_deg": 2.41706858282856,
+            "shape_log_error": 0.10613433648117182,
+            "length_relative_mad": 0.1379853163593665,
+            "typical_car_dimension_log_error": 0.20597082490599852,
+            "score": 8.297826523887593
+          },
+          "score": 9.223433695407142
+        },
+        {
+          "method": "projective_metric",
+          "diagnostics": {
+            "optimizer_success": true,
+            "parameter_condition_number": 15.218206664633907,
+            "soft_dimension_prior_m": {
+              "length": 4.5,
+              "width": 1.8
+            },
+            "prior_weight": 0.4
+          },
+          "fit_quality": {
+            "angle_error_deg": 3.4930479643138463,
+            "shape_log_error": 0.15402489020772892,
+            "length_relative_mad": 0.10159421464467354,
+            "typical_car_dimension_log_error": 0.1374025743860498,
+            "score": 8.439206903145104
+          },
+          "held_quality": {
+            "angle_error_deg": 2.41198734660935,
+            "shape_log_error": 0.0822608024011452,
+            "length_relative_mad": 0.12040468745434574,
+            "typical_car_dimension_log_error": 0.17276579039283835,
+            "score": 7.3703470236361
+          },
+          "score": 8.21426771395061
+        }
+      ],
+      "quality": {
+        "angle_error_deg": 2.9933019202707305,
+        "shape_log_error": 0.12783293016463,
+        "length_relative_mad": 0.1109555754643043,
+        "typical_car_dimension_log_error": 0.14246177053746328,
+        "score": 7.915360436577749
+      },
+      "selected_held_quality": {
+        "angle_error_deg": 2.41198734660935,
+        "shape_log_error": 0.0822608024011452,
+        "length_relative_mad": 0.12040468745434574,
+        "typical_car_dimension_log_error": 0.17276579039283835,
+        "score": 7.3703470236361
+      },
+      "subset_scale_changes": [
+        0.021227741116585153,
+        0.010645869655800722,
+        0.01956593790990696,
+        0.016578452299704838,
+        0.032669062487055145,
+        0.02368157804924642
+      ],
+      "subset_scale_change_p90": 0.028175320268150783,
+      "H_image_to_experimental_meters": [
+        [
+          0.021265692525899955,
+          -0.013483779861137428,
+          -18.090883135219595
+        ],
+        [
+          0.0,
+          0.16140446714835383,
+          -94.26020881463863
+        ],
+        [
+          -7.668667987703244e-05,
+          0.004918142222495972,
+          -1.7785606218077907
+        ]
+      ],
+      "alternative_mappings": [
+        [
+          [
+            0.021316885068620194,
+            -0.015328279265234388,
+            -17.3056607121555
+          ],
+          [
+            0.0,
+            0.1534539583551168,
+            -90.30765449198624
+          ],
+          [
+            -7.350096133343688e-05,
+            0.004706711840345987,
+            -1.6791262307968187
+          ]
+        ],
+        [
+          [
+            0.02203320891257972,
+            -0.01503708578389146,
+            -18.199312265069402
+          ],
+          [
+            0.0,
+            0.16746873696450418,
+            -97.17373462365354
+          ],
+          [
+            -8.748347855834504e-05,
+            0.005037449016343738,
+            -1.8160749809351566
+          ]
+        ],
+        [
+          [
+            0.022413594036786402,
+            -0.016438174259129284,
+            -17.988275861546022
+          ],
+          [
+            0.0,
+            0.19043224593271954,
+            -108.26073181275106
+          ],
+          [
+            -8.434727808688351e-05,
+            0.005246652534640809,
+            -1.8798604603163453
+          ]
+        ],
+        [
+          [
+            0.022460280803443807,
+            -0.017526874696728804,
+            -17.63693018596553
+          ],
+          [
+            0.0,
+            0.17584333234183652,
+            -100.6703077657014
+          ],
+          [
+            -8.460782200374643e-05,
+            0.005209072155193425,
+            -1.87795697213962
+          ]
+        ],
+        [
+          [
+            0.02147742979294304,
+            -0.016487751879352936,
+            -16.9236561417132
+          ],
+          [
+            0.0,
+            0.1630051001513062,
+            -94.17619661241717
+          ],
+          [
+            -7.615746136981727e-05,
+            0.005017750296283269,
+            -1.8052173200007289
+          ]
+        ],
+        [
+          [
+            0.02104137059636236,
+            -0.013892563054236518,
+            -17.694895579831837
+          ],
+          [
+            0.0,
+            0.14723202530103585,
+            -86.97731894658693
+          ],
+          [
+            -7.331889676680973e-05,
+            0.004585308121701869,
+            -1.6185152109754362
+          ]
+        ],
+        [
+          [
+            0.017012554020719963,
+            -0.010787023888909944,
+            -14.472706508175676
+          ],
+          [
+            0.0,
+            0.12912357371868308,
+            -75.4081670517109
+          ],
+          [
+            -7.668667987703244e-05,
+            0.004918142222495972,
+            -1.7785606218077907
+          ]
+        ],
+        [
+          [
+            0.025518831031079946,
+            -0.016180535833364915,
+            -21.709059762263514
+          ],
+          [
+            0.0,
+            0.19368536057802457,
+            -113.11225057756636
+          ],
+          [
+            -7.668667987703244e-05,
+            0.004918142222495972,
+            -1.7785606218077907
+          ]
+        ]
+      ],
+      "support_hull_image": [
+        [
+          1876.0,
+          908.5
+        ],
+        [
+          1872.0,
+          1041.0
+        ],
+        [
+          1691.0,
+          1054.0
+        ],
+        [
+          1372.0,
+          1073.0
+        ],
+        [
+          1021.5,
+          1069.0
+        ],
+        [
+          862.0,
+          995.5
+        ],
+        [
+          887.5,
+          931.0
+        ],
+        [
+          1059.0,
+          516.0
+        ],
+        [
+          1073.0,
+          486.75
+        ],
+        [
+          1137.0,
+          481.5
+        ],
+        [
+          1147.0,
+          481.25
+        ],
+        [
+          1194.0,
+          481.5
+        ],
+        [
+          1302.0,
+          491.5
+        ],
+        [
+          1393.0,
+          519.5
+        ],
+        [
+          1647.0,
+          651.5
+        ],
+        [
+          1703.0,
+          682.0
+        ],
+        [
+          1707.0,
+          684.5
+        ]
+      ],
+      "diagnostics": {
+        "optimizer_success": true,
+        "parameter_condition_number": 13.795047090739201,
+        "soft_dimension_prior_m": {
+          "length": 4.5,
+          "width": 1.8
+        },
+        "prior_weight": 0.4
+      },
+      "dimension_prior_m": {
+        "length": 4.5,
+        "width": 1.8
+      },
+      "interpretation": "Experimental metric scale from unknown passenger-car dimensions; accuracy unvalidated",
+      "calibration_end_s": 600,
+      "scale_change_from_previous_window": 0.04500886306404789,
+      "selection_reason": "Enough independent cars and stable subsets"
+    }
+  },
+  "window_comparison": [
+    {
+      "end_s": 300,
+      "filters": {
+        "degenerate_quad": 49,
+        "low_confidence": 20,
+        "clipped": 10,
+        "outside_road": 1,
+        "stationary_or_short_track_observations": 11,
+        "accepted_observations": 291,
+        "accepted_tracks": 23
+      },
+      "regions": {
+        "left_carriageway": {
+          "accepted": true,
+          "reason": "Passed internal geometry and subset-stability checks",
+          "method": "projective_metric",
+          "track_ids": [
+            94,
+            106,
+            1140,
+            1181,
+            1253,
+            1357,
+            1419,
+            1439,
+            1610,
+            1725,
+            2016,
+            2063,
+            2068,
+            2078
+          ],
+          "observations": 160,
+          "held_out_track_ids": [
+            94,
+            1253,
+            1610,
+            2068
+          ],
+          "candidate_comparison": [
+            {
+              "method": "affine",
+              "diagnostics": {
+                "optimizer_success": true,
+                "parameter_condition_number": 3.6985973658308295
+              },
+              "fit_quality": {
+                "angle_error_deg": 8.862458631539392,
+                "shape_log_error": 0.46743638071560834,
+                "length_relative_mad": 0.9302449441171158,
+                "typical_car_dimension_log_error": 0.5365328329148111,
+                "score": 37.507049650185905
+              },
+              "held_quality": {
+                "angle_error_deg": 7.580180372003341,
+                "shape_log_error": 0.44571269519371254,
+                "length_relative_mad": 0.9308309583867733,
+                "typical_car_dimension_log_error": 0.5831478740439711,
+                "score": 36.48540523211564
+              },
+              "score": 40.23611019713423
+            },
+            {
+              "method": "projective",
+              "diagnostics": {
+                "fit_track_ids": [
+                  106,
+                  1140,
+                  1181,
+                  1357,
+                  1419,
+                  1439,
+                  1725,
+                  2016,
+                  2063,
+                  2078
+                ],
+                "fit_observations": 91,
+                "median_angle_error_deg": 5.176476811353345,
+                "median_length_m": 4.494236029159865,
+                "median_width_m": 2.1236321358483625,
+                "parameter_condition_number": 12.679772285373732,
+                "optimizer_success": true,
+                "theta": [
+                  0.1331669068936797,
+                  4.644116440729567,
+                  -2.0371928829146495,
+                  0.14670425081394659
+                ],
+                "dimension_prior_length_m": 4.5,
+                "dimension_prior_width_m": 1.8
+              },
+              "fit_quality": {
+                "angle_error_deg": 4.747385210337544,
+                "shape_log_error": 0.18598626613851485,
+                "length_relative_mad": 0.07648434239926638,
+                "typical_car_dimension_log_error": 0.16831627423481,
+                "score": 9.820097462056122
+              },
+              "held_quality": {
+                "angle_error_deg": 4.586429398641359,
+                "shape_log_error": 0.1727056828149447,
+                "length_relative_mad": 0.1663300826164033,
+                "typical_car_dimension_log_error": 0.1526540410299126,
+                "score": 11.166628289418
+              },
+              "score": 12.148638035623613
+            },
+            {
+              "method": "projective_metric",
+              "diagnostics": {
+                "optimizer_success": true,
+                "parameter_condition_number": 10.284084863828426,
+                "soft_dimension_prior_m": {
+                  "length": 4.5,
+                  "width": 1.8
+                },
+                "prior_weight": 0.4
+              },
+              "fit_quality": {
+                "angle_error_deg": 5.074232303640947,
+                "shape_log_error": 0.16338890014839647,
+                "length_relative_mad": 0.06655341643104888,
+                "typical_car_dimension_log_error": 0.1418188741628441,
+                "score": 9.457378375374331
+              },
+              "held_quality": {
+                "angle_error_deg": 4.705466985288984,
+                "shape_log_error": 0.17187428350170214,
+                "length_relative_mad": 0.16378212569472567,
+                "typical_car_dimension_log_error": 0.11631050983222421,
+                "score": 10.86295743252276
+              },
+              "score": 11.808695270060193
+            }
+          ],
+          "quality": {
+            "angle_error_deg": 4.936430897729392,
+            "shape_log_error": 0.15673049699931713,
+            "length_relative_mad": 0.09590681329382048,
+            "typical_car_dimension_log_error": 0.13095673878239592,
+            "score": 9.731439521422931
+          },
+          "selected_held_quality": {
+            "angle_error_deg": 4.705466985288984,
+            "shape_log_error": 0.17187428350170214,
+            "length_relative_mad": 0.16378212569472567,
+            "typical_car_dimension_log_error": 0.11631050983222421,
+            "score": 10.86295743252276
+          },
+          "subset_scale_changes": [
+            0.006789244532812322,
+            0.0071860549979392285,
+            0.015468168360330548,
+            0.006556742789089298,
+            0.012563164357716483,
+            0.011540576430339067
+          ],
+          "subset_scale_change_p90": 0.014015666359023515,
+          "H_image_to_experimental_meters": [
+            [
+              0.019954393216579394,
+              0.02101702902610296,
+              -25.76146086836149
+            ],
+            [
+              0.0,
+              0.161785080296103,
+              -100.30674978358385
+            ],
+            [
+              0.000125827107517642,
+              0.004865999634798504,
+              -2.0971974681713283
+            ]
+          ],
+          "alternative_mappings": [
+            [
+              [
+                0.020224471105394007,
+                0.02253357726681017,
+                -27.045659732885856
+              ],
+              [
+                0.0,
+                0.1697905157662958,
+                -104.50606245415507
+              ],
+              [
+                0.00012145511384338174,
+                0.004951601489091399,
+                -2.1268387232047195
+              ]
+            ],
+            [
+              [
+                0.019691548233026893,
+                0.020255695220553434,
+                -24.970398641330263
+              ],
+              [
+                0.0,
+                0.15613535031427708,
+                -97.15522173305892
+              ],
+              [
+                0.00013714489699520713,
+                0.004873506957902573,
+                -2.118666699867866
+              ]
+            ],
+            [
+              [
+                0.01912933768700769,
+                0.016794042803025898,
+                -22.96137554986068
+              ],
+              [
+                0.0,
+                0.15518012171798196,
+                -96.83239595202075
+              ],
+              [
+                0.00010805452584356828,
+                0.004826292941182989,
+                -2.082112373411113
+              ]
+            ],
+            [
+              [
+                0.02017668178069122,
+                0.022403689386170565,
+                -26.51751629939739
+              ],
+              [
+                0.0,
+                0.16063834002129732,
+                -99.7162495682203
+              ],
+              [
+                0.0001310754269638071,
+                0.004864943940663296,
+                -2.101836093019121
+              ]
+            ],
+            [
+              [
+                0.01993372650037334,
+                0.02041366257446105,
+                -25.19100117346081
+              ],
+              [
+                0.0,
+                0.15493163389422585,
+                -96.44494209915558
+              ],
+              [
+                0.0001407889766790959,
+                0.004872649177880673,
+                -2.121393209876002
+              ]
+            ],
+            [
+              [
+                0.019570001753260683,
+                0.018712468500467164,
+                -24.03014395103732
+              ],
+              [
+                0.0,
+                0.1532493450267139,
+                -95.62759129666946
+              ],
+              [
+                0.00012585050436861355,
+                0.004886157756811775,
+                -2.1284055711332353
+              ]
+            ],
+            [
+              [
+                0.015963514573263515,
+                0.016813623220882368,
+                -20.609168694689192
+              ],
+              [
+                0.0,
+                0.1294280642368824,
+                -80.24539982686709
+              ],
+              [
+                0.000125827107517642,
+                0.004865999634798504,
+                -2.0971974681713283
+              ]
+            ],
+            [
+              [
+                0.023945271859895274,
+                0.02522043483132355,
+                -30.913753042033786
+              ],
+              [
+                0.0,
+                0.1941420963553236,
+                -120.36809974030062
+              ],
+              [
+                0.000125827107517642,
+                0.004865999634798504,
+                -2.0971974681713283
+              ]
+            ]
+          ],
+          "support_hull_image": [
+            [
+              852.0,
+              516.5
+            ],
+            [
+              848.5,
+              536.5
+            ],
+            [
+              843.0,
+              556.5
+            ],
+            [
+              838.5,
+              567.0
+            ],
+            [
+              825.0,
+              594.5
+            ],
+            [
+              809.0,
+              624.5
+            ],
+            [
+              732.0,
+              752.0
+            ],
+            [
+              684.0,
+              820.0
+            ],
+            [
+              598.0,
+              906.0
+            ],
+            [
+              449.0,
+              1028.0
+            ],
+            [
+              210.5,
+              1013.0
+            ],
+            [
+              18.9375,
+              898.0
+            ],
+            [
+              129.75,
+              816.0
+            ],
+            [
+              531.5,
+              554.5
+            ],
+            [
+              665.0,
+              512.5
+            ],
+            [
+              692.5,
+              506.75
+            ],
+            [
+              726.0,
+              501.5
+            ],
+            [
+              781.5,
+              498.75
+            ],
+            [
+              839.0,
+              499.0
+            ]
+          ],
+          "diagnostics": {
+            "optimizer_success": true,
+            "parameter_condition_number": 10.493871550527585,
+            "soft_dimension_prior_m": {
+              "length": 4.5,
+              "width": 1.8
+            },
+            "prior_weight": 0.4
+          },
+          "dimension_prior_m": {
+            "length": 4.5,
+            "width": 1.8
+          },
+          "interpretation": "Experimental metric scale from unknown passenger-car dimensions; accuracy unvalidated",
+          "calibration_end_s": 300,
+          "scale_change_from_previous_window": null,
+          "selection_reason": "Enough independent cars and stable subsets"
+        },
+        "right_carriageway": {
+          "accepted": true,
+          "reason": "Passed internal geometry and subset-stability checks",
+          "method": "projective_metric",
+          "track_ids": [
+            4,
+            722,
+            1248,
+            1321,
+            1445,
+            1495,
+            1809,
+            2030,
+            2033
+          ],
+          "observations": 131,
+          "held_out_track_ids": [
+            4,
+            1445,
+            2033
+          ],
+          "candidate_comparison": [
+            {
+              "method": "affine",
+              "diagnostics": {
+                "optimizer_success": true,
+                "parameter_condition_number": 1.9691599418338592
+              },
+              "fit_quality": {
+                "angle_error_deg": 4.529023271213048,
+                "shape_log_error": 0.3390060626592428,
+                "length_relative_mad": 0.39283748240195443,
+                "typical_car_dimension_log_error": 0.421334437430677,
+                "score": 19.989177920151334
+              },
+              "held_quality": {
+                "angle_error_deg": 5.000393987682706,
+                "shape_log_error": 0.45726941138621113,
+                "length_relative_mad": 0.9140726255666797,
+                "typical_car_dimension_log_error": 0.4924873408413981,
+                "score": 32.77941402129239
+              },
+              "score": 34.778331813307524
+            },
+            {
+              "method": "projective",
+              "diagnostics": {
+                "fit_track_ids": [
+                  722,
+                  1248,
+                  1321,
+                  1495,
+                  1809,
+                  2030
+                ],
+                "fit_observations": 56,
+                "median_angle_error_deg": 4.233314348531046,
+                "median_length_m": 4.447618678586107,
+                "median_width_m": 2.408261137927247,
+                "parameter_condition_number": 27.446748894873867,
+                "optimizer_success": true,
+                "theta": [
+                  -0.12366787882691466,
+                  7.203418908795185,
+                  -2.2091227425565227,
+                  -0.14081487121214598
+                ],
+                "dimension_prior_length_m": 4.5,
+                "dimension_prior_width_m": 1.8
+              },
+              "fit_quality": {
+                "angle_error_deg": 5.242566899306247,
+                "shape_log_error": 0.28999780804882136,
+                "length_relative_mad": 0.13541296221295746,
+                "typical_car_dimension_log_error": 0.23108722257346073,
+                "score": 13.161676449788219
+              },
+              "held_quality": {
+                "angle_error_deg": 3.365094979878124,
+                "shape_log_error": 0.261325373025936,
+                "length_relative_mad": 0.11065650390230532,
+                "typical_car_dimension_log_error": 0.1566728320344832,
+                "score": 9.758207108528422
+              },
+              "score": 11.074374753507245
+            },
+            {
+              "method": "projective_metric",
+              "diagnostics": {
+                "optimizer_success": true,
+                "parameter_condition_number": 22.240245418347946,
+                "soft_dimension_prior_m": {
+                  "length": 4.5,
+                  "width": 1.8
+                },
+                "prior_weight": 0.4
+              },
+              "fit_quality": {
+                "angle_error_deg": 5.348431061282492,
+                "shape_log_error": 0.26083019948335107,
+                "length_relative_mad": 0.10517223473837767,
+                "typical_car_dimension_log_error": 0.18995389192561773,
+                "score": 11.959716670139732
+              },
+              "held_quality": {
+                "angle_error_deg": 3.3838818822224335,
+                "shape_log_error": 0.2138801844775563,
+                "length_relative_mad": 0.1379113478446488,
+                "typical_car_dimension_log_error": 0.136385998861967,
+                "score": 9.644770672510642
+              },
+              "score": 10.840742339524615
+            }
+          ],
+          "quality": {
+            "angle_error_deg": 3.072035356939076,
+            "shape_log_error": 0.2060947392592019,
+            "length_relative_mad": 0.11792308397300974,
+            "typical_car_dimension_log_error": 0.1483002505541498,
+            "score": 8.974446934532788
+          },
+          "selected_held_quality": {
+            "angle_error_deg": 3.3838818822224335,
+            "shape_log_error": 0.2138801844775563,
+            "length_relative_mad": 0.1379113478446488,
+            "typical_car_dimension_log_error": 0.136385998861967,
+            "score": 9.644770672510642
+          },
+          "subset_scale_changes": [
+            0.01752039265610278,
+            0.01614906452521636,
+            0.09383525645362167,
+            0.02021217135774478,
+            0.09383525645362167,
+            0.022691402308542163
+          ],
+          "subset_scale_change_p90": 0.09383525645362167,
+          "H_image_to_experimental_meters": [
+            [
+              0.027117059478610882,
+              -0.02328807104902707,
+              -20.34017310630424
+            ],
+            [
+              0.0,
+              0.23449661470555058,
+              -129.26625885643477
+            ],
+            [
+              -0.0001229242934398274,
+              0.006062221932830474,
+              -2.19140196744917
+            ]
+          ],
+          "alternative_mappings": [
+            [
+              [
+                0.02794081906949037,
+                -0.023813175454938055,
+                -21.018017240515622
+              ],
+              [
+                0.0,
+                0.23925545398690912,
+                -130.75310560384582
+              ],
+              [
+                -0.00013271860965814156,
+                0.00628356976629903,
+                -2.272319610718803
+              ]
+            ],
+            [
+              [
+                0.028330051191844376,
+                -0.027852556942115112,
+                -19.567880494718988
+              ],
+              [
+                0.0,
+                0.24133524034095188,
+                -131.8897088463302
+              ],
+              [
+                -0.0001263070673319754,
+                0.006208927959305963,
+                -2.238074051077043
+              ]
+            ],
+            [
+              [
+                0.024139163838697693,
+                -0.012826877550408306,
+                -21.86126151723776
+              ],
+              [
+                0.0,
+                0.23871697553622173,
+                -134.0395817635885
+              ],
+              [
+                -9.081692923229729e-05,
+                0.005662353856781072,
+                -2.0700681077868857
+              ]
+            ],
+            [
+              [
+                0.02867082978469024,
+                -0.029603039018001983,
+                -19.029718152261534
+              ],
+              [
+                0.0,
+                0.24479866518858384,
+                -133.78247052556105
+              ],
+              [
+                -0.00012917538618430877,
+                0.006301750160999971,
+                -2.285279088752153
+              ]
+            ],
+            [
+              [
+                0.024139163838697693,
+                -0.012826877550408306,
+                -21.86126151723776
+              ],
+              [
+                0.0,
+                0.23871697553622173,
+                -134.0395817635885
+              ],
+              [
+                -9.081692923229729e-05,
+                0.005662353856781072,
+                -2.0700681077868857
+              ]
+            ],
+            [
+              [
+                0.028638523659784452,
+                -0.02670165881559599,
+                -20.27290553596941
+              ],
+              [
+                0.0,
+                0.2518707987264165,
+                -136.45100521003613
+              ],
+              [
+                -0.00012562591332715005,
+                0.006550190783670677,
+                -2.396181624187756
+              ]
+            ],
+            [
+              [
+                0.021693647582888706,
+                -0.018630456839221658,
+                -16.272138485043392
+              ],
+              [
+                0.0,
+                0.18759729176444048,
+                -103.41300708514783
+              ],
+              [
+                -0.0001229242934398274,
+                0.006062221932830474,
+                -2.19140196744917
+              ]
+            ],
+            [
+              [
+                0.03254047137433306,
+                -0.027945685258832485,
+                -24.408207727565085
+              ],
+              [
+                0.0,
+                0.2813959376466607,
+                -155.11951062772172
+              ],
+              [
+                -0.0001229242934398274,
+                0.006062221932830474,
+                -2.19140196744917
+              ]
+            ]
+          ],
+          "support_hull_image": [
+            [
+              1872.0,
+              1041.0
+            ],
+            [
+              1691.0,
+              1054.0
+            ],
+            [
+              1021.5,
+              1069.0
+            ],
+            [
+              914.0,
+              976.0
+            ],
+            [
+              1073.0,
+              486.75
+            ],
+            [
+              1102.0,
+              485.5
+            ],
+            [
+              1221.0,
+              487.0
+            ],
+            [
+              1234.0,
+              487.5
+            ],
+            [
+              1302.0,
+              491.5
+            ],
+            [
+              1393.0,
+              519.5
+            ],
+            [
+              1815.0,
+              859.0
+            ]
+          ],
+          "diagnostics": {
+            "optimizer_success": true,
+            "parameter_condition_number": 18.48124052823015,
+            "soft_dimension_prior_m": {
+              "length": 4.5,
+              "width": 1.8
+            },
+            "prior_weight": 0.4
+          },
+          "dimension_prior_m": {
+            "length": 4.5,
+            "width": 1.8
+          },
+          "interpretation": "Experimental metric scale from unknown passenger-car dimensions; accuracy unvalidated",
+          "calibration_end_s": 300,
+          "scale_change_from_previous_window": null
+        }
+      }
+    },
+    {
+      "end_s": 600,
+      "filters": {
+        "degenerate_quad": 142,
+        "low_confidence": 51,
+        "clipped": 32,
+        "outside_road": 4,
+        "stationary_or_short_track_observations": 78,
+        "accepted_observations": 823,
+        "accepted_tracks": 63
+      },
+      "regions": {
+        "right_carriageway": {
+          "accepted": true,
+          "reason": "Passed internal geometry and subset-stability checks",
+          "method": "projective_metric",
+          "track_ids": [
+            4,
+            722,
+            1248,
+            1321,
+            1445,
+            1495,
+            1809,
+            2030,
+            2033,
+            2106,
+            2195,
+            2338,
+            2376,
+            2393,
+            2751,
+            2938,
+            3099,
+            3189,
+            3772,
+            3833,
+            3974
+          ],
+          "observations": 294,
+          "held_out_track_ids": [
+            4,
+            1445,
+            2033,
+            2376,
+            3099,
+            3974
+          ],
+          "candidate_comparison": [
+            {
+              "method": "affine",
+              "diagnostics": {
+                "optimizer_success": true,
+                "parameter_condition_number": 2.868293607514984
+              },
+              "fit_quality": {
+                "angle_error_deg": 3.8732205852747867,
+                "shape_log_error": 0.3674138145352466,
+                "length_relative_mad": 0.699046325232229,
+                "typical_car_dimension_log_error": 0.5327962085357948,
+                "score": 26.856247320629777
+              },
+              "held_quality": {
+                "angle_error_deg": 4.265405644374754,
+                "shape_log_error": 0.4534947929603537,
+                "length_relative_mad": 0.8846335839257171,
+                "typical_car_dimension_log_error": 0.5387461548987941,
+                "score": 31.880486801480576
+              },
+              "score": 34.566111533543555
+            },
+            {
+              "method": "projective",
+              "diagnostics": {
+                "fit_track_ids": [
+                  722,
+                  1248,
+                  1321,
+                  1495,
+                  1809,
+                  2030,
+                  2106,
+                  2195,
+                  2338,
+                  2393,
+                  2751,
+                  2938,
+                  3189,
+                  3772,
+                  3833
+                ],
+                "fit_observations": 136,
+                "median_angle_error_deg": 3.5380010333763074,
+                "median_length_m": 4.339620130481659,
+                "median_width_m": 2.059518781094558,
+                "parameter_condition_number": 19.288652474461482,
+                "optimizer_success": true,
+                "theta": [
+                  -0.07932528238241274,
+                  5.310708267590791,
+                  -2.0684101758871556,
+                  -0.10580415582741257
+                ],
+                "dimension_prior_length_m": 4.5,
+                "dimension_prior_width_m": 1.8
+              },
+              "fit_quality": {
+                "angle_error_deg": 3.4450519188382858,
+                "shape_log_error": 0.18381298949775815,
+                "length_relative_mad": 0.12012034504517026,
+                "typical_car_dimension_log_error": 0.1570483000476205,
+                "score": 9.256071715195477
+              },
+              "held_quality": {
+                "angle_error_deg": 2.41706858282856,
+                "shape_log_error": 0.10613433648117182,
+                "length_relative_mad": 0.1379853163593665,
+                "typical_car_dimension_log_error": 0.20597082490599852,
+                "score": 8.297826523887593
+              },
+              "score": 9.223433695407142
+            },
+            {
+              "method": "projective_metric",
+              "diagnostics": {
+                "optimizer_success": true,
+                "parameter_condition_number": 15.218206664633907,
+                "soft_dimension_prior_m": {
+                  "length": 4.5,
+                  "width": 1.8
+                },
+                "prior_weight": 0.4
+              },
+              "fit_quality": {
+                "angle_error_deg": 3.4930479643138463,
+                "shape_log_error": 0.15402489020772892,
+                "length_relative_mad": 0.10159421464467354,
+                "typical_car_dimension_log_error": 0.1374025743860498,
+                "score": 8.439206903145104
+              },
+              "held_quality": {
+                "angle_error_deg": 2.41198734660935,
+                "shape_log_error": 0.0822608024011452,
+                "length_relative_mad": 0.12040468745434574,
+                "typical_car_dimension_log_error": 0.17276579039283835,
+                "score": 7.3703470236361
+              },
+              "score": 8.21426771395061
+            }
+          ],
+          "quality": {
+            "angle_error_deg": 2.9933019202707305,
+            "shape_log_error": 0.12783293016463,
+            "length_relative_mad": 0.1109555754643043,
+            "typical_car_dimension_log_error": 0.14246177053746328,
+            "score": 7.915360436577749
+          },
+          "selected_held_quality": {
+            "angle_error_deg": 2.41198734660935,
+            "shape_log_error": 0.0822608024011452,
+            "length_relative_mad": 0.12040468745434574,
+            "typical_car_dimension_log_error": 0.17276579039283835,
+            "score": 7.3703470236361
+          },
+          "subset_scale_changes": [
+            0.021227741116585153,
+            0.010645869655800722,
+            0.01956593790990696,
+            0.016578452299704838,
+            0.032669062487055145,
+            0.02368157804924642
+          ],
+          "subset_scale_change_p90": 0.028175320268150783,
+          "H_image_to_experimental_meters": [
+            [
+              0.021265692525899955,
+              -0.013483779861137428,
+              -18.090883135219595
+            ],
+            [
+              0.0,
+              0.16140446714835383,
+              -94.26020881463863
+            ],
+            [
+              -7.668667987703244e-05,
+              0.004918142222495972,
+              -1.7785606218077907
+            ]
+          ],
+          "alternative_mappings": [
+            [
+              [
+                0.021316885068620194,
+                -0.015328279265234388,
+                -17.3056607121555
+              ],
+              [
+                0.0,
+                0.1534539583551168,
+                -90.30765449198624
+              ],
+              [
+                -7.350096133343688e-05,
+                0.004706711840345987,
+                -1.6791262307968187
+              ]
+            ],
+            [
+              [
+                0.02203320891257972,
+                -0.01503708578389146,
+                -18.199312265069402
+              ],
+              [
+                0.0,
+                0.16746873696450418,
+                -97.17373462365354
+              ],
+              [
+                -8.748347855834504e-05,
+                0.005037449016343738,
+                -1.8160749809351566
+              ]
+            ],
+            [
+              [
+                0.022413594036786402,
+                -0.016438174259129284,
+                -17.988275861546022
+              ],
+              [
+                0.0,
+                0.19043224593271954,
+                -108.26073181275106
+              ],
+              [
+                -8.434727808688351e-05,
+                0.005246652534640809,
+                -1.8798604603163453
+              ]
+            ],
+            [
+              [
+                0.022460280803443807,
+                -0.017526874696728804,
+                -17.63693018596553
+              ],
+              [
+                0.0,
+                0.17584333234183652,
+                -100.6703077657014
+              ],
+              [
+                -8.460782200374643e-05,
+                0.005209072155193425,
+                -1.87795697213962
+              ]
+            ],
+            [
+              [
+                0.02147742979294304,
+                -0.016487751879352936,
+                -16.9236561417132
+              ],
+              [
+                0.0,
+                0.1630051001513062,
+                -94.17619661241717
+              ],
+              [
+                -7.615746136981727e-05,
+                0.005017750296283269,
+                -1.8052173200007289
+              ]
+            ],
+            [
+              [
+                0.02104137059636236,
+                -0.013892563054236518,
+                -17.694895579831837
+              ],
+              [
+                0.0,
+                0.14723202530103585,
+                -86.97731894658693
+              ],
+              [
+                -7.331889676680973e-05,
+                0.004585308121701869,
+                -1.6185152109754362
+              ]
+            ],
+            [
+              [
+                0.017012554020719963,
+                -0.010787023888909944,
+                -14.472706508175676
+              ],
+              [
+                0.0,
+                0.12912357371868308,
+                -75.4081670517109
+              ],
+              [
+                -7.668667987703244e-05,
+                0.004918142222495972,
+                -1.7785606218077907
+              ]
+            ],
+            [
+              [
+                0.025518831031079946,
+                -0.016180535833364915,
+                -21.709059762263514
+              ],
+              [
+                0.0,
+                0.19368536057802457,
+                -113.11225057756636
+              ],
+              [
+                -7.668667987703244e-05,
+                0.004918142222495972,
+                -1.7785606218077907
+              ]
+            ]
+          ],
+          "support_hull_image": [
+            [
+              1876.0,
+              908.5
+            ],
+            [
+              1872.0,
+              1041.0
+            ],
+            [
+              1691.0,
+              1054.0
+            ],
+            [
+              1372.0,
+              1073.0
+            ],
+            [
+              1021.5,
+              1069.0
+            ],
+            [
+              862.0,
+              995.5
+            ],
+            [
+              887.5,
+              931.0
+            ],
+            [
+              1059.0,
+              516.0
+            ],
+            [
+              1073.0,
+              486.75
+            ],
+            [
+              1137.0,
+              481.5
+            ],
+            [
+              1147.0,
+              481.25
+            ],
+            [
+              1194.0,
+              481.5
+            ],
+            [
+              1302.0,
+              491.5
+            ],
+            [
+              1393.0,
+              519.5
+            ],
+            [
+              1647.0,
+              651.5
+            ],
+            [
+              1703.0,
+              682.0
+            ],
+            [
+              1707.0,
+              684.5
+            ]
+          ],
+          "diagnostics": {
+            "optimizer_success": true,
+            "parameter_condition_number": 13.795047090739201,
+            "soft_dimension_prior_m": {
+              "length": 4.5,
+              "width": 1.8
+            },
+            "prior_weight": 0.4
+          },
+          "dimension_prior_m": {
+            "length": 4.5,
+            "width": 1.8
+          },
+          "interpretation": "Experimental metric scale from unknown passenger-car dimensions; accuracy unvalidated",
+          "calibration_end_s": 600,
+          "scale_change_from_previous_window": 0.04500886306404789,
+          "selection_reason": "Enough independent cars and stable subsets"
+        }
+      }
+    }
+  ],
+  "calibration_duration_s": 600,
+  "ground_order": {
+    "indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "agreement": 1.0,
+    "tracks": 126,
+    "method": "Lower projected face, one aggregate vote per moving track; checkpoint edge topology retained"
+  },
+  "keypoint_confidence_available": false,
+  "all_regions_accepted": true,
+  "known_speeds_used": false,
+  "accuracy_validated": false,
+  "benchmark_vehicle_scales_used": false,
+  "cache_policy": "Camera-specific mapping; profile, source hash and pipeline version must match. Reuse requires a consistent static view.",
+  "dimension_sensitivity": "Uniform scale 0.8 to 1.2, plus independent-car subset variation; not a statistical confidence interval",
+  "source_sha256_by_file": {
+    "cctv_calibration.py": "4780fb3e7fbff14b74c3b2cbfecf3569c806a30d07fdd1af6ff6fc091c254438",
+    "calibrate_speed.py": "52711385c2fe4532b92791d303669175ed8d03be6a772b1d25ae25729eff93c9"
+  }
+}

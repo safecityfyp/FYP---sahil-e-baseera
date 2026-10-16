@@ -1,0 +1,1 @@
+Initial full-recording run before the selected soft fleet-size mapping and final size/endpoint screens. These are unvalidated model outputs, not accuracy measurements. Final tables and videos are in the Commercial camera report.

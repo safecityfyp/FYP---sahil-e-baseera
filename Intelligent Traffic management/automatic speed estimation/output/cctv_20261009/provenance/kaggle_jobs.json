@@ -1,0 +1,83 @@
+{
+  "verified_at_utc": "2026-10-16T13:11:40.999520+00:00",
+  "source_dataset": "hayyanfaisal/fyp-cctv-october2026-two-cameras",
+  "source_dataset_private": true,
+  "jobs": [
+    {
+      "notebook": "hayyanfaisal/fyp-cctv-commercial-pilot",
+      "url": "https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-commercial-pilot",
+      "snapshot_version": 1,
+      "status": "COMPLETE",
+      "is_private": true,
+      "executed_source_sha256": {
+        "cctv_inference.py": "c5b0e13b12ec6470230ba3fcba08a86a202ae6ebfd2c1929537fe7a0156857e5",
+        "cctv_camera_profiles.json": "c3b6f857886990ace7624fc1a3aa348dd5cff95139da647a0fc0d6fe0354cd49",
+        "validation_inference.py": "c178246f2bb524d528e43c8c19cdb7a9d4911ce6595e3c73c8ed99a8aed8b329"
+      }
+    },
+    {
+      "notebook": "hayyanfaisal/fyp-cctv-k-block-pilot",
+      "url": "https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-k-block-pilot",
+      "snapshot_version": 2,
+      "status": "COMPLETE",
+      "is_private": true,
+      "executed_source_sha256": {
+        "cctv_inference.py": "57f205bef6fae1dc814da83059c1153ad0fd4a52afa32e72a4d58a167c00e7fc",
+        "cctv_camera_profiles.json": "054a3d634a9b0122abfb9c2dd39a22eb874cf59b1d3de633f4ca55c45d37ffd3",
+        "validation_inference.py": "c178246f2bb524d528e43c8c19cdb7a9d4911ce6595e3c73c8ed99a8aed8b329"
+      }
+    },
+    {
+      "notebook": "hayyanfaisal/fyp-cctv-commercial-full",
+      "url": "https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-commercial-full",
+      "snapshot_version": 1,
+      "status": "COMPLETE",
+      "is_private": true,
+      "executed_source_sha256": {
+        "cctv_inference.py": "57f205bef6fae1dc814da83059c1153ad0fd4a52afa32e72a4d58a167c00e7fc",
+        "cctv_camera_profiles.json": "054a3d634a9b0122abfb9c2dd39a22eb874cf59b1d3de633f4ca55c45d37ffd3",
+        "validation_inference.py": "c178246f2bb524d528e43c8c19cdb7a9d4911ce6595e3c73c8ed99a8aed8b329",
+        "calibrate_speed.py": "52711385c2fe4532b92791d303669175ed8d03be6a772b1d25ae25729eff93c9",
+        "cctv_calibration.py": "db379ccdbaba0f8a6f767fd3ffd8cfa41c0583afef8f24d1fbebba1ebac44c7f",
+        "cctv_speed.py": "e3095cc6dfcbd89f695cc417ae1431549390e8e7d5b0c936202cda6c48e1cd75",
+        "cctv_render.py": "47caabb1598881080343ea2521cd6d0555c1fcd5dd224e42ff419f90402417ce",
+        "camera_cache.py": "d8a79a5d1e7aa15a2d0436cf36af19a81e744565ce0ae52a42968c86fbbd5489"
+      }
+    },
+    {
+      "notebook": "hayyanfaisal/fyp-cctv-k-block-full",
+      "url": "https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-k-block-full",
+      "snapshot_version": 1,
+      "status": "COMPLETE",
+      "is_private": true,
+      "executed_source_sha256": {
+        "cctv_inference.py": "57f205bef6fae1dc814da83059c1153ad0fd4a52afa32e72a4d58a167c00e7fc",
+        "cctv_camera_profiles.json": "054a3d634a9b0122abfb9c2dd39a22eb874cf59b1d3de633f4ca55c45d37ffd3",
+        "validation_inference.py": "c178246f2bb524d528e43c8c19cdb7a9d4911ce6595e3c73c8ed99a8aed8b329",
+        "calibrate_speed.py": "52711385c2fe4532b92791d303669175ed8d03be6a772b1d25ae25729eff93c9",
+        "cctv_calibration.py": "4780fb3e7fbff14b74c3b2cbfecf3569c806a30d07fdd1af6ff6fc091c254438",
+        "cctv_speed.py": "94baf04bbfd2b3cf336508573804e8aa69ff062466f9efa97649dbf6b7187f30",
+        "cctv_render.py": "5dda72f867cfb966010c65c97d1400dfee2c76a6deed4089958b1053fbf9688b",
+        "camera_cache.py": "d8a79a5d1e7aa15a2d0436cf36af19a81e744565ce0ae52a42968c86fbbd5489"
+      }
+    },
+    {
+      "notebook": "hayyanfaisal/fyp-cctv-commercial-refined-report",
+      "url": "https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-commercial-refined-report",
+      "snapshot_version": 1,
+      "status": "COMPLETE",
+      "is_private": true,
+      "executed_source_sha256": {
+        "calibrate_speed.py": "52711385c2fe4532b92791d303669175ed8d03be6a772b1d25ae25729eff93c9",
+        "cctv_camera_profiles.json": "054a3d634a9b0122abfb9c2dd39a22eb874cf59b1d3de633f4ca55c45d37ffd3",
+        "cctv_calibration.py": "4780fb3e7fbff14b74c3b2cbfecf3569c806a30d07fdd1af6ff6fc091c254438",
+        "cctv_speed.py": "94baf04bbfd2b3cf336508573804e8aa69ff062466f9efa97649dbf6b7187f30",
+        "cctv_render.py": "5dda72f867cfb966010c65c97d1400dfee2c76a6deed4089958b1053fbf9688b",
+        "camera_cache.py": "d8a79a5d1e7aa15a2d0436cf36af19a81e744565ce0ae52a42968c86fbbd5489",
+        "test_cctv.py": "4109f0a4b381f4eac73ad633c5928dc735b65d09dabb49c852e781b21d8caa79",
+        "test_calibration_math.py": "ff15feece1eaa4c931cab14ebc988fc8ea626735b38b668d70102d6bdf997317"
+      }
+    }
+  ],
+  "note": "Original low-rate K Block pilot v1 is retained in pilot_history with its runtime source hashes. Current K Block pilot snapshot is v2. Commercial full v1 is the initial geometry-only mapping; the refined CPU report supplies its final selected calibration and speed tables. Commercial final videos are rendered locally from those frozen tables."
+}

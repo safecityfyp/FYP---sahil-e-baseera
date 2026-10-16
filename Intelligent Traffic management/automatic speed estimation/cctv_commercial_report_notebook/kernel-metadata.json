@@ -1,0 +1,18 @@
+{
+  "id": "hayyanfaisal/fyp-cctv-commercial-refined-report",
+  "title": "FYP CCTV Commercial Refined Report",
+  "code_file": "cctv_report.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "hayyanfaisal/fyp-cctv-october2026-two-cameras"
+  ],
+  "kernel_sources": [
+    "hayyanfaisal/fyp-cctv-commercial-pilot",
+    "hayyanfaisal/fyp-cctv-commercial-full"
+  ],
+  "competition_sources": []
+}

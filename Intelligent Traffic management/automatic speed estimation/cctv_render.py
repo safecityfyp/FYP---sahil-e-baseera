@@ -73,10 +73,13 @@ def sample_at(records,times,time_s,max_distance=.30):
     return records[k]
 
 
-def encoder(path,width,height,fps,segmented=False):
+def encoder(path,width,height,fps,segmented=False,codec='libx264'):
     args=['ffmpeg','-hide_banner','-loglevel','error','-y','-f','rawvideo','-pix_fmt','bgr24',
-          '-s',f'{width}x{height}','-r',str(fps),'-i','pipe:0','-an','-c:v','libx264','-preset','fast',
-          '-crf','30','-threads','2','-pix_fmt','yuv420p']
+          '-s',f'{width}x{height}','-r',str(fps),'-i','pipe:0','-an']
+    if codec=='h264_nvenc':
+        args+=['-c:v','h264_nvenc','-preset','p5','-rc','vbr','-cq','28','-b:v','0']
+    else:args+=['-c:v','libx264','-preset','fast','-crf','30','-threads','2']
+    args+=['-pix_fmt','yuv420p']
     if segmented:
         args+=['-force_key_frames','expr:gte(t,n_forced*600)','-f','segment','-segment_time','600',
                '-reset_timestamps','1','-segment_format_options','movflags=+faststart']
@@ -84,7 +87,7 @@ def encoder(path,width,height,fps,segmented=False):
     return subprocess.Popen(args+[str(path)],stdin=subprocess.PIPE,stderr=subprocess.PIPE)
 
 
-def render(video,inputs,calibration_file,speed_folder,output,duration=None):
+def render(video,inputs,calibration_file,speed_folder,output,duration=None,codec='libx264'):
     output=Path(output);output.mkdir(parents=True,exist_ok=True)
     calibration=json.loads(Path(calibration_file).read_text());speed_folder=Path(speed_folder)
     speed_report=json.loads((speed_folder/'speed_report.json').read_text())
@@ -105,8 +108,8 @@ def render(video,inputs,calibration_file,speed_folder,output,duration=None):
     grid,region_info=grid_overlay(calibration,(width,height))
     grid_mask=np.any(grid>0,axis=2)
     calibration_frames=min(expected_frames,int(round(calibration['calibration_duration_s']*fps)))
-    speed_encoder=encoder(output/'speed_%02d.mp4',width,height,fps,True)
-    calibration_encoder=encoder(output/'calibration.mp4',width,height,fps)
+    speed_encoder=encoder(output/'speed_%02d.mp4',width,height,fps,True,codec)
+    calibration_encoder=encoder(output/'calibration.mp4',width,height,fps,codec=codec)
     current=[];index=0;labelled_frames=0;labelled_ids=set();examples=[];counts={}
     name=calibration['profile']['display_name']
     region_colors={k:COLORS[i%len(COLORS)] for i,k in enumerate(calibration['regions'])}
@@ -189,6 +192,7 @@ def render(video,inputs,calibration_file,speed_folder,output,duration=None):
                 source_fps=fps,output_resolution=[width,height],audio_included=False,files=files,
                 video_covers_entire_source=expected_frames==total,segment_duration_s=600,
                 render_source_sha256=__import__('hashlib').sha256(Path(__file__).read_bytes()).hexdigest(),
+                encoder=codec,encoder_quality='NVENC VBR CQ 28, preset p5' if codec=='h264_nvenc' else 'x264 CRF 30, preset fast',
                 frames_with_metric_labels=labelled_frames,labelled_car_tracks=len(labelled_ids),
                 examples=examples,calibration_regions=region_info,
                 calibration_video_note='Offline replay shows the final mapping fitted from the selected initial interval.',
@@ -204,4 +208,5 @@ if __name__=='__main__':
     p.add_argument('--inputs',nargs='+',required=True);p.add_argument('--calibration',required=True)
     p.add_argument('--speed',required=True);p.add_argument('--output',required=True)
     p.add_argument('--duration',type=float,help='Optional QA preview duration; omit for full coverage')
-    a=p.parse_args();render(a.video,a.inputs,a.calibration,a.speed,a.output,a.duration)
+    p.add_argument('--encoder',choices=['libx264','h264_nvenc'],default='libx264')
+    a=p.parse_args();render(a.video,a.inputs,a.calibration,a.speed,a.output,a.duration,a.encoder)

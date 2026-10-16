@@ -1,6 +1,8 @@
 # Experimental speed-estimation outputs
 
-The latest [Kia Sportage report](kia_validation/README.md) adds 33 individual tests and **66 calibration/speed videos**. Eight clips supplied development calibration; the method was frozen before evaluating 25 reserved clips. Reserved MAE improves from **3.81 to 2.36 km/h**, with **13/25 within ±2 km/h** and worst error **7.28 km/h**. These are reference-assisted, vehicle-specific results; the requested tolerance is still not met across all clips.
+The latest [two-camera CCTV report](cctv_20261009/README.md) adds complete **60-minute Commercial** and **81-minute K Block** recordings, with **17 calibration/speed MP4s**, full tables, source hashes and before/after pilot diagnostics. All **187,641 source frames** are covered, with 306 and 355 car track IDs receiving qualified experimental speeds. Multi-car calibration uses 5–10 minutes, and each camera has a separate calibration replay. **These CCTV speeds have no independently measured accuracy reference.**
+
+The [Kia Sportage report](kia_validation/README.md) adds 33 individual tests and **66 calibration/speed videos**. Eight clips supplied development calibration; the method was frozen before evaluating 25 reserved clips. Reserved MAE improves from **3.81 to 2.36 km/h**, with **13/25 within ±2 km/h** and worst error **7.28 km/h**. These are reference-assisted, vehicle-specific results; the requested tolerance is still not met across all clips.
 
 The earlier [Mercedes calibration research report](calibration_comparison/README.md) compares 18 calibration/model versions and 20 fusion configurations, with a new pair of videos for every Mercedes clip. The selected hybrid's development result is approximately **2.38 km/h MAE, 19/30 within ±2 km/h, and no error above 10 km/h**. It uses other labelled reference passes while excluding each test's own speed. The remaining worst error is about 8.3 km/h.
 
