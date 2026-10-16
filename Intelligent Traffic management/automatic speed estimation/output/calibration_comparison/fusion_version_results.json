@@ -1,0 +1,5402 @@
+[
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 39.11371240345727,
+    "error_kmh": 9.11371240345727,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 30.398246278499222,
+    "error_kmh": -4.601753721500778,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 43.04434850181068,
+    "error_kmh": 3.0443485018106813,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 41.31917366831921,
+    "error_kmh": -3.680826331680791,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 47.0104110724078,
+    "error_kmh": -2.9895889275922016,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 50.196548284129,
+    "error_kmh": -4.803451715870999,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 50.72228830395375,
+    "error_kmh": -7.2777116960462465,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 56.23160735159463,
+    "error_kmh": -3.768392648405367,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 62.94061663784857,
+    "error_kmh": 0.9406166378485707,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 62.020246309888826,
+    "error_kmh": -2.979753690111174,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 61.7880923390457,
+    "error_kmh": -5.211907660954303,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.71972782067819,
+    "error_kmh": -1.2802721793218126,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 75.83279812045596,
+    "error_kmh": 2.832798120455962,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 72.87685615670961,
+    "error_kmh": -2.123143843290393,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 76.97618046404031,
+    "error_kmh": -3.0238195359596887,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 81.33431523771988,
+    "error_kmh": -3.6656847622801223,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 90.13995995109678,
+    "error_kmh": 0.1399599510967846,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 92.94579922233011,
+    "error_kmh": -2.054200777669891,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 90.58380661426861,
+    "error_kmh": -9.41619338573139,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "best_weight_0",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 97.87596342363204,
+    "error_kmh": -7.124036576367956,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 38.8759071737641,
+    "error_kmh": 8.875907173764098,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 31.286106155712716,
+    "error_kmh": -3.713893844287284,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 40.930246020696735,
+    "error_kmh": 0.9302460206967353,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 42.42002337493766,
+    "error_kmh": -2.5799766250623435,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 47.55027381783377,
+    "error_kmh": -2.4497261821662306,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 51.502698344304186,
+    "error_kmh": -3.4973016556958143,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 52.88788547439162,
+    "error_kmh": -5.1121145256083835,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 56.87064907868896,
+    "error_kmh": -3.129350921311037,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 63.42858789407036,
+    "error_kmh": 1.4285878940703611,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 63.1348937468031,
+    "error_kmh": -1.865106253196899,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 62.580229909981114,
+    "error_kmh": -4.419770090018886,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 69.0087990157143,
+    "error_kmh": -0.9912009842856975,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 74.62564810942732,
+    "error_kmh": 1.625648109427317,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 72.9847090133199,
+    "error_kmh": -2.0152909866800996,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 77.3837293762007,
+    "error_kmh": -2.616270623799295,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 82.51406235920791,
+    "error_kmh": -2.4859376407920877,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 90.88075728539903,
+    "error_kmh": 0.880757285399028,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 93.68571820295257,
+    "error_kmh": -1.3142817970474283,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 93.04117703677204,
+    "error_kmh": -6.958822963227959,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "best_weight_0.25",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 100.46332292859056,
+    "error_kmh": -4.536677071409443,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 38.638101944070925,
+    "error_kmh": 8.638101944070925,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 32.1739660329262,
+    "error_kmh": -2.8260339670737977,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 38.81614353958279,
+    "error_kmh": -1.1838564604172106,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 43.520873081556104,
+    "error_kmh": -1.479126918443896,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 48.09013656325973,
+    "error_kmh": -1.9098634367402667,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 52.80884840447936,
+    "error_kmh": -2.191151595520637,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 55.05348264482948,
+    "error_kmh": -2.9465173551705206,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 57.50969080578328,
+    "error_kmh": -2.490309194216721,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 63.916559150292144,
+    "error_kmh": 1.9165591502921444,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 64.24954118371738,
+    "error_kmh": -0.7504588162826167,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 63.37236748091654,
+    "error_kmh": -3.6276325190834626,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 69.29787021075043,
+    "error_kmh": -0.7021297892495681,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 73.41849809839866,
+    "error_kmh": 0.4184980983986577,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 73.09256186993018,
+    "error_kmh": -1.9074381300698207,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 77.79127828836111,
+    "error_kmh": -2.208721711638887,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 83.69380948069596,
+    "error_kmh": -1.3061905193040388,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 91.62155461970129,
+    "error_kmh": 1.6215546197012856,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 94.42563718357503,
+    "error_kmh": -0.5743628164249657,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 95.49854745927546,
+    "error_kmh": -4.501452540724543,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "best_weight_0.5",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 103.05068243354904,
+    "error_kmh": -1.9493175664509579,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 38.40029671437775,
+    "error_kmh": 8.400296714377752,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 33.06182591013969,
+    "error_kmh": -1.9381740898603113,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 36.70204105846884,
+    "error_kmh": -3.2979589415311565,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 44.62172278817455,
+    "error_kmh": -0.3782772118254485,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 48.62999930868571,
+    "error_kmh": -1.3700006913142886,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 54.11499846465454,
+    "error_kmh": -0.8850015353454594,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 57.21907981526734,
+    "error_kmh": -0.7809201847326577,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 58.1487325328776,
+    "error_kmh": -1.8512674671223976,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 64.40453040651394,
+    "error_kmh": 2.404530406513942,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 65.36418862063165,
+    "error_kmh": 0.36418862063165136,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 64.16450505185195,
+    "error_kmh": -2.835494948148053,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 69.58694140578655,
+    "error_kmh": -0.41305859421345303,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 72.21134808737,
+    "error_kmh": -0.7886519126300016,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 73.20041472654046,
+    "error_kmh": -1.7995852734595417,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 78.19882720052152,
+    "error_kmh": -1.8011727994784792,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 84.873556602184,
+    "error_kmh": -0.12644339781600422,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 92.36235195400354,
+    "error_kmh": 2.362351954003543,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 95.1655561641975,
+    "error_kmh": 0.16555616419749697,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 97.95591788177887,
+    "error_kmh": -2.0440821182211266,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "best_weight_0.75",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 105.63804193850754,
+    "error_kmh": 0.6380419385075413,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 38.16249148468458,
+    "error_kmh": 8.16249148468458,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 33.94968578735318,
+    "error_kmh": -1.0503142126468177,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 34.5879385773549,
+    "error_kmh": -5.4120614226451025,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 45.72257249479299,
+    "error_kmh": 0.7225724947929919,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 49.169862054111675,
+    "error_kmh": -0.8301379458883247,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 55.421148524829725,
+    "error_kmh": 0.4211485248297251,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 59.384676985705205,
+    "error_kmh": 1.3846769857052053,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 58.78777425997193,
+    "error_kmh": -1.2122257400280674,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 64.89250166273573,
+    "error_kmh": 2.892501662735725,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 66.47883605754593,
+    "error_kmh": 1.4788360575459336,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 64.95664262278737,
+    "error_kmh": -2.0433573772126294,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 69.87601260082266,
+    "error_kmh": -0.12398739917733792,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 71.00419807634135,
+    "error_kmh": -1.9958019236586466,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 73.30826758315075,
+    "error_kmh": -1.6917324168492485,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 78.60637611268191,
+    "error_kmh": -1.3936238873180855,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 86.05330372367203,
+    "error_kmh": 1.0533037236720304,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 93.10314928830579,
+    "error_kmh": 3.1031492883057865,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 95.90547514481996,
+    "error_kmh": 0.9054751448199596,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 100.4132883042823,
+    "error_kmh": 0.4132883042823039,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "best_weight_1",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 108.22540144346605,
+    "error_kmh": 3.2254014434660547,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 39.11371240345727,
+    "error_kmh": 9.11371240345727,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 30.398246278499222,
+    "error_kmh": -4.601753721500778,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 43.04434850181068,
+    "error_kmh": 3.0443485018106813,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 41.31917366831921,
+    "error_kmh": -3.680826331680791,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 47.0104110724078,
+    "error_kmh": -2.9895889275922016,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 50.196548284129,
+    "error_kmh": -4.803451715870999,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 50.72228830395375,
+    "error_kmh": -7.2777116960462465,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 56.23160735159463,
+    "error_kmh": -3.768392648405367,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 62.94061663784857,
+    "error_kmh": 0.9406166378485707,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 62.020246309888826,
+    "error_kmh": -2.979753690111174,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 61.7880923390457,
+    "error_kmh": -5.211907660954303,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.71972782067819,
+    "error_kmh": -1.2802721793218126,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 75.83279812045596,
+    "error_kmh": 2.832798120455962,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 72.87685615670961,
+    "error_kmh": -2.123143843290393,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 76.97618046404031,
+    "error_kmh": -3.0238195359596887,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 81.33431523771988,
+    "error_kmh": -3.6656847622801223,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 90.13995995109678,
+    "error_kmh": 0.1399599510967846,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 92.94579922233011,
+    "error_kmh": -2.054200777669891,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 90.58380661426861,
+    "error_kmh": -9.41619338573139,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "median_weight_0",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 97.87596342363204,
+    "error_kmh": -7.124036576367956,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 38.8759071737641,
+    "error_kmh": 8.875907173764098,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 31.286106155712716,
+    "error_kmh": -3.713893844287284,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 43.5724471288642,
+    "error_kmh": 3.572447128864198,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 42.247636860233754,
+    "error_kmh": -2.7523631397662456,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 47.6009146007782,
+    "error_kmh": -2.3990853992218035,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 51.013081109740114,
+    "error_kmh": -3.9869188902598864,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 52.88788547439162,
+    "error_kmh": -5.1121145256083835,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 56.75090481235188,
+    "error_kmh": -3.2490951876481233,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 63.42858789407036,
+    "error_kmh": 1.4285878940703611,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 62.564972567906395,
+    "error_kmh": -2.435027432093605,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 62.580229909981114,
+    "error_kmh": -4.419770090018886,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.60109966758924,
+    "error_kmh": -1.3989003324107614,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 74.62564810942732,
+    "error_kmh": 1.625648109427317,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 73.10988475576815,
+    "error_kmh": -1.8901152442318505,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 78.2914503055986,
+    "error_kmh": -1.7085496944013983,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 82.51406235920791,
+    "error_kmh": -2.4859376407920877,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 90.88075728539903,
+    "error_kmh": 0.880757285399028,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 93.68571820295257,
+    "error_kmh": -1.3142817970474283,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 93.44980747541177,
+    "error_kmh": -6.550192524588226,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "median_weight_0.25",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 99.89902902205077,
+    "error_kmh": -5.100970977949231,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 38.638101944070925,
+    "error_kmh": 8.638101944070925,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 32.1739660329262,
+    "error_kmh": -2.8260339670737977,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 44.100545755917715,
+    "error_kmh": 4.1005457559177145,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 43.1761000521483,
+    "error_kmh": -1.8238999478517002,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 48.1914181291486,
+    "error_kmh": -1.8085818708513983,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 51.82961393535122,
+    "error_kmh": -3.170386064648781,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 55.05348264482948,
+    "error_kmh": -2.9465173551705206,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 57.27020227310911,
+    "error_kmh": -2.7297977268908866,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 63.916559150292144,
+    "error_kmh": 1.9165591502921444,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 63.10969882592396,
+    "error_kmh": -1.8903011740760434,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 63.37236748091654,
+    "error_kmh": -3.6276325190834626,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.48247151450029,
+    "error_kmh": -1.5175284854997102,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 73.41849809839866,
+    "error_kmh": 0.4184980983986577,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 73.34291335482668,
+    "error_kmh": -1.6570866451733224,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 79.60672014715689,
+    "error_kmh": -0.39327985284310785,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 83.69380948069596,
+    "error_kmh": -1.3061905193040388,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 91.62155461970129,
+    "error_kmh": 1.6215546197012856,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 94.42563718357503,
+    "error_kmh": -0.5743628164249657,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 96.31580833655494,
+    "error_kmh": -3.6841916634450627,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "median_weight_0.5",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 101.9220946204695,
+    "error_kmh": -3.077905379530506,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 38.40029671437775,
+    "error_kmh": 8.400296714377752,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 33.06182591013969,
+    "error_kmh": -1.9381740898603113,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 44.62864438297123,
+    "error_kmh": 4.628644382971231,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 44.104563244062845,
+    "error_kmh": -0.8954367559371548,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 48.78192165751901,
+    "error_kmh": -1.2180783424809931,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 52.646146760962324,
+    "error_kmh": -2.353853239037676,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 57.21907981526734,
+    "error_kmh": -0.7809201847326577,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 57.78949973386635,
+    "error_kmh": -2.21050026613365,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 64.40453040651394,
+    "error_kmh": 2.404530406513942,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 63.65442508394152,
+    "error_kmh": -1.3455749160584816,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 64.16450505185195,
+    "error_kmh": -2.835494948148053,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.36384336141134,
+    "error_kmh": -1.636156638588659,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 72.21134808737,
+    "error_kmh": -0.7886519126300016,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 73.5759419538852,
+    "error_kmh": -1.4240580461147943,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 80.92198998871518,
+    "error_kmh": 0.9219899887151826,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 84.873556602184,
+    "error_kmh": -0.12644339781600422,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 92.36235195400354,
+    "error_kmh": 2.362351954003543,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 95.1655561641975,
+    "error_kmh": 0.16555616419749697,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 99.1818091976981,
+    "error_kmh": -0.8181908023018991,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "median_weight_0.75",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 103.94516021888822,
+    "error_kmh": -1.054839781111781,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 38.16249148468458,
+    "error_kmh": 8.16249148468458,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 33.94968578735318,
+    "error_kmh": -1.0503142126468177,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 45.15674301002475,
+    "error_kmh": 5.156743010024748,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 45.03302643597739,
+    "error_kmh": 0.033026435977390634,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 49.37242518588941,
+    "error_kmh": -0.6275748141105879,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 53.46267958657343,
+    "error_kmh": -1.5373204134265706,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 59.384676985705205,
+    "error_kmh": 1.3846769857052053,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 58.308797194623594,
+    "error_kmh": -1.691202805376406,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 64.89250166273573,
+    "error_kmh": 2.892501662735725,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 64.19915134195908,
+    "error_kmh": -0.8008486580409198,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 64.95664262278737,
+    "error_kmh": -2.0433573772126294,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.24521520832239,
+    "error_kmh": -1.7547847916776078,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 71.00419807634135,
+    "error_kmh": -1.9958019236586466,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 73.80897055294375,
+    "error_kmh": -1.191029447056252,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 82.23725983027347,
+    "error_kmh": 2.237259830273473,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 86.05330372367203,
+    "error_kmh": 1.0533037236720304,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 93.10314928830579,
+    "error_kmh": 3.1031492883057865,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 95.90547514481996,
+    "error_kmh": 0.9054751448199596,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 102.04781005884126,
+    "error_kmh": 2.0478100588412644,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "median_weight_1",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 105.96822581730694,
+    "error_kmh": 0.9682258173069442,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 39.11371240345727,
+    "error_kmh": 9.11371240345727,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 30.398246278499222,
+    "error_kmh": -4.601753721500778,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 43.04434850181068,
+    "error_kmh": 3.0443485018106813,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 41.31917366831921,
+    "error_kmh": -3.680826331680791,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 47.0104110724078,
+    "error_kmh": -2.9895889275922016,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 50.196548284129,
+    "error_kmh": -4.803451715870999,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 50.72228830395375,
+    "error_kmh": -7.2777116960462465,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 56.23160735159463,
+    "error_kmh": -3.768392648405367,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 62.94061663784857,
+    "error_kmh": 0.9406166378485707,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 62.020246309888826,
+    "error_kmh": -2.979753690111174,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 61.7880923390457,
+    "error_kmh": -5.211907660954303,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.71972782067819,
+    "error_kmh": -1.2802721793218126,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 75.83279812045596,
+    "error_kmh": 2.832798120455962,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 72.87685615670961,
+    "error_kmh": -2.123143843290393,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 76.97618046404031,
+    "error_kmh": -3.0238195359596887,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 81.33431523771988,
+    "error_kmh": -3.6656847622801223,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 90.13995995109678,
+    "error_kmh": 0.1399599510967846,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 92.94579922233011,
+    "error_kmh": -2.054200777669891,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 90.58380661426861,
+    "error_kmh": -9.41619338573139,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "top3mean_weight_0",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 97.87596342363204,
+    "error_kmh": -7.124036576367956,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 38.65346232158776,
+    "error_kmh": 8.65346232158776,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 31.286106155712716,
+    "error_kmh": -3.713893844287284,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 42.63155566762731,
+    "error_kmh": 2.6315556676273104,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 41.60845629588154,
+    "error_kmh": -3.3915437041184617,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 47.839230019448856,
+    "error_kmh": -2.1607699805511444,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 51.201065012637805,
+    "error_kmh": -3.7989349873621947,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 52.88788547439162,
+    "error_kmh": -5.1121145256083835,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 56.92413933967668,
+    "error_kmh": -3.075860660323322,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 63.42858789407036,
+    "error_kmh": 1.4285878940703611,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 63.04237865709733,
+    "error_kmh": -1.9576213429026694,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 62.580229909981114,
+    "error_kmh": -4.419770090018886,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.59294198820733,
+    "error_kmh": -1.407058011792671,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 74.62564810942732,
+    "error_kmh": 1.625648109427317,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 72.98031918187577,
+    "error_kmh": -2.019680818124229,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 77.87599953948958,
+    "error_kmh": -2.124000460510416,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 82.62637603691167,
+    "error_kmh": -2.3736239630883347,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 90.88075728539903,
+    "error_kmh": 0.880757285399028,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 93.8462676090529,
+    "error_kmh": -1.1537323909470985,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 93.54759065880194,
+    "error_kmh": -6.452409341198063,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "top3mean_weight_0.25",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 100.3359640690573,
+    "error_kmh": -4.664035930942703,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 38.19321223971825,
+    "error_kmh": 8.19321223971825,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 32.1739660329262,
+    "error_kmh": -2.8260339670737977,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 42.21876283344393,
+    "error_kmh": 2.2187628334439324,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 41.89773892344387,
+    "error_kmh": -3.1022610765561325,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 48.66804896648992,
+    "error_kmh": -1.3319510335100802,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 52.2055817411466,
+    "error_kmh": -2.7944182588533977,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 55.05348264482948,
+    "error_kmh": -2.9465173551705206,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 57.61667132775872,
+    "error_kmh": -2.3833286722412765,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 63.916559150292144,
+    "error_kmh": 1.9165591502921444,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 64.06451100430583,
+    "error_kmh": -0.9354889956941719,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 63.37236748091654,
+    "error_kmh": -3.6276325190834626,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.46615615573648,
+    "error_kmh": -1.5338438442635152,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 73.41849809839866,
+    "error_kmh": 0.4184980983986577,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 73.08378220704193,
+    "error_kmh": -1.916217792958065,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 78.77581861493886,
+    "error_kmh": -1.2241813850611436,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 83.91843683610344,
+    "error_kmh": -1.0815631638965613,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 91.62155461970129,
+    "error_kmh": 1.6215546197012856,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 94.7467359957757,
+    "error_kmh": -0.25326400422430595,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 96.51137470333526,
+    "error_kmh": -3.488625296664736,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "top3mean_weight_0.5",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 102.79596471448254,
+    "error_kmh": -2.204035285517463,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 37.732962157848746,
+    "error_kmh": 7.732962157848746,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 33.06182591013969,
+    "error_kmh": -1.9381740898603113,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 41.805969999260554,
+    "error_kmh": 1.8059699992605545,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 42.1870215510062,
+    "error_kmh": -2.8129784489938032,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 49.49686791353098,
+    "error_kmh": -0.503132086469023,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 53.21009846965541,
+    "error_kmh": -1.7899015303445935,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 57.21907981526734,
+    "error_kmh": -0.7809201847326577,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 58.30920331584076,
+    "error_kmh": -1.6907966841592383,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 64.40453040651394,
+    "error_kmh": 2.404530406513942,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 65.08664335151433,
+    "error_kmh": 0.08664335151432567,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 64.16450505185195,
+    "error_kmh": -2.835494948148053,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.33937032326564,
+    "error_kmh": -1.6606296767343594,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 72.21134808737,
+    "error_kmh": -0.7886519126300016,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 73.18724523220808,
+    "error_kmh": -1.8127547677919154,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 79.67563769038813,
+    "error_kmh": -0.32436230961187107,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 85.21049763529523,
+    "error_kmh": 0.21049763529522636,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 92.36235195400354,
+    "error_kmh": 2.362351954003543,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 95.64720438249849,
+    "error_kmh": 0.6472043824984866,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 99.47515874786859,
+    "error_kmh": -0.5248412521314094,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "top3mean_weight_0.75",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 105.25596535990778,
+    "error_kmh": 0.25596535990777625,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 37.272712075979236,
+    "error_kmh": 7.272712075979236,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 33.94968578735318,
+    "error_kmh": -1.0503142126468177,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 41.393177165077184,
+    "error_kmh": 1.3931771650771836,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 42.47630417856853,
+    "error_kmh": -2.523695821431467,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 50.325686860572034,
+    "error_kmh": 0.3256868605720342,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 54.21461519816421,
+    "error_kmh": -0.7853848018357894,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 59.384676985705205,
+    "error_kmh": 1.3846769857052053,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 59.00173530392281,
+    "error_kmh": -0.998264696077193,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 64.89250166273573,
+    "error_kmh": 2.892501662735725,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 66.10877569872282,
+    "error_kmh": 1.1087756987228232,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 64.95664262278737,
+    "error_kmh": -2.0433573772126294,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.21258449079478,
+    "error_kmh": -1.7874155092052177,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 71.00419807634135,
+    "error_kmh": -1.9958019236586466,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 73.29070825737425,
+    "error_kmh": -1.7092917426257515,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 80.57545676583739,
+    "error_kmh": 0.5754567658373873,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 86.50255843448701,
+    "error_kmh": 1.502558434487014,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 93.10314928830579,
+    "error_kmh": 3.1031492883057865,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 96.54767276922128,
+    "error_kmh": 1.547672769221279,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 102.43894279240192,
+    "error_kmh": 2.4389427924019174,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "top3mean_weight_1",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 107.71596600533303,
+    "error_kmh": 2.71596600533303,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 39.11371240345727,
+    "error_kmh": 9.11371240345727,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 30.398246278499222,
+    "error_kmh": -4.601753721500778,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 43.04434850181068,
+    "error_kmh": 3.0443485018106813,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 41.31917366831921,
+    "error_kmh": -3.680826331680791,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 47.0104110724078,
+    "error_kmh": -2.9895889275922016,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 50.196548284129,
+    "error_kmh": -4.803451715870999,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 50.72228830395375,
+    "error_kmh": -7.2777116960462465,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 56.23160735159463,
+    "error_kmh": -3.768392648405367,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 62.94061663784857,
+    "error_kmh": 0.9406166378485707,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 62.020246309888826,
+    "error_kmh": -2.979753690111174,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 61.7880923390457,
+    "error_kmh": -5.211907660954303,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.71972782067819,
+    "error_kmh": -1.2802721793218126,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 75.83279812045596,
+    "error_kmh": 2.832798120455962,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 72.87685615670961,
+    "error_kmh": -2.123143843290393,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 76.97618046404031,
+    "error_kmh": -3.0238195359596887,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 81.33431523771988,
+    "error_kmh": -3.6656847622801223,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 90.13995995109678,
+    "error_kmh": 0.1399599510967846,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 92.94579922233011,
+    "error_kmh": -2.054200777669891,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 90.58380661426861,
+    "error_kmh": -9.41619338573139,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "top3weighted_weight_0",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 97.87596342363204,
+    "error_kmh": -7.124036576367956,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 38.65415980771342,
+    "error_kmh": 8.65415980771342,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 31.286106155712716,
+    "error_kmh": -3.713893844287284,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 42.573658967141284,
+    "error_kmh": 2.5736589671412844,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 41.62331071484277,
+    "error_kmh": -3.3766892851572265,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 47.83580933572968,
+    "error_kmh": -2.164190664270322,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 51.20886000387903,
+    "error_kmh": -3.791139996120968,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 52.88788547439162,
+    "error_kmh": -5.1121145256083835,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 56.923050195511195,
+    "error_kmh": -3.0769498044888053,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 63.42858789407036,
+    "error_kmh": 1.4285878940703611,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 63.04800792656356,
+    "error_kmh": -1.9519920734364433,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 62.580229909981114,
+    "error_kmh": -4.419770090018886,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.59458368669215,
+    "error_kmh": -1.4054163133078532,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 74.62564810942732,
+    "error_kmh": 1.625648109427317,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 72.98446742799813,
+    "error_kmh": -2.0155325720018737,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 77.87577915054791,
+    "error_kmh": -2.1242208494520867,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 82.62186425703993,
+    "error_kmh": -2.378135742960069,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 90.88075728539903,
+    "error_kmh": 0.880757285399028,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 93.84476206932816,
+    "error_kmh": -1.155237930671845,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 93.53903515174315,
+    "error_kmh": -6.46096484825685,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "top3weighted_weight_0.25",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 100.33158663997199,
+    "error_kmh": -4.668413360028012,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 38.19460721196957,
+    "error_kmh": 8.194607211969569,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 32.1739660329262,
+    "error_kmh": -2.8260339670737977,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 42.10296943247188,
+    "error_kmh": 2.1029694324718804,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 41.92744776136634,
+    "error_kmh": -3.072552238633662,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 48.661207599051565,
+    "error_kmh": -1.338792400948435,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 52.221171723629055,
+    "error_kmh": -2.7788282763709446,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 55.05348264482948,
+    "error_kmh": -2.9465173551705206,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 57.61449303942775,
+    "error_kmh": -2.3855069605722505,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 63.916559150292144,
+    "error_kmh": 1.9165591502921444,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 64.07576954323828,
+    "error_kmh": -0.9242304567617197,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 63.37236748091654,
+    "error_kmh": -3.6276325190834626,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.46943955270612,
+    "error_kmh": -1.5305604472938796,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 73.41849809839866,
+    "error_kmh": 0.4184980983986577,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 73.09207869928665,
+    "error_kmh": -1.9079213007133546,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 78.77537783705553,
+    "error_kmh": -1.2246221629444705,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 83.90941327635997,
+    "error_kmh": -1.0905867236400297,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 91.62155461970129,
+    "error_kmh": 1.6215546197012856,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 94.7437249163262,
+    "error_kmh": -0.25627508367379903,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 96.49426368921768,
+    "error_kmh": -3.505736310782325,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "top3weighted_weight_0.5",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 102.7872098563119,
+    "error_kmh": -2.212790143688096,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 37.73505461622571,
+    "error_kmh": 7.73505461622571,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 33.06182591013969,
+    "error_kmh": -1.9381740898603113,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 41.63227989780248,
+    "error_kmh": 1.6322798978024835,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 42.2315848078899,
+    "error_kmh": -2.7684151921100977,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 49.48660586237345,
+    "error_kmh": -0.5133941376265483,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 53.233483443379086,
+    "error_kmh": -1.766516556620914,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 57.21907981526734,
+    "error_kmh": -0.7809201847326577,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 58.305935883344304,
+    "error_kmh": -1.6940641166556958,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 64.40453040651394,
+    "error_kmh": 2.404530406513942,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 65.103531159913,
+    "error_kmh": 0.10353115991300399,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 64.16450505185195,
+    "error_kmh": -2.835494948148053,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.3442954187201,
+    "error_kmh": -1.655704581279906,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 72.21134808737,
+    "error_kmh": -0.7886519126300016,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 73.19968997057516,
+    "error_kmh": -1.8003100294248355,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 79.67497652356315,
+    "error_kmh": -0.32502347643685425,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 85.19696229568,
+    "error_kmh": 0.19696229567999524,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 92.36235195400354,
+    "error_kmh": 2.362351954003543,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 95.64268776332425,
+    "error_kmh": 0.6426877633242469,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 99.4494922266922,
+    "error_kmh": -0.5505077733077997,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "top3weighted_weight_0.75",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 105.24283307265182,
+    "error_kmh": 0.24283307265181975,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_30.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 30.0,
+    "estimated_kmh": 37.27550202048186,
+    "error_kmh": 7.275502020481859,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_33.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 33.0,
+    "estimated_kmh": 31.074330431090495,
+    "error_kmh": -1.9256695689095054,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_35.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 35.0,
+    "estimated_kmh": 33.94968578735318,
+    "error_kmh": -1.0503142126468177,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_38.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 38.0,
+    "estimated_kmh": 30.380800139039884,
+    "error_kmh": -7.619199860960116,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_40.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 40.0,
+    "estimated_kmh": 41.16159036313309,
+    "error_kmh": 1.1615903631330866,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_42.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 42.0,
+    "estimated_kmh": 39.307646271914926,
+    "error_kmh": -2.692353728085074,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_45.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 45.0,
+    "estimated_kmh": 42.53572185441347,
+    "error_kmh": -2.4642781455865332,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_47.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 47.0,
+    "estimated_kmh": 46.34622362159262,
+    "error_kmh": -0.6537763784073789,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_50.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 50.0,
+    "estimated_kmh": 50.31200412569534,
+    "error_kmh": 0.31200412569533853,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_52.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 52.0,
+    "estimated_kmh": 53.407877116035415,
+    "error_kmh": 1.407877116035415,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_55.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 55.0,
+    "estimated_kmh": 54.24579516312912,
+    "error_kmh": -0.7542048368708834,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_58.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 58.0,
+    "estimated_kmh": 59.384676985705205,
+    "error_kmh": 1.3846769857052053,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_60.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 60.0,
+    "estimated_kmh": 58.997378727260866,
+    "error_kmh": -1.002621272739134,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_62.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 62.0,
+    "estimated_kmh": 64.89250166273573,
+    "error_kmh": 2.892501662735725,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_65.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 65.0,
+    "estimated_kmh": 66.13129277658773,
+    "error_kmh": 1.1312927765877276,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_67.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 67.0,
+    "estimated_kmh": 64.95664262278737,
+    "error_kmh": -2.0433573772126294,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_70.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 70.0,
+    "estimated_kmh": 68.21915128473405,
+    "error_kmh": -1.7808487152659467,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_73.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 73.0,
+    "estimated_kmh": 71.00419807634135,
+    "error_kmh": -1.9958019236586466,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_75.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 75.0,
+    "estimated_kmh": 73.30730124186368,
+    "error_kmh": -1.6926987581363164,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_78.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 78.0,
+    "estimated_kmh": 69.69384549286413,
+    "error_kmh": -8.306154507135872,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_80.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 80.0,
+    "estimated_kmh": 80.57457521007075,
+    "error_kmh": 0.5745752100707477,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_82.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 82.0,
+    "estimated_kmh": 82.2153096767161,
+    "error_kmh": 0.21530967671610313,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_85.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 85.0,
+    "estimated_kmh": 86.48451131500005,
+    "error_kmh": 1.4845113150000486,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_87.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 87.0,
+    "estimated_kmh": 85.84114904561496,
+    "error_kmh": -1.158850954385045,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_90.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 90.0,
+    "estimated_kmh": 93.10314928830579,
+    "error_kmh": 3.1031492883057865,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_93.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 93.0,
+    "estimated_kmh": 101.20096411981301,
+    "error_kmh": 8.200964119813008,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_95.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 95.0,
+    "estimated_kmh": 96.54165061032229,
+    "error_kmh": 1.541650610322293,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_98.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 98.0,
+    "estimated_kmh": 93.24633268940241,
+    "error_kmh": -4.753667310597592,
+    "calibration_reused": false,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_100.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 100.0,
+    "estimated_kmh": 102.40472076416674,
+    "error_kmh": 2.40472076416674,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  },
+  {
+    "video": "MercedesAMG550_105.MP4",
+    "version": "top3weighted_weight_1",
+    "reference_kmh": 105.0,
+    "estimated_kmh": 107.69845628899176,
+    "error_kmh": 2.698456288991764,
+    "calibration_reused": true,
+    "own_reference_excluded": true
+  }
+]

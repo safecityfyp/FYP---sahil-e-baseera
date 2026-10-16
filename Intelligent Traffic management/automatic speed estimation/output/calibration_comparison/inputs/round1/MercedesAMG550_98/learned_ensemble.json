@@ -1,0 +1,51 @@
+{
+  "available": true,
+  "estimated_kmh": 167.04011259154422,
+  "method": "learned_mask_calibration_ensemble",
+  "mapping": [
+    [
+      -0.0030808369318644207,
+      0.0054523309071858725,
+      0.0
+    ],
+    [
+      0.0,
+      -0.021566230058670043,
+      0.0
+    ],
+    [
+      0.0,
+      -0.001885858674844106,
+      1.0
+    ]
+  ],
+  "time_interval_s": [
+    4.337666666666667,
+    5.372033333333333
+  ],
+  "support_hull_image": [
+    [
+      251.48846435546875,
+      628.0535278320312
+    ],
+    [
+      293.32965087890625,
+      643.4557495117188
+    ],
+    [
+      502.9765625,
+      744.8790283203125
+    ],
+    [
+      767.016845703125,
+      912.7986450195312
+    ]
+  ],
+  "track_id": 1,
+  "observations": 24,
+  "ensemble_samples": 16,
+  "trajectory_rms_m": 1.358191649766346,
+  "upstream_revision": "80b8bc4964eddfda32c40e6d1c8fe8b62f777f55",
+  "upstream_model_sha256": "bcb5af76b769788ec18b663e0e1a879ab2d3dce30eb2d0f3162e9730e5204fbf",
+  "reference_label_used": false
+}

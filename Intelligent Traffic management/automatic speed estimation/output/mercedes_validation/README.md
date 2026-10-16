@@ -1,5 +1,7 @@
 # Mercedes speed validation report
 
+This is the preserved earlier experiment. See the [subsequent calibration-method comparison and individual tests](../calibration_comparison/README.md) for the new implementations, reference-library hybrid and paired output videos. The new experiments reuse these clips and are development cross-validation.
+
 Run date: 2026-10-16 (Asia/Karachi). References are the user-confirmed cruise-control settings in filenames. Text annotation files are ignored.
 
 **Held-out result: MAE 9.41 km/h; 6/27 clips within ±2 km/h; 27/27 estimated.**

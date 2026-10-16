@@ -6,7 +6,23 @@ This FYP prototype first checks whether this camera view has usable saved calibr
 
 **Status: experimental inference prototype.** Videos now show a single decimal point estimate, such as `32.3 km/h`. Sensitivity ranges remain in CSV/JSON files. Separate calibration-review and speed-estimation videos are produced. Original CCTV speed accuracy remains unvalidated; the [Mercedes cruise-control validation](output/mercedes_validation/README.md) records accuracy testing on the supplied clips.
 
-The completed Mercedes benchmark used three calibration pilots and 27 held-out clips. Held-out mean absolute error improved from **48.66 km/h in the legacy single-pass diagnostic to 9.41 km/h**, but only **6/27** estimates were within ±2 km/h. The worst case was **78 → 47.2 km/h**. **The requested accuracy target has not been achieved.** The legacy diagnostic relaxed the old three-track requirement; it was not a qualified production result. See the [full report and all 60 paired videos](output/mercedes_validation/README.md) and [additional calibration diagnostics](output/mercedes_validation/diagnostics/README.md).
+The historical Mercedes benchmark used three calibration pilots and 27 held-out clips, with **9.41 km/h MAE** and **6/27** within ±2 km/h. A subsequent [research comparison](output/calibration_comparison/README.md) tests 18 model/calibration versions and 20 fusion configurations. The selected reference-library/geometry hybrid gives approximately **2.38 km/h MAE across 30 individual development tests**, with **19/30** within ±2 km/h. Every test excludes its own speed from calibration and selection; the reference library uses other labelled passes. **The requested accuracy target remains unmet across all videos.** These reused clips do not provide fresh independent validation.
+
+See [the methods and selected workflow](calibration_methods.md) for research sources, implementation differences and reproduction. The [historical report](output/mercedes_validation/README.md) and its [earlier diagnostics](output/mercedes_validation/diagnostics/README.md) remain available for comparison.
+
+## Refined per-video calibration experiments
+
+The research workflow checks compatible saved reference views, reuses a longitudinal road calibration when supported, and fits new geometry/motion calibration when no reference matches. Its selected hybrid combines reference-pass motion measurement with a vanishing-point temporal estimate. Vehicle observations are required in every clip. It estimates a local distance scale along the observed path.
+
+The [new report](output/calibration_comparison/README.md) includes each clip's previous/new speed, every version's error, calibration/reference records, and a new calibration video and speed video for all 30 clips. The [Kaggle GPU comparison](https://www.kaggle.com/code/hayyanfaisal/fyp-per-video-calibration-method-comparison) and [CPU refinement/report](https://www.kaggle.com/code/hayyanfaisal/fyp-calibration-refinement-report) package the experiments. No network weights were fine-tuned. This reference library belongs to the Mercedes recordings; the original CCTV camera needs its own calibration.
+
+```powershell
+New-Item -ItemType Directory -Force outputs/comparison_reproduction | Out-Null
+Copy-Item -LiteralPath output/calibration_comparison/scene_registrations.json -Destination outputs/comparison_reproduction/scene_registrations.json
+python calibration_comparison.py --inference-dir output/mercedes_validation/inference --first-round output/calibration_comparison/inputs/round1 --second-round output/calibration_comparison/inputs/round2 --output outputs/comparison_reproduction --no-render
+```
+
+Omit `--no-render` and add `--video-dir 'C:\Users\hayya\Videos\FYP\Speed\MercedesAMG550'` to recreate the paired videos.
 
 ## Automatic workflow
 
@@ -43,6 +59,8 @@ The saved experiment covers **150–210 seconds** of `A3_ch14_20260822105146_202
 - [Open/download the 60-second annotated video](output/experimental_speed_preview.mp4)
 - [Open/download the separate calibration video](output/calibration_preview.mp4)
 - [Mercedes before/after validation report and paired videos](output/mercedes_validation/README.md)
+- [New calibration-method comparison and individual video tests](output/calibration_comparison/README.md)
+- [Research methods and selected hybrid workflow](calibration_methods.md)
 - [Qualified speed estimates, CSV](output/qualified_experimental_speeds.csv) · [JSON for application integration](output/vehicle_speed_estimates.json)
 - [All candidate estimates and rejection reasons](output/experimental_speeds.csv)
 - [Detailed methodology and experiment review](calibration_review.md)
@@ -94,6 +112,20 @@ Intelligent Traffic management/
     test_validation.py              Metric motion and label-independence checks
     test_calibration_math.py         Synthetic checks with known geometry and speed
     test_workflow.py                 Cache reuse, invalidation and failure behavior checks
+    calibration_candidates.py       Temporal, vanishing-point, 3D and silhouette candidates
+    learned_calibration.py          Pinned released calibration-network adapter
+    flow_calibration.py             Checked optical flow and contact-anchor motion
+    refine_flow.py                  Adaptive intervals and constant-motion refinement
+    lens_calibration.py             Motion-based division-model lens fitting
+    longitudinal_calibration.py     Reference-pass longitudinal road scale
+    scene_registration.py          Speed-blind camera-view reference lookup
+    calibration_comparison.py       Individual tests and nested reference/geometry selection
+    render_comparison.py            New paired calibration and decimal-speed videos
+    export_comparison_details.py    All 600 fixed fusion-version video results
+    comparison_notebook/           GPU calibration-method comparison
+    comparison_report_notebook/    CPU refinement, per-video report and all videos
+    calibration_methods.md         Research sources, implementation and scope
+    test_calibration_candidates.py Known-motion and test-reference exclusion checks
     build_notebook.py               Convert percent-cell Python to a notebook
     prepare_speed_notebook.py       Embed current calibration/renderer in stage 3
     build_workflow_notebook.py       Package the automatic workflow for Kaggle
@@ -155,6 +187,8 @@ The existing dataset and notebooks are private and require the owner's Kaggle ac
 | Automatic workflow | [Camera calibration workflow](https://www.kaggle.com/code/hayyanfaisal/fyp-cctv-camera-calibration-workflow) | 1 | GPU T4 |
 | Mercedes inference, all 30 clips | [Speed-blind validation inference](https://www.kaggle.com/code/hayyanfaisal/fyp-mercedes-speed-validation) | 2 | GPU T4 |
 | Mercedes report and all 60 videos | [Calibration validation report](https://www.kaggle.com/code/hayyanfaisal/fyp-mercedes-calibration-validation-report) | 1 | CPU |
+| Calibration method comparison | [Per-video comparison](https://www.kaggle.com/code/hayyanfaisal/fyp-per-video-calibration-method-comparison) | 1 | GPU T4 |
+| Refined calibration and individual tests | [Refinement report](https://www.kaggle.com/code/hayyanfaisal/fyp-calibration-refinement-report) | 3 | CPU |
 
 The automatic notebook is the single-entry workflow. It embeds the current scripts, attaches the private video, runs fresh inference when inputs are missing, verifies calibration creation, and verifies a second run reuses it without fitting. Version 1 completed successfully on Kaggle with fresh GPU inference and identical qualifying speed results on the cached run; the [saved verification records](output/workflow_demo/README.md) include both reports. Use the three individual notebooks for inspecting or developing a particular stage.
 

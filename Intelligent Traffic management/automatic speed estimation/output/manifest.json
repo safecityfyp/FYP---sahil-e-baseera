@@ -31,6 +31,16 @@
       "notebook": "hayyanfaisal/fyp-mercedes-calibration-validation-report",
       "snapshot_version": 1,
       "output_pattern": "mercedes_validation/.*"
+    },
+    "calibration_comparison": {
+      "notebook": "hayyanfaisal/fyp-per-video-calibration-method-comparison",
+      "snapshot_version": 1,
+      "output_pattern": "calibration_comparison_inference/.*"
+    },
+    "calibration_refinement_report": {
+      "notebook": "hayyanfaisal/fyp-calibration-refinement-report",
+      "snapshot_version": 3,
+      "output_pattern": "calibration_comparison/.*"
     }
   },
   "source_video_included": false,
@@ -72,6 +82,2498 @@
     "calibration.json": {
       "bytes": 13799,
       "sha256": "fe69caee0bbcd33afcf3c2e388a06716e8280bb5176a7c0bee85e1c5bf339a32"
+    },
+    "calibration_comparison/artifact_verification.json": {
+      "bytes": 12188,
+      "sha256": "db42a19ede9dac9067997327ffe1b283e02c02e93f05edc24bbee9cc126d103a"
+    },
+    "calibration_comparison/calibration_path_metrics.json": {
+      "bytes": 573,
+      "sha256": "181c2d8b2da3235397777bdd473b5e2923ee3be88368f68d256d8b6e22640354"
+    },
+    "calibration_comparison/errors.jpg": {
+      "bytes": 110026,
+      "sha256": "ce54fe09ff21e62a6acc6f7c878696db809c46d55cbe473c7f9b22a6a5c7bd34"
+    },
+    "calibration_comparison/fusion_version_results.csv": {
+      "bytes": 57134,
+      "sha256": "948681d031ea753f00989b900d2c84783d2c5487e44b604b40fbb49213ed9970"
+    },
+    "calibration_comparison/fusion_version_results.json": {
+      "bytes": 159042,
+      "sha256": "715fe6d36d98ba92e5bd982ac4d58ea28850d18a809594c6f6e6fa15a16b50f1"
+    },
+    "calibration_comparison/fusion_versions.json": {
+      "bytes": 5598,
+      "sha256": "76a341ae8771cf96691d38034258fbdf8c53d428bc58143029c5b1b51448fbb4"
+    },
+    "calibration_comparison/individual_test_audit.json": {
+      "bytes": 44672,
+      "sha256": "c05d5e5228ec8ac3d2b0db7ffeaaa8bcdc29657bc524b76230a9b06175469cd8"
+    },
+    "calibration_comparison/initial_hybrid_report_metrics.json": {
+      "bytes": 5604,
+      "sha256": "0824a8e7d2802208661f5c776793d67e2c61e16d779027dc46d4bd3bdafe00b1"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_100/delay_2d.json": {
+      "bytes": 3997,
+      "sha256": "ebb4bd9b8a5c1a1af0ba1a31ca5eabe94b0a52113d14eec16c0f85ac353bbccb"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_100/flow_features.json": {
+      "bytes": 20920,
+      "sha256": "1b31bc7fc74ac67e94ccdbe45921c31241e38105f00eda6ee5b6f04b439aae74"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_100/learned_ensemble.json": {
+      "bytes": 1226,
+      "sha256": "c362a200ffa4d60a1aabe4031241a27793a9e63e9c4b3bca91a963ab74c6b6f2"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_100/learned_mask.json": {
+      "bytes": 1216,
+      "sha256": "e50b329f3f1a8e3a4f48c874f86f4a3a1f537f47c398dca6715ad25413874df6"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_100/mask_example.jpg": {
+      "bytes": 245630,
+      "sha256": "d9e205093f7ddaa92d83362c2fe435effa987a899db66573e3dcce69279a9b55"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_100/mask_features.json": {
+      "bytes": 12389,
+      "sha256": "08a999610e95c1e0e91bd727b3980ea03fa0f35666ef9c2c2876be3c1c320a25"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_100/predictions.json": {
+      "bytes": 38975,
+      "sha256": "bbc5817a3c13a2cfea9f074eb7dbd869dc2af9f5990e5bb88e4af5dd8c90c703"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_100/rigid_bundle.json": {
+      "bytes": 1521,
+      "sha256": "2d37c9a50655ffcc530ef98b91075750b84f2fca86756d90e277d031e61cbe3b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_100/rigid_distortion.json": {
+      "bytes": 1579,
+      "sha256": "923b036ccc06a1c8729e6762e32ba99594a441bfc02feb9766daf1cf9f30f2fe"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_100/run_report.json": {
+      "bytes": 211,
+      "sha256": "621c0a8b66ecf28d919aee195c49c5ea563cd5b72bf8f166d770310de3c3b9e0"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_100/silhouette_cuboid.json": {
+      "bytes": 10035,
+      "sha256": "04fe45cd4ee13d18637dcfcbd02cb52de7eacffda3aceea270d46cadaa3320d8"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_100/silhouette_sedan.json": {
+      "bytes": 10031,
+      "sha256": "d5160b8b15e8bb171b61f14d8e0787559950946b20a1ca99e38c08a170d3fc73"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_105/delay_2d.json": {
+      "bytes": 4038,
+      "sha256": "c0ae0491a1eab1e62aaef27df729bf5c7d4f827126957961b6e2ed9a1c21152e"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_105/flow_features.json": {
+      "bytes": 19526,
+      "sha256": "2987394346058e9f24d8f2c16e5b1b16049e23fd1c619873c75a8a651400cc6b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_105/learned_ensemble.json": {
+      "bytes": 1154,
+      "sha256": "c8814d92ee8c3aa00f22cdb604c9be4bc61b28c3810f4694bec3b1e4d21ebc6d"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_105/learned_mask.json": {
+      "bytes": 1143,
+      "sha256": "9cbb31b140ef0bb6b123eb589ab90cc57d7baeada50ef0368b552dcbd74b4769"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_105/mask_example.jpg": {
+      "bytes": 242788,
+      "sha256": "d55dcb37d0c45b850b0f60b17939f7ac4d6093a33740dbf5b233f32d55aa2581"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_105/mask_features.json": {
+      "bytes": 12376,
+      "sha256": "55d028122ca7714c9e6bbf93bdab2335e58b856e40d1826f67e385a9d229d46a"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_105/predictions.json": {
+      "bytes": 38671,
+      "sha256": "f3d20ec17229924485d22f8884b60f02b5d922ef754484fd6eccac5c787ae530"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_105/rigid_bundle.json": {
+      "bytes": 1805,
+      "sha256": "e5db880ae51c203c2377fcb25c648d4b3eceea60a5fe9eb27e2b31b940213574"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_105/rigid_distortion.json": {
+      "bytes": 1868,
+      "sha256": "1d95ed429dac8feb04f75a385ee8ff7f1ebd9fc6bce06aa3edab761f5780edb6"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_105/run_report.json": {
+      "bytes": 211,
+      "sha256": "d41783ea9485dd38afa76d28e197ac21bf09e57ccd5ed5ce9456dcf6c729172e"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_105/silhouette_cuboid.json": {
+      "bytes": 9633,
+      "sha256": "5cb46dc61494d2bd9dd77a51ecb2efd2462206cd28e9bc176c3b23a6ec77fd43"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_105/silhouette_sedan.json": {
+      "bytes": 9645,
+      "sha256": "526529d42b3b58c9ab96da836d9060b39c8385c69fcfd53de480e60fb2c9b4bf"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_30/delay_2d.json": {
+      "bytes": 8418,
+      "sha256": "cc38a91a1eef41d39e07764cf820ce8a0f3026118e723a378254b571753cc630"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_30/flow_features.json": {
+      "bytes": 50735,
+      "sha256": "c43724c0aa9212e279d005a8f52204594a7f0088d9c945e93c7c7ad49344a4b3"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_30/learned_ensemble.json": {
+      "bytes": 1175,
+      "sha256": "b685a2f630385198bed72d86b5be923b7c90881ddb71a1c1a389fb74ad505833"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_30/learned_mask.json": {
+      "bytes": 1164,
+      "sha256": "e17057179a54573de83f9068f8c453508094672567b138ef5466ba8f61cad0ce"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_30/mask_example.jpg": {
+      "bytes": 237754,
+      "sha256": "8e0caf0798ada86cbaee79a39772a088f65002f941488948cb8a162d1940158f"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_30/mask_features.json": {
+      "bytes": 12361,
+      "sha256": "d64e5c5f297335a43cad5dec42f3f0b35283e9f12bc2456d1ed70f1c5b2b2a57"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_30/predictions.json": {
+      "bytes": 62972,
+      "sha256": "825c32f401b5168bb6730d86c07dc9a6dbd359500e3b89cab77140d163f1fb68"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_30/rigid_bundle.json": {
+      "bytes": 1992,
+      "sha256": "d338cf8f4364cf3fac783d7027fc5239ca132cbf93d848d49d8c9067b8173ca1"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_30/rigid_distortion.json": {
+      "bytes": 2042,
+      "sha256": "2e638395333c04ae8a21d612515fed9c0ab75c55d39910be311991beb0582697"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_30/run_report.json": {
+      "bytes": 210,
+      "sha256": "f6f05678d7756a84be2b2039ba7c626342d319a36ea229d2c8e3c9ae511bc5c9"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_30/silhouette_cuboid.json": {
+      "bytes": 16308,
+      "sha256": "54169a0d0cb12c12244def1bbcabbc411f9ca2b80f8c5bd7aa7b5adb1b81bcb0"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_30/silhouette_sedan.json": {
+      "bytes": 16318,
+      "sha256": "23cff967e8542095617faa0a3f2f4d4311d251e197a0f8cfe51d2092fe66d921"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_33/delay_2d.json": {
+      "bytes": 10123,
+      "sha256": "a413a6cd29014dbff9e4c5366557a2ffdffbd908ad9ab86f7f089a67406e2ff1"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_33/flow_features.json": {
+      "bytes": 66104,
+      "sha256": "3f72b4b5b8804e941fbdde2b2c11dc6a12bf01e9c427ca4af7bde5f779e08e25"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_33/learned_ensemble.json": {
+      "bytes": 1333,
+      "sha256": "5ef4b98029e24678e8837b67532ade2a974e8e9d3b3f3ce83bc0652d91d1423c"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_33/learned_mask.json": {
+      "bytes": 1325,
+      "sha256": "564484fa1364e8dea17b65f483b34337e8fff9713ff87640a27dca9083a5b680"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_33/mask_example.jpg": {
+      "bytes": 313919,
+      "sha256": "f1b703d73c745df43b6b40113531a360de9c94b4519bd1cd9fd85d1cee6edde6"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_33/mask_features.json": {
+      "bytes": 12393,
+      "sha256": "987e3f74015b455294c2d7a5fb87111260371d4a4bfb872da03564e2952421e4"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_33/predictions.json": {
+      "bytes": 66354,
+      "sha256": "9da27dcae6315d3e35e7f67a28c8f34c40692b8c3afdfde1749e8799f1ebdcd2"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_33/rigid_bundle.json": {
+      "bytes": 1444,
+      "sha256": "ea179325e6760fefd369ca456515d961de787b43971c09d93dd152604e021dad"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_33/rigid_distortion.json": {
+      "bytes": 1500,
+      "sha256": "4a5ad94e0eda28f21e70963969e8dc760b29f01781924b03ed86e64e0919d3ad"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_33/run_report.json": {
+      "bytes": 210,
+      "sha256": "154e62278e717243586f97d6fdcf7e7425d31cd265b2ffd2d93e1954f95d5bd8"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_33/silhouette_cuboid.json": {
+      "bytes": 16370,
+      "sha256": "9faad3529fd7b4a7533d7ccdfe89548a0804636d0c5e06a89145809ccfa1b05a"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_33/silhouette_sedan.json": {
+      "bytes": 16351,
+      "sha256": "8fdfc8cfb6a449c50c027c435f27c5b91a22a825286070d04823360325291c14"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_35/delay_2d.json": {
+      "bytes": 7836,
+      "sha256": "1db00425b54ee2ca44163c58b44da51d690c8c7612c126d64617091665f2d9b8"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_35/flow_features.json": {
+      "bytes": 60667,
+      "sha256": "d60c767b2c9d4db78c5c8579647811c36acd9272331fc1cb12dacb21ec6a8c41"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_35/learned_ensemble.json": {
+      "bytes": 1227,
+      "sha256": "acf16f700c2f1ca5d1762807c8fb4a182fe538040d3a41ac350e340810e7dd98"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_35/learned_mask.json": {
+      "bytes": 1219,
+      "sha256": "cdaa55c3eba9be9f6739f37c3a48479989ae28aeecabc15b4efd49abf7ddb309"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_35/mask_example.jpg": {
+      "bytes": 346410,
+      "sha256": "85cb6e663d0780f83b9b694a8f4fb99c052250d13fc59966c14f0cec8f6f3140"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_35/mask_features.json": {
+      "bytes": 12409,
+      "sha256": "e400b8a48d5a19d829aa7b2167743f64bc7fc345ce13642baf91b32aa4245e94"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_35/predictions.json": {
+      "bytes": 63845,
+      "sha256": "125a56e3c48d26772836d330bf30afb273dae4ce74b486a62bf9adf36ad80765"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_35/rigid_bundle.json": {
+      "bytes": 1765,
+      "sha256": "ffd688173e49b1b8eaca03900e156fd3e3bc7a9435eb76c1bfb6c9173465e538"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_35/rigid_distortion.json": {
+      "bytes": 1817,
+      "sha256": "3f53781684bd3b89523150f1a05419a569b45f4c21cf7fcdb0980c55658ab800"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_35/run_report.json": {
+      "bytes": 209,
+      "sha256": "9d980eece3af9601515f45f458b8ee8a61323723f262e05b45346bf8e9fe35bf"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_35/silhouette_cuboid.json": {
+      "bytes": 16421,
+      "sha256": "59bd4881825fd6626a0bad5207d92a0dbccfb95f94b01c15abf49dca4a1bc4ea"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_35/silhouette_sedan.json": {
+      "bytes": 16429,
+      "sha256": "84bf69a0f065332ee3f838a2bab3610924ee2c2806ed1b78cda0c4ebe13f5c91"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_38/delay_2d.json": {
+      "bytes": 9283,
+      "sha256": "2a80795af11498dba71502695d5b26a9f3aac1daf4a6f3d86f9db910af888aeb"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_38/flow_features.json": {
+      "bytes": 56385,
+      "sha256": "8e213baffcced2d06e5fe068786c04582f62bb5581ceb4f21fc1ad6605002362"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_38/learned_ensemble.json": {
+      "bytes": 1157,
+      "sha256": "a910b1a95d00eb5832d167f3c61884b6d0e29ebce5418fb950e1bac9cf21dd80"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_38/learned_mask.json": {
+      "bytes": 1148,
+      "sha256": "e1a6acf3a109037ddfb536e8ddc383e0c1fcf2dd455c91c5df3f7564563ea43b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_38/mask_example.jpg": {
+      "bytes": 253445,
+      "sha256": "e3967f60cdcf119dbf5fb1850d2ce899f7db714c7b2939d8ff61476c6825241d"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_38/mask_features.json": {
+      "bytes": 12422,
+      "sha256": "b960ba547c0797e41eb6c94587172cde65a14a40c3d90213000b8002249016af"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_38/predictions.json": {
+      "bytes": 65157,
+      "sha256": "19794eb0468f324123042bc48e0653b1438be7016e2073eac6d13f2a8c6e2afd"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_38/rigid_bundle.json": {
+      "bytes": 1831,
+      "sha256": "20a6a99e330b8f189e6b15c15fcbb51e26a81c9a44f803e0689592e2d3f88a28"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_38/rigid_distortion.json": {
+      "bytes": 1885,
+      "sha256": "b49a68fd5a20d6bf433ebdd3e81c13df1fdd518ee3b094d84129891ce891632a"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_38/run_report.json": {
+      "bytes": 210,
+      "sha256": "5044369569125773fa9f9b3399de5cdbcc659729fe35d150a9828effcb4c0c69"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_38/silhouette_cuboid.json": {
+      "bytes": 16413,
+      "sha256": "c206518677f5998ab878cd73008052e86f44d47bdac20b6073ff3a65c141fbfb"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_38/silhouette_sedan.json": {
+      "bytes": 16407,
+      "sha256": "ca45f1d7b14a878b725ea49f437f45df7ef1975eb340a3ff417a7e7abf088ad3"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_40/delay_2d.json": {
+      "bytes": 7451,
+      "sha256": "fbdccca6f71570f0314d4d1168270080623be639b27d6a1ddd5ecca950d12ed9"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_40/flow_features.json": {
+      "bytes": 43805,
+      "sha256": "1e98d06ff6efb845fadc8b6d2ccd8ad50a6ea2208236d81f8cce0b48403eefdd"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_40/learned_ensemble.json": {
+      "bytes": 1217,
+      "sha256": "3329c25ef58c901bb921f382cbef48c87d2c66d82eb201b75f31716a89b2311c"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_40/learned_mask.json": {
+      "bytes": 1209,
+      "sha256": "f1ad28f5b396f2820055ff8a73837565a06fb6bb03d55d5924e7d8de1472ce3d"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_40/mask_example.jpg": {
+      "bytes": 232435,
+      "sha256": "4c4f396a4ae09fa11daa2d7dc5f7d85c91e42703a9fa61acb4dcb89d00e024f3"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_40/mask_features.json": {
+      "bytes": 12381,
+      "sha256": "ae7a662c9338d03ebe2e4673146b37d8fce234a1ae6736ab12d56183aadf605f"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_40/predictions.json": {
+      "bytes": 60708,
+      "sha256": "25f6fde243cfb9136f49b5ee7eb1084eda088bddbb8fd2264dcb63354d092edd"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_40/rigid_bundle.json": {
+      "bytes": 1882,
+      "sha256": "80b41350c6ede45fe0f7e3c49b5e6aac0fae4be63be32a9004ee86c336345d37"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_40/rigid_distortion.json": {
+      "bytes": 1930,
+      "sha256": "4097392ffda07a772256098d5199ef2cb0ace1887f95876e36d227a7e6f569fe"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_40/run_report.json": {
+      "bytes": 210,
+      "sha256": "b35288343a6584be1720102d5646270434c603a5405aac147a762c771f2ee0f5"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_40/silhouette_cuboid.json": {
+      "bytes": 16179,
+      "sha256": "507347b6bebaa17bb4932cc7eae307ecb9bdafa281672426d4bc33ac0f9373b6"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_40/silhouette_sedan.json": {
+      "bytes": 16172,
+      "sha256": "96269f2ebe9da2c22c043e06b5c27e6521c749f5b35d3a135d9b2fb4dee82a88"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_42/delay_2d.json": {
+      "bytes": 7773,
+      "sha256": "4ee66a0b3698324a2bd68e2757f4b3f48b9eb211a01f1d39b9510de8b4b350cf"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_42/flow_features.json": {
+      "bytes": 49928,
+      "sha256": "371a6c9a0bbc5dbd2c575f0351b42ce502e86833180c803421b49f3d47e5ea38"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_42/learned_ensemble.json": {
+      "bytes": 1171,
+      "sha256": "c08ea3ee9dc5b8b5987d6fefc8a17e60d2daf760ba2e260a747735ad2401f98b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_42/learned_mask.json": {
+      "bytes": 1161,
+      "sha256": "70180dfe12ee23f0784dbfc465313042ade7bc4691b1381a4fe9d6435e831dbe"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_42/mask_example.jpg": {
+      "bytes": 260050,
+      "sha256": "db0ca35e3a48e36846c9689ff316730258fcd00216cb6d3f301630016fd046dc"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_42/mask_features.json": {
+      "bytes": 12379,
+      "sha256": "290a17954487724ab1ccdccb5211c35db366c114fb876224c721abe0526d29c4"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_42/predictions.json": {
+      "bytes": 61578,
+      "sha256": "5ef7ba1138fd9bb39b61413fa7266c731d95847829e3677d0360665fd1b3f5c7"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_42/rigid_bundle.json": {
+      "bytes": 1760,
+      "sha256": "66f58dfc6fc5633fef780dae1312fe7dd5cef1c4f4570e5d1b51a8f7d9d96ef2"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_42/rigid_distortion.json": {
+      "bytes": 1814,
+      "sha256": "5b83b70e07bfc0d0215d275ad2087ef2b4392f1800f287b3f903cc5d2cb40faf"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_42/run_report.json": {
+      "bytes": 210,
+      "sha256": "f4572cbb9029178073ac64f11da9ec28d9e85f54469f789770690d87dcab8da7"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_42/silhouette_cuboid.json": {
+      "bytes": 16285,
+      "sha256": "25b581eebf6c15f2ffff09f3f08a2269ca5d12c633e903a18d92481adfe98295"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_42/silhouette_sedan.json": {
+      "bytes": 16294,
+      "sha256": "1939e8bb5c607729481d6a0de4166a7aeb8defcd3e54dc72a97f7a16b1ae9f79"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_45/delay_2d.json": {
+      "bytes": 7298,
+      "sha256": "e04c0c2e915d81c70b242b3b5e4bfc8c2af64dd947b6dc98bac1f52821046fbd"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_45/flow_features.json": {
+      "bytes": 45164,
+      "sha256": "e3b29b82a5bfe444257cb8ec3a1b7cc80951d26b3c4d32895a19e50bc62dd971"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_45/learned_ensemble.json": {
+      "bytes": 1223,
+      "sha256": "3a059e18c9f34af86f18689d54483cb104974f398277bed4f70ea91434ed0001"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_45/learned_mask.json": {
+      "bytes": 1215,
+      "sha256": "01841cc32bd51b6e4c4b780f20908c5ac538d3f35cbd36de028c6c1d4b393396"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_45/mask_example.jpg": {
+      "bytes": 241047,
+      "sha256": "89f8e1619b14ceb9b67b5b9a653d0b98d513e8841712289285b87ffe523529d6"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_45/mask_features.json": {
+      "bytes": 12400,
+      "sha256": "eee6347e23eb9f0e9b729e6ba76e7cc381255a2203565fbd976086180c9c92c2"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_45/predictions.json": {
+      "bytes": 60038,
+      "sha256": "00e85bdae479aa84f3582d221e73809f12c5e792839c26f4169827c51bd1f98e"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_45/rigid_bundle.json": {
+      "bytes": 1677,
+      "sha256": "fa4bdab991da9978dc0975fa2059aba58a88d138754a851a3efad0cb8fd5edda"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_45/rigid_distortion.json": {
+      "bytes": 1730,
+      "sha256": "fff311e3a2acb79b2a8d674d24054ddc3591f44fc786df9af603fb6ebfccb4b6"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_45/run_report.json": {
+      "bytes": 210,
+      "sha256": "cf948059fd6aa8b8a9ec53241853187cf8c073b1d4930493cda8d4d2ddda2c63"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_45/silhouette_cuboid.json": {
+      "bytes": 16169,
+      "sha256": "890cc8501b4deac27e4779daffcb3b37381a9fbe91a43451cc781536b7e5085a"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_45/silhouette_sedan.json": {
+      "bytes": 16184,
+      "sha256": "53f83ed678b6f5b36beaa69a84355cb845306f4051a9d5d484cab5629d81e371"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_47/delay_2d.json": {
+      "bytes": 7419,
+      "sha256": "b1d6af0e4ceca14cfde1b6bfbe48e9034d0eb6d8987245e37bd77c20e6634684"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_47/flow_features.json": {
+      "bytes": 45251,
+      "sha256": "0c40dc3781558e85a8fc1fc7ffe1265fba5677bd80c42e51b69d405cd055da21"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_47/learned_ensemble.json": {
+      "bytes": 1164,
+      "sha256": "404235337298ece58745a06d2d5ee10efb0dfdd94098f9990f9d4f8c2c91f5c6"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_47/learned_mask.json": {
+      "bytes": 1155,
+      "sha256": "00e7c404cbd5a404d9cadf7c7148dadc088326bea1361d4c710f148679abced9"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_47/mask_example.jpg": {
+      "bytes": 329767,
+      "sha256": "745e2f2995f86d085114c8b364bc20ac7affdf6162c4fd5a14d040fab4d3174f"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_47/mask_features.json": {
+      "bytes": 12409,
+      "sha256": "265abe1ba5c7a3165e9fd1b9b6e7ef5b13ccf1b394a46495d7c2f767be11e9c4"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_47/predictions.json": {
+      "bytes": 60616,
+      "sha256": "a864f2e117c63bcd12019548f8bf7f90ecf0f2a6d914447662914db391d6ea4b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_47/rigid_bundle.json": {
+      "bytes": 1696,
+      "sha256": "f16654776e4de0e12f1b14940b3952749c9a32f231cc5f0300ad443813ee8ff2"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_47/rigid_distortion.json": {
+      "bytes": 1752,
+      "sha256": "d221121687191b575b0d06e374130c7186c6383af5eadeea0c9f22604dc02a45"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_47/run_report.json": {
+      "bytes": 210,
+      "sha256": "7a2dd5a049ca94608b1c9d42d14bb143fbf7289a611d86952d241b097dc58ead"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_47/silhouette_cuboid.json": {
+      "bytes": 16395,
+      "sha256": "3d32eb4194dadc7db086250c65d65bfad01b19825406a914a1ce27b5f3667c51"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_47/silhouette_sedan.json": {
+      "bytes": 16404,
+      "sha256": "1dedd1aef1dee89185ff865816a459c941f3a351a860aa5126ea1709616cdc97"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_50/delay_2d.json": {
+      "bytes": 6937,
+      "sha256": "d7e8e1716b85e14b573c7caa0bd8c5830360306d157cf632e0278cc78e791762"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_50/flow_features.json": {
+      "bytes": 40285,
+      "sha256": "fb722513a51ca0b96b58f9d7bfc4b29e1d65afc8dc605987b3ee2deba7fe2281"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_50/learned_ensemble.json": {
+      "bytes": 1107,
+      "sha256": "9ea9005821cfb932c92a64e964b8538e99af01c9c37d07d61b3888de25db451f"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_50/learned_mask.json": {
+      "bytes": 1095,
+      "sha256": "055086f5b0adfcc3f3655b8a531acf12d2debe9971a86a73f0b237f8e0793bf7"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_50/mask_example.jpg": {
+      "bytes": 242105,
+      "sha256": "49e32ad83cb635a6b33d6920821b087c450b7eeb61a0d6d669ff44143a699a6b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_50/mask_features.json": {
+      "bytes": 12364,
+      "sha256": "88b7513283e1419d038629c5905ce433620d29c706a62c4d8db47fe9c14bbca9"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_50/predictions.json": {
+      "bytes": 58988,
+      "sha256": "a779198fa29c11623236a120d2be63aa22ecb8cb564a0a2556106c407a095fb2"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_50/rigid_bundle.json": {
+      "bytes": 1567,
+      "sha256": "2079ac091fa316f514b1c35958a4e600b35b98ee228e381577f1c713f88dc225"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_50/rigid_distortion.json": {
+      "bytes": 1615,
+      "sha256": "6e1ab54d701cce84b2bdabca7c71f0ab6838f04ccbe37d1dcfd69081a81cebfe"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_50/run_report.json": {
+      "bytes": 204,
+      "sha256": "9392757300dbbcc93cd740443daea4871e4c9c8921e3d48894f49c57c397345b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_50/silhouette_cuboid.json": {
+      "bytes": 16217,
+      "sha256": "dcd9745cfbfb14b23ec3a9c77193a351e7899ad08a8af4c6651b4b8f10b1da36"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_50/silhouette_sedan.json": {
+      "bytes": 16230,
+      "sha256": "e71480a2188b0f466ca5c8340816a221045f3b0ffe0e9e568cfd4149b7676606"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_52/delay_2d.json": {
+      "bytes": 7064,
+      "sha256": "cc6d3d4a23a0bb3b0539ce9b92420abfdf91cc950b81b65fb9b5f907a60dea4d"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_52/flow_features.json": {
+      "bytes": 39657,
+      "sha256": "fde3a64f4d66cd1b0cde21389a7932a7c4cb6830cbf54a3ed5289f6f608245ba"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_52/learned_ensemble.json": {
+      "bytes": 1168,
+      "sha256": "b01d8b685e82a5352505ee02c8ac6b786f4f6bca2ff8974598f2d6474702640b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_52/learned_mask.json": {
+      "bytes": 1157,
+      "sha256": "c75669b2fbf2b3ea5953e0c97552c6508341e59272d880837b5ac743161b8d2b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_52/mask_example.jpg": {
+      "bytes": 313744,
+      "sha256": "f76c2b1b8fb48cb614e3cd3f74819a3c2185653db40c621321ebcf19c2ba83fe"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_52/mask_features.json": {
+      "bytes": 12430,
+      "sha256": "6929aa4f91d64fa219aaba79a1f88cb130b9f8ed4cf8ca51681dce0c8765c568"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_52/predictions.json": {
+      "bytes": 59582,
+      "sha256": "ea94c8552497b8af4f11dd978a7b8bda4dbdff0933ee2c4f57c9b05061e28915"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_52/rigid_bundle.json": {
+      "bytes": 1687,
+      "sha256": "9bd3d8920978f5206f9a177100be349849a1c0200961f4372ee2a7c90b1647c1"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_52/rigid_distortion.json": {
+      "bytes": 1747,
+      "sha256": "5c6160eda15b2ddcb962ab194211fef7b00146726f5f1cd829078053e2562ceb"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_52/run_report.json": {
+      "bytes": 209,
+      "sha256": "c6d505beab74dfd91ed724fa26833114d404608100d86a82b48baf1437779586"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_52/silhouette_cuboid.json": {
+      "bytes": 16329,
+      "sha256": "821e578137636c9e028451d3ba8eab9f2b6bded8c2f2458b8e2303d6baf662a0"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_52/silhouette_sedan.json": {
+      "bytes": 16317,
+      "sha256": "e02b07b41318fa8f6beccf6982fc2fd555a030f3385e42fcb1e10a81402571b2"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_55/delay_2d.json": {
+      "bytes": 6434,
+      "sha256": "22c9e1952ec681266963ba5447ba4639f47f6a427d2b2f0a287efc00e500d75a"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_55/flow_features.json": {
+      "bytes": 38218,
+      "sha256": "616b63e14716256f14a56c5c9c34872dc76ababbfad973bcb44c966f1ef3bd41"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_55/learned_ensemble.json": {
+      "bytes": 1173,
+      "sha256": "be83077d649daff77fb2f01951cb1d91cb280e67ac37a08ec9709526524a0b51"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_55/learned_mask.json": {
+      "bytes": 1161,
+      "sha256": "640d647ed8711533b67cd9181bfaeda65deb76458b270fd40c70e233f2dd221f"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_55/mask_example.jpg": {
+      "bytes": 238065,
+      "sha256": "3155126c29129b99ceeef6c7b8f039f377bc40254e573a30c87a23045774418f"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_55/mask_features.json": {
+      "bytes": 12382,
+      "sha256": "2704adb3ce5356d3e6bd6cd673690c9397671306e9a85be317952b843c3d5630"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_55/predictions.json": {
+      "bytes": 58013,
+      "sha256": "503fc6784ff4fa173288668d22609e26da8bccce89dab95c3c0761da16dfd69e"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_55/rigid_bundle.json": {
+      "bytes": 1690,
+      "sha256": "590b605650ee829da695a4cd7c9cac272a26800c902743616ec289437065c0c5"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_55/rigid_distortion.json": {
+      "bytes": 1740,
+      "sha256": "31d4c0096a8f1b0117dd1892d562e06b3bda71aba6f52decb61ecb79a91a645e"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_55/run_report.json": {
+      "bytes": 209,
+      "sha256": "59c3d81852a4f9a9fccd1bec74ef7c54100b3cba45d53cdddfb44b572e69d570"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_55/silhouette_cuboid.json": {
+      "bytes": 16254,
+      "sha256": "a966c213e5784979ea22ef4215307a35707dea10c79255920f0c8e52e4267d1c"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_55/silhouette_sedan.json": {
+      "bytes": 16250,
+      "sha256": "0532bcc4e767cadfde0e16a1fa7b761aacecf61ad848337712a64a109f566f12"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_58/delay_2d.json": {
+      "bytes": 6018,
+      "sha256": "c72076f8d911bfd48ab1386de64ab3ea7ceac1f9c7f13b35c9250c5024aa22ce"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_58/flow_features.json": {
+      "bytes": 36868,
+      "sha256": "e62ad5029e5ecaa0df3fb0847fac485ff060c97914b29974c8f154f42c9afdd7"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_58/learned_ensemble.json": {
+      "bytes": 1094,
+      "sha256": "fce80745fc190598c7f8f5a177c92336f7f285cc82acd448989dd49b63782cfa"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_58/learned_mask.json": {
+      "bytes": 1085,
+      "sha256": "5b042f00e50a43a1d8eda1674fc165bffbda6573cbc6d4d4bc57d2db23e83c49"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_58/mask_example.jpg": {
+      "bytes": 296422,
+      "sha256": "cf2db5b209f635a241684de563169d24197e9d60200613705fa854172053e831"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_58/mask_features.json": {
+      "bytes": 12400,
+      "sha256": "69c59cddc803c895ccf5d71a9c0d346fe23731450e79c291b4bdfeb0d15f53b0"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_58/predictions.json": {
+      "bytes": 56726,
+      "sha256": "2969c7975c2378afce5bc32d02ca2855d751949e692dc208064a969eea83c6f7"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_58/rigid_bundle.json": {
+      "bytes": 1511,
+      "sha256": "ecab40eba71a288a54f9daae7ab3cb46ba1ce85542d688437980e777969fe506"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_58/rigid_distortion.json": {
+      "bytes": 1567,
+      "sha256": "f24291816703c098a467a42f62dc226cbd01efceadf825a653b38c5ce4a1c6e9"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_58/run_report.json": {
+      "bytes": 210,
+      "sha256": "773519e00525e5fa5b40f910b39d639ea02d4112504f5e2eb3ba0549b5e4c9d3"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_58/silhouette_cuboid.json": {
+      "bytes": 16150,
+      "sha256": "371a7fc13f79525501d50cb6a033adda21f2bbe8256886d115a14ce26e519907"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_58/silhouette_sedan.json": {
+      "bytes": 16157,
+      "sha256": "fae87626d0fabe906ba87e0b86b6117ad0aec6bd0418468288e727c4d658be70"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_60/delay_2d.json": {
+      "bytes": 5964,
+      "sha256": "a746ae0f7da4c8a2a47b983a5436d1dc2360cc8361a89beee46dfbfd7c13b51d"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_60/flow_features.json": {
+      "bytes": 35437,
+      "sha256": "1ee142fcccdf2bb9ecc03584d5250e96286837254268a60545a4b1c81c71e4a4"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_60/learned_ensemble.json": {
+      "bytes": 1162,
+      "sha256": "05add54eb13e4b53ab22874a5b4083d2d248bfb2ca899aed3e8e1ee6eed68c89"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_60/learned_mask.json": {
+      "bytes": 1152,
+      "sha256": "2b8b2e17a47ed5d6d554a4b74ec44b30558e4abc683f9907fbb58a1291a487de"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_60/mask_example.jpg": {
+      "bytes": 250603,
+      "sha256": "92b7221a014987149b150bf9c9fe81569b5d8a8ef5922cb5348dea6a4da12d58"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_60/mask_features.json": {
+      "bytes": 12371,
+      "sha256": "3133b3ba568e647a86a687ce414cfdaf2d4566f6665c3ca6c45cfefe0bed4d0d"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_60/predictions.json": {
+      "bytes": 57347,
+      "sha256": "6f9a1e41cf452f77a7f11ad40fe0fc52a16df4fe2cd00665000d75e0ae3ff7b4"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_60/rigid_bundle.json": {
+      "bytes": 1573,
+      "sha256": "2574fcb943d8024770c921c9f539f98fbbe4c402c3525f16d010beb31abcf7c4"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_60/rigid_distortion.json": {
+      "bytes": 1632,
+      "sha256": "65f4331f457babd80362853a549379a1ded5838ca14275702b063304e4b2de0c"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_60/run_report.json": {
+      "bytes": 210,
+      "sha256": "e3295bbbd372f62ef5409314f7a6b73918744a4de467a62b43b438d848bc851c"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_60/silhouette_cuboid.json": {
+      "bytes": 16229,
+      "sha256": "22a04bacfab2494976986b5d6992f0e5cf7a639e11dc3ba18d2c65c50572ed3e"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_60/silhouette_sedan.json": {
+      "bytes": 16231,
+      "sha256": "b60b83fdab7a1762915e6d10d78b71ce98fe0a773a8fe5be32ee2b53548bbc76"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_62/delay_2d.json": {
+      "bytes": 5640,
+      "sha256": "3166b3bcbf95ac1d38af0e5f6dd35b9b88fcd76511b9e963da77d3f08a97da9a"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_62/flow_features.json": {
+      "bytes": 31290,
+      "sha256": "bdb31db58f94d6733e6111d6ec2db51ddd48d998edd00c7de10d3f6c7a3ff6ee"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_62/learned_ensemble.json": {
+      "bytes": 1173,
+      "sha256": "b9101acb5de9c43c9c828536b713aaaa9ba47c36471570e05e30500cba818e32"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_62/learned_mask.json": {
+      "bytes": 1160,
+      "sha256": "2e5065b5271ce75619ff04d6b93d614851fa0e063922de321c6a3a4268951e03"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_62/mask_example.jpg": {
+      "bytes": 327053,
+      "sha256": "9f73f3a677ad3e700e07a66ca6f71dfaaf03c4dad7a887f5dd5cc5eb54e98e01"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_62/mask_features.json": {
+      "bytes": 12385,
+      "sha256": "0b3b8913ed0b73550f463a73c65f75a83676407d1e9e6b719fdefbf360bb2725"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_62/predictions.json": {
+      "bytes": 53547,
+      "sha256": "e3e270e82270b17fba14e0fe94da02d7194519340b72b6d8d5179cd92626d2d5"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_62/rigid_bundle.json": {
+      "bytes": 1644,
+      "sha256": "e93d7b541a47444e387f8e7ba3d2be011ecbd8f004ba23ed399363fa99187e7a"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_62/rigid_distortion.json": {
+      "bytes": 1699,
+      "sha256": "743930a06c96595da8917840c8bd31eb483085e21c03078fb18f4b925e2da451"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_62/run_report.json": {
+      "bytes": 209,
+      "sha256": "6c4980e87bdf00f77f14130fe7c6f93893a7958cf85a4501855b8dcf2e3e7daa"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_62/silhouette_cuboid.json": {
+      "bytes": 15095,
+      "sha256": "0dc31db9f9c21f345465c5a5d3735aeab31a6ad8d11d76c92cee211fd717d319"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_62/silhouette_sedan.json": {
+      "bytes": 15084,
+      "sha256": "84ee34c8d6bf1651b2161d0e8632cd3635429a555348b9f6f6f2408847fab902"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_65/delay_2d.json": {
+      "bytes": 5571,
+      "sha256": "ac6f6d959dfed7a8bf2017b656f9ee971ce9f03d334fdca077e389a079ab6b1b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_65/flow_features.json": {
+      "bytes": 30564,
+      "sha256": "76ca645c493151c656107d01bbf98c2c2a5805dd79b87515eeb840df98a41e4e"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_65/learned_ensemble.json": {
+      "bytes": 1149,
+      "sha256": "2f181b23093caae0d133aa51427b19d665b16d71adad2a3d5e71235471dad8a9"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_65/learned_mask.json": {
+      "bytes": 1138,
+      "sha256": "870604b6df2c15f18b7f39d6baa561b3ab54a1b4dfe582321891c9990beab835"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_65/mask_example.jpg": {
+      "bytes": 251859,
+      "sha256": "f1ef9d8d44198ed950c47d70f5df3e4e3183b4ba06c8175dd76d61b52382da7e"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_65/mask_features.json": {
+      "bytes": 12350,
+      "sha256": "79a1b3cde30a1acb51d984ebbc6591e72bb042b188ed4d501b1835b8a0bbabf9"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_65/predictions.json": {
+      "bytes": 51844,
+      "sha256": "abb8c9ead9b1ca954867439b6981e431c4140c30cab9090e4c48da5da942634d"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_65/rigid_bundle.json": {
+      "bytes": 1744,
+      "sha256": "66a031be2528c549aa372eaa83afae8b191a206f7e5f80515e6238dd327fcd06"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_65/rigid_distortion.json": {
+      "bytes": 1804,
+      "sha256": "d854e22fa8b16acff03a63c1ff1c511af6f62b4564b1ce05aa1fd40584c001e3"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_65/run_report.json": {
+      "bytes": 210,
+      "sha256": "769d49c63cb0551264cdae138901503c777000e30640f3cbf2306e5e5f59fcbc"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_65/silhouette_cuboid.json": {
+      "bytes": 14443,
+      "sha256": "0d660659f22d21ea0a485b8f0f704a0dbdbfe4de3bc8a9f81e043ccd5e46bcd7"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_65/silhouette_sedan.json": {
+      "bytes": 14434,
+      "sha256": "c32c6b0c261f2060ef4bf09f68e4bbfb8c1ba7d3fde02bdf90c968e080dee1b9"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_67/delay_2d.json": {
+      "bytes": 5454,
+      "sha256": "2034f064f260517eacd6c4cff4e525e8cd3b27aa40ee1cbd51cee90bd91e87bd"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_67/flow_features.json": {
+      "bytes": 31329,
+      "sha256": "a58718f896ebd4d1032e0ac7863865d32b578489e1f8e4a54ba017e6d20f2349"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_67/learned_ensemble.json": {
+      "bytes": 1294,
+      "sha256": "ff81ed22d80d82e12d17ecabbe664035f588389dfedc78a498bde6d32ce19821"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_67/learned_mask.json": {
+      "bytes": 1285,
+      "sha256": "c88cbb8b6b7e1fc42b9a61ddab191b74dd6449c924a789b560206699f4224c4e"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_67/mask_example.jpg": {
+      "bytes": 312808,
+      "sha256": "069e58833e0887bad642852df45cde6ecce30ea0b2856ee09dc9c8631d351eac"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_67/mask_features.json": {
+      "bytes": 12388,
+      "sha256": "5ead04bd705a4e31384de82e77ab1535e2afc370f8bcc55f44b75ba4a7f118ad"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_67/predictions.json": {
+      "bytes": 52098,
+      "sha256": "7997802fcc195176e0fab7f9020eda813d68276cec2392e199dca61c8b1997d1"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_67/rigid_bundle.json": {
+      "bytes": 1584,
+      "sha256": "170a273f5442bd5efb4970155ee6a8331989be815e271eb1a7b521ed94aa65e4"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_67/rigid_distortion.json": {
+      "bytes": 1644,
+      "sha256": "302db2f9a8cc54c13b7504f974bd7dea2ef1926e3ad5c054b4085c7d3c30fdd4"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_67/run_report.json": {
+      "bytes": 210,
+      "sha256": "7c7c074967984b1c1f38de24785bccb259e7133f99f6744a013330b48c6c83b6"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_67/silhouette_cuboid.json": {
+      "bytes": 14521,
+      "sha256": "442517ad556dae3f9419bfb3e3c6844a284b60815defbb71316c77a769edb0c3"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_67/silhouette_sedan.json": {
+      "bytes": 14522,
+      "sha256": "70aa1d3c598c3e346db4b6f60227a5c4cff97be4dd4bcc80ccd5bd51c74d1105"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_70/delay_2d.json": {
+      "bytes": 5283,
+      "sha256": "81820ad4514a0945d005c50901b7470fb19758193634635d09dcc066a6de8fc3"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_70/flow_features.json": {
+      "bytes": 28531,
+      "sha256": "7d44089ebc82a60faf72fdcda1c570785da0348a3510b50defb0fe151fd13117"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_70/learned_ensemble.json": {
+      "bytes": 1279,
+      "sha256": "2e8f3a92f6c42361ee7a0c3b5cdfa64b1eb1df7aa56a02af44991484e8830898"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_70/learned_mask.json": {
+      "bytes": 1267,
+      "sha256": "7b1930e54bf1932aeb650f4e207e9447fb02f586cae009da0ed5d600794b7c8c"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_70/mask_example.jpg": {
+      "bytes": 257642,
+      "sha256": "54bdbbb516bc711c198a8f53ecf77b287d70995a32be3ae4a232f1adb8e27626"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_70/mask_features.json": {
+      "bytes": 12375,
+      "sha256": "f4ab88bea9f1252308935ad70d1b945fd2f6827130a0d2a4ccc24c48d837b020"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_70/predictions.json": {
+      "bytes": 50366,
+      "sha256": "d2e96285a59670c034e97846b672fd3c2d1aafc25cc7651e0dd064ebf40963de"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_70/rigid_bundle.json": {
+      "bytes": 1700,
+      "sha256": "6901035e80270c335eec43689edc5ca2869410b9609fbed0e353717d837bc541"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_70/rigid_distortion.json": {
+      "bytes": 1754,
+      "sha256": "fc63f4809fe0705272b519ef354ff5b55b1fe3e05305fd8f2735e052c805d1c8"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_70/run_report.json": {
+      "bytes": 209,
+      "sha256": "2c8b3862d039976445cb69de5d8baf9c832c7f3367b7ddd9ce0e191545404c59"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_70/silhouette_cuboid.json": {
+      "bytes": 13784,
+      "sha256": "473d57ab88f18b94da72a569e0389ae5c4f294e9157303efa7ca07ac7b55b4c8"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_70/silhouette_sedan.json": {
+      "bytes": 13773,
+      "sha256": "43f728252e4c7bd7159fc18389a632543777e858853bff22c0a3b7631a9ba288"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_73/delay_2d.json": {
+      "bytes": 4996,
+      "sha256": "dade109bc14941f433ed7fb2ebaa35e632ba1a3938036a7f30ea6e778e3e92a7"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_73/flow_features.json": {
+      "bytes": 27863,
+      "sha256": "f382af29f40ecaa0dff9ab392e76a9cb46819028727a07b0a8d7d6eb2a5614e8"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_73/learned_ensemble.json": {
+      "bytes": 1171,
+      "sha256": "837d1e2023f7cd8fdc8e027819a9b35b9fecf4e9ea2e92a5a691022017456673"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_73/learned_mask.json": {
+      "bytes": 1164,
+      "sha256": "79142d119fbb73ba926a2b926c1817452782732e85973daeafa97b2c9d98ae54"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_73/mask_example.jpg": {
+      "bytes": 314606,
+      "sha256": "78f49d64173215dba938570cab62d18e33a64f230f1627b35afffdf24dc40d8d"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_73/mask_features.json": {
+      "bytes": 12421,
+      "sha256": "7897d950c27ab3e616052e2710beb1a93f0b8c249c780154d10158818e506d55"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_73/predictions.json": {
+      "bytes": 48689,
+      "sha256": "cef724bfce33c5fab4f449640faf46f9c715623118812bc3b818f2ed202b6590"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_73/rigid_bundle.json": {
+      "bytes": 1631,
+      "sha256": "855bcf6d8012600be99e64c06c5c9a4d6b89aa947f69b3dfcf17524fc9b83efe"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_73/rigid_distortion.json": {
+      "bytes": 1685,
+      "sha256": "c09b57d22585131cbd8df11504a58d391bf09213f08e6edfdd00969f239e81d4"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_73/run_report.json": {
+      "bytes": 210,
+      "sha256": "9e8ad140344ab9d2bdece6e77239b769bb45a58a825c7ff90100087460c1e4f1"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_73/silhouette_cuboid.json": {
+      "bytes": 13316,
+      "sha256": "9e085155116f4fad96bc8292e3c1f12eb08350f8030b8f2533bd839a8eb956b7"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_73/silhouette_sedan.json": {
+      "bytes": 13328,
+      "sha256": "8b8f6425975547ed8062b5768b2c8252f7a9c63f941e184b33e839f517a424dd"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_75/delay_2d.json": {
+      "bytes": 5171,
+      "sha256": "5a001709199ee52a8e4737070a7575ed6d022cf4e769511fd14a03114fd238d2"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_75/flow_features.json": {
+      "bytes": 27126,
+      "sha256": "7a08fa9d8de210688b465201c458608f3071408225bd465e9c035028d386a280"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_75/learned_ensemble.json": {
+      "bytes": 1225,
+      "sha256": "7e04baa6d3d87280b685d68e4bebdccf9825ca27d8a4556bd61c374d9a5fa355"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_75/learned_mask.json": {
+      "bytes": 1215,
+      "sha256": "41ff99e564968d99fa8497d874b017a353020c742bfd7d537a642e94dba6582c"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_75/mask_example.jpg": {
+      "bytes": 255365,
+      "sha256": "099759fc3419441a6c47b74d7060f6e81c3c0450b19ccd7481b72f03b2d7e79c"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_75/mask_features.json": {
+      "bytes": 12388,
+      "sha256": "1a49013621d197b975ecbeb7c6ceb23742f5278bb9f9aa5c7edfc2bb7cbae254"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_75/predictions.json": {
+      "bytes": 48483,
+      "sha256": "818288c5a742a5e4fd1234d0d515d4b159cbe218227209c67c9c5a7f69c42108"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_75/rigid_bundle.json": {
+      "bytes": 1829,
+      "sha256": "2c08528a4dadc014fba15d0c671e883e3e9ee6923b231c467b9ae03a7c0cd3c0"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_75/rigid_distortion.json": {
+      "bytes": 1884,
+      "sha256": "e7c72d0b500be3666614324ec391f8de174281d9fb34fe1cf75eddd8b496a57f"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_75/run_report.json": {
+      "bytes": 209,
+      "sha256": "9ef19e804a0d168e52389acfcda4332dd8155650a5f57304d913371bbca75f4e"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_75/silhouette_cuboid.json": {
+      "bytes": 12890,
+      "sha256": "8e2c0b05db58380d8b5a4bc47da4ae1cf7c9766a6cf74ec8e991c4d3a96659b5"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_75/silhouette_sedan.json": {
+      "bytes": 12878,
+      "sha256": "9526b9e63f947c43fbfd3883f9f88862e6143081f30698c0a0de3e805f30812b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_78/delay_2d.json": {
+      "bytes": 4363,
+      "sha256": "4d1f8a22d9d4f974f5e741e823c0202228c84fd763e9583ff3cbc4f49d86e7d4"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_78/flow_features.json": {
+      "bytes": 26435,
+      "sha256": "19667959269d075ef984872d1d0494963125dd4ac7877cd15f5c726b80b266ce"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_78/learned_ensemble.json": {
+      "bytes": 1099,
+      "sha256": "4931bed3814be1a2ef2195010e14307f5f83565559c8d513a2015ad93f2baf78"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_78/learned_mask.json": {
+      "bytes": 1090,
+      "sha256": "52c5023367b7ee5cf95db16e3c8e924a2e84891222622979bf7420fef643df6c"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_78/mask_example.jpg": {
+      "bytes": 256577,
+      "sha256": "98d37491222e200e6f6d633d2e22232de8d6d7d8e18c5b25d2db90aec1184b6f"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_78/mask_features.json": {
+      "bytes": 12356,
+      "sha256": "0914f35be28b5fb6db56d681e2d72ca8d7903a3e9a28133def882a5c3eecb701"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_78/predictions.json": {
+      "bytes": 45078,
+      "sha256": "51b725e8f9c1a09fa6f5f70be8a4c2d701611e90700b74a523785fc44d7f3e03"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_78/rigid_bundle.json": {
+      "bytes": 1646,
+      "sha256": "9787d953b17d566807a3e7706407b4ac8ee962f95e9a239c469b86a3c0b68a8c"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_78/rigid_distortion.json": {
+      "bytes": 1703,
+      "sha256": "61db4e383494effb13f925fd31d4ed8a4abd585ff8fd711c0ed50fa30b530a3f"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_78/run_report.json": {
+      "bytes": 210,
+      "sha256": "3b68ff662241c26b8f817403f1f3d20fc3806f95bef6147354d3cdf54b45c38d"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_78/silhouette_cuboid.json": {
+      "bytes": 12226,
+      "sha256": "b04cfe80a5d127b2f119396a61e7fc581f6bf576bc5ac2ab6d80e05c140044ac"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_78/silhouette_sedan.json": {
+      "bytes": 12213,
+      "sha256": "a675b0e6224715051ca76d5054b87908b219746a93b70ce6d61b064f35476ab8"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_80/delay_2d.json": {
+      "bytes": 4926,
+      "sha256": "bde325cc6c83eaf84fef4990598b9a9d842c26216392a92ce419b089f5bdc34c"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_80/flow_features.json": {
+      "bytes": 25724,
+      "sha256": "43034b3e9a54f27fd97c06c9c9be820bf19268a4660e5c5c654d640c224ae7a8"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_80/learned_ensemble.json": {
+      "bytes": 1108,
+      "sha256": "078e807e304b8533582d291f4f2b65a08d1b98b66798fc44122d6f6c5e707b02"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_80/learned_mask.json": {
+      "bytes": 1094,
+      "sha256": "b283da0d845735a98e73f2277137ddf71fb5247e7b1020b6cdcd729e8e558fb0"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_80/mask_example.jpg": {
+      "bytes": 253248,
+      "sha256": "5e02fbf4ec001609c953c7c438271ec437dd435b7effb6149aeb0cfc0acfd625"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_80/mask_features.json": {
+      "bytes": 12403,
+      "sha256": "84930400fc39537a0654c267a5df15726f1a03cfde06d5558bb1f08c594fd392"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_80/predictions.json": {
+      "bytes": 46277,
+      "sha256": "6a19c9e9dc13e3b101ae6ea981cd2c493bda57f7e560dca983ccee7702bfae47"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_80/rigid_bundle.json": {
+      "bytes": 1826,
+      "sha256": "e3e8c2975140a91537328138b045e469e282bb323dbabc204258c574f7886d8e"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_80/rigid_distortion.json": {
+      "bytes": 1882,
+      "sha256": "7897aafd588a42e05057cf5e7f131b8741eff729d98cbee34cfbfe2fbd6a020c"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_80/run_report.json": {
+      "bytes": 210,
+      "sha256": "ff0834827e6aee89317b68d909db615da21cf82a41f39b33ff619700ba0d2835"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_80/silhouette_cuboid.json": {
+      "bytes": 12267,
+      "sha256": "fd9693657aa8da846e12d6a1269a5f389c2c218eb736d8724b16062664543041"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_80/silhouette_sedan.json": {
+      "bytes": 12275,
+      "sha256": "61c7f9c82a073ddb8c42304f6b5aa8c7690ca5c988f7117958720bae917098db"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_82/delay_2d.json": {
+      "bytes": 4466,
+      "sha256": "96c3a30beabc6c614031307d20d5c3efcc0d9742447f92b29631856d77d239e2"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_82/flow_features.json": {
+      "bytes": 25055,
+      "sha256": "f16f747887616691197a9dba84c10e56f6e0fd7746466db6636d3a0287b0ed9a"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_82/learned_ensemble.json": {
+      "bytes": 1111,
+      "sha256": "107ee9d9b2641cc2d36a2d05767bc4de68298c2b60152a8e5b5b28f935aab1f9"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_82/learned_mask.json": {
+      "bytes": 1100,
+      "sha256": "857542aee4539ea3502baf002a2c18dd6ce32c29674588188cacc020c0b1c917"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_82/mask_example.jpg": {
+      "bytes": 304132,
+      "sha256": "83fff2667462e5b6297f07af1d4fe0b328d67b8c76ca2dbb7d484f00773a37ce"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_82/mask_features.json": {
+      "bytes": 12388,
+      "sha256": "b4bb50cb58e3e63963e52e9cc7dfd140578ba5399af9e2e0aa218e608822ba80"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_82/predictions.json": {
+      "bytes": 44157,
+      "sha256": "e98ac0542208460f379022fdb4d45da9cb1431918660f0817a8744e5f540b099"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_82/rigid_bundle.json": {
+      "bytes": 1623,
+      "sha256": "9bd374d97ce24c74ae6e23088ccb514a43169ec7986ff4b7da2956919b868da6"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_82/rigid_distortion.json": {
+      "bytes": 1679,
+      "sha256": "a0e234e322696851e63f444daf9bd75b5a389efc206e0790bf41ae519030363a"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_82/run_report.json": {
+      "bytes": 210,
+      "sha256": "e0640f05421fc9c2b0d50430f7e5ee361ae6a7a01af85b582170a38d2b4fdd36"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_82/silhouette_cuboid.json": {
+      "bytes": 11930,
+      "sha256": "395230c1143b1e448b340c0a51cc76a40e39322ce8252a60fdef6c54a81e0ae9"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_82/silhouette_sedan.json": {
+      "bytes": 11942,
+      "sha256": "ac391c23cad6c6c5dac9ea0065a61a2b679c9be487d320709970c706cd4f82fe"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_85/delay_2d.json": {
+      "bytes": 4599,
+      "sha256": "b7e45e18fe3a03eed4eb68d65cfa08ca0e3fc340d6609eeb212140feeff06713"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_85/flow_features.json": {
+      "bytes": 23664,
+      "sha256": "f0fb1cb5e60c9fb8e8eb5df98e2fca425591138c0e4950dda106e550bb0ee45d"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_85/learned_ensemble.json": {
+      "bytes": 1276,
+      "sha256": "8581bc3994ea137814dadda46e2fa000d9d8e43da7e140afdb49b65c8656d414"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_85/learned_mask.json": {
+      "bytes": 1269,
+      "sha256": "babf3130fe848d87523b9fde9c062e49e73c6f8df3cbce9c2643aed33e72fe71"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_85/mask_example.jpg": {
+      "bytes": 250214,
+      "sha256": "e0b9459c80d7d648d3ee880279faa92ddb4227f7323a7b51e358be1affe22acc"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_85/mask_features.json": {
+      "bytes": 12425,
+      "sha256": "34a7af669397d755fffa850c6b718c8a73788aaafaa2cf52c08ca1b6d8d3c66a"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_85/predictions.json": {
+      "bytes": 43688,
+      "sha256": "02dff57d408e9fbd812342cb7e3667dbc67fb9197ad4e3082e91743da9c88ed7"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_85/rigid_bundle.json": {
+      "bytes": 1752,
+      "sha256": "22fa7cf7ba85bad7a144332fd2c7a514840d87b7503021adab4e6e2b8c1d9659"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_85/rigid_distortion.json": {
+      "bytes": 1805,
+      "sha256": "1c38a5571362dec08a62bcffa55c4c21e2052587ae5054758ba64d8d141fd647"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_85/run_report.json": {
+      "bytes": 209,
+      "sha256": "06e53fb94f75d409a69097362df85ce72fccedbec8292212b6392b933318475f"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_85/silhouette_cuboid.json": {
+      "bytes": 11518,
+      "sha256": "a214f4bf6e4303a25cbdd372003b7711ff750dbeaa273789779407768a722f42"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_85/silhouette_sedan.json": {
+      "bytes": 11528,
+      "sha256": "2dd46f8f8bae54499ead635931371c58de8dfdc03f2691c8d13043fa9d39ad0b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_87/delay_2d.json": {
+      "bytes": 4484,
+      "sha256": "0ed9ce1e59c28762608bc7b782dfb3ece4e6533e1161ce2401e8b8c78f52ce9c"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_87/flow_features.json": {
+      "bytes": 23661,
+      "sha256": "0d9bf5111a86d1b96430a22dcb013eb8bdb3b5b915b3aeaa860e4c421fc202ca"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_87/learned_ensemble.json": {
+      "bytes": 1159,
+      "sha256": "b0f3028d7d7c576d6a0d7c64f49a5ae6815244614bc6113494eb0be89d38adc1"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_87/learned_mask.json": {
+      "bytes": 1149,
+      "sha256": "692cd60981490a5bf12aafbe87fe62fc0f7c6e72050d493373c72aa613eaa05f"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_87/mask_example.jpg": {
+      "bytes": 264446,
+      "sha256": "131e5f361bb6d36853ec950fb49a4a49a8b58031210634ecddbd2fcfada81b46"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_87/mask_features.json": {
+      "bytes": 12377,
+      "sha256": "14fa81d7bceb5e1f5aea4694d20260a3910893e893244823d140559000d0c923"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_87/predictions.json": {
+      "bytes": 42826,
+      "sha256": "a7bdc39173b4e61d8bdb6070376f0912161aa02a4f1c385887169d13121cdd45"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_87/rigid_bundle.json": {
+      "bytes": 1622,
+      "sha256": "813c336d887daf295d2b3b7f0e42bc59b172915c1bc8d33c4c2afe59992e969b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_87/rigid_distortion.json": {
+      "bytes": 1682,
+      "sha256": "5ea7970fded921d87061c1f9bcdce4999b1420a64ff10c038ea3fa442bb8146f"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_87/run_report.json": {
+      "bytes": 210,
+      "sha256": "b381fb284db69a48e2cf55b3902e40ae5799df761ffcd79d3bf7620951741fb9"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_87/silhouette_cuboid.json": {
+      "bytes": 11331,
+      "sha256": "162eee62d3aa105f8c42bcc53b47e559c50c2a544c20b5830f4b49ea9bfe1e5b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_87/silhouette_sedan.json": {
+      "bytes": 11331,
+      "sha256": "ff296732e0d0c13441c636bb2ffad77955cc57a2227c4f905bc56812305a190d"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_90/delay_2d.json": {
+      "bytes": 4241,
+      "sha256": "e1d7f978909a02172288ae2f534260e2d82fa64fd0b87472af54967fc3957a0a"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_90/flow_features.json": {
+      "bytes": 22322,
+      "sha256": "0644ab879ab435ee0e0bdaa78b18c5af828de54018f1fbcb8bc6ed310ec6a8ca"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_90/learned_ensemble.json": {
+      "bytes": 1113,
+      "sha256": "5caeddc1114ed4cea4dad4a4c5a729165f8e87a65ab44b7fdda71a8d0ece7565"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_90/learned_mask.json": {
+      "bytes": 1104,
+      "sha256": "c6caa4b7c1ac5d8a10eee15d367a5de4fa93674145f7a352e48f1b5c582c9e90"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_90/mask_example.jpg": {
+      "bytes": 356104,
+      "sha256": "1185f20931772ba6d6466945982c9b7bf0a78ebc193b294615de3d144bfbf458"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_90/mask_features.json": {
+      "bytes": 12412,
+      "sha256": "8bd63eb4f0fb54b6a06f5e96c386d7d888edb64f4ccc6faae22c6950102ab74f"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_90/predictions.json": {
+      "bytes": 41199,
+      "sha256": "75fd023e2b3d34400f11e28de22c5b8e4f03fb17d2ba8e97c538fe0dcaee3021"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_90/rigid_bundle.json": {
+      "bytes": 1647,
+      "sha256": "361010707fbdf486d3c6ec3e482b0d7311f9ff7c504560ecd66aa92d8e543161"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_90/rigid_distortion.json": {
+      "bytes": 1706,
+      "sha256": "fd97eadf66528849073d34c4de2a12d8e190ad1985cb589d2fd7272af7054464"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_90/run_report.json": {
+      "bytes": 210,
+      "sha256": "a20bc2a969ed367e1e859d058d90d55f0c3d8f262e1f30a7c5fcbc4309aded91"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_90/silhouette_cuboid.json": {
+      "bytes": 10866,
+      "sha256": "ea2e8f88f71076d8a21fce9bb5ef4e25992226c3e8d26e991b435e42cebfafd5"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_90/silhouette_sedan.json": {
+      "bytes": 10871,
+      "sha256": "b3e8e1f5ba48e454f21816074afc7436f96871c093cf1102712652345d32d5df"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_93/delay_2d.json": {
+      "bytes": 4404,
+      "sha256": "6cfe783791015e9485f2ee2856dc5542d8db73fbe44c7ea78daffc6d666c390a"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_93/flow_features.json": {
+      "bytes": 20150,
+      "sha256": "e181c1188266b736bb31a119bcf11c1057892ae1cf8898b8f60b7147d5aaa576"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_93/learned_ensemble.json": {
+      "bytes": 1105,
+      "sha256": "05e2c1a11db973d5ce221f443d095fbd8ef31788e6ad24a4d0cadd8f336aedb9"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_93/learned_mask.json": {
+      "bytes": 1097,
+      "sha256": "1fbc7c2d91ac079279b34dae7e78037c70c442ebee57783a86280214ddea7af1"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_93/mask_example.jpg": {
+      "bytes": 278719,
+      "sha256": "7cbf5d1490d6c5c6b287af36a106d4eedadf80ceebde0f49a831571f1ab476a5"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_93/mask_features.json": {
+      "bytes": 12340,
+      "sha256": "f6beee9cd4394464b3b51ae0b35daae3dd9360217d0e431aafc56d161c55a554"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_93/predictions.json": {
+      "bytes": 39980,
+      "sha256": "df3763a767f1643aa37d7d89af4ef979e462035432cfe9329988ccf62ca89a10"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_93/rigid_bundle.json": {
+      "bytes": 1812,
+      "sha256": "7babe4b9ef6991e0220391c4087a608b9bcc4ad223bbc9a2b5f82625f49554f3"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_93/rigid_distortion.json": {
+      "bytes": 1863,
+      "sha256": "f338ac7727ea1df36f5ab3202eabc527ac44debd4d116a45d9e8dea5a31673c9"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_93/run_report.json": {
+      "bytes": 210,
+      "sha256": "27fcffc1e1b030bb44e6d06928d490213130ba705c68436c446e72f6b5a56918"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_93/silhouette_cuboid.json": {
+      "bytes": 10251,
+      "sha256": "1034ededbbded1db290853184089366f0f052d3a2ec792a116e5e8f6cdc00b03"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_93/silhouette_sedan.json": {
+      "bytes": 10241,
+      "sha256": "1fdf864ccaf5c039a567633dad37a52dfff25e868d7ac73633a4f05da2dba79b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_95/delay_2d.json": {
+      "bytes": 4237,
+      "sha256": "277a4802560b64a7245a29f1bffef639191d69680dddef9cab4f894605108201"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_95/flow_features.json": {
+      "bytes": 22273,
+      "sha256": "ce8c56be0099c2fac030d7bac8a5ca2b519daee0113ccc8282177f28df110752"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_95/learned_ensemble.json": {
+      "bytes": 1234,
+      "sha256": "b4905ca218ff1e0330e9dc4c9b07ab97ae00bc1895ec4c7f9c3afe38696d1fad"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_95/learned_mask.json": {
+      "bytes": 1223,
+      "sha256": "23c39530ba6ebcbeb02b94e161861f57826c18c3ad06042e2da54e8fe4463e7b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_95/mask_example.jpg": {
+      "bytes": 249773,
+      "sha256": "136612f19de868421d53bfbed4593c802fbd335c526213313fa6aacc6aa48ecc"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_95/mask_features.json": {
+      "bytes": 12404,
+      "sha256": "0213c873673d8d87f57709386980bd44ad2ca30c2d6bb70c006a665f83a69689"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_95/predictions.json": {
+      "bytes": 41160,
+      "sha256": "059668546937593e8a4e9ce903b791d73e5ac362616a4a50a1c8cc681c883185"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_95/rigid_bundle.json": {
+      "bytes": 1756,
+      "sha256": "0396f94db4ea7989ab22cc36ab1ed6815f7517b048c598da1a688baf78cbdf7b"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_95/rigid_distortion.json": {
+      "bytes": 1811,
+      "sha256": "4371778ed6fb65f96671a1f77ef4264ba14ce617724982949d8a0b80cec290b3"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_95/run_report.json": {
+      "bytes": 210,
+      "sha256": "bf88af9f95bd5aa8233d62d18545a06ecf45d265abcc3cb6f0e3ee4315f5bd61"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_95/silhouette_cuboid.json": {
+      "bytes": 10660,
+      "sha256": "43fcb7ffec95518a91fa47ebf8f22cb119a5002f4da6e9736097db53c9337ae7"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_95/silhouette_sedan.json": {
+      "bytes": 10669,
+      "sha256": "818f517cceffe8f9b551f94a395aed88bb40a1e1e4814b98b9f0976d40c2deb7"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_98/delay_2d.json": {
+      "bytes": 4189,
+      "sha256": "6c10176f863fd370ab8a0225681f2ce9ac76ae843318109bde57b5a532f59c1d"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_98/flow_features.json": {
+      "bytes": 21546,
+      "sha256": "2cd198f6dfa2f1eb8c33f1c32b5e3863ff4060e05fb0a5cb01ec43c3b19a8107"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_98/learned_ensemble.json": {
+      "bytes": 985,
+      "sha256": "6f3c35213131886eb68c74db84cf8e9e72a5892280bea06f3c6918ba6ad319c2"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_98/learned_mask.json": {
+      "bytes": 975,
+      "sha256": "b90238372e7a298d5578f5b12857a4ce509c7dd4483caf6705ef7e882e170052"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_98/mask_example.jpg": {
+      "bytes": 263486,
+      "sha256": "7c5127b7b259dd01383c19ac8e9c0fc7ae7ead35f5de4bc4c9594469c4c6b265"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_98/mask_features.json": {
+      "bytes": 12361,
+      "sha256": "a6bbd499f535363811e57ebb5cd36b76eb9249fcf560f223a4aa935cedf28a93"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_98/predictions.json": {
+      "bytes": 40837,
+      "sha256": "14510762e99497506dd10250884601525e01fe24e3f30f1deef67ead052ad628"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_98/rigid_bundle.json": {
+      "bytes": 1703,
+      "sha256": "56d320d7cde8fba5fad833a693be4e09ddc5489b324dbba08adac7b7c9105f8e"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_98/rigid_distortion.json": {
+      "bytes": 1758,
+      "sha256": "db6248523e0e53a3737bdc15bdb00423ab4062e572aed6dc3d710e486f28af74"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_98/run_report.json": {
+      "bytes": 209,
+      "sha256": "bc02c035635d775bd3e9e2c6b6b0f0ddbcb02bbe18dc7569022c8fd9bc8c4d23"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_98/silhouette_cuboid.json": {
+      "bytes": 10845,
+      "sha256": "b618a7d76362e011db1f1036144edd46dcc7a1494c67ee0c9bdd4096af8e9fc5"
+    },
+    "calibration_comparison/inputs/round1/MercedesAMG550_98/silhouette_sedan.json": {
+      "bytes": 10865,
+      "sha256": "d1cca5fdc6ced68ccc558aafbf54d7eab3fe56171a5a2b8230fe21239d67e499"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_100/adaptive_flow_features.json": {
+      "bytes": 318680,
+      "sha256": "fa25679afc3b470716d1331191dc5b900d3ef1425b2d6ff636572f84d7657003"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_100/predictions.json": {
+      "bytes": 47168,
+      "sha256": "1e589b569e7bf8ef88b5b581791966ca13ac4456ddfc58aad68bc0b43bf8c51d"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_100/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "781ae581a8a301005a488c9559f6786d13e1685cc1c84fc5dd4ae33e885c749d"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_105/adaptive_flow_features.json": {
+      "bytes": 320064,
+      "sha256": "3cb8ac72703f9e3aa74f921f9e25dfe17a281c2b4fb254939086344016ae47df"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_105/predictions.json": {
+      "bytes": 44843,
+      "sha256": "e89b164eee312ef046fb81673d56d59471b0b68dd5e6081093ce0a0f33326824"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_105/vanishing_points.json": {
+      "bytes": 556,
+      "sha256": "db3c5facd9db51fd0fb9871dc43aa3cc399ee6b80c144a8f904b1f441794d529"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_30/adaptive_flow_features.json": {
+      "bytes": 1009841,
+      "sha256": "54890fa75aa1928f31b5290bd5dcb262b7a3065b935a6371b9e2707f6e7bb83f"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_30/predictions.json": {
+      "bytes": 99594,
+      "sha256": "1770f8585806bc700b81192cf27aa0c2af65c48c92c0d0e468c091152ced38d9"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_30/vanishing_points.json": {
+      "bytes": 554,
+      "sha256": "998f402bdfd16f7d5c18414b4d17c4885f9e9c6154f0a012e1b76a7a573db870"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_33/adaptive_flow_features.json": {
+      "bytes": 1198349,
+      "sha256": "1aee5b232712d698dce416fe9342c4fe0438a286c5b1addb8c33cfece8f0adc2"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_33/predictions.json": {
+      "bytes": 96260,
+      "sha256": "fdec58b05b374c9f1e1e428be32ec09902184b126e9939cd20c5406dc1d6af26"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_33/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "d25d82cd02eb455c65db028f0bb338ac2bd51ea47d528f1e6fe76cd3fb85ae3d"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_35/adaptive_flow_features.json": {
+      "bytes": 1099417,
+      "sha256": "b014e78202f5747f3dbc350d67833e33851f42debe65180cf288e3c1ee8c1477"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_35/predictions.json": {
+      "bytes": 98078,
+      "sha256": "c939cefce0a362f2644268d2c910c5578b74c8736c83001a129a652d9f7314f5"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_35/vanishing_points.json": {
+      "bytes": 558,
+      "sha256": "a805ac2a81236f08b2d89eff47ea7daefd41a97e8584c5e58b06ece73d8dd2a6"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_38/adaptive_flow_features.json": {
+      "bytes": 1124641,
+      "sha256": "042fd14b27e5c49d08beb7579cb15d96d9d02dfc9d6c19ac9d4e91261de6b457"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_38/predictions.json": {
+      "bytes": 101390,
+      "sha256": "af94bb372d142ad14d29f719337a91ae7a5a3e72e8a5a211dd85de56f925a2bf"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_38/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "422cec9605e47c6109e8c9a19c06f5df5be5ed2d28d19df0f7a004c4096138bb"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_40/adaptive_flow_features.json": {
+      "bytes": 850473,
+      "sha256": "d79278dc5e2461f0ba2d78188045974dc5775486082bff1d89b0501dad95750a"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_40/predictions.json": {
+      "bytes": 86657,
+      "sha256": "8ab515c38b69756bf82871444d568fde2e575dfd5546246ad05130c037eb78ba"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_40/vanishing_points.json": {
+      "bytes": 556,
+      "sha256": "fb981bfed861b34da47107db2bea3967e960244907bde89eee6b54a0d84ffe35"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_42/adaptive_flow_features.json": {
+      "bytes": 899925,
+      "sha256": "5a0781f41424fbf0323762070ad91c55361381eef4fa24a91bd2051fe7818de5"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_42/predictions.json": {
+      "bytes": 95638,
+      "sha256": "29b4fab314ebce3301243de61accfdb2262c8842306a3a08ba988feb4b3275e8"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_42/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "724a472449dbca47e4f3322f11f3909ced5d0fc52b163ca39ec31e20011c84d5"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_45/adaptive_flow_features.json": {
+      "bytes": 845436,
+      "sha256": "6aa18cfbc2dca2a890de286ab4671957617c6ebee967ea5e3ee0700fe7b33703"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_45/predictions.json": {
+      "bytes": 88864,
+      "sha256": "a95e688c05451e8aa1111c9983c4325706cfe4694bc7a1c40560221633b8b3a2"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_45/vanishing_points.json": {
+      "bytes": 556,
+      "sha256": "0945b6c9a00c596c92405ecdc0e999982a1f62af903d840ef33783a42bb00fbf"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_47/adaptive_flow_features.json": {
+      "bytes": 809185,
+      "sha256": "7a8932d89064b860ba7d39ce356ba50d3c3d7481bcf2b4bc7c038e0d2b9faf44"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_47/predictions.json": {
+      "bytes": 70591,
+      "sha256": "99193ac7313b3d3a6d7b0abea4433d5e473e255fb25501d42acafc6c367046ec"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_47/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "3dd52955d9734c6fd6ed41903ed1e0d4146f22dd9e4f16b64efaa80011fee18d"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_50/adaptive_flow_features.json": {
+      "bytes": 723685,
+      "sha256": "4b139747ca0b57ddfe413f67dce4984d6399752a7825e4a703696816aa643ea8"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_50/predictions.json": {
+      "bytes": 82292,
+      "sha256": "0333fbcafc7fc3f3f3245900da47c2f0100396dc02212e42c6389f31f77b0d96"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_50/vanishing_points.json": {
+      "bytes": 554,
+      "sha256": "fe6db97e5147028fb69452acd2c48f279108c2fc23fd9f9b85c2e321fa7243f9"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_52/adaptive_flow_features.json": {
+      "bytes": 727597,
+      "sha256": "8d3544694b50e72b1efce3417461a51bc47ddceda7e52ce0e4218ede7b1a0a02"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_52/predictions.json": {
+      "bytes": 66872,
+      "sha256": "c6665865a7913e8340a96cea6b364ffe5ca193ae09d76fa42369850994ce47d1"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_52/vanishing_points.json": {
+      "bytes": 558,
+      "sha256": "98896d72c157fa2f4829cb3d182f5651059e97621cd847727d11f547fdae6038"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_55/adaptive_flow_features.json": {
+      "bytes": 703894,
+      "sha256": "7c1590f54fab5a783780714dfeaabbcc0a262595be6a0717940133b18ef8faa3"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_55/predictions.json": {
+      "bytes": 75978,
+      "sha256": "7236929b02598bdf100ea3fcca382126ce41941928cd81262a1f5e915243b3bb"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_55/vanishing_points.json": {
+      "bytes": 554,
+      "sha256": "b0f59c64483077706be2dba7cc45820979193f59c6893fa74c1e9c5cd28043ec"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_58/adaptive_flow_features.json": {
+      "bytes": 669001,
+      "sha256": "c1d677ae0d7b61f4c5d9a19072fe68299266f3b5ddbe1bbc5e3e52c012ccf81c"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_58/predictions.json": {
+      "bytes": 63213,
+      "sha256": "1e46d0734fd9e5290d086de3565f7bc2b2cb5d76455455d6d5ea7425661a848c"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_58/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "fcba3ed993abbf6e46aeec948a7fc20cfd7cdcc01e3d479feb7df7a4dd13eb1a"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_60/adaptive_flow_features.json": {
+      "bytes": 626100,
+      "sha256": "90be65d30529fb20be4a9e6f5ae2a82dc7a667669549e8a37d888701d3750108"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_60/predictions.json": {
+      "bytes": 71323,
+      "sha256": "8bb7d006c550cd2bdcfdbaa5f36a4c69176b1a6020b14ab369a98c2a6807da8f"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_60/vanishing_points.json": {
+      "bytes": 558,
+      "sha256": "691015ab21610a062efa47d8215c7b168a0a57be55f2120d2a6cee05b0ff79ee"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_62/adaptive_flow_features.json": {
+      "bytes": 564597,
+      "sha256": "db5c016c454cad02075585595217694520441819ff44ccef7704285a0008b7c1"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_62/predictions.json": {
+      "bytes": 53004,
+      "sha256": "fcd31997128e3f74e8b9d9bba8b74d2d0713eb6a20ee6e26a5cc5bf36f0fa580"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_62/vanishing_points.json": {
+      "bytes": 554,
+      "sha256": "bea0af7ee9d1b7e0d78e3d64a8458094c389e5021a355444f04290e84b40380f"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_65/adaptive_flow_features.json": {
+      "bytes": 547133,
+      "sha256": "5ff6d6f704e4d043368e9d30dd4e2b03fb6bb5229d1f34ecd95029ad9fe19bcb"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_65/predictions.json": {
+      "bytes": 64623,
+      "sha256": "a913445dd3746eba30349683655ff98fbe68d48102e5228b23dd4a6c6540f89a"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_65/vanishing_points.json": {
+      "bytes": 556,
+      "sha256": "1b14086187a65a7f94a02a7c8c6b6ca8e0e34913372703d69d53cd3c7d487d39"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_67/adaptive_flow_features.json": {
+      "bytes": 541096,
+      "sha256": "ca9371a47f13fb2c7b6f7fa6a05adda07553a094278e943f6d61888395518394"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_67/predictions.json": {
+      "bytes": 64867,
+      "sha256": "49c5a69427dfc11b036b34f7b075741b078b528e2f3d6cd86827797d26032318"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_67/vanishing_points.json": {
+      "bytes": 558,
+      "sha256": "e3beda4b9cf0f5929783f1f4c9506264659c67e8cc5619dfb7ba51097e6c244d"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_70/adaptive_flow_features.json": {
+      "bytes": 506574,
+      "sha256": "b6c51e82873cf2977d8f3de3cb48961a63bb592888e4542eebb7db5b4d115cb7"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_70/predictions.json": {
+      "bytes": 61902,
+      "sha256": "dd580cdeb8a65882c78316f66d1b7d85f92bf99b1a05458556cdb0993d8f73b7"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_70/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "d0b3d59460866828ed1e0cfbf3da24c11c45801a68ff1968ed5f057cb4de57dd"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_73/adaptive_flow_features.json": {
+      "bytes": 503565,
+      "sha256": "685a01bcb003a5b85b03b5f5abe99eac1292df370d6005bf716eee62241577bb"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_73/predictions.json": {
+      "bytes": 47179,
+      "sha256": "82a96739f760cf988d14c67dd55ab5ca47c88164e1fb41446f62d085dc20aecb"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_73/vanishing_points.json": {
+      "bytes": 555,
+      "sha256": "57c6c75aa0816722c7e64256d088a2fc708d81d93f7d24d263c5b6396a8c4876"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_75/adaptive_flow_features.json": {
+      "bytes": 466621,
+      "sha256": "8e0137bfebd83b71adf96719ee07a5b0d9108e509430790010adf925aded06f1"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_75/predictions.json": {
+      "bytes": 59225,
+      "sha256": "b8b4dbe05d69d40b2073c2ddda06dcd44c9c2a3aa550d45cc3b527b36c565415"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_75/vanishing_points.json": {
+      "bytes": 554,
+      "sha256": "b57cb9776034a8a1598042c76791dd6f7ca15b81ad464e8e64658a56ef4a1228"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_78/adaptive_flow_features.json": {
+      "bytes": 447807,
+      "sha256": "d96c6928ce9c82f8aa3d2d13e1d32bee81bf61c14f954b80a6c9d7595a172266"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_78/predictions.json": {
+      "bytes": 51184,
+      "sha256": "a105bee1faa516c51d0b2e3a550adfb555bfc1ab6955530fa437658073627175"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_78/vanishing_points.json": {
+      "bytes": 553,
+      "sha256": "8aaecba099c86dae13efaadae79cc3dcf3ae81a75db0b8cd8cffcf1ec358860f"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_80/adaptive_flow_features.json": {
+      "bytes": 432625,
+      "sha256": "ead2005f5cb2a8efe14913577fcbb6a35b1e8b549b8425ad9a23b7a1d1eb9eba"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_80/predictions.json": {
+      "bytes": 55936,
+      "sha256": "e51f38dda32e58514989486709c7cee54dccc7fd6c29c4173070ce7ab59b78e3"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_80/vanishing_points.json": {
+      "bytes": 558,
+      "sha256": "c0eba1685edd5b5e6b73c35f6afcd5665cb299f9ede8da91b7343bdfe7cad666"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_82/adaptive_flow_features.json": {
+      "bytes": 456886,
+      "sha256": "6a733e26ad55e1e2e468ebc93934182707ddd212c5dc403430edf2c2cb3a9c9f"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_82/predictions.json": {
+      "bytes": 52091,
+      "sha256": "0211a8544d8674969b7fd488b71192aafcb87a7316f2f67a013b4ac853cb6ec7"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_82/vanishing_points.json": {
+      "bytes": 555,
+      "sha256": "9e147a1abf32473a85973227359d8684fc87e6860568085dd66f5d25ea6186f2"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_85/adaptive_flow_features.json": {
+      "bytes": 390570,
+      "sha256": "6942bd7aec7c8056b7872b72c6f1db3a213b6c39cd95aa32140b1bc0d29abd6b"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_85/predictions.json": {
+      "bytes": 51982,
+      "sha256": "dfae7f5bd688cdbc5116c1b00fd1cf1dcbcb365e27d19f7eae84b6cce05500f7"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_85/vanishing_points.json": {
+      "bytes": 555,
+      "sha256": "046d9929f39fee2153eecc3e92cc505e880772517f6feb64ebc8629d913e453a"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_87/adaptive_flow_features.json": {
+      "bytes": 389774,
+      "sha256": "ba7c721e6ff5b18d30fe2aef86d34c076c6394fd421bbaa54285803a6043298d"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_87/predictions.json": {
+      "bytes": 51890,
+      "sha256": "0ed20a6b71b0bbe0afc59c571afc41be35bfac6fe6ddc5664b840b978b8856e0"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_87/vanishing_points.json": {
+      "bytes": 556,
+      "sha256": "a96b6ff6419a0cac7a8f2069ea5b5dc84e2a55bbf3e19c33dcd40b46c3134471"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_90/adaptive_flow_features.json": {
+      "bytes": 366079,
+      "sha256": "9748ec1546aaee543b097e249131ba9b12e5c9e4ead05fffd9638b9c572df5be"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_90/predictions.json": {
+      "bytes": 49376,
+      "sha256": "4a0741d8a2a005e7453bcc42c00149e7ed3b3dfd32357b4ef8090e3fec51e3d2"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_90/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "bcad10923c53aeead182cbcd360ec8502bab48a8716cbb7f0d55dfeb4c971fa4"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_93/adaptive_flow_features.json": {
+      "bytes": 370172,
+      "sha256": "712b749f3f2db9a72833f5b486e25f98693e5e4153b4ced3c3f01512398c2e1c"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_93/predictions.json": {
+      "bytes": 48680,
+      "sha256": "82d6448f6e964924aee8327050b3d237f49cd59c78ff262fb7271051dcd0f33d"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_93/vanishing_points.json": {
+      "bytes": 552,
+      "sha256": "85e2b6c92bc6f95e2a7b3d5e3204fd47cdb314ef257259e3a2cef1e5c3faa926"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_95/adaptive_flow_features.json": {
+      "bytes": 352624,
+      "sha256": "de915165fdf18c6bf64aa1f78c1c92919d04a5c8c35aa530b5e09b704b71aa10"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_95/predictions.json": {
+      "bytes": 47710,
+      "sha256": "e22156e4aebed0b27a9ffd8993add06c14169a77e1b756b61daf2c577ce5f523"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_95/vanishing_points.json": {
+      "bytes": 555,
+      "sha256": "6da8be6389e25374e592a03af8789627feef2e6f3f4657917c3a5b130b1d5c5b"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_98/adaptive_flow_features.json": {
+      "bytes": 351495,
+      "sha256": "f532a29e628005e7a7cce8be888665e2a40800e95ef72f4b36a86a724977ccbd"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_98/predictions.json": {
+      "bytes": 47469,
+      "sha256": "9698e7be0f47ae390a3f2855b0621853524ef0bc1035613b3efd55a3f578771a"
+    },
+    "calibration_comparison/inputs/round2/MercedesAMG550_98/vanishing_points.json": {
+      "bytes": 554,
+      "sha256": "600c859bd0ede67eeb659096105c29d278057a2553890820187fa09e8098d537"
+    },
+    "calibration_comparison/matching_stability_audit.json": {
+      "bytes": 3508,
+      "sha256": "34223db02abb7f8e9d7d8c147405a000d05d0b26edb0aa626f042df06a008cef"
+    },
+    "calibration_comparison/metrics.json": {
+      "bytes": 5603,
+      "sha256": "cb32e7298222c9da04f059c8fc3d0e0dc14d0b836c33ce26adea61cb657f3324"
+    },
+    "calibration_comparison/predictions.json": {
+      "bytes": 655764,
+      "sha256": "99407aeeea5ad7275e1e642ae4f8239dfad24ac06e55eb8e72c587cb261830dd"
+    },
+    "calibration_comparison/provenance.json": {
+      "bytes": 1635,
+      "sha256": "47b39f4b1a05f0ceba82c6406b02c693599fc329c7a585d605561e47ba0fd800"
+    },
+    "calibration_comparison/raw_metrics.json": {
+      "bytes": 5042,
+      "sha256": "6af64ec8e3c352be132de5027a96e6f28d53aba5aa075198a3a8a30dce38dfd3"
+    },
+    "calibration_comparison/raw_predictions.json": {
+      "bytes": 3929082,
+      "sha256": "5d49256a6cde2d00ce57f9d6113d78e0fe988cea6b4fd8954c8dab7304b5ce59"
+    },
+    "calibration_comparison/README.md": {
+      "bytes": 17162,
+      "sha256": "492277377cb274eac9c66d758542c2ba24fbd42e87f251f0928381a032d03df2"
+    },
+    "calibration_comparison/reference_calibrations.json": {
+      "bytes": 24003,
+      "sha256": "64fefd61b4c799bfa43b059740203db034d60fdef8e0b6888abe4059978288a1"
+    },
+    "calibration_comparison/reference_options.json": {
+      "bytes": 1104729,
+      "sha256": "307154c8d3fee7f559aa156be9f4917abae02e4d76f595ce6ead67d296671c6a"
+    },
+    "calibration_comparison/reproduction_verification.json": {
+      "bytes": 273,
+      "sha256": "61dbf24d387e218f614126a7eb74e9ef6400bdd53be5e278fc6648fdde9c205a"
+    },
+    "calibration_comparison/results.csv": {
+      "bytes": 9094,
+      "sha256": "34c496ea7475e77c2b047683fe9f475d7264729e08bbe625693296e3e7e222c1"
+    },
+    "calibration_comparison/results.json": {
+      "bytes": 18376,
+      "sha256": "4727d03f755ca99298a7dfc642d8b1ce9b5d10f833deb6363b9bb5caa340a226"
+    },
+    "calibration_comparison/scene_registrations.json": {
+      "bytes": 136527,
+      "sha256": "39de160ea86399a6638e995fcf34bb501ca5218896c0eb6bf35fc8aa0fad2893"
+    },
+    "calibration_comparison/selected_configuration.json": {
+      "bytes": 1588,
+      "sha256": "584a3b111bd5c83a53244bc86b36b86f19ee6b5d3940ea0f84ab186a0d274d14"
+    },
+    "calibration_comparison/version_results.csv": {
+      "bytes": 48695,
+      "sha256": "5116881380642fad475f1422bbf723b5612cc23bcce4b3ea83d84ea4b429267e"
+    },
+    "calibration_comparison/videos/MercedesAMG550_100/calibration.mp4": {
+      "bytes": 1085328,
+      "sha256": "4c36e1b6e179597d45fa3569f3ebeed96881b4a26516de276d84d4c450a15928"
+    },
+    "calibration_comparison/videos/MercedesAMG550_100/calibration_example.jpg": {
+      "bytes": 256829,
+      "sha256": "14f4989fa93e7919c62ad55143f0eccc000e0cc13e3fe697ead1ef32e65e822f"
+    },
+    "calibration_comparison/videos/MercedesAMG550_100/render_report.json": {
+      "bytes": 267,
+      "sha256": "a42483cacde991310633fce4f24c9f95906af35a918a06ff0b211ec2b9fc2259"
+    },
+    "calibration_comparison/videos/MercedesAMG550_100/speed.mp4": {
+      "bytes": 1047649,
+      "sha256": "664887b38b19c15470e89ff7da2241f740115aaead8c846696e2ab69ae999b60"
+    },
+    "calibration_comparison/videos/MercedesAMG550_100/speed_example.jpg": {
+      "bytes": 252584,
+      "sha256": "7ad6ca7218b53e15e09055f95ec9d8d967d1c59feb3a31f4362fdea123302f9a"
+    },
+    "calibration_comparison/videos/MercedesAMG550_105/calibration.mp4": {
+      "bytes": 1084312,
+      "sha256": "9d4516a6b532d683116c1a5de8c11beeda2c1f2a86469d375eb854786a2a0e63"
+    },
+    "calibration_comparison/videos/MercedesAMG550_105/calibration_example.jpg": {
+      "bytes": 251585,
+      "sha256": "4e26f830ca22a729a209ec817eab7ab4d0e9768d6d15648c88261d9c7a72d9f5"
+    },
+    "calibration_comparison/videos/MercedesAMG550_105/render_report.json": {
+      "bytes": 266,
+      "sha256": "46ec1242532c737392b437b944df5347885146fb64db57f603c8d5fa40a7b776"
+    },
+    "calibration_comparison/videos/MercedesAMG550_105/speed.mp4": {
+      "bytes": 1045491,
+      "sha256": "8ca0e5e2ea8034ddde649597c68ccbe2e6204ee70440d0acdcf0a1b693f24cf1"
+    },
+    "calibration_comparison/videos/MercedesAMG550_105/speed_example.jpg": {
+      "bytes": 247941,
+      "sha256": "6266fd6f608057ec3ec1d62ee9f20cc0ab7585669158f9f2c60b0834a3b877eb"
+    },
+    "calibration_comparison/videos/MercedesAMG550_30/calibration.mp4": {
+      "bytes": 1017816,
+      "sha256": "98d9df9cc7fa8b276ae8b9b13bd0baccaac146f44246c06eae75925b63c873a1"
+    },
+    "calibration_comparison/videos/MercedesAMG550_30/calibration_example.jpg": {
+      "bytes": 246695,
+      "sha256": "e6af7bae5623d26f4fe1b434599493b34c5bab4db2e2097d47d41e70ee8fe484"
+    },
+    "calibration_comparison/videos/MercedesAMG550_30/render_report.json": {
+      "bytes": 267,
+      "sha256": "2f2ba1521bab10755df56121f3ff629741c81ff1d52cf377711cec374f32164a"
+    },
+    "calibration_comparison/videos/MercedesAMG550_30/speed.mp4": {
+      "bytes": 946801,
+      "sha256": "b60fccf20eecd220aace0f2414f4ff3e8e0b2bc0ce9c8723647585e8872f5d56"
+    },
+    "calibration_comparison/videos/MercedesAMG550_30/speed_example.jpg": {
+      "bytes": 240356,
+      "sha256": "768f3b457e3132491afde277cec70c9a77ad93f87cf06d919b181ebe1c5864f4"
+    },
+    "calibration_comparison/videos/MercedesAMG550_33/calibration.mp4": {
+      "bytes": 1665415,
+      "sha256": "96fbb659c216b014032dca04725f898146d077c515b0c9bd036003a6c8d13662"
+    },
+    "calibration_comparison/videos/MercedesAMG550_33/calibration_example.jpg": {
+      "bytes": 323524,
+      "sha256": "73d7dce38dd57d3469410f322236a206399aef257e9abd0837838a8cbce20cb5"
+    },
+    "calibration_comparison/videos/MercedesAMG550_33/render_report.json": {
+      "bytes": 266,
+      "sha256": "eb6fea07e97116bb57844b679cbd844ca38559d0b7d41eebbb7507ad748a5fc8"
+    },
+    "calibration_comparison/videos/MercedesAMG550_33/speed.mp4": {
+      "bytes": 1611304,
+      "sha256": "a8b47b26145183fed4b00224dfcd3710446210fc6cc65f00433f1c86de4f90ca"
+    },
+    "calibration_comparison/videos/MercedesAMG550_33/speed_example.jpg": {
+      "bytes": 315469,
+      "sha256": "81e7096823aae2f571eea309f6559b9e27a8f8d1067592f8010756014089c597"
+    },
+    "calibration_comparison/videos/MercedesAMG550_35/calibration.mp4": {
+      "bytes": 2193267,
+      "sha256": "e11784a75a82716546f36189844cc1d23596da53f8b8e804895e6261fcc7764e"
+    },
+    "calibration_comparison/videos/MercedesAMG550_35/calibration_example.jpg": {
+      "bytes": 346578,
+      "sha256": "f13a232789c8de1f30ccda4a0f47e4473443f7ba4903c42d5794741426f60c39"
+    },
+    "calibration_comparison/videos/MercedesAMG550_35/render_report.json": {
+      "bytes": 266,
+      "sha256": "149d17cc704e7d94d8f0dc01ad1e97d64df8b273844b0e07c36e44b37d22a67f"
+    },
+    "calibration_comparison/videos/MercedesAMG550_35/speed.mp4": {
+      "bytes": 2131240,
+      "sha256": "889f719cdedee65e2090377d2f5967c39b69e9caeac25beb611355446cf39807"
+    },
+    "calibration_comparison/videos/MercedesAMG550_35/speed_example.jpg": {
+      "bytes": 340342,
+      "sha256": "f70e2bc33d093faab592ce1ada9f48d3ba53e5a169110120b2039a6aa861cedf"
+    },
+    "calibration_comparison/videos/MercedesAMG550_38/calibration.mp4": {
+      "bytes": 1317433,
+      "sha256": "477661f50e9f2d881b289dc7a36919d24c843ca128309ec84d59ae5e1975f40e"
+    },
+    "calibration_comparison/videos/MercedesAMG550_38/calibration_example.jpg": {
+      "bytes": 273901,
+      "sha256": "d69e9eb549461aa11a1e01784a08ff766943df076942455ee5635bc073e85855"
+    },
+    "calibration_comparison/videos/MercedesAMG550_38/render_report.json": {
+      "bytes": 266,
+      "sha256": "1977551c4a5415f87b9a29a783ba5a148db14a4c62c677e010be7792e3b3e1cc"
+    },
+    "calibration_comparison/videos/MercedesAMG550_38/speed.mp4": {
+      "bytes": 1234095,
+      "sha256": "a47cf6b24344953ac976c27d76f2ee0373f4fd36d8e1478770086793d9027aca"
+    },
+    "calibration_comparison/videos/MercedesAMG550_38/speed_example.jpg": {
+      "bytes": 267470,
+      "sha256": "9dd5bfbdfa8d06d72ed01a25a8223b904a988a3f665e091bddc7f36bebb730ee"
+    },
+    "calibration_comparison/videos/MercedesAMG550_40/calibration.mp4": {
+      "bytes": 945652,
+      "sha256": "a92bbf675477d8212d0819d1d0d5ee7fa85434f381f6c9e3108bd0d0677f24ee"
+    },
+    "calibration_comparison/videos/MercedesAMG550_40/calibration_example.jpg": {
+      "bytes": 245294,
+      "sha256": "36635f2fdf81632a5745b29d9a0276c810228e0953fadecdf72eb512f9de1a54"
+    },
+    "calibration_comparison/videos/MercedesAMG550_40/render_report.json": {
+      "bytes": 278,
+      "sha256": "8001ce107e1c50d2b038e7c7222059aea149e657427be2b0e74774013f06065a"
+    },
+    "calibration_comparison/videos/MercedesAMG550_40/speed.mp4": {
+      "bytes": 875252,
+      "sha256": "f1d8575a0f10574ab81d2aec98a8b5b9293ee3b7f7b7d8091029eac19f9899a9"
+    },
+    "calibration_comparison/videos/MercedesAMG550_40/speed_example.jpg": {
+      "bytes": 238482,
+      "sha256": "21986b1da3daa5c731721fa2333c47437482db77150e213e1f216973e1eb9bcb"
+    },
+    "calibration_comparison/videos/MercedesAMG550_42/calibration.mp4": {
+      "bytes": 1349684,
+      "sha256": "d8c5df2c3eaa3109ffa8340ec483e70ff6ca10c0ed99e1333725d8b2867bf1b7"
+    },
+    "calibration_comparison/videos/MercedesAMG550_42/calibration_example.jpg": {
+      "bytes": 274619,
+      "sha256": "5a7592d555d94835a7d2579c91d29862f76964fdbc95456d78dbbeccf8507b98"
+    },
+    "calibration_comparison/videos/MercedesAMG550_42/render_report.json": {
+      "bytes": 266,
+      "sha256": "709e77a2f37963a0c2639771a13b4fe250bbd8078851fdb7f84f43cb0b3432e9"
+    },
+    "calibration_comparison/videos/MercedesAMG550_42/speed.mp4": {
+      "bytes": 1284872,
+      "sha256": "ac714391594d15ac4f18073ddd8615820e872bf9035752008214bbad6c174de2"
+    },
+    "calibration_comparison/videos/MercedesAMG550_42/speed_example.jpg": {
+      "bytes": 267945,
+      "sha256": "bfea9504addf3de987ab9d77c0cb5a758e7526d56d03a30452de008162b415bc"
+    },
+    "calibration_comparison/videos/MercedesAMG550_45/calibration.mp4": {
+      "bytes": 1059419,
+      "sha256": "8c3bfc620f45ee5b938d4ab84b64bc607172c6f3b57d3fa6dd726775176c1719"
+    },
+    "calibration_comparison/videos/MercedesAMG550_45/calibration_example.jpg": {
+      "bytes": 250269,
+      "sha256": "cd87c0e30fc836ffa2df4afd99a27a6ce3497d0317e606cb70d60dbb7f9b59ef"
+    },
+    "calibration_comparison/videos/MercedesAMG550_45/render_report.json": {
+      "bytes": 278,
+      "sha256": "d5ea2865bcaa7d7f13bb6e29a564dabd8bd6870c497f28b99ff57cc790cb271a"
+    },
+    "calibration_comparison/videos/MercedesAMG550_45/speed.mp4": {
+      "bytes": 979831,
+      "sha256": "e70593b7b5c0d02cd690cb95aec3d08341139fb4679bd3d5db002417dc82dd88"
+    },
+    "calibration_comparison/videos/MercedesAMG550_45/speed_example.jpg": {
+      "bytes": 245113,
+      "sha256": "91edad58020c11d87e5a2557398905272ee13326e620ed2ef0ee7d16b37101ba"
+    },
+    "calibration_comparison/videos/MercedesAMG550_47/calibration.mp4": {
+      "bytes": 1735316,
+      "sha256": "6f57acdd306b49a8953830c9bf8b8684439db58b0b9da3d5fcd7850fd76eedb1"
+    },
+    "calibration_comparison/videos/MercedesAMG550_47/calibration_example.jpg": {
+      "bytes": 338964,
+      "sha256": "1c19303f3c49479adfd7c36f55b4b359be41227b1be2864c6cda0a3f87714a68"
+    },
+    "calibration_comparison/videos/MercedesAMG550_47/render_report.json": {
+      "bytes": 266,
+      "sha256": "104e3acc6c3d872b2e4d298cc36778761273d0df007862327858a8faa5812669"
+    },
+    "calibration_comparison/videos/MercedesAMG550_47/speed.mp4": {
+      "bytes": 1642737,
+      "sha256": "f3c13784922d8a25f81e563f3e73fdf55d085dc73f1c23685f30eb301613b9e6"
+    },
+    "calibration_comparison/videos/MercedesAMG550_47/speed_example.jpg": {
+      "bytes": 332450,
+      "sha256": "33d3104911badfb59adfa5e76741b5a00f49a118146367c4216b42f7fe47e013"
+    },
+    "calibration_comparison/videos/MercedesAMG550_50/calibration.mp4": {
+      "bytes": 1137685,
+      "sha256": "a229542f1ef18193bafa1cd94b39b2b98a5846aad60f826dcf492a973f68fe4d"
+    },
+    "calibration_comparison/videos/MercedesAMG550_50/calibration_example.jpg": {
+      "bytes": 251182,
+      "sha256": "74a402919ad3000fd86c1276abf4dfc422a0869ad16fc8afe826a77ff031394b"
+    },
+    "calibration_comparison/videos/MercedesAMG550_50/render_report.json": {
+      "bytes": 266,
+      "sha256": "0ab09a2ba6b7a7abde183424e67ddc6fd3f5dd62467f65cafbe6645db2f317d1"
+    },
+    "calibration_comparison/videos/MercedesAMG550_50/speed.mp4": {
+      "bytes": 1070664,
+      "sha256": "f08df9daccc20a68c3ce0fbfc69c0e97ddba24ca7c3f2428a45f3e2bc3106440"
+    },
+    "calibration_comparison/videos/MercedesAMG550_50/speed_example.jpg": {
+      "bytes": 245881,
+      "sha256": "deaa7939ba300c316f846d0b736e7a555faae0dc95ea5a1ed9dc936d86285f8b"
+    },
+    "calibration_comparison/videos/MercedesAMG550_52/calibration.mp4": {
+      "bytes": 1484928,
+      "sha256": "f84aab3f346ab561e9663ce784f5cc7f7c3b84ef933c247a05256de5bd4b4921"
+    },
+    "calibration_comparison/videos/MercedesAMG550_52/calibration_example.jpg": {
+      "bytes": 316723,
+      "sha256": "bab7098193b957ab1b72f276845f1544ba734c30ee263793626d3bfc306ff1c2"
+    },
+    "calibration_comparison/videos/MercedesAMG550_52/render_report.json": {
+      "bytes": 266,
+      "sha256": "6614174485d4bbcd223b00f0ba97293ea447de218d56ed0ec5949d8c6575da29"
+    },
+    "calibration_comparison/videos/MercedesAMG550_52/speed.mp4": {
+      "bytes": 1417968,
+      "sha256": "8fc4435bfab4e72b3d615fcf905efd5700810b9e9b75d6ab9888249baa8eaaee"
+    },
+    "calibration_comparison/videos/MercedesAMG550_52/speed_example.jpg": {
+      "bytes": 310843,
+      "sha256": "8f3586903d2a93af16ab97256bcf966b42c391e502bc43bfe73ca1e72f9fb584"
+    },
+    "calibration_comparison/videos/MercedesAMG550_55/calibration.mp4": {
+      "bytes": 1058452,
+      "sha256": "256704efbb114bf497098e50a1aaad367d8fd71c9990b8c26ae0dee50095e56c"
+    },
+    "calibration_comparison/videos/MercedesAMG550_55/calibration_example.jpg": {
+      "bytes": 249422,
+      "sha256": "6445dc8281a09feac9593d16778f8f3e9adf6ab5864eb1d710e4965cb312ff4a"
+    },
+    "calibration_comparison/videos/MercedesAMG550_55/render_report.json": {
+      "bytes": 267,
+      "sha256": "2be85037d50ea19714f0d3c73de3088059f38385bb9b09772126bc140fadd5a4"
+    },
+    "calibration_comparison/videos/MercedesAMG550_55/speed.mp4": {
+      "bytes": 990436,
+      "sha256": "ba113891b08013f7b5ffb6e7f311634361634a1aec41ba8470a68f261ac7ea10"
+    },
+    "calibration_comparison/videos/MercedesAMG550_55/speed_example.jpg": {
+      "bytes": 243296,
+      "sha256": "a930a4b3e3560e2b214e4dd6aece0f4902a55684dafc3759f2ec2893fdef3910"
+    },
+    "calibration_comparison/videos/MercedesAMG550_58/calibration.mp4": {
+      "bytes": 1463427,
+      "sha256": "df024ebb5c716b37ecfc98630115a2ae9eb7f497591a230c5ad2f63c515d3ae3"
+    },
+    "calibration_comparison/videos/MercedesAMG550_58/calibration_example.jpg": {
+      "bytes": 306055,
+      "sha256": "8e59bef81bd409201ae3c9da48b4de35bd8d6921d3af8edbc5f7895970c57cea"
+    },
+    "calibration_comparison/videos/MercedesAMG550_58/render_report.json": {
+      "bytes": 278,
+      "sha256": "bc3e284e61a910678079703bab1b29ff13a24617f49f67d131fcd8e57f337e2b"
+    },
+    "calibration_comparison/videos/MercedesAMG550_58/speed.mp4": {
+      "bytes": 1394774,
+      "sha256": "e3cb074c471010cad84670ae5c390fae85513fa2d259708c0ad51ec50fcae590"
+    },
+    "calibration_comparison/videos/MercedesAMG550_58/speed_example.jpg": {
+      "bytes": 300123,
+      "sha256": "c89a860b9369779be6ad4f6ad8566adca2d918f87ab7848fe9563b124c74d5b4"
+    },
+    "calibration_comparison/videos/MercedesAMG550_60/calibration.mp4": {
+      "bytes": 1069522,
+      "sha256": "f832356781666d0104ef67f5b29b4939b5989de59650ef8757f8d5d61d8386db"
+    },
+    "calibration_comparison/videos/MercedesAMG550_60/calibration_example.jpg": {
+      "bytes": 258215,
+      "sha256": "e9f09f4eaa6ef6c1f9816553fb1aaf4d06755782fcd513537d106aba13148d06"
+    },
+    "calibration_comparison/videos/MercedesAMG550_60/render_report.json": {
+      "bytes": 278,
+      "sha256": "bc3e284e61a910678079703bab1b29ff13a24617f49f67d131fcd8e57f337e2b"
+    },
+    "calibration_comparison/videos/MercedesAMG550_60/speed.mp4": {
+      "bytes": 1009620,
+      "sha256": "daa0a02acc600faf963d517c5ad978e4ea47dae37ca67d3ff9c5e05081376b10"
+    },
+    "calibration_comparison/videos/MercedesAMG550_60/speed_example.jpg": {
+      "bytes": 252624,
+      "sha256": "32a0369b2823adfaf1659b8cb98703eb07365f592e0eb2515f0c37141c9edf3d"
+    },
+    "calibration_comparison/videos/MercedesAMG550_62/calibration.mp4": {
+      "bytes": 1503590,
+      "sha256": "3442228f87fdb532540ed04722a2441004fefc975278b735fde7c696b46699c5"
+    },
+    "calibration_comparison/videos/MercedesAMG550_62/calibration_example.jpg": {
+      "bytes": 327411,
+      "sha256": "336cbe77cdbab8363aff0ef82c6e3e012148d398e97bf2b2856c25c477bb053a"
+    },
+    "calibration_comparison/videos/MercedesAMG550_62/render_report.json": {
+      "bytes": 266,
+      "sha256": "79d352bb2cc699d6270971901126be36fb41c0e4c1a2b02d89781db14587bf9a"
+    },
+    "calibration_comparison/videos/MercedesAMG550_62/speed.mp4": {
+      "bytes": 1460087,
+      "sha256": "4bc823786e4268421da1a9b98aeac5bbcd2113f4baf7001a9d6e9f0e19d2f894"
+    },
+    "calibration_comparison/videos/MercedesAMG550_62/speed_example.jpg": {
+      "bytes": 321849,
+      "sha256": "efe4b488641da977ca1c664cb1f08d874a57d11658d6880b2a7c6fed03903d80"
+    },
+    "calibration_comparison/videos/MercedesAMG550_65/calibration.mp4": {
+      "bytes": 1064115,
+      "sha256": "115a02ad97808d9cf22704688b015d3dc9c8068ef6e80ac270b388167f6e4a91"
+    },
+    "calibration_comparison/videos/MercedesAMG550_65/calibration_example.jpg": {
+      "bytes": 258879,
+      "sha256": "5cba4dffff2ee9ce945e941774ab3dc245bca87479cf5e19ec506e7307e3fa39"
+    },
+    "calibration_comparison/videos/MercedesAMG550_65/render_report.json": {
+      "bytes": 278,
+      "sha256": "939e8a9d7a7b46c4eb91caf2070e977381f5a7bd12c5d58d409c38c33b7a08a6"
+    },
+    "calibration_comparison/videos/MercedesAMG550_65/speed.mp4": {
+      "bytes": 1014521,
+      "sha256": "5086933c94544adcbbf74055745c36f0e57279a1b83d1eabdf4ff78f99eeea31"
+    },
+    "calibration_comparison/videos/MercedesAMG550_65/speed_example.jpg": {
+      "bytes": 253734,
+      "sha256": "5ca4e4be6b97dd6896154549e4f0a0effdd34ab9ace391dd26c751fc0d975ab7"
+    },
+    "calibration_comparison/videos/MercedesAMG550_67/calibration.mp4": {
+      "bytes": 1545403,
+      "sha256": "7039de48f8c89adb5af0fee45f147a32d835698cae5b652721e6b896292a37a0"
+    },
+    "calibration_comparison/videos/MercedesAMG550_67/calibration_example.jpg": {
+      "bytes": 322144,
+      "sha256": "ef0e6ae43c7c5297e358d0c4d0c2d966d613811d48e8fd60ad8c3d026de563c5"
+    },
+    "calibration_comparison/videos/MercedesAMG550_67/render_report.json": {
+      "bytes": 266,
+      "sha256": "79d352bb2cc699d6270971901126be36fb41c0e4c1a2b02d89781db14587bf9a"
+    },
+    "calibration_comparison/videos/MercedesAMG550_67/speed.mp4": {
+      "bytes": 1482020,
+      "sha256": "3d68bc1ae9ceb97d8970f4449f64f376b2421c38e5f962aea174d7134182bdde"
+    },
+    "calibration_comparison/videos/MercedesAMG550_67/speed_example.jpg": {
+      "bytes": 317532,
+      "sha256": "1f6ff2f19b87ada9484fadfe67b752626839957144a2a12a4c53b4c241bf4335"
+    },
+    "calibration_comparison/videos/MercedesAMG550_70/calibration.mp4": {
+      "bytes": 1100590,
+      "sha256": "9f587c28a021aec45dfc40832f0e3a2f5d6d24281f82b13be256259600b0cabc"
+    },
+    "calibration_comparison/videos/MercedesAMG550_70/calibration_example.jpg": {
+      "bytes": 263108,
+      "sha256": "6dcb3162268f81ac4eacfdeb6ff284a81faf9cbcafcd9d5d5768e53bebd8569f"
+    },
+    "calibration_comparison/videos/MercedesAMG550_70/render_report.json": {
+      "bytes": 267,
+      "sha256": "46651f57be6ffd7acee99ad1662bc0ed2a4e0ed970d2b20355922e42cb7d57c8"
+    },
+    "calibration_comparison/videos/MercedesAMG550_70/speed.mp4": {
+      "bytes": 1047038,
+      "sha256": "00627d98f3108cd3829f234483bcbb79602a9dc8eb10e97c8eb0c81de34daf60"
+    },
+    "calibration_comparison/videos/MercedesAMG550_70/speed_example.jpg": {
+      "bytes": 258357,
+      "sha256": "a0e505a686254be7979c09874da5eb64ffcd2c86414baa16ee05146fb6a91655"
+    },
+    "calibration_comparison/videos/MercedesAMG550_73/calibration.mp4": {
+      "bytes": 1451049,
+      "sha256": "d8abfe841108cd894d683188bf99451e06284f4e44032608dc9433e67dc4692c"
+    },
+    "calibration_comparison/videos/MercedesAMG550_73/calibration_example.jpg": {
+      "bytes": 315478,
+      "sha256": "b15395c799aa41e8897f6744c495a2bc4021df8160f0a8378c6147513f0dca5b"
+    },
+    "calibration_comparison/videos/MercedesAMG550_73/render_report.json": {
+      "bytes": 278,
+      "sha256": "427a4fcb2bbf0b83fea431e197ce418564198a2fda59aa0b660596f274952167"
+    },
+    "calibration_comparison/videos/MercedesAMG550_73/speed.mp4": {
+      "bytes": 1400745,
+      "sha256": "1a6f6fe87586112dbe4200c4190db66fda4feee691755dd09579e07c1fb34cf7"
+    },
+    "calibration_comparison/videos/MercedesAMG550_73/speed_example.jpg": {
+      "bytes": 310302,
+      "sha256": "c94c7266bf063ced5faa7cbb7574c23853203aec96329cd0c9cabdc32889ec9b"
+    },
+    "calibration_comparison/videos/MercedesAMG550_75/calibration.mp4": {
+      "bytes": 1140757,
+      "sha256": "6d850ca944b6949930da73afa388b438f55d1c5b44ca361269d640c002740d6a"
+    },
+    "calibration_comparison/videos/MercedesAMG550_75/calibration_example.jpg": {
+      "bytes": 262599,
+      "sha256": "82aab340c664b2a7a50df8859fcb81f3a5b6dd24b5e52194c85277e3e479998c"
+    },
+    "calibration_comparison/videos/MercedesAMG550_75/render_report.json": {
+      "bytes": 266,
+      "sha256": "14843b20993adcf2c3d37597959be7195ddd2a321b4fcc65300d3bcf7708c08c"
+    },
+    "calibration_comparison/videos/MercedesAMG550_75/speed.mp4": {
+      "bytes": 1094700,
+      "sha256": "13a995629f8644341593dfcebb6cb7b63339b4d964327c2757d76bbd86db6409"
+    },
+    "calibration_comparison/videos/MercedesAMG550_75/speed_example.jpg": {
+      "bytes": 256278,
+      "sha256": "1fe0a907257705131210f174325c81ab1ab2e61133326d4576b30eb817e5693f"
+    },
+    "calibration_comparison/videos/MercedesAMG550_78/calibration.mp4": {
+      "bytes": 1348297,
+      "sha256": "8192c9f095d2670b735eab42997e17a69ec4ee3b11f1d1b4867636be2ee85c70"
+    },
+    "calibration_comparison/videos/MercedesAMG550_78/calibration_example.jpg": {
+      "bytes": 260733,
+      "sha256": "a53a855a4d27eb96b25663a21cfb3d79b4ac86eed96e1846105420910f8e59f8"
+    },
+    "calibration_comparison/videos/MercedesAMG550_78/render_report.json": {
+      "bytes": 266,
+      "sha256": "ec3a1aa4edc36206cf3edcfde84e1b5f87d21d5ff2ad46ed0b7de67b1afeec4c"
+    },
+    "calibration_comparison/videos/MercedesAMG550_78/speed.mp4": {
+      "bytes": 1307196,
+      "sha256": "1350ee259cf2665b22fcbe27e991e5eea4536d407f72835f48122d8521f41723"
+    },
+    "calibration_comparison/videos/MercedesAMG550_78/speed_example.jpg": {
+      "bytes": 254053,
+      "sha256": "a2a6fde2389ae3b0265633ac8fe4007c065db593f55e0a6cc449dcb4cef95765"
+    },
+    "calibration_comparison/videos/MercedesAMG550_80/calibration.mp4": {
+      "bytes": 1088111,
+      "sha256": "39d0e4070053a9bec677144e682fac4aac6b670c50e6a8f577c9fa6064f52681"
+    },
+    "calibration_comparison/videos/MercedesAMG550_80/calibration_example.jpg": {
+      "bytes": 260848,
+      "sha256": "c6eb4107cabbddf23f46b245451f7517497fd429ee2b6de99be8304d7a57d333"
+    },
+    "calibration_comparison/videos/MercedesAMG550_80/render_report.json": {
+      "bytes": 278,
+      "sha256": "d3c1c3c170bbdf79a80d47e466e96acab3e5ab1f5edff9c9d3570d0747e37ec8"
+    },
+    "calibration_comparison/videos/MercedesAMG550_80/speed.mp4": {
+      "bytes": 1036604,
+      "sha256": "d44d6fd3a4d06bb97babdb997c8c59717151e822b8710a4356a3b429a21272bb"
+    },
+    "calibration_comparison/videos/MercedesAMG550_80/speed_example.jpg": {
+      "bytes": 254616,
+      "sha256": "c69778cf37726f023bec5ee634e07e24af5f85ea53255e84e5cd96553357d88d"
+    },
+    "calibration_comparison/videos/MercedesAMG550_82/calibration.mp4": {
+      "bytes": 1497975,
+      "sha256": "fc699e42494380eeab60c1f169e3cb8cf2029894809938f35befe7ab66833b57"
+    },
+    "calibration_comparison/videos/MercedesAMG550_82/calibration_example.jpg": {
+      "bytes": 302243,
+      "sha256": "9bbad3475642e0bbc4e7706e0bf4a845f8dbd0e3ee516a0d7dd9b11433526c31"
+    },
+    "calibration_comparison/videos/MercedesAMG550_82/render_report.json": {
+      "bytes": 266,
+      "sha256": "3a5102270c52b41dba4e048b63f5104f7ddfb17ea19332e8914bc8dbf1fc4c8a"
+    },
+    "calibration_comparison/videos/MercedesAMG550_82/speed.mp4": {
+      "bytes": 1451524,
+      "sha256": "00c5239beb912eb6a3694d1f3c970b43e7845a506b340eb5f0cf76e83e7eb9b4"
+    },
+    "calibration_comparison/videos/MercedesAMG550_82/speed_example.jpg": {
+      "bytes": 296264,
+      "sha256": "5b9127cc342d95524a09ecc75e95c9957160acb13c187406516278861eacde90"
+    },
+    "calibration_comparison/videos/MercedesAMG550_85/calibration.mp4": {
+      "bytes": 1122355,
+      "sha256": "57c99155012395d3fbcee9c7856919c50a5bce584adbea344d725010bbd2f41f"
+    },
+    "calibration_comparison/videos/MercedesAMG550_85/calibration_example.jpg": {
+      "bytes": 257633,
+      "sha256": "3abfa918d9d5a51d9cf4ebde12c97b39ba0f894355684bd5106dec2ca6b2cacb"
+    },
+    "calibration_comparison/videos/MercedesAMG550_85/render_report.json": {
+      "bytes": 266,
+      "sha256": "be3991767751efde182ac2f663ee13995dcd63dac19e287b4548a87aa67302f8"
+    },
+    "calibration_comparison/videos/MercedesAMG550_85/speed.mp4": {
+      "bytes": 1079561,
+      "sha256": "49680da1b89ba17993e8e3a77a1e0b032bf8d7bf74169490bfd92bedb658e51a"
+    },
+    "calibration_comparison/videos/MercedesAMG550_85/speed_example.jpg": {
+      "bytes": 253362,
+      "sha256": "1ff8d4a8f0d1f97fa59634a642d6cb0e1bf06cdd25c1a92256e028d406b50440"
+    },
+    "calibration_comparison/videos/MercedesAMG550_87/calibration.mp4": {
+      "bytes": 1375402,
+      "sha256": "818ea601a17de04924a8ac5d1adfd5e36341eadb190aa70e18fd18823be8ad6f"
+    },
+    "calibration_comparison/videos/MercedesAMG550_87/calibration_example.jpg": {
+      "bytes": 280524,
+      "sha256": "e18a422408262c8e983bfef2194a566332672bfcc23e92d1f75a880e696ba3b8"
+    },
+    "calibration_comparison/videos/MercedesAMG550_87/render_report.json": {
+      "bytes": 278,
+      "sha256": "d802ee0e7144c2b1ec5a525a01761ad998edb7b84e0e5222d3bc547ae7bb2afe"
+    },
+    "calibration_comparison/videos/MercedesAMG550_87/speed.mp4": {
+      "bytes": 1340424,
+      "sha256": "4ded816e84e03b03c1bffe836ce119b143afe5ce5498ec968d224d83d3c96ad1"
+    },
+    "calibration_comparison/videos/MercedesAMG550_87/speed_example.jpg": {
+      "bytes": 274145,
+      "sha256": "931e51604a40f0e20069e9f41ac78399fc96af840d69047d330ee796f5962c81"
+    },
+    "calibration_comparison/videos/MercedesAMG550_90/calibration.mp4": {
+      "bytes": 2236349,
+      "sha256": "ca88f18bcefe2df672839fa439be2455a7557b8827abac652401595ec6b5d3a0"
+    },
+    "calibration_comparison/videos/MercedesAMG550_90/calibration_example.jpg": {
+      "bytes": 357712,
+      "sha256": "9afd14cd317b0b02b75efc652c5e13f3795800fd8adb240b0220befd9b8e5843"
+    },
+    "calibration_comparison/videos/MercedesAMG550_90/render_report.json": {
+      "bytes": 265,
+      "sha256": "ec785a09cb2c1fdc61e21c07af74ab0e633ed0d68ff61a6681fd2630e2a7ced1"
+    },
+    "calibration_comparison/videos/MercedesAMG550_90/speed.mp4": {
+      "bytes": 2201985,
+      "sha256": "d7d54025bbda703e13faf53a73660efaa0fbe8df736e0561c300bbb957c8154e"
+    },
+    "calibration_comparison/videos/MercedesAMG550_90/speed_example.jpg": {
+      "bytes": 352292,
+      "sha256": "4d5509cfda004f269827851b8ceb851deebeb086f51d6f9eb889705a18af3023"
+    },
+    "calibration_comparison/videos/MercedesAMG550_93/calibration.mp4": {
+      "bytes": 1322359,
+      "sha256": "f1374eacf6e1453107b44307771290ed39ef4f7bbca3863fd2c514471fb2f417"
+    },
+    "calibration_comparison/videos/MercedesAMG550_93/calibration_example.jpg": {
+      "bytes": 292744,
+      "sha256": "7f4bc7e414571c55a1196afb47af6d8f24d538ffdb2416eff1cba8b12ff460f8"
+    },
+    "calibration_comparison/videos/MercedesAMG550_93/render_report.json": {
+      "bytes": 278,
+      "sha256": "2751b9a36e36f3ca00becfb841b4e74276112fb50d7d85e4fc85c993f5b6b1f6"
+    },
+    "calibration_comparison/videos/MercedesAMG550_93/speed.mp4": {
+      "bytes": 1287381,
+      "sha256": "e03b612b5d5da6b9ff704ec443f959e9a661e207610b38a9a2dffa9d50c253cb"
+    },
+    "calibration_comparison/videos/MercedesAMG550_93/speed_example.jpg": {
+      "bytes": 287846,
+      "sha256": "836a8df4bc0db1833eb98045c91e15432f803b4ecd9f064c7f8b0463ea076b3f"
+    },
+    "calibration_comparison/videos/MercedesAMG550_95/calibration.mp4": {
+      "bytes": 1091129,
+      "sha256": "a44335c5706bd4541f895166894cffbbd2bba07fcc20cf220cded6e77b36d59c"
+    },
+    "calibration_comparison/videos/MercedesAMG550_95/calibration_example.jpg": {
+      "bytes": 256868,
+      "sha256": "65b2449a12bb7be0eec796f2b45cdb59a10decb6997faa8f1477de85da404ccb"
+    },
+    "calibration_comparison/videos/MercedesAMG550_95/render_report.json": {
+      "bytes": 267,
+      "sha256": "155182e2296085324a802cd056c06800971e3bde1f988461bb098e22f298e6fc"
+    },
+    "calibration_comparison/videos/MercedesAMG550_95/speed.mp4": {
+      "bytes": 1046738,
+      "sha256": "ec0f4ba5b8fcb5b2613a94df086a44a5d0f8b9a4634b6498030691240058fdd2"
+    },
+    "calibration_comparison/videos/MercedesAMG550_95/speed_example.jpg": {
+      "bytes": 251301,
+      "sha256": "cb29ddcc184b8c0d75e0c9269c3973501029e83a49f50e0e484c4dfb68859e17"
+    },
+    "calibration_comparison/videos/MercedesAMG550_98/calibration.mp4": {
+      "bytes": 1402038,
+      "sha256": "2c079a6bca0ee04bf050c6ec41ae450bb2b1361c3d49913b8e6dfaad56df8593"
+    },
+    "calibration_comparison/videos/MercedesAMG550_98/calibration_example.jpg": {
+      "bytes": 280401,
+      "sha256": "77c2fe2dd9b846e851733ef431b2d2be3f7eae554536ee7bd1608a24d785be7f"
+    },
+    "calibration_comparison/videos/MercedesAMG550_98/render_report.json": {
+      "bytes": 266,
+      "sha256": "02cb03ed3a572f0443cf6b268329a09ad169b4d9b87a17c581da340ac9e71626"
+    },
+    "calibration_comparison/videos/MercedesAMG550_98/speed.mp4": {
+      "bytes": 1361769,
+      "sha256": "ede5932c2b294086dc232d0e1b5d9f1b412744cc6bf4f21fb389fccc409f2a0d"
+    },
+    "calibration_comparison/videos/MercedesAMG550_98/speed_example.jpg": {
+      "bytes": 274282,
+      "sha256": "bff08e0318d5341699abca696a0087f08caa32f1812ffac99c719c23969059aa"
     },
     "calibration_preview.mp4": {
       "bytes": 9663221,
@@ -662,8 +3164,8 @@
       "sha256": "acf4c2f06065bd60e9e9c26aa35069edaa02b4e2f73e983cc8cb707e3fb135cb"
     },
     "mercedes_validation/README.md": {
-      "bytes": 12516,
-      "sha256": "c66b4e519a74f5219b53b73051970dfc57e5ee0c31799646285528e1451f1f89"
+      "bytes": 12824,
+      "sha256": "024cef627d89545648675fa7d071f7d21a8c2f4b58949a4321fd261a4ca851a4"
     },
     "mercedes_validation/reference_calibration_reproduction.json": {
       "bytes": 1333,
@@ -1170,8 +3672,8 @@
       "sha256": "46948483da8bba6f676f1b3c766ac1f80033c4938d3c94a656d59dd2d6898fa0"
     },
     "README.md": {
-      "bytes": 4510,
-      "sha256": "526d9c21c5249a71ea2178ae7c4bc9046e65566811c458af3e57ddb49d44c0cf"
+      "bytes": 5070,
+      "sha256": "96ea7883ba668aadcd276e6279d84c6222dcc7ce14d3bad93fc3bf2ec2049b1e"
     },
     "render_report.json": {
       "bytes": 315,
@@ -1259,5 +3761,40 @@
       "errors_over_10_kmh": 9
     },
     "checks": "mercedes_validation/artifact_verification.json"
+  },
+  "calibration_research": {
+    "clips": 30,
+    "physical_versions": 18,
+    "fusion_configurations": 20,
+    "calibration_videos": 30,
+    "speed_videos": 30,
+    "individual_test_reference_excluded": true,
+    "development_cross_validation": true,
+    "fresh_independent_validation": false,
+    "accuracy_target_met": false,
+    "reference_library_uses_other_labelled_passes": true,
+    "network_weights_fine_tuned": false,
+    "individual_test_metrics": {
+      "clips": 30,
+      "estimated": 30,
+      "mae_kmh": 2.384181479228416,
+      "rmse_kmh": 3.39042807416795,
+      "bias_kmh": -0.5475746230386815,
+      "maximum_absolute_error_kmh": 8.306154507135872,
+      "within_2_kmh": 19,
+      "errors_over_10_kmh": 0
+    },
+    "previous_27_metrics": {
+      "clips": 27,
+      "estimated": 27,
+      "mae_kmh": 2.2108001807334934,
+      "rmse_kmh": 3.1993429341746387,
+      "bias_kmh": -0.9212203686998963,
+      "maximum_absolute_error_kmh": 8.306154507135872,
+      "within_2_kmh": 18,
+      "errors_over_10_kmh": 0
+    },
+    "report": "calibration_comparison/README.md",
+    "checks": "calibration_comparison/artifact_verification.json"
   }
 }

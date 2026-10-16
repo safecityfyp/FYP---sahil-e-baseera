@@ -1,0 +1,22 @@
+{
+  "reference_reused": {
+    "clips": 20,
+    "estimated": 20,
+    "mae_kmh": 1.729581057790368,
+    "rmse_kmh": 2.3790407096902415,
+    "bias_kmh": 0.04291413523778047,
+    "maximum_absolute_error_kmh": 7.73505461622571,
+    "within_2_kmh": 14,
+    "errors_over_10_kmh": 0
+  },
+  "new_geometry": {
+    "clips": 10,
+    "estimated": 10,
+    "mae_kmh": 3.693382322104511,
+    "rmse_kmh": 4.81303835239152,
+    "bias_kmh": -1.7285521395916057,
+    "maximum_absolute_error_kmh": 8.306154507135872,
+    "within_2_kmh": 5,
+    "errors_over_10_kmh": 0
+  }
+}

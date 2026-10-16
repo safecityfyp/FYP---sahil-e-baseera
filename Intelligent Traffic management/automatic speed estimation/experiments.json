@@ -30,6 +30,16 @@
       "notebook": "hayyanfaisal/fyp-cctv-experimental-speed-estimation",
       "snapshot_version": 3,
       "output_pattern": "speed_experiment/.*"
+    },
+    "calibration_comparison": {
+      "notebook": "hayyanfaisal/fyp-per-video-calibration-method-comparison",
+      "snapshot_version": 1,
+      "output_pattern": "calibration_comparison_inference/.*"
+    },
+    "calibration_refinement_report": {
+      "notebook": "hayyanfaisal/fyp-calibration-refinement-report",
+      "snapshot_version": 3,
+      "output_pattern": "calibration_comparison/.*"
     }
   }
 }

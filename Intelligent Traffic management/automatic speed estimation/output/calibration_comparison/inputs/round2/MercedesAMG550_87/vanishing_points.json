@@ -1,0 +1,28 @@
+{
+  "original_flow": {
+    "available": true,
+    "point": [
+      217.26518320714277,
+      554.9409784629785
+    ],
+    "observations": 31,
+    "median_absolute_deviation_pixels": [
+      7.860843060376681,
+      5.920099033524593
+    ],
+    "reference_label_used": false
+  },
+  "adaptive_flow": {
+    "available": true,
+    "point": [
+      217.13511690497216,
+      555.5252863062988
+    ],
+    "observations": 30,
+    "median_absolute_deviation_pixels": [
+      7.736000643575181,
+      5.972470846762008
+    ],
+    "reference_label_used": false
+  }
+}

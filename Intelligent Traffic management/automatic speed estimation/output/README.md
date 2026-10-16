@@ -1,5 +1,7 @@
 # Experimental speed-estimation outputs
 
+The latest [calibration research report](calibration_comparison/README.md) compares 18 calibration/model versions and 20 fusion configurations, with a new pair of videos for every Mercedes clip. The selected hybrid's development result is approximately **2.38 km/h MAE, 19/30 within ±2 km/h, and no error above 10 km/h**. It uses other labelled reference passes while excluding each test's own speed. The remaining worst error is about 8.3 km/h; the requested tolerance is still not met across all clips.
+
 This folder contains the completed Kaggle experiments. The original CCTV snapshot covers source-video seconds **150–210**, **25 FPS**, 1,500 frames. Tracking notebook v1, geometry v2 and CPU speed v3 produced its current artifacts. See [the feature README](../README.md) for reproduction and limitations.
 
 The [automatic-workflow verification records](workflow_demo/README.md) demonstrate calibration creation when missing and reuse on the next run. The main gallery below preserves the original reviewed experiment.

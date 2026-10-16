@@ -1,0 +1,12 @@
+{
+  "frames": 276,
+  "fps": 29.97002997002997,
+  "duration_s": 9.209200000000001,
+  "speed_display_decimal_places": 1,
+  "vehicle_label_frames": 50,
+  "files": [
+    "calibration.mp4",
+    "speed.mp4"
+  ],
+  "scope": "Longitudinal road-distance review; not a full road survey"
+}

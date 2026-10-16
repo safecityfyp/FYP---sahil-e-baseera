@@ -1,0 +1,7 @@
+{
+  "calculation_reproduced_from_saved_inputs": true,
+  "scene_matches_reused": true,
+  "maximum_estimate_difference_kmh": 5.898142774185544e-08,
+  "local_opencv": "5.0.0",
+  "note": "Fresh image matching can vary. Frozen evidence reproduces the saved calculation."
+}

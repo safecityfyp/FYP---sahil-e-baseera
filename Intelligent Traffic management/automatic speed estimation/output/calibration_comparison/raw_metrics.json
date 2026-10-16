@@ -1,0 +1,182 @@
+{
+  "v2_delay_1d": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 6.99390789973925,
+    "rmse_kmh": 8.2746144503337,
+    "bias_kmh": -6.1892992344521405,
+    "maximum_absolute_error_kmh": 22.33554425117314,
+    "within_2_kmh": 3,
+    "errors_over_10_kmh": 4
+  },
+  "v2b_delay_2d": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 8.791259764421223,
+    "rmse_kmh": 9.629621248755663,
+    "bias_kmh": -8.559085316879026,
+    "maximum_absolute_error_kmh": 16.00655437892908,
+    "within_2_kmh": 2,
+    "errors_over_10_kmh": 10
+  },
+  "v2c_corner_vp_delay": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 9.074354371007393,
+    "rmse_kmh": 9.872478017708948,
+    "bias_kmh": -8.865808650758899,
+    "maximum_absolute_error_kmh": 16.9176265514283,
+    "within_2_kmh": 1,
+    "errors_over_10_kmh": 11
+  },
+  "v2d_flow_vp_delay": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 9.088372887344372,
+    "rmse_kmh": 9.918986072006508,
+    "bias_kmh": -8.905736511897441,
+    "maximum_absolute_error_kmh": 17.407395943052506,
+    "within_2_kmh": 1,
+    "errors_over_10_kmh": 12
+  },
+  "v3_rigid_bundle": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 6.279232605786655,
+    "rmse_kmh": 7.110667891794598,
+    "bias_kmh": -5.619635458500016,
+    "maximum_absolute_error_kmh": 13.801045502672977,
+    "within_2_kmh": 4,
+    "errors_over_10_kmh": 5
+  },
+  "v3b_rigid_distortion": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 6.745021962236175,
+    "rmse_kmh": 7.656290813129776,
+    "bias_kmh": -6.206164053749382,
+    "maximum_absolute_error_kmh": 16.736423812490415,
+    "within_2_kmh": 2,
+    "errors_over_10_kmh": 5
+  },
+  "v4_learned_mask": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 32.255755143371395,
+    "rmse_kmh": 38.5988923226013,
+    "bias_kmh": 32.255755143371395,
+    "maximum_absolute_error_kmh": 94.48305748486356,
+    "within_2_kmh": 0,
+    "errors_over_10_kmh": 30
+  },
+  "v4b_learned_ensemble": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 24.50905493982231,
+    "rmse_kmh": 29.413982707550144,
+    "bias_kmh": 24.50905493982231,
+    "maximum_absolute_error_kmh": 75.99778676841547,
+    "within_2_kmh": 0,
+    "errors_over_10_kmh": 26
+  },
+  "v5_learned_flow": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 39.00582960169973,
+    "rmse_kmh": 42.77756603683187,
+    "bias_kmh": 39.00582960169973,
+    "maximum_absolute_error_kmh": 87.33558873737203,
+    "within_2_kmh": 0,
+    "errors_over_10_kmh": 30
+  },
+  "v5b_ensemble_flow": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 30.359499201514407,
+    "rmse_kmh": 33.32364134793913,
+    "bias_kmh": 30.359499201514407,
+    "maximum_absolute_error_kmh": 64.77718026698597,
+    "within_2_kmh": 0,
+    "errors_over_10_kmh": 30
+  },
+  "v5c_adaptive_learned_flow": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 39.73678047263509,
+    "rmse_kmh": 43.75840550054573,
+    "bias_kmh": 39.73678047263509,
+    "maximum_absolute_error_kmh": 95.40318954249435,
+    "within_2_kmh": 0,
+    "errors_over_10_kmh": 30
+  },
+  "v5d_constant_motion_refinement": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 39.56579751381158,
+    "rmse_kmh": 44.388738978145305,
+    "bias_kmh": 39.56579751381158,
+    "maximum_absolute_error_kmh": 94.83789478735196,
+    "within_2_kmh": 0,
+    "errors_over_10_kmh": 30
+  },
+  "v6_silhouette_cuboid": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 28.003169551234404,
+    "rmse_kmh": 32.270021656469254,
+    "bias_kmh": 27.873732051774354,
+    "maximum_absolute_error_kmh": 68.3923068480427,
+    "within_2_kmh": 1,
+    "errors_over_10_kmh": 25
+  },
+  "v6_silhouette_sedan": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 42.88356564307218,
+    "rmse_kmh": 49.34763150383203,
+    "bias_kmh": 42.64223611288953,
+    "maximum_absolute_error_kmh": 112.27793574957482,
+    "within_2_kmh": 1,
+    "errors_over_10_kmh": 27
+  },
+  "v7_adaptive_vp_delay": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 9.084014016092745,
+    "rmse_kmh": 9.913418025697693,
+    "bias_kmh": -8.90005741049502,
+    "maximum_absolute_error_kmh": 17.407395943052506,
+    "within_2_kmh": 1,
+    "errors_over_10_kmh": 12
+  },
+  "v7b_adaptive_vp_rigid": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 6.330113199516586,
+    "rmse_kmh": 7.25412518023152,
+    "bias_kmh": -5.74398021564218,
+    "maximum_absolute_error_kmh": 13.937546916484862,
+    "within_2_kmh": 4,
+    "errors_over_10_kmh": 6
+  },
+  "v7c_fitted_effective_length": {
+    "clips": 30,
+    "estimated": 30,
+    "mae_kmh": 16.582764689219463,
+    "rmse_kmh": 18.300338194489605,
+    "bias_kmh": -5.510373599831011,
+    "maximum_absolute_error_kmh": 34.90264139305542,
+    "within_2_kmh": 0,
+    "errors_over_10_kmh": 23
+  },
+  "v9_motion_lens_delay": {
+    "clips": 30,
+    "estimated": 25,
+    "mae_kmh": 9.409854639148609,
+    "rmse_kmh": 10.074233102093068,
+    "bias_kmh": -9.175923618934817,
+    "maximum_absolute_error_kmh": 16.005097640078063,
+    "within_2_kmh": 1,
+    "errors_over_10_kmh": 11
+  }
+}
