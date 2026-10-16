@@ -4,7 +4,9 @@ The [research report](output/calibration_comparison/README.md) compares 18 calib
 
 These are development experiments on previously inspected clips. The selected reference-assisted method can use other labelled passes of the same car. It still has errors above the requested ±2 km/h tolerance.
 
-## Selected method
+The [Kia extension](output/kia_validation/README.md) adds 33 clips, an eight-pass development split and 25 reserved tests. Its selected per-video geometry ensemble is described below. The two experiments keep their own scale/reference libraries.
+
+## Mercedes selected method
 
 The selected development configuration combines **75% reference-library speed and 25% geometric speed**, using an overlap-weighted average of up to three matching references when a suitable reference view exists. It uses the geometric estimate alone when the library has no supported match.
 
@@ -44,6 +46,20 @@ The camera lookup reuses saved road calibration. Vehicle motion is still measure
 | Reference-library fusion | Compare the strongest match, a median, and averages of the top three matches, with reference weights 0, 0.25, 0.5, 0.75 and 1. |
 
 All versions preserve their estimates, including failures. [Raw metrics](output/calibration_comparison/raw_metrics.json) show performance before reference scale correction. The main version table reports pilot metric corrections explicitly. The final hybrid also benefits from additional reference passes; its improvement cannot be attributed solely to automatic geometry.
+
+## Kia: independent camera fits and template-scale correction
+
+Kia development tested 14 adaptation configurations, plus the frozen Mercedes baseline. Comparisons include a size-only change, reference-library expansion, lower-image scene registration, shared camera/lens fits and scale curves, and new SUV template fits. Six additional raw geometry/window versions supplement the previous 18 models. The eight development clips exclude themselves from calibration; the remaining 25 clips are reserved until selection and mathematical source hashes are frozen.
+
+The Kia images show substantial view changes despite matching the one-session Kia entry in the [VS13 paper](https://slobodan.ucg.ac.me/science/vs13/paper.pdf). Most reference homographies fail the overlap/texture criteria. Reusing a shared camera map therefore seldom helps. Strong flow-vanishing-point constraints also fail on some short tracks: the 105 km/h development clip is estimated at 136.7 km/h by the frozen baseline. Different unconstrained geometric fits are much closer.
+
+The selected `geometry_ensemble_50` combines two independently fitted constant-motion cuboid cameras with radial distortion. One uses the original 4.9 × 1.87 × 1.45 m template; the other uses an approximate 4.485 × 1.855 × 1.645 m SUV template. The [Kia specification](https://www.kia.com/content/dam/kwcms/kme/it/it/assets/contents/utility/price-list/2021/03/Listino_Kia_Sportage_Pubblico_01_03_2021.pdf) supports the SUV prior; exact year and trim are unconfirmed. Each template's metric correction is the median reference/estimated-speed ratio on the eight development passes, or the other seven for a development test. The fixed full-reference factors are approximately **1.06785 and 1.13760**. Corrected predictions are averaged equally.
+
+These factors compensate empirical template/model bias. They are not verified physical vehicle dimensions or a universally transferable camera scale. The query camera is fitted from its own imagery; the query's speed does not enter the fit. Template disagreement is retained as a diagnostic, not an accuracy interval. A new unrecognized vehicle does not inherit Kia corrections.
+
+Development MAE improves from 6.98 to 1.17 km/h (7/8 within ±2). On the 25 reserved clips, improvement is smaller: **3.81 to 2.36 km/h**, **13/25 within ±2**, worst error **7.28 km/h**, and no error over 10. The reserved outlier is 58 → 65.3 km/h; errors are not confined to high speeds. The requested tolerance is still unmet, and the reserved clips share a site/recording session rather than an independent camera deployment. No post-reserved tuning or neural-network fine-tuning was performed.
+
+`shared_camera_calibration.py` retains the other map-fitting attempts; `vehicle_geometry_refinement.py` implements the SUV and window ablations. `kia_validation.py` enforces the frozen configuration, and `render_cross_vehicle.py` renders distance hypotheses from the fitted camera models. See the [feature README](README.md) for reproduction and the [full Kia report](output/kia_validation/README.md) for every test and paired videos. Twelve synthetic-geometry, distortion, timing and reference-exclusion checks run locally and in the Kaggle report.
 
 ## Research sources and adaptations
 

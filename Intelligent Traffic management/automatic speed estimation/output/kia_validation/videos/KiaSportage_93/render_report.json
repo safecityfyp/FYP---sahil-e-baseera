@@ -1,0 +1,27 @@
+{
+  "frames": 297,
+  "fps": 29.97002997002997,
+  "duration_s": 9.9099,
+  "speed_display_decimal_places": 1,
+  "vehicle_label_frames": 16,
+  "files": [
+    "calibration.mp4",
+    "speed.mp4"
+  ],
+  "scope": "Longitudinal road-distance review; not a full road survey",
+  "phase": "reserved",
+  "calibration_method": "geometry_ensemble_50",
+  "reference_videos": [
+    "KiaSportage_105",
+    "KiaSportage_31",
+    "KiaSportage_44",
+    "KiaSportage_55",
+    "KiaSportage_65",
+    "KiaSportage_77",
+    "KiaSportage_85",
+    "KiaSportage_96"
+  ],
+  "own_reference_speed_used": false,
+  "distance_marks_use_fitted_shared_camera": false,
+  "distance_marks_use_fitted_vehicle_camera": true
+}

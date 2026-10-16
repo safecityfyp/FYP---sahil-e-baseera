@@ -1,2 +1,7 @@
+# Keep executed mathematical source hashes portable between Windows and Kaggle.
+*.py text eol=lf
+*.ipynb text eol=lf
+kia_calibration_configuration.json text eol=lf
+kia_experiment_plan.json text eol=lf
 # Preserve the reviewed snapshot byte-for-byte, including CSV line endings and checksums.
 output/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

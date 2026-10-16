@@ -10,6 +10,23 @@ The historical Mercedes benchmark used three calibration pilots and 27 held-out 
 
 See [the methods and selected workflow](calibration_methods.md) for research sources, implementation differences and reproduction. The [historical report](output/mercedes_validation/README.md) and its [earlier diagnostics](output/mercedes_validation/diagnostics/README.md) remain available for comparison.
 
+## Kia Sportage: new vehicle and reserved tests
+
+The [Kia report](output/kia_validation/README.md) tests all **33 clips individually**, with eight development passes and **25 clips reserved until the method was frozen**. On the reserved clips, the frozen Mercedes transfer baseline gives **3.81 km/h MAE**; the new geometry ensemble gives **2.36 km/h MAE**, **13/25 within ±2 km/h**, and a worst error of **7.28 km/h**, down from 18.85. Across all 33 clips, including development, MAE is **2.07 km/h** with **20/33 within ±2 km/h**. The accuracy target remains unmet.
+
+The Kia camera angles change between clips, so compatible camera calibration often cannot be reused. A strong motion vanishing-point constraint also produces large errors on some short, noisy tracks. The selected research mode fits each clip's camera with two cuboid/lens templates and combines their speed estimates equally. Each template's empirical metric scale comes from the eight known-speed Kia development passes; development tests exclude themselves. This correction is vehicle-specific reference assistance, not automatic recovery of verified vehicle dimensions. No reserved speed was used for fitting or method selection, and no network weights were fine-tuned.
+
+The [frozen configuration](kia_calibration_configuration.json), [predeclared split](kia_experiment_plan.json), full before/after tables, failed variants, and **66 calibration/speed videos** are retained. The original CCTV workflow and Mercedes results remain separate; Kia scale corrections must not be applied to unidentified vehicles.
+
+```powershell
+New-Item -ItemType Directory -Force outputs/kia_reproduction | Out-Null
+Copy-Item -LiteralPath output/kia_validation/reserved/global_scene_registrations.json -Destination outputs/kia_reproduction/global_scene_registrations.json
+Copy-Item -LiteralPath output/kia_validation/reserved/foreground_scene_registrations.json -Destination outputs/kia_reproduction/foreground_scene_registrations.json
+python kia_validation.py --phase reserved --development-measurements output/kia_validation/measurements/development --reserved-measurements output/kia_validation/measurements/reserved --output outputs/kia_reproduction --configuration kia_calibration_configuration.json
+```
+
+The [private Kaggle reproduction/report notebook](https://www.kaggle.com/code/hayyanfaisal/fyp-kia-calibration-validation-report) runs mathematical/reference-exclusion checks and renders the paired videos. `build_kia_notebooks.py` packages speed-blind GPU measurements; `vehicle_geometry_refinement.py` adds the SUV and observation-window ablations. The frozen Kia research evaluation is separate from `workflow.py`'s original CCTV calibration.
+
 ## Refined per-video calibration experiments
 
 The research workflow checks compatible saved reference views, reuses a longitudinal road calibration when supported, and fits new geometry/motion calibration when no reference matches. Its selected hybrid combines reference-pass motion measurement with a vanishing-point temporal estimate. Vehicle observations are required in every clip. It estimates a local distance scale along the observed path.

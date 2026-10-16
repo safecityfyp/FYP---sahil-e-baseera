@@ -40,6 +40,26 @@
       "notebook": "hayyanfaisal/fyp-calibration-refinement-report",
       "snapshot_version": 3,
       "output_pattern": "calibration_comparison/.*"
+    },
+    "kia_development_inference": {
+      "notebook": "hayyanfaisal/fyp-kia-development-calibration",
+      "snapshot_version": 1,
+      "output_pattern": "kia_measurements/.*"
+    },
+    "kia_reserved_inference": {
+      "notebook": "hayyanfaisal/fyp-kia-reserved-calibration",
+      "snapshot_version": 1,
+      "output_pattern": "kia_measurements/.*"
+    },
+    "kia_validation_report": {
+      "notebook": "hayyanfaisal/fyp-kia-calibration-validation-report",
+      "snapshot_version": 1,
+      "output_pattern": "kia_validation/.*"
     }
+  },
+  "kia_datasets": {
+    "videos": "hayyanfaisal/fyp-kia-sportage-speed-validation",
+    "evaluation_cache": "hayyanfaisal/fyp-kia-calibration-evaluation-cache",
+    "private": true
   }
 }

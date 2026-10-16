@@ -1,6 +1,8 @@
 # Experimental speed-estimation outputs
 
-The latest [calibration research report](calibration_comparison/README.md) compares 18 calibration/model versions and 20 fusion configurations, with a new pair of videos for every Mercedes clip. The selected hybrid's development result is approximately **2.38 km/h MAE, 19/30 within ±2 km/h, and no error above 10 km/h**. It uses other labelled reference passes while excluding each test's own speed. The remaining worst error is about 8.3 km/h; the requested tolerance is still not met across all clips.
+The latest [Kia Sportage report](kia_validation/README.md) adds 33 individual tests and **66 calibration/speed videos**. Eight clips supplied development calibration; the method was frozen before evaluating 25 reserved clips. Reserved MAE improves from **3.81 to 2.36 km/h**, with **13/25 within ±2 km/h** and worst error **7.28 km/h**. These are reference-assisted, vehicle-specific results; the requested tolerance is still not met across all clips.
+
+The earlier [Mercedes calibration research report](calibration_comparison/README.md) compares 18 calibration/model versions and 20 fusion configurations, with a new pair of videos for every Mercedes clip. The selected hybrid's development result is approximately **2.38 km/h MAE, 19/30 within ±2 km/h, and no error above 10 km/h**. It uses other labelled reference passes while excluding each test's own speed. The remaining worst error is about 8.3 km/h.
 
 This folder contains the completed Kaggle experiments. The original CCTV snapshot covers source-video seconds **150–210**, **25 FPS**, 1,500 frames. Tracking notebook v1, geometry v2 and CPU speed v3 produced its current artifacts. See [the feature README](../README.md) for reproduction and limitations.
 

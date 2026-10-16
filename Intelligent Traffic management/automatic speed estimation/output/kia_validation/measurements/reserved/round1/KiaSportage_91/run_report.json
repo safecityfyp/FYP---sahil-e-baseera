@@ -1,0 +1,9 @@
+{
+  "video": "KiaSportage_91.MP4",
+  "reference_speeds_used": false,
+  "runtime_s": 14.21260546099984,
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "opencv": "4.14.0",
+  "gpu": "Tesla T4"
+}

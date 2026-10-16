@@ -1,0 +1,5351 @@
+{
+  "KiaSportage_100|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_100|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_100|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_100|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_100|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_100|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_100|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_100|KiaSportage_96": {
+    "accepted": true,
+    "matches": 410,
+    "inliers": 404,
+    "coverage": 0.39917936007177435,
+    "rms_pixels_at_960": 0.46955359358738974,
+    "query_to_template": [
+      [
+        1.0009931309953286,
+        0.00013103984614309545,
+        -2.626266946567099
+      ],
+      [
+        0.0008951805061066309,
+        1.0018277165975797,
+        -5.052545008410253
+      ],
+      [
+        1.1882830610910557e-07,
+        7.692065890930933e-07,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_100|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_100|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_100|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_100|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_100|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_100|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_100|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_100|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_100|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_100|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_100|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_100|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_100|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_100|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_100|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_100|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_100|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_100|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_100|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_100|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_100|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_100|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_100|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_100|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_100|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_100|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_100|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_100|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_100|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_100|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_103|KiaSportage_105": {
+    "accepted": true,
+    "matches": 617,
+    "inliers": 608,
+    "coverage": 0.40036695578690085,
+    "rms_pixels_at_960": 0.41990143210738107,
+    "query_to_template": [
+      [
+        1.0001506217000673,
+        -0.0016913082764333665,
+        0.41093328374874494
+      ],
+      [
+        0.0012278084188033249,
+        0.999827979512987,
+        -0.805001675677867
+      ],
+      [
+        1.3917660587875618e-07,
+        -1.391660104171773e-07,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_103|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_103|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_103|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_103|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_103|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_103|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_103|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_103|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_103|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_103|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_103|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_103|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_103|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_103|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_103|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_103|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_103|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_103|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_103|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_103|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_103|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_103|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_103|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_103|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_103|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_103|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_103|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_103|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_103|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_103|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_103|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_103|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_103|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_103|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_103|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_103|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_103|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_33|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_33|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_33|KiaSportage_44": {
+    "accepted": false,
+    "matches": 23,
+    "inliers": 13,
+    "coverage": 0.013460256333887234,
+    "rms_pixels_at_960": 0.7836157072595082,
+    "query_to_template": [
+      [
+        0.3614724066677504,
+        -0.25728361544880224,
+        75.87801218966057
+      ],
+      [
+        0.022350682342632464,
+        -0.3371848869547519,
+        387.02570420065535
+      ],
+      [
+        3.601000655185549e-05,
+        -0.0011697532847119968,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_33|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_33|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_33|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_33|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_33|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_33|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_33|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_33|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_33|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_33|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_33|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_33|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_33|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_33|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_33|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_33|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_33|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_33|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_33|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_33|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_33|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_33|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_35|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_35|KiaSportage_31": {
+    "accepted": true,
+    "matches": 318,
+    "inliers": 269,
+    "coverage": 0.3123568044804009,
+    "rms_pixels_at_960": 0.7474636063867935,
+    "query_to_template": [
+      [
+        0.927877538709681,
+        -0.3242577542045401,
+        92.01106547512519
+      ],
+      [
+        0.018551699296920174,
+        0.8545107507210659,
+        -0.6979607526465712
+      ],
+      [
+        3.7754572160521784e-06,
+        -0.0001349293926333319,
+        0.9999999999999999
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_35|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_35|KiaSportage_55": {
+    "accepted": true,
+    "matches": 57,
+    "inliers": 44,
+    "coverage": 0.0390313459920714,
+    "rms_pixels_at_960": 0.7844741200510879,
+    "query_to_template": [
+      [
+        0.6455754510098662,
+        -0.3031195511737301,
+        247.88264249631692
+      ],
+      [
+        0.01734889039330835,
+        0.25272968445396843,
+        250.28770235420163
+      ],
+      [
+        -1.679494360742532e-05,
+        -0.0006913211422994557,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_35|KiaSportage_65": {
+    "accepted": false,
+    "matches": 30,
+    "inliers": 23,
+    "coverage": 0.02381717744053826,
+    "rms_pixels_at_960": 0.7202007373941604,
+    "query_to_template": [
+      [
+        0.45377175930198277,
+        -0.333608162006874,
+        169.5313874782387
+      ],
+      [
+        0.004487353054767366,
+        -0.07788186860385268,
+        298.38174998015865
+      ],
+      [
+        -1.7396371320549935e-05,
+        -0.0009600946466232125,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_35|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_35|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_35|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_35|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_35|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_35|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_35|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_35|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_35|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_35|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_35|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_35|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_35|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_35|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_35|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_35|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_35|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_35|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_35|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_35|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_35|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_35|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_35|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_35|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_35|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_35|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_35|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_35|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_35|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_35|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_35|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_35|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_35|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_38|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_38|KiaSportage_44": {
+    "accepted": false,
+    "matches": 28,
+    "inliers": 17,
+    "coverage": 0.014861023703574854,
+    "rms_pixels_at_960": 0.8787958624230322,
+    "query_to_template": [
+      [
+        0.426598228485103,
+        -0.16769757334878288,
+        -44.70947424372642
+      ],
+      [
+        0.022166804268793715,
+        -0.1716827273938443,
+        319.1686100476075
+      ],
+      [
+        2.8824467359714565e-05,
+        -0.001062678400631423,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_38|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_38|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_38|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_38|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_38|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_38|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_38|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_38|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_38|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_38|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_38|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_38|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_38|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_38|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_38|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_38|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_38|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_38|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_38|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_38|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_41|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_41|KiaSportage_31": {
+    "accepted": false,
+    "matches": 95,
+    "inliers": 43,
+    "coverage": 0.11163576246742477,
+    "rms_pixels_at_960": 0.7983566842204828,
+    "query_to_template": [
+      [
+        0.5717898745079699,
+        -0.37517860379872764,
+        219.6960055276397
+      ],
+      [
+        0.011830775508194571,
+        0.15252558309583597,
+        231.38613993705158
+      ],
+      [
+        5.28140221566823e-06,
+        -0.0007328735309357668,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_41|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_41|KiaSportage_55": {
+    "accepted": false,
+    "matches": 18,
+    "inliers": 10,
+    "coverage": 0.00179464057128062,
+    "rms_pixels_at_960": 0.8887819859651807,
+    "query_to_template": [
+      [
+        0.4763753308960683,
+        -0.4251188544824686,
+        335.5005313153623
+      ],
+      [
+        -0.011526415785866152,
+        -0.08918556372314496,
+        329.4846399440429
+      ],
+      [
+        -4.312031310761864e-05,
+        -0.001034355776584923,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_41|KiaSportage_65": {
+    "accepted": false,
+    "matches": 15,
+    "inliers": 7,
+    "coverage": 0.0017064996126327408,
+    "rms_pixels_at_960": 0.7695220706909044,
+    "query_to_template": [
+      [
+        0.28791853989567656,
+        -0.41015294846811934,
+        275.7115600837482
+      ],
+      [
+        -0.17724036890437067,
+        -0.1569102716990883,
+        343.2288549588805
+      ],
+      [
+        -0.0002803919322269539,
+        -0.001000021362092925,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_41|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_41|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_41|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_41|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_41|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_41|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_41|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_41|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_41|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 14
+  },
+  "KiaSportage_41|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_41|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_41|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_41|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_41|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_41|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_41|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_41|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_41|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_41|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_41|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_41|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_41|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_41|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_41|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_41|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_41|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_41|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_41|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_41|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_41|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_41|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_41|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_41|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_46|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_46|KiaSportage_31": {
+    "accepted": true,
+    "matches": 111,
+    "inliers": 90,
+    "coverage": 0.13202809167378135,
+    "rms_pixels_at_960": 0.6334050616866976,
+    "query_to_template": [
+      [
+        1.8319624421488638,
+        0.14926876773591174,
+        -366.14794400599493
+      ],
+      [
+        0.0016732929805853987,
+        2.603296277572316,
+        -541.8012487968368
+      ],
+      [
+        1.0831971567721217e-05,
+        0.0013464857008732038,
+        0.9999999999999999
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_46|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_46|KiaSportage_55": {
+    "accepted": true,
+    "matches": 220,
+    "inliers": 179,
+    "coverage": 0.20449449131604525,
+    "rms_pixels_at_960": 0.8465933293063325,
+    "query_to_template": [
+      [
+        0.9085203671017923,
+        0.001518895077840205,
+        100.01408251011455
+      ],
+      [
+        0.006748783948611543,
+        0.808381581348388,
+        125.32078446823677
+      ],
+      [
+        -6.800790779628096e-06,
+        -0.00016543519895322324,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_46|KiaSportage_65": {
+    "accepted": true,
+    "matches": 79,
+    "inliers": 61,
+    "coverage": 0.0960065921688935,
+    "rms_pixels_at_960": 0.7719462243978263,
+    "query_to_template": [
+      [
+        0.6110879737737852,
+        -0.12699206538355573,
+        19.550271456055984
+      ],
+      [
+        0.006040416949801896,
+        0.21069881396935225,
+        214.80520397042972
+      ],
+      [
+        -1.4240525086393684e-06,
+        -0.0007160589358419924,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_46|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_46|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_46|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_46|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 9
+  },
+  "KiaSportage_46|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_46|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_46|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_46|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_46|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_46|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_46|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_46|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_46|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_46|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_46|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_46|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_46|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_46|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_46|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_46|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_46|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_46|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_46|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_46|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_46|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_46|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_46|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_46|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_46|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_46|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_46|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 9
+  },
+  "KiaSportage_46|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_46|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_48|KiaSportage_44": {
+    "accepted": true,
+    "matches": 403,
+    "inliers": 370,
+    "coverage": 0.2893817812253056,
+    "rms_pixels_at_960": 0.7264015239061846,
+    "query_to_template": [
+      [
+        1.0626710262597803,
+        0.03969635082876649,
+        -335.73341286822347
+      ],
+      [
+        0.011663873182641064,
+        1.0247485423565252,
+        10.738024535286243
+      ],
+      [
+        3.415482638339786e-05,
+        -5.96742258695582e-06,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_48|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_48|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_48|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_48|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_48|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_48|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_48|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_48|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_48|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_48|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_48|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_48|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_48|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_48|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_48|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_48|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_48|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_48|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_48|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_48|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_48|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_48|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_48|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_51|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_51|KiaSportage_31": {
+    "accepted": false,
+    "matches": 16,
+    "inliers": 12,
+    "coverage": 0.03995923091846191,
+    "rms_pixels_at_960": 0.7744547928713957,
+    "query_to_template": [
+      [
+        -2.8036681434588235,
+        0.001144250905747892,
+        623.0119339132342
+      ],
+      [
+        -0.12114925954966099,
+        -6.301795085761779,
+        2341.4102682193347
+      ],
+      [
+        -0.00014182275856410966,
+        -0.005911395398671006,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_51|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_51|KiaSportage_55": {
+    "accepted": true,
+    "matches": 57,
+    "inliers": 44,
+    "coverage": 0.03522110700238011,
+    "rms_pixels_at_960": 0.7086352511255574,
+    "query_to_template": [
+      [
+        1.5649846120098896,
+        -0.11960881802037572,
+        142.08165611784108
+      ],
+      [
+        0.013618011113880802,
+        2.339504225226436,
+        -181.98684147683045
+      ],
+      [
+        -2.968199889490293e-05,
+        0.001333266777142707,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_51|KiaSportage_65": {
+    "accepted": true,
+    "matches": 341,
+    "inliers": 309,
+    "coverage": 0.3023331482316134,
+    "rms_pixels_at_960": 0.7296751220381091,
+    "query_to_template": [
+      [
+        0.949505095782612,
+        -0.20269950761810343,
+        -24.756764475653803
+      ],
+      [
+        0.02329574925684402,
+        0.8819403683191196,
+        37.46756040908088
+      ],
+      [
+        8.207822866247374e-06,
+        -0.00011886755972635382,
+        0.9999999999999999
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_51|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_51|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_51|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_51|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_51|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_51|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_51|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_51|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_51|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_51|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_51|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_51|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_51|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_51|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_51|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_51|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_51|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_51|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_51|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_51|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_51|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_51|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_51|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_51|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_51|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_51|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_51|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_51|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_51|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_51|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_51|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_51|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_51|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_53|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_53|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_53|KiaSportage_44": {
+    "accepted": true,
+    "matches": 27,
+    "inliers": 20,
+    "coverage": 0.056667079488899035,
+    "rms_pixels_at_960": 0.7247341539830144,
+    "query_to_template": [
+      [
+        5.733700954424588,
+        3.621651155138145,
+        -3439.6114791084897
+      ],
+      [
+        -0.04996716060275233,
+        9.862799949837758,
+        -2591.0414803272342
+      ],
+      [
+        2.6771295919334963e-05,
+        0.008017203614125614,
+        0.9999999999999999
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_53|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_53|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_53|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_53|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_53|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_53|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_53|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_53|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_53|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_53|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_53|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_53|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_53|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_53|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_53|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_53|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_53|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_53|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_53|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_53|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_53|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_53|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_53|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_53|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_53|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_53|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_53|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_53|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_53|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_53|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_53|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_53|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_53|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_53|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_53|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_58|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_58|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_58|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 14
+  },
+  "KiaSportage_58|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_58|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_58|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_58|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_58|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_58|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_58|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_58|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_58|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_58|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_58|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_58|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_58|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_58|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_58|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_58|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_58|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_58|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_58|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_58|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_58|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_58|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_58|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_58|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_58|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_58|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_58|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_58|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_58|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_58|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_58|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_58|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_58|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_58|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_58|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_61|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_61|KiaSportage_31": {
+    "accepted": true,
+    "matches": 51,
+    "inliers": 47,
+    "coverage": 0.03508683226509882,
+    "rms_pixels_at_960": 0.5244660458051535,
+    "query_to_template": [
+      [
+        2.4146525995583135,
+        0.2893893900166216,
+        -512.1426222436511
+      ],
+      [
+        -0.0515549038722978,
+        3.6254174419775214,
+        -979.7163985722053
+      ],
+      [
+        1.1397182239794842e-05,
+        0.0022948885683606573,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_61|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_61|KiaSportage_55": {
+    "accepted": true,
+    "matches": 389,
+    "inliers": 378,
+    "coverage": 0.366764507555872,
+    "rms_pixels_at_960": 0.5881922317420838,
+    "query_to_template": [
+      [
+        0.9784118973514976,
+        0.013605957777430575,
+        117.17950359743767
+      ],
+      [
+        -0.0008697802895228758,
+        0.9870106612079566,
+        15.173145039333846
+      ],
+      [
+        -1.0645953034462419e-05,
+        -1.9801559398251e-06,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_61|KiaSportage_65": {
+    "accepted": true,
+    "matches": 68,
+    "inliers": 51,
+    "coverage": 0.07335214801770717,
+    "rms_pixels_at_960": 0.8757887128301962,
+    "query_to_template": [
+      [
+        0.6406010852748925,
+        -0.12914092508429756,
+        26.453659274028045
+      ],
+      [
+        0.000555693407624179,
+        0.32572169610235574,
+        129.22200778897758
+      ],
+      [
+        -2.242763742919614e-06,
+        -0.0006531391010726616,
+        0.9999999999999999
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_61|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_61|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_61|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_61|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_61|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_61|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_61|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_61|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_61|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_61|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_61|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_61|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_61|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_61|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_61|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_61|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_61|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_61|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_61|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_61|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_61|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_61|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_61|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_61|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_61|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_61|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_61|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_61|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_61|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_61|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_61|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_61|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_61|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_63|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_63|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_63|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 11
+  },
+  "KiaSportage_63|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_63|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_63|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_63|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_63|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_63|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_63|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 11
+  },
+  "KiaSportage_63|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_63|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_63|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_63|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_63|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_63|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_63|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 9
+  },
+  "KiaSportage_63|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_63|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_63|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_63|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_63|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_63|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 9
+  },
+  "KiaSportage_63|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_63|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_63|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_63|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_63|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_63|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 9
+  },
+  "KiaSportage_63|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_63|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_63|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_63|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_63|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_63|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_63|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_63|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_63|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_68|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_68|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_68|KiaSportage_44": {
+    "accepted": false,
+    "matches": 17,
+    "inliers": 11,
+    "coverage": 0.01002720801033185,
+    "rms_pixels_at_960": 0.41249874971325634,
+    "query_to_template": [
+      [
+        -14.936121793621277,
+        -6.276053883588875,
+        9420.59002790506
+      ],
+      [
+        -1.3390899250307686,
+        -26.119895781328264,
+        9274.680411201216
+      ],
+      [
+        -0.0024387266532706793,
+        -0.0227598953525396,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_68|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_68|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_68|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_68|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_68|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_68|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_68|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_68|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_68|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_68|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_68|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_68|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_68|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_68|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_68|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_68|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_68|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_68|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_68|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_68|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_68|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_68|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_68|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_68|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_68|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_68|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_68|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_68|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_68|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_68|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_68|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_68|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_68|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_68|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_68|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_69|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_69|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_69|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 14
+  },
+  "KiaSportage_69|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_69|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_69|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_69|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_69|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_69|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_69|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_69|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_69|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_69|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_69|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_69|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_69|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_69|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_69|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_69|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_69|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_69|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_69|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_69|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_69|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_69|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_69|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_69|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_69|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_69|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_69|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_69|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_69|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_69|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_69|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_69|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_69|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_69|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_69|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_72|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_72|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_72|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_72|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_72|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_72|KiaSportage_77": {
+    "accepted": true,
+    "matches": 58,
+    "inliers": 49,
+    "coverage": 0.0729650075049688,
+    "rms_pixels_at_960": 0.7086087375401818,
+    "query_to_template": [
+      [
+        0.6750439426102408,
+        -0.04836438309915167,
+        -104.53950713463203
+      ],
+      [
+        0.0012583726338184443,
+        0.37026867070499847,
+        120.75643380510508
+      ],
+      [
+        1.2033471552433265e-05,
+        -0.0005826471542562777,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_72|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_72|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_72|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_72|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_72|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_72|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_72|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_72|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 8
+  },
+  "KiaSportage_72|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_72|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_72|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_72|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_72|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_72|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_72|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_72|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_72|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_72|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_72|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_72|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_72|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_72|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_72|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_72|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 8
+  },
+  "KiaSportage_72|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_72|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_72|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_72|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_72|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_72|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_72|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_72|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_74|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_74|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_74|KiaSportage_44": {
+    "accepted": false,
+    "matches": 73,
+    "inliers": 39,
+    "coverage": 0.13885692008264514,
+    "rms_pixels_at_960": 0.8412112695637247,
+    "query_to_template": [
+      [
+        0.8833043512822467,
+        0.2069209514898103,
+        -423.43480402258524
+      ],
+      [
+        0.020637455426410597,
+        0.6979471430886499,
+        26.701747833490526
+      ],
+      [
+        4.7700015439371014e-05,
+        -0.00032998480572513723,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_74|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_74|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_74|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_74|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_74|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_74|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_74|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_74|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_74|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_74|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_74|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "foreground_homography_failed"
+  },
+  "KiaSportage_74|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_74|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_74|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_74|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_74|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_74|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_74|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_74|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_74|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_74|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_74|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_74|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_74|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_74|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_74|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_74|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_74|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_74|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_74|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_74|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_74|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_74|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_74|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_74|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_78|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_78|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_78|KiaSportage_44": {
+    "accepted": false,
+    "matches": 15,
+    "inliers": 9,
+    "coverage": 0.07359134133950804,
+    "rms_pixels_at_960": 0.7143025838633477,
+    "query_to_template": [
+      [
+        0.6397927313559162,
+        0.044503481791102785,
+        -210.70833806255922
+      ],
+      [
+        0.026023251893475367,
+        0.26881218943086355,
+        142.50358612565321
+      ],
+      [
+        3.583790474352172e-05,
+        -0.0007074798992922188,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_78|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_78|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_78|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_78|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_78|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_78|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_78|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_78|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_78|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_78|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_78|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_78|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_78|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_78|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_78|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_78|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_78|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 10
+  },
+  "KiaSportage_78|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_78|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_78|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_78|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_78|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_78|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_78|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_78|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_78|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_78|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_78|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_78|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_78|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_78|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_78|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_78|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_78|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_78|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_80|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_80|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_80|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_80|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_80|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_80|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_80|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_80|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_80|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_80|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_80|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_80|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_80|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_80|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_80|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_80|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_80|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_80|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_80|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_80|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_80|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_80|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_80|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_80|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_80|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_80|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_80|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_80|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_80|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_80|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_80|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_80|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_80|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_80|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_80|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_80|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_80|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_80|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_83|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_83|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_83|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_83|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_83|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_83|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_83|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_83|KiaSportage_96": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_83|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_83|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 10
+  },
+  "KiaSportage_83|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_83|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_83|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_83|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_83|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_83|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_83|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_83|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_83|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_83|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_83|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_83|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_83|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_83|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_83|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_83|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_83|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_83|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_83|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 9
+  },
+  "KiaSportage_83|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_83|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_83|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_83|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_83|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_83|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_83|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_83|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_83|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_86|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_86|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_86|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_86|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_86|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_86|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_86|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_86|KiaSportage_96": {
+    "accepted": true,
+    "matches": 427,
+    "inliers": 423,
+    "coverage": 0.3982212436622163,
+    "rms_pixels_at_960": 0.42483029817185514,
+    "query_to_template": [
+      [
+        1.0017524432556277,
+        0.0006572936016723881,
+        -9.663241205711511
+      ],
+      [
+        -0.0021316321939046797,
+        1.0008362407941294,
+        -1.0188506393133774
+      ],
+      [
+        1.1632324948929433e-06,
+        -1.7100444673932134e-06,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_86|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_86|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_86|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_86|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_86|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_86|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_86|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_86|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_86|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_86|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_86|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_86|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_86|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_86|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_86|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_86|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_86|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_86|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_86|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_86|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_86|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_86|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_86|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_86|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_86|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_86|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_86|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_86|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_86|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_86|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_89|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_89|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_89|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_89|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_89|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_89|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_89|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_89|KiaSportage_96": {
+    "accepted": true,
+    "matches": 415,
+    "inliers": 409,
+    "coverage": 0.3880316446546346,
+    "rms_pixels_at_960": 0.4189813858845892,
+    "query_to_template": [
+      [
+        1.0008306520606187,
+        -0.002475031739108314,
+        -7.67117052887977
+      ],
+      [
+        -0.00027996705994044096,
+        1.0002248965531255,
+        -10.610961573163435
+      ],
+      [
+        9.192033614754349e-07,
+        -2.163568418351809e-06,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_89|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_89|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_89|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_89|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_89|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_89|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_89|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_89|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_89|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_89|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_89|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_89|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_89|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_89|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_89|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_89|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_89|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_89|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_89|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_89|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_89|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_89|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_89|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_89|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_89|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_89|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_89|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_89|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_89|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_89|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_91|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_91|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_91|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_91|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_91|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_91|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_91|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_91|KiaSportage_96": {
+    "accepted": true,
+    "matches": 387,
+    "inliers": 379,
+    "coverage": 0.39340205334500516,
+    "rms_pixels_at_960": 0.4429718577669715,
+    "query_to_template": [
+      [
+        1.0017392527696614,
+        0.0004290656023315948,
+        -12.051380533706766
+      ],
+      [
+        -0.002069030737810331,
+        1.0015283909880393,
+        -1.8748896753401587
+      ],
+      [
+        1.1537865887871474e-06,
+        -1.804528071813348e-06,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_91|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_91|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_91|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_91|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_91|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_91|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_91|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_91|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_91|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_91|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_91|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_91|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_91|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_91|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_91|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_91|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_91|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_91|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_91|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_91|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_91|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_91|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_91|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_91|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_91|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_91|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_91|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_91|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_91|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_91|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_93|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_93|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_93|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_93|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_93|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_93|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_93|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_93|KiaSportage_96": {
+    "accepted": true,
+    "matches": 419,
+    "inliers": 414,
+    "coverage": 0.40384872868093113,
+    "rms_pixels_at_960": 0.4115620312321001,
+    "query_to_template": [
+      [
+        1.0011303324286114,
+        0.0013438386984570205,
+        -2.7077659958327676
+      ],
+      [
+        -0.0005442130789986027,
+        1.001662829905394,
+        -0.22197100702987083
+      ],
+      [
+        2.664271352945034e-07,
+        8.195733559040815e-07,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_93|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_93|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_93|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_93|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_93|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_93|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_93|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_93|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_93|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 6
+  },
+  "KiaSportage_93|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_93|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_93|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_93|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_93|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_93|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_93|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_93|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_93|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_93|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_93|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_93|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_93|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_93|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_93|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_93|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_93|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_93|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_93|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_93|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_93|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_98|KiaSportage_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_98|KiaSportage_31": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_98|KiaSportage_44": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_98|KiaSportage_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_98|KiaSportage_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_98|KiaSportage_77": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 5
+  },
+  "KiaSportage_98|KiaSportage_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_98|KiaSportage_96": {
+    "accepted": true,
+    "matches": 420,
+    "inliers": 417,
+    "coverage": 0.3989173665848518,
+    "rms_pixels_at_960": 0.4183736234623264,
+    "query_to_template": [
+      [
+        0.9992980413897701,
+        -0.0008819848247975538,
+        0.39896197426829166
+      ],
+      [
+        0.00015452310442607312,
+        0.9994321495958773,
+        -2.2304579199879266
+      ],
+      [
+        -2.255183187855852e-07,
+        -4.79115417334202e-07,
+        1.0
+      ]
+    ],
+    "scope": "Lower-image planar texture; this heuristic is not semantic road segmentation."
+  },
+  "KiaSportage_98|MercedesAMG550_100": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_98|MercedesAMG550_105": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_98|MercedesAMG550_30": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_98|MercedesAMG550_33": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_98|MercedesAMG550_35": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_98|MercedesAMG550_38": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_98|MercedesAMG550_40": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_98|MercedesAMG550_42": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_98|MercedesAMG550_45": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_98|MercedesAMG550_47": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_98|MercedesAMG550_50": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_98|MercedesAMG550_52": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_98|MercedesAMG550_55": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_98|MercedesAMG550_58": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_98|MercedesAMG550_60": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_98|MercedesAMG550_62": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_98|MercedesAMG550_65": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_98|MercedesAMG550_67": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 7
+  },
+  "KiaSportage_98|MercedesAMG550_70": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 2
+  },
+  "KiaSportage_98|MercedesAMG550_73": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_98|MercedesAMG550_75": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_98|MercedesAMG550_78": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_98|MercedesAMG550_80": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_98|MercedesAMG550_82": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_98|MercedesAMG550_85": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_98|MercedesAMG550_87": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 0
+  },
+  "KiaSportage_98|MercedesAMG550_90": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 3
+  },
+  "KiaSportage_98|MercedesAMG550_93": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 1
+  },
+  "KiaSportage_98|MercedesAMG550_95": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  },
+  "KiaSportage_98|MercedesAMG550_98": {
+    "accepted": false,
+    "reason": "insufficient_foreground_matches",
+    "matches": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "source_sha256": {
+    "calibrate_speed.py": "52711385c2fe4532b92791d303669175ed8d03be6a772b1d25ae25729eff93c9",
+    "benchmark_speed.py": "3bf9b959dd66a3eb1404a35f9fc5207a78760f83b8046848e987380b8752d93a",
+    "reference_calibration.py": "f8b8c2a1776de48e9e8c8f1a2a6bf34bf7b2d85799ff78621168122f1818645c",
+    "calibration_candidates.py": "9659552718b2b483560eea2b8d034bd2d1f424c2435693a717d927fbeecc7931",
+    "flow_calibration.py": "541ea419ad4a16475c7523b1bc299c25998f97c79fc52b349dd60b965ec8be24",
+    "refine_flow.py": "c0d39acca767ba5934b815a7f1d5a36ea57d64bb931c017851c84757965c8ac0",
+    "longitudinal_calibration.py": "4d8c16217ebee6999ccfe8d27d1917cf936619a190241abc34fbe04a7598a3ec",
+    "scene_registration.py": "54a175367a0bfd0a3d0c83427e60821492ed7e44c84069b8cfb4e28230e023c3",
+    "calibration_comparison.py": "6397a6acea08b5b0ae470f769d5fba7bf1ba482de6d3b101ee27ab10535d8e3f",
+    "shared_camera_calibration.py": "24145e4157dced19899068901890e19a156de7e1b465532cd6bfdd452137a4c8",
+    "vehicle_geometry_refinement.py": "120713e470d6d1aab026417450675cbcc39fff2b1a57e4273b12caf68538536a",
+    "kia_validation.py": "3f179d0b79cf756c44f9fc601eadfeb1d43862bae7a8c7e667b2b2150c576c72",
+    "render_comparison.py": "af815c8413b2e6294975f885ea762e2ff83da2f4eb4efc260e23aa7fd0764742",
+    "render_cross_vehicle.py": "043777ccb892e1615349b1e86b895d4c9dd60a4c3c534d268101536e03c596b3",
+    "publish_kia_report.py": "ab3fa4461be1b0bb571cfec43b3240df2ea95b45dac4b1f59409c8e67330ee2c",
+    "test_shared_camera_calibration.py": "b3f3c8feb3df4ca9a55df544bbf43b2201bb792366105093afe468cd0effdd7a",
+    "test_calibration_candidates.py": "77547157dc48c0b5f38ab5394152ea8f2777d7771b1a9381db583258ff449e10",
+    "lens_calibration.py": "b481e68c8a3590d5fb7f9f3e49b73b46adab7a38d928dfb484a733759bae686d"
+  }
+}

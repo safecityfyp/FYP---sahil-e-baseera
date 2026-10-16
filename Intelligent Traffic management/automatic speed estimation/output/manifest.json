@@ -41,6 +41,21 @@
       "notebook": "hayyanfaisal/fyp-calibration-refinement-report",
       "snapshot_version": 3,
       "output_pattern": "calibration_comparison/.*"
+    },
+    "kia_development_inference": {
+      "notebook": "hayyanfaisal/fyp-kia-development-calibration",
+      "snapshot_version": 1,
+      "output_pattern": "kia_measurements/.*"
+    },
+    "kia_reserved_inference": {
+      "notebook": "hayyanfaisal/fyp-kia-reserved-calibration",
+      "snapshot_version": 1,
+      "output_pattern": "kia_measurements/.*"
+    },
+    "kia_validation_report": {
+      "notebook": "hayyanfaisal/fyp-kia-calibration-validation-report",
+      "snapshot_version": 1,
+      "output_pattern": "kia_validation/.*"
     }
   },
   "source_video_included": false,
@@ -2615,6 +2630,3518 @@
       "bytes": 826824,
       "sha256": "f0d4c1b5473f3f54644646d520aaf9c4bb69fd768d78d5e79fce32a5f9db76db"
     },
+    "kia_validation/artifact_verification.json": {
+      "bytes": 11055,
+      "sha256": "d942fcbe384df5fb95a1d91f7e0fea7b0b65215d2ae93d41e0e9bfb0a2b525b4"
+    },
+    "kia_validation/before_after.jpg": {
+      "bytes": 103388,
+      "sha256": "8156811311dfbe1259f08f05279b4f2581489641f72b6ed30036adc7f5447913"
+    },
+    "kia_validation/camera_views.jpg": {
+      "bytes": 664617,
+      "sha256": "d6be1c041bd844a8af937771fe996995fd149eb9ba240d2e7d055910fbaddfb8"
+    },
+    "kia_validation/configuration.json": {
+      "bytes": 7645,
+      "sha256": "ae84dbfa7ba6936436b3aa6c94e205b8fbb8873dcd4f701a40129f5e6649deb2"
+    },
+    "kia_validation/development/foreground_scene_registrations.json": {
+      "bytes": 42528,
+      "sha256": "4a28d5fbe7403657aa66d8b862be21f843da34c052f1357253672442859563d3"
+    },
+    "kia_validation/development/global_scene_registrations.json": {
+      "bytes": 200661,
+      "sha256": "7dffabc7e62e2506572f81d8f48f6a1e0b3a5240058c60f21b11200c4c93f1b5"
+    },
+    "kia_validation/development/inference_locations.json": {
+      "bytes": 3989,
+      "sha256": "e5f7c372d1f70a0b047ac21d054af1a4e0b68382e1d8e0b1b42186003dfe6c18"
+    },
+    "kia_validation/development/metrics.json": {
+      "bytes": 4173,
+      "sha256": "4dc18c414c2aa27ca1d7c2f5aefa3c13efc9938a3d4257437f4a21f740921c63"
+    },
+    "kia_validation/development/physical_version_results.csv": {
+      "bytes": 29653,
+      "sha256": "7f4cec5eb8d222d8338ae46de367a7a461ffb5a23b7a0a9a229f2aafd0fc6fd9"
+    },
+    "kia_validation/development/physical_version_results.json": {
+      "bytes": 86715,
+      "sha256": "723cf2d0bc2ed98f46eddaf945e2815fe7e3acf4ed929e3aceb23e558fa249ed"
+    },
+    "kia_validation/development/predictions.json": {
+      "bytes": 1744993,
+      "sha256": "57e34e8ce8d4af4f410e518bac4784793d3bd59c29d9815b1d04fbfee6805c64"
+    },
+    "kia_validation/development/protocol.json": {
+      "bytes": 2268,
+      "sha256": "bcb451406691a22ea01369fbf8db5941f25c14dbc06bcf1136f5ffc7a6326a6e"
+    },
+    "kia_validation/development/results.csv": {
+      "bytes": 21072,
+      "sha256": "65ef2a01cbb2250b31ec7d9fc2100305cdae20319561a9675b066a3330c1d05c"
+    },
+    "kia_validation/development/results.json": {
+      "bytes": 50570,
+      "sha256": "eb5f415da95ccdec79375f992313736a88912523457bda41d828deab06e2abbb"
+    },
+    "kia_validation/development_initial/foreground_scene_registrations.json": {
+      "bytes": 44132,
+      "sha256": "43a9d29fde772b367eea1de7a181a9a61dc786077e86d9b0b82881c5ce291f28"
+    },
+    "kia_validation/development_initial/global_scene_registrations.json": {
+      "bytes": 210465,
+      "sha256": "38c97925f84cacebf5e01e0cd4a0582d97be275ab985e0cbbafebbd864aca6a8"
+    },
+    "kia_validation/development_initial/inference_locations.json": {
+      "bytes": 6975,
+      "sha256": "9f0c8b0de6b902372782c1da33e8ab19fc2a2e6064084286f7e2d5d35c1a015b"
+    },
+    "kia_validation/development_initial/metrics.json": {
+      "bytes": 2600,
+      "sha256": "1c8abb77eb9b517d37c0f38ca36f66c814063c993a2dfc3dde7b8afeeadb87ad"
+    },
+    "kia_validation/development_initial/physical_version_results.csv": {
+      "bytes": 24402,
+      "sha256": "ef5ec4361372257c1b594d324c539077ab1e399f2b9e1b3133fa9a385e7f9653"
+    },
+    "kia_validation/development_initial/physical_version_results.json": {
+      "bytes": 68890,
+      "sha256": "f510afb1166fae13753bf5847f0cdcc0ed08d9adc73c4beb0aca3e704468502a"
+    },
+    "kia_validation/development_initial/predictions.json": {
+      "bytes": 1329109,
+      "sha256": "0b615a88f262e7c7b1fa16943dcd78e4f98c429ccdf699f7e9c83e84bded0148"
+    },
+    "kia_validation/development_initial/protocol.json": {
+      "bytes": 2220,
+      "sha256": "ec47300ba6cc17922ec01f03b9257f510a0d6f753162fc4112b3f2a37b452c37"
+    },
+    "kia_validation/development_initial/results.csv": {
+      "bytes": 9797,
+      "sha256": "0f38a915bae17dfcbad36379e76cf487b3f9a2f40413bbc98329cb94c54b70af"
+    },
+    "kia_validation/development_initial/results.json": {
+      "bytes": 28377,
+      "sha256": "ad2fc247f8eec8a0eba6b7607895c23c8553d5f96b7d7047f1ead02ee7fb3894"
+    },
+    "kia_validation/geometry_patterns.csv": {
+      "bytes": 12391,
+      "sha256": "0f9c94b3dd08307ff9d21a4a3173ef718e38e020b7a0fc2fd6071f0e3268b4aa"
+    },
+    "kia_validation/geometry_patterns.json": {
+      "bytes": 43469,
+      "sha256": "e785526ed15aba70c1989e54813c74f29f9b8807eba81a864c9ba8e97cc16193"
+    },
+    "kia_validation/measurements/development/geometry_refinement/KiaSportage_105/predictions.json": {
+      "bytes": 20487,
+      "sha256": "644d8e314ceaf6b3a882bd4d90479963534d6c5a40fb0f89c26c65c480948c93"
+    },
+    "kia_validation/measurements/development/geometry_refinement/KiaSportage_31/predictions.json": {
+      "bytes": 89812,
+      "sha256": "a39c345c8c876f5a6f4e0fb48067c0dfd316f501d608717808518483584b6382"
+    },
+    "kia_validation/measurements/development/geometry_refinement/KiaSportage_44/predictions.json": {
+      "bytes": 46647,
+      "sha256": "3d2f1f9413177cfd682e3a407368085669ee2117c2f30c33ed7faf9acd203c1b"
+    },
+    "kia_validation/measurements/development/geometry_refinement/KiaSportage_55/predictions.json": {
+      "bytes": 63775,
+      "sha256": "e0db74705e4b555f55d68816fde14d5f5726cb6d7bf008e0669739943e270d7b"
+    },
+    "kia_validation/measurements/development/geometry_refinement/KiaSportage_65/predictions.json": {
+      "bytes": 54951,
+      "sha256": "c06b9dcc5e9267a518fcc0975452e0b1b2f465a006254141c4d98ab6c88c1cba"
+    },
+    "kia_validation/measurements/development/geometry_refinement/KiaSportage_77/predictions.json": {
+      "bytes": 46216,
+      "sha256": "a59e2e51dc9938d37109ab3c0fd2fea27512c0bb0d9d5d6dad6165336e33e31f"
+    },
+    "kia_validation/measurements/development/geometry_refinement/KiaSportage_85/predictions.json": {
+      "bytes": 40154,
+      "sha256": "3ebc5802394e4fe18f08321bc7804be2f6d4c5d407f17e402cd98c70c131fabf"
+    },
+    "kia_validation/measurements/development/geometry_refinement/KiaSportage_96/predictions.json": {
+      "bytes": 23247,
+      "sha256": "c8fced79a588c4174b9c822717af74b81e9a0389211ee694120ca17d5abc9c70"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_105/geometry_run_report.json": {
+      "bytes": 6563,
+      "sha256": "55ddc11980b88ae53882083e42b8ac8edea2c54edabe9bf0aeb1056caf745bf0"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_105/observations.json": {
+      "bytes": 13285,
+      "sha256": "bab289ed1a0b2eceddb8afc59c1c380d73bcde8e2b91722f782dd90fb3215be1"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_105/reference.jpg": {
+      "bytes": 573438,
+      "sha256": "a34fb932ed286d062aeb5e8075c0855e1d401eb66ce7448c58bab7468b7b13a3"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_105/tracks.json": {
+      "bytes": 24361,
+      "sha256": "de4b7bf90b6f11b81f9c56e38930f1ea047dbd9b5d03854ee2dda7141e97bdb1"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_31/geometry_run_report.json": {
+      "bytes": 6645,
+      "sha256": "26091cdb735c600754a15519d8eb2b31614e8aabc0d97d77579e8a78b333ce98"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_31/observations.json": {
+      "bytes": 90802,
+      "sha256": "63cd55b3c4025a54ec3dd1c2e4b03449d44e96ccb935825cdc4d0384c28a816f"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_31/reference.jpg": {
+      "bytes": 536487,
+      "sha256": "9673375e068d9a136c8892339435ed9d6b346a4581be156353c3ceb7f965a73f"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_31/tracks.json": {
+      "bytes": 71205,
+      "sha256": "89854af1d1f3a2bf36d4c00c4fe8c9194da9127a795febac28b9982aeaf48e47"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_44/geometry_run_report.json": {
+      "bytes": 6562,
+      "sha256": "900077f272fd9cf9480b5b1ef774f6f62c98531ff53870c71bc197dc6d5b235f"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_44/observations.json": {
+      "bytes": 47356,
+      "sha256": "615a62ff11c0847089a4ac3f2904072cb988f4cfbe45e8b09c8154d9d0b43a71"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_44/reference.jpg": {
+      "bytes": 531393,
+      "sha256": "83c7385ba338b46c9f183c645a05b3ec7de2cccdf3a8ab738051f43a193ce32f"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_44/tracks.json": {
+      "bytes": 26180,
+      "sha256": "9a6f7c50f8e5e9fdd2dd075b9f2ffc2fdf761141e8f357df7c9cc98c83d5df98"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_55/geometry_run_report.json": {
+      "bytes": 6586,
+      "sha256": "511658700d3c0c43d072d00e796516aa19499892ea98c79bc42215f7b5f06f03"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_55/observations.json": {
+      "bytes": 95999,
+      "sha256": "6f1580ab3d1aebe6430ecc114f34d3280c846b727480b45c15613330c6f4bb80"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_55/reference.jpg": {
+      "bytes": 641213,
+      "sha256": "ab88f61e0b64ad90d0bc8c0d27b8bcee30552d888c15f1a0a528a05f40a68994"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_55/tracks.json": {
+      "bytes": 56730,
+      "sha256": "38ffc32ef5d9cf7329eb4e8e7690c58154e6a62a31093b4bf170bcc910ab3fdb"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_65/geometry_run_report.json": {
+      "bytes": 6852,
+      "sha256": "bc1da6a4e0efa71528ebe485c6661fe270836c303cf20259be6a37ed2ecd51d4"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_65/observations.json": {
+      "bytes": 78016,
+      "sha256": "f04f3c6912f276e1649b36abc433f65fe3fda3239b5934462aa528da2eede613"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_65/reference.jpg": {
+      "bytes": 551944,
+      "sha256": "943564c24496008e85daf95d4dfbd0de1751d96889fa7c5d89a2e0a32a308bb2"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_65/tracks.json": {
+      "bytes": 32314,
+      "sha256": "8caec079c8fcab22b2a1caff5ddfdb4e7209259f2ea0420554f04573ff97ddfc"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_77/geometry_run_report.json": {
+      "bytes": 6990,
+      "sha256": "11feee415f2b0d8bec3c9386b4873731dfb44281c7c61bbe72a0b9dd9d16522e"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_77/observations.json": {
+      "bytes": 63081,
+      "sha256": "1bf8ee2b6ab59006836de99dd420a776dd666e61ec9cebe4893519361c1a4a6d"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_77/reference.jpg": {
+      "bytes": 509403,
+      "sha256": "538661531b0ea71c495f97fd23294d201e1f9debc32b766aeaf4d66104eee7d6"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_77/tracks.json": {
+      "bytes": 50212,
+      "sha256": "1da16918570e9d0b449949ad2bf7c63bdaac162d00abd301983f15cafe0369ed"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_85/geometry_run_report.json": {
+      "bytes": 6400,
+      "sha256": "987b80595f043d13258d864592dda1066dbc67d8c3af0aa6df9b2d183049221d"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_85/observations.json": {
+      "bytes": 50060,
+      "sha256": "b0fa3d06b55ce6850178d37f7d0f50a8826d5e586ffce16f0b7edf290fb70d08"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_85/reference.jpg": {
+      "bytes": 518565,
+      "sha256": "fefca03fc3c06face84e636fe15b6d021075ac8a1246695abb3f29df8617d5f4"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_85/tracks.json": {
+      "bytes": 51775,
+      "sha256": "f4b01b408bd49e313f49d01c47da5dcf30c1fc67bc3522810de606ee01c4e68d"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_96/geometry_run_report.json": {
+      "bytes": 6851,
+      "sha256": "e9b34165c9f8ee81d42f7e5ea8792216ad12bde5409772c10206f956af32fafa"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_96/observations.json": {
+      "bytes": 20438,
+      "sha256": "0c58743b484aafa65427b6a3e6e9984245eba3607d39711acc98df3aa091d67e"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_96/reference.jpg": {
+      "bytes": 608242,
+      "sha256": "7fcd5c7ec40b2e209d43ba45a1c0887b084f2609b8307cb1db5ca40df36db414"
+    },
+    "kia_validation/measurements/development/inference/KiaSportage_96/tracks.json": {
+      "bytes": 26631,
+      "sha256": "04020260bcf4434d13243c9b7a4dc66fb7cf1b330940201f9ede4357f1545869"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_105/delay_2d.json": {
+      "bytes": 3250,
+      "sha256": "606b7a24d621a33d992f2074ba36df3666f79955a34ea356b68876c8355557ed"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_105/flow_features.json": {
+      "bytes": 22941,
+      "sha256": "7a7b29644d07de043d777ea4bc56dbf6cfacc3b56a557a24300d4453d65b28d3"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_105/learned_ensemble.json": {
+      "bytes": 1096,
+      "sha256": "1bfc0e3c16fe3dfd26c8754971222b3cad17d7689bc6f684d38f5ee384bc4d6a"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_105/learned_mask.json": {
+      "bytes": 1088,
+      "sha256": "7ba3c4584d35ecd3cb5736625f9f612ce5d8d9d3acb75e854b67254e603e14ce"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_105/mask_example.jpg": {
+      "bytes": 276275,
+      "sha256": "f12fdfe766fbe03ff4d8d0c82f777e5a05ec71fcd11fc6ccc99c31612aa500d4"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_105/mask_features.json": {
+      "bytes": 7291,
+      "sha256": "01b6ed59850775f15d2cb6d43f091e87ed6c69c54d7e1c373e606c72aa5a5011"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_105/predictions.json": {
+      "bytes": 40108,
+      "sha256": "b7c92d26f24c25378c6b516242e11d3f1534188dba7c9c15a8f42f6c0031501e"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_105/rigid_bundle.json": {
+      "bytes": 1588,
+      "sha256": "a5bef48edc350218a8ab9655584c021453e6476554c29f94e6be7ad68b18e571"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_105/rigid_distortion.json": {
+      "bytes": 1646,
+      "sha256": "60334004fb137a6d6de88b86b2da6cc7ab4a94f0a81485aa9a292dc21cedc64a"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_105/run_report.json": {
+      "bytes": 208,
+      "sha256": "27d7a8db39de0b3d22c66509dca7b60f39ee8d06c7a539585d47fdeedf7ba9d1"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_105/silhouette_cuboid.json": {
+      "bytes": 10748,
+      "sha256": "e3bea0ffb3e0b3a2aff9fcec42f2870d142b1e3cc442db320546be7689836edf"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_105/silhouette_sedan.json": {
+      "bytes": 10756,
+      "sha256": "5f826f910629a384d6352ca7d59f29f254d0f7d1acedc2fcc175d7b9c1704027"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_31/delay_2d.json": {
+      "bytes": 12740,
+      "sha256": "8f78cdcd2d6554fe5b919589c1b9673b92b2620e08ef89e4694d4ca03e422fa8"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_31/flow_features.json": {
+      "bytes": 77750,
+      "sha256": "d25a84aea8aa9cccc449556835731f325aa86a52d2352e2009e2a39f9eeb59d5"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_31/learned_ensemble.json": {
+      "bytes": 1108,
+      "sha256": "c64d0d59ce65b7fa3fd254140ade8dfc2d49118f7d7562736348dcfa80e7728f"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_31/learned_mask.json": {
+      "bytes": 1098,
+      "sha256": "e74c71cd69436947ff2b14d31ee083c7e9c046f43407b144edc42e0845d8ad6e"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_31/mask_example.jpg": {
+      "bytes": 251542,
+      "sha256": "268831f54879b1194325d158750d74e42ceadec09a9c8daadfefa7df285cea88"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_31/mask_features.json": {
+      "bytes": 12342,
+      "sha256": "e0791f9d267db13a2350d0b1ccb74110cbfd5e4eed96794fe30c40e6e8705c28"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_31/predictions.json": {
+      "bytes": 71123,
+      "sha256": "2d156bc46fb0b567d1abb5e71b55c15a0bc585724beffccd08d0fc7f1d3231e4"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_31/rigid_bundle.json": {
+      "bytes": 1766,
+      "sha256": "777315d88b9c3cec23a3ed65a56ac9c196ccfa6cd7f74089e822b73e3b9231cc"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_31/rigid_distortion.json": {
+      "bytes": 1818,
+      "sha256": "2fa19d17854b87cd9b727c06c2ec9d7ebc157d02573908ebc9a8d5f1bfacbe58"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_31/run_report.json": {
+      "bytes": 207,
+      "sha256": "93f5a1e1e69225a4052e34b4f03b7e3358d375954bdf30d74450ae6b6b3a6b28"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_31/silhouette_cuboid.json": {
+      "bytes": 16138,
+      "sha256": "5c121bcd5040196328728ae90efd8657990ee5676c0f82943e2cead621b4ba0e"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_31/silhouette_sedan.json": {
+      "bytes": 16151,
+      "sha256": "b12b0cbe4da3ae6754bbcd43af1ab07f150ca03b544249228edb0d9c3a57f46b"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_44/delay_2d.json": {
+      "bytes": 7661,
+      "sha256": "c282f7c6cf1f1ec8608f1c976505e1bf4413e62e0f7b08f87363509ca84bd255"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_44/flow_features.json": {
+      "bytes": 54152,
+      "sha256": "f53a2ae6efe7da4adbcc5bcb46443ea44214a82dca9e26b6cd0fdc4b749843d5"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_44/learned_ensemble.json": {
+      "bytes": 1112,
+      "sha256": "8119f539307d286522cbec710b3f13661c8b22d19fd1a06514794ce193c30d80"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_44/learned_mask.json": {
+      "bytes": 1101,
+      "sha256": "6a159cf03cd2fef7efce22fc4cf1a3cd24bbc37746457f5a7b94414b006dbae8"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_44/mask_example.jpg": {
+      "bytes": 248850,
+      "sha256": "3faf9f0b42a96d00f0f8cc504bf5b8e8c1f2d7c4133cd58660722bf19691ce0b"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_44/mask_features.json": {
+      "bytes": 12391,
+      "sha256": "ff73eaef5d285c2f0ac657d888355a098f5f23d0772e8ceab21963665ff0ce85"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_44/predictions.json": {
+      "bytes": 61617,
+      "sha256": "f2e450ca7847a4475299e619fc7324ea8559c4570dfb218cb57f808be75add41"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_44/rigid_bundle.json": {
+      "bytes": 1701,
+      "sha256": "d523be921a68462b72ee3b8be6b18e5fbee7c7587235de3495c545d00b5ff0e8"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_44/rigid_distortion.json": {
+      "bytes": 1759,
+      "sha256": "8d07294f73f48c799a6bacd8ff7448ab727454db3a161d5b3e4c6870cfb4e27b"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_44/run_report.json": {
+      "bytes": 206,
+      "sha256": "3d5e2f2030459fdfce805d8c6bda2ac2a9f899ad926f80536dae6ae6a9d83107"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_44/silhouette_cuboid.json": {
+      "bytes": 16138,
+      "sha256": "e8e96e372378a91edfacc748d78881044b4243dd1c26a6e0357299065291d40f"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_44/silhouette_sedan.json": {
+      "bytes": 16118,
+      "sha256": "a325994abffc4760de30e70144bd70a92a5be53ab0a5e19bcf6760496ff3a015"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_55/delay_2d.json": {
+      "bytes": 8385,
+      "sha256": "64064418696472cca9617a603565bbedd91b3c51283fe76766b5d5db7f3abaf8"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_55/flow_features.json": {
+      "bytes": 44455,
+      "sha256": "0c4248fadd0a87363ac604cd6bf66309ba628422cbf630fbddffa2f620a1c58a"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_55/learned_ensemble.json": {
+      "bytes": 1115,
+      "sha256": "50bd8f54db757f5bec25c1e5d511ca4b9c109a59b7574111c2dbbf5df3529e77"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_55/learned_mask.json": {
+      "bytes": 1105,
+      "sha256": "68f4022e22ad458ca21f2382c3648c493600aec843032781937c85143fe835e3"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_55/mask_example.jpg": {
+      "bytes": 302621,
+      "sha256": "198697cd7fd1c2ddbad863fd160790aa4d29552a9714ca0558e6b4e11055b420"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_55/mask_features.json": {
+      "bytes": 12408,
+      "sha256": "d8712c3d75ba5edee093de26c16c8cd066ab471235278308f6a07a3059082561"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_55/predictions.json": {
+      "bytes": 61099,
+      "sha256": "92704da03c006090d1334a85090aaebf8dca765bf5ca85d0befc3ae290d3261b"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_55/rigid_bundle.json": {
+      "bytes": 1583,
+      "sha256": "a8e4c88325104444ee82f1f23cda8fa9e42ac60ac7e02e5a2043bc91012667cc"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_55/rigid_distortion.json": {
+      "bytes": 1636,
+      "sha256": "32543914b9cfa7da7ad151d3b0e3189b0cf8ce6d5d47f3c7a93d739ac2bab072"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_55/run_report.json": {
+      "bytes": 206,
+      "sha256": "5a9d398920ec798cb438429317b14dbd36f3be426b0fc6f73d64bb33c6dcf297"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_55/silhouette_cuboid.json": {
+      "bytes": 16388,
+      "sha256": "ee887af0d1c06d723952b90628964dc3ad43a0b5a50c1ab318f85106013fbfc2"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_55/silhouette_sedan.json": {
+      "bytes": 16376,
+      "sha256": "715e8aab3a52cb551d6da0c1db52ac6dc79c4dba7d458e5db7fe5e39daa97de8"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_65/delay_2d.json": {
+      "bytes": 7433,
+      "sha256": "fda9fd20fe1c697fc3ced963642b3cfbd984f00f16f6d7c755ce10d7dd7c256e"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_65/flow_features.json": {
+      "bytes": 36838,
+      "sha256": "e106967972f8a9b7e3e8ad011fac2f79c3720fc10df06b810bb83474ab302561"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_65/learned_ensemble.json": {
+      "bytes": 1108,
+      "sha256": "b7d829afd094ed551cff47b789f8b75379fa8598db74bc8f61cf679a6eeadbf4"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_65/learned_mask.json": {
+      "bytes": 1100,
+      "sha256": "5ecdeecb48070116011419a3fe3ef0b82f6e5eef1e6ed8b2db4a0fa652c1b412"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_65/mask_example.jpg": {
+      "bytes": 260841,
+      "sha256": "f4e8ea496c1e5d30ec30a1224b811df5d534e981c1fccef9272ba9a58d611b51"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_65/mask_features.json": {
+      "bytes": 12425,
+      "sha256": "efd4765218fe8cd21c2325f1c26990b774e7dcd75181753868f63f9c438c2767"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_65/predictions.json": {
+      "bytes": 58646,
+      "sha256": "f09e5e501d56e30a7ccc9fff5467a999414458cc2d0e89fd5e8e1d904be4724d"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_65/rigid_bundle.json": {
+      "bytes": 1637,
+      "sha256": "37e2f24d3b2f99ae7e3b8206201597be417a96925edffa3aa05afe0c01ad60b4"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_65/rigid_distortion.json": {
+      "bytes": 1694,
+      "sha256": "a7e0549f9de7ccdf25147943b790275436ee27d56bfda2c059d1733c5f5ab5c2"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_65/run_report.json": {
+      "bytes": 207,
+      "sha256": "67f3398391a873f669d9cf4f1136ab81300b159d7dc0ccb147e5cb88bb3b41cc"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_65/silhouette_cuboid.json": {
+      "bytes": 16254,
+      "sha256": "0bf1466421994a5f70d6c3c88f5023ce1a4024c18995cdb9938d8b9013375f82"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_65/silhouette_sedan.json": {
+      "bytes": 16229,
+      "sha256": "c7a04b147113ac2dde299790ec3dbd5e2d7e7ceac3d0670df719fd73dfa1ca74"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_77/delay_2d.json": {
+      "bytes": 5968,
+      "sha256": "79f66dbdfda20d35efe1094d75d191715445e976da3dce53f9db0a75f4cf5c16"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_77/flow_features.json": {
+      "bytes": 31242,
+      "sha256": "307a59b72a3ecd0ca9ce533abc312df08f4d156341f4a0aedcbb757a84497336"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_77/learned_ensemble.json": {
+      "bytes": 1109,
+      "sha256": "7dd24f6c05090bbe739e7ab4216d62729818f3184a8dad060c647a75d50c06d4"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_77/learned_mask.json": {
+      "bytes": 1098,
+      "sha256": "f9ea543e0a805845d7be252f7b63c805fcf9fc40b1af2275fd9c25ae76f0176f"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_77/mask_example.jpg": {
+      "bytes": 238971,
+      "sha256": "7d76ae7c28269c9a1904385fc17bc7228f4d01bb2f1717c87ccfc0bd79d10e8b"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_77/mask_features.json": {
+      "bytes": 12392,
+      "sha256": "19063db4f211bf449d52bc39f60bcd77b6a13478578ba70474092533c0d8e446"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_77/predictions.json": {
+      "bytes": 52690,
+      "sha256": "4a93e24fad53b6827d7ff9289cee424167dcf38ce6a1ba827df93d03138ebe3b"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_77/rigid_bundle.json": {
+      "bytes": 1705,
+      "sha256": "e48ae54dff1b5893de8efe8bbe8d1d13064de132a6f66f480a47e2fffafc7df8"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_77/rigid_distortion.json": {
+      "bytes": 1758,
+      "sha256": "233fd3dfb0417c9158ab98607c112acdb5cae7fb28a5286dd3095e4d781a07c4"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_77/run_report.json": {
+      "bytes": 207,
+      "sha256": "cc046f6b400e17b1f8a2119badd749d5ba500106a63f96276bc9d7a4e0a43e22"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_77/silhouette_cuboid.json": {
+      "bytes": 14505,
+      "sha256": "a23990c68cbfac7dc6d174cff6f080c8e60b37ef7a6d1d51a8b18eb6967da7ef"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_77/silhouette_sedan.json": {
+      "bytes": 14506,
+      "sha256": "912b27d2b7e101e8d72d8f6610b00f853861f96cdc1af54a63df0d68ed404408"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_85/delay_2d.json": {
+      "bytes": 5560,
+      "sha256": "06a06389b6001c569ab7f8e250f187ea1a19045424a3bf10e6efed5a3d4c1b94"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_85/flow_features.json": {
+      "bytes": 27788,
+      "sha256": "8b33b61a111c5fcc54cecfe076d3f5b377bfb2e3b8db51e87cd29ecf178afaa5"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_85/learned_ensemble.json": {
+      "bytes": 1041,
+      "sha256": "e6a54dae3164a120841af96bd0b25dbb5f04af0f7524e011ae0d63fdf4a0ad24"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_85/learned_mask.json": {
+      "bytes": 1029,
+      "sha256": "119acaa81af7ede14e59f74a3c5b300ec706be7e66559df66829b14fe0714aac"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_85/mask_example.jpg": {
+      "bytes": 244612,
+      "sha256": "171bd7c1e825adb7f280935706fce677e8561835c1447822c8ac3585f0987321"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_85/mask_features.json": {
+      "bytes": 12397,
+      "sha256": "ce9ae8e07a9b0cd054d7b2a4c7c5f581165353cc269e94ce8d52dff27593d447"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_85/predictions.json": {
+      "bytes": 49136,
+      "sha256": "cb8bdae75f98986138929fda9ea5d3abd310acf2f4ee71efdfe3be358b99b1ca"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_85/rigid_bundle.json": {
+      "bytes": 1706,
+      "sha256": "98049f45848dfb3540886cc2dd416faa1fcfc45f851b15799673f22f51a05c4f"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_85/rigid_distortion.json": {
+      "bytes": 1753,
+      "sha256": "93eddc2b42fa317b9e1803f12e6207979deef715ece14ccddb9aadf36bdfa693"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_85/run_report.json": {
+      "bytes": 207,
+      "sha256": "515c94b6d6e9c8981d24cd70e27553f380014906d311a53f28962e60e761fe06"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_85/silhouette_cuboid.json": {
+      "bytes": 13267,
+      "sha256": "8da5a1e63e4ef6f86eef6a29d8820e20d9bbc36fc1a68dc1c6e8eb79cfb75a91"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_85/silhouette_sedan.json": {
+      "bytes": 13267,
+      "sha256": "52c917e1097f563dd033c77a48081e51488ca2154486e8b59f3a0b65b05d63d9"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_96/delay_2d.json": {
+      "bytes": 3605,
+      "sha256": "07594b4770c1e0f215eb88875987a26e29cd63ccbbb341f9e8f70b87347ae6db"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_96/flow_features.json": {
+      "bytes": 25006,
+      "sha256": "9fe28340d29620cf0756ea4a40f5d557fb9c428c59aea03ec0d53812abec8ea2"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_96/learned_ensemble.json": {
+      "bytes": 1049,
+      "sha256": "e1d12dd221f14384f31e2af8ee04220302ff1915b245102d074ac08c1a35e5a1"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_96/learned_mask.json": {
+      "bytes": 1039,
+      "sha256": "a3e3f2ebab15b1463e24c13ea749973556437f5055f400f0135c1f6229923356"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_96/mask_example.jpg": {
+      "bytes": 284227,
+      "sha256": "732afa1dc90005fb93a651630027bf9f1663214b59874cb8f7b3bf5d184a85a0"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_96/mask_features.json": {
+      "bytes": 8817,
+      "sha256": "50a0f7b34b69c71a2ce70f069c8edc734afd953ccad30492cbf533f85be49bb4"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_96/predictions.json": {
+      "bytes": 43200,
+      "sha256": "c35ef8f466a320d0930d39f8526599c437e24d122139ffbee0125a2e4cedebc8"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_96/rigid_bundle.json": {
+      "bytes": 1521,
+      "sha256": "7bdc88c53e8ec6f543231477851bd99c601d061cb8d4ead55aeb03c365ece577"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_96/rigid_distortion.json": {
+      "bytes": 1578,
+      "sha256": "d3659df50aee6cb4418bf890e7bd6e82aa1398cabb6dc94784de5a20fc3e65df"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_96/run_report.json": {
+      "bytes": 207,
+      "sha256": "cf205c748b1e3536b64de5e7223774f7cf91666867e12d31d48fc21a72198090"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_96/silhouette_cuboid.json": {
+      "bytes": 12068,
+      "sha256": "403a934ecd0d4d89c52e95b6bc6ddeb70ab0ec3662a5ce05aa2295ad244873d4"
+    },
+    "kia_validation/measurements/development/round1/KiaSportage_96/silhouette_sedan.json": {
+      "bytes": 12060,
+      "sha256": "318584d49980ff78d247fcd45e08464d4896519296d9ecbd4f8be78c9b4be4d8"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_105/adaptive_flow_features.json": {
+      "bytes": 254111,
+      "sha256": "3cdec4d6c61ab25d188ee3b2b973436548a332e286bc93757f45aa56904dfcda"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_105/predictions.json": {
+      "bytes": 34670,
+      "sha256": "57780cb3b12961c8ebce2ea5d0cfe802116bd8215102f17609f5704e14016e15"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_105/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "37db966e731ebb97f3a0b91b4f4897fdb3c42309eca55c54ad381d46e54a093e"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_31/adaptive_flow_features.json": {
+      "bytes": 1289891,
+      "sha256": "97b734a1713cb117b62210c336e2343c5dc968c2c5549f9c22fb241ff1a1a5cb"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_31/predictions.json": {
+      "bytes": 136801,
+      "sha256": "8c93496ca3d5add5981ba81304458bfb36edb0e284f1e6e65abd54acaf195825"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_31/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "7b0f7acb6fef71db4d9ee19a2bbb8e7053f20e87235445793d1c336758b26c8e"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_44/adaptive_flow_features.json": {
+      "bytes": 767577,
+      "sha256": "dc6965b8f71bfdeb7c1881ae7821c6e352db0cf1caf8b131f22890abdc553318"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_44/predictions.json": {
+      "bytes": 81714,
+      "sha256": "a046e4e887b95318ecdc29d34db91890e461265b8d73a28f0a733fd48d46fb77"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_44/vanishing_points.json": {
+      "bytes": 553,
+      "sha256": "779c965c7640258ab408b779334c9989069af58ac827a906ea0de83952fb7d08"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_55/adaptive_flow_features.json": {
+      "bytes": 756500,
+      "sha256": "f6767c301733a524b2a1df429e36627c715430ce506de0cc129bc5151b76e02c"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_55/predictions.json": {
+      "bytes": 80190,
+      "sha256": "2ffdcf64664ca0b607edf12e9387821a3c47a7369491e52aca753eb3884770ba"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_55/vanishing_points.json": {
+      "bytes": 554,
+      "sha256": "cff1e32040f15e4cda6137f0a07aeae5a55987f90f56e1d8f7f3f546a022e9ae"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_65/adaptive_flow_features.json": {
+      "bytes": 595592,
+      "sha256": "6969467276334f0c1041a01779009d05e24301cca4dbbd2e72c21a533c16cee0"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_65/predictions.json": {
+      "bytes": 77403,
+      "sha256": "241de3c14e02da554b45802fdea52fe9211cba2fdddf3483e3336872dc967a7c"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_65/vanishing_points.json": {
+      "bytes": 552,
+      "sha256": "744be104ce92729ffc0106a1057f8549758164d5c56fccfb9048522c1b12783d"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_77/adaptive_flow_features.json": {
+      "bytes": 459187,
+      "sha256": "18dad158d6d855aa81fac1afe53d8c4a6c501c184f239b33d19b30e1ab98a631"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_77/predictions.json": {
+      "bytes": 62138,
+      "sha256": "4cf0b4c2889000045cbd797e0d145c74ca8a061f251d7d258a1c07a24e66303a"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_77/vanishing_points.json": {
+      "bytes": 555,
+      "sha256": "580d1b5ebc51137c05a3238256a9ac166b1f6f42358e79af22b73761a569bd97"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_85/adaptive_flow_features.json": {
+      "bytes": 425598,
+      "sha256": "9c5615f0c7b4c47b110d902f0d0854fdebac5a694b508092d38fd4aa9e43e361"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_85/predictions.json": {
+      "bytes": 57500,
+      "sha256": "bc3babfd1c7cc27685bccb676d145d99964e2618123482266e732643a13b99dd"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_85/vanishing_points.json": {
+      "bytes": 556,
+      "sha256": "85bdfbe7058b4f3c7ed14f424f0521267e290bd51dd5fffc71467462a41ec746"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_96/adaptive_flow_features.json": {
+      "bytes": 326271,
+      "sha256": "62aa260364ffba535ee4e3af0b84f955020116068f92e324e47a02bdfed08dae"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_96/predictions.json": {
+      "bytes": 32195,
+      "sha256": "89167cea342c71f8412868df71a592447d39d779b6a038ae3b1aa5ef22a1c1ff"
+    },
+    "kia_validation/measurements/development/round2/KiaSportage_96/vanishing_points.json": {
+      "bytes": 556,
+      "sha256": "62ff00b86fab61394f261cd1b72b1d5973486544e11617d8d22465007aa1ac2e"
+    },
+    "kia_validation/measurements/development/run_report.json": {
+      "bytes": 1355,
+      "sha256": "2a289ce99df90cc225e6db3944c8a03fdc02158f5c251f52bbed9ab54d995389"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_100/predictions.json": {
+      "bytes": 21669,
+      "sha256": "58618e58f25153f465346b69a9f890a6e3faa21d3d8b42dd0d643668bee3f38f"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_103/predictions.json": {
+      "bytes": 20495,
+      "sha256": "d89838622966b143e851cf1f455ab25185b124bb9cf3a3d9f61f7410721bd8b6"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_33/predictions.json": {
+      "bytes": 72610,
+      "sha256": "5ae18e646615e2a80d8b9afc077e02349e8c7c75727bc42b6dca33aad2c867ee"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_35/predictions.json": {
+      "bytes": 67071,
+      "sha256": "a26f87f5223037c034d563f75487ee6ee47c34ea6862bd1ee874176cbdf4eb38"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_38/predictions.json": {
+      "bytes": 66707,
+      "sha256": "4fc806d3482ac63bf243773f2f74c1492e735d6ccebc0ca1a0161b9cef4d06fa"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_41/predictions.json": {
+      "bytes": 73821,
+      "sha256": "da3f21b2cd0c6681b1f13fc63d0e57bceeb395a2cc5bf361a2d8dde4a0be216c"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_46/predictions.json": {
+      "bytes": 67455,
+      "sha256": "11b7d59b23fd5fc0eb1f56bae940c86a1d903a0592f295dc36f7a59786105b10"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_48/predictions.json": {
+      "bytes": 47568,
+      "sha256": "75feed6e71557a45a7644fc6b6dedcc6d5b885f584df8b6157bd04ca46d91cf3"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_51/predictions.json": {
+      "bytes": 64034,
+      "sha256": "258f512049b6d9100821fd6cd4a21fa833fc171cec1ac3ae3d8cffe0a3938268"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_53/predictions.json": {
+      "bytes": 44240,
+      "sha256": "70b9bc18f27e5f341d2bdaca90a6484f752ee8be78ed0045c553aebbe65c4a0d"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_58/predictions.json": {
+      "bytes": 48960,
+      "sha256": "d49624f0c4136a6040076132cedd81b588ae503ace127504bf733980a6ee2a5f"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_61/predictions.json": {
+      "bytes": 55037,
+      "sha256": "b0b57088e687ed731d795d9eb24fdc34795ee9df41ed36a750447d5cc00a2ccd"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_63/predictions.json": {
+      "bytes": 38864,
+      "sha256": "77167f35b17e9a629c5e273db69664637ea70241c4fdbce64a292d70e84db2b8"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_68/predictions.json": {
+      "bytes": 41858,
+      "sha256": "481ce28ce9e64d8781dbfecef951572429a1de60701c638b798974d518b72232"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_69/predictions.json": {
+      "bytes": 36177,
+      "sha256": "a833e84ccdedd256b59310dc985cf8c1beb816901701abc89da127b4c6da0cd9"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_72/predictions.json": {
+      "bytes": 49795,
+      "sha256": "2b3fd57aea806ebf39ae952342569d03e17953576d049eb0a97740639c4931d9"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_74/predictions.json": {
+      "bytes": 32140,
+      "sha256": "cdb9403b51019d44ab7934e3a9ec42dfe2ccc8d40d1bb30175ec5d7aca5f7dbb"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_78/predictions.json": {
+      "bytes": 31383,
+      "sha256": "66698b74579bbecb6b26b588151e76d2a6155f16216ba1ec7312c29740204608"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_80/predictions.json": {
+      "bytes": 43546,
+      "sha256": "86578fa066e9f15f20e448797885bd5d9a39d8ca8bf824c4663999118d4d9257"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_83/predictions.json": {
+      "bytes": 30698,
+      "sha256": "033bfaff3a8a612e199e5ba8b98bb574482ec1ba30cde8294d7d6bde87984cb5"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_86/predictions.json": {
+      "bytes": 25069,
+      "sha256": "b79dd1de36763d74d3150a0858a282c39bed005ea66e1072dbb47d77d975656e"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_89/predictions.json": {
+      "bytes": 23967,
+      "sha256": "53bcf5d423290efdadf5882124bc0000a7cbd8b0157ea93dd6c2fd08fd3177ff"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_91/predictions.json": {
+      "bytes": 24460,
+      "sha256": "1788ae40ba24f3635154c826b42b241b6e77f9479c8fa4add051cee0c31f4140"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_93/predictions.json": {
+      "bytes": 23809,
+      "sha256": "de2f991561f55c050c30840b08b84447b3d25d6cc399b65654bc83ead2668a1b"
+    },
+    "kia_validation/measurements/reserved/geometry_refinement/KiaSportage_98/predictions.json": {
+      "bytes": 21415,
+      "sha256": "13c57f92e56540be3000aa2574046c21aabea2dc9b196b52d5b816b6a1611dd3"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_100/geometry_run_report.json": {
+      "bytes": 6928,
+      "sha256": "6fef36630ba6a219b6191b651bc921af8a18b2b3adc124598817470d1bbf5b44"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_100/observations.json": {
+      "bytes": 12595,
+      "sha256": "e00758186b3d9ce1373431a9e9b0e66fc7a1c50b770f76673be13a4b9a2be9c4"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_100/reference.jpg": {
+      "bytes": 620621,
+      "sha256": "8f14f914c63245801568b806db4e9e6b329d80cac0e809cf5ebc6e2be16f0971"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_100/tracks.json": {
+      "bytes": 23923,
+      "sha256": "b98cd4e84e932c035f5b741bf74a72d7bc00602d4d42a643ff664eb89e234c2d"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_103/geometry_run_report.json": {
+      "bytes": 6645,
+      "sha256": "fa134de531dfe78f3ed41cb7f061d38bfc59a4a8eeb09472014d2b0f4497e361"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_103/observations.json": {
+      "bytes": 16862,
+      "sha256": "b05cd63bbbd51312d168d5d79f6774d068623a6f8ed0f4c6264dcf279efd72d7"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_103/reference.jpg": {
+      "bytes": 574550,
+      "sha256": "89f8eb0ac6fbcb7e74e199a3fb52de2eba86f6c37ff72b81486243f86710f718"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_103/tracks.json": {
+      "bytes": 24525,
+      "sha256": "ae261967dbeefd5be0f5e38d53adf8399e0456b4e9035a247ba1f7704518e136"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_33/geometry_run_report.json": {
+      "bytes": 6870,
+      "sha256": "e1e19d930d93f9f69291785781ee1221640f72e2fa26ec1808ccc335059566bc"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_33/observations.json": {
+      "bytes": 71890,
+      "sha256": "cd57d3db966e228578ef32311b8762b566463bda08de399857c9aadf03120b9c"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_33/reference.jpg": {
+      "bytes": 535578,
+      "sha256": "320c7901cf4c17b71434238c5a517e6b1981e6af642e4376da025fef86477f90"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_33/tracks.json": {
+      "bytes": 29097,
+      "sha256": "8e75c2a18b6cfa69865a1e0bd5529cf46603d3b12833448e17c69008585db1c2"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_35/geometry_run_report.json": {
+      "bytes": 6620,
+      "sha256": "71fd9aa10983f530aee01f644c855e1d76c39f0595d0f5c115ed30f6ea9908df"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_35/observations.json": {
+      "bytes": 66729,
+      "sha256": "0c8253aadeee94ac4b4a3830ab16f8ec0328ab58c0fdbc7fc6b8432769b7dbc8"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_35/reference.jpg": {
+      "bytes": 544874,
+      "sha256": "df5ec57acbb91880c17613c7fa4aaccd2f93d584b6fe368b42df37b005f75fcb"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_35/tracks.json": {
+      "bytes": 39346,
+      "sha256": "645d5f8b078dfd13bf9df67a13b98cea993a5dbb5a17b9876b8f15a17f3fcbad"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_38/geometry_run_report.json": {
+      "bytes": 6742,
+      "sha256": "20dc847baa121fc1902bc8cb3b3817a9ab83bcccde2e9be23570a4579af87b75"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_38/observations.json": {
+      "bytes": 66773,
+      "sha256": "16e62c5e52b74d045d68e826b691d2b6ca19355f2ce4a4e5cd534bef125847a7"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_38/reference.jpg": {
+      "bytes": 536504,
+      "sha256": "8552ee28bbff6c6d596745be498e6f17f54953a35c762d70b249d806e51126f5"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_38/tracks.json": {
+      "bytes": 28142,
+      "sha256": "2c13c43e77d5c01c22957e404e63a1cd472a797623e0b7ccbe7eeccb6dd1188b"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_41/geometry_run_report.json": {
+      "bytes": 6928,
+      "sha256": "b36a91871f91769caae61106a25f79b4c3098458ce1ae16ffca42aa9a3abc403"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_41/observations.json": {
+      "bytes": 90350,
+      "sha256": "b79be020ca3adff26bb1770ee9bf2495564e1f0829268039de72c564d1655dec"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_41/reference.jpg": {
+      "bytes": 540580,
+      "sha256": "f32814a9e3cde3a27c8cc5085b221bd70c0ee4a1997aae024476ef042ca27b43"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_41/tracks.json": {
+      "bytes": 52489,
+      "sha256": "d9c50971fe8a313a68b26957110dd87c31a08fe7fe2963668bade4a116f83aa5"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_46/geometry_run_report.json": {
+      "bytes": 6621,
+      "sha256": "133601e83ff9f53b8fbf237ff3a3599a195157036a2ea4834cf8cb2690159861"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_46/observations.json": {
+      "bytes": 78819,
+      "sha256": "3d958d73d2de070fa10a7d661f5573d9fc62b73c9e23f4973e29da25d85dea22"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_46/reference.jpg": {
+      "bytes": 559918,
+      "sha256": "e8db936b1673314aab642ecea927d48a65198438dfcb8f96dd0f115a7557b806"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_46/tracks.json": {
+      "bytes": 49215,
+      "sha256": "9bf0b3b021e567fb203714def2abcc06b690666414ea50119e9460c667460566"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_48/geometry_run_report.json": {
+      "bytes": 6643,
+      "sha256": "2f0a149dc3cd3b0766a225defba42c227960417566d1ca1c908d74f1dafa288a"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_48/observations.json": {
+      "bytes": 43303,
+      "sha256": "7061c0c7b1862b310632b35b3fe18956f9ba1d060dfcbbc6814fb09c1c07d842"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_48/reference.jpg": {
+      "bytes": 527333,
+      "sha256": "b0f54e347f91526553414aa5f2b61320ce34feaa6812cd89b7b3b2cbf20aa2b1"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_48/tracks.json": {
+      "bytes": 26099,
+      "sha256": "0f49ef7539d62abd07ddbedd7aa31d1bb1da3a2514ba1fe69c55b676165729d1"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_51/geometry_run_report.json": {
+      "bytes": 6829,
+      "sha256": "f071566c65f328b13918eb1dc4fba8535b656fc1bd0c9f14e91ff285e58f83f6"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_51/observations.json": {
+      "bytes": 98297,
+      "sha256": "b290bb0e1d8d3d0dd2783f6a9f25f1487a1ebd63a358f86633eae0929c664fc3"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_51/reference.jpg": {
+      "bytes": 547510,
+      "sha256": "37c119ba4914ca548c6816fa3f4064438bdea4673036d7796a99d533148bb950"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_51/tracks.json": {
+      "bytes": 86618,
+      "sha256": "4c022a0dcd776c20d50383c8e73b0b880d8786bb84c238980cb79a8479e8fe50"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_53/geometry_run_report.json": {
+      "bytes": 6747,
+      "sha256": "403fa98f068b63499cfaa9b36a12ba73a3dd892466e9b76c3a60ad3cd3b11632"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_53/observations.json": {
+      "bytes": 36984,
+      "sha256": "a4720a44bc3a97f02d40f84396c4284a4f509d84c3c0be64520e7657b583b183"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_53/reference.jpg": {
+      "bytes": 566623,
+      "sha256": "8690e3c1937be58ed47a504bc41a0dadc2b5082b282bd1f5d1fb3beb9b2466c5"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_53/tracks.json": {
+      "bytes": 27164,
+      "sha256": "da4a4956a56b6dec9c3959884476a8ab0953da35200aff07d632ae7834db4b71"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_58/geometry_run_report.json": {
+      "bytes": 6955,
+      "sha256": "1e7896e2dc19e2dfe8e081cb4fa5ba4b584db7d9cbaa352ce7007cdd43054033"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_58/observations.json": {
+      "bytes": 42837,
+      "sha256": "c2c25ba71dee8c12239ca5fbc722022af1f139bd561f4dcf9e9bc2f15d6a71cc"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_58/reference.jpg": {
+      "bytes": 623975,
+      "sha256": "201dd56a12140ead9a22221792ce5c69145324f7f56290f6b7f67a15c0e87ddf"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_58/tracks.json": {
+      "bytes": 28410,
+      "sha256": "86c6a8c30dec0eff2673448de7a518fbeddf2389f22f373f20c5c1eb23ee2772"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_61/geometry_run_report.json": {
+      "bytes": 6684,
+      "sha256": "054d6baaf7d21c413e5908922e5f94fb2cb8bc21fb5537e096ec36df3ded10c3"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_61/observations.json": {
+      "bytes": 82009,
+      "sha256": "6a5f571fca7060115434b013eb0a4e0bfd90aba72bb0abaeb0f3ad1a498c664f"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_61/reference.jpg": {
+      "bytes": 590363,
+      "sha256": "8eaa9cb383a07dbb80799d5c9f04f10b7eaa8b4d6256f56b22d2bec3ea92479b"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_61/tracks.json": {
+      "bytes": 114015,
+      "sha256": "38c788c8a77546d4ef6cabc37f3dbf30e8b509427b1a95e2b59355209efb2c26"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_63/geometry_run_report.json": {
+      "bytes": 6988,
+      "sha256": "3b3d487b6148f15cc21076b4bd898edc36986df934bd36831f21f4deecc21fc1"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_63/observations.json": {
+      "bytes": 35073,
+      "sha256": "2b126b06d665bbe5b6cbb1f87ff26e8090d77ca5e1a65670e96002a7e85d8594"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_63/reference.jpg": {
+      "bytes": 652962,
+      "sha256": "15427c4110dfde7ce8f4a57cc65a2f0ee6badd890f8d8854cc25a71ca46aa120"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_63/tracks.json": {
+      "bytes": 29015,
+      "sha256": "8b3f1db7e2d43832e3e8f4a6b52b1dd70836af22852e30822990d4f08e520c2c"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_68/geometry_run_report.json": {
+      "bytes": 6621,
+      "sha256": "f1e539186804d29bcde5d3b0ded1fc754d5c92ab2aebb1b16c0b8de81f495e26"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_68/observations.json": {
+      "bytes": 33064,
+      "sha256": "98167d17810ef8d6b83b8a9e52ad5ad178f06014386a87e515df43eb834c9778"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_68/reference.jpg": {
+      "bytes": 592800,
+      "sha256": "12c50e7ad7736235eebb9e4f676d0a47026374770d5000febf2763bc11388df0"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_68/tracks.json": {
+      "bytes": 25401,
+      "sha256": "3f100cd6d1e83ee3384458e421a0b08af7dc7b860e11f695e2927ff2e2de7502"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_69/geometry_run_report.json": {
+      "bytes": 6897,
+      "sha256": "75cfa407416b219a5f8d4cc9ecb080bd940f10c3cdfe6251acd43b049db5d969"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_69/observations.json": {
+      "bytes": 31440,
+      "sha256": "a882854f6eaf9acd449704116d00a9dd2a29034270323a805f56193f0a5db764"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_69/reference.jpg": {
+      "bytes": 598656,
+      "sha256": "e88950b7ddfa3bb9b31bcf72bb2f9b8e8e76e2389fa092284362ee330f066514"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_69/tracks.json": {
+      "bytes": 27672,
+      "sha256": "2553f4a081c2599e3df0f8bbda298b8e3174b428765b738a5b181e5964c692fb"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_72/geometry_run_report.json": {
+      "bytes": 6586,
+      "sha256": "c1c9954f5b23ec08ed8cab56ec70aae9a08e0442ea51701e9fd92aac48d407ee"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_72/observations.json": {
+      "bytes": 73886,
+      "sha256": "2629a4d07e06fc93c30949bbf48929b7007bdae8d424348f1c30cf6c6391ee95"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_72/reference.jpg": {
+      "bytes": 575860,
+      "sha256": "df0dd5ed8d50b60ce3d9994ace915046a5648df502fbfe34cd92d5924c9072df"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_72/tracks.json": {
+      "bytes": 69554,
+      "sha256": "42c6337a3d9b5ea996f9f540e0a44fd9518e608bb0edb9bae103150c866d0cb0"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_74/geometry_run_report.json": {
+      "bytes": 6852,
+      "sha256": "842f37420a993c37025314f32b4cee9355fd7ba78955bb64904f623a16872314"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_74/observations.json": {
+      "bytes": 24738,
+      "sha256": "f352443b8a19783d21941246d81c8e7cde0475dc789c60301cb03e1bf67020b7"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_74/reference.jpg": {
+      "bytes": 535448,
+      "sha256": "eac8852a3645c72e2c7c852c1afc2b377257ce6560593390ad09d336e447a9b5"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_74/tracks.json": {
+      "bytes": 27181,
+      "sha256": "4be7a350ee639dcca72afa052301f6701a9cf94cefbe012f29d745a1694c85da"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_78/geometry_run_report.json": {
+      "bytes": 6932,
+      "sha256": "7ff475912e659ea925d98b107a04064e9f1279963b9c3c57f12a9074ce506581"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_78/observations.json": {
+      "bytes": 22481,
+      "sha256": "ad0c4fa07fdac1667e947e151d738ae81646ec0454b9927e9e42cb3f7afd5cb2"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_78/reference.jpg": {
+      "bytes": 536696,
+      "sha256": "2ac2a26c2d3e3102bcd1e582a190528fcd1def977bbd121e9fd3abd23b33b764"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_78/tracks.json": {
+      "bytes": 27886,
+      "sha256": "1e8af3aa4099ddec4f4689d0aabb4ee668826c8ac746eb4c613f54dea7e540ef"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_80/geometry_run_report.json": {
+      "bytes": 6504,
+      "sha256": "4da5a95d14fbff782e00ecad40c3c5e6776c531c557176a36e8806c08b1422cc"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_80/observations.json": {
+      "bytes": 45728,
+      "sha256": "a088ac9a3de5fbafb92495483dd4a5ba9b0e08b0adabf84181d359a12db3d10f"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_80/reference.jpg": {
+      "bytes": 553460,
+      "sha256": "92a23e3dffe70e3529d4ea5f87283617c8d04de70f139414a802b56b20919e1e"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_80/tracks.json": {
+      "bytes": 62288,
+      "sha256": "eb71ec1573376373d24ed543fdbaf85dc8ab34dcb260abff839f3d36d905fd19"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_83/geometry_run_report.json": {
+      "bytes": 6621,
+      "sha256": "4e289f2ff71725d5f98abcb252635dec76eca1a94ed06fc475122efb6187abb1"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_83/observations.json": {
+      "bytes": 34526,
+      "sha256": "b08a79214e8ac71adb41fa241026eccd2d42ce93b75729c70af97ccba881dd79"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_83/reference.jpg": {
+      "bytes": 479874,
+      "sha256": "2702938baf37ba4b82b397e5bbaee3849e0b28994fe2408a0bc3398b8d00dda5"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_83/tracks.json": {
+      "bytes": 24881,
+      "sha256": "addffbee938155e534a49531858c2dc384fe7f6f1380c657fb2020bbff06e937"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_86/geometry_run_report.json": {
+      "bytes": 6827,
+      "sha256": "4ab03a496e0dc01be9cd3d74309625a970cf3a85e525f3c3cda35c739b506877"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_86/observations.json": {
+      "bytes": 17533,
+      "sha256": "036ded075ea637cc582b77ca10ca1db3346f15933f05df9addd8bce9aada6cdb"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_86/reference.jpg": {
+      "bytes": 610397,
+      "sha256": "9d81e5f23ac2981f6e36b687dc763a81bc4c641aa1f081e74a36c9f4fe39a4ee"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_86/tracks.json": {
+      "bytes": 26474,
+      "sha256": "4c6bef561f74c9960728b7e158592a6c26ec3d1e78ceb84f70385a8ce4625c49"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_89/geometry_run_report.json": {
+      "bytes": 6989,
+      "sha256": "d4fc2226b59469a5ab211f5f8020e4af090243f790daf8b9c3e5391545d728d8"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_89/observations.json": {
+      "bytes": 16183,
+      "sha256": "58c22a7c0f145ed5bc1acbd9722614edb82ae4c708aee2737b3845fe859e9793"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_89/reference.jpg": {
+      "bytes": 609326,
+      "sha256": "3706dc93d865defd47320174f47f331ea1cb2254f8af0dbc900851754fd43730"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_89/tracks.json": {
+      "bytes": 28350,
+      "sha256": "0f06333e04ae80e011890187eb1ed2fd15ec8b383277e1cd675ace25d3c09284"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_91/geometry_run_report.json": {
+      "bytes": 6747,
+      "sha256": "6d641f11128f6ea128922252bf87166b0cd2e214554052e96b141d1d12f3bc52"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_91/observations.json": {
+      "bytes": 16877,
+      "sha256": "8fc238fff7c66b168206b27db23fcfb5f038055bff20d6eb734303a734a31114"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_91/reference.jpg": {
+      "bytes": 604337,
+      "sha256": "08c0431a114b1e7fd719ec943f9f2d33655aa8a3a3ace37743cd5adc2da03cc6"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_91/tracks.json": {
+      "bytes": 25911,
+      "sha256": "bc6af192b0ca14710efddd5b56b226ef1131e659429458932242f7528c36e244"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_93/geometry_run_report.json": {
+      "bytes": 6933,
+      "sha256": "527d3e13111805387b137d008f2125551de9ed6a60683972658956cf916471c9"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_93/observations.json": {
+      "bytes": 19699,
+      "sha256": "7057d95a3c91afcb1124d57c81cc03b9ae7cf09c3756e6751b5d407bd36bfc8f"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_93/reference.jpg": {
+      "bytes": 605205,
+      "sha256": "56414e14d4af5149960153b08971cdd3b1d3c8c11e396a0ecc0dee305136caaa"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_93/tracks.json": {
+      "bytes": 27799,
+      "sha256": "90b60e15a9cc12475d4c0f3c6ad7bf691a83bd753b3c1fd123054a7597919662"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_98/geometry_run_report.json": {
+      "bytes": 6435,
+      "sha256": "dc04a2066e41a08ea695c7872a7b1c9a8b630841ab0367b2921cf946551b36b6"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_98/observations.json": {
+      "bytes": 15518,
+      "sha256": "b842afc6ae8311546f63fbebe218258efad64e50c90257d09dc67c85666dd13d"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_98/reference.jpg": {
+      "bytes": 626688,
+      "sha256": "31bf8e037b7ad00c2f1201594f605a2f6290aa40dab512557a2d22c544795e44"
+    },
+    "kia_validation/measurements/reserved/inference/KiaSportage_98/tracks.json": {
+      "bytes": 22840,
+      "sha256": "ae5b1d367e79afc668c711a6475986d01139c373b5a4fc418e2fa04c6a76aeda"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_100/delay_2d.json": {
+      "bytes": 3488,
+      "sha256": "6f6457d6d8db0e769be6cf775c92d56e880b4ef37a1dd2a22b4dc7266348f8eb"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_100/flow_features.json": {
+      "bytes": 24301,
+      "sha256": "e83fd43481da1819f03403f0f5583785f9082a42847cd0a28347d1c56e8d30b3"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_100/learned_ensemble.json": {
+      "bytes": 1034,
+      "sha256": "6dedc10b0941cf5ef617e5264b49a5b189a53aef0da9f1292e110af4d778326b"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_100/learned_mask.json": {
+      "bytes": 1026,
+      "sha256": "63510db0f0a70f58eb3398f9e182a16f3836b44c6d7055878c8c7e0d5ab7e88a"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_100/mask_example.jpg": {
+      "bytes": 290299,
+      "sha256": "248ce17216980bd033ca2d32a024885300e272b64d9c3acb9b7430907cad34cd"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_100/mask_features.json": {
+      "bytes": 7764,
+      "sha256": "eaf8df1b063a4f4c993111dc574ad165dbb8738d8bfd57e546eb1f659767e43a"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_100/predictions.json": {
+      "bytes": 42129,
+      "sha256": "cbf4e8fd606add80fb5e6bd504576cf784f80ab32ad621aa9cf8fa263a69e1d8"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_100/rigid_bundle.json": {
+      "bytes": 1693,
+      "sha256": "30a2563dd087d706de9f80b70500bf21c0af7cc679437395623ab81df4c90718"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_100/rigid_distortion.json": {
+      "bytes": 1749,
+      "sha256": "3fb3dacfacba8fbe3118debc239d384d595dfa1f80a44cd62f0dfaf50b35a326"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_100/run_report.json": {
+      "bytes": 208,
+      "sha256": "5f75741f6011ce11562e5085eeaaaaef2c3931ce2e5a889edee0db7416c90d11"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_100/silhouette_cuboid.json": {
+      "bytes": 11594,
+      "sha256": "429bab217bc4394d149d5fc70d8d42f47690a18f679f024cbab6ed943535fac0"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_100/silhouette_sedan.json": {
+      "bytes": 11603,
+      "sha256": "c3cfe5d5a091267072797d10485eca259e0e4d008c5993ca49c16c5f218ef322"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_103/delay_2d.json": {
+      "bytes": 3188,
+      "sha256": "a27854aa8e1a6f9e03843d3d13ff766e041985d4e36f2318adfc7d64070e2469"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_103/flow_features.json": {
+      "bytes": 23631,
+      "sha256": "65f4ff193be7045a509504a5d7e19c30fa1542bffc44def8b7b642592924da59"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_103/learned_ensemble.json": {
+      "bytes": 991,
+      "sha256": "886d442421e28ce1a42e403b83558052b8750c621fbf888f85204f6c0ad152fc"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_103/learned_mask.json": {
+      "bytes": 980,
+      "sha256": "9b3f026a07bd166112e1873cf9611a88cf31b70eafe5a36b11c3786c767886e6"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_103/mask_example.jpg": {
+      "bytes": 272546,
+      "sha256": "0a9d6045252507a6cab382f442f8ed29546af7cb4dafc6cbec17d170045ac21c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_103/mask_features.json": {
+      "bytes": 7807,
+      "sha256": "ba072d87c4fb44a9c22edf65d809174963f10341616f024ca63563024a53b7ad"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_103/predictions.json": {
+      "bytes": 40330,
+      "sha256": "2a4ad881f2cb497aa061816008c2b3dccb1ad31511940d3221ebbf6e38c1fe8c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_103/rigid_bundle.json": {
+      "bytes": 1520,
+      "sha256": "f476e2935fcaab2f022c84baefd474b6c99f88fe1636e7f0529315b5281a333e"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_103/rigid_distortion.json": {
+      "bytes": 1578,
+      "sha256": "a2980a12cb66980fffbf4e6a124701f098bfd657cdecc89850a75d99685392d3"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_103/run_report.json": {
+      "bytes": 208,
+      "sha256": "206cb083da3bca0816eb81b93e37f1058b91ff6d8f455c489f3462bf1df79fbc"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_103/silhouette_cuboid.json": {
+      "bytes": 11251,
+      "sha256": "6672df364acb80e5ce26c42d62e603cfbd8f9af2db2ec1fbfcdef3c059c0e351"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_103/silhouette_sedan.json": {
+      "bytes": 11248,
+      "sha256": "59f3e2193f71fab6c43e90a491752de8ef3bab38b0f6be5ad818ac747af16239"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_33/delay_2d.json": {
+      "bytes": 11923,
+      "sha256": "67906177b2afe51df2e4015df0cd213b4b32ac17d6622d06fad6bab98792b68f"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_33/flow_features.json": {
+      "bytes": 75683,
+      "sha256": "cb2dcfdee6e8336951ad06eb208d3e104729cb36ae57774fac9d3d263e6b47ec"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_33/learned_ensemble.json": {
+      "bytes": 1178,
+      "sha256": "d339eb68d21a73b640a406d4edc1fecdf640a4706fec12ac3667ae4ec8e4d048"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_33/learned_mask.json": {
+      "bytes": 1165,
+      "sha256": "baf608dfc4bd66cd7895117acc69494ef171dc7d91309345f7cb3ecb76d492db"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_33/mask_example.jpg": {
+      "bytes": 250586,
+      "sha256": "3397c4acdd5b1b977185041496b5b91eda2763c75a3389ff6b5ca3f5e2fdb3cc"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_33/mask_features.json": {
+      "bytes": 12351,
+      "sha256": "b6aace6c7e0f30833aaf89980e76192febed2b987a5c49208607f113154fc492"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_33/predictions.json": {
+      "bytes": 70674,
+      "sha256": "6289ed42118c0bb4aa7978b0c9acef4373c2b10ca69231b8915473aa4561806c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_33/rigid_bundle.json": {
+      "bytes": 1825,
+      "sha256": "f13aea90868c9ec151fd459b363dabdeff2bf6fa9758e29987a876c241f4bdc8"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_33/rigid_distortion.json": {
+      "bytes": 1881,
+      "sha256": "6b96a8c229323ff241f22457946931c00ad7e3522fd7f2cf737123ad3832c6d2"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_33/run_report.json": {
+      "bytes": 207,
+      "sha256": "febda9fdd613dfb17e3652b35c22d66fa29d2e0c251865fc52e538ca360c1a3b"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_33/silhouette_cuboid.json": {
+      "bytes": 16354,
+      "sha256": "a0ba11e1b9177daf598e6bc9713b069efd369676b561c5c702319dc91e53f347"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_33/silhouette_sedan.json": {
+      "bytes": 16334,
+      "sha256": "6bb9b41b93a66e1a339d654900553b0df1adab3940231260452188934fa0912d"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_35/delay_2d.json": {
+      "bytes": 10899,
+      "sha256": "9fe832cbfd5c80d94634bcea640a12f91470146867c7ee2ba388a0f1c8251305"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_35/flow_features.json": {
+      "bytes": 68755,
+      "sha256": "f790695b39b2b991ff189c9100a15127ec3d9dcc0eb6b5befff1f0f261bc5c39"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_35/learned_ensemble.json": {
+      "bytes": 1174,
+      "sha256": "c4e02fd0f66ce855ea7b965260115647150302f5d9cde7c56e37703c936d0ea5"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_35/learned_mask.json": {
+      "bytes": 1163,
+      "sha256": "f4c89935af22a5b9b42b395cfbf2aeaaa7c4d1117f243af9d144e23218fc417d"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_35/mask_example.jpg": {
+      "bytes": 256603,
+      "sha256": "fbb9ced58601892dda78adfe8fe3ea0488f9806cec96f4003f5b0c6e38362970"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_35/mask_features.json": {
+      "bytes": 12420,
+      "sha256": "0cab5fcacc0ff211aaee83b1e32b5e5a376153e6ce51f0692c1a58cc59b3884e"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_35/predictions.json": {
+      "bytes": 67278,
+      "sha256": "4c9a9b13b6935dbb252288e9c331ce40f563315e6008939707635353ee01b1de"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_35/rigid_bundle.json": {
+      "bytes": 1514,
+      "sha256": "b20c56dbb840afeeec572c711f680f1a0aaf83fad7443a2624b51eabc10e592f"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_35/rigid_distortion.json": {
+      "bytes": 1572,
+      "sha256": "1358c636fb1670360addc053bd1b0084a5204a95fc4720f6d5ad0f08edc7fcea"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_35/run_report.json": {
+      "bytes": 207,
+      "sha256": "29d2481008adae1c8e7decb9c17c2698564724b4745e168bb1ff8f66cce43d38"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_35/silhouette_cuboid.json": {
+      "bytes": 16180,
+      "sha256": "9c46d4c4024671a611c0c2f90ef341dc95e6bcbbc940e0642908a2008cff5936"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_35/silhouette_sedan.json": {
+      "bytes": 16175,
+      "sha256": "efad949d48253e3f1c684825fabd00ca5eb661e2f44c675f99b3cdc9da3b9040"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_38/delay_2d.json": {
+      "bytes": 10814,
+      "sha256": "c30605f5ecd4a8213cf1520fa64d5bf62a6c1258dda39bbb3c725b8c79d542a9"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_38/flow_features.json": {
+      "bytes": 67394,
+      "sha256": "eecefbec37931bd1d250527885de1e93d971ef35420bf7a657ddefc77dbec584"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_38/learned_ensemble.json": {
+      "bytes": 1221,
+      "sha256": "fe4424a6e64883533bee9e8568de496ab8a4ba5329f18dbf52e3e22b8df60fac"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_38/learned_mask.json": {
+      "bytes": 1210,
+      "sha256": "4f538a0335c4cb73e471569293f17d2b7d75316cd45b7388f8a3727ed525825f"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_38/mask_example.jpg": {
+      "bytes": 250623,
+      "sha256": "b16caeaccc437ca5ab1e7d682c66f2d660d37498fe6de74d36ad14b2d63182ee"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_38/mask_features.json": {
+      "bytes": 12369,
+      "sha256": "5c9013dc3af049c3f1abefd635dec50d304dba8fb53849450c2c15528dd60984"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_38/predictions.json": {
+      "bytes": 67927,
+      "sha256": "521ebece3f56b8a32ef57dd841cdbd4a19a03d8e8363a3fc5507af8a50b8f121"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_38/rigid_bundle.json": {
+      "bytes": 1638,
+      "sha256": "7dd48779dad784386369766fb4f13328d9c498c3bf8d53dcb8131b9490265e14"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_38/rigid_distortion.json": {
+      "bytes": 1692,
+      "sha256": "2f2f14838fea855a1d409f51de1748b3f73ed27a6be5ddfd9512cfe9a31bcf4a"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_38/run_report.json": {
+      "bytes": 207,
+      "sha256": "4ff37a111697ace58e667367395eb31b4bb312bd575d8d9817cf6ff8cac493de"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_38/silhouette_cuboid.json": {
+      "bytes": 16459,
+      "sha256": "39f7523909841b80d68a6ee50bd3f4c8c2cd024edd1af9fadb063964954de1d4"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_38/silhouette_sedan.json": {
+      "bytes": 16440,
+      "sha256": "1c5c61d51a8844e8073690fa9384454f0a8a2edb4d705547202b56f9bdada158"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_41/delay_2d.json": {
+      "bytes": 10506,
+      "sha256": "c2986fc29fa3a35147ec075b2f2c4dfde5896f6cbacb9763fb832f3f1e4493ef"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_41/flow_features.json": {
+      "bytes": 58260,
+      "sha256": "3330df827a00fed54f174681636a2d4381fc81c142ba0298d7c1462ecda70c73"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_41/learned_ensemble.json": {
+      "bytes": 1226,
+      "sha256": "c291a3415342bc74fd4e8f172825601dbcf5ca5fff3da827f83c32610bdf6e30"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_41/learned_mask.json": {
+      "bytes": 1218,
+      "sha256": "19d9cef317c392bdab5645d74d32a362a05e531e88943ff1ef79914ad8f15b98"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_41/mask_example.jpg": {
+      "bytes": 249927,
+      "sha256": "d4b8d6754de50de36184aff976ecd187f8365c617e99a3e02ae407f392e0e3a6"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_41/mask_features.json": {
+      "bytes": 12366,
+      "sha256": "bdfbe28d5fd241d6343df4c6deb41c60d9d68b3c757e3b5a4d9824f676a5a250"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_41/predictions.json": {
+      "bytes": 65641,
+      "sha256": "8e34887dcb3b937aa26b5b87b108a9c9173b4777e5eb7114d662033f7a12f0bc"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_41/rigid_bundle.json": {
+      "bytes": 1643,
+      "sha256": "2326a4ad146d1b5c688555c13d04ff41cc73b006391412f48aba81d67c94c872"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_41/rigid_distortion.json": {
+      "bytes": 1696,
+      "sha256": "89945c4f4e3b3dfed39dbcc983ddba7ca07675237428934813fba83fe0e7888b"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_41/run_report.json": {
+      "bytes": 206,
+      "sha256": "191f8e546bc1df543c4a1cc145495892928d5a73a2a3d1dbb1404396cb73d9e8"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_41/silhouette_cuboid.json": {
+      "bytes": 16183,
+      "sha256": "7c524d4e049c409b16021c7aefab566286704f6d7311ef8a3d77be58bd35501b"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_41/silhouette_sedan.json": {
+      "bytes": 16173,
+      "sha256": "8c06104f394b31d95e356ac0bb61b2ccd3b5b4652d286e3e1a3ce629d2d59d31"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_46/delay_2d.json": {
+      "bytes": 9243,
+      "sha256": "4f0abe3890d253d66194159e97d82da6c46899e2883a18f33be6557dc80b2785"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_46/flow_features.json": {
+      "bytes": 52027,
+      "sha256": "52d2a8aac4c5b1d187733298d654d57c803516621d16e70f20e3688c2b0aa801"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_46/learned_ensemble.json": {
+      "bytes": 1230,
+      "sha256": "2690915f5bdbe06f76fa6b66c40dd08456d45fbd15737478e9a0b0ee8a9bd08e"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_46/learned_mask.json": {
+      "bytes": 1218,
+      "sha256": "2923a61e8d9abf9db7171e948f3d47529a31f943c743c14422676c0bb872fa45"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_46/mask_example.jpg": {
+      "bytes": 261860,
+      "sha256": "6b551b476933d649e542f578edd86219712745042a9c797b17b26e6b33992bc3"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_46/mask_features.json": {
+      "bytes": 12371,
+      "sha256": "83acff51883d9d61f83bfee2b850cceb204cbc1ad7b45b0de79bf75261a59a72"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_46/predictions.json": {
+      "bytes": 63175,
+      "sha256": "25b1fe0ba68cf78e29ce219b5221917286a99aa575c30f93bc59f23ec1686237"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_46/rigid_bundle.json": {
+      "bytes": 1521,
+      "sha256": "6e76c248701a152c676b54e4c7e5fb18554718a8302a13ba2ba66b8d59fd64eb"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_46/rigid_distortion.json": {
+      "bytes": 1574,
+      "sha256": "4a46728226bf59c344be7a31c10da87a4053924b1beab52aa2ef71ffacfc7a1f"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_46/run_report.json": {
+      "bytes": 207,
+      "sha256": "32d619628843a7b5594ed48f969f4638cdbc3d33c4c380ae9fe7bc5eb76b1728"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_46/silhouette_cuboid.json": {
+      "bytes": 16407,
+      "sha256": "6293589249cd119016cc1f4ee4140332b95c4256852afa23b6722710f99fc0c5"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_46/silhouette_sedan.json": {
+      "bytes": 16384,
+      "sha256": "6a22bf3afe16ff83413f34a11ba818c6c837a43d7f3aa1202731d990bf777d57"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_48/delay_2d.json": {
+      "bytes": 7853,
+      "sha256": "42438cb83c385370b6bc5cb604b3a0ee2cbeb6beab3cad744a2a8b3620c2cf05"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_48/flow_features.json": {
+      "bytes": 52093,
+      "sha256": "5c04ea60047ca5cec7d6131e598fd48be3441885b7c09ed0ae6c6ca5b0a192a0"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_48/learned_ensemble.json": {
+      "bytes": 1234,
+      "sha256": "6ec7b21bc226185b5999420ac04fca7f99bedeb4129f8fdcd809f1dc753db22f"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_48/learned_mask.json": {
+      "bytes": 1224,
+      "sha256": "7b4e08791886a8614032f028c41fea9a04ea46063287f1e8ad5ad44b509178c9"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_48/mask_example.jpg": {
+      "bytes": 247807,
+      "sha256": "3c5da60d4f45d855f21f706c794a9441fae5cb787fb4443a9fbef3547e4f283d"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_48/mask_features.json": {
+      "bytes": 12388,
+      "sha256": "bc63656b852db3766b8294d10af02bb0f7be9a7c1d5ccfa5616fdb12ed499b6a"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_48/predictions.json": {
+      "bytes": 62263,
+      "sha256": "9617ff3c638c36c55a20863d5d6d6a39db9abae68a9aa4c878758d07580570cf"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_48/rigid_bundle.json": {
+      "bytes": 1688,
+      "sha256": "331e0ff66a4ae990de0befbaa846a13abd303ec2253e2094e818308ce43ac4b2"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_48/rigid_distortion.json": {
+      "bytes": 1743,
+      "sha256": "652cba6052c33810894cc7631cc3109592daba8ba322fb81305c006b2b5e1364"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_48/run_report.json": {
+      "bytes": 207,
+      "sha256": "29f726a6e711801152f38aee349630419188bd4f7cc8e8f2539c5c84becd2917"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_48/silhouette_cuboid.json": {
+      "bytes": 16393,
+      "sha256": "68acfde4d12587fc0cc3d80ad91aa08218d20e019357ca1da6c8147951ee2bce"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_48/silhouette_sedan.json": {
+      "bytes": 16370,
+      "sha256": "b1e9972a50fca7e4e727954307fee75db394d254eb1c4638604b149060b4c72e"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_51/delay_2d.json": {
+      "bytes": 8769,
+      "sha256": "7245abc5410ae669521fcb07a1bb9bdbacedc8a8c4a9a9a7c39f4883ae7afd44"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_51/flow_features.json": {
+      "bytes": 47901,
+      "sha256": "dfaf8e3fbe955f1b63028ef02432241ad9d56b62071dc8935a4ef34195c48fbf"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_51/learned_ensemble.json": {
+      "bytes": 1114,
+      "sha256": "79f26b4c3817f75ad1bbb2fced3a9e2c08e98c0ef55c6020bee317d75209c517"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_51/learned_mask.json": {
+      "bytes": 1106,
+      "sha256": "75dbe12c36aaf656982f777fb84385a4e1a1229bfc417943f2cfe87e6c9c400b"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_51/mask_example.jpg": {
+      "bytes": 255714,
+      "sha256": "b0cd3427ab7921d5a10dd8c1dbcd65788ec41c22023d394027e6195153683c66"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_51/mask_features.json": {
+      "bytes": 12356,
+      "sha256": "5d98f08d031b31d9e04d8678e1412589aa35eaa277f9e2fadbe2da29f297afa5"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_51/predictions.json": {
+      "bytes": 61640,
+      "sha256": "709ecde074cf614855866085896ec4aa810cc826619228a58a86473a0922fd21"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_51/rigid_bundle.json": {
+      "bytes": 1635,
+      "sha256": "30e935250f2958b2ac656f07f8da2026c55e70afd8501e4e22d858998ced91a7"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_51/rigid_distortion.json": {
+      "bytes": 1685,
+      "sha256": "a19f71bda82f06f908587e03e8db6e6ffc6e9196dee29f4a4cebf3a10b88b633"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_51/run_report.json": {
+      "bytes": 206,
+      "sha256": "312e4dcc9d891598d9a82a722525ae5f6fbaaeb6a9c5fba20d42faeb921df5e3"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_51/silhouette_cuboid.json": {
+      "bytes": 16258,
+      "sha256": "88bb6efb093f843540469a0e7d6d26ec31baecb33d3a47458ada4fa338647a52"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_51/silhouette_sedan.json": {
+      "bytes": 16274,
+      "sha256": "6fc87db8aa495454cb8658f776688582f8165e286fcf09891507a064d50f57d8"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_53/delay_2d.json": {
+      "bytes": 7240,
+      "sha256": "e45f6187d5eb706a7f6a808cb740467b1049211417919627121329bf3265ec40"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_53/flow_features.json": {
+      "bytes": 46540,
+      "sha256": "9b685589f76f8e970515ff69711f14edf703f6da8d27c5cd10333dcacf061f25"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_53/learned_ensemble.json": {
+      "bytes": 1349,
+      "sha256": "fcb693ebb70f9adcb16ae3dcea0c2699a43fa8e336e9f9a60e77c02d35bd9685"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_53/learned_mask.json": {
+      "bytes": 1336,
+      "sha256": "9376e680cee0768a9ecd08ac35eb2c51e24994bf76c676cfb82558d6ede6c497"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_53/mask_example.jpg": {
+      "bytes": 268553,
+      "sha256": "3fc371d6ed70c0c6c34bce9d11d3024fac7b2735f60c066cf4f3e6eca02b1be8"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_53/mask_features.json": {
+      "bytes": 12355,
+      "sha256": "991ae17c07bf68509a36062e216ee96117a4617c04c4693ff51ef17422c1a1e4"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_53/predictions.json": {
+      "bytes": 60764,
+      "sha256": "83102e6d939f0e865f77a50bcc303d831ba1346abd240a358217423b0125ee4f"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_53/rigid_bundle.json": {
+      "bytes": 1699,
+      "sha256": "c9e22ee6554c7c680a014b7a561a7537e29b56861e76a6d5d3f704c6ceb4fcef"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_53/rigid_distortion.json": {
+      "bytes": 1755,
+      "sha256": "debfaca240597b8db241089a5db4f59e00ec03b95117dda3f8eb986326ace325"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_53/run_report.json": {
+      "bytes": 207,
+      "sha256": "559d66a9443ae6e24233b4d9f2971b1c93bef6ff5f49a1c30542155a61703a1a"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_53/silhouette_cuboid.json": {
+      "bytes": 16186,
+      "sha256": "ccde8e3f92827e0a0c0ef4926055d28275a5b4bb3709af7d07e154f14b3bc2a4"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_53/silhouette_sedan.json": {
+      "bytes": 16174,
+      "sha256": "4f69323751f90269fecc1513e85c76f47b29eac1d53eec371941b100d03282a8"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_58/delay_2d.json": {
+      "bytes": 7879,
+      "sha256": "3fc09a7d7347468353ab0b1fb7736e7e9c1a45033040a58f198147f47b0b773a"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_58/flow_features.json": {
+      "bytes": 43078,
+      "sha256": "a5b5f6e18ca5a19b2391f34c485da5e4cce677a576201aa4f318bdd9dae8d2c1"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_58/learned_ensemble.json": {
+      "bytes": 981,
+      "sha256": "8be395f0bbe9e519709650015b21dab00e11cf45d0b336b1ac37dd854cc85f48"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_58/learned_mask.json": {
+      "bytes": 970,
+      "sha256": "d7994bcc4135e632b84db20256dfba5d01a5115960e0fa4a560d14f66c21119c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_58/mask_example.jpg": {
+      "bytes": 292696,
+      "sha256": "31271e7514de05a9ea2284c2353543440fec27be9046dc672612e43f8fec6582"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_58/mask_features.json": {
+      "bytes": 12389,
+      "sha256": "371e92692019218b53a4b22cdc05eb8e480ddeab403112188dd0283b81705e52"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_58/predictions.json": {
+      "bytes": 60241,
+      "sha256": "2ea67a0910e00c76262601b4c0a665155ce673eeadb88fc304e6d1ab9652604c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_58/rigid_bundle.json": {
+      "bytes": 1703,
+      "sha256": "ef30f19500e019fcc4cb4a30f1c26f6207872b08c6ff9ce89e5420d677bcd872"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_58/rigid_distortion.json": {
+      "bytes": 1758,
+      "sha256": "2c2f98f6e76c76644a78b28e689574a386770027b863b87e4eb32ed9d368ab74"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_58/run_report.json": {
+      "bytes": 207,
+      "sha256": "2a9854c45ecd5a27f91b539fdb068c2d1bb5e8f6e31e0b472ad9a231edc7ec81"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_58/silhouette_cuboid.json": {
+      "bytes": 16395,
+      "sha256": "b5f96712bf2d59140dda8e257f26bf0e13a626e4eea2092c8515ffab5bca7c5c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_58/silhouette_sedan.json": {
+      "bytes": 16381,
+      "sha256": "ee0bffffca11626d8ada1addac9f0d064d7fe2c3a29f7f513b9984abc9c3de6e"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_61/delay_2d.json": {
+      "bytes": 7470,
+      "sha256": "9b93742b4ef46ae36ad7b598705d9497daf6e4a9ede08b145d19f7710208a360"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_61/flow_features.json": {
+      "bytes": 39583,
+      "sha256": "21d26b5fdb93c3d280d16d10512f49aabfd6401657ce6f841fb1f36822a46e6c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_61/learned_ensemble.json": {
+      "bytes": 1099,
+      "sha256": "ceaab673f5e108d4e18f560ffdf514a22a3e0305697ab22a18242eaa2d767957"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_61/learned_mask.json": {
+      "bytes": 1093,
+      "sha256": "ecc213a80629628f8443f2a39f4e013462e16b51f05179aca7bee741a3e2c3b7"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_61/mask_example.jpg": {
+      "bytes": 279072,
+      "sha256": "34f2816243cd1e4b97f411c39c9cfec53fab2a82bce15b3b74b1712b986ba160"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_61/mask_features.json": {
+      "bytes": 12383,
+      "sha256": "93997b2b314a521052fabbd2ec55d68509b0fa23d318ff741034e2757ae477ba"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_61/predictions.json": {
+      "bytes": 58957,
+      "sha256": "3b2bfad8e456d93c481a0627d6288c901d732eff419a0f7f2ed3651cb6c46d81"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_61/rigid_bundle.json": {
+      "bytes": 1519,
+      "sha256": "34f4b64bcb588c630952410407f09acb8899868f5928fbdad7e8105eabe9e649"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_61/rigid_distortion.json": {
+      "bytes": 1573,
+      "sha256": "fee89dd541ddf43517ce2cd32e91bf0a93093a5a4b17426c76bef4639218425e"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_61/run_report.json": {
+      "bytes": 207,
+      "sha256": "80bf6c4a1dd17b7da6028fa6f24ddf2fd5eff3b9b8de61a228c639ea79e674c4"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_61/silhouette_cuboid.json": {
+      "bytes": 16277,
+      "sha256": "528fb692b39e41265deb097476420cfd9293801af3b3bc8b708565fb3fc43e0b"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_61/silhouette_sedan.json": {
+      "bytes": 16290,
+      "sha256": "b15a769d38b8477729322439f118ca64d8c6b1bfbcba5ee86958971b57570336"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_63/delay_2d.json": {
+      "bytes": 6287,
+      "sha256": "aa6b35481e46c2ae0b797a9268ecb2d7bdf06d415576e50a990de3638ad4274a"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_63/flow_features.json": {
+      "bytes": 39646,
+      "sha256": "480089888147342c2c5dc10321ffdbd762e7165d1d85a79d6a48531c00414986"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_63/learned_ensemble.json": {
+      "bytes": 1156,
+      "sha256": "5dcc663887b4e70832438e221423a9e2fa62da728bb2785e12e96b4bd88fb2aa"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_63/learned_mask.json": {
+      "bytes": 1145,
+      "sha256": "d94487fcf7ff413b9dce4a00c2d416e1d2804695f271e018358388b5ba1c001a"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_63/mask_example.jpg": {
+      "bytes": 308829,
+      "sha256": "d6244ebbfb64a4c4babfcd19a893e6cd9b6cc21e8f2ad0ee999530da5d98f309"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_63/mask_features.json": {
+      "bytes": 12397,
+      "sha256": "61e857c9f49223b6b70f58c4179cb877802e43d3a658ce71b7bed1e80579e2b1"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_63/predictions.json": {
+      "bytes": 58073,
+      "sha256": "37850f7e4f0aaba58bb9e6b2bf85360656ed474791395e8309d67885194e6f70"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_63/rigid_bundle.json": {
+      "bytes": 1737,
+      "sha256": "87a60a9c1e172c4b3bb12e7e6dd546600cae9097fcb853764d84d63b5fafddf8"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_63/rigid_distortion.json": {
+      "bytes": 1795,
+      "sha256": "7081f9acef43998c39578335cb0591e9d75ede99f3505711439337c603dcdf70"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_63/run_report.json": {
+      "bytes": 207,
+      "sha256": "7107dedc20ae882126bb9501a54ab4d8cdb0f840f17dec31ea5fd72a5db4da3b"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_63/silhouette_cuboid.json": {
+      "bytes": 16274,
+      "sha256": "6414fe524b49818a081a521c0e7675682b48d222bda71245f48ef09008283d2c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_63/silhouette_sedan.json": {
+      "bytes": 16261,
+      "sha256": "ceaf3b917352d87b55659adcace0ca32bbce4d41aab704ed47b581b817eafd23"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_68/delay_2d.json": {
+      "bytes": 6807,
+      "sha256": "770efed3ac41f565d6254f16369c411532451252460b85222e66f321979be3ae"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_68/flow_features.json": {
+      "bytes": 36852,
+      "sha256": "44c172995731f74d69276ccfd47d9b329394ef33d8925f4289eed928e6fffb32"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_68/learned_ensemble.json": {
+      "bytes": 1144,
+      "sha256": "4edaa888aefcf88dfbd068c3fc92f70b46d639d9bcfbbcfd9f1f910c5dad4fb6"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_68/learned_mask.json": {
+      "bytes": 1135,
+      "sha256": "b45854746a4fa1f2133c8b16ee28a62aea50fb6f59a83ad33a75692a61a12441"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_68/mask_example.jpg": {
+      "bytes": 278203,
+      "sha256": "0c4de3cba7f7c34d4ca07cf04d43b83c01b9887e076a496e4fa9dbfb2245453c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_68/mask_features.json": {
+      "bytes": 12419,
+      "sha256": "b28f9142008304a448b62cb2fea4f2f4f69e639e667cd7358cf95afc9dafddc6"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_68/predictions.json": {
+      "bytes": 59448,
+      "sha256": "49ddb12327ff1dc6129f884e5e4ea96b560b8468d450ae6f1721263a8ac70b1c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_68/rigid_bundle.json": {
+      "bytes": 1936,
+      "sha256": "37f905fb005ab9c400deff84ddfc6fba848ddc3a9f24f4cfc520246dd8db38d6"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_68/rigid_distortion.json": {
+      "bytes": 1984,
+      "sha256": "e5f3f0d0e541afd4d8cdd6223d97c56c7d35e7d12bcdc98ab821db378aa07cb5"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_68/run_report.json": {
+      "bytes": 206,
+      "sha256": "cba64253dee9759bbfca3a3224631f185b1c537c87a335d191ff8ccf998d5ca2"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_68/silhouette_cuboid.json": {
+      "bytes": 16540,
+      "sha256": "ea2457fafab69b5f52011189eb7a635425aa203f6e7a850ba76e801a05aef505"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_68/silhouette_sedan.json": {
+      "bytes": 16548,
+      "sha256": "88779c83646e4ab88f36ab8123506803ded8798dba4fe57267a834b917f507df"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_69/delay_2d.json": {
+      "bytes": 5783,
+      "sha256": "30da708143ad956fada427f7ef6ba4f6d16b062214715570d0925208a037b6c5"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_69/flow_features.json": {
+      "bytes": 36155,
+      "sha256": "1e04790c3d05badf5a9a0c0257108bc4665d8e0c7400939177bcd3b56138ac95"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_69/learned_ensemble.json": {
+      "bytes": 1098,
+      "sha256": "09de1a7cc29b863ace32ced0ddbdfa890b4eb736103e109ae4ddcea9247daac5"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_69/learned_mask.json": {
+      "bytes": 1086,
+      "sha256": "1f9a1d0fc169f184d62ecffa943730c0d8177c1aa4ab8e15366385629c1f2e36"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_69/mask_example.jpg": {
+      "bytes": 279161,
+      "sha256": "5e95a6111039a8b40309a211622161552df57db5941cb6f0c2f3db814ffe45c0"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_69/mask_features.json": {
+      "bytes": 12374,
+      "sha256": "b8e2c7fd622a5570b6f7da0d1057861762aab608616d23eb49501bb310227914"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_69/predictions.json": {
+      "bytes": 57196,
+      "sha256": "1358b956f16c2283e6e03068fd1a7c760370416dca8f2f66bda3044b8bce157d"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_69/rigid_bundle.json": {
+      "bytes": 1513,
+      "sha256": "3ae172b8deeaa2b85dfd498408e25d5c5d40a732d614af4886756e6e6d28d0aa"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_69/rigid_distortion.json": {
+      "bytes": 1569,
+      "sha256": "702a18e8660d96826f2b984c6564f85e0d08c0e90575738335a70576c5ff2ac0"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_69/run_report.json": {
+      "bytes": 207,
+      "sha256": "1a92cc421bcff07d46b03dd3d93ab0ce33a880e484f4a1e0fc8d0dea3b8f2ecc"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_69/silhouette_cuboid.json": {
+      "bytes": 16444,
+      "sha256": "aec09fce22de90b220543a1ddf70fb778739594d665d2be4e6dac40066b79a2f"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_69/silhouette_sedan.json": {
+      "bytes": 16440,
+      "sha256": "71b00ee670f31a8e4fec983fcf3b1cd124410bf5d444d6ab86fc7876cef7b4aa"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_72/delay_2d.json": {
+      "bytes": 6367,
+      "sha256": "f88b2d39f761358693cbecc7232d93153f171b9c5addd3927c3fb6785a0ebc9c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_72/flow_features.json": {
+      "bytes": 33372,
+      "sha256": "14faad3e1295dcbfcdc58c5b4e719211dc83bfb14aeb24f65e2d4f5e96975bf4"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_72/learned_ensemble.json": {
+      "bytes": 1048,
+      "sha256": "b91261615b486393926844d2380b6913bc1dcb6fb010926500f01086d4060efc"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_72/learned_mask.json": {
+      "bytes": 1038,
+      "sha256": "ef5aebb991067e53f04c19e663aef2b91012b7ad1ee9dc65b3340cbbe70c5e60"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_72/mask_example.jpg": {
+      "bytes": 268781,
+      "sha256": "f095bed4d63d2a39ac4ff5f71faa2653466bfc7cc79c8c6a2065021c569acc98"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_72/mask_features.json": {
+      "bytes": 12412,
+      "sha256": "d463813b3d380bafd6c411693a0559601dbab6ac9b1294187cfb82f24cb21a5a"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_72/predictions.json": {
+      "bytes": 55297,
+      "sha256": "13896b45fae6c01f2a6f1cead631a3ecc7ebe5ac124ad7773bc1c66efbbb60ed"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_72/rigid_bundle.json": {
+      "bytes": 1500,
+      "sha256": "9eb11c3f0be05c5c8758ba4aba64c4a51a3bdf02cbb040d72601e813f4a174cc"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_72/rigid_distortion.json": {
+      "bytes": 1552,
+      "sha256": "a374ebe4727e0fd0ec2b6b3490f7904c3bd4bef8e1d9b069c10bea63dad3dd04"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_72/run_report.json": {
+      "bytes": 206,
+      "sha256": "05aa3fe98c1044a754d5353c29a6e3506313ae8de6b3769c71a7e3c2a8ae0fa4"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_72/silhouette_cuboid.json": {
+      "bytes": 15629,
+      "sha256": "0efc5aa5f76eb465f68e54261c39b036fdf4acdace9603642046e7e2a4d9c3af"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_72/silhouette_sedan.json": {
+      "bytes": 15635,
+      "sha256": "9602d9a9ce02a70e507802946293b999967bf0308223ec7a073da5c5dad5263e"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_74/delay_2d.json": {
+      "bytes": 5165,
+      "sha256": "4ffac5262bb13344cdbc9d88b2ed0c7ed657542360e9d40d107595ea3a41dd87"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_74/flow_features.json": {
+      "bytes": 34040,
+      "sha256": "149887e01e016ec7c1f6919a1639805db4bcd04a18c0642e29990c1cb1c08307"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_74/learned_ensemble.json": {
+      "bytes": 1153,
+      "sha256": "6afbfe5210d9a735abff11364b68ff07d817925a365b1b26f5e7aaa9125e1e53"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_74/learned_mask.json": {
+      "bytes": 1146,
+      "sha256": "5e1899d5116d7fdba9896a71cc85c272b012004cd95b1d2ddc9a965a8f69f8bf"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_74/mask_example.jpg": {
+      "bytes": 251899,
+      "sha256": "290aa3bcc6c1b6f29e84216d8b1ba80beb274d7b5f92eac7e16046668eede079"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_74/mask_features.json": {
+      "bytes": 12359,
+      "sha256": "5cf25de5716b44d42fb82178a1f5edcf454483bde309f24409538910196fdfbe"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_74/predictions.json": {
+      "bytes": 53808,
+      "sha256": "8add700a18b3b55729c24102a45a80e72d254176b8edd4a59907e9012cb2ab79"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_74/rigid_bundle.json": {
+      "bytes": 1627,
+      "sha256": "6681b886c2fe9b73780cf570b6decbbc80dc2049fbae9c81c113c6d19a5e66c3"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_74/rigid_distortion.json": {
+      "bytes": 1679,
+      "sha256": "27fca9eceb63095e22d20250870cf9584922a4e6ed0db9d5ba7e78b0282691e1"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_74/run_report.json": {
+      "bytes": 205,
+      "sha256": "3db65a4600b55d72cf884084e41b4a8a3a3d739c6f926066b11389e2d6286a42"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_74/silhouette_cuboid.json": {
+      "bytes": 15282,
+      "sha256": "174873c07c810f8f5e708b74e4d605af9a891fb3d086817a9374572646fb4268"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_74/silhouette_sedan.json": {
+      "bytes": 15253,
+      "sha256": "7d5b58590d04c8d9f575f53e54b04a4858b8a0d6e09c44ca6575824f46a95db0"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_78/delay_2d.json": {
+      "bytes": 5074,
+      "sha256": "5da53bd82d1fdebff4230336c2c291e889b1e08a85cb5aa06336d7f991fe3204"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_78/flow_features.json": {
+      "bytes": 31282,
+      "sha256": "04bd464edbf1a3329772f4e5c13bc61a3b154eaf2be738b5ff2f0b66c5c2e01e"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_78/learned_ensemble.json": {
+      "bytes": 1170,
+      "sha256": "b183190819bf65390ed83aacd19f227c0eeded4dc65e5c18277e135517e0580a"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_78/learned_mask.json": {
+      "bytes": 1160,
+      "sha256": "7a95f713cfd6ce9e929a90a0da870bb73e3868a27434402cf5dfab918f5d62d9"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_78/mask_example.jpg": {
+      "bytes": 252540,
+      "sha256": "d097f9bb4f22a0c6e829b2f19c162d71364d817c02c4f190d4fa93aa4341da25"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_78/mask_features.json": {
+      "bytes": 12359,
+      "sha256": "44c4e0f727d79c1c868465e45d841d05ef07975928437b502a9891bd531d0b45"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_78/predictions.json": {
+      "bytes": 52774,
+      "sha256": "9991885710b27b28db004931d79786f8122110c4d5e554880933463d27ed196e"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_78/rigid_bundle.json": {
+      "bytes": 1681,
+      "sha256": "cb2823507b463922bf04af6c84410b6cf214cefea138809b028ff097e9c614da"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_78/rigid_distortion.json": {
+      "bytes": 1734,
+      "sha256": "28f4ee52c60bb9187cf976449e05dccff7320b470681201cc5a531a0a9c0c4df"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_78/run_report.json": {
+      "bytes": 205,
+      "sha256": "fef44541e6321701b1f5b43f0dfee34ced3608ea69ca49b48a029c556bac7b9a"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_78/silhouette_cuboid.json": {
+      "bytes": 14839,
+      "sha256": "80ccf83be76b1640eede3861eb00e5d6b2ae3ad0a4c97ad130320d7e817780fb"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_78/silhouette_sedan.json": {
+      "bytes": 14833,
+      "sha256": "3a0b68c7a7203c97f26754c402f35a7a9e1bbcf595984eba5fbd26b71841fc37"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_80/delay_2d.json": {
+      "bytes": 5977,
+      "sha256": "a8a859e41e6415ed31711d2e9ce632d1073dbd3d6a395b09ed5ed624491fd820"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_80/flow_features.json": {
+      "bytes": 29148,
+      "sha256": "b5f9e59f61f2c479207d251d281b4174721739d99428ddb8bbeb5960ae14d07b"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_80/learned_ensemble.json": {
+      "bytes": 1168,
+      "sha256": "b035c5f306bf6e049cfe071936d6c8a46a4a761f417a1fc440b9d179bade41b7"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_80/learned_mask.json": {
+      "bytes": 1157,
+      "sha256": "80713178a3382f6b8a3df7651472011f13fe889d00d4cf7b578025c4a4ee275d"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_80/mask_example.jpg": {
+      "bytes": 260023,
+      "sha256": "65417b4cbecbf314aac24da9f1368f61d2aa11f1e034dc6db91e695634c4952e"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_80/mask_features.json": {
+      "bytes": 12381,
+      "sha256": "b668be3f634a0c42ee8f6876a10b7d7a19070f08a6cdca411fa7142ae0cfc21d"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_80/predictions.json": {
+      "bytes": 50126,
+      "sha256": "22912213c6893a5ffac6ac5a9dde76ef3c36a7eb0bf2629082cd0cca2fca4bb6"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_80/rigid_bundle.json": {
+      "bytes": 1687,
+      "sha256": "9fe285dd3bc2e9da6be14d911e65f18f601e098a74d5241c5ce566626d7e1ae4"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_80/rigid_distortion.json": {
+      "bytes": 1738,
+      "sha256": "a64233d5e5defc7714a27233af0c4a89c7d62e3f7f20062db38c9ef3c52dc88b"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_80/run_report.json": {
+      "bytes": 207,
+      "sha256": "8a00c243c6b528d269e92ec39b95df687e6ca6c411538e223cb0a9631b43c19a"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_80/silhouette_cuboid.json": {
+      "bytes": 13452,
+      "sha256": "8ac0e662e457551c60dae1efd6f5ae010d5cdae6142681d46b989b11fc57800e"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_80/silhouette_sedan.json": {
+      "bytes": 13452,
+      "sha256": "311dd30ccaffd25fb7e72af67ea4a243d989531c15b42e527094e66618a77e10"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_83/delay_2d.json": {
+      "bytes": 4688,
+      "sha256": "6dfa93fb7085ea4e6a0825d288c5d0981f16833e57c1060c389f8f4ecd6df1e1"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_83/flow_features.json": {
+      "bytes": 29178,
+      "sha256": "d549e6d506d5c8489844eed66172fa244566418da989670f0535ee7a7ce034eb"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_83/learned_ensemble.json": {
+      "bytes": 1113,
+      "sha256": "9785980468e05c01da2723f3c92f0293fabd89a6f1b9419af24b0603957b644c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_83/learned_mask.json": {
+      "bytes": 1105,
+      "sha256": "6e00ed9266c638a661cff565254303a1d37e356c0af4635f52bc954fbbb6bbfb"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_83/mask_example.jpg": {
+      "bytes": 228953,
+      "sha256": "aac8a3086648d80ed5a86bf68b2a6b74deadf6b59701215d13eee4917b90673b"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_83/mask_features.json": {
+      "bytes": 12374,
+      "sha256": "3f02ee513c427509f128a6c78a421aa13abc1d551a6b0e29b399b7c732435701"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_83/predictions.json": {
+      "bytes": 48449,
+      "sha256": "da8b1bf8a50f639b1095862ad22cdaf48400e43441acf4486ff904001f24faf7"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_83/rigid_bundle.json": {
+      "bytes": 1567,
+      "sha256": "9f89b097dea03252b93fed459ea101a362e151e81da0ab120c99c2d217c9d9fb"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_83/rigid_distortion.json": {
+      "bytes": 1626,
+      "sha256": "893e14ce510001a55b6e2c168a46e2b925582daf50fdceec2f1c088a5d4fe5f1"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_83/run_report.json": {
+      "bytes": 207,
+      "sha256": "624ecbe20476c6067e432d0050b905cf5d4cc41078f498a06fcc9d792b2d2847"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_83/silhouette_cuboid.json": {
+      "bytes": 13458,
+      "sha256": "00c79970c1ea13ad22aaf55b7cc3f848957752b759442620585ec1c1c387c5af"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_83/silhouette_sedan.json": {
+      "bytes": 13460,
+      "sha256": "89e868d92b8935d765801402ac05225e89430aa52ded059e94d9cc9cc3a05e21"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_86/delay_2d.json": {
+      "bytes": 4007,
+      "sha256": "735ee4a9d068d93bcb854b6fa7f88a89f9f6a1819b035275d8835d0e69b6a897"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_86/flow_features.json": {
+      "bytes": 29221,
+      "sha256": "649239f580f09d62d305ff602b7f930a6f00700d23f348ed9bd24325c23c32eb"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_86/learned_ensemble.json": {
+      "bytes": 1172,
+      "sha256": "753623d3236662786fcc06578fe482d9018999ba713e830762edaa9d3977cca7"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_86/learned_mask.json": {
+      "bytes": 1160,
+      "sha256": "965cb3f2fe03e029e7be8bf3bfdb08a3798a70428a0ea5338731a616276f78b3"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_86/mask_example.jpg": {
+      "bytes": 284567,
+      "sha256": "71bd2b1391de18350c8e6d39444afe51a92d4e0bd4bb0adff43cca0824ccde0d"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_86/mask_features.json": {
+      "bytes": 9825,
+      "sha256": "57ed2c02e9d760fe64d7f77dbc34b0d7d4d217cc8aa60361e2990a3e2869d225"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_86/predictions.json": {
+      "bytes": 48023,
+      "sha256": "d58343ceee5885b51b9529c310b2b1af07e00cfe10889ddd050ca61f9702e5a3"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_86/rigid_bundle.json": {
+      "bytes": 1631,
+      "sha256": "601195321ab803f60d0f88a14c2fa5d31080fa90ae95dbf92ec31eb6ce19a650"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_86/rigid_distortion.json": {
+      "bytes": 1684,
+      "sha256": "344ae879737a58ec82a10d47c2e5309c479f8417e38679e8f8320f9991305164"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_86/run_report.json": {
+      "bytes": 207,
+      "sha256": "d67988488bd45c0643706a3bf5b479847a3fb6d7f306482abd5a9cb1141955e3"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_86/silhouette_cuboid.json": {
+      "bytes": 13439,
+      "sha256": "4eff318d0a620258208b71efa2995e54342231402b1e66348ad336e04525870d"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_86/silhouette_sedan.json": {
+      "bytes": 13447,
+      "sha256": "182705ea9092e55ef4074e1983975c9d6afdea56f0112263820aee98610bda0c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_89/delay_2d.json": {
+      "bytes": 3814,
+      "sha256": "a138c1cf1822452b5f68f1bde4f0410d000acaa999d8b229932bba09ae401834"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_89/flow_features.json": {
+      "bytes": 27787,
+      "sha256": "21c529703f318f2d4a822a720d044cb834c69af1db92bd2cdfe5823c4628b0f3"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_89/learned_ensemble.json": {
+      "bytes": 1108,
+      "sha256": "3434ecbbbf2f82f41ed902ee109b72a0cfa5347e99c8e63f2281d30d2a7b389c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_89/learned_mask.json": {
+      "bytes": 1099,
+      "sha256": "561d6387618d0506f44d833ce5a049593665acf285e1bc33b97c7b3781aeeb33"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_89/mask_example.jpg": {
+      "bytes": 282434,
+      "sha256": "aa44a8d7eded646dd08b225ce85040612545c09e717793cddd868c4ae8ba4238"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_89/mask_features.json": {
+      "bytes": 9323,
+      "sha256": "a89e8901f119f75d7a299c0789d4ad0d11afefad3c09d78e79b472c3279222fc"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_89/predictions.json": {
+      "bytes": 45887,
+      "sha256": "729914ecb517ccc576d362072ea7b2f3a87be900f7be2cb3e3f60ae3b0adb94e"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_89/rigid_bundle.json": {
+      "bytes": 1575,
+      "sha256": "ef3c6c909b31103a0fe50e8d079ff5db21758d054de99e3cf34f0736fedeb384"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_89/rigid_distortion.json": {
+      "bytes": 1632,
+      "sha256": "059b5b6e8c4dc64032d6c4b05256a805d289eb9dc5663ab738e9ad04567e6faf"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_89/run_report.json": {
+      "bytes": 206,
+      "sha256": "2df859c4b0c4e0c97b4faa0e37d9700f79a030cc422b59f57bc7439978d841eb"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_89/silhouette_cuboid.json": {
+      "bytes": 12852,
+      "sha256": "642b3bda41abae036845264ab4b1a4b07d18b09895257387b9b92777a90968c2"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_89/silhouette_sedan.json": {
+      "bytes": 12847,
+      "sha256": "7f222747ada8a1ea6cf239a765db80aec41fe069f62809656c5a68efac3b19db"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_91/delay_2d.json": {
+      "bytes": 3851,
+      "sha256": "d4af90143968d3d4a41664b3ad41de59c0283905325a8666768e13ddb9cac0d7"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_91/flow_features.json": {
+      "bytes": 27130,
+      "sha256": "52696960feb71d0df94e16b74006478fe77343437521001d78cb18dc9b38e043"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_91/learned_ensemble.json": {
+      "bytes": 1233,
+      "sha256": "05b504475a68b3a25fce6e762d90dbd4cd0a12cf7ebba7c28e1dfd51d57fd193"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_91/learned_mask.json": {
+      "bytes": 1224,
+      "sha256": "29aa81eebb100ce4c8022b01a3945b033fbb8db4c71439f33d44a7d7d7f9630d"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_91/mask_example.jpg": {
+      "bytes": 281730,
+      "sha256": "6ccc3604fde55f098e56820b7014505cdc7e1418e84e94410563f4a35f2da9fa"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_91/mask_features.json": {
+      "bytes": 9813,
+      "sha256": "1a4587921f410d1a182dd563efb203bbe6563535546816b132bba1c6834f0c73"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_91/predictions.json": {
+      "bytes": 45912,
+      "sha256": "0fc43b94a145b4e83935c3bb11526b00cc65e7b1e2b92f0b3e949bd310fe6599"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_91/rigid_bundle.json": {
+      "bytes": 1460,
+      "sha256": "aff127227e120b555f6d8b0e24c65b8b30bfbce45dc601eb7f227137f5ee4e79"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_91/rigid_distortion.json": {
+      "bytes": 1519,
+      "sha256": "e8d91a162280e0f85b9cf927c703ba329d993a4c56157a624109b6414956fb41"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_91/run_report.json": {
+      "bytes": 206,
+      "sha256": "7365cf66e5a3e84479ecd74625d01524674c23c04484ef428a5b688437937aba"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_91/silhouette_cuboid.json": {
+      "bytes": 12913,
+      "sha256": "ad7ffa91a77d3519ccadd76d5309804114d5246e6e10c4a0baf5bb531008f74c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_91/silhouette_sedan.json": {
+      "bytes": 12921,
+      "sha256": "ccc35c47869783cc2841b60c12f8cb3f00e7c0a6f2470d7c10fb3449b9cbd80d"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_93/delay_2d.json": {
+      "bytes": 3736,
+      "sha256": "6812a437d2f6b9178e32551ae961287c694eff315d8e25f774526651963bb2db"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_93/flow_features.json": {
+      "bytes": 26444,
+      "sha256": "d4ecad6cbcd87119000343d88583db41237f009386c9b3544703c7a0e27d32ac"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_93/learned_ensemble.json": {
+      "bytes": 1046,
+      "sha256": "2e9976d6082a76de4107710bb7a827fe8fd1f1429a61d9cc96cdd12ae1ebeca0"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_93/learned_mask.json": {
+      "bytes": 1034,
+      "sha256": "c5073feed0717d9d86346dae47099ebb82898d8656b984cc0e3bcdb8ec3818b0"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_93/mask_example.jpg": {
+      "bytes": 281069,
+      "sha256": "90e5fb01227dec8a753fe3b06fca475607b4b1fa7b335096d9a4738cae215280"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_93/mask_features.json": {
+      "bytes": 8835,
+      "sha256": "e6dad4236ae73b3a4d38b72d073e8759de4e303d98e8438b6afab7a52cc28a51"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_93/predictions.json": {
+      "bytes": 44655,
+      "sha256": "d37029c3919c258e07afb4761231c53a0f1e8ab7604a9dc2cee6b93640067668"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_93/rigid_bundle.json": {
+      "bytes": 1638,
+      "sha256": "4603b8820c3fdb5b1d452d7a7e3fe1689fdf616d8cade23f2b24ff50db5b1f4a"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_93/rigid_distortion.json": {
+      "bytes": 1696,
+      "sha256": "726a95278c7a05b544701b6dd9dda26a11aff977ee03485826d015e74d1357fd"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_93/run_report.json": {
+      "bytes": 207,
+      "sha256": "7dde6e73e67ab7c2af27046a44d7cec3d7fe062865925caaa166cc6ee8d68417"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_93/silhouette_cuboid.json": {
+      "bytes": 12360,
+      "sha256": "44a4b421811b0392bcb1559c4e864cc2674711476fac9023e36d75fda6e59bfe"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_93/silhouette_sedan.json": {
+      "bytes": 12378,
+      "sha256": "f181f52d0101d18038705d17e6a99635f20d27b73fb9ff9206320ce1668b04e4"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_98/delay_2d.json": {
+      "bytes": 3371,
+      "sha256": "b99add1fee834c490e71d6cb0b25a09ef91358cc60a3b3e8742d2778fa152ba7"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_98/flow_features.json": {
+      "bytes": 24379,
+      "sha256": "5481fcbc92e53488c62a9d583ba4166d06a01ceabe76ebbbc56d9a4dfe4010f6"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_98/learned_ensemble.json": {
+      "bytes": 1036,
+      "sha256": "5565134230c91083b3ac5aead2995f2401e590d9f84753b8e4b4b84866ec3f8c"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_98/learned_mask.json": {
+      "bytes": 1025,
+      "sha256": "bc6d20c3e4c2185270a886f5e889a807c52de8dcfd7e81f4a2a071f478b611ff"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_98/mask_example.jpg": {
+      "bytes": 292823,
+      "sha256": "8b852ab81c6f77081c3ee6fa1b63a34e510e58aef92fde5cd4ab8d0f7cfd231f"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_98/mask_features.json": {
+      "bytes": 8337,
+      "sha256": "869a9fb0ca77602f9f5f24411ea3c33418032741a88077153eeb6b31403239fd"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_98/predictions.json": {
+      "bytes": 42313,
+      "sha256": "5a00ef421799fc58eaf8424eb33fedc219554949c5a1d8721e94060e7a03b9a2"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_98/rigid_bundle.json": {
+      "bytes": 1393,
+      "sha256": "e088c405cd510cc805e441d87264d1ab01932d65a5d40b65dc45c5a9b749964d"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_98/rigid_distortion.json": {
+      "bytes": 1450,
+      "sha256": "2dc5c2435d82aa2d09671bcc873c48d7b1bd00ec2fe9a754d831784e7c4a9194"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_98/run_report.json": {
+      "bytes": 207,
+      "sha256": "484da7c587e8ea635edf043bba1b17cadec51cbbd9f7bf3de5d23d0109ffb860"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_98/silhouette_cuboid.json": {
+      "bytes": 11991,
+      "sha256": "370dd6aa4d8efdec391dcf074a49eb924d46e5700acfa661f1ddc50f33887838"
+    },
+    "kia_validation/measurements/reserved/round1/KiaSportage_98/silhouette_sedan.json": {
+      "bytes": 11976,
+      "sha256": "58784ee8297f90c9eff896b0dc931eb3a2ae47ba2a6e32eb779b420b413da309"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_100/adaptive_flow_features.json": {
+      "bytes": 271270,
+      "sha256": "bb59f0cef005911ee5bf22492e7b453239f9e1ea452fcf7c65aeb062b7acd53d"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_100/predictions.json": {
+      "bytes": 29712,
+      "sha256": "c4d2e608f92b41bb556b795df7687d35d3480f0c8e33b83c6b9995fb8283fa61"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_100/vanishing_points.json": {
+      "bytes": 558,
+      "sha256": "215c45f432e68db523da5cba8c1bc3bedfe13da24b622ba7de3b820eedbe60ea"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_103/adaptive_flow_features.json": {
+      "bytes": 246060,
+      "sha256": "22e1369bb48286e1e07f9a0dec3a6c712ad71a5bc4351e5f7338ebcfe3ea95df"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_103/predictions.json": {
+      "bytes": 34147,
+      "sha256": "68b60d7578d1ed0ef48b3b4050698a8c900ace649a7ade0e68dcd2d2c96158d5"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_103/vanishing_points.json": {
+      "bytes": 554,
+      "sha256": "3038532ee5ac22190c7e15c536a06dc0c731811dbaa79e6c56f107c89c6225f8"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_33/adaptive_flow_features.json": {
+      "bytes": 1082577,
+      "sha256": "e8902511720d7044c1b1f1b4272a03ff3c417370dcdc7b558a00e213531cadbd"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_33/predictions.json": {
+      "bytes": 127825,
+      "sha256": "cac1fff74fd3e50ec0f6624b1091830a18667ee615d8715203203b912df248b2"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_33/vanishing_points.json": {
+      "bytes": 556,
+      "sha256": "134d9c4ca0654ec55b2be5d88fe26ea6cef1cb140c3b3f63edd309b0996d13e2"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_35/adaptive_flow_features.json": {
+      "bytes": 1129949,
+      "sha256": "1d2e3d161d2c7d1a67454fbc3d41706fa1ad1fb3f469fc714b5873e552be072e"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_35/predictions.json": {
+      "bytes": 117445,
+      "sha256": "4f456ea2354b4eb70c550dd405ef087fb7aef357a1f3d2b046207e125b0cad79"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_35/vanishing_points.json": {
+      "bytes": 555,
+      "sha256": "836b84d44346925ae2bea655d1c17bcbfc5bcf414840b3ffa6c81f713f807808"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_38/adaptive_flow_features.json": {
+      "bytes": 943821,
+      "sha256": "0502c9e89cf15209672a3d2f878ff44215c6f3c9821b12671fe1f88758b5b189"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_38/predictions.json": {
+      "bytes": 116049,
+      "sha256": "8e9058572c206914dc0a84f5fcd10c4d3f219639bd438d197d23e501dc4c9ef1"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_38/vanishing_points.json": {
+      "bytes": 555,
+      "sha256": "02dfb82d73f5de7e63e7c394f948f40f6224958076e344520968f20171c21332"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_41/adaptive_flow_features.json": {
+      "bytes": 939630,
+      "sha256": "83520a7e7e600cd9f6b98d53d735d16b0ad4ef0c4665bcc03d51e5df74151658"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_41/predictions.json": {
+      "bytes": 110003,
+      "sha256": "b31c0a4011f18410aeb78db30d6a7316aea2b69ddc5999594aba6aad41710f66"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_41/vanishing_points.json": {
+      "bytes": 556,
+      "sha256": "26fdfd0b8ab09d0d8104c28e40b4d5d29fe06d9f4cae6b7676e1e678715c1adf"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_46/adaptive_flow_features.json": {
+      "bytes": 840179,
+      "sha256": "a88b01e02dd06e887e71742f884d952800c47868711301e5d8f6bf1e78501af2"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_46/predictions.json": {
+      "bytes": 98606,
+      "sha256": "f818c2ef5cc75f6013eeb8c406eb833535112b7855d01aa55d8a8980a2f7073a"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_46/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "8cb2acdcf2ec50b27c6c4a7b42f1bfa527952426346619c087a4461b332e46f2"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_48/adaptive_flow_features.json": {
+      "bytes": 715968,
+      "sha256": "a143c3ba6e01ee8882c8255e1dc75cfd6319c0587d19c13adf9a3fe06a80cba3"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_48/predictions.json": {
+      "bytes": 82845,
+      "sha256": "cd391ad52b705e934362745a0c51dbd260d22c57c7106271529c2eda7abb5a05"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_48/vanishing_points.json": {
+      "bytes": 556,
+      "sha256": "bd82db9d3a0ab58db7931f679837a601ab65e61b76edbd78fbafb73a7f9d1b24"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_51/adaptive_flow_features.json": {
+      "bytes": 761045,
+      "sha256": "95d9f186e4919d6d14134402fd7faf3b618522d2c94064da7e383173a60c7d24"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_51/predictions.json": {
+      "bytes": 92205,
+      "sha256": "5edfbd1cac9976c56eb413b9242591ef14cde30ae1c2b73237a0fb8550db96bc"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_51/vanishing_points.json": {
+      "bytes": 554,
+      "sha256": "96e9750a5bf50297f68015e0491ff1048e92211ef05f387641ac364e8b905028"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_53/adaptive_flow_features.json": {
+      "bytes": 663761,
+      "sha256": "6b24d795eddcb83dd36501ce194f0650292d21f0b07386c98f84d642cef3045c"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_53/predictions.json": {
+      "bytes": 77872,
+      "sha256": "1001db2166907ba8e1390c5d5475641cc73af34a9a924c70e4adc99f4ad89d3a"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_53/vanishing_points.json": {
+      "bytes": 556,
+      "sha256": "04c6bc1bf10fd15e0de5c6b6650f5cebd06cea9d4d1130d22b96a6c7edad4d72"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_58/adaptive_flow_features.json": {
+      "bytes": 609364,
+      "sha256": "882536aa36015f0d72fadbbbc0f79f500306744b2c0d46d2d6c6e20d3c93ff6a"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_58/predictions.json": {
+      "bytes": 83088,
+      "sha256": "aaceb2a35afe3de68e66a3c2b79ca8d3cf51a797081f8d9ed419caca5e2a4da5"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_58/vanishing_points.json": {
+      "bytes": 554,
+      "sha256": "74e4f046b0921f345805fa37b4a2728080c5156f79e8af49b05e394605a283ca"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_61/adaptive_flow_features.json": {
+      "bytes": 669487,
+      "sha256": "1ee6cb91af545bdf7c8a21c9141a833d9ecbea0782823b621522afc49e366ab5"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_61/predictions.json": {
+      "bytes": 79204,
+      "sha256": "48a6a93a3573ac5c3bde8709e48f7c5984fe6d598574a44b16d2f067943fa73b"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_61/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "7fd12899fbb343c335009ed9aad2ede47f227a1290c27fb14994cf225dfa7863"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_63/adaptive_flow_features.json": {
+      "bytes": 574638,
+      "sha256": "20161bf399de3f56220a6d8c2dd671474b0ce520cf67e81fa3015266dba53ca2"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_63/predictions.json": {
+      "bytes": 52834,
+      "sha256": "4f11da040d2f04578702613ed7623d0ecd26f3c233b9c982572289436b5f6aa1"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_63/vanishing_points.json": {
+      "bytes": 560,
+      "sha256": "0790a8f2b83fba47f7ceff6aabd6dd59249c7da9d1792a9e88a5689a0aa1e3bb"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_68/adaptive_flow_features.json": {
+      "bytes": 502662,
+      "sha256": "a97d28d8c702718f6e99f92bced5d29072cc323b008250432363e83eb44e2829"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_68/predictions.json": {
+      "bytes": 63903,
+      "sha256": "a9518233cfdc608bb45a84b8ec23fa44e4f39f03853fb1baf55bb3f8045cc59e"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_68/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "4a7bb8d03c2b90c01044ae9d083aaed2f45d8f25fcb45135cd3107d125d36bd0"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_69/adaptive_flow_features.json": {
+      "bytes": 490927,
+      "sha256": "2249f8508dd6c73c7a91f700efa8aaf22a28a971095e3bff771535e83e554f75"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_69/predictions.json": {
+      "bytes": 50331,
+      "sha256": "6ede69bcad30df01d9b99258e3cf84a7bc876a3d71cae87b14c1a30d88a49be0"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_69/vanishing_points.json": {
+      "bytes": 559,
+      "sha256": "80be4a035f3358993cc3ef5cfbbd6ec23784bbde476ba0097243c53d87f59da6"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_72/adaptive_flow_features.json": {
+      "bytes": 544566,
+      "sha256": "6b19d808d69f226413458bf55b9e99f71ffe776b068e8c3876752ee3efdeae5a"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_72/predictions.json": {
+      "bytes": 68000,
+      "sha256": "f0958ed8842e0aecdcb7b87fa3ac127add1c8b0501693ff416ac072a9c3a6a10"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_72/vanishing_points.json": {
+      "bytes": 555,
+      "sha256": "fd8a8ad7c442a3c03a9485341eaf9528d17f810467c095f81099355d9be83740"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_74/adaptive_flow_features.json": {
+      "bytes": 455083,
+      "sha256": "361335d38a7fc25ec421772aae5d2a4ccebd421094a8a99a4a138c4c8d29e597"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_74/predictions.json": {
+      "bytes": 55064,
+      "sha256": "f5dbbd80070c346e101ab84470055a3e3d2dc4f7a5d5ef9554e21f27e6999d28"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_74/vanishing_points.json": {
+      "bytes": 553,
+      "sha256": "ff1050a3102efc7d56fe93caac9344ac5b95df2a449c21f85a2175025f23877e"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_78/adaptive_flow_features.json": {
+      "bytes": 418741,
+      "sha256": "fd13d0ad780ea56eaf946bd020a2fdfb5aeae4e5af54df51c03cb441d2e43ff1"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_78/predictions.json": {
+      "bytes": 53569,
+      "sha256": "7ac84b8c32b883a7e811a72e50af6675c1ba002797a6429a7b2b08974ae3a34b"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_78/vanishing_points.json": {
+      "bytes": 559,
+      "sha256": "91c5d2ac41a73695f17b624eca46e9daffe35e82143b3f4d1122a73c4de191c0"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_80/adaptive_flow_features.json": {
+      "bytes": 449804,
+      "sha256": "40c3128c4c12f1575f7a315ad31231b29dd8f48063b895e71008ddf69e99dfed"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_80/predictions.json": {
+      "bytes": 62341,
+      "sha256": "9e560b92bb2190d217854152c3b5138ee63c9e69e57fdc4f2033c96eeb6a3a8d"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_80/vanishing_points.json": {
+      "bytes": 554,
+      "sha256": "2e9088595b93b3a49c0bca1d703622de64f90d048845f86d902649bbdd184639"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_83/adaptive_flow_features.json": {
+      "bytes": 373240,
+      "sha256": "59c5907280d196772c49f8ba786aacc089194fa425c827f79cacea010c841321"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_83/predictions.json": {
+      "bytes": 50022,
+      "sha256": "85111295a23b809e6a5124b1f8a844dbc1e1e44520a64ac53ca0544c90b83fad"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_83/vanishing_points.json": {
+      "bytes": 555,
+      "sha256": "a6f6b388acffc53f7f2bdfb55db29cb05e49386a9df8b5a9ef595913c26b8f1e"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_86/adaptive_flow_features.json": {
+      "bytes": 397539,
+      "sha256": "54ca981ca9e4170d66738cb66b25e0ca9efb0b8c702cb33cbe5b6b446381771d"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_86/predictions.json": {
+      "bytes": 35380,
+      "sha256": "b4b0c16460d11edf70d92a45b62c3899d1c459e55a1e46f57628583665ccdb4a"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_86/vanishing_points.json": {
+      "bytes": 557,
+      "sha256": "c335b7fbd5d3ad6bf89b5aa8a5923b127d72be8f4177214f8ab1385dd4766ea0"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_89/adaptive_flow_features.json": {
+      "bytes": 378485,
+      "sha256": "3670458c018fa37154ab23a8e65d0580ce606a6cc942d2f5b2e4a75cd1fb72ad"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_89/predictions.json": {
+      "bytes": 33608,
+      "sha256": "fac6b5b400bef4a12b7d07f88986575adc57a21cabbdb35431939e30c35c57e2"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_89/vanishing_points.json": {
+      "bytes": 554,
+      "sha256": "4b9d78073fbc6239f599c9ed97f0e83fe46dd53fad1369bd216c1e2280419577"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_91/adaptive_flow_features.json": {
+      "bytes": 357217,
+      "sha256": "72014cc00d3f8f38e3ad755a255eb699cd7697c2017d73a6a120048ec8fbfc56"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_91/predictions.json": {
+      "bytes": 34241,
+      "sha256": "d97aec9dd80c7f1acde0ee371bf20322042dfaae787d273f99f9048deb4fe26c"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_91/vanishing_points.json": {
+      "bytes": 556,
+      "sha256": "754fd97601e5e0e4cfa7766bdc4d490a8e0dfdb0e4976e3aec907dcb85978723"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_93/adaptive_flow_features.json": {
+      "bytes": 350986,
+      "sha256": "8cbdf6e862785271a665f0292fc2981264aaff1d2a43e50fa25c652ba5c755e8"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_93/predictions.json": {
+      "bytes": 32494,
+      "sha256": "9e293a2216c3ae3f0c3870c2cf10f0b14004bb07b2556f828a29e8ab9fed8589"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_93/vanishing_points.json": {
+      "bytes": 555,
+      "sha256": "c7995ac0c1eabf84a93db14bc99cb65c07b4f6515ade67256ca3687622007f91"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_98/adaptive_flow_features.json": {
+      "bytes": 285641,
+      "sha256": "96385b8cddb576db0876e8d00ef400513b93a13624de6160b8c1fe5e9a07ffac"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_98/predictions.json": {
+      "bytes": 30498,
+      "sha256": "d0c049ac8411ba3f08380865c20437f766fcadc5ad73ca1cf4418e7d2c39fba3"
+    },
+    "kia_validation/measurements/reserved/round2/KiaSportage_98/vanishing_points.json": {
+      "bytes": 556,
+      "sha256": "f48a737b4436d5f5f82f4639c5671e7a1e0201bce0278148a9292707d17dfc47"
+    },
+    "kia_validation/measurements/reserved/run_report.json": {
+      "bytes": 1730,
+      "sha256": "7eef02c06368007dafea2ef9354f2ca83f8efcf557c63d86f061682d630fb0c8"
+    },
+    "kia_validation/mercedes_regression/foreground_scene_registrations.json": {
+      "bytes": 228829,
+      "sha256": "4f28a7e956e6cdd5f56271b84f823aa54b84194c36cd322dceb4e6c8d32868f2"
+    },
+    "kia_validation/mercedes_regression/metrics.json": {
+      "bytes": 1737,
+      "sha256": "f8c629ef47ed1ad94010818148e5f967bfaaa346c3bb8761a67ea841877263a1"
+    },
+    "kia_validation/mercedes_regression/predictions.json": {
+      "bytes": 3754520,
+      "sha256": "ddb6cb93c238ee81eeba4e129348fc80525b4b4b4f8f181d15094dafd6a156fd"
+    },
+    "kia_validation/mercedes_regression/results.csv": {
+      "bytes": 46495,
+      "sha256": "f705552ee65b0287961f01167fa4d64ecd527b3892299a5c4c40b19dbdcff20e"
+    },
+    "kia_validation/mercedes_regression/results.json": {
+      "bytes": 93155,
+      "sha256": "9aca4131645a354081c898ef2753cb3dbbff2b6f374227bee988c2304ddb3610"
+    },
+    "kia_validation/metrics.json": {
+      "bytes": 1824,
+      "sha256": "43b979360d8e38c8792be3456124c570dcb7a413b5be9679167ef30795fd8f67"
+    },
+    "kia_validation/patterns.json": {
+      "bytes": 2014,
+      "sha256": "44b285d65fe8614a63f7c3e3762f5afd733ec78b629c6cb52812b570c366751d"
+    },
+    "kia_validation/PATTERNS.md": {
+      "bytes": 4134,
+      "sha256": "9ca8ce17dbc1bfa9ccd7abeeb21acec0116d0aca2c3166b1a714063d30dee4f4"
+    },
+    "kia_validation/provenance.json": {
+      "bytes": 7664,
+      "sha256": "760f3fbac58eafd6ab853b5e9f65261a3887511c46b426d0a09379a0f7f2a974"
+    },
+    "kia_validation/README.md": {
+      "bytes": 12819,
+      "sha256": "0247bf67213155105834d86788d5cdb9f3649d7370f28946386cd2a418d5fb37"
+    },
+    "kia_validation/reproduction_verification.json": {
+      "bytes": 257,
+      "sha256": "060bd32bbc66e060515ecc8ffd1ea9d3f58e0a2d68ac53d8c6ec96e84f7ff44a"
+    },
+    "kia_validation/reserved/foreground_scene_registrations.json": {
+      "bytes": 141227,
+      "sha256": "530a1bbe1c92147ef365482e8bf16b2a176a3e3461f36bc3a913121ca3b989f1"
+    },
+    "kia_validation/reserved/frozen_configuration_used.json": {
+      "bytes": 7645,
+      "sha256": "ae84dbfa7ba6936436b3aa6c94e205b8fbb8873dcd4f701a40129f5e6649deb2"
+    },
+    "kia_validation/reserved/global_scene_registrations.json": {
+      "bytes": 540256,
+      "sha256": "c7058b3966e452cf3cff7518d986f799d126b7b57cb3d9296c661dcdb6a600f4"
+    },
+    "kia_validation/reserved/inference_locations.json": {
+      "bytes": 6418,
+      "sha256": "37f642b6997119fcc2ca11b91c8dc247c76736aedf069fe1f05b73e520a973b3"
+    },
+    "kia_validation/reserved/metrics.json": {
+      "bytes": 570,
+      "sha256": "35ceccb945f56da4ae22bdca39571ddf611aa376a21393a3037dbbfcc21581ec"
+    },
+    "kia_validation/reserved/physical_version_results.csv": {
+      "bytes": 89979,
+      "sha256": "9e231a46b27719a6eba6f3e34613b88a233369ee9764b059ab2d20fefb16cf39"
+    },
+    "kia_validation/reserved/physical_version_results.json": {
+      "bytes": 268765,
+      "sha256": "58252621027cce2599d156584343c9f6428c34611c2a06ba7ddd5e4fa9308adc"
+    },
+    "kia_validation/reserved/predictions.json": {
+      "bytes": 630576,
+      "sha256": "173c48cedfdf5abf8d0bc786de2bc0627af8a8a1644763153ab73bc2ec77c686"
+    },
+    "kia_validation/reserved/protocol.json": {
+      "bytes": 2265,
+      "sha256": "40fa5fe30366a940641fd16b7f5b11cab403044ec540d086aa046c6de2d3f86d"
+    },
+    "kia_validation/reserved/results.csv": {
+      "bytes": 9717,
+      "sha256": "992f7cdccf8a7b1b114dd7c9ff698fbe68c9e94251d1d3fd2a1b1d33c73439df"
+    },
+    "kia_validation/reserved/results.json": {
+      "bytes": 21925,
+      "sha256": "542d740871fc2f60107f7bd4c3ecd2e013ecacdfce0f37d4604a1a5b2fa79578"
+    },
+    "kia_validation/results.csv": {
+      "bytes": 9551,
+      "sha256": "8beda68b5fc98d3d560ce7c60627d7e78f846acffc686c47d8a53c58c226fb28"
+    },
+    "kia_validation/results.json": {
+      "bytes": 19432,
+      "sha256": "b9d69ba7138328c7775578b7be64ed70cddc0e9eaf82c720c6f527694c216a7d"
+    },
+    "kia_validation/runtime.json": {
+      "bytes": 1873,
+      "sha256": "0dafb12b60d4d6792ecfde5db2c5a195a73cc02166cbb23683120e6ba33383dc"
+    },
+    "kia_validation/videos/KiaSportage_100/calibration.mp4": {
+      "bytes": 1201817,
+      "sha256": "026730a93ad781c882365891d2248ce52e0b482e0558fa9d950d2a7569d788e5"
+    },
+    "kia_validation/videos/KiaSportage_100/calibration_example.jpg": {
+      "bytes": 296666,
+      "sha256": "b42d6536fb5041f21a69d854ccc1a4a846a75cf7a650279cc465dc11845c7ea8"
+    },
+    "kia_validation/videos/KiaSportage_100/render_report.json": {
+      "bytes": 685,
+      "sha256": "4b7c9451467f310bf0eb7780263006b10cbb3790f14b888eb97a0c360368c345"
+    },
+    "kia_validation/videos/KiaSportage_100/speed.mp4": {
+      "bytes": 1180114,
+      "sha256": "8eb4e1a8c30f261495ea78ba2ffcfe5fe4ee1e345f054dc3d0b2d3aadc581d0f"
+    },
+    "kia_validation/videos/KiaSportage_100/speed_example.jpg": {
+      "bytes": 294114,
+      "sha256": "8361ab0a0e7e6bc43c5c37bf7fc8e4b4865d214246c6830e824e44f78e35be30"
+    },
+    "kia_validation/videos/KiaSportage_103/calibration.mp4": {
+      "bytes": 1079549,
+      "sha256": "f16e859c63aab77d4d00733c585c43e258edb6ab9d2b128dd3250ec754dcb580"
+    },
+    "kia_validation/videos/KiaSportage_103/calibration_example.jpg": {
+      "bytes": 279279,
+      "sha256": "cf489320398712dc6d4097e14112b16776e92b51c2afec358ebab66b173c2c5a"
+    },
+    "kia_validation/videos/KiaSportage_103/render_report.json": {
+      "bytes": 696,
+      "sha256": "cbd89d4037ac800cab65885846b48b698c0a96f419bd6143b582ad0422785a91"
+    },
+    "kia_validation/videos/KiaSportage_103/speed.mp4": {
+      "bytes": 1066661,
+      "sha256": "4641e3d91a5cf880a6da28d6a7c1157ec9889cde01016518a86c2a0bdf853ff6"
+    },
+    "kia_validation/videos/KiaSportage_103/speed_example.jpg": {
+      "bytes": 277951,
+      "sha256": "f0e04b76a91cadb1a77476e319726b5f7b24d728debc572faf53240021fffbe3"
+    },
+    "kia_validation/videos/KiaSportage_105/calibration.mp4": {
+      "bytes": 1065328,
+      "sha256": "434898cd85364761d13536564941334a6f3e090f12ba0bc5b79c4666f71fa82d"
+    },
+    "kia_validation/videos/KiaSportage_105/calibration_example.jpg": {
+      "bytes": 280771,
+      "sha256": "030d76f1bf3863aec68eb53f793e99691c32cc427a95dd05e101679effa41a6a"
+    },
+    "kia_validation/videos/KiaSportage_105/render_report.json": {
+      "bytes": 665,
+      "sha256": "9e0e66e8c27d9ab0212cd5bba1e3ab2eaf51a42c0723d2626f240b099fa776e6"
+    },
+    "kia_validation/videos/KiaSportage_105/speed.mp4": {
+      "bytes": 1042932,
+      "sha256": "f352c9d46195688806f763c908d52a1773966e0d6c33f8acd5f41ef5ffda9460"
+    },
+    "kia_validation/videos/KiaSportage_105/speed_example.jpg": {
+      "bytes": 280090,
+      "sha256": "e68cc53a07358551f87242bc1d85d904bae3f2c33a72471fafb855165a4bf348"
+    },
+    "kia_validation/videos/KiaSportage_31/calibration.mp4": {
+      "bytes": 1269712,
+      "sha256": "ff75675d0b4914d15154cb9b89036fce1259721fb258714179aed11cf8a6345e"
+    },
+    "kia_validation/videos/KiaSportage_31/calibration_example.jpg": {
+      "bytes": 258106,
+      "sha256": "aa280e4d3281a219b870b185ff69fbbf70a54269d00ed2e24cfd1154e9c9e8e6"
+    },
+    "kia_validation/videos/KiaSportage_31/render_report.json": {
+      "bytes": 677,
+      "sha256": "ebf43a58e310390cc8091385d8895e085f7bc2bdf4e3e1eb61922018e7fb3b76"
+    },
+    "kia_validation/videos/KiaSportage_31/speed.mp4": {
+      "bytes": 1214930,
+      "sha256": "8ade19f203fcc691735728c96751977bc04fb4b0d20f41d19b3fd0043c6a9460"
+    },
+    "kia_validation/videos/KiaSportage_31/speed_example.jpg": {
+      "bytes": 252607,
+      "sha256": "cf17621a279571b5e694d197978db55db1ae17252d3d4aa334fc7e9b78f05605"
+    },
+    "kia_validation/videos/KiaSportage_33/calibration.mp4": {
+      "bytes": 1261929,
+      "sha256": "a0de7ae4ebbe5d4418c774d95547489432beddb6366e390d701c287cb258c3dc"
+    },
+    "kia_validation/videos/KiaSportage_33/calibration_example.jpg": {
+      "bytes": 259481,
+      "sha256": "e9a79de1889508d5bed5ffa1571e7a6a28efd7a73c8044a6050cd137c6b9a818"
+    },
+    "kia_validation/videos/KiaSportage_33/render_report.json": {
+      "bytes": 696,
+      "sha256": "6dc4ad8166991d81624b3e680a2132d9210fa0400e4469dc94728a69404d5b1e"
+    },
+    "kia_validation/videos/KiaSportage_33/speed.mp4": {
+      "bytes": 1206603,
+      "sha256": "e3e28d71e8b28c8d0ffd326c62c02127456d415150bac339fc787419f4dab284"
+    },
+    "kia_validation/videos/KiaSportage_33/speed_example.jpg": {
+      "bytes": 253680,
+      "sha256": "ffdfc876fd298939e6444b3e63948187e550db88defdc5cc3dbff89f98287c3b"
+    },
+    "kia_validation/videos/KiaSportage_35/calibration.mp4": {
+      "bytes": 1244936,
+      "sha256": "dd03f194c7ea7750de972fb2c16dc75dd8e55b899488856d17e8a23777c0524f"
+    },
+    "kia_validation/videos/KiaSportage_35/calibration_example.jpg": {
+      "bytes": 260915,
+      "sha256": "4109eec961b722da5fbda47eb793c0153929eb911126a3cc3677f35fcb24b519"
+    },
+    "kia_validation/videos/KiaSportage_35/render_report.json": {
+      "bytes": 685,
+      "sha256": "475bb6f9a52e790b7eee6f7a5e92fdad99c1d4e97bc8d39d7fc01bc6e4e45fa2"
+    },
+    "kia_validation/videos/KiaSportage_35/speed.mp4": {
+      "bytes": 1190465,
+      "sha256": "796f2a2c3955834c74618dddb8aafc331ff506d6e3f0a3a98a573e4061afa728"
+    },
+    "kia_validation/videos/KiaSportage_35/speed_example.jpg": {
+      "bytes": 256069,
+      "sha256": "6a8741e63c882e305425403b6e6c57d6099d7bce52600978e74c218128bcbeb9"
+    },
+    "kia_validation/videos/KiaSportage_38/calibration.mp4": {
+      "bytes": 1239356,
+      "sha256": "f27d083ef7130301c5f16b9526c5e3a3bf6441b815bbe6f911410d4a59f52b94"
+    },
+    "kia_validation/videos/KiaSportage_38/calibration_example.jpg": {
+      "bytes": 259624,
+      "sha256": "f91337d148dc93f4ecd02a410b2cb72801ef9629c6ae7c1a61d38ab8f9b5fdb0"
+    },
+    "kia_validation/videos/KiaSportage_38/render_report.json": {
+      "bytes": 685,
+      "sha256": "e34ad3cc76fafe4394116bb018cdd8e17b5e426a64c2b02be18a90fa335d1aaa"
+    },
+    "kia_validation/videos/KiaSportage_38/speed.mp4": {
+      "bytes": 1181686,
+      "sha256": "02a3bf54a344d9b219e94967f0c505d3e4afc8ae028774234b015e1f85dd7149"
+    },
+    "kia_validation/videos/KiaSportage_38/speed_example.jpg": {
+      "bytes": 253955,
+      "sha256": "8b0531591bc04daceddd2b430d059bef3483c412d531f707253fcafbb07ddfb5"
+    },
+    "kia_validation/videos/KiaSportage_41/calibration.mp4": {
+      "bytes": 1247474,
+      "sha256": "89158953a9c4269dba0ff2ec551d3d1843e8cb8058ce8df6a5eea5866cbac583"
+    },
+    "kia_validation/videos/KiaSportage_41/calibration_example.jpg": {
+      "bytes": 257170,
+      "sha256": "67ce6999cced1948946341ba3e9b51e4f6b615bafdc3506696383690ab106aef"
+    },
+    "kia_validation/videos/KiaSportage_41/render_report.json": {
+      "bytes": 685,
+      "sha256": "aac2f098c16bab7c7182e1bfb46530062bc9acee5a878a65f828cf087c06e70b"
+    },
+    "kia_validation/videos/KiaSportage_41/speed.mp4": {
+      "bytes": 1190383,
+      "sha256": "5cb2faec950e25c2f233eba9c60d6691cfdbdc4b8c9e318607380cc9780092eb"
+    },
+    "kia_validation/videos/KiaSportage_41/speed_example.jpg": {
+      "bytes": 251371,
+      "sha256": "4f427b6ea2cb407d9904676a2be5c2f1b2fda742161c96bf4c412c582f38ec5f"
+    },
+    "kia_validation/videos/KiaSportage_44/calibration.mp4": {
+      "bytes": 1158083,
+      "sha256": "311ac3821869e482fb9dec7b668e7ca9ba84cd4b3d0cc080d11d05652d42a23a"
+    },
+    "kia_validation/videos/KiaSportage_44/calibration_example.jpg": {
+      "bytes": 258802,
+      "sha256": "3ef8e1c1cf84f007a98c33b652fe8c9565422af53946b058b8bc36fad01ca18a"
+    },
+    "kia_validation/videos/KiaSportage_44/render_report.json": {
+      "bytes": 666,
+      "sha256": "e5e9d13222553fa6d5d9ba29b280cdeb7ac5ee3f3d4d66c6056f1cd00890c97d"
+    },
+    "kia_validation/videos/KiaSportage_44/speed.mp4": {
+      "bytes": 1102754,
+      "sha256": "02f0157228bd2c7a8cfdaa045c2fbfca2f2d287fe9bbc5e079d01e2e500765bf"
+    },
+    "kia_validation/videos/KiaSportage_44/speed_example.jpg": {
+      "bytes": 253708,
+      "sha256": "62ae8a2d6ef307c32345193cef6629aebe3a8501cc6f937fbf121cc9cdadbe33"
+    },
+    "kia_validation/videos/KiaSportage_46/calibration.mp4": {
+      "bytes": 1220570,
+      "sha256": "d09d5fb5721b0b02e4ab7da6afec01eb8eb6e078bb3f00b387ea34694c7f3b68"
+    },
+    "kia_validation/videos/KiaSportage_46/calibration_example.jpg": {
+      "bytes": 266257,
+      "sha256": "d74d7555ba2f9780d44015a2b04eca5996a382308e7d4e9fcce1420a510cb89d"
+    },
+    "kia_validation/videos/KiaSportage_46/render_report.json": {
+      "bytes": 685,
+      "sha256": "788bdf85fff72bbcae9dc3ae8c372234fa4488cff85ec8013b04eaba6262a150"
+    },
+    "kia_validation/videos/KiaSportage_46/speed.mp4": {
+      "bytes": 1167102,
+      "sha256": "826726178958ea77f7de4adef61db0ec63db6e03082f4f4aa773b6b13c3face0"
+    },
+    "kia_validation/videos/KiaSportage_46/speed_example.jpg": {
+      "bytes": 260397,
+      "sha256": "892098895d21c9eb976fa63c3101fa14ac1eff694f4adba5ddac771bb5c9bec0"
+    },
+    "kia_validation/videos/KiaSportage_48/calibration.mp4": {
+      "bytes": 1160954,
+      "sha256": "1a461858c05301c923fc3e68d89ebba9354e267bc8c8317337f4896e79cfd6db"
+    },
+    "kia_validation/videos/KiaSportage_48/calibration_example.jpg": {
+      "bytes": 256574,
+      "sha256": "56809732bbd0270d683e5b026aa31235b82896891bbb9caf151fb4add53e857c"
+    },
+    "kia_validation/videos/KiaSportage_48/render_report.json": {
+      "bytes": 696,
+      "sha256": "081d5ebfd39ae50cd1cd02085b81cf55aeeb93023271c3a09deb4ae9b716b909"
+    },
+    "kia_validation/videos/KiaSportage_48/speed.mp4": {
+      "bytes": 1112564,
+      "sha256": "ce9aadeeb3b3add98cb7a18f2cd784388448f7b888203325d62a80c1a4aaed7a"
+    },
+    "kia_validation/videos/KiaSportage_48/speed_example.jpg": {
+      "bytes": 251572,
+      "sha256": "4bae56371a27540d0e7ef0e9e885e18c0c7c63f633f5039c93886b85170df157"
+    },
+    "kia_validation/videos/KiaSportage_51/calibration.mp4": {
+      "bytes": 1227222,
+      "sha256": "d724fc6dab45dd7a53f112bb4300909d4f5367f1b5c234184b4d9cfaf9aaabc9"
+    },
+    "kia_validation/videos/KiaSportage_51/calibration_example.jpg": {
+      "bytes": 262556,
+      "sha256": "5ca258c05dad2e5ab018d5d5a001934c5244698a719bf01397c4db1109cc23a7"
+    },
+    "kia_validation/videos/KiaSportage_51/render_report.json": {
+      "bytes": 696,
+      "sha256": "64c2791e04636f911c10e5dd256529fb6a3c802611aca9f2d67a26b5f3286f40"
+    },
+    "kia_validation/videos/KiaSportage_51/speed.mp4": {
+      "bytes": 1182971,
+      "sha256": "8482c97c1230cd422cf5a61263466c84ee9fd4547a91534f283423721a39f4a6"
+    },
+    "kia_validation/videos/KiaSportage_51/speed_example.jpg": {
+      "bytes": 257317,
+      "sha256": "3772f8649124c0a2b4f8f160518521123cbc4a28560fcb426cdf465ee2578689"
+    },
+    "kia_validation/videos/KiaSportage_53/calibration.mp4": {
+      "bytes": 1186450,
+      "sha256": "ae1bb8da2fa3fcd391f6d0dd789d57fea0b978d5e65cb7a9f66e753be19868df"
+    },
+    "kia_validation/videos/KiaSportage_53/calibration_example.jpg": {
+      "bytes": 275939,
+      "sha256": "11d6a960878b04772111b9b0aace879720d0befd1b31d3f4b9eadf49c231b149"
+    },
+    "kia_validation/videos/KiaSportage_53/render_report.json": {
+      "bytes": 685,
+      "sha256": "4b1081fe2e88bea1b783dcd0a7ed51f6aa5afbd2684c2a036e94d82ac4f4e470"
+    },
+    "kia_validation/videos/KiaSportage_53/speed.mp4": {
+      "bytes": 1141648,
+      "sha256": "0979eb56b1b6d24cef8bf2644b5249d7761c930448908dbd661bbb0ed479596f"
+    },
+    "kia_validation/videos/KiaSportage_53/speed_example.jpg": {
+      "bytes": 270949,
+      "sha256": "317e49431cee941806a239bc3c90b87962faa4112c162f2c5e135bbf2684b3ed"
+    },
+    "kia_validation/videos/KiaSportage_55/calibration.mp4": {
+      "bytes": 1434951,
+      "sha256": "1bf41dda9fe633fed7ec58086f88b54f0955a6813e2d269b300bf0dab950e5d6"
+    },
+    "kia_validation/videos/KiaSportage_55/calibration_example.jpg": {
+      "bytes": 305398,
+      "sha256": "741861830a545e4e7f167b827d6a4c8d2a48781277f628c048acff3e1b4964cf"
+    },
+    "kia_validation/videos/KiaSportage_55/render_report.json": {
+      "bytes": 677,
+      "sha256": "448df4e3a469b2dd6b003cccdfbfe583cbcb16d0e6ee98e7048d9766cee036eb"
+    },
+    "kia_validation/videos/KiaSportage_55/speed.mp4": {
+      "bytes": 1383371,
+      "sha256": "d21b3a73ea57da36ce2cfbdb298c9d94f63294426d3332d511e1287775ba00ff"
+    },
+    "kia_validation/videos/KiaSportage_55/speed_example.jpg": {
+      "bytes": 301232,
+      "sha256": "74cc2363be568ea157e75cc74bcb477409fc43766366fddd4186bb7aac2507d5"
+    },
+    "kia_validation/videos/KiaSportage_58/calibration.mp4": {
+      "bytes": 1300799,
+      "sha256": "dcb7e7192ff7c3023f9698950045d320bcbffabe21fa47eb6a5795ed55abb282"
+    },
+    "kia_validation/videos/KiaSportage_58/calibration_example.jpg": {
+      "bytes": 297777,
+      "sha256": "b1b067c790dde1859569d80964b96d34564d6de6c34f48df9f8291042ccb4a2f"
+    },
+    "kia_validation/videos/KiaSportage_58/render_report.json": {
+      "bytes": 696,
+      "sha256": "09b4d829f3332987f26a11bd9ded1a131fd60da55af84846f6288352324533bd"
+    },
+    "kia_validation/videos/KiaSportage_58/speed.mp4": {
+      "bytes": 1259702,
+      "sha256": "083bf663d75cb8907fb7bc32f586c1b397e4929ecb464be511c04dab3ba6ac36"
+    },
+    "kia_validation/videos/KiaSportage_58/speed_example.jpg": {
+      "bytes": 292549,
+      "sha256": "0f88a34934177e7c2906688a968b155610b501721407c0fd7246aec1c4f9ed90"
+    },
+    "kia_validation/videos/KiaSportage_61/calibration.mp4": {
+      "bytes": 1361640,
+      "sha256": "6fc178549930955f4f58625bc669280bc05618e76b973b94acc6cad1c9dfdc4b"
+    },
+    "kia_validation/videos/KiaSportage_61/calibration_example.jpg": {
+      "bytes": 286330,
+      "sha256": "322e69d31ba153ab8186d40e8ad3724c028bd854a730afcd3397ccbc7aae7d24"
+    },
+    "kia_validation/videos/KiaSportage_61/render_report.json": {
+      "bytes": 696,
+      "sha256": "b40d10c908735859b43922619743a513033deb8f0376e89d75815f550f84a187"
+    },
+    "kia_validation/videos/KiaSportage_61/speed.mp4": {
+      "bytes": 1322964,
+      "sha256": "bedf99a69caff16d1b315e030984710a92f73f1f789a882ae20aa22fc2b22f87"
+    },
+    "kia_validation/videos/KiaSportage_61/speed_example.jpg": {
+      "bytes": 281598,
+      "sha256": "77cbf2b67d651285785c74db33417c31ec37e200a2b5857a984685e963047d5a"
+    },
+    "kia_validation/videos/KiaSportage_63/calibration.mp4": {
+      "bytes": 1428632,
+      "sha256": "155ec836b9e03888aa70960d2c72a728afde862f3e76d7b9c9f5e77cf80a358e"
+    },
+    "kia_validation/videos/KiaSportage_63/calibration_example.jpg": {
+      "bytes": 313363,
+      "sha256": "6bea6d78c08f6318173b2e23e0cd5ca271cb99508fc5201050ab8de8c3e406bc"
+    },
+    "kia_validation/videos/KiaSportage_63/render_report.json": {
+      "bytes": 684,
+      "sha256": "b47542d73de1fc136acaadbdef4a2c551f5daca6df31063db0f95cc480e347f0"
+    },
+    "kia_validation/videos/KiaSportage_63/speed.mp4": {
+      "bytes": 1396856,
+      "sha256": "ee0aadc32b237a0df5100a8e818b9c0199d0f3cbda3e2fc17c48e00d7a07ad3f"
+    },
+    "kia_validation/videos/KiaSportage_63/speed_example.jpg": {
+      "bytes": 309346,
+      "sha256": "d4980364a03a00a2ef46ad557f565c8c56d5ed9c001d202ad0186d86517500b1"
+    },
+    "kia_validation/videos/KiaSportage_65/calibration.mp4": {
+      "bytes": 1178557,
+      "sha256": "31691da3431fd8fa37a2314a11eb95d2717311c37a52bf19ee6a289ced6b19a9"
+    },
+    "kia_validation/videos/KiaSportage_65/calibration_example.jpg": {
+      "bytes": 264586,
+      "sha256": "3def1e6d2d6b9f0beb59fbbbb85bb74cda38d95a58e3f805594bac93ed5accb6"
+    },
+    "kia_validation/videos/KiaSportage_65/render_report.json": {
+      "bytes": 677,
+      "sha256": "89166e3370e697a4a79452b3c396e9781357c009979811bdc80632a8916d9297"
+    },
+    "kia_validation/videos/KiaSportage_65/speed.mp4": {
+      "bytes": 1134496,
+      "sha256": "6a96f2be9752c1db9ce74e663e9d085ab004bc42c5c5dd50f2983f60fba1fef6"
+    },
+    "kia_validation/videos/KiaSportage_65/speed_example.jpg": {
+      "bytes": 259546,
+      "sha256": "fd8f33075435b31f99c022731890e0cb3d06c32090b64d02710e99e99b523f4a"
+    },
+    "kia_validation/videos/KiaSportage_68/calibration.mp4": {
+      "bytes": 1197795,
+      "sha256": "4a6c964e272b183fba4dbcbacb803515695d390e7f7376c0dbd4206bfa7e5a8d"
+    },
+    "kia_validation/videos/KiaSportage_68/calibration_example.jpg": {
+      "bytes": 286099,
+      "sha256": "6abd114aa447711960937e6c5d99e6a0ffdd01a3caf68bf7b362d7d2a621dc31"
+    },
+    "kia_validation/videos/KiaSportage_68/render_report.json": {
+      "bytes": 685,
+      "sha256": "2d143b44ebb19c4887ea38b2052263cf6869a09bc7bf4fedbefd3a9f32cee20f"
+    },
+    "kia_validation/videos/KiaSportage_68/speed.mp4": {
+      "bytes": 1159788,
+      "sha256": "6b5b396c58f70113174d69938d7079a98e6d8f98485ce83885fe38a417af1b19"
+    },
+    "kia_validation/videos/KiaSportage_68/speed_example.jpg": {
+      "bytes": 280922,
+      "sha256": "723ae5f65cd658e38501f8dce099e78d94a7140dd180581dce81f1e781cec30a"
+    },
+    "kia_validation/videos/KiaSportage_69/calibration.mp4": {
+      "bytes": 1268308,
+      "sha256": "2382271b7bf30e49be42ad40d4efbc754fdafbacce2df895dc2fc405850fe314"
+    },
+    "kia_validation/videos/KiaSportage_69/calibration_example.jpg": {
+      "bytes": 287939,
+      "sha256": "b4258387ad3d6484175feadd55ef2f599619c80d1af6d5eb929f3e68e45e0c27"
+    },
+    "kia_validation/videos/KiaSportage_69/render_report.json": {
+      "bytes": 696,
+      "sha256": "a01df49f78c51b489028579c714dfd6bfe7e409d0944640f9fea0474a482c8d8"
+    },
+    "kia_validation/videos/KiaSportage_69/speed.mp4": {
+      "bytes": 1235402,
+      "sha256": "627ab6e268a174c17e696868cbdb93e67bf36881e67a635ef1fc75a4bc5f5ad4"
+    },
+    "kia_validation/videos/KiaSportage_69/speed_example.jpg": {
+      "bytes": 282852,
+      "sha256": "b8846ab5c9ed3c0d13a2359c5739bf7370d3b50e1029126132be44714cf38bb6"
+    },
+    "kia_validation/videos/KiaSportage_72/calibration.mp4": {
+      "bytes": 1195226,
+      "sha256": "38f093113a1fe109eeb58441a04c5744d28fb447876382aace0e564d88f4057d"
+    },
+    "kia_validation/videos/KiaSportage_72/calibration_example.jpg": {
+      "bytes": 277476,
+      "sha256": "71ffb340b91930282f095d2c6121f6f374bae121e7f927b1ff1c3939c880b8b7"
+    },
+    "kia_validation/videos/KiaSportage_72/render_report.json": {
+      "bytes": 696,
+      "sha256": "9fa61968e870f39473bf87c802e4323eb8485a973f8bfa485a496dabf2cf7ca9"
+    },
+    "kia_validation/videos/KiaSportage_72/speed.mp4": {
+      "bytes": 1161022,
+      "sha256": "bdc90418dbcd6a3d5c59532850e444645f132416eeb01536d8c1f67028d0fc56"
+    },
+    "kia_validation/videos/KiaSportage_72/speed_example.jpg": {
+      "bytes": 273047,
+      "sha256": "1de6b46ed23621ebf686b00bd0d5dc93e427ab6f73b08d90fd166d8ac6580df5"
+    },
+    "kia_validation/videos/KiaSportage_74/calibration.mp4": {
+      "bytes": 1090837,
+      "sha256": "f0e29957f06c2789829a3f7d6fcf084e779cdcc43e9652af269edb15a82effe0"
+    },
+    "kia_validation/videos/KiaSportage_74/calibration_example.jpg": {
+      "bytes": 262226,
+      "sha256": "30555d6970f83c921c3b37e0b240379647e7e9e90a44c374bebf61aa917664b9"
+    },
+    "kia_validation/videos/KiaSportage_74/render_report.json": {
+      "bytes": 696,
+      "sha256": "e27aacdb61a98ae09019562e83dacbb44da95a0cf47b8b8c9706107a0a2bfe9a"
+    },
+    "kia_validation/videos/KiaSportage_74/speed.mp4": {
+      "bytes": 1057000,
+      "sha256": "07815bb00fac6af070cfaac7e38e01a1c8f921106d390608e13bdd0e4db73440"
+    },
+    "kia_validation/videos/KiaSportage_74/speed_example.jpg": {
+      "bytes": 258339,
+      "sha256": "bd7f0267c4fe36118b48413b23732364e9cd47f7250c720efb735c2347ea9d0a"
+    },
+    "kia_validation/videos/KiaSportage_77/calibration.mp4": {
+      "bytes": 1115006,
+      "sha256": "c5624bb18a9ee6ea7e71e1b31e5454067263498ab9c352d79d8797a6a20fe42d"
+    },
+    "kia_validation/videos/KiaSportage_77/calibration_example.jpg": {
+      "bytes": 248198,
+      "sha256": "2f786b86167289d51f5433b174db5b1c5cffab64b47902081f096dad8be698c9"
+    },
+    "kia_validation/videos/KiaSportage_77/render_report.json": {
+      "bytes": 665,
+      "sha256": "785387586090e87784390d5c3bab724cab6446419cf6ea957057d622708ac889"
+    },
+    "kia_validation/videos/KiaSportage_77/speed.mp4": {
+      "bytes": 1081675,
+      "sha256": "2a6c97d4ed10e90b573940c176e095d83112d2e84a01daf903dc32f96785bd96"
+    },
+    "kia_validation/videos/KiaSportage_77/speed_example.jpg": {
+      "bytes": 242850,
+      "sha256": "735f6f9cb28d01e7e8b768d4e70525f20ae023886610dff78972f8bf7cef73f4"
+    },
+    "kia_validation/videos/KiaSportage_78/calibration.mp4": {
+      "bytes": 1107451,
+      "sha256": "34b14bc6f6f994f483f0421f24dc246812136757691cf1d29f5e87841d79b383"
+    },
+    "kia_validation/videos/KiaSportage_78/calibration_example.jpg": {
+      "bytes": 263138,
+      "sha256": "25674d8c5c0fb446ba813c8c6a98f2f24b2bca2495f9b4ed4beae47113550d06"
+    },
+    "kia_validation/videos/KiaSportage_78/render_report.json": {
+      "bytes": 685,
+      "sha256": "f0a02c6baa0a92e74a2d190c8504d9128a854238dd2a00da2914d004f2b33b56"
+    },
+    "kia_validation/videos/KiaSportage_78/speed.mp4": {
+      "bytes": 1080914,
+      "sha256": "9408afb0cb791d02154a1bc488f0dd4b30ea4a8feabe60aab69185aadffda297"
+    },
+    "kia_validation/videos/KiaSportage_78/speed_example.jpg": {
+      "bytes": 258816,
+      "sha256": "5c95f94cf7925b1e446a1348e6e3121f0d8ac1b5d48cb63d64065b38deb32333"
+    },
+    "kia_validation/videos/KiaSportage_80/calibration.mp4": {
+      "bytes": 1139496,
+      "sha256": "db3e4afe03b61afec4ad45290234a2ae8b110e92ff4111d0dedbf4d7ad85fed3"
+    },
+    "kia_validation/videos/KiaSportage_80/calibration_example.jpg": {
+      "bytes": 269883,
+      "sha256": "9287fdffdd4b5a91012dc898607a036cf50623ede4efbca16f82c4c245f86aa9"
+    },
+    "kia_validation/videos/KiaSportage_80/render_report.json": {
+      "bytes": 696,
+      "sha256": "0fc0feca2434273876fdd1d128917dd8e4db13a333712d61bc0591b4df384265"
+    },
+    "kia_validation/videos/KiaSportage_80/speed.mp4": {
+      "bytes": 1100865,
+      "sha256": "37ab2014d9828242fd8cbdcc4b1ee1ae47811b1e0c1f11a71d106c2cc89589d8"
+    },
+    "kia_validation/videos/KiaSportage_80/speed_example.jpg": {
+      "bytes": 265530,
+      "sha256": "474bef4f72a33e626f2597ff083276af75b65ebdc14a773bfc85a34ca7eb6cc0"
+    },
+    "kia_validation/videos/KiaSportage_83/calibration.mp4": {
+      "bytes": 987582,
+      "sha256": "b80998758bb86f1fdc8096484634f7f3041083ac72137c016bd44acfb686aca9"
+    },
+    "kia_validation/videos/KiaSportage_83/calibration_example.jpg": {
+      "bytes": 242457,
+      "sha256": "8240db4775a0b2ef8b96aa0a323ed856353bc98ca99ffe56a6d09a6efceb2c4d"
+    },
+    "kia_validation/videos/KiaSportage_83/render_report.json": {
+      "bytes": 685,
+      "sha256": "b63c93aa8ec06c3ee402b14c72893848ecbe5da34332ed95dbf4d59bb8700b75"
+    },
+    "kia_validation/videos/KiaSportage_83/speed.mp4": {
+      "bytes": 959839,
+      "sha256": "3ec854195761613d11644c7b6802ff4d751a7a7858b2c129591a6dd0bf2864bc"
+    },
+    "kia_validation/videos/KiaSportage_83/speed_example.jpg": {
+      "bytes": 237588,
+      "sha256": "2a4cf3b95641c6fd5d2e6609064f0f17ae491804459d4e28364a047630942942"
+    },
+    "kia_validation/videos/KiaSportage_85/calibration.mp4": {
+      "bytes": 1006030,
+      "sha256": "97d3bc9bdbe5e9b3f2a8e468cfbed6865bacf59713bc9910af0728141991d6e5"
+    },
+    "kia_validation/videos/KiaSportage_85/calibration_example.jpg": {
+      "bytes": 257570,
+      "sha256": "4514ea8236d05d2fba0c024907268a8db8f205ab79f6f44207956dd27152a0c5"
+    },
+    "kia_validation/videos/KiaSportage_85/render_report.json": {
+      "bytes": 677,
+      "sha256": "e95b7d4fee67d2b728aa82f18da1cb54d92e447ab5b73843f1b7baef70253a8a"
+    },
+    "kia_validation/videos/KiaSportage_85/speed.mp4": {
+      "bytes": 973275,
+      "sha256": "4efad5e2d2269b32aa16ea6de1f1bcbe202ff9d4c37a866e0a34bb1d2ddd5509"
+    },
+    "kia_validation/videos/KiaSportage_85/speed_example.jpg": {
+      "bytes": 253372,
+      "sha256": "71709b7c3db5b9452b9018e98e62badbc31d3035b12198039f405630c7d2cae5"
+    },
+    "kia_validation/videos/KiaSportage_86/calibration.mp4": {
+      "bytes": 1219968,
+      "sha256": "c81263dbb1db360e2dddd1c836a969ada5cc079f9559ff67bbdc542a3b34e076"
+    },
+    "kia_validation/videos/KiaSportage_86/calibration_example.jpg": {
+      "bytes": 293868,
+      "sha256": "77ec311eb57cfd237afe13574203cde3535c79b7ae653868fab31c8475176092"
+    },
+    "kia_validation/videos/KiaSportage_86/render_report.json": {
+      "bytes": 696,
+      "sha256": "0498017459128787e96129ba9f33ec4793220483228743969abf1b75014e3c5f"
+    },
+    "kia_validation/videos/KiaSportage_86/speed.mp4": {
+      "bytes": 1199811,
+      "sha256": "ee2546b6d6faceb51fc40e8ade8cae7628ec9b48ae28023b55d343207053bbc7"
+    },
+    "kia_validation/videos/KiaSportage_86/speed_example.jpg": {
+      "bytes": 289125,
+      "sha256": "5f771133c4da8265469dd242c3de7afd4d1388ae8a2cd3591c5659f3fd97b6eb"
+    },
+    "kia_validation/videos/KiaSportage_89/calibration.mp4": {
+      "bytes": 1409672,
+      "sha256": "ada93d205b8fc07ecc9ad0e7b31abf859704c9370eb3266903dbbf5d294c1e56"
+    },
+    "kia_validation/videos/KiaSportage_89/calibration_example.jpg": {
+      "bytes": 291476,
+      "sha256": "5a6af3a31c22f4aa128350cdd14d5dd666a4fdc8514fedca4a21d463bec941aa"
+    },
+    "kia_validation/videos/KiaSportage_89/render_report.json": {
+      "bytes": 684,
+      "sha256": "0dd078d01fbd273a78fd091de0743e91d2dfa093c9bad25a034ccf9ce3771369"
+    },
+    "kia_validation/videos/KiaSportage_89/speed.mp4": {
+      "bytes": 1373354,
+      "sha256": "d80a140d0078197fd229baedbdc76553f6f6a94ba264e8365fbb4f639dd79aad"
+    },
+    "kia_validation/videos/KiaSportage_89/speed_example.jpg": {
+      "bytes": 287538,
+      "sha256": "ee702e829e99c7fa21a1d3e5daaa530d217cbab914492bb2e0fe4ed719be578f"
+    },
+    "kia_validation/videos/KiaSportage_91/calibration.mp4": {
+      "bytes": 1136050,
+      "sha256": "b6b111443890a0cee70bde196a3e4abf690c5aab4a3e6c13278df10f4815e4e4"
+    },
+    "kia_validation/videos/KiaSportage_91/calibration_example.jpg": {
+      "bytes": 291058,
+      "sha256": "942fed24be28b6d278d0b67a93cf7f381f26c89482b76063de5d247d92ef4b94"
+    },
+    "kia_validation/videos/KiaSportage_91/render_report.json": {
+      "bytes": 685,
+      "sha256": "f750c4738dc3f00ffd863cd3fe8f89c0f1fccc8924863025a267e25313129501"
+    },
+    "kia_validation/videos/KiaSportage_91/speed.mp4": {
+      "bytes": 1103347,
+      "sha256": "a8e720bd1c03d2ec14acb80a31124428957ff0fdac743091d3da3e328e690f91"
+    },
+    "kia_validation/videos/KiaSportage_91/speed_example.jpg": {
+      "bytes": 285935,
+      "sha256": "71bd751f6abe5aaeca4c674c611c73099b9dfdde994d2590578d586c3d0b7e91"
+    },
+    "kia_validation/videos/KiaSportage_93/calibration.mp4": {
+      "bytes": 1161039,
+      "sha256": "cf0d4e8aff1e437d24198a748e6345dad62e0ad27cd50518fa761cb5d939d7fb"
+    },
+    "kia_validation/videos/KiaSportage_93/calibration_example.jpg": {
+      "bytes": 292159,
+      "sha256": "36109e337ef4061632eafbeff3bfeef2dca1ee86315581443308ffe6f84ffe80"
+    },
+    "kia_validation/videos/KiaSportage_93/render_report.json": {
+      "bytes": 685,
+      "sha256": "6477a2e84e8d46065b600559ee6df78cb4618b8c4583d7cbc9f8a7fcdccab476"
+    },
+    "kia_validation/videos/KiaSportage_93/speed.mp4": {
+      "bytes": 1128734,
+      "sha256": "d82bb55897eec738628b169b05e7b6c9f6634c9cb743e26d8acdcf1be8753c1d"
+    },
+    "kia_validation/videos/KiaSportage_93/speed_example.jpg": {
+      "bytes": 288559,
+      "sha256": "bfc7aeb42cea02033fbc175329e48a9fe1d7150e383acc59dee8c667f3e254e4"
+    },
+    "kia_validation/videos/KiaSportage_96/calibration.mp4": {
+      "bytes": 1200081,
+      "sha256": "480433cd771ee56e95402605073ef3d1ca51c9da854de43fc7c708e871992dd3"
+    },
+    "kia_validation/videos/KiaSportage_96/calibration_example.jpg": {
+      "bytes": 291018,
+      "sha256": "f3dba7e162c8407669eef6a2dfc6cb94abdd2d2499f9bf9ba74305cf03f9fd4d"
+    },
+    "kia_validation/videos/KiaSportage_96/render_report.json": {
+      "bytes": 677,
+      "sha256": "96d107210042be904b432a8a55f2fcbf007a68cab160ed0d5904eef519d00022"
+    },
+    "kia_validation/videos/KiaSportage_96/speed.mp4": {
+      "bytes": 1173415,
+      "sha256": "35ca21fc0796a36912906da6f0d89ca746f2b11093611823f3421dc3f970d232"
+    },
+    "kia_validation/videos/KiaSportage_96/speed_example.jpg": {
+      "bytes": 288438,
+      "sha256": "9c4c52b36e1b7b733349cfc58cffd824914f56f26f5667102d001ae0ef2dda0b"
+    },
+    "kia_validation/videos/KiaSportage_98/calibration.mp4": {
+      "bytes": 1139441,
+      "sha256": "51b58bd0d35fdd277ce7a0ace80f8e1871be7b593111cc117a6576b5c2eb8447"
+    },
+    "kia_validation/videos/KiaSportage_98/calibration_example.jpg": {
+      "bytes": 297832,
+      "sha256": "49e13a429f2835acb3f6d52f88b3ddcb3757d4bb6ada46cf0de35eba4a4014b8"
+    },
+    "kia_validation/videos/KiaSportage_98/render_report.json": {
+      "bytes": 685,
+      "sha256": "3fdaa6c042ee46e14c78ec63c606333cbed3f4ac54cca66f7c4111f34f97fd2b"
+    },
+    "kia_validation/videos/KiaSportage_98/speed.mp4": {
+      "bytes": 1113191,
+      "sha256": "b9326832187715104dbc19035aa5df83f7875f1608395f0a5af1017729e69c4b"
+    },
+    "kia_validation/videos/KiaSportage_98/speed_example.jpg": {
+      "bytes": 295069,
+      "sha256": "7cbd25708acdfa2c3c7d3058e57556b9217da478c20d45f2d8f708772d3a1ad2"
+    },
     "mercedes_validation/artifact_verification.json": {
       "bytes": 14355,
       "sha256": "30718fcae622a2d23a63b465b5d4b03f2e5d659aaeae07254d527f33dcf6f2eb"
@@ -3672,8 +7199,8 @@
       "sha256": "46948483da8bba6f676f1b3c766ac1f80033c4938d3c94a656d59dd2d6898fa0"
     },
     "README.md": {
-      "bytes": 5070,
-      "sha256": "96ea7883ba668aadcd276e6279d84c6222dcc7ce14d3bad93fc3bf2ec2049b1e"
+      "bytes": 5477,
+      "sha256": "a66bcb0366fcfc416965a6a16e19d45d239f09421e546efc50d22baf383d5b94"
     },
     "render_report.json": {
       "bytes": 315,
@@ -3796,5 +7323,69 @@
     },
     "report": "calibration_comparison/README.md",
     "checks": "calibration_comparison/artifact_verification.json"
+  },
+  "kia_validation": {
+    "clips": 33,
+    "development_clips": 8,
+    "reserved_clips": 25,
+    "raw_geometry_model_versions": 24,
+    "adaptation_configurations": 14,
+    "calibration_videos": 33,
+    "speed_videos": 33,
+    "selected_method": "geometry_ensemble_50",
+    "configuration_frozen_commit": "cbc2711",
+    "test_reference_excluded": true,
+    "reserved_references_used_for_calibration_or_selection": false,
+    "vehicle_specific_reference_calibration": true,
+    "network_weights_fine_tuned": false,
+    "accuracy_target_met": false,
+    "reserved_metrics": {
+      "before": {
+        "clips": 25,
+        "estimated": 25,
+        "mae_kmh": 3.8129949709891333,
+        "rmse_kmh": 5.478821171580773,
+        "bias_kmh": 3.206518303100016,
+        "maximum_absolute_error_kmh": 18.853307466057657,
+        "within_2_kmh": 11,
+        "errors_over_10_kmh": 1
+      },
+      "after": {
+        "clips": 25,
+        "estimated": 25,
+        "mae_kmh": 2.36220236102349,
+        "rmse_kmh": 2.8076984168031474,
+        "bias_kmh": 0.4218105152250902,
+        "maximum_absolute_error_kmh": 7.280714051536464,
+        "within_2_kmh": 13,
+        "errors_over_10_kmh": 0
+      }
+    },
+    "all_33_metrics": {
+      "before": {
+        "clips": 33,
+        "estimated": 33,
+        "mae_kmh": 4.579642144294601,
+        "rmse_kmh": 7.541282276132356,
+        "bias_kmh": 4.048472416828678,
+        "maximum_absolute_error_kmh": 31.651382515028672,
+        "within_2_kmh": 13,
+        "errors_over_10_kmh": 2
+      },
+      "after": {
+        "clips": 33,
+        "estimated": 33,
+        "mae_kmh": 2.074352658602528,
+        "rmse_kmh": 2.5325158170361664,
+        "bias_kmh": 0.23051437270228223,
+        "maximum_absolute_error_kmh": 7.280714051536464,
+        "within_2_kmh": 20,
+        "errors_over_10_kmh": 0
+      }
+    },
+    "local_vs_kaggle_maximum_prediction_difference_kmh": 0,
+    "report": "kia_validation/README.md",
+    "checks": "kia_validation/artifact_verification.json",
+    "patterns": "kia_validation/PATTERNS.md"
   }
 }

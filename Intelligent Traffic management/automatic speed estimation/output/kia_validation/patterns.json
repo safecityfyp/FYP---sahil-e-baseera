@@ -1,0 +1,69 @@
+{
+  "before_by_speed": {
+    "below_50": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 1.4643122359790604,
+      "rmse_kmh": 1.6542862256178368,
+      "bias_kmh": 1.039027297536515,
+      "maximum_absolute_error_kmh": 2.942011046836676,
+      "within_2_kmh": 6,
+      "errors_over_10_kmh": 0
+    },
+    "50_to_79": {
+      "clips": 13,
+      "estimated": 13,
+      "mae_kmh": 3.71314992926142,
+      "rmse_kmh": 4.3707495129064515,
+      "bias_kmh": 3.71314992926142,
+      "maximum_absolute_error_kmh": 7.444617175728638,
+      "within_2_kmh": 4,
+      "errors_over_10_kmh": 0
+    },
+    "80_plus": {
+      "clips": 12,
+      "estimated": 12,
+      "mae_kmh": 7.5952286494575745,
+      "rmse_kmh": 11.570446533678584,
+      "bias_kmh": 6.418035191221314,
+      "maximum_absolute_error_kmh": 31.651382515028672,
+      "within_2_kmh": 3,
+      "errors_over_10_kmh": 2
+    }
+  },
+  "after_by_speed": {
+    "below_50": {
+      "clips": 8,
+      "estimated": 8,
+      "mae_kmh": 1.6240817669323757,
+      "rmse_kmh": 1.721178103119514,
+      "bias_kmh": -0.3072438052356503,
+      "maximum_absolute_error_kmh": 2.66687772163737,
+      "within_2_kmh": 6,
+      "errors_over_10_kmh": 0
+    },
+    "50_to_79": {
+      "clips": 13,
+      "estimated": 13,
+      "mae_kmh": 2.2190310850162707,
+      "rmse_kmh": 2.877651553955717,
+      "bias_kmh": 0.992494828489256,
+      "maximum_absolute_error_kmh": 7.280714051536464,
+      "within_2_kmh": 8,
+      "errors_over_10_kmh": 0
+    },
+    "80_plus": {
+      "clips": 12,
+      "estimated": 12,
+      "mae_kmh": 2.2177982911010736,
+      "rmse_kmh": 2.586808642544458,
+      "bias_kmh": -0.236459002441651,
+      "maximum_absolute_error_kmh": 5.368815779526869,
+      "within_2_kmh": 6,
+      "errors_over_10_kmh": 0
+    }
+  },
+  "speed_absolute_error_correlation_before": 0.4962008253298932,
+  "speed_absolute_error_correlation_after": 0.10780309603782372,
+  "scope": "Descriptive diagnostics only. Reserved errors were not used to choose the frozen method."
+}

@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Karachi",
+  "predeclared_split_commit": "4b52b56",
+  "mathematical_configuration_frozen_commit": "cbc2711",
+  "report_notebook_source_commit": "19fea9b",
+  "selected_method": "geometry_ensemble_50",
+  "configuration_frozen_before_reserved_error_evaluation": true,
+  "reserved_references_used_for_calibration": false,
+  "network_weights_fine_tuned": false,
+  "user_reference_confirmation": "Filename speed is constant cruise-control speed; model year unknown. Text files ignored.",
+  "vehicle_prior_scope": "Approximate 2021 Sportage specification; exact vehicle year/trim not confirmed.",
+  "calibration_scope": "Vehicle-specific empirical template scales from 8 known-speed Kia passes; each video fits camera geometry independently.",
+  "reserved_scope": "25 separate reserved videos from the same site/recording session; not an independent camera/site benchmark.",
+  "local_metrics": {
+    "development": {
+      "before": {
+        "clips": 8,
+        "estimated": 8,
+        "mae_kmh": 6.975414560874187,
+        "rmse_kmh": 11.865411552070801,
+        "bias_kmh": 6.679579022230742,
+        "maximum_absolute_error_kmh": 31.651382515028672,
+        "within_2_kmh": 2,
+        "errors_over_10_kmh": 1
+      },
+      "after": {
+        "clips": 8,
+        "estimated": 8,
+        "mae_kmh": 1.1748223385370196,
+        "rmse_kmh": 1.3495712283811419,
+        "bias_kmh": -0.3672860726814928,
+        "maximum_absolute_error_kmh": 2.66687772163737,
+        "within_2_kmh": 7,
+        "errors_over_10_kmh": 0
+      }
+    },
+    "reserved": {
+      "before": {
+        "clips": 25,
+        "estimated": 25,
+        "mae_kmh": 3.8129949709891333,
+        "rmse_kmh": 5.478821171580773,
+        "bias_kmh": 3.206518303100016,
+        "maximum_absolute_error_kmh": 18.853307466057657,
+        "within_2_kmh": 11,
+        "errors_over_10_kmh": 1
+      },
+      "after": {
+        "clips": 25,
+        "estimated": 25,
+        "mae_kmh": 2.36220236102349,
+        "rmse_kmh": 2.8076984168031474,
+        "bias_kmh": 0.4218105152250902,
+        "maximum_absolute_error_kmh": 7.280714051536464,
+        "within_2_kmh": 13,
+        "errors_over_10_kmh": 0
+      }
+    },
+    "all_33": {
+      "before": {
+        "clips": 33,
+        "estimated": 33,
+        "mae_kmh": 4.579642144294601,
+        "rmse_kmh": 7.541282276132356,
+        "bias_kmh": 4.048472416828678,
+        "maximum_absolute_error_kmh": 31.651382515028672,
+        "within_2_kmh": 13,
+        "errors_over_10_kmh": 2
+      },
+      "after": {
+        "clips": 33,
+        "estimated": 33,
+        "mae_kmh": 2.074352658602528,
+        "rmse_kmh": 2.5325158170361664,
+        "bias_kmh": 0.23051437270228223,
+        "maximum_absolute_error_kmh": 7.280714051536464,
+        "within_2_kmh": 20,
+        "errors_over_10_kmh": 0
+      }
+    },
+    "reserved_accuracy_target_met": false
+  },
+  "source_sha256": {
+    "kia_validation.py": "3f179d0b79cf756c44f9fc601eadfeb1d43862bae7a8c7e667b2b2150c576c72",
+    "shared_camera_calibration.py": "24145e4157dced19899068901890e19a156de7e1b465532cd6bfdd452137a4c8",
+    "calibration_comparison.py": "6397a6acea08b5b0ae470f769d5fba7bf1ba482de6d3b101ee27ab10535d8e3f",
+    "longitudinal_calibration.py": "4d8c16217ebee6999ccfe8d27d1917cf936619a190241abc34fbe04a7598a3ec",
+    "scene_registration.py": "54a175367a0bfd0a3d0c83427e60821492ed7e44c84069b8cfb4e28230e023c3",
+    "refine_flow.py": "c0d39acca767ba5934b815a7f1d5a36ea57d64bb931c017851c84757965c8ac0",
+    "calibration_candidates.py": "9659552718b2b483560eea2b8d034bd2d1f424c2435693a717d927fbeecc7931",
+    "vehicle_geometry_refinement.py": "120713e470d6d1aab026417450675cbcc39fff2b1a57e4273b12caf68538536a"
+  },
+  "kaggle": {
+    "development_gpu": {
+      "id": "hayyanfaisal/fyp-kia-development-calibration",
+      "version": 1,
+      "private": true,
+      "status": "COMPLETE"
+    },
+    "reserved_gpu": {
+      "id": "hayyanfaisal/fyp-kia-reserved-calibration",
+      "version": 1,
+      "private": true,
+      "status": "COMPLETE"
+    },
+    "report_cpu": {
+      "id": "hayyanfaisal/fyp-kia-calibration-validation-report",
+      "version": 1,
+      "private": true,
+      "status": "COMPLETE"
+    }
+  },
+  "datasets": {
+    "videos": "hayyanfaisal/fyp-kia-sportage-speed-validation",
+    "evaluation_cache": "hayyanfaisal/fyp-kia-calibration-evaluation-cache",
+    "private": true
+  },
+  "kaggle_reproduction": {
+    "maximum_local_vs_kaggle_difference_kmh": 0,
+    "fixed_registration_caches_used": true,
+    "configuration_frozen_before_reserved_errors": true,
+    "all_33_input_video_hashes_match_original_plan": true,
+    "12_mathematical_and_exclusion_tests_passed": true
+  },
+  "executed_report_source_sha256": {
+    "calibrate_speed.py": "52711385c2fe4532b92791d303669175ed8d03be6a772b1d25ae25729eff93c9",
+    "benchmark_speed.py": "3bf9b959dd66a3eb1404a35f9fc5207a78760f83b8046848e987380b8752d93a",
+    "reference_calibration.py": "f8b8c2a1776de48e9e8c8f1a2a6bf34bf7b2d85799ff78621168122f1818645c",
+    "calibration_candidates.py": "9659552718b2b483560eea2b8d034bd2d1f424c2435693a717d927fbeecc7931",
+    "flow_calibration.py": "541ea419ad4a16475c7523b1bc299c25998f97c79fc52b349dd60b965ec8be24",
+    "refine_flow.py": "c0d39acca767ba5934b815a7f1d5a36ea57d64bb931c017851c84757965c8ac0",
+    "longitudinal_calibration.py": "4d8c16217ebee6999ccfe8d27d1917cf936619a190241abc34fbe04a7598a3ec",
+    "scene_registration.py": "54a175367a0bfd0a3d0c83427e60821492ed7e44c84069b8cfb4e28230e023c3",
+    "calibration_comparison.py": "6397a6acea08b5b0ae470f769d5fba7bf1ba482de6d3b101ee27ab10535d8e3f",
+    "shared_camera_calibration.py": "24145e4157dced19899068901890e19a156de7e1b465532cd6bfdd452137a4c8",
+    "vehicle_geometry_refinement.py": "120713e470d6d1aab026417450675cbcc39fff2b1a57e4273b12caf68538536a",
+    "kia_validation.py": "3f179d0b79cf756c44f9fc601eadfeb1d43862bae7a8c7e667b2b2150c576c72",
+    "render_comparison.py": "af815c8413b2e6294975f885ea762e2ff83da2f4eb4efc260e23aa7fd0764742",
+    "render_cross_vehicle.py": "043777ccb892e1615349b1e86b895d4c9dd60a4c3c534d268101536e03c596b3",
+    "publish_kia_report.py": "ab3fa4461be1b0bb571cfec43b3240df2ea95b45dac4b1f59409c8e67330ee2c",
+    "test_shared_camera_calibration.py": "b3f3c8feb3df4ca9a55df544bbf43b2201bb792366105093afe468cd0effdd7a",
+    "test_calibration_candidates.py": "77547157dc48c0b5f38ab5394152ea8f2777d7771b1a9381db583258ff449e10",
+    "lens_calibration.py": "b481e68c8a3590d5fb7f9f3e49b73b46adab7a38d928dfb484a733759bae686d"
+  },
+  "post_evaluation_pattern_analysis_sha256": "c5fcfe0285088565296e2f3d5d96678af3400968f22f43482de960d31615d677",
+  "publication_additions": [
+    "Descriptive geometry-pattern analysis, camera-view contact sheet and development chronology",
+    "GPU-stage source/runtime reports retained under measurements/{development,reserved}/run_report.json",
+    "Local decoded-video/reference/source verification and checksum manifest"
+  ],
+  "execution_locations": {
+    "previous_18_speed_blind_versions": "Private Kaggle development/reserved measurement notebooks",
+    "six_additional_suv_and_window_raw_fits": "Local CPU using cached Kaggle observations; uploaded unchanged to the private evaluation cache",
+    "development_selection_and_reserved_prediction": "Local CPU, then reproduced exactly by the private Kaggle CPU report",
+    "paired_videos": "Private Kaggle CPU report",
+    "descriptive_pattern_analysis_and_final_video_verification": "Local CPU after all predictions were frozen"
+  }
+}
