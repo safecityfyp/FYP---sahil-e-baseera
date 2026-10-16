@@ -90,10 +90,16 @@ class CandidateTests(unittest.TestCase):
         names=PILOTS+['anonymous_test'];labels=dict(zip(names,[30.,60.,100.,80.]))
         raw={name:{'v2d_flow_vp_delay':{'available':True,'estimated_kmh':value/1.1}}
              for name,value in labels.items()}
-        options={name:[{'reference':other,'score':10,'prediction':{'estimated_kmh':labels[name]},
+        options={name:[{'reference':other,'score':10,'prediction':{'estimated_kmh':labels[name],
+                        'query_to_reference':np.eye(3).tolist(),'reference_road_calibration':{'horizon_y':540}},
                         'registration':{}} for other in names if other!=name] for name in names}
         first=select_fold('anonymous_test',raw,labels,options)
-        second=select_fold('anonymous_test',raw,{**labels,'anonymous_test':999},options)
+        import copy
+        poisoned=copy.deepcopy(options)
+        for candidates in poisoned.values():
+            for candidate in candidates:
+                if candidate['reference']=='anonymous_test':candidate['prediction']['estimated_kmh']+=1000
+        second=select_fold('anonymous_test',raw,{**labels,'anonymous_test':999},poisoned)
         self.assertEqual(first['estimated_kmh'],second['estimated_kmh'])
         self.assertEqual(first['selection'],second['selection'])
         self.assertNotIn('anonymous_test',first['reference_videos'])

@@ -11,11 +11,15 @@ def distance_marks(image,result,flow,scale):
     if len(rows)<8:return
     points=np.array([r['anchor'] for r in rows]);times=np.array([r['time_s'] for r in rows])
     if result.get('calibration_reused'):
-        reference=project(points,np.array(result['query_to_reference']))
-        calibration=result['reference_road_calibration'];h=calibration['horizon_y']
-        distance=calibration['distance_coefficient_meter_pixels']/(reference[:,1]-h)
-        sign=np.sign(np.median(np.diff(distance))) or 1
-        distance=sign*(distance-distance[0])
+        components=result.get('distance_calibration_components',[{'weight':1,
+            'query_to_reference':result['query_to_reference'],'calibration':result['reference_road_calibration']}])
+        distance=np.zeros(len(points))
+        for component in components:
+            reference=project(points,np.array(component['query_to_reference']))
+            calibration=component['calibration'];h=calibration['horizon_y']
+            coordinate=calibration['distance_coefficient_meter_pixels']/(reference[:,1]-h)
+            sign=np.sign(np.median(np.diff(coordinate))) or 1
+            distance+=component['weight']*sign*(coordinate-coordinate[0])
         weight=result.get('library_weight',1)
         geometry=result.get('geometry_component_kmh',result['estimated_kmh'])/3.6*(times-times[0])
         distance=weight*distance+(1-weight)*geometry

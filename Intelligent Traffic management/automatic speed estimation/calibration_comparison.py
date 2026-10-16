@@ -17,7 +17,8 @@ from scene_registration import register_scenes,reference_options
 
 PILOTS=['MercedesAMG550_30','MercedesAMG550_60','MercedesAMG550_100']
 FALLBACK='v2d_flow_vp_delay'
-FUSIONS=[(mode,weight) for mode in ['best','median'] for weight in [0,.25,.5,.75,1]]
+FUSIONS=[(mode,weight) for mode in ['best','median','top3mean','top3weighted'] for weight in [0,.25,.5,.75,1]]
+DEPLOYMENT_AGGREGATION='top3weighted'
 _SCALE_CACHE={}
 
 
@@ -51,7 +52,12 @@ def predict_hybrid(query,raw,labels,options,mode,weight):
                 'calibration_lookup_reason':'no_eligible_matching_reference' if not choices else 'geometry_version_selected'}
     choices=sorted(choices,key=lambda o:o['score'],reverse=True)
     best=choices[0];values=[o['prediction']['estimated_kmh'] for o in choices]
-    reference_estimate=values[0] if mode=='best' else float(np.median(values))
+    if mode=='best':reference_estimate=values[0]
+    elif mode=='median':reference_estimate=float(np.median(values))
+    elif mode=='top3mean':reference_estimate=float(np.mean(values[:3]))
+    elif mode=='top3weighted':
+        reference_estimate=float(np.average(values[:3],weights=[o['score'] for o in choices[:3]]))
+    else:raise ValueError('Unknown reference aggregation.')
     if not fallback.get('available'):weight=1
     estimate=reference_estimate if weight==1 else weight*reference_estimate+(1-weight)*fallback['estimated_kmh']
     result={**fallback,**best['prediction'],'available':True,'estimated_kmh':float(estimate),
@@ -62,6 +68,12 @@ def predict_hybrid(query,raw,labels,options,mode,weight):
         'individual_reference_predictions_kmh':values,'shown_reference_video':best['reference'],
         'registration_evidence':best['registration'],'own_reference_speed_used':False,
         'calibration_lookup_reason':'verified_scene_overlap_and_supported_longitudinal_path'}
+    selected=choices[:3] if mode.startswith('top3') else choices[:1]
+    scores=np.array([o['score'] for o in selected],float) if mode=='top3weighted' else np.ones(len(selected))
+    scores/=scores.sum()
+    result['distance_calibration_components']=[{'weight':float(w),
+        'query_to_reference':o['prediction']['query_to_reference'],
+        'calibration':o['prediction']['reference_road_calibration']} for o,w in zip(selected,scores)]
     return result
 
 
@@ -70,6 +82,7 @@ def select_fold(query,raw,labels,options):
     training={name:speed for name,speed in labels.items() if name!=query}
     scores=[]
     for mode,weight in FUSIONS:
+        if mode!=DEPLOYMENT_AGGREGATION:continue
         errors=[]
         for name,reference in training.items():
             prediction=predict_hybrid(name,raw,training,options,mode,weight)
@@ -147,9 +160,11 @@ def run(args):
         fusion_summary[f'{mode}_weight_{weight}']=metrics(values)
     best=min(fusion_summary,key=lambda key:fusion_summary[key]['mae_kmh'])
     source_names=['calibration_candidates.py','learned_calibration.py','flow_calibration.py','refine_flow.py',
-        'lens_calibration.py','longitudinal_calibration.py','scene_registration.py','calibration_comparison.py']
+        'lens_calibration.py','longitudinal_calibration.py','scene_registration.py','calibration_comparison.py',
+        'refinement_inference.py','render_comparison.py']
     config={'method_family':'Reference library with optical-flow/vanishing-point temporal fallback',
         'selected_development_configuration':best,'fallback_version':FALLBACK,
+        'nested_test_aggregation':DEPLOYMENT_AGGREGATION,
         'fallback_metric_scale':metric_scale(raw,labels,FALLBACK)[0],'metric_scale_reference_videos':PILOTS,
         'scope':'This car and reference library; camera correspondence required for reuse',
         'own_reference_excluded_in_each_test':True,'fresh_independent_validation':False,
@@ -195,7 +210,7 @@ def make_report(out,rows,summary,fusions,config,raw_summary):
         '1. Produce speed-blind geometry, mask moments and optical-flow measurements for every video.',
         '2. For each test, remove its reference speed before fitting metric scale or selecting a configuration. The fixed 30/60/100 calibration pilots are used only when they remain in that fold.',
         '3. Each eligible other video can supply a known-speed reference calibration. Scene matching and supported image locations decide whether it can be reused. A test is never its own reference.',
-        '4. Select reference/geometry fusion using inner tests on the remaining 29 videos, excluding each inner test from its own references as well. Then predict the outer test.',
+        '4. Combine up to three strongest matching references, weighted by visual overlap. This aggregation reduces single-reference switching. Select its reference/geometry fusion weight using inner tests on the remaining 29 videos, excluding each inner test from its own references as well. Then predict the outer test.',
         '5. Read the outer reference only to calculate its error. Retain all failures and unavailable results. This is internal development cross-validation on one car and location.','',
         'Reference-library results benefit from additional labelled reference passes. They must not be attributed solely to a new automatic calibration model. Raw geometry/model predictions are reported separately from pilot scale correction and from reference-library assistance.','',
         '## Every geometric/model version','',
@@ -207,7 +222,7 @@ def make_report(out,rows,summary,fusions,config,raw_summary):
         def fmt(x):return 'unavailable' if x is None else f'{x:.2f}'
         lines.append(f"| {version} | {result['estimated']}/30 | {fmt(raw_summary[version]['mae_kmh'])} | {fmt(result['mae_kmh'])} | {fmt(result['maximum_absolute_error_kmh'])} | {result['within_2_kmh']} | {result['errors_over_10_kmh']} |")
     lines+=['','## Hybrid versions','',
-        'Weights are the contribution of the reference-library estimate when a compatible reference exists; otherwise the vanishing-point temporal estimate is used. These fixed-version rows are development comparisons. The final per-video predictions use the nested selection protocol above.','',
+        'Weights are the contribution of the reference-library estimate when a compatible reference exists; otherwise the vanishing-point temporal estimate is used. These fixed-version rows are development comparisons. Final individual tests use the weighted top-three reference family and select only its fusion weight within each training fold.','',
         '| Version | MAE km/h | Worst error | Within ±2 |','|---|---:|---:|---:|']
     for version,result in fusions.items():
         lines.append(f"| {version} | {result['mae_kmh']:.2f} | {result['maximum_absolute_error_kmh']:.2f} | {result['within_2_kmh']}/30 |")
