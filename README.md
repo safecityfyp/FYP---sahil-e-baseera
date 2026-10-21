@@ -2,7 +2,7 @@
 
 This is **`feature/experiments/speed-estimtaion`**, the complete automatic-speed-estimation experiment archive.
 
-For installation, integration and deployment, use the cleaned [feature/speed-estimation branch](https://github.com/safecityfyp/FYP---sahil-e-baseera/tree/feature/speed-estimation).
+For installation, integration and deployment, use the cleaned [feature/automatic-speed-estimation branch](https://github.com/safecityfyp/FYP---sahil-e-baseera/tree/feature/automatic-speed-estimation).
 
 The [automatic speed estimation folder](Intelligent%20Traffic%20management/automatic%20speed%20estimation/README.md) retains all research code, Kaggle notebooks, calibration versions, Mercedes/Kia tests, reports, screenshots, measurements and generated videos from snapshot `77d143b56c352193aded1bbd1f42b6fec94d511f`. Its files are preserved unchanged; this branch-level guide directs users to the deployment branch.
 
