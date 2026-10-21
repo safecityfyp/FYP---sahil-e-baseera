@@ -1,3 +1,0 @@
-# Optional: status, download and upload through the Kaggle API.
--r requirements.txt
-kaggle==2.2.4

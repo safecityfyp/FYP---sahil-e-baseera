@@ -1,9 +1,0 @@
-{
-  "video": "MercedesAMG550_50.MP4",
-  "reference_speeds_used": false,
-  "runtime_s": 17.965852735,
-  "torch": "2.11.0+cu128",
-  "torchvision": "0.26.0+cu128",
-  "opencv": "4.14.0",
-  "gpu": "Tesla T4"
-}

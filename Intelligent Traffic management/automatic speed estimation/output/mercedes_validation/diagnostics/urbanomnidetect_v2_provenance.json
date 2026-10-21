@@ -1,7 +1,0 @@
-{
-  "code_revision": "caa8537803f61b5d04602a25432575f36fce085d",
-  "model_repo": "mehmetkeremturkcan/UrbanOmniDetect-2",
-  "model_revision": "be4f69a300c43f6d2c7dd35f99b6c2a828912817",
-  "model_sha256": "0ab45cbff123becdbbdfe5e5d996dd86736599ddd3a72fbc4b90bd92162fe38c",
-  "model_file": "checkpoints/urbanomnidetect_v2_x_640.pt"
-}

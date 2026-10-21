@@ -1,6 +1,4 @@
-# Optional local inference when this exact video/interval has no verified saved model outputs.
 -r requirements.txt
+# Pinned framework used by the original GPU extraction jobs.
 ultralytics==8.4.175
 lap>=0.5.12
-pandas
-ipython
