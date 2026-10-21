@@ -2,6 +2,8 @@
 
 Feature branch: `feature/automatic-speed-estimation`
 
+For the final code/weight handoff, start with [FINAL_FILES.md](FINAL_FILES.md): separate `calibrate.py` and `estimate_speed.py` entry points, verified detector/cuboid checkpoints, saved camera mappings and runnable examples. The new [assistant screenshot-calibration trial](output/vision_assisted_trial/README.md) tests six Mercedes/Kia clips individually. Its preselected consensus has **6.85 km/h MAE**, compared with **2.68 km/h** for the historical pipeline on those same clips with extra reference assistance; it is retained as an experiment, not promoted as the main calibration. There is no separately trained `speed.pt` or `calibration.pt`.
+
 This FYP prototype first checks whether this camera view has usable saved calibration. It reuses that mapping when valid; otherwise it obtains vehicle geometry and fits a local road mapping. It then calculates provisional speeds from tracked ground motion. Approximate car dimensions supply the physical scale; camera-specific filters restrict the usable road region.
 
 **Status: experimental inference prototype.** Videos now show a single decimal point estimate, such as `32.3 km/h`. Sensitivity ranges remain in CSV/JSON files. Separate calibration-review and speed-estimation videos are produced. Original CCTV speed accuracy remains unvalidated; the [Mercedes cruise-control validation](output/mercedes_validation/README.md) records accuracy testing on the supplied clips.

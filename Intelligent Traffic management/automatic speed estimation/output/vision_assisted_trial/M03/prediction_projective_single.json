@@ -1,0 +1,51 @@
+{
+  "estimated_kmh": 97.34665454305502,
+  "signed_m_per_s": -27.04073737307084,
+  "fit_rms_m": 0.061122449686443384,
+  "observations": 5,
+  "time_interval_s": [
+    4.170833333333333,
+    4.437766666666667
+  ],
+  "fitted_position_m": [
+    -0.06492907322900976,
+    -2.771706884273409,
+    -5.478484695317785,
+    -6.380743965665918,
+    -7.28300323601405
+  ],
+  "position_m": [
+    0.0,
+    -2.8557708974564053,
+    -5.538109391091041,
+    -6.360607094036675,
+    -7.224380471916099
+  ],
+  "times_s": [
+    4.170833333333333,
+    4.270933333333334,
+    4.371033333333333,
+    4.4044,
+    4.437766666666667
+  ],
+  "schema_version": 1,
+  "kind": "vision_assisted_speed",
+  "case_id": "M03",
+  "method": "projective_single",
+  "display_speed": "97.3 km/h",
+  "sensitivity_95_percentile_kmh": [
+    66.18120410021523,
+    154.05524031406347
+  ],
+  "sensitivity_valid_draws": 2000,
+  "sensitivity_draws": 2000,
+  "uncertainty_note": "Conditional image-point/dimension sensitivity; excludes cruise-reference error, camera motion, nonplanarity, lens bias and wrong vehicle identification.",
+  "geometry_consistency_pass": true,
+  "known_speeds_used": false,
+  "reference_speed_used": false,
+  "accuracy_validated": false,
+  "calibration_sha256": "7a1ce8fbbc5c25176f648bdbef33ded68804a15ef3e8eda2e75036eb708c8989",
+  "timestamps_sha256": "27d72a4f0e43c4c1a63ab7132d5a45eb0cc41c83277db676f4fc6cfa9cd6fce9",
+  "annotation_sha256": "3d051fdc4dd9c087c773b9939b068f10767d9358cebaea20e5890587f65d4f5c",
+  "measurement": "Assistant marked visible near-side front-tire ground contacts on five frames."
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "case_id": "M01",
+    "source_video": "MercedesAMG550_30.MP4",
+    "vehicle": "MercedesAMG550",
+    "measurement_directory": "output\\mercedes_validation\\inference\\MercedesAMG550_30"
+  },
+  {
+    "case_id": "M02",
+    "source_video": "MercedesAMG550_60.MP4",
+    "vehicle": "MercedesAMG550",
+    "measurement_directory": "output\\mercedes_validation\\inference\\MercedesAMG550_60"
+  },
+  {
+    "case_id": "M03",
+    "source_video": "MercedesAMG550_100.MP4",
+    "vehicle": "MercedesAMG550",
+    "measurement_directory": "output\\mercedes_validation\\inference\\MercedesAMG550_100"
+  },
+  {
+    "case_id": "K01",
+    "source_video": "KiaSportage_31.MP4",
+    "vehicle": "KiaSportage",
+    "measurement_directory": "output\\kia_validation\\measurements\\development\\inference\\KiaSportage_31"
+  },
+  {
+    "case_id": "K02",
+    "source_video": "KiaSportage_65.MP4",
+    "vehicle": "KiaSportage",
+    "measurement_directory": "output\\kia_validation\\measurements\\development\\inference\\KiaSportage_65"
+  },
+  {
+    "case_id": "K03",
+    "source_video": "KiaSportage_105.MP4",
+    "vehicle": "KiaSportage",
+    "measurement_directory": "output\\kia_validation\\measurements\\development\\inference\\KiaSportage_105"
+  }
+]

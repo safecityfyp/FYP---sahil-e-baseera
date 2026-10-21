@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "speed_network": null,
+  "speed_method": "Tracked ground displacement divided by source-video time; numeric geometry, not a trained speed regressor.",
+  "models": [
+    {
+      "filename": "yolo11s.pt",
+      "role": "Vehicle detection; ByteTrack associates detections over time.",
+      "url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11s.pt",
+      "sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+      "bytes": 19313732,
+      "upstream": "https://github.com/ultralytics/ultralytics",
+      "license": "AGPL-3.0; upstream also offers commercial licensing."
+    },
+    {
+      "filename": "urban_geometry.pt",
+      "role": "Eight projected vehicle cuboid corners. This is the actual geometry checkpoint used in the saved CCTV runs.",
+      "url": "https://huggingface.co/mehmetkeremturkcan/UrbanOmniDetect/resolve/2701a2eec9a73afb5ffd852740d125dfcd065ce5/checkpoints/urbanomnidetect_yolo11x-p2_1920.pt",
+      "sha256": "9aa55280a5ef1c9d89c0acb5baeb974b90fbdf3c1deead1413b24d7af249226d",
+      "bytes": 179505650,
+      "revision": "2701a2eec9a73afb5ffd852740d125dfcd065ce5",
+      "upstream": "https://huggingface.co/mehmetkeremturkcan/UrbanOmniDetect",
+      "license": "agpl-3.0 (pinned upstream model-card metadata).",
+      "interface": "Eight XY points, no per-point confidence in this pinned checkpoint. Ground face ordering must be checked; the stored runs use corners 0-3."
+    }
+  ],
+  "calibration_artifacts": "JSON road mappings and diagnostics, camera-specific; no calibration.pt.",
+  "training": "No detector/geometry neural weights were fine-tuned in this project. Do not substitute the old local vehicle_keypoints.pt."
+}

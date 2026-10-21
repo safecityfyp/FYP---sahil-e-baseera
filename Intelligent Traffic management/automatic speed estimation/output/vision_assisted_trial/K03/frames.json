@@ -1,0 +1,86 @@
+{
+  "case_id": "K03",
+  "width": 1920,
+  "height": 1080,
+  "fps": 29.97002997002997,
+  "target_track_id": 1,
+  "frames": [
+    {
+      "frame_index": 116,
+      "time_s": 3.8705333333333334,
+      "box": [
+        474.10614013671875,
+        522.3555297851562,
+        711.4912109375,
+        702.46875
+      ],
+      "image": "frame_0.jpg",
+      "crop_origin": [
+        434,
+        492
+      ]
+    },
+    {
+      "frame_index": 120,
+      "time_s": 4.0040000000000004,
+      "box": [
+        524.7741088867188,
+        504.1852722167969,
+        844.8226318359375,
+        741.667724609375
+      ],
+      "image": "frame_1.jpg",
+      "crop_origin": [
+        484,
+        474
+      ]
+    },
+    {
+      "frame_index": 122,
+      "time_s": 4.070733333333333,
+      "box": [
+        565.4179077148438,
+        496.68988037109375,
+        942.5335693359375,
+        771.9895629882812
+      ],
+      "image": "frame_2.jpg",
+      "crop_origin": [
+        525,
+        466
+      ]
+    },
+    {
+      "frame_index": 124,
+      "time_s": 4.137466666666667,
+      "box": [
+        617.8853149414062,
+        484.0520935058594,
+        1081.4248046875,
+        815.184814453125
+      ],
+      "image": "frame_3.jpg",
+      "crop_origin": [
+        577,
+        454
+      ]
+    },
+    {
+      "frame_index": 125,
+      "time_s": 4.170833333333333,
+      "box": [
+        654.291015625,
+        476.29669189453125,
+        1173.8323974609375,
+        842.5698852539062
+      ],
+      "image": "frame_4.jpg",
+      "crop_origin": [
+        614,
+        446
+      ]
+    }
+  ],
+  "selection": "Nearest untruncated detection heights 180,230,280,330,380 px; no speed input.",
+  "analyst": "Current assistant visual analysis; no external model API called."
+}

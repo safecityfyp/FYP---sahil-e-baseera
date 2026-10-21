@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "case_id": "M03",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "author": "Current assistant visual analysis, authorized by the user; external model API not used.",
+  "vehicle_hypothesis": "Mercedes C219 CLS family (trim unconfirmed)",
+  "wheelbase_prior_m": 2.85,
+  "wheelbase_prior_status": "Approximate family-level prior; not measured on the supplied vehicle.",
+  "wheelbase_source": "Engineering prior for visually inferred CLS family",
+  "anchor_frame": 2,
+  "road_edge_segments_px": [
+    [
+      [
+        335,
+        650
+      ],
+      [
+        500,
+        1020
+      ]
+    ],
+    [
+      [
+        1020,
+        660
+      ],
+      [
+        1850,
+        795
+      ]
+    ]
+  ],
+  "wheel_contacts": [
+    {
+      "front_xy": [
+        432,
+        674
+      ],
+      "rear_xy": [
+        409,
+        646
+      ]
+    },
+    {
+      "front_xy": [
+        468,
+        714
+      ],
+      "rear_xy": [
+        428,
+        674
+      ]
+    },
+    {
+      "front_xy": [
+        517,
+        782
+      ],
+      "rear_xy": [
+        461,
+        711
+      ]
+    },
+    {
+      "front_xy": [
+        549,
+        815
+      ],
+      "rear_xy": [
+        477,
+        735
+      ]
+    },
+    {
+      "front_xy": [
+        584,
+        861
+      ],
+      "rear_xy": [
+        494,
+        751
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "frame_0.jpg",
+      "frame_index": 125,
+      "sha256": "7c2823dd92daa3f4428828c63c4800cf6de3d981161bc96b30fa6f5574e8b6f9"
+    },
+    {
+      "file": "frame_1.jpg",
+      "frame_index": 128,
+      "sha256": "dd5ef1ff53bb729d7460e99cfa1d34bbfd68365183cbc9b9de9eec85633036e8"
+    },
+    {
+      "file": "frame_2.jpg",
+      "frame_index": 131,
+      "sha256": "95595b0a3f3cd9eb15e2cab6135d7a6b71cd03a93fc1a41b528fd3c849dead47"
+    },
+    {
+      "file": "frame_3.jpg",
+      "frame_index": 132,
+      "sha256": "95b0a3d4f221d920e60f114fe71a4624e141912e75ad0af15adf10fa888d34f5"
+    },
+    {
+      "file": "frame_4.jpg",
+      "frame_index": 133,
+      "sha256": "16b16cc8b822b6771408b1f2bb2dc9fdd3ad819d7b04a0b71c08d7f43cd6480c"
+    }
+  ],
+  "uncertainty": {
+    "wheel_point_sigma_px": 8,
+    "road_point_sigma_px": 8,
+    "wheelbase_relative_half_range": 0.035
+  },
+  "assumptions": [
+    "Fixed camera within this clip; no calibration transfer between clips.",
+    "Locally planar road and negligible camera roll.",
+    "Marked left/right road edges approximately parallel to the vehicle path.",
+    "Visible same-side tyre ground contacts are separated by the assumed wheelbase.",
+    "No independent camera angle, road length, vehicle dimensions or lens calibration supplied."
+  ],
+  "notes": "Shadow and tyre boundaries are ambiguous, especially on the dark Kia. No far wheel is invented."
+}

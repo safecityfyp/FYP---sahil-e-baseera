@@ -1,0 +1,22 @@
+{
+  "ultralytics": "8.4.120",
+  "torch": "2.13.0+cu126",
+  "device": "0",
+  "image": "M01/frame_2.jpg",
+  "model_sha_verified": true,
+  "purpose": "One-frame loading and inference smoke check, not a benchmark rerun.",
+  "yolo11s.pt": {
+    "seconds": 7.766620899999907,
+    "detections": 2,
+    "keypoint_shape": null
+  },
+  "urban_geometry.pt": {
+    "seconds": 5.07787289999942,
+    "detections": 1,
+    "keypoint_shape": [
+      1,
+      8,
+      2
+    ]
+  }
+}

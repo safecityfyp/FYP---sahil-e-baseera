@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "vision_assisted_1d",
+  "case_id": "K02",
+  "method": "projective_single",
+  "road_vanishing_point_px": [
+    275.85795656817373,
+    590.4496262014952
+  ],
+  "assumed_horizon_y_px": 590.4496262014952,
+  "scale_m_per_coordinate": 1259.7594118901272,
+  "per_snapshot_scales": [
+    949.4415206898392,
+    895.6575328762272,
+    1259.7594118901272,
+    1331.3480514653666,
+    1441.8438714538615
+  ],
+  "relative_scale_mad": 0.14453907456070286,
+  "geometry_consistency_pass": true,
+  "wheelbase_prior_m": 2.67,
+  "annotation_sha256": "45596f9d50f3d86fc051be40352e9eeef36aa0edaba53b7a386fd83febe86127",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "known_speeds_used": false,
+  "accuracy_validated": false,
+  "assumptions": [
+    "Fixed camera within this clip; no calibration transfer between clips.",
+    "Locally planar road and negligible camera roll.",
+    "Marked left/right road edges approximately parallel to the vehicle path.",
+    "Visible same-side tyre ground contacts are separated by the assumed wheelbase.",
+    "No independent camera angle, road length, vehicle dimensions or lens calibration supplied."
+  ],
+  "uncertainty": {
+    "wheel_point_sigma_px": 10,
+    "road_point_sigma_px": 8,
+    "wheelbase_relative_half_range": 0.035
+  },
+  "scope": "One local longitudinal path, fixed camera; not a full metric road homography."
+}

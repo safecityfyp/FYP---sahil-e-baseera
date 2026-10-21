@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "case_id": "K03",
+  "image_size": [
+    1920,
+    1080
+  ],
+  "author": "Current assistant visual analysis, authorized by the user; external model API not used.",
+  "vehicle_hypothesis": "Kia Sportage QL family (year/trim unconfirmed)",
+  "wheelbase_prior_m": 2.67,
+  "wheelbase_prior_status": "Approximate family-level prior; not measured on the supplied vehicle.",
+  "wheelbase_source": "https://press.kia.com/ie/en/home/media-resouces/press-releases/2016/16_01_20_press-kit---kia-sportage-petd.html",
+  "anchor_frame": 2,
+  "road_edge_segments_px": [
+    [
+      [
+        330,
+        680
+      ],
+      [
+        520,
+        1000
+      ]
+    ],
+    [
+      [
+        1020,
+        681
+      ],
+      [
+        1830,
+        760
+      ]
+    ]
+  ],
+  "wheel_contacts": [
+    {
+      "front_xy": [
+        539,
+        701
+      ],
+      "rear_xy": [
+        493,
+        682
+      ]
+    },
+    {
+      "front_xy": [
+        616,
+        743
+      ],
+      "rear_xy": [
+        545,
+        712
+      ]
+    },
+    {
+      "front_xy": [
+        680,
+        773
+      ],
+      "rear_xy": [
+        582,
+        733
+      ]
+    },
+    {
+      "front_xy": [
+        782,
+        826
+      ],
+      "rear_xy": [
+        634,
+        763
+      ]
+    },
+    {
+      "front_xy": [
+        840,
+        860
+      ],
+      "rear_xy": [
+        674,
+        779
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "frame_0.jpg",
+      "frame_index": 116,
+      "sha256": "26cd59727a8ad28efdb4a5a3e1595f8724a38fad7ab74a7b53a5f8757ca83def"
+    },
+    {
+      "file": "frame_1.jpg",
+      "frame_index": 120,
+      "sha256": "68dc46e6261304551234a68b3abbaac4bea85d392ea4397175ed42fc85dfd775"
+    },
+    {
+      "file": "frame_2.jpg",
+      "frame_index": 122,
+      "sha256": "3823e8f920f478178f58f98bc09ca6f02c153da6534b43123c3490c5fce775ef"
+    },
+    {
+      "file": "frame_3.jpg",
+      "frame_index": 124,
+      "sha256": "b4e9cb86aab025fd983a709271295b7bd3df92e81295dd00d3eafbead5cd26e2"
+    },
+    {
+      "file": "frame_4.jpg",
+      "frame_index": 125,
+      "sha256": "960ce8eae4797fa2aa832d2b5d7232dfa9481a8d57a77b5b2fd930470cafe555"
+    }
+  ],
+  "uncertainty": {
+    "wheel_point_sigma_px": 10,
+    "road_point_sigma_px": 8,
+    "wheelbase_relative_half_range": 0.035
+  },
+  "assumptions": [
+    "Fixed camera within this clip; no calibration transfer between clips.",
+    "Locally planar road and negligible camera roll.",
+    "Marked left/right road edges approximately parallel to the vehicle path.",
+    "Visible same-side tyre ground contacts are separated by the assumed wheelbase.",
+    "No independent camera angle, road length, vehicle dimensions or lens calibration supplied."
+  ],
+  "notes": "Shadow and tyre boundaries are ambiguous, especially on the dark Kia. No far wheel is invented."
+}

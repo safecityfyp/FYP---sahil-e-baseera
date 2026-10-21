@@ -29,7 +29,7 @@ def region_for(point, profile, width, height):
     return None
 
 
-def inference(video, output, camera, duration=None, resume_s=0, device='0'):
+def inference(video, output, camera, duration=None, resume_s=0, device='0', models_dir=None):
     config = json.loads((Path(__file__).parent/'cctv_camera_profiles.json').read_text())
     profile = config['cameras'][camera]
     geometry_hz=profile.get('geometry_hz',config['geometry_hz'])
@@ -43,7 +43,8 @@ def inference(video, output, camera, duration=None, resume_s=0, device='0'):
     fps = float(cap.get(cv2.CAP_PROP_FPS)); total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     stop_frame = total if duration is None else min(total, int(round(duration*fps)))
     resume_frame = int(round(resume_s*fps))
-    models = output.parent/'models'; models.mkdir(exist_ok=True)
+    models = Path(models_dir) if models_dir is not None else output.parent/'models'
+    models.mkdir(parents=True,exist_ok=True)
     weights = models/'urban_geometry.pt'
     if not weights.exists():
         urllib.request.urlretrieve(f'https://huggingface.co/{MODEL_REPO}/resolve/{MODEL_REVISION}/{MODEL_FILE}', weights)
@@ -78,7 +79,7 @@ def inference(video, output, camera, duration=None, resume_s=0, device='0'):
             if counts['detection_frames'] == 0:
                 cv2.imwrite(str(output/'reference.jpg'), frame)
             detected = tracker.track(frame, persist=True, tracker=str(tracker_config), device=device,
-                                     imgsz=1280, classes=[2,3,5,7], conf=.10, half=True, verbose=False)[0]
+                                     imgsz=1280, classes=[2,3,5,7], conf=.10, half=str(device)!='cpu', verbose=False)[0]
             boxes = detected.boxes.xyxy.cpu().numpy()
             ids = detected.boxes.id.cpu().numpy().astype(int) if detected.boxes.id is not None else np.full(len(boxes), -1)
             scores = detected.boxes.conf.cpu().numpy(); classes = detected.boxes.cls.cpu().numpy().astype(int)
@@ -106,7 +107,7 @@ def inference(video, output, camera, duration=None, resume_s=0, device='0'):
                 next_geometry = timestamp+1/geometry_hz-.01
                 if eligible:
                     result = geometry.predict(frame, device=device, imgsz=1920, classes=[0], conf=.15,
-                                              half=True, verbose=False)[0]
+                                              half=str(device)!='cpu', verbose=False)[0]
                     counts['geometry_frames'] += 1
                     if result.keypoints is not None and len(result.boxes):
                         gb = result.boxes.xyxy.cpu().numpy(); gs = result.boxes.conf.cpu().numpy()
@@ -162,4 +163,5 @@ if __name__ == '__main__':
     p.add_argument('--video',required=True);p.add_argument('--output',required=True)
     p.add_argument('--camera',required=True);p.add_argument('--duration',type=float)
     p.add_argument('--resume-s',type=float,default=0);p.add_argument('--device',default='0')
-    a=p.parse_args();inference(a.video,a.output,a.camera,a.duration,a.resume_s,a.device)
+    p.add_argument('--models',help='Folder containing the verified yolo11s.pt and urban_geometry.pt')
+    a=p.parse_args();inference(a.video,a.output,a.camera,a.duration,a.resume_s,a.device,a.models)

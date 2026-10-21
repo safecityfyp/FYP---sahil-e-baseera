@@ -1,0 +1,88 @@
+{
+  "prediction_freeze_sha256": "df71144f7ce17022cc05ffa8490a07097ef9213e5a123344b1fd8fb0b7053f5c",
+  "methods": {
+    "local_affine/all": {
+      "clips": 6,
+      "mae_kmh": 4.9427286782507185,
+      "bias_kmh": 0.18940053290593836,
+      "rmse_kmh": 6.249952455067018,
+      "maximum_absolute_error_kmh": 12.983822018731644,
+      "within_2_kmh": 1
+    },
+    "local_affine/MercedesAMG550": {
+      "clips": 3,
+      "mae_kmh": 5.563280149501632,
+      "bias_kmh": 4.700978272811682,
+      "rmse_kmh": 7.661007924205973,
+      "maximum_absolute_error_kmh": 12.983822018731644,
+      "within_2_kmh": 1
+    },
+    "local_affine/KiaSportage": {
+      "clips": 3,
+      "mae_kmh": 4.322177206999805,
+      "bias_kmh": -4.322177206999805,
+      "rmse_kmh": 4.4082614448838875,
+      "maximum_absolute_error_kmh": 5.537188103808347,
+      "within_2_kmh": 0
+    },
+    "projective_single/all": {
+      "clips": 6,
+      "mae_kmh": 6.120711334390291,
+      "bias_kmh": -1.7243740485640309,
+      "rmse_kmh": 6.3481308367010385,
+      "maximum_absolute_error_kmh": 8.05243817093351,
+      "within_2_kmh": 0
+    },
+    "projective_single/MercedesAMG550": {
+      "clips": 3,
+      "mae_kmh": 4.960147160995085,
+      "bias_kmh": -0.8784140540955505,
+      "rmse_kmh": 5.221473118879201,
+      "maximum_absolute_error_kmh": 6.122599660349302,
+      "within_2_kmh": 0
+    },
+    "projective_single/KiaSportage": {
+      "clips": 3,
+      "mae_kmh": 7.281275507785498,
+      "bias_kmh": -2.5703340430325112,
+      "rmse_kmh": 7.302995872145291,
+      "maximum_absolute_error_kmh": 8.05243817093351,
+      "within_2_kmh": 0
+    },
+    "projective_consensus/all": {
+      "clips": 6,
+      "mae_kmh": 6.848321437336146,
+      "bias_kmh": -0.9555569067233302,
+      "rmse_kmh": 7.245030138386256,
+      "maximum_absolute_error_kmh": 10.611881394708966,
+      "within_2_kmh": 0
+    },
+    "projective_consensus/MercedesAMG550": {
+      "clips": 3,
+      "mae_kmh": 6.45657440578164,
+      "bias_kmh": 0.6180131906910044,
+      "rmse_kmh": 7.2322690014498034,
+      "maximum_absolute_error_kmh": 10.611881394708966,
+      "within_2_kmh": 0
+    },
+    "projective_consensus/KiaSportage": {
+      "clips": 3,
+      "mae_kmh": 7.240068468890652,
+      "bias_kmh": -2.529127004137665,
+      "rmse_kmh": 7.257768837798473,
+      "maximum_absolute_error_kmh": 7.92881705424897,
+      "within_2_kmh": 0
+    },
+    "historical_pipeline/same_six_clips": {
+      "clips": 6,
+      "mae_kmh": 2.676744724591959,
+      "note": "Historical pipelines use other known-speed passes; different evidence budget, not a pure method ablation."
+    }
+  },
+  "default_method": "projective_consensus",
+  "reference": "Filename cruise-control setting, user confirmed.",
+  "reference_uncertainty": "Unknown; no independent radar/GPS trace or calibrated speedometer supplied.",
+  "independence": "All six are reused development/studied videos; results do not establish fresh generalization.",
+  "no_neural_training": true,
+  "external_llm_api_called": false
+}
