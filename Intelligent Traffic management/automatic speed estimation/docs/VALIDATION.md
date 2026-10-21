@@ -1,6 +1,6 @@
 # Runtime cleanup and evidence
 
-The deployment branch is based on `main`. The complete previous feature tree is preserved unchanged on [feature/experiments/speed-estimtaion](https://github.com/safecityfyp/FYP---sahil-e-baseera/tree/feature/experiments/speed-estimtaion), at snapshot `77d143b56c352193aded1bbd1f42b6fec94d511f`.
+The deployment runtime is published on the existing `feature/automatic-speed-estimation` branch, retaining its history. The initial clean runtime tree was assembled from `main`. The complete previous feature tree is preserved unchanged on [feature/experiments/speed-estimtaion](https://github.com/safecityfyp/FYP---sahil-e-baseera/tree/feature/experiments/speed-estimtaion), at snapshot `77d143b56c352193aded1bbd1f42b6fec94d511f`.
 
 The runtime keeps the selected CCTV detector/cuboid, calibration, view-checking, speed and rendering paths. It removes dependencies on validation runners, notebook builders, report generators and the optional assistant screenshot experiment. Existing mathematical functions were transferred into the `speed_estimation` package; this cleanup does not introduce a new calibration technique or empirical speed correction.
 

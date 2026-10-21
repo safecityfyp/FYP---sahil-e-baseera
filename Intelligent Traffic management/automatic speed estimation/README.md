@@ -1,6 +1,6 @@
 # Automatic vehicle speed estimation
 
-Deployment branch: **`feature/speed-estimation`**. This folder contains the CCTV runtime: extract vehicle tracks, calibrate the camera, estimate speed, and render separate calibration/speed videos.
+Deployment branch: **`feature/automatic-speed-estimation`**. This folder contains the CCTV runtime: extract vehicle tracks, calibrate the camera, estimate speed, and render separate calibration/speed videos.
 
 The complete research history, Mercedes/Kia tests, Kaggle notebooks, screenshots, reports and generated videos are on [feature/experiments/speed-estimtaion](https://github.com/safecityfyp/FYP---sahil-e-baseera/tree/feature/experiments/speed-estimtaion/Intelligent%20Traffic%20management/automatic%20speed%20estimation). Start with this branch to use or deploy the feature.
 
