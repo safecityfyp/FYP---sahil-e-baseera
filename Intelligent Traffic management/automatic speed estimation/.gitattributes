@@ -1,0 +1,6 @@
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+# Keep the frozen calibration snapshots byte-for-byte for provenance checks.
+calibrations/** -text

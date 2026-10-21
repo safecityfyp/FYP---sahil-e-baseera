@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "description": "Manually selected road regions from each supplied camera view. Metric calibration is inferred from moving cars, without known speeds or road measurements.",
+  "detection_hz": 10,
+  "geometry_hz": 2.5,
+  "calibration_windows_s": [300, 600, 900],
+  "minimum_cars_per_region": 6,
+  "preferred_cars_per_region": 12,
+  "dimension_prior_m": {"length": 4.5, "width": 1.8},
+  "cameras": {
+    "commercial_ii_01": {
+      "display_name": "Commercial II-01",
+      "video": "NVR_ch6_main_20261009170002_20261009180000.mp4",
+      "sha256": "8e4437807fcae7c56f69e6cd55f04374d71e708630afbdfc811b1f192e10beee",
+      "regions": {
+        "left_carriageway": [[0,0.85],[0.30,0.52],[0.43,0.41],[0.44,0.53],[0.43,0.68],[0.56,0.715],[0.57,1],[0,1]],
+        "right_carriageway": [[0.57,0.415],[0.65,0.43],[0.75,0.52],[0.98,0.78],[1,0.92],[1,1],[0.57,1],[0.57,0.715],[0.56,0.60],[0.535,0.45]]
+      },
+      "limitations": "Downhill surface approximated by a separate local plane per carriageway. Parking and the median are excluded by region and motion filters."
+    },
+    "k_block_st20": {
+      "display_name": "K Block St 20 opposite side",
+      "geometry_hz": 10,
+      "motion_history_minimum_span_s": 0.1,
+      "calibration_minimum_observations": 4,
+      "calibration_minimum_span_s": 0.30,
+      "speed_window_s": 1.2,
+      "speed_minimum_span_s": 0.35,
+      "speed_quadratic_minimum_span_s": 0.8,
+      "video": "D02_20261009160351.mp4",
+      "sha256": "bc71067c55f50e21a39da6037617f418282fde1be2bb4d2fe47c6f52525fd5d2",
+      "regions": {
+        "near_approach": [[0,0.55],[0.14,0.29],[0.59,0.25],[0.63,0.32],[0.83,0.34],[0.85,0.84],[0.72,1],[0,1]],
+        "cross_street": [[0,0.40],[0.16,0.25],[0.25,0.19],[0.61,0.11],[0.75,0.10],[0.75,0.18],[0.59,0.25],[0.14,0.29],[0,0.55]]
+      },
+      "limitations": "Junction and near approach calibrated separately. Speeds are local 2D trajectory derivatives, allowing turns and changes in speed."
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "purpose": "Regression verification of runtime cleanup; not independent speed-accuracy validation.",
+  "source_snapshot": "77d143b56c352193aded1bbd1f42b6fec94d511f",
+  "archive_branch": "feature/experiments/speed-estimtaion",
+  "archive_feature_tree_unchanged": true,
+  "archive_feature_tree_git_id": "b4e60e1ff7ce31cf0cccf1fa99e388e9f89f801b",
+  "deployment_branch_base": "main",
+  "tests": {
+    "command": "python -m unittest discover -s tests -t . -v",
+    "passed": 14,
+    "failed": 0
+  },
+  "cameras": {
+    "commercial_ii_01": {
+      "frozen_mapping_byte_identical_to_archive": true,
+      "regions": {
+        "left_carriageway": {
+          "method": "projective_metric",
+          "fitting_track_ids_unchanged": true,
+          "maximum_matrix_element_difference": 1.865794018840461e-06
+        },
+        "right_carriageway": {
+          "method": "projective_metric",
+          "fitting_track_ids_unchanged": true,
+          "maximum_matrix_element_difference": 4.852867334648181e-07
+        }
+      },
+      "speed_track_ids": 306,
+      "speed_samples": 3195,
+      "frozen_mapping_regression": {
+        "maximum_speed_delta_kmh": 2.7000623958883807e-13,
+        "one_decimal_labels_changed": 0,
+        "sample_identities_unchanged": true
+      },
+      "refitted_mapping_regression": {
+        "maximum_speed_delta_kmh": 1.1561259611880814e-06,
+        "one_decimal_labels_changed": 0,
+        "sample_identities_unchanged": true
+      },
+      "preview_duration_s": 10,
+      "preview_speed_frames": 250,
+      "preview_calibration_frames": 250,
+      "all_preview_videos_decoded": true
+    },
+    "k_block_st20": {
+      "frozen_mapping_byte_identical_to_archive": true,
+      "regions": {
+        "near_approach": {
+          "method": "projective",
+          "fitting_track_ids_unchanged": true,
+          "maximum_matrix_element_difference": 0.022547512548044324
+        },
+        "cross_street": {
+          "method": "projective",
+          "fitting_track_ids_unchanged": true,
+          "maximum_matrix_element_difference": 0.00016316593791998457
+        }
+      },
+      "speed_track_ids": 355,
+      "speed_samples": 3739,
+      "frozen_mapping_regression": {
+        "maximum_speed_delta_kmh": 1.9895196601282805e-13,
+        "one_decimal_labels_changed": 0,
+        "sample_identities_unchanged": true
+      },
+      "refitted_mapping_regression": {
+        "maximum_speed_delta_kmh": 8.74982034133609e-05,
+        "one_decimal_labels_changed": 1,
+        "sample_identities_unchanged": true
+      },
+      "preview_duration_s": 10,
+      "preview_speed_frames": 200,
+      "preview_calibration_frames": 200,
+      "all_preview_videos_decoded": true
+    }
+  },
+  "fresh_extraction_smoke": {
+    "ultralytics": "8.4.175",
+    "duration_s": 3,
+    "frames_decoded": 75,
+    "detection_frames": 30,
+    "geometry_frames": 7,
+    "geometry_observations": 8,
+    "both_model_hashes_verified": true,
+    "device": "NVIDIA GPU"
+  },
+  "private_measurements_copied_to_deployment_branch": false,
+  "generated_previews_committed": false,
+  "runtime_source_sha256": {
+    "speed_estimation/__init__.py": "e242e3aa648e519900130d4bb2fa569e62f2467f4bafe8864a33bdb2f3bdb3de",
+    "speed_estimation/calibration.py": "8437a41fd54938948a55014aeea071bfd898b978eece988e0bfc00d56dfc9e16",
+    "speed_estimation/camera.py": "3ba052a2567c3e13ffc6128b5e228ce07933d35dfeb083d17563c48d56f5c4e1",
+    "speed_estimation/geometry.py": "730579376d7b290455badd2363dc5cb52047cda855b28eac9b6fb473516d2adc",
+    "speed_estimation/inference.py": "eb6dd3e2a9bf815fb743c694de873538afa3350e1057db10864af81893b66a8a",
+    "speed_estimation/models.py": "dd1568ec46ed490908963204265577943cdc7274763c1cc7cfa16918dfd621c8",
+    "speed_estimation/rendering.py": "c800e4d8da1f23bb63e538ff9e6cc252c1dafcdd240197df56409ff9bfa2cfc8",
+    "speed_estimation/speed.py": "107c98ff3376ae6efe178817d5c0c95929f808fb118eb111329c3a731f327798"
+  }
+}

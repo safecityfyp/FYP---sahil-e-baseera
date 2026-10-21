@@ -1,0 +1,4 @@
+-r requirements.txt
+# Pinned framework used by the original GPU extraction jobs.
+ultralytics==8.4.175
+lap>=0.5.12
