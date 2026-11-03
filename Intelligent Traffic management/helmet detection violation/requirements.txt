@@ -1,0 +1,13 @@
+# Dependencies for the current motorcycle + rider ROI Colab notebook.
+# The notebook also installs several of these packages itself.
+ultralytics
+opencv-python-headless
+gdown
+tqdm
+numpy
+torch
+ipython
+
+# google.colab is supplied by Google Colab; do not pip-install it locally.
+# FFmpeg is a system executable used for optional video preview conversion.
+# Earlier head-localization notebook may require additional dependencies.
