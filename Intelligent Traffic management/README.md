@@ -1,58 +1,325 @@
-Sahil-e-Baseera | Helmet Detection
-Helmet-compliance detection research and video-inference prototype for the Sahil-e-Baseera Safe City FYP. This folder retains two notebook-based approaches and the fine-tuned helmet model weights.
-Repository structure
+
+# Sahil-e-Baseera | Helmet Detection
+
+### AI-Powered Motorcycle Helmet Compliance Detection
+
+This module is part of **Sahil-e-Baseera**, an AI-powered Safe City surveillance system developed as a Final Year Project (FYP).
+
+The Helmet Detection module analyzes CCTV footage to identify motorcycle riders wearing or not wearing helmets using deep learning and computer vision.
+
+Two detection approaches have been developed and tested:
+
+1. Head Localization-Based Helmet Detection
+2. Motorcycle + Rider ROI-Based Helmet Detection
+
+The second approach is the current working prototype.
+
+---
+
+## 1. Repository Structure
+
+```text
 model/
 ├── best.pt
 ├── bike_+_head_detection.ipynb
 ├── Sahil_e_Baseera_Helmet_Detection.ipynb
 ├── README.md
 └── requirements.txt
-The notebook filenames above reflect the current folder naming. If your files use slightly different names, update the listing accordingly.
+```
 
-Implementations
-1. Head-localization approach (earlier experiment)
-Notebook: bike_+_head_detection.ipynb
+### File Descriptions
 
-This notebook is retained as an earlier experiment using head localization before helmet assessment. It is not the recommended entry point for the current ROI-based demo. Consult its own cells for its exact models, parameters, and execution requirements.
-2. Motorcycle + rider ROI approach (current working prototype)
-Notebook: Sahil_e_Baseera_Helmet_Detection.ipynb
+| File | Description |
+|------|-------------|
+| `best.pt` | Fine-tuned YOLO helmet detection model |
+| `bike_+_head_detection.ipynb` | Earlier head-localization-based approach |
+| `Sahil_e_Baseera_Helmet_Detection.ipynb` | Current motorcycle + rider ROI detection pipeline |
+| `README.md` | Module documentation |
+| `requirements.txt` | Python dependencies |
 
-This notebook implements a two-stage inference pipeline:
-1. Motorcycle detection: YOLO11s (yolo11s.pt) detects motorcycles (COCO class ID 3).
-2. ROI expansion: Each motorcycle box is expanded upward and sideways to include the rider's upper body and head.
-3. Helmet detection: The fine-tuned best.pt YOLO model runs on each expanded ROI and predicts with_helmet or without_helmet.
-4. Duplicate suppression: Global non-maximum suppression removes overlapping helmet detections.
-5. Visualization: The notebook draws configured detection boxes and writes an annotated MP4.
-Current ROI notebook configuration: motorcycle confidence 0.25; helmet confidence 0.30; motorcycle inference image size 1280; helmet inference image size 640; helmet NMS IoU 0.45. ROI expansion: left/right 0.30, top 1.20, bottom 0.10 relative to motorcycle box dimensions.
-Requirements
-- Python environment with the packages in [`requirements.txt`](requirements.txt).
-- Google Colab is the intended execution environment for the current ROI notebook because it uses google.colab.files and Colab-specific /content/ paths.
-- GPU runtime recommended for video inference.
-- The trained model best.pt, with class names with_helmet and without_helmet.
-- Accessible input CCTV footage, with permission to use and share it.
-- FFmpeg for the optional preview conversion step (normally available in Colab).
-Running the ROI notebook in Google Colab
-1. Open Sahil_e_Baseera_Helmet_Detection.ipynb in Google Colab.
-2. Select Runtime → Change runtime type → GPU, if available.
-3. Install the dependencies when prompted by the notebook. Its main cell also installs ultralytics, gdown, opencv-python-headless, and tqdm.
-4. Run the main cell. When the notebook prompts for a .pt file, upload the provided best.pt.
-5. The notebook uses /content/input_video.mp4 if it exists; otherwise it tries to download its configured Google Drive video URL. Update that URL in the notebook or upload a video to the expected path if needed.
-6. Allow the video inference to finish. The annotated output is written to /content/sahil_roi_helmet_output.mp4.
-7. Use the notebook's preview, download, or optional Google Drive export cells to inspect the result.
-Note: Keeping best.pt beside the notebook in GitHub does not automatically make it available in Colab. The existing notebook explicitly requests a model upload. This README does not change that behavior.
-Known limitations
-- Parked motorcycles: The previous working ROI notebook does not include stationary-motorcycle filtering. Parked bikes in CCTV views can therefore cause false positives.
-- Image quality: Blurry, low-resolution, distant, or occluded riders can reduce detection reliability.
-- Camera viewpoint: Poor side or rear angles can make the rider's head difficult to assess.
-- ROI overlap: Overlapping riders and motorcycles may cause incorrect associations or duplicate candidates despite NMS.
-- Scope: This is offline notebook-based video inference, not yet a live, integrated multi-camera service.
-Validation before merging
-- Confirm that best.pt loads and exposes exactly with_helmet and without_helmet classes.
-- Test helmeted and non-helmeted riders across representative camera angles.
-- Test parked motorcycles and document false positives.
-- Inspect the generated MP4 for correct annotations and playback.
-- Avoid committing sensitive or unauthorized CCTV footage.
-Model weights and repository size
-The best.pt weights are required for reproducible inference. If GitHub rejects the file due to size, use Git LFS or host the weights separately and document their location. The notebook also downloads yolo11s.pt automatically through Ultralytics when needed.
-Project status
-Status: Working Colab video-inference prototype. Full end-to-end execution has not been independently verified as part of this README update. The current ROI notebook does not implement motion-based parked-bike filtering.
+---
+
+## 2. Detection Approaches
+
+### Approach 1: Head Localization-Based Detection
+
+**Notebook:** `bike_+_head_detection.ipynb`
+
+This approach uses motorcycle and rider detection followed by head localization to identify the region where helmet classification should be performed.
+
+The notebook is retained to document the initial experiments and development process.
+
+### Approach 2: Motorcycle + Rider ROI Detection
+
+**Notebook:** `Sahil_e_Baseera_Helmet_Detection.ipynb`
+
+This is the current working prototype.
+
+The pipeline consists of the following stages:
+
+1. **Motorcycle Detection:** YOLO11s detects motorcycles in CCTV frames.
+2. **ROI Expansion:** Motorcycle bounding boxes are expanded to include the rider's upper body and head.
+3. **Helmet Detection:** A fine-tuned YOLO model processes each expanded ROI.
+4. **Non-Maximum Suppression:** Overlapping helmet detections are filtered.
+5. **Visualization:** Helmet detections are drawn on video frames.
+6. **Video Export:** The processed video is saved as an annotated MP4.
+
+### Pipeline Architecture
+
+```text
+             CCTV Video Input
+                    |
+                    v
+           Frame Extraction
+                    |
+                    v
+          YOLO11s Detection
+                    |
+                    v
+          Motorcycle Detection
+                    |
+                    v
+         Motorcycle ROI Expansion
+                    |
+                    v
+        Fine-Tuned Helmet Model
+                    |
+                    v
+       Helmet / No Helmet Detection
+                    |
+                    v
+       Non-Maximum Suppression
+                    |
+                    v
+          Bounding Box Drawing
+                    |
+                    v
+           Annotated MP4 Output
+```
+
+---
+
+## 3. Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Main programming language |
+| Ultralytics YOLO11s | Motorcycle detection |
+| Fine-tuned YOLO | Helmet detection |
+| OpenCV | Video processing and annotations |
+| PyTorch | Deep learning inference |
+| Google Colab | Notebook execution |
+| NumPy | Numerical operations |
+| FFmpeg | Optional video conversion |
+
+---
+
+## 4. Model Configuration
+
+The current ROI-based notebook uses the following configuration:
+
+| Parameter | Value |
+|-----------|-------|
+| Motorcycle Detection Model | YOLO11s |
+| Helmet Detection Model | `best.pt` |
+| Motorcycle Class ID | 3 |
+| Motorcycle Confidence | 0.25 |
+| Helmet Confidence | 0.30 |
+| Motorcycle Image Size | 1280 |
+| Helmet Image Size | 640 |
+| Helmet NMS IoU | 0.45 |
+
+### ROI Expansion Configuration
+
+| Direction | Expansion |
+|-----------|-----------|
+| Left | 0.30 |
+| Right | 0.30 |
+| Top | 1.20 |
+| Bottom | 0.10 |
+
+ROI expansion is calculated relative to the detected motorcycle bounding box.
+
+---
+
+## 5. Installation
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/safecityfyp/FYP---sahil-e-baseera.git
+```
+
+Navigate to the folder containing the helmet detection implementation.
+
+### Step 2: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: Open the Notebook
+
+Open the following notebook in Google Colab:
+
+```text
+Sahil_e_Baseera_Helmet_Detection.ipynb
+```
+
+Select a GPU runtime if available.
+
+---
+
+## 6. Running Helmet Detection
+
+1. Open the ROI-based notebook in Google Colab.
+2. Execute the dependency installation and inference cells.
+3. Upload `best.pt` when prompted.
+4. Provide an input CCTV video.
+5. Execute the detection pipeline.
+6. Wait for video processing to complete.
+7. Preview or download the annotated output.
+
+### Input Video
+
+The current notebook uses:
+
+```text
+/content/input_video.mp4
+```
+
+If this file is unavailable, the notebook attempts to download the configured Google Drive video.
+
+### Output Video
+
+The annotated output is saved to:
+
+```text
+/content/sahil_roi_helmet_output.mp4
+```
+
+The notebook also includes functionality for video preview, download, and optional Google Drive export.
+
+**Note:** The notebook currently requests a manual model upload. Keeping `best.pt` in the repository does not automatically load it into Google Colab.
+
+---
+
+## 7. Detection Classes
+
+The helmet detection model uses two classes:
+
+| Class | Description |
+|-------|-------------|
+| `with_helmet` | Helmet detected |
+| `without_helmet` | No helmet detected |
+
+The model produces bounding boxes and confidence scores for detected helmet classes.
+
+---
+
+## 8. Testing and Validation
+
+The prototype is intended to be evaluated on CCTV footage containing motorcycle riders under different conditions.
+
+Important test scenarios include:
+
+- Riders wearing helmets
+- Riders without helmets
+- Multiple motorcycles in one frame
+- Different camera viewpoints
+- Low-resolution CCTV footage
+- Partially occluded riders
+- Parked motorcycles
+- Overlapping motorcycles and riders
+
+Testing should include manual inspection of annotated output videos to identify incorrect detections and missed riders.
+
+---
+
+## 9. Known Limitations
+
+### Stationary Motorcycles
+
+The current ROI-based notebook does not implement stationary-motorcycle filtering.
+
+Parked motorcycles may therefore generate unwanted helmet detections.
+
+### CCTV Image Quality
+
+Blurred, distant, or low-resolution footage may affect helmet detection accuracy.
+
+### Camera Angles
+
+Side-view and rear-view cameras may provide limited visibility of the rider's head.
+
+### Overlapping Objects
+
+Closely positioned motorcycles and riders may produce incorrect ROI associations.
+
+### Deployment Scope
+
+The current implementation processes video through Google Colab notebooks.
+
+It is not yet integrated into the complete real-time, multi-camera Safe City surveillance platform.
+
+---
+
+## 10. Future Improvements
+
+Potential future improvements include:
+
+- Stationary motorcycle filtering
+- Improved motorcycle-to-rider association
+- Better performance on low-resolution CCTV footage
+- Integration with the Safe City backend
+- Automated helmet violation event generation
+- Real-time CCTV stream processing
+- Camera-specific detection configuration
+
+These improvements are planned and are not claimed as implemented in the current notebook.
+
+---
+
+## 11. Model Weights
+
+The trained helmet detection model is stored as:
+
+```text
+best.pt
+```
+
+The motorcycle detection stage uses the Ultralytics YOLO11s model:
+
+```text
+yolo11s.pt
+```
+
+Ultralytics can automatically download the motorcycle detection weights when required.
+
+The trained helmet model must be accessible during inference.
+
+---
+
+## 12. Project Information
+
+**Project:** Sahil-e-Baseera
+
+**Category:** AI-Powered Safe City Surveillance System
+
+**Module:** Traffic Compliance - Helmet Detection
+
+**Implementation:** Python, YOLO, OpenCV, PyTorch
+
+**Current Status:** Working notebook-based video inference prototype
+
+**Development:** Final Year Project
+
+---
+
+## 13. Conclusion
+
+The Helmet Detection module demonstrates a two-stage computer vision pipeline for detecting motorcycle helmet compliance from CCTV footage.
+
+The repository preserves both the earlier head-localization experiment and the current motorcycle-and-rider ROI implementation.
+
+The current prototype provides a foundation for future integration with Sahil-e-Baseera's traffic compliance and incident monitoring system.
