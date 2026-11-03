@@ -235,52 +235,7 @@ Important test scenarios include:
 Testing should include manual inspection of annotated output videos to identify incorrect detections and missed riders.
 
 ---
-
-## 9. Known Limitations
-
-### Stationary Motorcycles
-
-The current ROI-based notebook does not implement stationary-motorcycle filtering.
-
-Parked motorcycles may therefore generate unwanted helmet detections.
-
-### CCTV Image Quality
-
-Blurred, distant, or low-resolution footage may affect helmet detection accuracy.
-
-### Camera Angles
-
-Side-view and rear-view cameras may provide limited visibility of the rider's head.
-
-### Overlapping Objects
-
-Closely positioned motorcycles and riders may produce incorrect ROI associations.
-
-### Deployment Scope
-
-The current implementation processes video through Google Colab notebooks.
-
-It is not yet integrated into the complete real-time, multi-camera Safe City surveillance platform.
-
----
-
-## 10. Future Improvements
-
-Potential future improvements include:
-
-- Stationary motorcycle filtering
-- Improved motorcycle-to-rider association
-- Better performance on low-resolution CCTV footage
-- Integration with the Safe City backend
-- Automated helmet violation event generation
-- Real-time CCTV stream processing
-- Camera-specific detection configuration
-
-These improvements are planned and are not claimed as implemented in the current notebook.
-
----
-
-## 11. Model Weights
+## 09. Model Weights
 
 The trained helmet detection model is stored as:
 
@@ -300,7 +255,7 @@ The trained helmet model must be accessible during inference.
 
 ---
 
-## 12. Project Information
+## 10. Project Information
 
 **Project:** Sahil-e-Baseera
 
@@ -316,7 +271,7 @@ The trained helmet model must be accessible during inference.
 
 ---
 
-## 13. Conclusion
+## 11. Conclusion
 
 The Helmet Detection module demonstrates a two-stage computer vision pipeline for detecting motorcycle helmet compliance from CCTV footage.
 
